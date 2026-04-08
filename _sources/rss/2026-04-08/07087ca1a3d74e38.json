@@ -1,0 +1,7 @@
+{
+  "id": "07087ca1a3d74e38",
+  "title": "The Role of Generator Access in Autoregressive Post-Training",
+  "link": "https://arxiv.org/abs/2604.04855",
+  "summary": "arXiv:2604.04855v1 Announce Type: new \nAbstract: We study how generator access constrains autoregressive post-training. The central question is whether the learner is confined to fresh root-start rollouts or can return to previously built prefixes and query the next-token rule there. In the root-start regime, output sampling, generated-token log probabilities, top-$k$ reports, and full next-token distributions along sampled trajectories all reduce to one canonical experiment, limited by the on-policy probability of reaching informative prefixes. Weak prefix control breaks this barrier, and once control is available, richer observations such as conditional sampling or logits can outperform top-$1$ access. Changing only the generator interface creates an exponential gap for KL-regularized outcome-reward post-training.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "5afe90b62bba7d13",
+  "title": "Grokking as Dimensional Phase Transition in Neural Networks",
+  "link": "https://arxiv.org/abs/2604.04655",
+  "summary": "arXiv:2604.04655v1 Announce Type: new \nAbstract: Neural network grokking -- the abrupt memorization-to-generalization transition -- challenges our understanding of learning dynamics. Through finite-size scaling of gradient avalanche dynamics across eight model scales, we find that grokking is a \\textit{dimensional phase transition}: effective dimensionality~$D$ crosses from sub-diffusive (subcritical, $D < 1$) to super-diffusive (supercritical, $D > 1$) at generalization onset, exhibiting self-organized criticality (SOC). Crucially, $D$ reflects \\textbf{gradient field geometry}, not network architecture: synthetic i.i.d.\\ Gaussian gradients maintain $D \\approx 1$ regardless of graph topology, while real training exhibits dimensional excess from backpropagation correlations. The grokking-localized $D(t)$ crossing -- robust across topologies -- offers new insight into the trainability of overparameterized networks.",
+  "feed": "arxiv-cs-LG"
+}

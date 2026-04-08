@@ -1,0 +1,7 @@
+{
+  "id": "de7ff12a996a6651",
+  "title": "Multi-Agent Pathfinding with Non-Unit Integer Edge Costs via Enhanced Conflict-Based Search and Graph Discretization",
+  "link": "https://arxiv.org/abs/2604.05416",
+  "summary": "arXiv:2604.05416v1 Announce Type: new \nAbstract: Multi-Agent Pathfinding (MAPF) plays a critical role in various domains. Traditional MAPF methods typically assume unit edge costs and single-timestep actions, which limit their applicability to real-world scenarios. MAPFR extends MAPF to handle non-unit costs with real-valued edge costs and continuous-time actions, but its geometric collision model leads to an unbounded state space that compromises solver efficiency. In this paper, we propose MAPFZ, a novel MAPF variant on graphs with non-unit integer costs that preserves a finite state space while offering improved realism over classical MAPF. To solve MAPFZ efficiently, we develop CBS-NIC, an enhanced Conflict-Based Search framework incorporating time-interval-based conflict detection and an improved Safe Interval Path Planning (SIPP) algorithm. Additionally, we propose Bayesian Optimization for Graph Design (BOGD), a discretization method for non-unit edge costs that balances efficiency and accuracy with a sub-linear regret bound. Extensive experiments demonstrate that our approach outperforms state-of-the-art methods in runtime and success rate across diverse benchmark scenarios.",
+  "feed": "arxiv-cs-AI"
+}

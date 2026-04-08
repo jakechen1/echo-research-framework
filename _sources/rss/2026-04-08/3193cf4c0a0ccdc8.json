@@ -1,0 +1,7 @@
+{
+  "id": "3193cf4c0a0ccdc8",
+  "title": "Graph State-Space Models and Latent Relational Inference",
+  "link": "https://arxiv.org/abs/2301.01741",
+  "summary": "arXiv:2301.01741v2 Announce Type: replace \nAbstract: State-space models effectively model multivariate time series by updating over time a representation of the system state from which predictions are made. The state representation is usually a vector without any explicit structure. Relational inductive biases, e.g., associated with dependencies among input signals and state representations, are not explicitly exploited during processing, leaving unattended opportunities for effective modeling. The manuscript aims to fill this gap by matching state-space modeling and spatio-temporal data where the relational information, say the functional graph capturing latent dependencies, is learned directly from time series. In particular, we propose Graph State-Space Models, a novel probabilistic framework that jointly learns state-space dynamics and latent relational structures end-to-end on downstream tasks. The proposed framework generalizes several state-of-the-art methods and, as we show, is effective in extracting meaningful latent relational structures and obtaining accurate forecasts.",
+  "feed": "arxiv-cs-LG"
+}

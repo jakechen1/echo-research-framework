@@ -1,0 +1,7 @@
+{
+  "id": "e898f924ed71c11f",
+  "title": "Vision Transformer-Based Time-Series Image Reconstruction for Cloud-Filling Applications",
+  "link": "https://arxiv.org/abs/2506.19591",
+  "summary": "arXiv:2506.19591v2 Announce Type: replace-cross \nAbstract: Cloud cover in multispectral imagery (MSI) poses significant challenges for early season crop mapping, as it leads to missing or corrupted spectral information. Synthetic aperture radar (SAR) data, which is not affected by cloud interference, offers a complementary solution, but lack sufficient spectral detail for precise crop mapping. To address this, we propose a novel framework, Time-series MSI Image Reconstruction using Vision Transformer (ViT), to reconstruct MSI data in cloud-covered regions by leveraging the temporal coherence of MSI and the complementary information from SAR from the attention mechanism. Comprehensive experiments, using rigorous reconstruction evaluation metrics, demonstrate that Time-series ViT framework significantly outperforms baselines that use non-time-series MSI and SAR or time-series MSI without SAR, effectively enhancing MSI image reconstruction in cloud-covered regions.",
+  "feed": "arxiv-cs-LG"
+}

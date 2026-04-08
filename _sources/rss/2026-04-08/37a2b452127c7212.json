@@ -1,0 +1,7 @@
+{
+  "id": "37a2b452127c7212",
+  "title": "Partial health status observability and time horizon uncertainty in mean-field game epidemiological models",
+  "link": "https://arxiv.org/abs/2604.04305",
+  "summary": "arXiv:2604.04305v2 Announce Type: replace-cross \nAbstract: We introduce Mean-Field Game (MFG) epidemiological models, in which immunity either wanes with time in a fully observable way or disappears instantaneously with no direct observation (making a previously recovered individual fully susceptible again without realizing it). Both interpretations create computational challenges for rational noninfected individuals deciding on their contact rates based on their personal current immunity state and the changing epidemiological situation. Both require solving a forward-backward MFG system that includes PDEs (an advection-reaction equation for the immunity-structured population and a Hamilton-Jacobi-Bellman equation for the corresponding value function). We show how this can be done efficiently by solving a two-point boundary value problem for a system of approximating ODEs. We also show how the same approach can be extended to handle an initial uncertainty in the planning horizon.",
+  "feed": "arxiv-q-bio"
+}

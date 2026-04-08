@@ -1,0 +1,7 @@
+{
+  "id": "d020a1251c5ab870",
+  "title": "Eigencone Constellations on Ranked Spheres",
+  "link": "https://arxiv.org/abs/2604.03554",
+  "summary": "arXiv:2604.03554v2 Announce Type: replace-cross \nAbstract: We introduce eigencone constellations, a hierarchical framework for embedding bounded-degree spatial graphs into concentric spherical shells and partitioning each shell into spectrally weighted, spherical star-shaped territories. Given a connected sparse spatial graph $G$ with a distinguished root vertex (the queen), we assign each vertex to a sphere whose radial position is determined by its graph distance from the queen, then tessellate each sphere into constellation territories whose solid angles are proportional to the spectral mass of the corresponding subgraph. Within each territory, nodes are packed by constrained repulsion, yielding local simplex structures. The resulting geometric representation provides a structural framework for measuring spectral distance between dynamic subgraph states. By combining this eigencone-derived metric with constraints on the domain-specific edit alphabet, we define a forward-only deterministic trajectory -- the isomorphic walk -- which converges graph edits efficiently. We define the notion of spherical star-shaped domains with geodesic visibility, establish their properties under spectral projection, and demonstrate the trajectory convergence on molecular contact graphs.",
+  "feed": "arxiv-q-bio"
+}

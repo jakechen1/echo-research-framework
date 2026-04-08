@@ -1,0 +1,7 @@
+{
+  "id": "735bdc115121463d",
+  "title": "Beyond Fluency: Toward Reliable Trajectories in Agentic IR",
+  "link": "https://arxiv.org/abs/2604.04269",
+  "summary": "arXiv:2604.04269v1 Announce Type: cross \nAbstract: Information Retrieval is shifting from passive document ranking toward autonomous agentic workflows that operate in multi-step Reason-Act-Observe loops. In such long-horizon trajectories, minor early errors can cascade, leading to functional misalignment between internal reasoning and external tool execution despite continued linguistic fluency.\n  This position paper synthesizes failure modes observed in industrial agentic systems, categorizing errors across planning, retrieval, reasoning, and execution. We argue that safe deployment requires moving beyond endpoint accuracy toward trajectory integrity and causal attribution.\n  To address compounding error and deceptive fluency, we propose verification gates at each interaction unit and advocate systematic abstention under calibrated uncertainty. Reliable Agentic IR systems must prioritize process correctness and grounded execution over plausible but unverified completion.",
+  "feed": "arxiv-cs-LG"
+}

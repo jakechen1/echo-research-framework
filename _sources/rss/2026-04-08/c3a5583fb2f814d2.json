@@ -1,0 +1,7 @@
+{
+  "id": "c3a5583fb2f814d2",
+  "title": "SPHINX: A Synthetic Environment for Visual Perception and Reasoning",
+  "link": "https://arxiv.org/abs/2511.20814",
+  "summary": "arXiv:2511.20814v2 Announce Type: replace-cross \nAbstract: We present Sphinx, a synthetic environment for visual perception and reasoning that targets core cognitive primitives. Sphinx procedurally generates puzzles using motifs, tiles, charts, icons, and geometric primitives, each paired with verifiable ground-truth solutions, enabling both precise evaluation and large-scale dataset construction. The benchmark covers 25 task types spanning symmetry detection, geometric transformations, spatial reasoning, chart interpretation, and sequence prediction. Evaluating recent large vision-language models (LVLMs) shows that even state-of-the-art GPT-5 attains only 51.1% accuracy, well below human performance. Finally, we demonstrate that reinforcement learning with verifiable rewards (RLVR) substantially improves model accuracy on these tasks and yields gains on external visual reasoning benchmarks, highlighting its promise for advancing multimodal reasoning.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "3def17c1b9fd6a69",
+  "title": "Transmission Neural Networks: Inhibitory and Excitatory Connections",
+  "link": "https://arxiv.org/abs/2604.04246",
+  "summary": "arXiv:2604.04246v1 Announce Type: cross \nAbstract: This paper extends the Transmission Neural Network model proposed by Gao and Caines in [1]-[3] to incorporate inhibitory connections and neurotransmitter populations. The extended network model contains binary neuronal states, transmission dynamics, and inhibitory and excitatory connections. Under technical assumptions, we establish the characterization of the firing probabilities of neurons, and show that such a characterization considering inhibitions can be equivalently represented by a neural network where each neuron has a continuous state of dimension 2. Moreover, we incorporated neurotransmitter populations into the modeling and establish the limit network model when the number of neurotransmitters at all synaptic connections go to infinity. Finally, sufficient conditions for stability and contraction properties of the limit network model are established.",
+  "feed": "arxiv-cs-LG"
+}

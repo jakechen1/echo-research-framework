@@ -1,0 +1,7 @@
+{
+  "id": "a28c5758ab0b4cca",
+  "title": "SFBD Flow: A Continuous-Optimization Framework for Training Diffusion Models with Noisy Samples",
+  "link": "https://arxiv.org/abs/2506.02371",
+  "summary": "arXiv:2506.02371v2 Announce Type: replace \nAbstract: Diffusion models achieve strong generative performance but often rely on large datasets that may include sensitive content. This challenge is compounded by the models' tendency to memorize training data, raising privacy concerns. SFBD (Lu et al., 2025) addresses this by training on corrupted data and using limited clean samples to capture local structure and improve convergence. However, its iterative denoising and fine-tuning loop requires manual coordination, making it burdensome to implement. We reinterpret SFBD as an alternating projection algorithm and introduce a continuous variant, SFBD flow, that removes the need for alternating steps. We further show its connection to consistency constraint-based methods, and demonstrate that its practical instantiation, Online SFBD, consistently outperforms strong baselines across benchmarks.",
+  "feed": "arxiv-cs-LG"
+}

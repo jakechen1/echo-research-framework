@@ -1,0 +1,7 @@
+{
+  "id": "059e01f994b1348a",
+  "title": "Aligned Vector Quantization for Edge-Cloud Collabrative Vision-Language Models",
+  "link": "https://arxiv.org/abs/2411.05961",
+  "summary": "arXiv:2411.05961v2 Announce Type: replace-cross \nAbstract: Vision Language Models (VLMs) are central to Visual Question Answering (VQA) systems and are typically deployed in the cloud due to their high computational demands. However, this cloud-only approach underutilizes edge computational resources and requires significant bandwidth for transmitting raw images. In this paper, we introduce an edge-cloud collaborative VQA system, called LLaVA-AlignedVQ, which features a novel Aligned Vector Quantization algorithm (AlignedVQ) that efficiently compress intermediate features without compromising accuracy to support partitioned execution. Our experiments demonstrate that LLaVA-AlignedVQ achieves approximately 1365x compression rate of intermediate features, reducing data transmission overhead by 96.8% compared to transmitting JPEG90-compressed images to the cloud. LLaVA-AlignedVQ achieves an inference speedup of 2-15x while maintaining high accuracy, remaining within -2.23% to +1.6% of the original model's accuracy performance across eight VQA datasets, compared to the cloud-only solution.",
+  "feed": "arxiv-cs-AI"
+}

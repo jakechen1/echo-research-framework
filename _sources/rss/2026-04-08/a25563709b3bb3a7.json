@@ -1,0 +1,7 @@
+{
+  "id": "a25563709b3bb3a7",
+  "title": "Understanding Task Representations in Neural Networks via Bayesian Ablation",
+  "link": "https://arxiv.org/abs/2505.13742",
+  "summary": "arXiv:2505.13742v2 Announce Type: replace \nAbstract: Neural networks are powerful tools for cognitive modeling due to their flexibility and emergent properties. However, interpreting their learned representations remains challenging due to their sub-symbolic semantics. In this work, we introduce a novel probabilistic framework for interpreting latent task representations in neural networks. Inspired by Bayesian inference, our approach defines a distribution over representational units to infer their causal contributions to task performance. Using ideas from information theory, we propose a suite of tools and metrics to illuminate key model properties, including representational distributedness, manifold complexity, and polysemanticity.",
+  "feed": "arxiv-cs-LG"
+}

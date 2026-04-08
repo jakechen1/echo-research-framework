@@ -1,0 +1,7 @@
+{
+  "id": "809ab48341f48ab8",
+  "title": "Delayed Homomorphic Reinforcement Learning for Environments with Delayed Feedback",
+  "link": "https://arxiv.org/abs/2604.03641",
+  "summary": "arXiv:2604.03641v1 Announce Type: new \nAbstract: Reinforcement learning in real-world systems is often accompanied by delayed feedback, which breaks the Markov assumption and impedes both learning and control. Canonical state augmentation approaches cause the state-space explosion, which introduces a severe sample-complexity burden. Despite recent progress, the state-of-the-art augmentation-based baselines remain incomplete: they either predominantly reduce the burden on the critic or adopt non-unified treatments for the actor and critic. To provide a structured and sample-efficient solution, we propose delayed homomorphic reinforcement learning (DHRL), a framework grounded in MDP homomorphisms that collapses belief-equivalent augmented states and enables efficient policy learning on the resulting abstract MDP without loss of optimality. We provide theoretical analyses of state-space compression bounds and sample complexity, and introduce a practical algorithm. Experiments on continuous control tasks in MuJoCo benchmark confirm that our algorithm outperforms strong augmentation-based baselines, particularly under long delays.",
+  "feed": "arxiv-cs-LG"
+}

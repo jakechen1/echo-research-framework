@@ -1,0 +1,7 @@
+{
+  "id": "1cd9b1171715e6db",
+  "title": "A Grammar of Machine Learning Workflows",
+  "link": "https://arxiv.org/abs/2603.10742",
+  "summary": "arXiv:2603.10742v3 Announce Type: replace \nAbstract: Data leakage has been identified in 648 published machine learning papers across 30 scientific fields. The knowledge to prevent it exists; the tools do not enforce it. This paper presents a grammar - eight typed primitives, a directed acyclic graph, and four hard constraints - that makes the most damaging leakage types structurally unrepresentable. The core mechanism is a terminal assessment gate: the first call-time-enforced evaluate/assess boundary in an ML framework, backed by a specification precise enough for independent reimplementation. A companion landscape study across 2,047 datasets grounds the constraints in measured effect sizes. Two reference implementations (Python, R) are available.",
+  "feed": "arxiv-cs-LG"
+}

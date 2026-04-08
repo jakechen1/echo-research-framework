@@ -1,0 +1,7 @@
+{
+  "id": "9a86aa570e29038e",
+  "title": "Hypothesis-Driven Feature Manifold Analysis in LLMs via Supervised Multi-Dimensional Scaling",
+  "link": "https://arxiv.org/abs/2510.01025",
+  "summary": "arXiv:2510.01025v2 Announce Type: replace \nAbstract: The linear representation hypothesis states that language models (LMs) encode concepts as directions in their latent space, forming organized, multidimensional manifolds. Prior work has largely focused on identifying specific geometries for individual features, limiting its ability to generalize. We introduce Supervised Multi-Dimensional Scaling (SMDS), a model-agnostic method for evaluating and comparing competing feature manifold hypotheses. We apply SMDS to temporal reasoning as a case study and find that different features instantiate distinct geometric structures, including circles, lines, and clusters. SMDS reveals several consistent characteristics of these structures: they reflect the semantic properties of the concepts they represent, remain stable across model families and sizes, actively support reasoning, and dynamically reshape in response to contextual changes. Together, our findings shed light on the functional role of feature manifolds, supporting a model of entity-based reasoning in which LMs encode and transform structured representations.",
+  "feed": "arxiv-cs-AI"
+}

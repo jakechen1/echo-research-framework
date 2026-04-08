@@ -1,0 +1,7 @@
+{
+  "id": "04a73afe3502ed5a",
+  "title": "DRAFT: Task Decoupled Latent Reasoning for Agent Safety",
+  "link": "https://arxiv.org/abs/2604.03242",
+  "summary": "arXiv:2604.03242v1 Announce Type: new \nAbstract: The advent of tool-using LLM agents shifts safety monitoring from output moderation to auditing long, noisy interaction trajectories, where risk-critical evidence is sparse-making standard binary supervision poorly suited for credit assignment. To address this, we propose DRAFT (Task Decoupled Latent Reasoning for Agent Safety), a latent reasoning framework that decouples safety judgment into two trainable stages: an Extractor that distills the full trajectory into a compact continuous latent draft, and a Reasoner that jointly attends to the draft and the original trajectory to predict safety. DRAFT avoids lossy explicit summarize-then-judge pipelines by performing evidence aggregation in latent space, enabling end-to-end differentiable training.Across benchmarks including ASSEBench and R-Judge, DRAFT consistently outperforms strong baselines, improving accuracy from 63.27% (LoRA) to 91.18% averaged over benchmarks, and learns more separable representations. Ablations demonstrate a clear synergy between the Extractor and the Reasoner.Overall, DRAFT suggests that continuous latent reasoning prior to readout is a practical path to robust agent safety under long-context supervision with sparse evidence.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "f78a9712c2f374a8",
+  "title": "Debiased Machine Learning for Conformal Prediction of Counterfactual Outcomes Under Runtime Confounding",
+  "link": "https://arxiv.org/abs/2604.03772",
+  "summary": "arXiv:2604.03772v1 Announce Type: cross \nAbstract: Data-driven decision making frequently relies on predicting counterfactual outcomes. In practice, researchers commonly train counterfactual prediction models on a source dataset to inform decisions on a possibly separate target population. Conformal prediction has arisen as a popular method for producing assumption-lean prediction intervals for counterfactual outcomes that would arise under different treatment decisions in the target population of interest. However, existing methods require that every confounding factor of the treatment-outcome relationship used for training on the source data is additionally measured in the target population, risking miscoverage if important confounders are unmeasured in the target population. In this paper, we introduce a computationally efficient debiased machine learning framework that allows for valid prediction intervals when only a subset of confounders is measured in the target population, a common challenge referred to as runtime confounding. Grounded in semiparametric efficiency theory, we show the resulting prediction intervals achieve desired coverage rates with faster convergence compared to standard methods. Through numerous synthetic and semi-synthetic experiments, we demonstrate the utility of our proposed method.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "b6ef64dc33085f7f",
+  "title": "APPA: Adaptive Preference Pluralistic Alignment for Fair Federated RLHF of LLMs",
+  "link": "https://arxiv.org/abs/2604.04261",
+  "summary": "arXiv:2604.04261v1 Announce Type: new \nAbstract: Aligning large language models (LLMs) with diverse human preferences requires pluralistic alignment, where a single model must respect the values of multiple distinct groups simultaneously. In federated reinforcement learning from human feedback (FedRLHF), these groups align a shared policy without centralizing preference data, which makes fair reward aggregation essential. Existing aggregation methods exhibit clear trade offs: average based aggregation systematically under aligns worst performing groups, while min aggregation prioritizes worst group performance at the cost of overall alignment. We propose APPA, an Adaptive Preference Pluralistic Alignment framework that dynamically reweights group level rewards based on historical alignment rewards. Our approach prioritizes under aligned groups without degrading well aligned ones, while requiring no access to raw preference data. Integrated into a proximal policy optimization (PPO) based FedRLHF pipeline and evaluated on GLOBALQA and OQA across three model families (Gemma 2 2B, Llama 3.2 3B, Qwen3 0.6B), APPA achieves strong fairness alignment trade offs, improving worst group alignment by up to 28% over average aggregation while maintaining higher overall alignment than min aggregation across most configurations.",
+  "feed": "arxiv-cs-LG"
+}

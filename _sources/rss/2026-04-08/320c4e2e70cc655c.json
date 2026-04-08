@@ -1,0 +1,7 @@
+{
+  "id": "320c4e2e70cc655c",
+  "title": "StateX: Enhancing RNN Recall via Post-training State Expansion",
+  "link": "https://arxiv.org/abs/2509.22630",
+  "summary": "arXiv:2509.22630v2 Announce Type: replace-cross \nAbstract: Recurrent neural networks (RNNs), such as linear attention and state-space models, have gained popularity due to their constant per-token complexity when processing long contexts. However, these recurrent models struggle with tasks that require accurate recall of contextual information from long contexts, because all contextual information is compressed into a fixed-size recurrent state. Previous studies have shown that recall ability is positively correlated with the recurrent state size, yet directly training RNNs with large recurrent states results in high training costs. In this paper, we introduce StateX, a post-training framework that efficiently expands the states of pre-trained RNNs. For two popular classes of RNNs, linear attention and state-space models, we design post-training architectural modifications in StateX, to scale up the state size with no or negligible increase in model parameters. Experiments on models with up to 1.3B parameters demonstrate that StateX efficiently enhances the recall and in-context learning performance of RNNs without incurring high post-training costs or compromising other capabilities.",
+  "feed": "arxiv-cs-AI"
+}

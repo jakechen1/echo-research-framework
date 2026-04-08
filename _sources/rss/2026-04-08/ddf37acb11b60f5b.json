@@ -1,0 +1,7 @@
+{
+  "id": "ddf37acb11b60f5b",
+  "title": "UserCentrix: An Agentic Memory-augmented AI Framework for Smart Spaces",
+  "link": "https://arxiv.org/abs/2505.00472",
+  "summary": "arXiv:2505.00472v2 Announce Type: replace \nAbstract: Agentic Artificial Intelligence (AI) constitutes a transformative paradigm in the evolution of intelligent agents and decision-support systems, redefining smart environments by enhancing operational efficiency, optimizing resource allocation, and strengthening systemic resilience. This paper presents UserCentrix, a hybrid agentic orchestration framework for smart spaces that optimizes resource management and enhances user experience through urgency-aware and intent-driven decision-making mechanisms. The framework integrates interactive modules equipped with agentic behavior and autonomous decision-making capabilities to dynamically balance latency, accuracy, and computational cost. User intent functions as a governing control signal that prioritizes decisions, regulates task execution and resource allocation, and guides the adaptation of decision-making strategies to balance trade-offs between speed and accuracy. Experimental results demonstrate that the framework autonomously enables efficient intent processing and real-time monitoring, while balancing reasoning quality and computational efficiency, particularly under resource-constrained edge conditions.",
+  "feed": "arxiv-cs-AI"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "27d31641cd3c8686",
+  "title": "The two-clock problem in population dynamics",
+  "link": "https://arxiv.org/abs/2504.20388",
+  "summary": "arXiv:2504.20388v2 Announce Type: replace \nAbstract: Biological time can be measured in two ways: in generations and in physical (chronological) time. When generations overlap, these two notions diverge, which impedes our ability to relate mathematical models to real populations. In this paper we show that nevertheless, the two clocks can be synchronised in the long run via a simple identity relating generational and physical time. This equivalence allows us to directly translate statements from the generational picture to the physical picture and vice versa. We derive a generalized Euler-Lotka equation linking the basic reproduction number $R_0$ to the growth rate, and present a simple identity that relates the selection coefficient of a mutation to the history of typical individuals, with applications to epidemiology, population biology and microbial growth.",
+  "feed": "arxiv-q-bio"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "14d1e7dda2c6ef7f",
+  "title": "A State-Update Prompting Strategy for Efficient and Robust Multi-turn Dialogue",
+  "link": "https://arxiv.org/abs/2509.17766",
+  "summary": "arXiv:2509.17766v2 Announce Type: replace-cross \nAbstract: Large Language Models (LLMs) struggle with information forgetting and inefficiency in long-horizon, multi-turn dialogues. To address this, we propose a training-free prompt engineering method, the State-Update Multi-turn Dialogue Strategy. It utilizes \"State Reconstruction\" and \"History Remind\" mechanisms to effectively manage dialogue history. Our strategy shows strong performance across multiple multi-hop QA datasets. For instance, on the HotpotQA dataset, it improves the core information filtering score by 32.6%, leading to a 14.1% increase in the downstream QA score, while also reducing inference time by 73.1% and token consumption by 59.4%. Ablation studies confirm the pivotal roles of both components. Our work offers an effective solution for optimizing LLMs in long-range interactions, providing new insights for developing more robust Agents.",
+  "feed": "arxiv-cs-AI"
+}

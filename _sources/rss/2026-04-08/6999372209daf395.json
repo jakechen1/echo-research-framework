@@ -1,0 +1,7 @@
+{
+  "id": "6999372209daf395",
+  "title": "Lotka-Sharpe Neural Operators for Control of Population PDEs",
+  "link": "https://arxiv.org/abs/2604.03892",
+  "summary": "arXiv:2604.03892v1 Announce Type: cross \nAbstract: Age-structured predator-prey integro-partial differential equations provide models of interacting populations in ecology, epidemiology, and biotechnology. A key challenge in feedback design for these systems is the scalar $\\zeta$, defined implicitly by the Lotka-Sharpe nonlinear integral condition, as a mapping from fertility and mortality rates to $\\zeta$. To solve this challenge with operator learning, we first prove that the Lotka-Sharpe operator is Lipschitz continuous, guaranteeing the existence of arbitrarily accurate neural operator approximations over a compact set of fertility and mortality functions. We then show that the resulting approximate feedback law preserves semi-global practical asymptotic stability under propagation of the operator approximation error through various other nonlinear operators, all the way through to the control input. In the numerical results, not only do we learn ``once-and-for-all'' the canonical Lotka-Sharpe (LS) operator, and thus make it available for future uses in control of other age-structured population interconnections, but we demonstrate the online usage of the neural LS operator under estimation of the fertility and mortality functions.",
+  "feed": "arxiv-cs-LG"
+}

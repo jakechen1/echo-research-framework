@@ -1,0 +1,7 @@
+{
+  "id": "3d9deec242ee4e91",
+  "title": "Amortized Safe Active Learning for Real-Time Data Acquisition: Pretrained Neural Policies From Simulated Nonparametric Functions",
+  "link": "https://arxiv.org/abs/2501.15458",
+  "summary": "arXiv:2501.15458v3 Announce Type: replace \nAbstract: Safe active learning (AL) is a sequential scheme for learning unknown systems while respecting safety constraints during data acquisition. Existing methods often rely on Gaussian processes (GPs) to model the task and safety constraints, requiring repeated GP updates and constrained acquisition optimization--incurring significant computations which are challenging for real-time decision-making. We propose amortized AL for regression and amortized safe AL, replacing expensive online computations with a pretrained neural policy. Inspired by recent advances in amortized Bayesian experimental design, we leverage GPs as pretraining simulators. We train our policy prior to the AL deployment on simulated nonparametric functions, using Fourier feature-based GP sampling and a differentiable acquisition objective that is safety-aware in the safe AL setting. At deployment, our policy selects informative and (if desired) safe queries via a single forward pass, eliminating GP inference and acquisition optimization. This leads to magnitudes of speed improvements while preserving learning quality. Our framework is modular and, without the safety component, yields fast unconstrained AL for time-sensitive tasks.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "b9ee143210671db6",
+  "title": "ASSS: A Differentiable Adversarial Framework for Task-Aware Data Reduction",
+  "link": "https://arxiv.org/abs/2601.02081",
+  "summary": "arXiv:2601.02081v3 Announce Type: replace \nAbstract: Massive datasets often contain redundancy that inflates computational costs without improving generalization. Existing data reduction methods are typically task-agnostic, discarding informative boundary samples and yielding suboptimal performance. We propose Adversarial Soft-Selection Subsampling (ASSS), a differentiable framework that casts data reduction as a minimax game between a learnable selector and a task network. Using Gumbel-Softmax relaxation, ASSS enables end-to-end gradient flow and is theoretically grounded in the information bottleneck principle. Experiments on multiple benchmarks show that ASSS achieves a performance retention rate (PRR) of 98.9% while using only 30% of the data, significantly outperforming random sampling, K-means, and gradient-based methods. Visualizations confirm that ASSS preferentially retains samples near decision boundaries. The framework is scalable, fully differentiable, and easily integrated into existing training pipelines. This work introduces a new paradigm for task-aware data reduction that directly optimizes subset selection for the downstream objective, offering a principled and practical solution to the scalability challenges in modern deep learning.",
+  "feed": "arxiv-cs-LG"
+}

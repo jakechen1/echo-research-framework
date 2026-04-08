@@ -1,0 +1,7 @@
+{
+  "id": "d2e97af120418304",
+  "title": "Autoencoder-Based Parameter Estimation for Superposed Multi-Component Damped Sinusoidal Signals",
+  "link": "https://arxiv.org/abs/2604.03985",
+  "summary": "arXiv:2604.03985v1 Announce Type: new \nAbstract: Damped sinusoidal oscillations are widely observed in many physical systems, and their analysis provides access to underlying physical properties. However, parameter estimation becomes difficult when the signal decays rapidly, multiple components are superposed, and observational noise is present. In this study, we develop an autoencoder-based method that uses the latent space to estimate the frequency, phase, decay time, and amplitude of each component in noisy multi-component damped sinusoidal signals. We investigate multi-component cases under Gaussian-distribution training and further examine the effect of the training-data distribution through comparisons between Gaussian and uniform training. The performance is evaluated through waveform reconstruction and parameter-estimation accuracy. We find that the proposed method can estimate the parameters with high accuracy even in challenging setups, such as those involving a subdominant component or nearly opposite-phase components, while remaining reasonably robust when the training distribution is less informative. This demonstrates its potential as a tool for analyzing short-duration, noisy signals.",
+  "feed": "arxiv-cs-LG"
+}

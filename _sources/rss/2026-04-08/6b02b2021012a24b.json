@@ -1,0 +1,7 @@
+{
+  "id": "6b02b2021012a24b",
+  "title": "Pursuit of biomarkers of brain diseases: Beyond cohort comparisons",
+  "link": "https://arxiv.org/abs/2509.10547",
+  "summary": "arXiv:2509.10547v2 Announce Type: replace \nAbstract: Despite the diversity and volume of brain data acquired and advanced AI-based algorithms to analyze them, brain features are rarely used in clinics for diagnosis and prognosis. Here we argue that the field continues to rely on cohort comparisons to seek biomarkers, despite the well-established degeneracy of brain features. Using a thought experiment (Brain Swap), we show that more data and more powerful algorithms will not be sufficient to identify biomarkers of brain diseases. We argue that instead of comparing patient versus healthy controls using single data type, we should use multimodal (e.g. brain activity, neurotransmitters, neuromodulators, brain imaging) and longitudinal brain data to guide the grouping before defining multidimensional biomarkers for brain diseases.",
+  "feed": "arxiv-q-bio"
+}

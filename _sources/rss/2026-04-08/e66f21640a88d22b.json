@@ -1,0 +1,7 @@
+{
+  "id": "e66f21640a88d22b",
+  "title": "Self-Execution Simulation Improves Coding Models",
+  "link": "https://arxiv.org/abs/2604.03253",
+  "summary": "arXiv:2604.03253v1 Announce Type: cross \nAbstract: A promising research direction in enabling LLMs to generate consistently correct code involves addressing their inability to properly estimate program execution, particularly for code they generate. In this work, we demonstrate that Code LLMs can be trained to simulate program execution in a step-by-step manner and that this capability can be leveraged to improve competitive programming performance. Our approach combines supervised fine-tuning on natural language execution traces, textual explanations grounded in true execution, with reinforcement learning using verifiable rewards. We introduce two complementary objectives: output prediction given code and inputs, and solving competitive programming tasks with either ground-truth or self-predicted execution feedback. These objectives enable models to perform self-verification over multiple candidate solutions, and iterative self-fixing by simulating test execution. Across multiple competitive programming benchmarks, our method yields consistent improvements over standard reasoning approaches. We further present ablations and analysis to elucidate the role of execution simulation and its limitations.",
+  "feed": "arxiv-cs-LG"
+}

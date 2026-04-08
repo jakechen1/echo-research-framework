@@ -1,0 +1,7 @@
+{
+  "id": "14c3e73820bad402",
+  "title": "Beyond Linear Steering: Unified Multi-Attribute Control for Language Models",
+  "link": "https://arxiv.org/abs/2505.24535",
+  "summary": "arXiv:2505.24535v3 Announce Type: replace \nAbstract: Controlling multiple behavioral attributes in large language models (LLMs) at inference time is a challenging problem due to interference between attributes and the limitations of linear steering methods, which assume additive behavior in activation space and require per-attribute tuning. We introduce K-Steering, a unified and flexible approach that trains a single non-linear multi-label classifier on hidden activations and computes intervention directions via gradients at inference time. This avoids linearity assumptions, removes the need for storing and tuning separate attribute vectors, and allows dynamic composition of behaviors without retraining. To evaluate our method, we propose two new benchmarks, ToneBank and DebateMix, targeting compositional behavioral control. Empirical results across 3 model families, validated by both activation-based classifiers and LLM-based judges, demonstrate that K-Steering outperforms strong baselines in accurately steering multiple behaviors.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "ad245387f4eb772f",
+  "title": "Using predefined vector systems to speed up neural network multimillion class classification",
+  "link": "https://arxiv.org/abs/2604.00779",
+  "summary": "arXiv:2604.00779v2 Announce Type: replace \nAbstract: Label prediction in neural networks (NNs) has O(n) complexity proportional to the number of classes. This holds true for classification using fully connected layers and cosine similarity with some set of class prototypes. In this paper we show that if NN latent space (LS) geometry is known and possesses specific properties, label prediction complexity can be significantly reduced. This is achieved by associating label prediction with the O(1) complexity closest cluster center search in a vector system used as target for latent space configuration (LSC). The proposed method only requires finding indexes of several largest and lowest values in the embedding vector making it extremely computationally efficient. We show that the proposed method does not change NN training accuracy computational results. We also measure the time required by different computational stages of NN inference and label prediction on multiple datasets. The experiments show that the proposed method allows to achieve up to 11.6 times overall acceleration over conventional methods. Furthermore, the proposed method has unique properties which allow to predict the existence of new classes.",
+  "feed": "arxiv-cs-LG"
+}

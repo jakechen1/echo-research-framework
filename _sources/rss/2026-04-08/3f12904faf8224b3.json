@@ -1,0 +1,7 @@
+{
+  "id": "3f12904faf8224b3",
+  "title": "The Riemannian Geometry Associated to Gradient Flows of Linear Convolutional Networks",
+  "link": "https://arxiv.org/abs/2507.06367",
+  "summary": "arXiv:2507.06367v2 Announce Type: replace \nAbstract: We study geometric properties of the gradient flow for learning deep linear convolutional networks. For linear fully connected networks, it has been shown recently that the corresponding gradient flow on parameter space can be written as a Riemannian gradient flow on function space (i.e., on the product of weight matrices) if the initialization satisfies a so-called balancedness condition. We establish that the gradient flow on parameter space for learning linear convolutional networks can be written as a Riemannian gradient flow on function space regardless of the initialization. This result holds for $D$-dimensional convolutions with $D \\geq 2$, and for $D =1$ it holds if all so-called strides of the convolutions are greater than one. The corresponding Riemannian metric depends on the initialization.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "f644ca6f692c86bc",
+  "title": "ShadowNPU: System and Algorithm Co-design for NPU-Centric On-Device LLM Inference",
+  "link": "https://arxiv.org/abs/2508.16703",
+  "summary": "arXiv:2508.16703v3 Announce Type: replace-cross \nAbstract: On-device running Large Language Models (LLMs) is nowadays a critical enabler towards preserving user privacy. We observe that the attention operator falls back from the special-purpose NPU to the general-purpose CPU/GPU because of quantization sensitivity in state-of-the-art frameworks. This fallback results in a degraded user experience and increased complexity in system scheduling. To this end, this paper presents shadowAttn, a system-algorithm codesigned sparse attention module with minimal reliance on CPU/GPU by only sparsely calculating the attention on a tiny portion of tokens. The key idea is to hide the overhead of estimating the important tokens with a NPU-based pilot compute. Further, shadowAttn proposes insightful techniques such as NPU compute graph bucketing, head-wise NPU-CPU/GPU pipeline and per-head fine-grained sparsity ratio to achieve high accuracy and efficiency. shadowAttn delivers the best performance with highly limited CPU/GPU resource; it requires much less CPU/GPU resource to deliver on-par performance of SoTA frameworks.",
+  "feed": "arxiv-cs-LG"
+}

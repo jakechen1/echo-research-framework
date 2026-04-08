@@ -1,0 +1,7 @@
+{
+  "id": "ab2e9544212837f8",
+  "title": "Beyond Predefined Schemas: TRACE-KG for Context-Enriched Knowledge Graphs from Complex Documents",
+  "link": "https://arxiv.org/abs/2604.03496",
+  "summary": "arXiv:2604.03496v1 Announce Type: cross \nAbstract: Knowledge graph construction typically relies either on predefined ontologies or on schema-free extraction. Ontology-driven pipelines enforce consistent typing but require costly schema design and maintenance, whereas schema-free methods often produce fragmented graphs with weak global organization, especially in long technical documents with dense, context-dependent information. We propose TRACE-KG (Text-dRiven schemA for Context-Enriched Knowledge Graphs), a multimodal framework that jointly constructs a context-enriched knowledge graph and an induced schema without assuming a predefined ontology. TRACE-KG captures conditional relations through structured qualifiers and organizes entities and relations using a data-driven schema that serves as a reusable semantic scaffold while preserving full traceability to the source evidence. Experiments show that TRACE-KG produces structurally coherent, traceable knowledge graphs and offers a practical alternative to both ontology-driven and schema-free construction pipelines.",
+  "feed": "arxiv-cs-LG"
+}

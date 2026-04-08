@@ -1,0 +1,7 @@
+{
+  "id": "11a5b6e4f60f2588",
+  "title": "Vintix II: Decision Pre-Trained Transformer is a Scalable In-Context Reinforcement Learner",
+  "link": "https://arxiv.org/abs/2604.05112",
+  "summary": "arXiv:2604.05112v1 Announce Type: cross \nAbstract: Recent progress in in-context reinforcement learning (ICRL) has demonstrated its potential for training generalist agents that can acquire new tasks directly at inference. Algorithm Distillation (AD) pioneered this paradigm and was subsequently scaled to multi-domain settings, although its ability to generalize to unseen tasks remained limited. The Decision Pre-Trained Transformer (DPT) was introduced as an alternative, showing stronger in-context reinforcement learning abilities in simplified domains, but its scalability had not been established. In this work, we extend DPT to diverse multi-domain environments, applying Flow Matching as a natural training choice that preserves its interpretation as Bayesian posterior sampling. As a result, we obtain an agent trained across hundreds of diverse tasks that achieves clear gains in generalization to the held-out test set. This agent improves upon prior AD scaling and demonstrates stronger performance in both online and offline inference, reinforcing ICRL as a viable alternative to expert distillation for training generalist agents.",
+  "feed": "arxiv-cs-AI"
+}

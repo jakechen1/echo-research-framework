@@ -1,0 +1,7 @@
+{
+  "id": "03253343318c7207",
+  "title": "Effects of Generative AI Errors on User Reliance Across Task Difficulty",
+  "link": "https://arxiv.org/abs/2604.04319",
+  "summary": "arXiv:2604.04319v1 Announce Type: cross \nAbstract: The capabilities of artificial intelligence (AI) lie along a jagged frontier, where AI systems surprisingly fail on tasks that humans find easy and succeed on tasks that humans find hard. To investigate user reactions to this phenomenon, we developed an incentive-compatible experimental methodology based on diagram generation tasks, in which we induce errors in generative AI output and test effects on user reliance. We demonstrate the interface in a preregistered 3x2 experiment (N = 577) with error rates of 10%, 30%, or 50% on easier or harder diagram generation tasks. We confirmed that observing more errors reduces use, but we unexpectedly found that easy-task errors did not significantly reduce use more than hard-task errors, suggesting that people are not averse to jaggedness in this experimental setting. We encourage future work that varies task difficulty at the same time as other features of AI errors, such as whether the jagged error patterns are easily learned.",
+  "feed": "arxiv-cs-LG"
+}

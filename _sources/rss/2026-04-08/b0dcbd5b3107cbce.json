@@ -1,0 +1,7 @@
+{
+  "id": "b0dcbd5b3107cbce",
+  "title": "Algebraic Diversity: Group-Theoretic Spectral Estimation from Single Observations",
+  "link": "https://arxiv.org/abs/2604.03634",
+  "summary": "arXiv:2604.03634v1 Announce Type: new \nAbstract: We prove that temporal averaging over multiple observations can be replaced by algebraic group action on a single observation for second-order statistical estimation. A General Replacement Theorem establishes conditions under which a group-averaged estimator from one snapshot achieves equivalent subspace decomposition to multi-snapshot covariance estimation, and an Optimality Theorem proves that the symmetric group is universally optimal (yielding the KL transform). The framework unifies the DFT, DCT, and KLT as special cases of group-matched spectral transforms, with a closed-form double-commutator eigenvalue problem for polynomial-time optimal group selection. Five applications are demonstrated: MUSIC DOA estimation from a single snapshot, massive MIMO channel estimation with 64% throughput gain, single-pulse waveform classification at 90% accuracy, graph signal processing with non-Abelian groups, and a new algebraic analysis of transformer LLMs revealing that RoPE uses the wrong algebraic group for 70-80% of attention heads across five models (22,480 head observations), that the optimal group is content-dependent, and that spectral-concentration-based pruning improves perplexity at the 13B scale. All diagnostics require a single forward pass with no gradients or training.",
+  "feed": "arxiv-cs-LG"
+}

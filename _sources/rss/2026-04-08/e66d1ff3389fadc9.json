@@ -1,0 +1,7 @@
+{
+  "id": "e66d1ff3389fadc9",
+  "title": "Label Effects: Shared Heuristic Reliance in Trust Assessment by Humans and LLM-as-a-Judge",
+  "link": "https://arxiv.org/abs/2604.05593",
+  "summary": "arXiv:2604.05593v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used as automated evaluators (LLM-as-a-Judge). This work challenges its reliability by showing that trust judgments by LLMs are biased by disclosed source labels. Using a counterfactual design, we find that both humans and LLM judges assign higher trust to information labeled as human-authored than to the same content labeled as AI-generated. Eye-tracking data reveal that humans rely heavily on source labels as heuristic cues for judgments. We analyze LLM internal states during judgment. Across label conditions, models allocate denser attention to the label region than the content region, and this label dominance is stronger under Human labels than AI labels, consistent with the human gaze patterns. Besides, decision uncertainty measured by logits is higher under AI labels than Human labels. These results indicate that the source label is a salient heuristic cue for both humans and LLMs. It raises validity concerns for label-sensitive LLM-as-a-Judge evaluation, and we cautiously raise that aligning models with human preferences may propagate human heuristic reliance into models, motivating debiased evaluation and alignment.",
+  "feed": "arxiv-cs-AI"
+}

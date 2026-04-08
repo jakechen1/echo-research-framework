@@ -1,0 +1,7 @@
+{
+  "id": "2f3a7d487623eeba",
+  "title": "IntentScore: Intent-Conditioned Action Evaluation for Computer-Use Agents",
+  "link": "https://arxiv.org/abs/2604.05157",
+  "summary": "arXiv:2604.05157v1 Announce Type: new \nAbstract: Computer-Use Agents (CUAs) leverage large language models to execute GUI operations on desktop environments, yet they generate actions without evaluating action quality, leading to irreversible errors that cascade through subsequent steps. We propose IntentScore, a plan-aware reward model that learns to score candidate actions from 398K offline GUI interaction steps spanning three operating systems. IntentScore trains with two complementary objectives: contrastive alignment for state-action relevance and margin ranking for action correctness. Architecturally, it embeds each candidate's planning intent in the action encoder, enabling discrimination between candidates with similar actions but different rationales. IntentScore achieves 97.5% pairwise discrimination accuracy on held-out evaluation. Deployed as a re-ranker for Agent S3 on OSWorld, an environment entirely unseen during training, IntentScore improves task success rate by 6.9 points, demonstrating that reward estimation learned from heterogeneous offline trajectories generalizes to unseen agents and task distributions.",
+  "feed": "arxiv-cs-AI"
+}

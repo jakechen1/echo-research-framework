@@ -1,0 +1,7 @@
+{
+  "id": "4b3f834467d38d63",
+  "title": "Self-Improving Pretraining: using post-trained models to pretrain better models",
+  "link": "https://arxiv.org/abs/2601.21343",
+  "summary": "arXiv:2601.21343v3 Announce Type: replace-cross \nAbstract: Large language models are classically trained in stages: pretraining on raw text followed by post-training for instruction following and reasoning. However, this separation creates a fundamental limitation: many desirable behaviors such as safety, factuality, overall generation quality, and reasoning ability are only added at a late stage, even though the patterns learned earlier strongly shape a model's capabilities. To tackle this issue, we introduce a new way to pretrain and mid-train models that incorporates these behaviors earlier. We utilize an existing strong, post-trained model to both rewrite pretraining data and to judge policy model rollouts, thus using reinforcement earlier in training. In our experiments, we show this can give strong gains in quality, safety, factuality and reasoning.",
+  "feed": "arxiv-cs-LG"
+}

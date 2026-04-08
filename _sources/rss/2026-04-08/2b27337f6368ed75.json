@@ -1,0 +1,7 @@
+{
+  "id": "2b27337f6368ed75",
+  "title": "Controllable protein design with particle-based Feynman-Kac steering",
+  "link": "https://arxiv.org/abs/2511.09216",
+  "summary": "arXiv:2511.09216v2 Announce Type: replace \nAbstract: Proteins underpin most biological function, and the ability to design them with tailored structures and properties is central to advances in biotechnology. Diffusion-based generative models have emerged as powerful tools for protein design, but steering them toward proteins with specified properties remains challenging. The Feynman-Kac (FK) framework provides a principled way to guide diffusion models using user-defined rewards. In this paper, we enable FK-based steering of RFdiffusion through the development of guiding potentials that leverage ProteinMPNN and structural relaxation to guide the diffusion process towards desired properties. We show that steering can be used to consistently improve predicted interface energetics and increase binder designability by $89.5\\%$. Together, these results establish that diffusion-based protein design can be effectively steered toward arbitrary, non-differentiable objectives, providing a model-independent framework for controllable protein generation.",
+  "feed": "arxiv-cs-LG"
+}

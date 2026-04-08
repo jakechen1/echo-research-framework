@@ -1,0 +1,7 @@
+{
+  "id": "03aef7bf56c74cbd",
+  "title": "A Bayesian Information-Theoretic Approach to Data Attribution",
+  "link": "https://arxiv.org/abs/2604.03858",
+  "summary": "arXiv:2604.03858v1 Announce Type: new \nAbstract: Training Data Attribution (TDA) seeks to trace model predictions back to influential training examples, enhancing interpretability and safety. We formulate TDA as a Bayesian information-theoretic problem: subsets are scored by the information loss they induce - the entropy increase at a query when removed. This criterion credits examples for resolving predictive uncertainty rather than label noise. To scale to modern networks, we approximate information loss using a Gaussian Process surrogate built from tangent features. We show this aligns with classical influence scores for single-example attribution while promoting diversity for subsets. For even larger-scale retrieval, we relax to an information-gain objective and add a variance correction for scalable attribution in vector databases. Experiments show competitive performance on counterfactual sensitivity, ground-truth retrieval and coreset selection, showing that our method scales to modern architectures while bridging principled measures with practice.",
+  "feed": "arxiv-cs-LG"
+}

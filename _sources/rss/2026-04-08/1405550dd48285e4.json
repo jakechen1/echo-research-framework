@@ -1,0 +1,7 @@
+{
+  "id": "1405550dd48285e4",
+  "title": "Compositional amortized inference for large-scale hierarchical Bayesian models",
+  "link": "https://arxiv.org/abs/2505.14429",
+  "summary": "arXiv:2505.14429v5 Announce Type: replace \nAbstract: Amortized Bayesian inference (ABI) with neural networks has emerged as a powerful simulation-based approach for estimating complex mechanistic models. However, extending ABI to hierarchical models, a cornerstone of modern Bayesian analysis, has been a major hurdle due to the need to simulate and process massive datasets. Our study tackles these challenges by extending compositional score matching (CSM), a divide-and-conquer strategy for Bayesian updating using diffusion models. We develop a new error-damping estimator to address previous stability issues of CSM when aggregating large numbers of data points. We first verified the numerical stability with up to 100,000 data points on a controlled benchmark. We then evaluated our method on a hierarchical AR model, achieving competitive performance to direct ABI baselines on smaller problem sizes while using less than one full model simulation for larger problem sizes. Finally, we address a large-scale inverse problem in advanced microscopy with over 750,000 parameters, demonstrating its relevance to real scientific applications.",
+  "feed": "arxiv-q-bio"
+}

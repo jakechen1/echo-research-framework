@@ -1,0 +1,7 @@
+{
+  "id": "72fbdb0537a74409",
+  "title": "Nearly Optimal Best Arm Identification for Semiparametric Bandits",
+  "link": "https://arxiv.org/abs/2604.03969",
+  "summary": "arXiv:2604.03969v1 Announce Type: cross \nAbstract: We study fixed-confidence Best Arm Identification (BAI) in semiparametric bandits, where rewards are linear in arm features plus an unknown additive baseline shift. Unlike linear-bandit BAI, this setting requires orthogonalized regression, and its instance-optimal sample complexity has remained open. For the transductive setting, we establish an attainable instance-dependent lower bound characterized by the corresponding linear-bandit complexity on shifted features. We then propose a computationally efficient phase-elimination algorithm based on a new $XY$-design for orthogonalized regression. Our analysis yields a nearly optimal high-probability sample-complexity upper bound, up to log factors and an additive $d^2$ term, and experiments on synthetic instances and the Jester dataset show clear gains over prior baselines.",
+  "feed": "arxiv-cs-LG"
+}

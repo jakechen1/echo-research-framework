@@ -1,0 +1,7 @@
+{
+  "id": "d02b1847240a8ca8",
+  "title": "Controllable Singing Style Conversion with Boundary-Aware Information Bottleneck",
+  "link": "https://arxiv.org/abs/2604.05526",
+  "summary": "arXiv:2604.05526v1 Announce Type: cross \nAbstract: This paper presents the submission of the S4 team to the Singing Voice Conversion Challenge 2025 (SVCC2025)-a novel singing style conversion system that advances fine-grained style conversion and control within in-domain settings. To address the critical challenges of style leakage, dynamic rendering, and high-fidelity generation with limited data, we introduce three key innovations: a boundary-aware Whisper bottleneck that pools phoneme-span representations to suppress residual source style while preserving linguistic content; an explicit frame-level technique matrix, enhanced by targeted F0 processing during inference, for stable and distinct dynamic style rendering; and a perceptually motivated high-frequency band completion strategy that leverages an auxiliary standard 48kHz SVC model to augment the high-frequency spectrum, thereby overcoming data scarcity without overfitting. In the official SVCC2025 subjective evaluation, our system achieves the best naturalness performance among all submissions while maintaining competitive results in speaker similarity and technique control, despite using significantly less extra singing data than other top-performing systems. Audio samples are available online.",
+  "feed": "arxiv-cs-AI"
+}

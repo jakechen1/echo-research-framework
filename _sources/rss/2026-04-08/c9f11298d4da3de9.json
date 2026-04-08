@@ -1,0 +1,7 @@
+{
+  "id": "c9f11298d4da3de9",
+  "title": "Which Leakage Types Matter?",
+  "link": "https://arxiv.org/abs/2604.04199",
+  "summary": "arXiv:2604.04199v1 Announce Type: new \nAbstract: Twenty-eight within-subject counterfactual experiments across 2,047 tabular datasets, plus a boundary experiment on 129 temporal datasets, measuring the severity of four data leakage classes in machine learning. Class I (estimation - fitting scalers on full data) is negligible: all nine conditions produce $|\\Delta\\text{AUC}| \\leq 0.005$. Class II (selection - peeking, seed cherry-picking) is substantial: ~90% of the measured effect is noise exploitation that inflates reported scores. Class III (memorization) scales with model capacity: d_z = 0.37 (Naive Bayes) to 1.11 (Decision Tree). Class IV (boundary) is invisible under random CV. The textbook emphasis is inverted: normalization leakage matters least; selection leakage at practical dataset sizes matters most.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "477a914a4d929345",
+  "title": "Phonetic Perturbations Reveal Tokenizer-Rooted Safety Gaps in LLMs",
+  "link": "https://arxiv.org/abs/2505.14226",
+  "summary": "arXiv:2505.14226v5 Announce Type: replace-cross \nAbstract: Safety-aligned LLMs remain vulnerable to digital phenomena like textese that introduce non-canonical perturbations to words but preserve the phonetics. We introduce CMP-RT (code-mixed phonetic perturbations for red-teaming), a novel diagnostic probe that pinpoints tokenization as the root cause of this vulnerability. A mechanistic analysis reveals that phonetic perturbations fragment safety-critical tokens into benign sub-words, suppressing their attribution scores while preserving prompt interpretability -- causing safety mechanisms to fail despite excellent input understanding. We demonstrate that this vulnerability evades standard defenses, persists across modalities and state-of-the-art (SOTA) models including Gemini-3-Pro, and scales through simple supervised fine-tuning (SFT). Furthermore, layer-wise probing shows perturbed and canonical input representations align up to a critical layer depth; enforcing output equivalence robustly recovers the lost representations, providing causal evidence for a structural gap between pre-training and alignment, and establishing tokenization as a critical, under-examined vulnerability in current safety pipelines.",
+  "feed": "arxiv-cs-AI"
+}

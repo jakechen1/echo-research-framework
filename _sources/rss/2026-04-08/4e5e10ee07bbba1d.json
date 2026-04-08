@@ -1,0 +1,7 @@
+{
+  "id": "4e5e10ee07bbba1d",
+  "title": "CATNet: A geometric deep learning approach for CAT bond spread prediction in the primary market",
+  "link": "https://arxiv.org/abs/2508.10208",
+  "summary": "arXiv:2508.10208v2 Announce Type: replace-cross \nAbstract: Traditional models for pricing catastrophe (CAT) bonds struggle to capture the complex, relational data inherent in these instruments. This paper introduces CATNet, a novel framework that applies a geometric deep learning architecture, the Relational Graph Convolutional Network (R-GCN), to model the CAT bond primary market as a graph, leveraging its underlying network structure for spread prediction. Our analysis reveals that the CAT bond market exhibits the characteristics of a scale-free network, a structure dominated by a few highly connected and influential hubs. CATNet demonstrates higher predictive performance, significantly outperforming strong Random Forest and XGBoost benchmarks. Interpretability analysis confirms that the network's topological properties are not mere statistical artifacts; they are quantitative proxies for long-held industry intuition regarding issuer reputation, underwriter influence, and peril concentration. This research provides evidence that network connectivity is a key determinant of price, offering a new paradigm for risk assessment and proving that graph-based models can deliver both state-of-the-art accuracy and deeper, quantifiable market insights.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "a0bc911267846781",
+  "title": "Segmentation of Gray Matters and White Matters from Brain MRI data",
+  "link": "https://arxiv.org/abs/2603.29171",
+  "summary": "arXiv:2603.29171v2 Announce Type: replace-cross \nAbstract: Accurate segmentation of brain tissues such as gray matter and white matter from magnetic resonance imaging is essential for studying brain anatomy, diagnosing neurological disorders, and monitoring disease progression. Traditional methods, such as FSL FAST, produce tissue probability maps but often require task-specific adjustments and face challenges with diverse imaging conditions. Recent foundation models, such as MedSAM, offer a prompt-based approach that leverages large-scale pretraining. In this paper, we propose a modified MedSAM model designed for multi-class brain tissue segmentation. Our preprocessing pipeline includes skull stripping with FSL BET, tissue probability mapping with FSL FAST, and converting these into 2D axial, sagittal, coronal slices with multi-class labels (background, gray matter, and white matter). We extend MedSAM's mask decoder to three classes, freezing the pre-trained image encoder and fine-tuning the prompt encoder and decoder. Experiments on the IXI dataset achieve Dice scores up to 0.8751. This work demonstrates that foundation models like MedSAM can be adapted for multi-class medical image segmentation with minimal architectural modifications. Our findings suggest that such models can be extended to more diverse medical imaging scenarios in future work.",
+  "feed": "arxiv-cs-LG"
+}

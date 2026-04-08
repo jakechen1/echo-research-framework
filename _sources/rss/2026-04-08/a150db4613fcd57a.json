@@ -1,0 +1,7 @@
+{
+  "id": "a150db4613fcd57a",
+  "title": "ENTER: Event Based Interpretable Reasoning for VideoQA",
+  "link": "https://arxiv.org/abs/2501.14194",
+  "summary": "arXiv:2501.14194v2 Announce Type: replace-cross \nAbstract: In this paper, we present ENTER, an interpretable Video Question Answering (VideoQA) system based on event graphs. Event graphs convert videos into graphical representations, where video events form the nodes and event-event relationships (temporal/causal/hierarchical) form the edges. This structured representation offers many benefits: 1) Interpretable VideoQA via generated code that parses event-graph; 2) Incorporation of contextual visual information in the reasoning process (code generation) via event graphs; 3) Robust VideoQA via Hierarchical Iterative Update of the event graphs. Existing interpretable VideoQA systems are often top-down, disregarding low-level visual information in the reasoning plan generation, and are brittle. While bottom-up approaches produce responses from visual data, they lack interpretability. Experimental results on NExT-QA, IntentQA, and EgoSchema demonstrate that not only does our method outperform existing top-down approaches while obtaining competitive performance against bottom-up approaches, but more importantly, offers superior interpretability and explainability in the reasoning process.",
+  "feed": "arxiv-cs-AI"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "33a4276d63899b9c",
+  "title": "ModalImmune: Immunity Driven Unlearning via Self Destructive Training",
+  "link": "https://arxiv.org/abs/2602.16197",
+  "summary": "arXiv:2602.16197v3 Announce Type: replace \nAbstract: Multimodal systems are vulnerable to partial or complete loss of input channels at deployment, which undermines reliability in real-world settings. This paper presents ModalImmune, a training framework that enforces modality immunity by intentionally and controllably collapsing selected modality information during training so the model learns joint representations that are robust to destructive modality influence. The framework combines a spectrum-adaptive collapse regularizer, an information-gain guided controller for targeted interventions, curvature-aware gradient masking to stabilize destructive updates, and a certified Neumann-truncated hyper-gradient procedure for automatic meta-parameter adaptation. Empirical evaluation on standard multimodal benchmarks demonstrates that ModalImmune improves resilience to modality removal and corruption while retaining convergence stability and reconstruction capacity.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "d169910641c8cc88",
+  "title": "Auxiliary-predicted Compress Memory Model(ApCM Model): A Neural Memory Storage Model Based on Invertible Compression and Learnable Prediction",
+  "link": "https://arxiv.org/abs/2601.11609",
+  "summary": "arXiv:2601.11609v2 Announce Type: replace \nAbstract: Current large language models (LLMs) generally lack an effective runtime memory mechanism,making it difficult to adapt to dynamic and personalized interaction requirements. To address this issue, this paper proposes a novel neural memory storage architecture--the Auxiliary Prediction Compression Memory Model (ApCM Model).",
+  "feed": "arxiv-cs-LG"
+}

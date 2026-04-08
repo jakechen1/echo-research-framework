@@ -1,0 +1,7 @@
+{
+  "id": "d6e4af92c47f0015",
+  "title": "Optical Context Compression Is Just (Bad) Autoencoding",
+  "link": "https://arxiv.org/abs/2512.03643",
+  "summary": "arXiv:2512.03643v2 Announce Type: replace-cross \nAbstract: DeepSeek-OCR shows that rendered text can be reconstructed from a small number of vision tokens, sparking excitement about using vision as a compression medium for long textual contexts. But this pipeline requires rendering token embeddings to pixels and compressing from there -- discarding learned representations in favor of an image the vision encoder must then recover from. We ask whether this detour helps. Comparing DeepSeek-OCR's vision encoder against near-zero-parameter mean pooling and a learned hierarchical encoder, we find it does not. For reconstruction, simple direct methods match or surpass vision at every compression ratio. For language modeling, vision performs comparably to truncation -- a baseline that simply discards context -- and loses to the hierarchical encoder at every compression ratio. As expected, all compression methods outperform truncation for factual recall, but vision never surpasses the best direct baseline. The excitement around optical context compression outpaces the evidence. Code and checkpoints are available at https://github.com/ivnle/bad-autoencoding.",
+  "feed": "arxiv-cs-LG"
+}

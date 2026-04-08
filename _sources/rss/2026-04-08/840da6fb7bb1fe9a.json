@@ -1,0 +1,7 @@
+{
+  "id": "840da6fb7bb1fe9a",
+  "title": "PCA-Driven Adaptive Sensor Triage for Edge AI Inference",
+  "link": "https://arxiv.org/abs/2604.05045",
+  "summary": "arXiv:2604.05045v1 Announce Type: cross \nAbstract: Multi-channel sensor networks in industrial IoT often exceed available bandwidth. We propose PCA-Triage, a streaming algorithm that converts incremental PCA loadings into proportional per-channel sampling rates under a bandwidth budget. PCA-Triage runs in O(wdk) time with zero trainable parameters (0.67 ms per decision).\n  We evaluate on 7 benchmarks (8--82 channels) against 9 baselines. PCA-Triage is the best unsupervised method on 3 of 6 datasets at 50% bandwidth, winning 5 of 6 against every baseline with large effect sizes (r = 0.71--0.91). On TEP, it achieves F1 = 0.961 +/- 0.001 -- within 0.1% of full-data performance -- while maintaining F1 > 0.90 at 30% budget. Targeted extensions push F1 to 0.970. The algorithm is robust to packet loss and sensor noise (3.7--4.8% degradation under combined worst-case).",
+  "feed": "arxiv-cs-AI"
+}

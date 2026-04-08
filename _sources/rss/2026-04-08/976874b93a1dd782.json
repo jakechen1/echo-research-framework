@@ -1,0 +1,7 @@
+{
+  "id": "976874b93a1dd782",
+  "title": "How Long short-term memory artificial neural network, synthetic data, and fine-tuning improve the classification of raw EEG data",
+  "link": "https://arxiv.org/abs/2604.04316",
+  "summary": "arXiv:2604.04316v1 Announce Type: new \nAbstract: In this paper, we discuss a Machine Learning pipeline for the classification of EEG data. We propose a combination of synthetic data generation, long short-term memory artificial neural network (LSTM), and fine-tuning to solve classification problems for experiments with implicit visual stimuli, such as the Necker cube with different levels of ambiguity. The developed approach increased the quality of the classification model of raw EEG data.",
+  "feed": "arxiv-cs-LG"
+}

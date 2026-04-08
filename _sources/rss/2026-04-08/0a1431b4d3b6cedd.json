@@ -1,0 +1,7 @@
+{
+  "id": "0a1431b4d3b6cedd",
+  "title": "Accelerated Sinkhorn Algorithms for Partial Optimal Transport",
+  "link": "https://arxiv.org/abs/2601.17196",
+  "summary": "arXiv:2601.17196v4 Announce Type: replace \nAbstract: Partial Optimal Transport (POT) addresses the problem of transporting only a fraction of the total mass between two distributions, making it suitable when marginals have unequal size or contain outliers. While Sinkhorn-based methods are widely used, their complexity bounds for POT remain suboptimal and can limit scalability. We introduce Accelerated Sinkhorn for POT (ASPOT), which integrates alternating minimization with Nesterov-style acceleration in the POT setting, yielding a complexity of $\\mathcal{O}(n^{7/3}\\varepsilon^{-5/3})$. We also show that an informed choice of the entropic parameter $\\gamma$ improves rates for the classical Sinkhorn method. Experiments on real-world applications validate our theories and demonstrate the favorable performance of our proposed methods.",
+  "feed": "arxiv-cs-LG"
+}

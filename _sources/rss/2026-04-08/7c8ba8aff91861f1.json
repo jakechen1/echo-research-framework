@@ -1,0 +1,7 @@
+{
+  "id": "7c8ba8aff91861f1",
+  "title": "Evaluation of Embedding-Based and Generative Methods for LLM-Driven Document Classification: Opportunities and Challenges",
+  "link": "https://arxiv.org/abs/2604.04997",
+  "summary": "arXiv:2604.04997v1 Announce Type: cross \nAbstract: This work presents a comparative analysis of embedding-based and generative models for classifying geoscience technical documents. Using a multi-disciplinary benchmark dataset, we evaluated the trade-offs between model accuracy, stability, and computational cost. We find that generative Vision-Language Models (VLMs) like Qwen2.5-VL, enhanced with Chain-of-Thought (CoT) prompting, achieve superior zero-shot accuracy (82%) compared to state-of-the-art multimodal embedding models like QQMM (63%). We also demonstrate that while supervised fine-tuning (SFT) can improve VLM performance, it is sensitive to training data imbalance.",
+  "feed": "arxiv-cs-AI"
+}

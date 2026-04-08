@@ -1,0 +1,7 @@
+{
+  "id": "5b15ba94c7887931",
+  "title": "\"OK Aura, Be Fair With Me\": Demographics-Agnostic Training for Bias Mitigation in Wake-up Word Detection",
+  "link": "https://arxiv.org/abs/2604.05830",
+  "summary": "arXiv:2604.05830v1 Announce Type: cross \nAbstract: Voice-based interfaces are widely used; however, achieving fair Wake-up Word detection across diverse speaker populations remains a critical challenge due to persistent demographic biases. This study evaluates the effectiveness of demographics-agnostic training techniques in mitigating performance disparities among speakers of varying sex, age, and accent. We utilize the OK Aura database for our experiments, employing a training methodology that excludes demographic labels, which are reserved for evaluation purposes. We explore (i) data augmentation techniques to enhance model generalization and (ii) knowledge distillation of pre-trained foundational speech models. The experimental results indicate that these demographics-agnostic training techniques markedly reduce demographic bias, leading to a more equitable performance profile across different speaker groups. Specifically, one of the evaluated techniques achieves a Predictive Disparity reduction of 39.94\\% for sex, 83.65\\% for age, and 40.48\\% for accent when compared to the baseline. This study highlights the effectiveness of label-agnostic methodologies in fostering fairness in Wake-up Word detection.",
+  "feed": "arxiv-cs-AI"
+}

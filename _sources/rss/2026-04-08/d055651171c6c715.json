@@ -1,0 +1,7 @@
+{
+  "id": "d055651171c6c715",
+  "title": "Contextuality as an External Bookkeeping Cost under Fixed Shared-State Semantics",
+  "link": "https://arxiv.org/abs/2601.20167",
+  "summary": "arXiv:2601.20167v2 Announce Type: cross \nAbstract: Contextuality is a central feature distinguishing quantum from classical probability theories, but its operational meaning is often stated only qualitatively. In this Letter, we study a simple information-theoretic question: how much additional contextual information must a classical simulation introduce when it tries to keep a shared internal description fixed across contexts? To make this question precise, we analyze a minimal external-label simulation model in which the remaining context dependence is carried only by an auxiliary label. For this model, we define an obstruction cost as the minimum mutual information between the context and the auxiliary label required to reproduce the observed statistics. We then prove a conservative quantitative lower bound: any linear witness that separates the observed statistics from the zero-obstruction set yields a positive lower bound on this cost. We do not claim that this bound is tight, and we do not claim that the simulation model covers every possible classical architecture. Its role is narrower and more explicit: under fixed shared-state semantics, contextuality can be read as a certificate of irreducible external bookkeeping cost in a simple and well-defined simulation model.",
+  "feed": "arxiv-cs-AI"
+}

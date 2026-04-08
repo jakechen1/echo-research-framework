@@ -1,0 +1,7 @@
+{
+  "id": "93f7bca4845b3f0b",
+  "title": "Deep Kuratowski Embedding Neural Networks for Wasserstein Metric Learning",
+  "link": "https://arxiv.org/abs/2604.04343",
+  "summary": "arXiv:2604.04343v1 Announce Type: new \nAbstract: Computing pairwise Wasserstein distances is a fundamental bottleneck in data analysis pipelines. Motivated by the classical Kuratowski embedding theorem, we propose two neural architectures for learning to approximate the Wasserstein-2 distance ($W_2$) from data. The first, DeepKENN, aggregates distances across all intermediate feature maps of a CNN using learnable positive weights. The second, ODE-KENN, replaces the discrete layer stack with a Neural ODE, embedding each input into the infinite-dimensional Banach space $C^1([0,1], \\mathbb{R}^d)$ and providing implicit regularization via trajectory smoothness. Experiments on MNIST with exact precomputed $W_2$ distances show that ODE-KENN achieves a 28% lower test MSE than the single-layer baseline and 18% lower than DeepKENN under matched parameter counts, while exhibiting a smaller generalization gap. The resulting fast surrogate can replace the expensive $W_2$ oracle in downstream pairwise distance computations.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "2806b04275839de2",
+  "title": "Beta-Scheduling: Momentum from Critical Damping as a Diagnostic and Correction Tool for Neural Network Training",
+  "link": "https://arxiv.org/abs/2603.28921",
+  "summary": "arXiv:2603.28921v2 Announce Type: replace \nAbstract: Standard neural network training uses constant momentum (typically 0.9), a convention dating to 1964 with limited theoretical justification for its\n  optimality. We derive a time-varying momentum schedule from the critically damped harmonic oscillator: mu(t) = 1 - 2*sqrt(alpha(t)), where alpha(t) is\n  the current learning rate. This beta-schedule requires zero free parameters beyond the existing learning rate schedule. On ResNet-18/CIFAR-10,\n  beta-scheduling delivers 1.9x faster convergence to 90% accuracy compared to constant momentum. More importantly, the per-layer gradient attribution\n  under this schedule produces a cross-optimizer invariant diagnostic: the same three problem layers are identified regardless of whether the model was\n  trained with SGD or Adam (100% overlap). Surgical correction of only these layers fixes 62 misclassifications while retraining only 18% of parameters.\n  A hybrid schedule -- physics momentum for fast early convergence, then constant momentum for the final refinement -- reaches 95% accuracy fastest\n  among five methods tested. The main contribution is not an accuracy improvement but a principled, parameter-free tool for localizing and correcting\n  specific failure modes in trained networks.",
+  "feed": "arxiv-cs-LG"
+}

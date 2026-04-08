@@ -1,0 +1,7 @@
+{
+  "id": "63a8c6f6a3f1a506",
+  "title": "Understanding and inverse design of implicit bias in stochastic learning: a geometric perspective",
+  "link": "https://arxiv.org/abs/2601.06597",
+  "summary": "arXiv:2601.06597v2 Announce Type: replace \nAbstract: A key challenge in machine learning is to explain how learning dynamics select among the many solutions that achieve identical loss values in overparameterized models - a phenomenon known as implicit bias. Controlling this bias provides a direct mechanism on learned representations, which are central to interpretability, robustness, and reasoning in modern AI systems. Yet, despite its importance, existing explanations remain largely ad hoc and lack a unifying mechanism. We develop a theoretical and constructive framework in which implicit bias emerges as a geometric correction induced by the interplay between gradient noise and continuous symmetries of the loss. We compute the induced bias across a range of architectures, predicting new behaviors and explaining known ones. The approach also enables inverse design: by engineering predictor - preserving parameterizations, it is possible to shape the bias, with sparsity and spectral sparsity emerging as canonical instances. Numerical experiments support the theory and validate the inverse - design framework in controlled settings.",
+  "feed": "arxiv-cs-LG"
+}

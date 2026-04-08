@@ -1,0 +1,7 @@
+{
+  "id": "92c3b429dbd4883f",
+  "title": "Simulating the Evolution of Alignment and Values in Machine Intelligence",
+  "link": "https://arxiv.org/abs/2604.05274",
+  "summary": "arXiv:2604.05274v1 Announce Type: new \nAbstract: Model alignment is currently applied in a vacuum, evaluated primarily through standardised benchmark performance. The purpose of this study is to examine the effects of alignment on populations of models through time. We focus on the treatment of beliefs which contain both an alignment signal (how well it does on the test) and a true value (what the impact actually will be). By applying evolutionary theory we can model how different populations of beliefs and selection methodologies can fix deceptive beliefs through iterative alignment testing. The correlation between testing accuracy and true value remains a strong feature, but even at high correlations ($\\rho = 0.8$) there is variability in the resulting deceptive beliefs that become fixed. Mutations allow for more complex developments, highlighting the increasing need to update the quality of tests to avoid fixation of maliciously deceptive models. Only by combining improving evaluator capabilities, adaptive test design, and mutational dynamics do we see significant reductions in deception while maintaining alignment fitness (permutation test, $p_{\\text{adj}} < 0.001$).",
+  "feed": "arxiv-cs-AI"
+}

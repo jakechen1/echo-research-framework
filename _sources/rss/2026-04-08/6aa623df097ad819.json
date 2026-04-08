@@ -1,0 +1,7 @@
+{
+  "id": "6aa623df097ad819",
+  "title": "Generative Chemical Language Models for Energetic Materials Discovery",
+  "link": "https://arxiv.org/abs/2604.03304",
+  "summary": "arXiv:2604.03304v1 Announce Type: cross \nAbstract: The discovery of new energetic materials remains a pressing challenge hindered by limited availability of high-quality data. To address this, we have developed generative molecular language models that have been pretrained on extensive chemical data and then fine-tuned with curated energetic materials datasets. This transfer-learning strategy extends the chemical language model capabilities beyond the pharmacological space in which they have been predominantly developed, offering a framework applicable to other data-spare discovery problems. Furthermore, we discuss the benefits of fragment-based molecular encodings for chemical language models, in particular in constructing synthetically accessible structures. Together, these advances provide a foundation for accelerating the design of next-generation energetic materials with demanding performance requirements.",
+  "feed": "arxiv-cs-LG"
+}

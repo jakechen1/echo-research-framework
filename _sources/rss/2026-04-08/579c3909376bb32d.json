@@ -1,0 +1,7 @@
+{
+  "id": "579c3909376bb32d",
+  "title": "Piecewise Deterministic Markov Processes for Bayesian Neural Networks",
+  "link": "https://arxiv.org/abs/2302.08724",
+  "summary": "arXiv:2302.08724v4 Announce Type: replace-cross \nAbstract: Inference on modern Bayesian Neural Networks (BNNs) often relies on a variational inference treatment, imposing violated assumptions of independence and the form of the posterior. Traditional MCMC approaches avoid these assumptions at the cost of increased computation due to its incompatibility to subsampling of the likelihood. New Piecewise Deterministic Markov Process (PDMP) samplers permit subsampling, though introduce a model specific inhomogenous Poisson Process (IPPs) which is difficult to sample from. This work introduces a new generic and adaptive thinning scheme for sampling from these IPPs, and demonstrates how this approach can accelerate the application of PDMPs for inference in BNNs. Experimentation illustrates how inference with these methods is computationally feasible, can improve predictive accuracy, MCMC mixing performance, and provide informative uncertainty measurements when compared against other approximate inference schemes.",
+  "feed": "arxiv-cs-LG"
+}

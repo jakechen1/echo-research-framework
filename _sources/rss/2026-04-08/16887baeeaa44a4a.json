@@ -1,0 +1,7 @@
+{
+  "id": "16887baeeaa44a4a",
+  "title": "Learning from Imperfect Demonstrations via Temporal Behavior Tree-Guided Trajectory Repair",
+  "link": "https://arxiv.org/abs/2604.04225",
+  "summary": "arXiv:2604.04225v1 Announce Type: new \nAbstract: Learning robot control policies from demonstrations is a powerful paradigm, yet real-world data is often suboptimal, noisy, or otherwise imperfect, posing significant challenges for imitation and reinforcement learning. In this work, we present a formal framework that leverages Temporal Behavior Trees (TBT), an extension of Signal Temporal Logic (STL) with Behavior Tree semantics, to repair suboptimal trajectories prior to their use in downstream policy learning. Given demonstrations that violate a TBT specification, a model-based repair algorithm corrects trajectory segments to satisfy the formal constraints, yielding a dataset that is both logically consistent and interpretable. The repaired trajectories are then used to extract potential functions that shape the reward signal for reinforcement learning, guiding the agent toward task-consistent regions of the state space without requiring knowledge of the agent's kinematic model. We demonstrate the effectiveness of this framework on discrete grid-world navigation and continuous single and multi-agent reach-avoid tasks, highlighting its potential for data-efficient robot learning in settings where high-quality demonstrations cannot be assumed.",
+  "feed": "arxiv-cs-LG"
+}

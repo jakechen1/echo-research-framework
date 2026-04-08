@@ -1,0 +1,7 @@
+{
+  "id": "2d424f136320cdc7",
+  "title": "Federated Transfer Learning with Differential Privacy",
+  "link": "https://arxiv.org/abs/2403.11343",
+  "summary": "arXiv:2403.11343v4 Announce Type: replace \nAbstract: Federated learning has emerged as a powerful framework for analysing distributed data, yet two challenges remain pivotal: heterogeneity across sites and privacy of local data. In this paper, we address both challenges within a federated transfer learning framework, aiming to enhance learning on a target data set by leveraging information from multiple heterogeneous source data sets while adhering to privacy constraints. We rigorously formulate the notion of federated differential privacy, which offers privacy guarantees for each data set without assuming a trusted central server. Under this privacy model, we study four statistical problems: univariate mean estimation, low-dimensional linear regression, high-dimensional linear regression, and M-estimation. By investigating the minimax rates and quantifying the cost of privacy, we show that federated differential privacy is an intermediate privacy model between the well-established local and central models of differential privacy. Our analyses account for data heterogeneity and privacy, highlighting the fundamental costs associated with each factor and the benefits of knowledge transfer in federated learning.",
+  "feed": "arxiv-cs-LG"
+}

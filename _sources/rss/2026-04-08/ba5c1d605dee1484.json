@@ -1,0 +1,7 @@
+{
+  "id": "ba5c1d605dee1484",
+  "title": "Robust AI Security and Alignment: A Sisyphean Endeavor?",
+  "link": "https://arxiv.org/abs/2512.10100",
+  "summary": "arXiv:2512.10100v2 Announce Type: replace \nAbstract: This manuscript establishes information-theoretic limitations for robustness of AI security and alignment by extending G\\\"odel's incompleteness theorem to AI. Knowing these limitations and preparing for the challenges they bring is critically important for the responsible adoption of the AI technology. Practical approaches to dealing with these challenges are provided as well. Broader implications for cognitive reasoning limitations of AI systems are also proven.",
+  "feed": "arxiv-cs-AI"
+}

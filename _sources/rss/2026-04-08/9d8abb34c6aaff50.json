@@ -1,0 +1,7 @@
+{
+  "id": "9d8abb34c6aaff50",
+  "title": "When GPUs Fail Quietly: Observability-Aware Early Warning Beyond Numeric Telemetry",
+  "link": "https://arxiv.org/abs/2603.28781",
+  "summary": "arXiv:2603.28781v2 Announce Type: replace-cross \nAbstract: GPU nodes are central to modern HPC and AI workloads, yet many failures do not manifest as immediate hard faults. While some instabilities emerge gradually as weak thermal or efficiency drift, a significant class occurs abruptly with little or no numeric precursor. In these detachment-class failures, GPUs become unavailable at the driver or interconnect level and the dominant observable signal is structural, including disappearance of device metrics and degradation of monitoring payload integrity.\n  This paper proposes an observability-aware early-warning framework that jointly models (i) utilization-aware thermal drift signatures in GPU telemetry and (ii) monitoring-pipeline degradation indicators such as scrape latency increase, sample loss, time-series gaps, and device-metric disappearance. The framework is evaluated on production telemetry from GPU nodes at GWDG, where GPU, node, monitoring, and scheduler signals can be correlated.\n  Results show that detachment failures exhibit minimal numeric precursor and are primarily observable through structural telemetry collapse, while joint modeling increases early-warning lead time compared to GPU-only detection. The dataset used in this study is publicly available at https://doi.org/10.5281/zenodo.19052367.",
+  "feed": "arxiv-cs-LG"
+}

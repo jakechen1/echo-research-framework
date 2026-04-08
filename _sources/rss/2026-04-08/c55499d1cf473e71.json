@@ -1,0 +1,7 @@
+{
+  "id": "c55499d1cf473e71",
+  "title": "Frame of Reference: Addressing the Challenges of Common Ground Representation in Situational Dialogs",
+  "link": "https://arxiv.org/abs/2601.09365",
+  "summary": "arXiv:2601.09365v2 Announce Type: replace-cross \nAbstract: Common ground plays a critical role in situated spoken dialogs, where interlocutors must establish and maintain shared references to entities, events, and relations to sustain coherent interaction in a shared space and over time. With the increasing presence of embodied conversational agents and social robots, the ability to correctly ground this kind of conversational content in order to refer back later also becomes important for dialog systems. Prior studies have demonstrated that LLMs are capable of performing certain grounding acts like acknowledgments. However, relatively little work has investigated their capacity to leverage the grounded information, like in complex scenarios involving space and time (e.g., \"let's go to that caf\\'e near the park we went to yesterday\"). To that end, in this work, we evaluate a model's ability to establish common ground by utilizing these \"relational references\" in the dynamic and shared environments of situated dialogs. We then test multiple methods for representing common ground and further propose approaches to improve their performance by using reinforcement learning on our synthetically generated dialog data .",
+  "feed": "arxiv-cs-AI"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "d6a489c59aec2f98",
+  "title": "When Models Know More Than They Say: Probing Analogical Reasoning in LLMs",
+  "link": "https://arxiv.org/abs/2604.03877",
+  "summary": "arXiv:2604.03877v1 Announce Type: cross \nAbstract: Analogical reasoning is a core cognitive faculty essential for narrative understanding. While LLMs perform well when surface and structural cues align, they struggle in cases where an analogy is not apparent on the surface but requires latent information, suggesting limitations in abstraction and generalisation. In this paper we compare a model's probed representations with its prompted performance at detecting narrative analogies, revealing an asymmetry: for rhetorical analogies, probing significantly outperforms prompting in open-source models, while for narrative analogies, they achieve a similar (low) performance. This suggests that the relationship between internal representations and prompted behavior is task-dependent and may reflect limitations in how prompting accesses available information.",
+  "feed": "arxiv-cs-LG"
+}

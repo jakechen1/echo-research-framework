@@ -1,0 +1,7 @@
+{
+  "id": "120610a1a8450cf0",
+  "title": "VisionClaw: Always-On AI Agents through Smart Glasses",
+  "link": "https://arxiv.org/abs/2604.03486",
+  "summary": "arXiv:2604.03486v1 Announce Type: cross \nAbstract: We present VisionClaw, an always-on wearable AI agent that integrates live egocentric perception with agentic task execution. Running on Meta Ray-Ban smart glasses, VisionClaw continuously perceives real-world context and enables in-situ, speech-driven action initiation and delegation via OpenClaw AI agents. Therefore, users can directly execute tasks through the smart glasses, such as adding real-world objects to an Amazon cart, generating notes from physical documents, receiving meeting briefings on the go, creating events from posters, or controlling IoT devices. We evaluate VisionClaw through a controlled laboratory study (N=12) and a longitudinal deployment study (N=5). Results show that integrating perception and execution enables faster task completion and reduces interaction overhead compared to non-always-on and non-agent baselines. Beyond performance gains, deployment findings reveal a shift in interaction: tasks are initiated opportunistically during ongoing activities, and execution is increasingly delegated rather than manually controlled. These results suggest a new paradigm for wearable AI agents, where perception and action are continuously coupled to support situated, hands-free interaction.",
+  "feed": "arxiv-cs-LG"
+}

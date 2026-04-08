@@ -1,0 +1,7 @@
+{
+  "id": "6504fc9b726fab05",
+  "title": "Biconvex Biclustering",
+  "link": "https://arxiv.org/abs/2604.03936",
+  "summary": "arXiv:2604.03936v1 Announce Type: cross \nAbstract: This article proposes a biconvex modification to convex biclustering in order to improve its performance in high-dimensional settings. In contrast to heuristics that discard a subset of noisy features a priori, our method jointly learns and accordingly weighs informative features while discovering biclusters. Moreover, the method is adaptive to the data, and is accompanied by an efficient algorithm based on proximal alternating minimization, complete with detailed guidance on hyperparameter tuning and efficient solutions to optimization subproblems. These contributions are theoretically grounded; we establish finite-sample bounds on the objective function under sub-Gaussian errors, and generalize these guarantees to cases where input affinities need not be uniform. Extensive simulation results reveal our method consistently recovers underlying biclusters while weighing and selecting features appropriately, outperforming peer methods. An application to a gene microarray dataset of lymphoma samples recovers biclusters matching an underlying classification, while giving additional interpretation to the mRNA samples via the column groupings and fitted weights.",
+  "feed": "arxiv-cs-LG"
+}

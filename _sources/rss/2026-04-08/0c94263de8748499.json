@@ -1,0 +1,7 @@
+{
+  "id": "0c94263de8748499",
+  "title": "Common Inpainted Objects In-N-Out of Context",
+  "link": "https://arxiv.org/abs/2506.00721",
+  "summary": "arXiv:2506.00721v2 Announce Type: replace-cross \nAbstract: We present Common Inpainted Objects In-N-Out of Context (COinCO), a novel dataset addressing the scarcity of out-of-context examples in existing vision datasets. By systematically replacing objects in COCO images through diffusion-based inpainting, we create 97,722 unique images featuring both contextually coherent and inconsistent scenes, enabling effective context learning. Each inpainted object is meticulously verified and categorized as in- or out-of-context through Large Vision Language Model assessments. We demonstrate three key tasks enabled by COinCO: (1) a fine-grained context reasoning approach that classifies objects as in- or out-of-context based on three criteria; (2) a novel Objects-from-Context prediction task that determines which new objects naturally belong in given scenes at both instance and clique level semantics, and (3) context-enhanced fake detection on state-of-the-art methods without fine-tuning. COinCO provides a controlled testbed with contextual variations, establishing a foundation for advancing context-aware visual understanding in computer vision, including image forensics. Code and dataset are available at https://co-in-co.github.io/.",
+  "feed": "arxiv-cs-LG"
+}
