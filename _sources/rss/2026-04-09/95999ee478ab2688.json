@@ -1,0 +1,7 @@
+{
+  "id": "95999ee478ab2688",
+  "title": "ADOPT: Adaptive Dependency-Guided Joint Prompt Optimization for Multi-Step LLM Pipelines",
+  "link": "https://arxiv.org/abs/2512.24933",
+  "summary": "arXiv:2512.24933v2 Announce Type: replace-cross \nAbstract: Multi-step LLM pipelines can solve complex tasks, but jointly optimizing prompts across steps remains challenging due to missing step-level supervision and inter-step dependency. We propose ADOPT, an adaptive dependency-guided joint prompt optimization framework for multi-step LLM pipelines. ADOPT analyzes the dependency between each LLM step and the final output, constructs a global textual gradient from final-task errors, and decomposes it into step-level local textual gradients, providing more precise optimization signals for local prompt updates. It further decouples signal estimation from prompt updating, enabling flexible integration of single-prompt optimizers, and uses a Shapley-based strategy to adaptively allocate optimization resources to high-impact steps. Experiments on real-world datasets and structurally diverse pipelines demonstrate that ADOPT is effective and robust, consistently outperforming strong prompt optimization baselines.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "24ea878f1511b478",
+  "title": "Analyzing Multimodal Interaction Strategies for LLM-Assisted Manipulation of 3D Scenes",
+  "link": "https://arxiv.org/abs/2410.22177",
+  "summary": "arXiv:2410.22177v2 Announce Type: replace-cross \nAbstract: As more applications of large language models (LLMs) for 3D content for immersive environments emerge, it is crucial to study user behaviour to identify interaction patterns and potential barriers to guide the future design of immersive content creation and editing systems which involve LLMs. In an empirical user study with 12 participants, we combine quantitative usage data with post-experience questionnaire feedback to reveal common interaction patterns and key barriers in LLM-assisted 3D scene editing systems. We identify opportunities for improving natural language interfaces in 3D design tools and propose design recommendations for future LLM-integrated 3D content creation systems. Through an empirical study, we demonstrate that LLM-assisted interactive systems can be used productively in immersive environments.",
+  "feed": "arxiv-cs-AI"
+}

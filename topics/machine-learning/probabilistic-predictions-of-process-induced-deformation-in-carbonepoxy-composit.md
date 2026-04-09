@@ -1,0 +1,13 @@
+title: Probabilistic Predictions of Process-Induced Deformation in Carbon/Epoxy Composites Using a Deep Operator Network
+created: 2024-05-23
+source: https://arxiv.org/abs/2512.13746
+tags: [deep-learning, composite-manufacturing, uncertainty-quantification, physics-informed-ml]
+category: [ai, machine-learning, technology]
+
+The manufacturing of [[Carbon/Epoxy Composites]] is heavily impacted by [[Process-Induced Deformation]] (PID), a phenomenon where internal residual stresses lead to structural warping and dimensional instability. These stresses arise from the fundamental mismatch in the [[Coefficient of Thermal Expansion]] between the fiber reinforcement and the polymer matrix, as well as the volumetric [[Cure Shrinkage]] characteristic of [[Thermoset]] resins during the curing process.
+
+This research introduces a hybrid methodology for predicting and mitigating PID. The foundation of the study is a physics-based, two-mechanism framework that models the interactions between thermal expansion/shrinkage and cure-induced shrinkage. To overcome the computational intensity and time-constraints of traditional [[Physics-based Simulation]], the authors developed a high-speed data-driven surrogate using [[Deep Operator Networks]] (DeepONet).
+
+A significant advancement in this study is the implementation of a [[Feature-wise Linear Modulation]] (FiLM) DeepONet. This architecture allows the network's branch-network features to be modulated by external variables, such as the initial [[Degree of Cure]]. This enables the model to predict complex time histories, including changes in [[Viscosity]] and deformation across various [[Non-isothermal Cure Cycles]].
+
+Recognizing that experimental measurements are often sparse and limited to specific time instances, the study utilizes [[Transfer Learning]]. The DeepONet is pre-trained on large datasets of high-fidelity simulations and subsequently fine-tuned using targeted, real-world manufacturing data. To ensure the reliability of these predictions under experimental conditions, the framework incorporates [[Ensemble Kalman Inversion]] (EKI). This allows for comprehensive [[Uncertainty Quantification]] and provides a mathematical basis

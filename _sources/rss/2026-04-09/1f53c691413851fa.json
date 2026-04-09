@@ -1,0 +1,7 @@
+{
+  "id": "1f53c691413851fa",
+  "title": "Negative Binomial Variational Autoencoders for Overdispersed Latent Modeling",
+  "link": "https://arxiv.org/abs/2508.05423",
+  "summary": "arXiv:2508.05423v2 Announce Type: replace \nAbstract: Although artificial neural networks are often described as brain-inspired, their representations typically rely on continuous activations, such as the continuous latent variables in variational autoencoders (VAEs), which limits their biological plausibility compared to the discrete spike-based signaling in real neurons. Extensions like the Poisson VAE introduce discrete count-based latents, but their equal mean-variance assumption fails to capture overdispersion in neural spikes, leading to less expressive and informative representations. To address this, we propose NegBio-VAE, a negative-binomial latent-variable model with a dispersion parameter for flexible spike count modeling. NegBio-VAE preserves interpretability while improving representation quality and training feasibility via novel KL estimation and reparameterization. Experiments on four datasets demonstrate that NegBio-VAE consistently achieves superior reconstruction and generation performance compared to competing single-layer VAE baselines, and yields robust, informative latent representations for downstream tasks. Extensive ablation studies are performed to verify the model's robustness w.r.t. various components. Our code is available at https://github.com/co234/NegBio-VAE.",
+  "feed": "arxiv-cs-LG"
+}

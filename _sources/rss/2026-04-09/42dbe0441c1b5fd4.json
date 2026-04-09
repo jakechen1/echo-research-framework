@@ -1,0 +1,7 @@
+{
+  "id": "42dbe0441c1b5fd4",
+  "title": "The Illusion of Stochasticity in LLMs",
+  "link": "https://arxiv.org/abs/2604.06543",
+  "summary": "arXiv:2604.06543v1 Announce Type: cross \nAbstract: In this work, we demonstrate that reliable stochastic sampling is a fundamental yet unfulfilled requirement for Large Language Models (LLMs) operating as agents. Agentic systems are frequently required to sample from distributions, often inferred from observed data, a process which needs to be emulated by the LLM. This leads to a distinct failure point: while standard RL agents rely on external sampling mechanisms, LLMs fail to map their internal probability estimates to their stochastic outputs. Through rigorous empirical analysis across multiple model families, model sizes, prompting styles, and distributions, we demonstrate the extent of this failure. Crucially, we show that while powerful frontier models can convert provided random seeds to target distributions, their ability to sample directly from specific distributions is fundamentally flawed.",
+  "feed": "arxiv-cs-LG"
+}

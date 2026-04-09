@@ -1,0 +1,7 @@
+{
+  "id": "d3f24772beff633a",
+  "title": "Low-Rank Key Value Attention",
+  "link": "https://arxiv.org/abs/2601.11471",
+  "summary": "arXiv:2601.11471v3 Announce Type: replace \nAbstract: The key-value (KV) cache is a primary memory bottleneck in Transformers. We propose Low-Rank Key-Value (LRKV) attention, which reduces KV cache memory by exploiting redundancy across attention heads, while being compute efficient. Each layer uses a shared full-rank KV projection augmented with low-rank, head-specific residuals, providing a continuous trade-off between complete sharing and full independence. After pretraining models of size 128M to 6.3B parameters, LRKV consistently achieves the lowest test loss among standard MHA, MQA/GQA, and MLA while using only 45-53\\% of MHA's KV cache. LRKV reaches equivalent baseline quality 18-25\\% faster (measured in training steps). After supervised midtraining, LRKV achieves the highest downstream task performance across ARC-Easy, ARC-Challenge, MMLU, GSM8K, and HumanEval benchmarks.",
+  "feed": "arxiv-cs-LG"
+}

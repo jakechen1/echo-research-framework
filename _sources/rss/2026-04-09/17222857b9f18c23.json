@@ -1,0 +1,7 @@
+{
+  "id": "17222857b9f18c23",
+  "title": "MedConclusion: A Benchmark for Biomedical Conclusion Generation from Structured Abstracts",
+  "link": "https://arxiv.org/abs/2604.06505",
+  "summary": "arXiv:2604.06505v1 Announce Type: cross \nAbstract: Large language models (LLMs) are widely explored for reasoning-intensive research tasks, yet resources for testing whether they can infer scientific conclusions from structured biomedical evidence remain limited. We introduce $\\textbf{MedConclusion}$, a large-scale dataset of $\\textbf{5.7M}$ PubMed structured abstracts for biomedical conclusion generation. Each instance pairs the non-conclusion sections of an abstract with the original author-written conclusion, providing naturally occurring supervision for evidence-to-conclusion reasoning. MedConclusion also includes journal-level metadata such as biomedical category and SJR, enabling subgroup analysis across biomedical domains. As an initial study, we evaluate diverse LLMs under conclusion and summary prompting settings and score outputs with both reference-based metrics and LLM-as-a-judge. We find that conclusion writing is behaviorally distinct from summary writing, strong models remain closely clustered under current automatic metrics, and judge identity can substantially shift absolute scores. MedConclusion provides a reusable data resource for studying scientific evidence-to-conclusion reasoning. Our code and data are available at: https://github.com/Harvard-AI-and-Robotics-Lab/MedConclusion.",
+  "feed": "arxiv-cs-AI"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "01fcf5657ff60196",
+  "title": "Bi-Lipschitz Autoencoder With Injectivity Guarantee",
+  "link": "https://arxiv.org/abs/2604.06701",
+  "summary": "arXiv:2604.06701v1 Announce Type: new \nAbstract: Autoencoders are widely used for dimensionality reduction, based on the assumption that high-dimensional data lies on low-dimensional manifolds. Regularized autoencoders aim to preserve manifold geometry during dimensionality reduction, but existing approaches often suffer from non-injective mappings and overly rigid constraints that limit their effectiveness and robustness. In this work, we identify encoder non-injectivity as a core bottleneck that leads to poor convergence and distorted latent representations. To ensure robustness across data distributions, we formalize the concept of admissible regularization and provide sufficient conditions for its satisfaction. In this work, we propose the Bi-Lipschitz Autoencoder (BLAE), which introduces two key innovations: (1) an injective regularization scheme based on a separation criterion to eliminate pathological local minima, and (2) a bi-Lipschitz relaxation that preserves geometry and exhibits robustness to data distribution drift. Empirical results on diverse datasets show that BLAE consistently outperforms existing methods in preserving manifold structure while remaining resilient to sampling sparsity and distribution shifts. Code is available at https://github.com/qipengz/BLAE.",
+  "feed": "arxiv-cs-LG"
+}

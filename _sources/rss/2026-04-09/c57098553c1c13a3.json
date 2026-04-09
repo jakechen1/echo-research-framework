@@ -1,0 +1,7 @@
+{
+  "id": "c57098553c1c13a3",
+  "title": "MoE Routing Testbed: Studying Expert Specialization and Routing Behavior at Small Scale",
+  "link": "https://arxiv.org/abs/2604.07030",
+  "summary": "arXiv:2604.07030v1 Announce Type: new \nAbstract: Sparse Mixture-of-Experts (MoE) architectures are increasingly popular for frontier large language models (LLM) but they introduce training challenges due to routing complexity. Fully leveraging parameters of an MoE model requires all experts to be well-trained and to specialize in non-redundant ways. Assessing this, however, is complicated due to lack of established metrics and, importantly, many routing techniques exhibit similar performance at smaller sizes, which is often not reflective of their behavior at large scale. To address this challenge, we propose the MoE Routing Testbed, a setup that gives clearer visibility into routing dynamics at small scale while using realistic data. The testbed pairs a data mix with clearly distinguishable domains with a reference router that prescribes ideal routing based on these domains, providing a well-defined upper bound for comparison. This enables quantifiable measurement of expert specialization. To demonstrate the value of the testbed, we compare various MoE routing approaches and show that balancing scope is the crucial factor that allows specialization while maintaining high expert utilization. We confirm that this observation generalizes to models 35x larger.",
+  "feed": "arxiv-cs-LG"
+}

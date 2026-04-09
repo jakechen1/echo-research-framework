@@ -1,0 +1,7 @@
+{
+  "id": "30e5a9b3d3024d6d",
+  "title": "ClawLess: A Security Model of AI Agents",
+  "link": "https://arxiv.org/abs/2604.06284",
+  "summary": "arXiv:2604.06284v1 Announce Type: cross \nAbstract: Autonomous AI agents powered by Large Language Models can reason, plan, and execute complex tasks, but their ability to autonomously retrieve information and run code introduces significant security risks. Existing approaches attempt to regulate agent behavior through training or prompting, which does not offer fundamental security guarantees. We present ClawLess, a security framework that enforces formally verified policies on AI agents under a worst-case threat model where the agent itself may be adversarial. ClawLess formalizes a fine-grained security model over system entities, trust scopes, and permissions to express dynamic policies that adapt to agents' runtime behavior. These policies are translated into concrete security rules and enforced through a user-space kernel augmented with BPF-based syscall interception. This approach bridges the formal security model with practical enforcement, ensuring security regardless of the agent's internal design.",
+  "feed": "arxiv-cs-AI"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "7a5f39cd47c4b50a",
+  "title": "ODE-free Neural Flow Matching for One-Step Generative Modeling",
+  "link": "https://arxiv.org/abs/2604.06413",
+  "summary": "arXiv:2604.06413v1 Announce Type: new \nAbstract: Diffusion and flow matching models generate samples by learning time-dependent vector fields whose integration transports noise to data, requiring tens to hundreds of network evaluations at inference. We instead learn the transport map directly. We propose Optimal Transport Neural Flow Matching (OT-NFM), an ODE-free generative framework that parameterizes the flow map with neural flows, enabling true one-step generation with a single forward pass. We show that naive flow-map training suffers from mean collapse, where inconsistent noise-data pairings drive all outputs toward the data mean. We prove that consistent coupling is necessary for non-degenerate learning and address this using optimal transport pairings with scalable minibatch and online coupling strategies. Experiments on synthetic benchmarks and image generation tasks (MNIST and CIFAR-10) demonstrate competitive sample quality while reducing inference to a single network evaluation.",
+  "feed": "arxiv-cs-LG"
+}

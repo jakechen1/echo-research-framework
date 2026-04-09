@@ -1,0 +1,7 @@
+{
+  "id": "3f5c4b34402d9403",
+  "title": "Exploring Natural Language-Based Strategies for Efficient Number Learning in Children through Reinforcement Learning",
+  "link": "https://arxiv.org/abs/2410.08334",
+  "summary": "arXiv:2410.08334v2 Announce Type: replace-cross \nAbstract: In this paper, we build a reinforcement learning framework to study how children compose numbers using base-ten blocks. Studying numerical cognition in toddlers offers a powerful window into the learning process itself, because numbers sit at the intersection of language, logic, perception, and culture. Specifically, we utilize state of the art (SOTA) reinforcement learning algorithms and neural network architectures to understand how variations in linguistic instructions can affect the learning process. Our results also show that instructions providing explicit action guidance are a more effective learning signal for RL agents to construct numbers. Furthermore, we identify an effective curriculum for ordering numerical-composition examples during training, resulting in faster convergence and improved generalization to unseen data. These findings highlight the role of language and multi-modal signals in numerical cognition and provide hypotheses for designing effective instructional strategies for early childhood education.",
+  "feed": "arxiv-cs-LG"
+}

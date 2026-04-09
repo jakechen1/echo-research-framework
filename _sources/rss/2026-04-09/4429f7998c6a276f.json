@@ -1,0 +1,7 @@
+{
+  "id": "4429f7998c6a276f",
+  "title": "ReDAct: Uncertainty-Aware Deferral for LLM Agents",
+  "link": "https://arxiv.org/abs/2604.07036",
+  "summary": "arXiv:2604.07036v1 Announce Type: cross \nAbstract: Recently, LLM-based agents have become increasingly popular across many applications, including complex sequential decision-making problems. However, they inherit the tendency of LLMs to hallucinate, leading to incorrect decisions. In sequential settings, even a single mistake can irreversibly degrade the trajectory, making hallucinations an even bigger problem. Although larger LLMs hallucinate less, they incur a significantly higher per-token cost. In this paper, we address this tradeoff by proposing ReDAct (Reason-Defer-Act). In ReDAct, an agent is equipped with two LLMs: a small, cheap model used by default, and a large, more reliable but expensive model. When the predictive uncertainty of the small model exceeds a calibrated threshold, the decision is deferred to the large model. We evaluate our approach in text-based embodied environments such as ALFWorld and MiniGrid and show that deferring only about 15% of decisions to the large model can match the quality of using it exclusively, while significantly reducing inference costs.",
+  "feed": "arxiv-cs-LG"
+}

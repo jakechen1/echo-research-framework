@@ -1,0 +1,7 @@
+{
+  "id": "e277e26b800ad24e",
+  "title": "MDP modeling for multi-stage stochastic programs",
+  "link": "https://arxiv.org/abs/2509.22981",
+  "summary": "arXiv:2509.22981v2 Announce Type: replace \nAbstract: We study a class of multi-stage stochastic programs, which incorporate modeling features from Markov decision processes (MDPs). This class includes structured MDPs with continuous action and state spaces. We extend policy graphs to include decision-dependent uncertainty for one-step transition probabilities as well as a limited form of statistical learning. We focus on the expressiveness of our modeling approach, illustrating ideas with a series of examples of increasing complexity. As a solution method, we develop new variants of stochastic dual dynamic programming, including approximations to handle non-convexities.",
+  "feed": "arxiv-cs-LG"
+}

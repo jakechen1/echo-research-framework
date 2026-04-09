@@ -1,0 +1,7 @@
+{
+  "id": "4679dd49145574aa",
+  "title": "From Load Tests to Live Streams: Graph Embedding-Based Anomaly Detection in Microservice Architectures",
+  "link": "https://arxiv.org/abs/2604.06448",
+  "summary": "arXiv:2604.06448v1 Announce Type: new \nAbstract: Prime Video regularly conducts load tests to simulate the viewer traffic spikes seen during live events such as Thursday Night Football as well as video-on-demand (VOD) events such as Rings of Power. While these stress tests validate system capacity, they can sometimes miss service behaviors unique to real event traffic. We present a graph-based anomaly detection system that identifies under-represented services using unsupervised node-level graph embeddings. Built on a GCN-GAE, our approach learns structural representations from directed, weighted service graphs at minute-level resolution and flags anomalies based on cosine similarity between load test and event embeddings. The system identifies incident-related services that are documented and demonstrates early detection capability. We also introduce a preliminary synthetic anomaly injection framework for controlled evaluation that show promising precision (96%) and low false positive rate (0.08%), though recall (58%) remains limited under conservative propagation assumptions. This framework demonstrates practical utility within Prime Video while also surfacing methodological lessons and directions, providing a foundation for broader application across microservice ecosystems.",
+  "feed": "arxiv-cs-LG"
+}

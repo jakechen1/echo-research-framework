@@ -1,0 +1,7 @@
+{
+  "id": "1da3f9f0b3369367",
+  "title": "Extracting Breast Cancer Phenotypes from Clinical Notes: Comparing LLMs with Classical Ontology Methods",
+  "link": "https://arxiv.org/abs/2604.06208",
+  "summary": "arXiv:2604.06208v1 Announce Type: cross \nAbstract: A significant amount of data held in Oncology Electronic Medical Records (EMRs) is contained in unstructured provider notes -- including but not limited to the chemotherapy (or cancer treatment) outcome, different biomarkers, the tumor's location, sizes, and growth patterns of a patient. The clinical studies show that the majority of oncologists are comfortable providing these valuable insights in their notes in a natural language rather than the relevant structured fields of an EMR. The major contribution of this research is to report an LLM-based framework to process provider notes and extract valuable medical knowledge and phenotype mentioned above, with a focus on the domain of oncology. In this paper, we focus on extracting phenotypes related to breast cancer using our LLM framework, and then compare its performance with earlier works that used knowledge-driven annotation system, paired with the NCIt Ontology Annotator. The results of the study show that an LLM-based information extraction framework can be easily adapted to extract phenotypes with an accuracy that is comparable to the classical ontology-based methods. However, once trained, they could be easily fine-tuned to cater for other cancer types and diseases.",
+  "feed": "arxiv-cs-AI"
+}

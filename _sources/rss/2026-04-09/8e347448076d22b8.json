@@ -1,0 +1,7 @@
+{
+  "id": "8e347448076d22b8",
+  "title": "EvoFlows: Evolutionary Edit-Based Flow-Matching for Protein Engineering",
+  "link": "https://arxiv.org/abs/2603.11703",
+  "summary": "arXiv:2603.11703v2 Announce Type: replace \nAbstract: We introduce EvoFlows, a variable-length protein sequence-to-sequence modeling approach designed for protein engineering. Existing protein language models are poorly suited for optimization tasks: autoregressive models require full sequence generation, masked language and discrete diffusion models rely on pre-specified mutation locations, and no existing methods naturally support insertions and deletions relative to a template sequence. EvoFlows learns mutational trajectories between evolutionarily related protein sequences via edit flows, allowing it to perform a controllable number of mutations (insertions, deletions, and substitutions) on a template sequence, predicting not only _which_ mutation to perform, but also _where_ it should occur. Through extensive _in silico_ evaluation on diverse protein families from UniRef and OAS, we show that EvoFlows generates variants that remain consistent with natural protein families while exploring farther from template sequences than leading baselines.",
+  "feed": "arxiv-cs-LG"
+}

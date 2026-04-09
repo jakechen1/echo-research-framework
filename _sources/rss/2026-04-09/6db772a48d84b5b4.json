@@ -1,0 +1,7 @@
+{
+  "id": "6db772a48d84b5b4",
+  "title": "Contraction-Aligned Analysis of Soft Bellman Residual Minimization with Weighted Lp-Norm for Markov Decision Problem",
+  "link": "https://arxiv.org/abs/2604.06837",
+  "summary": "arXiv:2604.06837v1 Announce Type: new \nAbstract: The problem of solving Markov decision processes under function approximation remains a fundamental challenge, even under linear function approximation settings. A key difficulty arises from a geometric mismatch: while the Bellman optimality operator is contractive in the Linfty-norm, commonly used objectives such as projected value iteration and Bellman residual minimization rely on L2-based formulations. To enable gradient-based optimization, we consider a soft formulation of Bellman residual minimization and extend it to a generalized weighted Lp -norm. We show that this formulation aligns the optimization objective with the contraction geometry of the Bellman operator as p increases, and derive corresponding performance error bounds. Our analysis provides a principled connection between residual minimization and Bellman contraction, leading to improved control of error propagation while remaining compatible with gradient-based optimization.",
+  "feed": "arxiv-cs-LG"
+}

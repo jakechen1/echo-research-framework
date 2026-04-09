@@ -1,0 +1,7 @@
+{
+  "id": "93fca362a520c480",
+  "title": "Matrix Profile for Time-Series Anomaly Detection: A Reproducible Open-Source Benchmark on TSB-AD",
+  "link": "https://arxiv.org/abs/2604.02445",
+  "summary": "arXiv:2604.02445v2 Announce Type: replace \nAbstract: Matrix Profile (MP) methods are an interpretable and scalable family of distance-based methods for time-series anomaly detection, but strong benchmark performance still depends on design choices beyond a vanilla nearest-neighbor profile. This technical report documents an open-source Matrix Profile for Anomaly Detection (MMPAD) submission to TSB-AD, a benchmark that covers both univariate and multivariate time series. The submitted system combines pre-sorted multidimensional aggregation, efficient exclusion-zone-aware k-nearest-neighbor (kNN) retrieval for repeated anomalies, and moving-average post-processing. To serve as a reproducible reference for MP-based anomaly detection on TSB-AD, we detail the released implementation, the hyperparameter settings for the univariate and multivariate tracks, and the corresponding benchmark results. We further analyze how the system performs on the aggregate leaderboard and across specific dataset characteristics.The open-source implementation is available at https://github.com/mcyeh/mmpad_tsb.",
+  "feed": "arxiv-cs-LG"
+}

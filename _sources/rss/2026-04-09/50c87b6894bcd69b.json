@@ -1,0 +1,7 @@
+{
+  "id": "50c87b6894bcd69b",
+  "title": "Implantable Adaptive Cells: A Novel Enhancement for Pre-Trained U-Nets in Medical Image Segmentation",
+  "link": "https://arxiv.org/abs/2405.03420",
+  "summary": "arXiv:2405.03420v2 Announce Type: cross \nAbstract: This paper introduces a novel approach to enhance the performance of pre-trained neural networks in medical image segmentation using gradient-based Neural Architecture Search (NAS) methods. We present the concept of Implantable Adaptive Cell (IAC), small modules identified through Partially-Connected DARTS based approach, designed to be injected into the skip connections of an existing and already trained U-shaped model. Unlike traditional NAS methods, our approach refines existing architectures without full retraining. Experiments on four medical datasets with MRI and CT images show consistent accuracy improvements on various U-Net configurations, with segmentation accuracy gain by approximately 5 percentage points across all validation datasets, with improvements reaching up to 11\\%pt in the best-performing cases. The findings of this study not only offer a cost-effective alternative to the complete overhaul of complex models for performance upgrades but also indicate the potential applicability of our method to other architectures and problem domains.",
+  "feed": "arxiv-cs-AI"
+}

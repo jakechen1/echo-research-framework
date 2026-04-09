@@ -1,0 +1,7 @@
+{
+  "id": "af4bb8a1fbdec17c",
+  "title": "Space Filling Curves is All You Need: Communication-Avoiding Matrix Multiplication Made Simple",
+  "link": "https://arxiv.org/abs/2601.16294",
+  "summary": "arXiv:2601.16294v2 Announce Type: replace-cross \nAbstract: General Matrix Multiplication (GEMM) is the cornerstone of HPC workloads and Deep Learning. State-of-the-art vendor libraries tune tensor layouts, parallelization schemes, and cache blocking to minimize data movement across the memory hierarchy and maximize throughput. Optimal settings for these parameters depend on the target platform and matrix shapes, making exhaustive tuning infeasible. We revisit Space Filling Curves (SFC) to alleviate this cumbersome tuning. We partition the Matrix Multiplication using advancements in SFC, and obtain platform-oblivious and shape-oblivious Matrix Multiplication schemes with high degree of data locality. We extend the SFC-based work partitioning to implement Communication-Avoiding (CA) algorithms that provably minimize data movement. The integration of CA-algorithms is seamless with compact code, achieving state-of-the-art results on multiple CPU platforms, outperforming vendor libraries up to 5.5x for a range of GEMM-shapes (1.8x Weighted Harmonic Mean speedup). We show the impact of our work on two real-world applications by leveraging our GEMM as compute backend: i) prefill of LLM inference with speedups up to 1.85x over State-Of-The-Art, and ii) distributed-memory Matrix Multiplication with speedups up to 2.2x.",
+  "feed": "arxiv-cs-AI"
+}

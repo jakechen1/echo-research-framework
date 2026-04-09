@@ -1,0 +1,7 @@
+{
+  "id": "9549dc4365ed8208",
+  "title": "Tracking Adaptation Time: Metrics for Temporal Distribution Shift",
+  "link": "https://arxiv.org/abs/2604.07266",
+  "summary": "arXiv:2604.07266v1 Announce Type: new \nAbstract: Evaluating robustness under temporal distribution shift remains an open challenge. Existing metrics quantify the average decline in performance, but fail to capture how models adapt to evolving data. As a result, temporal degradation is often misinterpreted: when accuracy declines, it is unclear whether the model is failing to adapt or whether the data itself has become inherently more challenging to learn. In this work, we propose three complementary metrics to distinguish adaptation from intrinsic difficulty in the data. Together, these metrics provide a dynamic and interpretable view of model behavior under temporal distribution shift. Results show that our metrics uncover adaptation patterns hidden by existing analysis, offering a richer understanding of temporal robustness in evolving environments.",
+  "feed": "arxiv-cs-LG"
+}

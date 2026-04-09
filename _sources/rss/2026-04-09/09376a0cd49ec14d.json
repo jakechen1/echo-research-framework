@@ -1,0 +1,7 @@
+{
+  "id": "09376a0cd49ec14d",
+  "title": "PAC-Bayesian Bounds on Constrained f-Entropic Risk Measures",
+  "link": "https://arxiv.org/abs/2510.11169",
+  "summary": "arXiv:2510.11169v2 Announce Type: replace-cross \nAbstract: PAC generalization bounds on the risk, when expressed in terms of the expected loss, are often insufficient to capture imbalances between subgroups in the data. To overcome this limitation, we introduce a new family of risk measures, called constrained f-entropic risk measures, which enable finer control over distributional shifts and subgroup imbalances via f-divergences, and include the Conditional Value at Risk (CVaR), a well-known risk measure. We derive both classical and disintegrated PAC-Bayesian generalization bounds for this family of risks, providing the first disintegratedPAC-Bayesian guarantees beyond standard risks. Building on this theory, we design a self-bounding algorithm that minimizes our bounds directly, yielding models with guarantees at the subgroup level. Finally, we empirically demonstrate the usefulness of our approach.",
+  "feed": "arxiv-cs-LG"
+}

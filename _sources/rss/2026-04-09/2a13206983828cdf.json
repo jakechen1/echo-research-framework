@@ -1,0 +1,7 @@
+{
+  "id": "2a13206983828cdf",
+  "title": "Generative Phomosaic with Structure-Aligned and Personalized Diffusion",
+  "link": "https://arxiv.org/abs/2604.06989",
+  "summary": "arXiv:2604.06989v1 Announce Type: cross \nAbstract: We present the first generative approach to photomosaic creation. Traditional photomosaic methods rely on a large number of tile images and color-based matching, which limits both diversity and structural consistency. Our generative photomosaic framework synthesizes tile images using diffusion-based generation conditioned on reference images. A low-frequency conditioned diffusion mechanism aligns global structure while preserving prompt-driven details. This generative formulation enables photomosaic composition that is both semantically expressive and structurally coherent, effectively overcoming the fundamental limitations of matching-based approaches. By leveraging few-shot personalized diffusion, our model is able to produce user-specific or stylistically consistent tiles without requiring an extensive collection of images.",
+  "feed": "arxiv-cs-AI"
+}

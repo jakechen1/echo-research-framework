@@ -1,0 +1,7 @@
+{
+  "id": "71c4e1adbe1bac3d",
+  "title": "Contrastive Decoding Mitigates Score Range Bias in LLM-as-a-Judge",
+  "link": "https://arxiv.org/abs/2510.18196",
+  "summary": "arXiv:2510.18196v2 Announce Type: replace-cross \nAbstract: Large Language Models (LLMs) are commonly used as evaluators in various applications, but the reliability of the outcomes remains a challenge. One such challenge is using LLMs-as-judges for direct assessment, i.e., assigning scores from a specified range without any references. Focusing on summarization, we first show that this challenge stems from LLM judge outputs being associated with score range bias, i.e., LLM judge outputs are highly sensitive to pre-defined score ranges. We also show that similar biases exist among models from the same family. We then mitigate this bias through contrastive decoding, achieving up to 11.7% relative improvement on average in Spearman correlation with human judgments across different score ranges.",
+  "feed": "arxiv-cs-AI"
+}

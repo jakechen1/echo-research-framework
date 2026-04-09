@@ -1,0 +1,7 @@
+{
+  "id": "307f90751c9a8a6b",
+  "title": "Beyond Pessimism: Offline Learning in KL-regularized Games",
+  "link": "https://arxiv.org/abs/2604.06738",
+  "summary": "arXiv:2604.06738v1 Announce Type: cross \nAbstract: We study offline learning in KL-regularized two-player zero-sum games, where policies are optimized under a KL constraint to a fixed reference policy. Prior work relies on pessimistic value estimation to handle distribution shift, yielding only $\\widetilde{\\mathcal{O}}(1/\\sqrt n)$ statistical rates. We develop a new pessimism-free algorithm and analytical framework for KL-regularized games, built on the smoothness of KL-regularized best responses and a stability property of the Nash equilibrium induced by skew symmetry. This yields the first $\\widetilde{\\mathcal{O}}(1/n)$ sample complexity bound for offline learning in KL-regularized zero-sum games, achieved entirely without pessimism. We further propose an efficient self-play policy optimization algorithm and prove that, with a number of iterations linear in the sample size, it achieves the same fast $\\widetilde{\\mathcal{O}}(1/n)$ statistical rate as the minimax estimator.",
+  "feed": "arxiv-cs-LG"
+}

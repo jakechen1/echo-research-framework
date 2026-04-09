@@ -1,0 +1,7 @@
+{
+  "id": "55cd80bbe8349ed4",
+  "title": "Telescope: Learnable Hyperbolic Foveation for Ultra-Long-Range Object Detection",
+  "link": "https://arxiv.org/abs/2604.06332",
+  "summary": "arXiv:2604.06332v1 Announce Type: cross \nAbstract: Autonomous highway driving, especially for long-haul heavy trucks, requires detecting objects at long ranges beyond 500 meters to satisfy braking distance requirements at high speeds. At long distances, vehicles and other critical objects occupy only a few pixels in high-resolution images, causing state-of-the-art object detectors to fail. This challenge is compounded by the limited effective range of commercially available LiDAR sensors, which fall short of ultra-long range thresholds because of quadratic loss of resolution with distance, making image-based detection the most practically scalable solution given commercially available sensor constraints. We introduce Telescope, a two-stage detection model designed for ultra-long range autonomous driving. Alongside a powerful detection backbone, this model contains a novel re-sampling layer and image transformation to address the fundamental challenges of detecting small, distant objects. Telescope achieves $76\\%$ relative improvement in mAP in ultra-long range detection compared to state-of-the-art methods (improving from an absolute mAP of 0.185 to 0.326 at distances beyond 250 meters), requires minimal computational overhead, and maintains strong performance across all detection ranges.",
+  "feed": "arxiv-cs-LG"
+}

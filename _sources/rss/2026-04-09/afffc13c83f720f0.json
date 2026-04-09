@@ -1,0 +1,7 @@
+{
+  "id": "afffc13c83f720f0",
+  "title": "Distributed Interpretability and Control for Large Language Models",
+  "link": "https://arxiv.org/abs/2604.06483",
+  "summary": "arXiv:2604.06483v1 Announce Type: new \nAbstract: Large language models that require multiple GPU cards to host are usually the most capable models. It is necessary to understand and steer these models, but the current technologies do not support the interpretability and steering of these models in the multi-GPU setting as well as the single-GPU setting. We present a practical implementation of activation-level interpretability (logit lens) and steering (steering vector) that scales up to multi-GPU language models. Our system implements design choices that reduce the activation memory by up to 7x and increase the throughput by up to 41x compared to a baseline on identical hardware. We demonstrate the method across LLaMA-3.1 (8B, 70B) and Qwen-3 (4B, 14B, 32B), sustaining 20-100 tokens/s while collecting full layer-wise activation trajectories for sequences of 1,500 tokens. Using label-position steering vectors injected post-LayerNorm, we show controllable, monotonic shifts in model outputs with a mean steerability slope of 0.702 across evaluated datasets, without fine-tuning or additional forward passes. We release detailed benchmarks, ablations, and a reproducible instrumentation recipe to enable practical interpretability and real-time behavioral control for frontier LLMs at https://github.com/Devdesai1901/LogitLense.",
+  "feed": "arxiv-cs-LG"
+}

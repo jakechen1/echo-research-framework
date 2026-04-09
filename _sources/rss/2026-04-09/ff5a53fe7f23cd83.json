@@ -1,0 +1,7 @@
+{
+  "id": "ff5a53fe7f23cd83",
+  "title": "AdaBoost Does Not Always Cycle: A Computer-Assisted Counterexample",
+  "link": "https://arxiv.org/abs/2604.07055",
+  "summary": "arXiv:2604.07055v1 Announce Type: new \nAbstract: We give a computer-assisted counterexample to the open question, posed by Rudin, Schapire, and Daubechies in COLT 2012, of whether exhaustive AdaBoost always converges to a finite cycle. The construction is based on a block-product gadget whose two factors share an exact period-2 orbit for their 5-step branch maps, but whose linearized return maps have dominant eigenvalues with an irrational logarithmic ratio. This irrationality forces the burst-winner sequence to have an irrational asymptotic frequency, precluding eventual periodicity. All assertions are certified by exact rational arithmetic. This work was developed in collaboration with GPT-5.4 Pro and Claude Opus 4.6.",
+  "feed": "arxiv-cs-LG"
+}

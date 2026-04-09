@@ -1,0 +1,7 @@
+{
+  "id": "72feab1e101932c0",
+  "title": "Towards Accurate and Calibrated Classification: Regularizing Cross-Entropy From A Generative Perspective",
+  "link": "https://arxiv.org/abs/2604.06689",
+  "summary": "arXiv:2604.06689v1 Announce Type: new \nAbstract: Accurate classification requires not only high predictive accuracy but also well-calibrated confidence estimates. Yet, modern deep neural networks (DNNs) are often overconfident, primarily due to overfitting on the negative log-likelihood (NLL). While focal loss variants alleviate this issue, they typically reduce accuracy, revealing a persistent trade-off between calibration and predictive performance. Motivated by the complementary strengths of generative and discriminative classifiers, we propose Generative Cross-Entropy (GCE), which maximizes $p(x|y)$ and is equivalent to cross-entropy augmented with a class-level confidence regularizer. Under mild conditions, GCE is strictly proper. Across CIFAR-10/100, Tiny-ImageNet, and a medical imaging benchmark, GCE improves both accuracy and calibration over cross-entropy, especially in the long-tailed scenario. Combined with adaptive piecewise temperature scaling (ATS), GCE attains calibration competitive with focal-loss variants without sacrificing accuracy.",
+  "feed": "arxiv-cs-LG"
+}

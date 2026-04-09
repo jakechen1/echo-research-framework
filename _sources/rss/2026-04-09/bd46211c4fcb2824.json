@@ -1,0 +1,7 @@
+{
+  "id": "bd46211c4fcb2824",
+  "title": "RPM-Net Reciprocal Point MLP Network for Unknown Network Security Threat Detection",
+  "link": "https://arxiv.org/abs/2604.06638",
+  "summary": "arXiv:2604.06638v1 Announce Type: cross \nAbstract: Effective detection of unknown network security threats in multi-class imbalanced environments is critical for maintaining cyberspace security. Current methods focus on learning class representations but face challenges with unknown threat detection, class imbalance, and lack of interpretability, limiting their practical use. To address this, we propose RPM-Net, a novel framework that introduces reciprocal point mechanism to learn \"non-class\" representations for each known attack category, coupled with adversarial margin constraints that provide geometric interpretability for unknown threat detection. RPM-Net++ further enhances performance through Fisher discriminant regularization. Experimental results show that RPM-Net achieves superior performance across multiple metrics including F1-score, AUROC, and AUPR-OUT, significantly outperforming existing methods and offering practical value for real-world network security applications. Our code is available at:https://github.com/chiachen-chang/RPM-Net",
+  "feed": "arxiv-cs-AI"
+}

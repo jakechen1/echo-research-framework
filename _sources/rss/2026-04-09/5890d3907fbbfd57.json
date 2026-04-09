@@ -1,0 +1,7 @@
+{
+  "id": "5890d3907fbbfd57",
+  "title": "Computational bottlenecks for denoising diffusions",
+  "link": "https://arxiv.org/abs/2503.08028",
+  "summary": "arXiv:2503.08028v3 Announce Type: replace-cross \nAbstract: Denoising diffusions sample from a probability distribution $\\mu$ in $\\mathbb{R}^d$ by constructing a stochastic process $({\\hat{\\boldsymbol x}}_t:t\\ge 0)$ in $\\mathbb{R}^d$ such that ${\\hat{\\boldsymbol x}}_0$ is easy to sample, but the distribution of $\\hat{\\boldsymbol x}_T$ at large $T$ approximates $\\mu$. The drift ${\\boldsymbol m}:\\mathbb{R}^d\\times\\mathbb{R}\\to\\mathbb{R}^d$ of this diffusion process is learned my minimizing a score-matching objective.\n  Is every probability distribution $\\mu$, for which sampling is tractable, also amenable to sampling via diffusions? We provide evidence to the contrary by studying a probability distribution $\\mu$ for which sampling is easy, but the drift of the diffusion process is intractable -- under a popular conjecture on information-computation gaps in statistical estimation. We show that there exist drifts that are superpolynomially close to the optimum value (among polynomial time drifts) and yet yield samples with distribution that is very far from the target one.",
+  "feed": "arxiv-cs-LG"
+}

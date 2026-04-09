@@ -1,0 +1,7 @@
+{
+  "id": "5e6f84d0363922e3",
+  "title": "Temporally Phenotyping GLP-1RA Case Reports with Large Language Models: A Textual Time Series Corpus and Risk Modeling",
+  "link": "https://arxiv.org/abs/2604.06197",
+  "summary": "arXiv:2604.06197v1 Announce Type: cross \nAbstract: Type 2 diabetes case reports describe complex clinical courses, but their timelines are often expressed in language that is difficult to reuse in longitudinal modeling. To address this gap, we developed a textual time-series corpus of 136 PubMed Open Access single-patient case reports involving glucagon-like peptide 1 receptor agonists, with clinical events associated with their most probable reference times. We evaluated automated LLM timeline extraction against gold-standard timelines annotated by clinical domain experts, assessing how well systems recovered clinical events and their timings. The best-performing LLM produced high event coverage (GPT5; 0.871) and reliable temporal sequencing across symptoms (GPT5; 0.843), diagnoses, treatments, laboratory tests, and outcomes. As a downstream demonstration, time-to-event analyses in diabetes suggested lower risk of respiratory sequelae among GLP-1 users versus non-users (HR=0.259, p<0.05), consistent with prior reports of improved respiratory outcomes. Temporal annotations and code will be released upon acceptance.",
+  "feed": "arxiv-cs-AI"
+}

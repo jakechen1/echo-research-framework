@@ -1,0 +1,7 @@
+{
+  "id": "acb63fbabd929a81",
+  "title": "Explainable AI to Improve Machine Learning Reliability for Industrial Cyber-Physical Systems",
+  "link": "https://arxiv.org/abs/2601.16074",
+  "summary": "arXiv:2601.16074v2 Announce Type: replace \nAbstract: Industrial Cyber-Physical Systems (CPS) are sensitive infrastructure from both safety and economics perspectives, making their reliability critically important. Machine Learning (ML), specifically deep learning, is increasingly integrated in industrial CPS, but the inherent complexity of ML models results in non-transparent operation. Rigorous evaluation is needed to prevent models from exhibiting unexpected behaviour on future, unseen data. Explainable AI (XAI) can be used to uncover model reasoning, allowing a more extensive analysis of behaviour. We apply XAI to improve predictive performance of ML models intended for an industrial CPS use-case. We analyse the effects of components from time-series data decomposition on model predictions using SHAP values. Through this method, we observe evidence on the lack of sufficient contextual information during model training. By increasing the window size of data instances, informed by the XAI findings for this use-case, we are able to improve model performance.",
+  "feed": "arxiv-cs-LG"
+}

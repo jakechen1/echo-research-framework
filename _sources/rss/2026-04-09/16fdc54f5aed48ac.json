@@ -1,0 +1,7 @@
+{
+  "id": "16fdc54f5aed48ac",
+  "title": "Compressible Softmax-Attended Language under Incompressible Attention",
+  "link": "https://arxiv.org/abs/2604.04384",
+  "summary": "arXiv:2604.04384v2 Announce Type: replace-cross \nAbstract: Softmax attention defines an interaction through $d_h$ head dimensions, but not all dimensions carry equal weight once real text passes through. We decompose the attention logit field into a learned component and a generated component and measure their spectra separately. For all 5,888 KV heads in five transformer language models (124M--7B parameters, four architecture families), the logit energy field $\\tilde{E}$ reaches 90\\% of its variance in 2--11 singular components. The learned interaction matrix $W_Q^\\mathrm{T} W_K$ needs 38--75 components for the same threshold out of $d_h \\in {64, 128}$. The spectral gap is 5--25$\\times$ in effective rank. The compressibility of softmax-attended language is a property of the data, not the frame that analyzes it.",
+  "feed": "arxiv-cs-AI"
+}

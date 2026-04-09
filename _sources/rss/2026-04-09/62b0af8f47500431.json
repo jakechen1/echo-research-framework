@@ -1,0 +1,7 @@
+{
+  "id": "62b0af8f47500431",
+  "title": "Robustness Risk of Conversational Retrieval: Identifying and Mitigating Noise Sensitivity in Qwen3-Embedding Model",
+  "link": "https://arxiv.org/abs/2604.06176",
+  "summary": "arXiv:2604.06176v1 Announce Type: cross \nAbstract: We present an empirical study of embedding-based retrieval under realistic conversational settings, where queries are short, dialogue-like, and weakly specified, and retrieval corpora contain structured conversational artifacts. Focusing on Qwen3-embedding models, we identify a deployment-relevant robustness vulnerability: under conversational retrieval without query prompting, structured dialogue-style noise can become disproportionately retrievable and intrude into top-ranked results, despite being semantically uninformative. This failure mode emerges consistently across model scales, remains largely invisible under standard clean-query benchmarks, and is significantly more pronounced in Qwen3 than in earlier Qwen variants and other widely used dense retrieval baselines. We further show that lightweight query prompting qualitatively alters retrieval behavior, effectively suppressing noise intrusion and restoring ranking stability. Our findings highlight an underexplored robustness risk in conversational retrieval and underscore the importance of evaluation protocols that reflect the complexities of deployed systems.",
+  "feed": "arxiv-cs-AI"
+}

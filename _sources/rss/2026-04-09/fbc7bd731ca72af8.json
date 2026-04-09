@@ -1,0 +1,7 @@
+{
+  "id": "fbc7bd731ca72af8",
+  "title": "Quantitative Estimation of Target Task Performance from Unsupervised Pretext Task in Semi/Self-Supervised Learning",
+  "link": "https://arxiv.org/abs/2508.07299",
+  "summary": "arXiv:2508.07299v2 Announce Type: replace \nAbstract: The effectiveness of unlabeled data in Semi/Self-Supervised Learning (SSL) depends on appropriate assumptions for specific scenarios, thereby enabling the selection of beneficial unsupervised pretext tasks. However, existing research has paid limited attention to assumptions in SSL, resulting in practical situations where the compatibility between the unsupervised pretext tasks and the target scenarios can only be assessed after training and validation. This paper centers on the assumptions underlying unsupervised pretext tasks and explores the feasibility of preemptively estimating the impact of unsupervised pretext tasks at low cost. Through rigorous derivation, we show that the impact of unsupervised pretext tasks on target performance depends on three factors: assumption learnability with respect to the model, assumption reliability with respect to the data, and assumption completeness with respect to the target. Building on this theory, we propose a low-cost estimation method that can quantitatively estimate the actual target performance. We build a benchmark of over one hundred pretext tasks and demonstrate that estimated performance strongly correlates with the actual performance obtained through large-scale training and validation.",
+  "feed": "arxiv-cs-LG"
+}

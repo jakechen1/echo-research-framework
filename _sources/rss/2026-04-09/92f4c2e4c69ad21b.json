@@ -1,0 +1,7 @@
+{
+  "id": "92f4c2e4c69ad21b",
+  "title": "MR-ImagenTime: Multi-Resolution Time Series Generation through Dual Image Representations",
+  "link": "https://arxiv.org/abs/2603.28253",
+  "summary": "arXiv:2603.28253v2 Announce Type: replace \nAbstract: Time series forecasting is vital across many domains, yet existing models struggle with fixed-length inputs and inadequate multi-scale modeling. We propose MR-CDM, a framework combining hierarchical multi-resolution trend decomposition, an adaptive embedding mechanism for variable-length inputs, and a multi-scale conditional diffusion process. Evaluations on four real-world datasets demonstrate that MR-CDM significantly outperforms state-of-the-art baselines (e.g., CSDI, Informer), reducing MAE and RMSE by approximately 6-10 to a certain degree.",
+  "feed": "arxiv-cs-LG"
+}

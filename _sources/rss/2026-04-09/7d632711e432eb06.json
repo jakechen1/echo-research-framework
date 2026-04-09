@@ -1,0 +1,7 @@
+{
+  "id": "7d632711e432eb06",
+  "title": "Database Querying under Missing Values Governed by Missingness Mechanisms",
+  "link": "https://arxiv.org/abs/2604.06520",
+  "summary": "arXiv:2604.06520v1 Announce Type: cross \nAbstract: We address the problems of giving a semantics to- and doing query answering (QA) on a relational database (RDB) that has missing values (MVs). The causes for the latter are governed by a Missingness Mechanism that is modelled as a Bayesian Network, which represents a Missingness Graph (MG) and involves the DB attributes. Our approach considerable departs from the treatment of RDBs with NULL (values). The MG together with the observed DB allow to build a block-independent probabilistic DB, on which basis we propose two QA techniques that jointly capture probabilistic uncertainty and statistical plausibility of the implicit imputation of MVs. We obtain complexity results that characterize the computational feasibility of those approaches.",
+  "feed": "arxiv-cs-AI"
+}

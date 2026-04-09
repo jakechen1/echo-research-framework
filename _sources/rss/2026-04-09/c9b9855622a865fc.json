@@ -1,0 +1,7 @@
+{
+  "id": "c9b9855622a865fc",
+  "title": "EviSnap: Faithful Evidence-Cited Explanations for Cold-Start Cross-Domain Recommendation",
+  "link": "https://arxiv.org/abs/2604.06172",
+  "summary": "arXiv:2604.06172v1 Announce Type: cross \nAbstract: Cold-start cross-domain recommender (CDR) systems predict a user's preferences in a target domain using only their source-domain behavior, yet existing CDR models either map opaque embeddings or rely on post-hoc or LLM-generated rationales that are hard to audit. We introduce EviSnap a lightweight CDR framework whose predictions are explained by construction with evidence-cited, faithful rationales. EviSnap distills noisy reviews into compact facet cards using an LLM offline, pairing each facet with verbatim supporting sentences. It then induces a shared, domain-agnostic concept bank by clustering facet embeddings and computes user-positive, user-negative, and item-presence concept activations via evidence-weighted pooling. A single linear concept-to-concept map transfers users across domains, and a linear scoring head yields per-concept additive contributions, enabling exact score decompositions and counterfactual 'what-if' edits grounded in the cited sentences. Experiments on the Amazon Reviews dataset across six transfers among Books, Movies, and Music show that EviSnap consistently outperforms strong mapping and review-text baselines while passing deletion- and sufficiency-based tests for explanation faithfulness.",
+  "feed": "arxiv-cs-AI"
+}

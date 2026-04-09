@@ -1,0 +1,7 @@
+{
+  "id": "9d6f254135887cd4",
+  "title": "Improved Evidence Extraction and Metrics for Document Inconsistency Detection with LLMs",
+  "link": "https://arxiv.org/abs/2601.02627",
+  "summary": "arXiv:2601.02627v2 Announce Type: replace-cross \nAbstract: Large language models (LLMs) are becoming useful in many domains due to their impressive abilities that arise from large training datasets and large model sizes. However, research on LLM-based approaches to document inconsistency detection is relatively limited. We address this gap by investigating evidence extraction capabilties of LLMs for document inconsistency detection. To this end, we introduce new comprehensive evidence-extraction metrics and a redact-and-retry framework with constrained filtering that substantially improves evidence extraction performance over other prompting methods. We support our approach with strong experimental results and release a new semi-synthetic dataset for evaluating evidence extraction.",
+  "feed": "arxiv-cs-AI"
+}

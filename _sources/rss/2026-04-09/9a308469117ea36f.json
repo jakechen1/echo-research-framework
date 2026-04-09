@@ -1,0 +1,7 @@
+{
+  "id": "9a308469117ea36f",
+  "title": "FedDetox: Robust Federated SLM Alignment via On-Device Data Sanitization",
+  "link": "https://arxiv.org/abs/2604.06833",
+  "summary": "arXiv:2604.06833v1 Announce Type: cross \nAbstract: As high quality public data becomes scarce, Federated Learning (FL) provides a vital pathway to leverage valuable private user data while preserving privacy. However, real-world client data often contains toxic or unsafe information. This leads to a critical issue we define as unintended data poisoning, which can severely damage the safety alignment of global models during federated alignment. To address this, we propose FedDetox, a robust framework tailored for Small Language Models (SLMs) on resource-constrained edge devices. We first employ knowledge distillation to transfer sophisticated safety alignment capabilities from large scale safety aligned teacher models into light weight student classifiers suitable for resource constrained edge devices. Specifically, during federated learning for human preference alignment, the edge client identifies unsafe samples at the source and replaces them with refusal templates, effectively transforming potential poisons into positive safety signals. Experiments demonstrate that our approach preserves model safety at a level comparable to centralized baselines without compromising general utility.",
+  "feed": "arxiv-cs-LG"
+}

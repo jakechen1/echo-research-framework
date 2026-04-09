@@ -1,0 +1,7 @@
+{
+  "id": "a5c734ea84c9240c",
+  "title": "Attribution-Driven Explainable Intrusion Detection with Encoder-Based Large Language Models",
+  "link": "https://arxiv.org/abs/2604.06266",
+  "summary": "arXiv:2604.06266v1 Announce Type: cross \nAbstract: Software-Defined Networking (SDN) improves network flexibility but also increases the need for reliable and interpretable intrusion detection. Large Language Models (LLMs) have recently been explored for cybersecurity tasks due to their strong representation learning capabilities; however, their lack of transparency limits their practical adoption in security-critical environments. Understanding how LLMs make decisions is therefore essential. This paper presents an attribution-driven analysis of encoder-based LLMs for network intrusion detection using flow-level traffic features. Attribution analysis demonstrates that model decisions are driven by meaningful traffic behavior patterns, improving transparency and trust in transformer-based SDN intrusion detection. These patterns align with established intrusion detection principles, indicating that LLMs learn attack behavior from traffic dynamics. This work demonstrates the value of attribution methods for validating and trusting LLM-based security analysis.",
+  "feed": "arxiv-cs-AI"
+}

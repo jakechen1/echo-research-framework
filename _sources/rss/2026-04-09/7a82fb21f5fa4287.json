@@ -1,0 +1,7 @@
+{
+  "id": "7a82fb21f5fa4287",
+  "title": "Large Language Models for Outpatient Referral: Problem Definition, Benchmarking and Challenges",
+  "link": "https://arxiv.org/abs/2503.08292",
+  "summary": "arXiv:2503.08292v4 Announce Type: replace-cross \nAbstract: Large language models (LLMs) are increasingly applied to outpatient referral tasks across healthcare systems. However, there is a lack of standardized evaluation criteria to assess their effectiveness, particularly in dynamic, interactive scenarios. In this study, we systematically examine the capabilities and limitations of LLMs in managing tasks within Intelligent Outpatient Referral (IOR) systems and propose a comprehensive evaluation framework specifically designed for such systems. This framework comprises two core tasks: static evaluation, which focuses on evaluating the ability of predefined outpatient referrals, and dynamic evaluation, which evaluates capabilities of refining outpatient referral recommendations through iterative dialogues. Our findings suggest that LLMs offer limited advantages over BERT-like models, but show promise in asking effective questions during interactive dialogues.",
+  "feed": "arxiv-cs-AI"
+}

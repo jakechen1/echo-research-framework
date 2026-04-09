@@ -1,0 +1,7 @@
+{
+  "id": "77e9a71406bf8534",
+  "title": "Limits of Difficulty Scaling: Hard Samples Yield Diminishing Returns in GRPO-Tuned SLMs",
+  "link": "https://arxiv.org/abs/2604.06298",
+  "summary": "arXiv:2604.06298v1 Announce Type: new \nAbstract: Recent alignment work on Large Language Models (LLMs) suggests preference optimization can improve reasoning by shifting probability mass toward better solutions. We test this claim in a resource-constrained setting by applying GRPO with LoRA to SLMs (up to 3B) for math reasoning on GSM8K and MATH datasets with difficulty-stratified analyses. As problem difficulty increases, accuracy plateaus, revealing a capacity boundary: GRPO primarily reshapes output preferences without reliably improving hardest-tier solving. Consistent with this, training GRPO only on lower-difficulty problems matches full-dataset accuracy across difficulty tiers while using only ~45% training steps, indicating diminishing returns from harder samples in this regime. We also find a cross-dataset generalization effect: GSM8K-trained GRPO achieves higher accuracy on the numeric subset of MATH than MATH-trained GRPO, exceeding it by ~5% at 1.5B and by ~3% at 3B. We show that the best achievable gains depend strongly on the base model's prior reasoning competence and the dataset's difficulty profile.",
+  "feed": "arxiv-cs-LG"
+}

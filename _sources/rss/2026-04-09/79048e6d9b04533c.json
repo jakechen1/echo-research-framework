@@ -1,0 +1,7 @@
+{
+  "id": "79048e6d9b04533c",
+  "title": "Physics-Informed Spectral Modeling for Hyperspectral Imaging",
+  "link": "https://arxiv.org/abs/2508.21618",
+  "summary": "arXiv:2508.21618v2 Announce Type: replace \nAbstract: We present PhISM, a physics-informed deep learning architecture that learns without supervision to explicitly disentangle hyperspectral observations and model them with continuous basis functions. PhISM outperforms prior methods on several classification and regression benchmarks, requires limited labeled data, and provides additional insights thanks to interpretable latent representation.",
+  "feed": "arxiv-cs-LG"
+}
