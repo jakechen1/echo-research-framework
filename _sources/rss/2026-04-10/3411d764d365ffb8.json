@@ -1,0 +1,7 @@
+{
+  "id": "3411d764d365ffb8",
+  "title": "SeMoBridge: Semantic Modality Bridge for Efficient Few-Shot Adaptation of CLIP",
+  "link": "https://arxiv.org/abs/2509.26036",
+  "summary": "arXiv:2509.26036v3 Announce Type: replace-cross \nAbstract: While Contrastive Language-Image Pretraining (CLIP) excels at zero-shot tasks by aligning image and text embeddings, its performance in few-shot classification is hindered by a critical limitation: intra-modal misalignment. This issue, caused by a persistent modality gap and CLIP's exclusively inter-modal training objective, leaves the embedding spaces uncalibrated, making direct image-to-image comparisons unreliable. Existing methods attempt to address this by refining similarity logits or by computationally expensive per-sample optimization. To overcome these challenges, we introduce SeMoBridge, a lightweight yet powerful approach that directly addresses the misalignment. Our method maps images into the text modality, while keeping their semantic content intact through what we call a Semantic Modality Bridge. SeMoBridge is closed-form and can optionally be trained through multi-modal supervision, combining image and text-alignment losses to optimize the projection. Experiments show that the trained version, SeMoBridge-T, requires only a fraction of the training time while overall outperforming other methods, particularly in low-data scenarios (1, 2, and 4 shots). The code is available at https://github.com/christti98/semobridge.",
+  "feed": "arxiv-cs-LG"
+}

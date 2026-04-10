@@ -1,0 +1,7 @@
+{
+  "id": "c8783ddd08af36bc",
+  "title": "Munkres' General Topology Autoformalized in Isabelle/HOL",
+  "link": "https://arxiv.org/abs/2604.07455",
+  "summary": "arXiv:2604.07455v1 Announce Type: cross \nAbstract: We describe an experiment in LLM-assisted autoformalization that produced over 85,000 lines of Isabelle/HOL code covering all 39 sections of Munkres' Topology (general topology, Chapters 2--8), from topological spaces through dimension theory. The LLM-based coding agents (initially ChatGPT 5.2 and then Claude Opus 4.6) used 24 active days for that. The formalization is complete: all 806 formal results are fully proved with zero sorry's. Proved results include the Tychonoff theorem, the Baire category theorem, the Nagata--Smirnov and Smirnov metrization theorems, the Stone--\\v{C}ech compactification, Ascoli's theorem, the space-filling curve, and others. The methodology is based on a \"sorry-first\" declarative proof workflow combined with bulk use of sledgehammer - two of Isabelle major strengths. This leads to relatively fast autoformalization progress. We analyze the resulting formalization in detail, analyze the human--LLM interaction patterns from the session log, and briefly compare with related autoformalization efforts in Megalodon, HOL Light, and Naproche. The results indicate that LLM-assisted formalization of standard mathematical textbooks in Isabelle/HOL is quite feasible, cheap and fast, even if some human supervision is useful.",
+  "feed": "arxiv-cs-LG"
+}

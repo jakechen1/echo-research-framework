@@ -1,0 +1,7 @@
+{
+  "id": "9a3e1a81eca83b24",
+  "title": "Cluster Attention for Graph Machine Learning",
+  "link": "https://arxiv.org/abs/2604.07492",
+  "summary": "arXiv:2604.07492v1 Announce Type: new \nAbstract: Message Passing Neural Networks have recently become the most popular approach to graph machine learning tasks; however, their receptive field is limited by the number of message passing layers. To increase the receptive field, Graph Transformers with global attention have been proposed; however, global attention does not take into account the graph topology and thus lacks graph-structure-based inductive biases, which are typically very important for graph machine learning tasks. In this work, we propose an alternative approach: cluster attention (CLATT). We divide graph nodes into clusters with off-the-shelf graph community detection algorithms and let each node attend to all other nodes in each cluster. CLATT provides large receptive fields while still having strong graph-structure-based inductive biases. We show that augmenting Message Passing Neural Networks or Graph Transformers with CLATT significantly improves their performance on a wide range of graph datasets including datasets from the recently introduced GraphLand benchmark representing real-world applications of graph machine learning.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "1ae80ad04f370369",
+  "title": "Intensity Dot Product Graphs",
+  "link": "https://arxiv.org/abs/2604.07810",
+  "summary": "arXiv:2604.07810v1 Announce Type: cross \nAbstract: Latent-position random graph models usually treat the node set as fixed once the sample size is chosen, while graphon-based and random-measure constructions allow more randomness at the cost of weaker geometric interpretability. We introduce \\emph{Intensity Dot Product Graphs} (IDPGs), which extend Random Dot Product Graphs by replacing a fixed collection of latent positions with a Poisson point process on a Euclidean latent space. This yields a model with random node populations, RDPG-style dot-product affinities, and a population-level intensity that links continuous latent structure to finite observed graphs. We define the heat map and the desire operator as continuous analogues of the probability matrix, prove a spectral consistency result connecting adjacency singular values to the operator spectrum, compare the construction with graphon and digraphon representations, and show how classical RDPGs arise in a concentrated limit. Because the model is parameterized by an evolving intensity, temporal extensions through partial differential equations arise naturally.",
+  "feed": "arxiv-cs-LG"
+}

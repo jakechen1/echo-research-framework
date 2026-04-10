@@ -1,0 +1,7 @@
+{
+  "id": "cb3114cc8832554e",
+  "title": "Mathematical analysis of one-layer neural network with fixed biases, a new activation function and other observations",
+  "link": "https://arxiv.org/abs/2604.07715",
+  "summary": "arXiv:2604.07715v1 Announce Type: new \nAbstract: We analyze a simple one-hidden-layer neural network with ReLU activation functions and fixed biases, with one-dimensional input and output. We study both continuous and discrete versions of the model, and we rigorously prove the convergence of the learning process with the $L^2$ squared loss function and the gradient descent procedure. We also prove the spectral bias property for this learning process.\n  Several conclusions of this analysis are discussed; in particular, regarding the structure and properties that activation functions should possess, as well as the relationships between the spectrum of certain operators and the learning process. Based on this, we also propose an alternative activation function, the full-wave rectified exponential function (FReX), and we discuss the convergence of the gradient descent with this alternative activation function.",
+  "feed": "arxiv-cs-LG"
+}

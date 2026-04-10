@@ -1,0 +1,7 @@
+{
+  "id": "59be73d0d5d8604d",
+  "title": "Why Adam Can Beat SGD: Second-Moment Normalization Yields Sharper Tails",
+  "link": "https://arxiv.org/abs/2603.03099",
+  "summary": "arXiv:2603.03099v4 Announce Type: replace \nAbstract: Despite Adam demonstrating faster empirical convergence than SGD in many applications, much of the existing theory yields guarantees essentially comparable to those of SGD, leaving the empirical performance gap insufficiently explained. In this paper, we uncover a key second-moment normalization in Adam and develop a stopping-time/martingale analysis that provably distinguishes Adam from SGD under the classical bounded variance model (a second moment assumption). In particular, we establish the first theoretical separation between the high-probability convergence behaviors of the two methods: Adam achieves a $\\delta^{-1/2}$ dependence on the confidence parameter $\\delta$, whereas corresponding high-probability guarantee for SGD necessarily incurs at least a $\\delta^{-1}$ dependence.",
+  "feed": "arxiv-cs-LG"
+}

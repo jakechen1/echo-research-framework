@@ -1,0 +1,7 @@
+{
+  "id": "5cca5dbcc26be739",
+  "title": "On-board Telemetry Monitoring in Autonomous Satellites: Challenges and Opportunities",
+  "link": "https://arxiv.org/abs/2604.08424",
+  "summary": "arXiv:2604.08424v1 Announce Type: cross \nAbstract: The increasing autonomy of spacecraft demands fault-detection systems that are both reliable and explainable. This work addresses eXplainable Artificial Intelligence for onboard Fault Detection, Isolation and Recovery within the Attitude and Orbit Control Subsystem by introducing a framework that enhances interpretability in neural anomaly detectors. We propose a method to derive low-dimensional, semantically annotated encodings from intermediate neural activations, called peepholes. Applied to a convolutional autoencoder, the framework produces interpretable indicators that enable the identification and localization of anomalies in reaction-wheel telemetry. Peepholes analysis further reveals bias detection and supports fault localization. The proposed framework enables the semantic characterization of detected anomalies while requiring only a marginal increase in computational resources, thus supporting its feasibility for on-board deployment.",
+  "feed": "arxiv-cs-LG"
+}

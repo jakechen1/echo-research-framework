@@ -1,0 +1,7 @@
+{
+  "id": "1a9f2242f7749117",
+  "title": "DMin: Scalable Training Data Influence Estimation for Diffusion Models",
+  "link": "https://arxiv.org/abs/2412.08637",
+  "summary": "arXiv:2412.08637v4 Announce Type: replace-cross \nAbstract: Identifying the training data samples that most influence a generated image is a critical task in understanding diffusion models (DMs), yet existing influence estimation methods are constrained to small-scale or LoRA-tuned models due to computational limitations. To address this challenge, we propose DMin (Diffusion Model influence), a scalable framework for estimating the influence of each training data sample on a given generated image. To the best of our knowledge, it is the first method capable of influence estimation for DMs with billions of parameters. Leveraging efficient gradient compression, DMin reduces storage requirements from hundreds of TBs to mere MBs or even KBs, and retrieves the top-k most influential training samples in under 1 second, all while maintaining performance. Our empirical results demonstrate DMin is both effective in identifying influential training samples and efficient in terms of computational and storage requirements.",
+  "feed": "arxiv-cs-LG"
+}

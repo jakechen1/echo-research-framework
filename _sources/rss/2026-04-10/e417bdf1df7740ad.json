@@ -1,0 +1,7 @@
+{
+  "id": "e417bdf1df7740ad",
+  "title": "Approximately Equivariant Recurrent Generative Models for Quasi-Periodic Time Series with a Progressive Training Scheme",
+  "link": "https://arxiv.org/abs/2505.05020",
+  "summary": "arXiv:2505.05020v2 Announce Type: replace \nAbstract: We present a simple yet effective generative model for time series, based on a Recurrent Variational Autoencoder that we refer to as AEQ-RVAE-ST. Recurrent layers often struggle with unstable optimization and poor convergence when modeling long sequences. To address these limitations, we introduce a training scheme that subsequently increases the sequence length, stabilizing optimization and enabling consistent learning over extended horizons. By composing known components into a recurrent, approximately time-shift-equivariant topology, our model introduces an inductive bias that aligns with the structure of quasi-periodic and nearly stationary time series. Across several benchmark datasets, AEQ-RVAE-ST matches or surpasses state-of-the-art generative models, particularly on quasi-periodic data, while remaining competitive on more irregular signals. Performance is evaluated through ELBO, Fr\\'echet Distance, discriminative metrics, and visualizations of the learned latent embeddings.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "9fac93b0266b4802",
+  "title": "Human-computer interactions predict mental health",
+  "link": "https://arxiv.org/abs/2511.20179",
+  "summary": "arXiv:2511.20179v4 Announce Type: replace \nAbstract: Scalable assessments of mental illness remain a critical roadblock toward accessible and equitable care. Here, we show that everyday human-computer interactions encode mental health with biomarker accuracy. We introduce MAILA, a MAchine-learning framework for Inferring Latent mental states from digital Activity. We trained MAILA on 18,200 cursor and touchscreen recordings labelled with 1.3 million mental-health self-reports collected from 9,500 participants. MAILA tracks dynamic mental states along 13 clinically relevant dimensions, resolves circadian fluctuations and experimental manipulations of arousal and valence, achieves near-ceiling accuracy at the group level, and captures information about mental health that is only partially reflected in verbal self-report. By extracting signatures of psychological function that have so far remained untapped, MAILA establishes human-computer interactions as a new modality for scalable digital phenotyping of mental health.",
+  "feed": "arxiv-q-bio"
+}

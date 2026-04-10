@@ -1,0 +1,23 @@
+---
+title: Inside-Out: Measuring Generalization in Vision Transformers Through Inner Workings
+created: 2024-05-24
+source: https://arxiv.org/abs/2604.08192
+tags: [vision-transformers, generalization, distribution-shift, circuit-discovery, machine-learning]
+category: machine-learning
+---
+
+# Inside-Out: Measuring Generalization in Vision Transformers Through Inner Workings
+
+## Overview
+Evaluating the reliability of [[Machine Learning]] models under [[Distribution Shift]] is a critical challenge, especially in high-stakes industries where labeled target data is often unavailable. The paper "Inside-Out" proposes a paradigm shift in model evaluation: moving from output-centric metrics to an analysis of the model's internal mechanisms.
+
+## The Limitation of Traditional Metrics
+Current proxy metrics, such as model confidence or accuracy-on-the-line, focus primarily on the final output of a model. These methods are often unreliable because they ignore the underlying causal processes that generate those predictions. A model may produce high-confidence outputs while its internal logic fails to adapt to new data distributions, leading to catastrophic failures in deployment.
+
+## The "Inside-Out" Approach
+The authors introduce a novel perspective by using the model's internal "**circuits**"—the causal interactions between internal representations—as a predictive metric for [[Generalization]]. By utilizing [[Circuit Discovery]], the researchers extract the structural logic of [[Vision Transformers]] to observe how information flows through the architecture.
+
+The paper introduces two specific, label-free metrics designed for practical deployment scenarios:
+
+1.  **Dependency Depth Bias**: Intended for the **pre-deployment** phase. This metric allows researchers to compare different models and select the one with the highest potential for success on unlabeled target datasets.
+2.  **Circuit Shift Score**: Intended for the

@@ -1,0 +1,7 @@
+{
+  "id": "321ccb535a3f80e7",
+  "title": "The Condition-Number Principle for Prototype Clustering",
+  "link": "https://arxiv.org/abs/2604.07744",
+  "summary": "arXiv:2604.07744v1 Announce Type: cross \nAbstract: We develop a geometric framework that links objective accuracy to structural recovery in prototype-based clustering. The analysis is algorithm-agnostic and applies to a broad class of admissible loss functions. We define a clustering condition number that compares within-cluster scale to the minimum loss increase required to move a point across a cluster boundary. When this quantity is small, any solution with a small suboptimality gap must also have a small misclassification error relative to a benchmark partition. The framework also clarifies a fundamental trade-off between robustness and sensitivity to cluster imbalance, leading to sharp phase transitions for exact recovery under different objectives. The guarantees are deterministic and non-asymptotic, and they separate the role of algorithmic accuracy from the intrinsic geometric difficulty of the instance. We further show that errors concentrate near cluster boundaries and that sufficiently deep cluster cores are recovered exactly under strengthened local margins. Together, these results provide a geometric principle for interpreting low objective values as reliable evidence of meaningful clustering structure.",
+  "feed": "arxiv-cs-LG"
+}

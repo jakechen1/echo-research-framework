@@ -1,0 +1,7 @@
+{
+  "id": "f910646d2d395797",
+  "title": "Benchmarking Deep Learning for Future Liver Remnant Segmentation in Colorectal Liver Metastasis",
+  "link": "https://arxiv.org/abs/2604.07999",
+  "summary": "arXiv:2604.07999v1 Announce Type: new \nAbstract: Accurate segmentation of the future liver remnant (FLR) is critical for surgical planning in colorectal liver metastases (CRLM) to prevent fatal post-hepatectomy liver failure. However, this segmentation task is technically challenging due to complex resection boundaries, convoluted hepatic vasculature and diffuse metastatic lesions. A primary bottleneck in developing automated AI tools has been the lack of high-fidelity, validated data. We address this gap by manually refining all 197 volumes from the public CRLM-CT-Seg dataset, creating the first open-source, validated benchmark for this task. We then establish the first segmentation baselines, comparing cascaded (Liver->CRLM->FLR) and end-to-end (E2E) strategies using nnU-Net, SwinUNETR, and STU-Net. We find a cascaded nnU-Net achieves the best final FLR segmentation Dice (0.767), while the pretrained STU-Net provides superior CRLM segmentation (0.620 Dice) and is significantly more robust to cascaded errors. This work provides the first validated benchmark and a reproducible framework to accelerate research in AI-assisted surgical planning.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "1f039a8249f2d329",
+  "title": "Constrained Policy Optimization with Cantelli-Bounded Value-at-Risk",
+  "link": "https://arxiv.org/abs/2601.22993",
+  "summary": "arXiv:2601.22993v2 Announce Type: replace \nAbstract: We introduce the Value-at-Risk Constrained Policy Optimization algorithm (VaR-CPO), a sample efficient and conservative method designed to optimize Value-at-Risk (VaR) constrained reinforcement learning (RL) problems. Empirically, we demonstrate that VaR-CPO is capable of safe exploration, achieving zero constraint violations during training in feasible environments, a critical property that baseline methods fail to uphold. To overcome the inherent non-differentiability of the VaR constraint, we employ Cantelli's inequality to obtain a tractable approximation based on the first two moments of the cost return. Additionally, by extending the trust-region framework of the Constrained Policy Optimization (CPO) method, we provide worst-case bounds for both policy improvement and constraint violation during the training process.",
+  "feed": "arxiv-cs-LG"
+}

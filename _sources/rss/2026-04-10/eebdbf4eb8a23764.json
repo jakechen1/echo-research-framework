@@ -1,0 +1,7 @@
+{
+  "id": "eebdbf4eb8a23764",
+  "title": "How Will My Business Process Unfold? Predicting Case Suffixes With Start and End Timestamps",
+  "link": "https://arxiv.org/abs/2509.14536",
+  "summary": "arXiv:2509.14536v2 Announce Type: replace \nAbstract: Predictive process monitoring supports operational decision-making by forecasting future states of ongoing business cases. A key task is case suffix prediction, which estimates the remaining sequence of activities for a case. Most existing approaches only generate activities with a single timestamp (usually the completion time). However, this is insufficient for resource capacity planning, which requires distinguishing between waiting time and processing time to accurately schedule resources and manage workloads. This paper introduces a technique to predict case suffixes that include both start and end timestamps. By predicting distinct waiting and processing intervals, the method provides a more granular view of future resource demands.",
+  "feed": "arxiv-cs-LG"
+}

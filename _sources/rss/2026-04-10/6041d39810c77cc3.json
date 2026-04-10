@@ -1,0 +1,7 @@
+{
+  "id": "6041d39810c77cc3",
+  "title": "Efficient Federated Search for Retrieval-Augmented Generation using Lightweight Routing",
+  "link": "https://arxiv.org/abs/2502.19280",
+  "summary": "arXiv:2502.19280v2 Announce Type: replace \nAbstract: Large language models (LLMs) achieve remarkable performance across domains but remain prone to hallucinations and inconsistencies. Retrieval-augmented generation (RAG) mitigates these issues by augmenting model inputs with relevant documents retrieved from external sources. In many real-world scenarios, relevant knowledge is fragmented across organizations or institutions, motivating the need for federated search mechanisms that can aggregate results from heterogeneous data sources without centralizing the data. We introduce RAGRoute, a lightweight routing mechanism for federated search in RAG systems that dynamically selects relevant data sources at query time using a neural classifier, avoiding indiscriminate querying. This selective routing reduces communication overhead and end-to-end latency while preserving retrieval quality, achieving up to 80.65% reductions in communication volume and 52.50% reductions in latency across three benchmarks, while matching the accuracy of querying all sources.",
+  "feed": "arxiv-cs-LG"
+}

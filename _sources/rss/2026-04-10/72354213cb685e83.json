@@ -1,0 +1,7 @@
+{
+  "id": "72354213cb685e83",
+  "title": "Shift- and stretch-invariant non-negative matrix factorization with an application to brain tissue delineation in emission tomography data",
+  "link": "https://arxiv.org/abs/2604.08161",
+  "summary": "arXiv:2604.08161v1 Announce Type: new \nAbstract: Dynamic neuroimaging data, such as emission tomography measurements of radiotracer transport in blood or cerebrospinal fluid, often exhibit diffusion-like properties. These introduce distance-dependent temporal delays, scale-differences, and stretching effects that limit the effectiveness of conventional linear modeling and decomposition methods. To address this, we present the shift- and stretch-invariant non-negative matrix factorization framework. Our approach estimates both integer and non-integer temporal shifts as well as temporal stretching, all implemented in the frequency domain, where shifts correspond to phase modifications, and where stretching is handled via zero-padding or truncation. The model is implemented in PyTorch (https://github.com/anders-s-olsen/shiftstretchNMF). We demonstrate on synthetic data and brain emission tomography data that the model is able to account for stretching to provide more detailed characterization of brain tissue structure.",
+  "feed": "arxiv-cs-LG"
+}

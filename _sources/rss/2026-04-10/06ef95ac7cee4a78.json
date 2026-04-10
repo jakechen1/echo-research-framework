@@ -1,0 +1,7 @@
+{
+  "id": "06ef95ac7cee4a78",
+  "title": "A Probabilistic Formulation of Offset Noise in Diffusion Models",
+  "link": "https://arxiv.org/abs/2412.03134",
+  "summary": "arXiv:2412.03134v2 Announce Type: replace-cross \nAbstract: Diffusion models have become fundamental tools for modeling data distributions in machine learning. Despite their success, these models face challenges when generating data with extreme brightness values, as evidenced by limitations observed in practical large-scale diffusion models. Offset noise has been proposed as an empirical solution to this issue, yet its theoretical basis remains insufficiently explored. In this paper, we propose a novel diffusion model that naturally incorporates additional noise within a rigorous probabilistic framework. Our approach modifies both the forward and reverse diffusion processes, enabling inputs to be diffused into Gaussian distributions with arbitrary mean structures. We derive a loss function based on the evidence lower bound and show that the resulting objective is structurally analogous to that of offset noise, with time-dependent coefficients. Experiments on controlled synthetic datasets demonstrate that the proposed model mitigates brightness-related limitations and achieves improved performance over conventional methods, particularly in high-dimensional settings.",
+  "feed": "arxiv-cs-LG"
+}

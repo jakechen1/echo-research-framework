@@ -1,0 +1,7 @@
+{
+  "id": "bbfc4c925b310111",
+  "title": "Complexity of Classical Acceleration for $\\ell_1$-Regularized PageRank",
+  "link": "https://arxiv.org/abs/2602.21138",
+  "summary": "arXiv:2602.21138v2 Announce Type: replace-cross \nAbstract: We study the degree-weighted work required to compute $\\ell_1$-regularized PageRank using the standard accelerated proximal-gradient method (FISTA). For non-accelerated methods (ISTA), the best known worst-case work is $\\widetilde{O}((\\alpha\\rho)^{-1})$, where $\\alpha$ is the teleportation parameter and $\\rho$ is the $\\ell_1$-regularization parameter. It is not known whether classical acceleration methods can improve $1/\\alpha$ to $1/\\sqrt{\\alpha}$ while preserving the $1/\\rho$ locality scaling, or whether they can be asymptotically worse. For FISTA, we show a negative result by constructing a family of instances for which standard FISTA is asymptotically worse than ISTA. On the positive side, we analyze FISTA on a slightly over-regularized objective and show that, under a confinement condition, all spurious activations remain inside a boundary set $\\mathcal{B}$. This yields a bound consisting of an accelerated $(\\rho\\sqrt{\\alpha})^{-1}\\log(\\alpha/\\varepsilon)$ term plus a boundary overhead $\\sqrt{vol(\\mathcal{B})}/(\\rho\\alpha^{3/2})$. We also provide graph-structural sufficient conditions that imply such confinement.",
+  "feed": "arxiv-cs-LG"
+}

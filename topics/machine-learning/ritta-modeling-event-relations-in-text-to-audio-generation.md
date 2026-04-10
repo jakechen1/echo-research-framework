@@ -1,0 +1,15 @@
+---
+title: RiTTA: Modeling Event Relations in Text-to-Audio Generation
+created: 2024-05-22
+source: https://arxiv.org/abs/2412.15922
+tags: [audio synthesis, text-to-audio, machine learning, benchmarking]
+category: ai, machine-learning, technology
+---
+
+# RiTTA: Modeling Event Relations in Text-to-Audio Generation
+
+RiTTA is a specialized research framework designed to bridge a significant gap in current [[Text-to-Audio (TTA)]] generation models. While recent advancements in [[Generative AI]] have enabled the production of high-fidelity audio with impressive fine-grained context understanding, these models frequently struggle to interpret the complex relationships between different audio events described in text prompts. Most existing methods treat audio events as independent entities, failing to synthesize the nuanced interactions and temporal dependencies that occur in real-world acoustic environments.
+
+## The RiTTA Benchmark
+
+To systematically analyze this deficiency, the researchers established

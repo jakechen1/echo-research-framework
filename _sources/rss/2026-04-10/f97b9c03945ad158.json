@@ -1,0 +1,7 @@
+{
+  "id": "f97b9c03945ad158",
+  "title": "Tensor-based computation of the Koopman generator via operator logarithm",
+  "link": "https://arxiv.org/abs/2604.07685",
+  "summary": "arXiv:2604.07685v1 Announce Type: new \nAbstract: Identifying governing equations of nonlinear dynamical systems from data is challenging. While sparse identification of nonlinear dynamics (SINDy) and its extensions are widely used for system identification, operator-logarithm approaches use the logarithm to avoid time differentiation, enabling larger sampling intervals. However, they still suffer from the curse of dimensionality. Then, we propose a data-driven method to compute the Koopman generator in a low-rank tensor train (TT) format by taking logarithms of Koopman eigenvalues while preserving the TT format. Experiments on 4-dimensional Lotka-Volterra and 10-dimensional Lorenz-96 systems show accurate recovery of vector field coefficients and scalability to higher-dimensional systems.",
+  "feed": "arxiv-cs-LG"
+}

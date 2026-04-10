@@ -1,0 +1,7 @@
+{
+  "id": "e16eb3dada0c0f63",
+  "title": "A One-Inclusion Graph Approach to Multi-Group Learning",
+  "link": "https://arxiv.org/abs/2603.23208",
+  "summary": "arXiv:2603.23208v2 Announce Type: replace \nAbstract: We prove the tightest-known upper bounds on the sample complexity of multi-group learning. Our algorithm extends the one-inclusion graph prediction strategy using a generalization of bipartite $b$-matching. In the group-realizable setting, we provide a lower bound confirming that our algorithm's $\\log n / n$ convergence rate is optimal in general. If one relaxes the learning objective such that the group on which we are evaluated is chosen obliviously of the sample, then our algorithm achieves the optimal $1/n$ convergence rate under group-realizability.",
+  "feed": "arxiv-cs-LG"
+}

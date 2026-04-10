@@ -1,0 +1,7 @@
+{
+  "id": "ac92801c591c0347",
+  "title": "Computationally lightweight classifiers with frequentist bounds on predictions",
+  "link": "https://arxiv.org/abs/2603.22128",
+  "summary": "arXiv:2603.22128v2 Announce Type: replace \nAbstract: While both classical and neural network classifiers can achieve high accuracy, they fall short on offering uncertainty bounds on their predictions, making them unfit for safety-critical applications. Existing kernel-based classifiers that provide such bounds scale with $\\mathcal O (n^{\\sim3})$ in time, making them computationally intractable for large datasets. To address this, we propose a novel, computationally efficient classification algorithm based on the Nadaraya-Watson estimator, for whose estimates we derive frequentist uncertainty intervals. We evaluate our classifier on synthetically generated data and on electrocardiographic heartbeat signals from the MIT-BIH Arrhythmia database. We show that the method achieves competitive accuracy $>$\\SI{96}{\\percent} at $\\mathcal O(n)$ and $\\mathcal O(\\log n)$ operations, while providing actionable uncertainty bounds. These bounds can, e.g., aid in flagging low-confidence predictions, making them suitable for real-time settings with resource constraints, such as diagnostic monitoring or implantable devices.",
+  "feed": "arxiv-cs-LG"
+}

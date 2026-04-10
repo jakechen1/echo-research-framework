@@ -1,0 +1,7 @@
+{
+  "id": "1c39fe4bed083744",
+  "title": "LINE: LLM-based Iterative Neuron Explanations for Vision Models",
+  "link": "https://arxiv.org/abs/2604.08039",
+  "summary": "arXiv:2604.08039v1 Announce Type: cross \nAbstract: Interpreting the concepts encoded by individual neurons in deep neural networks is a crucial step towards understanding their complex decision-making processes and ensuring AI safety. Despite recent progress in neuron labeling, existing methods often limit the search space to predefined concept vocabularies or produce overly specific descriptions that fail to capture higher-order, global concepts. We introduce LINE, a novel, training-free iterative approach tailored for open-vocabulary concept labeling in vision models. Operating in a strictly black-box setting, LINE leverages a large language model and a text-to-image generator to iteratively propose and refine concepts in a closed loop, guided by activation history. We demonstrate that LINE achieves state-of-the-art performance across multiple model architectures, yielding AUC improvements of up to 0.18 on ImageNet and 0.05 on Places365, while discovering, on average, 29% of new concepts missed by massive predefined vocabularies. Beyond identifying the top concept, LINE provides a complete generation history, which enables polysemanticity evaluation and produces supporting visual explanations that rival gradient-dependent activation maximization methods.",
+  "feed": "arxiv-cs-LG"
+}

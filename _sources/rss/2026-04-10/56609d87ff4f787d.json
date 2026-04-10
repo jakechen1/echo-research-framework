@@ -1,0 +1,7 @@
+{
+  "id": "56609d87ff4f787d",
+  "title": "SCOT: Multi-Source Cross-City Transfer with Optimal-Transport Soft-Correspondence Objective",
+  "link": "https://arxiv.org/abs/2604.07383",
+  "summary": "arXiv:2604.07383v1 Announce Type: new \nAbstract: Cross-city transfer improves prediction in label-scarce cities by leveraging labeled data from other cities, but it becomes challenging when cities adopt incompatible partitions and no ground-truth region correspondences exist. Existing approaches either rely on heuristic region matching, which is often sensitive to anchor choices, or perform distribution-level alignment that leaves correspondences implicit and can be unstable under strong heterogeneity. We propose SCOT, a cross-city representation learning framework that learns explicit soft correspondences between unequal region sets via Sinkhorn-based entropic optimal transport. SCOT further sharpens transferable structure with an OT-weighted contrastive objective and stabilizes optimization through a cycle-style reconstruction regularizer. For multi-source transfer, SCOT aligns each source and the target to a shared prototype hub using balanced entropic transport guided by a target-induced prototype prior. Across real-world cities and tasks, SCOT consistently improves transfer accuracy and robustness, while the learned transport couplings and hub assignments provide interpretable diagnostics of alignment quality.",
+  "feed": "arxiv-cs-LG"
+}

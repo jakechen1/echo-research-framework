@@ -1,0 +1,7 @@
+{
+  "id": "d5d6757b5a7cc7a3",
+  "title": "BADiff: Bandwidth Adaptive Diffusion Model",
+  "link": "https://arxiv.org/abs/2510.21366",
+  "summary": "arXiv:2510.21366v3 Announce Type: replace-cross \nAbstract: In this work, we propose a novel framework to enable diffusion models to adapt their generation quality based on real-time network bandwidth constraints. Traditional diffusion models produce high-fidelity images by performing a fixed number of denoising steps, regardless of downstream transmission limitations. However, in practical cloud-to-device scenarios, limited bandwidth often necessitates heavy compression, leading to loss of fine textures and wasted computation. To address this, we introduce a joint end-to-end training strategy where the diffusion model is conditioned on a target quality level derived from the available bandwidth. During training, the model learns to adaptively modulate the denoising process, enabling early-stop sampling that maintains perceptual quality appropriate to the target transmission condition. Our method requires minimal architectural changes and leverages a lightweight quality embedding to guide the denoising trajectory. Experimental results demonstrate that our approach significantly improves the visual fidelity of bandwidth-adapted generations compared to naive early-stopping, offering a promising solution for efficient image delivery in bandwidth-constrained environments. Code is available at: https://github.com/xzhang9308/BADiff.",
+  "feed": "arxiv-cs-LG"
+}

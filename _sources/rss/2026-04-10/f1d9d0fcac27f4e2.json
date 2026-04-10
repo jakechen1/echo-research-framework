@@ -1,0 +1,7 @@
+{
+  "id": "f1d9d0fcac27f4e2",
+  "title": "Blink: CPU-Free LLM Inference by Delegating the Serving Stack to GPU and SmartNIC",
+  "link": "https://arxiv.org/abs/2604.07609",
+  "summary": "arXiv:2604.07609v1 Announce Type: cross \nAbstract: Large Language Model (LLM) inference is rapidly becoming a core datacenter service, yet current serving stacks keep the host CPU on the critical path for orchestration and token-level control. This makes LLM performance sensitive to CPU interference, undermining application colocation and forcing operators to reserve CPU headroom, leaving substantial capacity unutilized.\n  We introduce Blink, an end-to-end serving architecture that removes the host CPU from the steady-state inference path by redistributing responsibilities across a SmartNIC and a GPU. Blink offloads request handling to the SmartNIC, which delivers inputs directly into GPU memory via RDMA, and replaces host-driven scheduling with a persistent GPU kernel that performs batching, scheduling, and KV-cache management without CPU involvement.\n  Evaluated against TensorRT-LLM, vLLM, and SGLang, Blink outperforms all baselines even in isolation, reducing pre-saturation P99 TTFT by up to 8.47$\\times$ and P99 TPOT by up to 3.40$\\times$, improving decode throughput by up to 2.1$\\times$, and reducing energy per token by up to 48.6$\\%$. Under CPU interference, Blink maintains stable performance, while existing systems degrade by up to two orders of magnitude.",
+  "feed": "arxiv-cs-LG"
+}

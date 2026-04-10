@@ -1,0 +1,7 @@
+{
+  "id": "304ea84e4063e695",
+  "title": "$\\texttt{SEM-CTRL}$: Semantically Controlled Decoding",
+  "link": "https://arxiv.org/abs/2503.01804",
+  "summary": "arXiv:2503.01804v4 Announce Type: replace-cross \nAbstract: Ensuring both syntactic and semantic correctness in Large Language Model (LLM) outputs remains a significant challenge, despite being critical for real-world deployment. In this paper, we introduce $\\texttt{SEM-CTRL}$, a unified approach that allows for enforcing rich context-sensitive constraints, and task and instance specific semantics directly on the LLM decoder. Our approach integrates token-level MCTS which is guided by specific syntactic and semantic constraints. The constraints over desired outputs are expressed using Answer Set Grammars, which is a logic-based formalism that generalizes context sensitive grammars while incorporating background knowledge to represent task-specific semantics. We show that our approach helps guarantee valid completions for any off-the-shelf LLM without the need for fine-tuning. We evaluate $\\texttt{SEM-CTRL}$ on a range of tasks, including synthetic grammar synthesis, combinatorial reasoning, JSON parsing, and planning. Our experimental results demonstrate that $\\texttt{SEM-CTRL}$ allows even small pre-trained LLMs to efficiently outperform larger variants and state-of-the-art reasoning models (e.g., $\\textit{o4-mini}$) while simultaneously guaranteeing semantic validity.",
+  "feed": "arxiv-cs-LG"
+}

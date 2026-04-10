@@ -1,0 +1,7 @@
+{
+  "id": "e5aaf6cc6128cf50",
+  "title": "SALSA-RL: Stability Analysis in the Latent Space of Actions for Reinforcement Learning",
+  "link": "https://arxiv.org/abs/2502.15512",
+  "summary": "arXiv:2502.15512v5 Announce Type: replace \nAbstract: Modern deep reinforcement learning (DRL) methods have made significant advances in handling continuous action spaces. However, real-world control systems, especially those requiring precise and reliable performance, often demand interpretability in the sense of a-priori assessments of agent behavior to identify safe or failure-prone interactions with environments. To address this limitation, this work proposes SALSA-RL (Stability Analysis in the Latent Space of Actions), a novel RL framework that models control actions as dynamic, time-dependent variables evolving within a latent space. By employing a pre-trained encoder-decoder and a state-dependent linear system, this approach enables interpretability through local stability analysis, where instantaneous growth in action-norms can be predicted before their execution. It is demonstrated that SALSA-RL can be deployed in a non-invasive manner for assessing the local stability of actions from pretrained RL agents without compromising on performance across diverse benchmark environments. By enabling a more interpretable analysis of action generation, SALSA-RL provides a powerful tool for advancing the design, analysis, and theoretical understanding of RL systems.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "1740e132697d89e4",
+  "title": "Visual Perceptual to Conceptual First-Order Rule Learning Networks",
+  "link": "https://arxiv.org/abs/2604.07897",
+  "summary": "arXiv:2604.07897v1 Announce Type: cross \nAbstract: Learning rules plays a crucial role in deep learning, particularly in explainable artificial intelligence and enhancing the reasoning capabilities of large language models. While existing rule learning methods are primarily designed for symbolic data, learning rules from image data without supporting image labels and automatically inventing predicates remains a challenge. In this paper, we tackle these inductive rule learning problems from images with a framework called {\\gamma}ILP, which provides a fully differentiable pipeline from image constant substitution to rule structure induction. Extensive experiments demonstrate that {\\gamma}ILP achieves strong performance not only on classical symbolic relational datasets but also on relational image data and pure image datasets, such as Kandinsky patterns.",
+  "feed": "arxiv-cs-LG"
+}

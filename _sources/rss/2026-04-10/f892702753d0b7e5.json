@@ -1,0 +1,7 @@
+{
+  "id": "f892702753d0b7e5",
+  "title": "Critical Patch-Aware Sparse Prompting with Decoupled Training for Continual Learning on the Edge",
+  "link": "https://arxiv.org/abs/2604.07399",
+  "summary": "arXiv:2604.07399v1 Announce Type: new \nAbstract: Continual learning (CL) on edge devices requires not only high accuracy but also training-time efficiency to support on-device adaptation under strict memory and computational constraints. While prompt-based continual learning (PCL) is parameter-efficient and achieves competitive accuracy, prior work has focused mainly on accuracy or inference-time performance, often overlooking the memory and computational costs of on-device training. In this paper, we propose CPS-Prompt, a critical patch-aware sparse prompting framework that explicitly targets training-time memory usage and computational cost by integrating critical patch sampling (CPS) for task-aware token reduction and decoupled prompt and classifier training (DPCT) to reduce backpropagation overhead. Experiments on three public benchmarks and real edge hardware show that CPS-Prompt improves peak memory, training time, and energy efficiency by about 1.6x over the balanced CODA-Prompt baseline, while maintaining accuracy within 2% of the state-of-the-art C-Prompt on average and remaining competitive with CODA-Prompt in accuracy. The code is available at https://github.com/laymond1/cps-prompt.",
+  "feed": "arxiv-cs-LG"
+}

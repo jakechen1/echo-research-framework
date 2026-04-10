@@ -1,0 +1,7 @@
+{
+  "id": "e16b4cd4f9949043",
+  "title": "OxEnsemble: Fair Ensembles for Low-Data Classification",
+  "link": "https://arxiv.org/abs/2512.09665",
+  "summary": "arXiv:2512.09665v2 Announce Type: replace-cross \nAbstract: We address the problem of fair classification in settings where data is scarce and unbalanced across demographic groups. Such low-data regimes are common in domains like medical imaging, where false negatives can have fatal consequences. We propose a novel approach \\emph{OxEnsemble} for efficiently training ensembles and enforcing fairness in these low-data regimes. Unlike other approaches, we aggregate predictions across ensemble members, each trained to satisfy fairness constraints. By construction, \\emph{OxEnsemble} is both data-efficient -- carefully reusing held-out data to enforce fairness reliably -- and compute-efficient, requiring little more compute than used to fine-tune or evaluate an existing model. We validate this approach with new theoretical guarantees. Experimentally, our approach yields more consistent outcomes and stronger fairness-accuracy trade-offs than existing methods across multiple challenging medical imaging classification datasets.",
+  "feed": "arxiv-cs-LG"
+}

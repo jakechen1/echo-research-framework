@@ -1,0 +1,7 @@
+{
+  "id": "b0d6c898aa388aac",
+  "title": "ReCellTy: Domain-Specific Knowledge Graph Retrieval-Augmented LLMs Reasoning Workflow for Single-Cell Annotation",
+  "link": "https://arxiv.org/abs/2505.00017",
+  "summary": "arXiv:2505.00017v2 Announce Type: replace-cross \nAbstract: With the rapid development of large language models (LLMs), their application to cell type annotation has drawn increasing attention. However, general-purpose LLMs often face limitations in this specific task due to the lack of guidance from external domain knowledge. To enable more accurate and fully automated cell type annotation, we develop a globally connected knowledge graph comprising 18850 biological information nodes, including cell types, gene markers, features, and other related entities, along with 48,944 edges connecting these nodes, which is used by LLMs to retrieve entities associated with differential genes for cell reconstruction. Additionally, a multi-task reasoning workflow is designed to optimise the annotation process. Compared to general-purpose LLMs, our method improves human evaluation scores by up to 0.21 and semantic similarity by 6.1% across multiple tissue types, while more closely aligning with the cognitive logic of manual annotation. Meanwhile, it narrows the performance gap between large and small LLMs in cell type annotation, offering a paradigm for structured knowledge integration and reasoning in bioinformatics.",
+  "feed": "arxiv-cs-LG"
+}

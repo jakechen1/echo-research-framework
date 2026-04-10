@@ -1,0 +1,7 @@
+{
+  "id": "5110833c183f0161",
+  "title": "The Lifecycle of the Spectral Edge: From Gradient Learning to Weight-Decay Compression",
+  "link": "https://arxiv.org/abs/2604.07380",
+  "summary": "arXiv:2604.07380v1 Announce Type: new \nAbstract: We decompose the spectral edge -- the dominant direction of the Gram matrix of parameter updates -- into its gradient and weight-decay components during grokking in two sequence tasks (Dyck-1 and SCAN). We find a sharp two-phase lifecycle: before grokking the edge is gradient-driven and functionally active; at grokking, gradient and weight decay align, and the edge becomes a compression axis that is perturbation-flat yet ablation-critical (>4000x more impactful than random directions). Three universality classes emerge (functional, mixed, compression), predicted by the gap flow equation. Nonlinear probes show information is re-encoded, not lost (MLP $R^2=0.99$ where linear $R^2=0.86$), and removing weight decay post-grok reverses compression while preserving the algorithm.",
+  "feed": "arxiv-cs-LG"
+}
