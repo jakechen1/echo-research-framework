@@ -1,0 +1,5 @@
+{
+  "name": "box-report",
+  "description": "Generate reports that auto-sync to Box",
+  "version": "1.0.0"
+}
