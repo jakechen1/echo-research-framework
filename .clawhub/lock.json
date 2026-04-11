@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "skills": {
+    "parallel-ai-research": {
+      "version": "1.1.0",
+      "installedAt": 1775397638408
+    },
+    "autonomous-research": {
+      "version": "1.0.0",
+      "installedAt": 1775379653047
+    },
+    "academic-writing-refiner": {
+      "version": "1.0.0",
+      "installedAt": 1775216643422
+    },
+    "research-paper-writer": {
+      "version": "0.1.0",
+      "installedAt": 1775216660629
+    },
+    "latex": {
+      "version": "1.0.0",
+      "installedAt": 1775216677816
+    },
+    "bioinformatics": {
+      "version": "1.0.0",
+      "installedAt": 1775379759233
+    },
+    "genomics": {
+      "version": "1.0.0",
+      "installedAt": 1775379794140
+    },
+    "personal-genomics": {
+      "version": "4.2.0",
+      "installedAt": 1775379817054
+    },
+    "pharmaclaw-cheminformatics": {
+      "version": "1.0.0",
+      "installedAt": 1775379835215
+    },
+    "adme-property-predictor": {
+      "version": "0.1.0",
+      "installedAt": 1775379853331
+    },
+    "agent-team-orchestration": {
+      "version": "1.0.0",
+      "installedAt": 1775379906353
+    },
+    "subagent-driven-development": {
+      "version": "0.1.0",
+      "installedAt": 1775379941986
+    },
+    "openclaw-subagent-toolset": {
+      "version": "1.0.0",
+      "installedAt": 1775379959829
+    },
+    "box-cli": {
+      "version": "1.0.0",
+      "installedAt": 1775380014303
+    },
+    "terminal-command-execution": {
+      "version": "1.0.0",
+      "installedAt": 1775217004274
+    },
+    "code-runner": {
+      "version": "0.1.0",
+      "installedAt": 1775217021790
+    },
+    "arxiv-watcher": {
+      "version": "1.0.0",
+      "installedAt": 1775379603972
+    },
+    "academic-search": {
+      "version": "1.0.0",
+      "installedAt": 1775217621788
+    },
+    "academic-writing": {
+      "version": "1.0.0",
+      "installedAt": 1775217673053
+    },
+    "agent-collab": {
+      "version": "1.0.0",
+      "installedAt": 1775379924293
+    },
+    "agent-orchestrate": {
+      "version": "1.0.0",
+      "installedAt": 1775379977757
+    },
+    "paper-parse": {
+      "version": "1.0.0",
+      "installedAt": 1775221339873
+    },
+    "chemistry": {
+      "version": "1.0.0",
+      "installedAt": 1775221461217
+    },
+    "zapier": {
+      "version": "1.0.0",
+      "installedAt": 1775379996415
+    },
+    "mol-render": {
+      "version": "1.0.0",
+      "installedAt": 1775379888418
+    },
+    "ssh-exec": {
+      "version": "1.0.0",
+      "installedAt": 1775225232999
+    },
+    "lobsterbio-use": {
+      "version": "1.1.406",
+      "installedAt": 1775394174625
+    },
+    "github-cli": {
+      "version": "1.0.0",
+      "installedAt": 1775380031969
+    },
+    "openclaw-token-optimizer": {
+      "version": "3.0.0",
+      "installedAt": 1775368112403
+    }
+  }
+}
