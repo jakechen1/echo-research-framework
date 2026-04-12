@@ -23,6 +23,5 @@ Building upon PRG, the authors propose **HyTuning**, a hybrid post-training fram
 
 ## Key Results: "Less Approximates More"
 Experimental results across various domain-specific and general benchmarks demonstrate that HyTuning improves accuracy while significantly enhancing confidence faithfulness under limited supervision. The research supports a "**Less Approximates More**" effect, suggesting that focusing on the progressive quality of reasoning steps is more effective than simply increasing the volume of training data.
-
 ---
 **Related Topics:** [[Machine Learning]], [[Artificial Intelligence]], [[Uncertainty Estimation]], [[Reinforcement Learning]], [[Cognitive Science]]

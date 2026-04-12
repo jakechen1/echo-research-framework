@@ -3,13 +3,15 @@ title: "Neural Network Protein Folding Predictions"
 created: 2026-04-11
 category: machine-learning
 tags: [proteomics, deep-learning, PHGDH, structural-biochemistry, AlphaFold, protein-engineering]
-sources:
-  - url: "https://www.nature.com/articles/s41586-021-03819-2"
     title: "Highly accurate protein structure prediction with AlphaFold"
   - url: "https://www.science.org/doi/10.1126/science.adi2577"
     title: "Accurate prediction of protein structures and interactions using AlphaFold 3"
   - url: "https://pubmed.ncbi.nlm.nih.gov/32444641/"
     title: "PHGDH: A novel target for cancer therapy"
+source_urls:
+  - "https://www.nature.com/articles/s41586-021-03819-2"
+  - "https://www.science.org/doi/10.1126/science.adi2577"
+  - "https://pubmed.ncbi.nlm.nih.gov/32444641/"
 ---
 
 ## Introduction

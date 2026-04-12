@@ -3,13 +3,15 @@ title: "Neurobiology"
 created: 2026-04-11
 category: biology
 tags: [neuroscience, cellular biology, metabolism, neurology, molecular biology]
-sources:
-  - url: "https://www.sciencedirect.com/topics/neuroscience/neurobiology"
     title: "Neurobiology - an overview"
   - url: "https://www.nature.com/subjects/neurobiology"
     title: "Nature: Neurobiology"
   - url: "https://www.ncbi.nlm.nih.gov/books/NBK10791/"
     title: "Principles of Neural Science"
+source_urls:
+  - "https://www.sciencedirect.com/topics/neuroscience/neurobiology"
+  - "https://www.nature.com/subjects/neurobiology"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK10791/"
 ---
 
 ## Definition

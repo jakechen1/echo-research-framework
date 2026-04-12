@@ -3,13 +3,15 @@ title: "Serine Biosynthesis Pathway"
 created: 2026-04-11
 category: biology
 tags: [metabolism, amino acid biosynthesis, glycolysis, oncology, PHGDH, biochemistry]
-sources:
-  - url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6761611/"
     title: "Serine metabolism in cancer: implications for therapeutics"
   - url: "https://doi.org/10.1038/s41580-019-0132-4"
     title: "Metabolic regulation of serine biosynthesis"
   - url: "https://www.nature.com/articles/s41589-020-00614-0"
     title: "The biochemistry of serine biosynthesis"
+source_urls:
+  - "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6761611/"
+  - "https://doi.org/10.1038/s41580-019-0132-4"
+  - "https://www.nature.com/articles/s41589-020-00614-0"
 ---
 
 ## Introduction

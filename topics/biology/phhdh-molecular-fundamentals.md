@@ -3,13 +3,15 @@ title: "PHHDH: Molecular Fundamentals"
 created: 2026-04-11
 category: biology
 tags: [metabolism, enzymes, biochemistry, oncology, serine biosynthesis]
-sources:
-  - url: "https://www.nature.com/articles/s41589-020-0523-x"
     title: "PHGDH is a key driver of serine biosynthesis in cancer"
   - url: "https://pubmed.ncbi.nlm.nih.gov/25200345/"
     title: "The role of phosphoglycerate dehydrogenase in cancer metabolism"
   - url: "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/phosphoglycerate-dehydrogenase"
     title: "Phosphoglycerate Dehydrogenase - Encyclopedia of Biological Chemistry"
+source_urls:
+  - "https://www.nature.com/articles/s41589-020-0523-x"
+  - "https://pubmed.ncbi.nlm.nih.gov/25200345/"
+  - "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/phosphoglycerate-dehydrogenase"
 ---
 
 ## Overview

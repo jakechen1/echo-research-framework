@@ -3,13 +3,15 @@ title: "Allosteric Regulation"
 created: 2026-04-11
 category: biology
 tags: [enzymology, structural biology, metabolism, signal transduction, pharmacology]
-sources:
-  - url: "https://www.nature.com/articles/s41576-020-0242-x"
     title: "Allosteric regulation of enzymes"
   - url: "https://pve.med.umich.edu/allostery"
     title: "Principles of Allostery"
   - url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6359923/"
     title: "Structural basis of allosteric regulation"
+source_urls:
+  - "https://www.nature.com/articles/s41576-020-0242-x"
+  - "https://pve.med.umich.edu/allostery"
+  - "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6359923/"
 ---
 
 ## Introduction

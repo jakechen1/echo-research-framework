@@ -3,13 +3,15 @@ title: "Allosteric Regulation in Metabolic Enzymes"
 created: 2026-04-11
 category: biology
 tags: [enzymology, metabolism, biochemistry, protein dynamics, signal transduction]
-sources:
-  - url: "https://www.nature.com/subjects/allostery"
     title: "Allostery - Nature Portfolio"
   - url: "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/allosteric-regulation"
     title: "Allosteric Regulation - ScienceDirect"
   - url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5444530/"
     title: "Mechanisms of Allosteric Regulation"
+source_urls:
+  - "https://www.nature.com/subjects/allostery"
+  - "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/allosteric-regulation"
+  - "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5444530/"
 ---
 
 ## Introduction

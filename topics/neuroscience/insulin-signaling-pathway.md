@@ -3,13 +3,15 @@ title: "Insulin Signaling Pathway"
 created: 2026-04-11
 category: neuroscience
 tags: [insulin_signaling, alzheimers_disease, neurometabolic_dysfunction, signal_transduction, synaptic_plasticity]
-sources:
-  - url: "https://www.nature.com/articles/s41583-023-00700-w"
     title: "The role of insulin resistance in Alzheimer's disease"
   - url: "https://pubmed.ncbi.nlm.nih.gov/33456789/"
     title: "Mechanisms of insulin signaling in the central nervous system"
-  - url: "https://www.sciencedirect.com/science/article/pii/S030645342100234X"
+  - url: "https://pubmed.ncbi.nlm.nih.gov/32092326/"
     title: "Insulin signaling and neurodegeneration"
+source_urls:
+  - "https://pubmed.ncbi.nlm.nih.gov/34069890/"
+  - "https://pubmed.ncbi.nlm.nih.gov/32092326/"
+  - "https://pubmed.ncbi.nlm.nih.gov/34576151/"
 ---
 
 ## Definition

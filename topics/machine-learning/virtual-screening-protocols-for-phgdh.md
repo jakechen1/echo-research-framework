@@ -7,7 +7,6 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/"
   - "https://www.nature.com/nmtd/"
   - "https://academic.oup.com/nar"
-
 ---
 
 ## Introduction

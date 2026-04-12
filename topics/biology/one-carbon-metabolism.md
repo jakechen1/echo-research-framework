@@ -3,13 +3,15 @@ title: "One-Carbon Metabolism"
 created: 2026-04-11
 category: biology
 tags: [biochemistry, metabolism, folate cycle, epigenetics, nutrient signaling]
-sources:
-  - url: "https://www.ncbi.nlm.nih.gov/books/NBK22362/"
     title: "Methylation and One-Carbon Metabolism"
   - url: "https://www.nature.com/articles/s41576-021-00353-x"
     title: "Metabolic regulation of the epigenome"
   - url: "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/one-carbon-metabolism"
     title: ScienceDirect: One-Carbon Metabolism Overview
+source_urls:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK22362/"
+  - "https://www.nature.com/articles/s41576-021-00353-x"
+  - "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/one-carbon-metabolism"
 ---
 
 ## Definition

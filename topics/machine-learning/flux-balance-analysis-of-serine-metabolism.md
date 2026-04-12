@@ -3,13 +3,15 @@ title: "Flux Balance Analysis of Serine Metabolism"
 created: 2026-04-11
 category: machine-learning
 tags: [metabolic-modeling, flux-balance-analysis, neurodegeneration, bioinformatics, serine-pathway]
-sources:
-  - url: "https://doi.org/10.1038/nbt.2010.238"
     title: "Flux Balance Analysis: Developments, Applications and Outstanding Challenges"
   - url: "https://doi.org/10.1016/j.cell.2019.03.013"
     title: "The metabolic landscape of the brain"
   - url: "https://doi.org/10.1038/s41576-020-00286-w"
     title: "Metabolic rewiring in neurodegenerative diseases"
+source_urls:
+  - "https://doi.org/10.1038/nbt.2010.238"
+  - "https://doi.org/10.1016/j.cell.2019.03.013"
+  - "https://doi.org/10.1038/s41576-020-00286-w"
 ---
 
 ## Definition

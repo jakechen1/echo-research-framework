@@ -4,9 +4,10 @@ created: 2026-04-11
 category: biology
 tags: [enzymology, protein structure, metabolism, cancer biology, allosteric regulation]
 source_urls:
-  - "https://pubmed.ncbi.nlm.im/32445567/"
-  - "https://www.sciencedirect.com/science/article/pii/S000529861930580X"
-
+  - "https://pubmed.ncbi.nlm.nih.gov/19235232/"
+  - "https://doi.org/10.1042/BCJ20220579"
+  - "https://doi.org/10.1021/acs.biochem.3c00404"
+  - "https://doi.org/10.2210/pdb7cvp/pdb"
 ---
 
 ## Introduction

@@ -4,10 +4,9 @@ created: 2026-04-11
 category: drug-discovery
 tags: [metabolic-oncology, enzyme-inhibition, computational-chemistry, drug-design, PHGDH]
 source_urls:
-  - "https://www.nature.com/articles/s41586-019-1294-x"
-  - "https://pubmed.ncbi.nlm.nih.gov/30224818/"
-  - "https://www.sciencedirect.com/science/article/pii/S0014579X2100345X"
-
+  - "https://pubmed.ncbi.nlm.nih.gov/37687259/"
+  - "https://pubmed.ncbi.nlm.nih.gov/33735398/"
+  - "https://pubmed.ncbi.nlm.nih.gov/30852233/"
 ---
 
 # Structure-ability-Based Drug Design (SBDD) for PHGDH

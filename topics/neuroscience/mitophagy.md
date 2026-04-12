@@ -3,13 +3,15 @@ title: "Mitophagy"
 created: 2026-04-11
 category: neuroscience
 tags: [mitochondria, autophagy, neurodegeneration, Alzheimer's disease, cellular homeostasis, proteostasis]
-sources:
-  - url: "https://www.nature.com/articles/nrm.2016.1"
     title: "The role of mitophagy in neurodegenerative disease"
   - url: "https://www.science.org/doi/10.1126/science.aat3030"
     title: "PINK1 and Parkin regulate mitochondrial quality control"
   - url: "https://pubmed.ncbi.nlm.nih.gov/34567890/"
     title: "Mitochondrial dysfunction and the metabolic crisis in Alzheimer's"
+source_urls:
+  - "https://www.nature.com/articles/nrm.2016.1"
+  - "https://www.science.org/doi/10.1126/science.aat3030"
+  - "https://pubmed.ncbi.nlm.nih.gov/34567890/"
 ---
 
 ## Definition

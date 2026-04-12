@@ -3,13 +3,15 @@ title: "The Serine Biosynthesis Pathway"
 created: 2026-04-11
 category: biology
 tags: [metabolism, biochemistry, amino acids, oncology, glycolysis]
-sources:
-  - url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4032130/"
     title: "The serine biosynthetic pathway: a metabolic hub for cell proliferation"
   - url: "https://www.nature.com/articles/s41589-020-0636-0"
     title: "Metabolic rewiring in cancer"
   - url: "https://pubmed.ncbi.nlm.nih.gov/22460234/"
     title: "PHGDH-mediated serine biosynthesis is essential for cancer cell proliferation"
+source_urls:
+  - "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4032130/"
+  - "https://www.nature.com/articles/s41589-020-0636-0"
+  - "https://pubmed.ncbi.nlm.nih.gov/22460234/"
 ---
 
 ## Introduction

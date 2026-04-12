@@ -6,7 +6,6 @@ tags: [Alzheimer's Disease, PHGDH, drug discovery, small molecules, metabolic re
 source_urls:
   - "https://www.nature.com/articles/s41586-023-06000-0"
   - "https://pubmed.ncbi.nlm.nih.gov/"
-
 ---
 
 ## Introduction

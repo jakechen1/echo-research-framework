@@ -3,13 +3,15 @@ title: "Oncology"
 created: 2026-04-11
 category: biology
 tags: [cancer biology, metabolism, metabolic reprogramming, nutrient signaling, precision medicine]
-sources:
-  - url: "https://www.nature.com/articles/s41576-022-00486-w"
     title: "Metabolic reprogramming in cancer"
   - url: "https://pubmed.ncbi.nlm.nih.gov/32472330/"
     title: "The role of serine metabolism in cancer"
   - url: "https://www.cell.com/cell/fulltext/S0092-8674(11)00458-1"
     title: "Hallmarks of Cancer: The Next Generation"
+source_urls:
+  - "https://www.nature.com/articles/s41576-022-00486-w"
+  - "https://pubmed.ncbi.nlm.nih.gov/32472330/"
+  - "https://www.cell.com/cell/fulltext/S0092-8674(11)00458-1"
 ---
 
 ## Introduction

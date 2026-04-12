@@ -3,11 +3,12 @@ title: "PHGDH as a Neurodegenerative Biomarker"
 created: 2026-04-11
 category: neuroscience
 tags: [biomarkers, alzheimers-disease, metabolism, neurodegeneration, proteomics]
-sources:
-  - url: "https://pubmed.ncbi.nlm.nih.gov/"
     title: "PubMed - Search for PHGDH and Neurodegeneration"
   - url: "https://www.nature.com/articles/s41586-021-03606-y"
     title: "Metabolic dysfunction in Alzheimer's Disease"
+source_urls:
+  - "https://pubmed.ncbi.nlm.nih.gov/"
+  - "https://www.nature.com/articles/s41586-021-03606-y"
 ---
 
 ## Overview

@@ -3,13 +3,15 @@ title: "Amyloid-beta"
 created: 2026-04-11
 category: neuroscience
 tags: [amyloid-beta, alzheimers-disease, proteopathy, neurodegeneration, amyloid-cascade-hypothesis]
-sources:
-  - url: "https://www.alz.org"
     title: "Alzheimer's Association"
   - url: "https://www.nature.com/articles/s41583-018-0036-x"
     title: "The amyloid cascade hypothesis: progress and problems"
   - url: "https://pubmed.ncbi.nlm.nih.gov/"
     title: "PubMed Database"
+source_urls:
+  - "https://www.alz.org"
+  - "https://www.nature.com/articles/s41583-018-0036-x"
+  - "https://pubmed.ncbi.nlm.nih.gov/"
 ---
 
 ## Definition

@@ -3,13 +3,15 @@ title: "Tau Protein"
 created: 2026-04-11
 category: neuroscience
 tags: [microtubules, alzheimers-disease, tauopathies, neurodegeneration, neurobiology]
-sources:
-  - url: "https://www.ncbi.nlm.nih.gov/books/NBK557848/"
     title: "Tau Protein and Neurodegeneration"
   - url: "https://www.nature.com/articles/s41586-021-03320-w"
     title: "Tau-mediated neurodegeneration in Alzheimer's disease"
   - url: "https://www.alzforum.org/news/tau-amyloid-synergy"
     title: "The synergistic role of Amyloid and Tau"
+source_urls:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK557848/"
+  - "https://www.nature.com/articles/s41586-021-03320-w"
+  - "https://www.alzforum.org/news/tau-amyloid-synergy"
 ---
 
 ## Overview

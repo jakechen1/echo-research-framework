@@ -7,7 +7,6 @@ source_urls:
   - "https://pubmed.ncbi.nlm.com/32123456/"
   - "https://doi.org/10.1016/j.cellmet.2024.05.002"
   - "https://www.nature.com/articles/s41586-023-00000-x"
-
 ---
 
 ## Overview

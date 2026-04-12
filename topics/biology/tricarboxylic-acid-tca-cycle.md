@@ -3,13 +3,15 @@ title: "Tricarboxylic Acid (TCA) Cycle"
 created: 2026-04-11
 category: biology
 tags: [metabolism, biochemistry, mitochondria, cellular_respiration, krebs_cycle]
-sources:
-  - url: "https://www.ncbi.nlm.nih.gov/books/NBK22581/"
     title: "The Citric Acid Cycle (Molecular Biology of the Cell)"
   - url: "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/tricarboxylic-acid-cycle"
     title: "Tricarboxylic Acid Cycle - an overview"
   - url: "https://doi.org/10.1016/j.cell.2023.05.012"
     title: "Metabolic reprogramming in cancer: The role of TCA intermediates"
+source_urls:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK22581/"
+  - "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/tricarboxylic-acid-cycle"
+  - "https://doi.org/10.1016/j.cell.2023.05.012"
 ---
 
 ## Overview

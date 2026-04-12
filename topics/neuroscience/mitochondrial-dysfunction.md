@@ -3,13 +3,15 @@ title: "Mitochondrial Dysfunction"
 created: 2026-04-11
 category: neuroscience
 tags: [neurodegeneration, bioenergetics, oxidative_stress, mitophagy, alzheimers_disease, metabolism]
-sources:
-  - url: "https://www.nature.com/articles/s41583-020-0328-x"
     title: "Mitochondrial dysfunction in neurodegenerative diseases"
   - url: "https://pubmed.ncbi.nlm.nih.gov/25811171/"
     title: "Mitochondrial dysfunction in Alzheimer's disease"
   - url: "https://www.cell.com/trends/neuroscience/fulltext/S0966-2236(18)30126-3"
     title: "Mitochondrial dynamics and neurodegeneration"
+source_urls:
+  - "https://www.nature.com/articles/s41583-020-0328-x"
+  - "https://pubmed.ncbi.nlm.nih.gov/25811171/"
+  - "https://www.cell.com/trends/neuroscience/fulltext/S0966-2236(18)30126-3"
 ---
 
 ## Definition
