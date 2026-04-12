@@ -3,11 +3,8 @@ title: "PHGDH Dysregulation in Alzheimer's Disease Pathogenesis"
 created: 2026-04-11
 category: neuroscience
 tags: [alzheimer's disease, metabolism, PHGDH, neurodegeneration, serine biosynthesis, amyloid pathology]
-sources:
-  - url: "https://pubmed.ncbi.nlm.nih.gov/"
-    title: "PubMed Central Archives"
-  - url: "https://www.nature.com/articles/s41586-021-03444-1"
-    title: "Metabolic reprogramming in neurodegenerative diseases"
+source_urls:
+  - "https://pubmed.ncbi.nlm.nih.gov/40273909/"
 ---
 
 ## Overview
@@ -79,8 +76,4 @@ Despite significant progress, several hurdles remain in the study of PHGDH in AD
 | **Sphingolipid Synthesis** | Altered Serine/Palmitoyl-CoA flux | Membrane instability; Aβ-induced toxicity |
 
 ## References
-
-*   **Smith, A. J., et al. (2024).** *Metabolic Reprogramming in Neurodegeneration: The Centrality of the Serine Pathway.* Journal of Neuroscience Research.
-*   **Chen, L., & Watanabe, K. (2023).** *PHGDH and the Regulation of One-Carbon Metabolism in the Aging Brain.* Annual Review of Neurobiology.
-*   **Garcia, M. R. (2025).** *Amyloid-beta Induced Mitochondrial Dysfunction and the Secondary Collapse of Amino Acid Biosynthesis.* Nature Neuroscience.
-*   **NeuroMetabolic Consortium (2024).** *The Astrocyte-Neuron Metabolic Interface in Alzheimer's Disease.* Trends in Neurosciences.
+1. Chen J et al., 2025. Transcriptional regulation by PHGDH drives amyloid pathology in Alzheimer's disease. Cell. [https://pubmed.ncbi.nlm.nih.gov/40273909/](https://pubmed.ncbi.nlm.nih.gov/40273909/)

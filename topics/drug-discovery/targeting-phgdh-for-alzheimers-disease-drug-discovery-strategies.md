@@ -3,11 +3,10 @@ title: "Targeting PHGDH for Alzheimer's Disease: Drug Discovery Strategies"
 created: 2026-04-11
 category: drug-discovery
 tags: [Alzheimer's Disease, PHGDH, drug discovery, small molecules, metabolic reprogramming, neurodegeneration]
-sources:
-  - url: "https://www.nature.com/articles/s41586-023-06000-0"
-    title: "Metabolic reprogramming in neurodegeneration"
-  - url: "https://pubmed.ncbi.nlm.nih.gov/"
-    title: "PubMed Central - Enzyme Inhibition in Neuropharmacology"
+source_urls:
+  - "https://www.nature.com/articles/s41586-023-06000-0"
+  - "https://pubmed.ncbi.nlm.nih.gov/"
+
 ---
 
 ## Introduction

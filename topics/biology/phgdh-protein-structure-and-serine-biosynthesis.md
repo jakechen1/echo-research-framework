@@ -3,11 +3,12 @@ title: "PHGDH Protein Structure and Serine Biosynthesis"
 created: 2026-04-11
 category: biology
 tags: [metabolism, enzymology, protein structure, serine biosynthesis, glycolysis]
-sources:
-  - url: "https://pubmed.ncbi.nlm.nih.gov/"
-    title: "PubMed - National Library of Medicine"
-  - url: "https://www.nature.com/nature"
-    title: "Nature Portfolio"
+source_urls:
+  - "https://pubmed.ncbi.nlm.nih.gov/32226297/"
+  - "https://pubmed.ncbi.nlm.nih.gov/34971423/"
+  - "https://pubmed.ncbi.nlm.nih.gov/41760625/"
+  - "https://doi.org/10.18632/oncotarget.22327"
+  - "https://doi.org/10.1186/s40170-015-0131-7"
 ---
 
 ## Introduction
@@ -75,8 +76,8 @@ Despite significant progress, several challenges remain in the study and therape
 Future research will likely focus on the development of **metabolic probes**—fluorescent or radiolabeled molecules that can track PHGDH flux in vivo—and the integration of structural biology with computational modeling to predict how mutations in the PHGDH regulatory domain contribute to disease states.
 
 ## References
-
-*   **Lao, C., & Kimura, S. (2018).** "Serine Biosynthesis and Its Role in Cancer Metabolism." *Annual Review of Biochemistry*.
-*   **Smith, J. et al. (2023).** "Structural Insights into the Allosteric Regulation of Phosphoglycerate Dehydrogenase." *Journal of Molecular Biology*.
-*   **Wang, Y., & Zhang, L. (2025).** "The intersection of Glycolysis and One-Carbon Metabolism: The PHGDH Nexus." *Nature Reviews Molecular Cell Biology*.
-*   **Zhao, H. (2024).** "Metabolic Vulnerabilities in Neurodegeneration: Focus on the Serine Pathway." *Cell Metabolism*.
+1. Zhao X et al., 2020. The Role of D-3-Phosphoglycerate Dehydrogenase in Cancer. Int J Biol Sci. [https://pubmed.ncbi.nlm.nih.gov/32226297/](https://pubmed.ncbi.nlm.nih.gov/32226297/)
+2. Tan Y et al., 2021. Biophysical and biochemical properties of PHGDH revealed by studies on PHGDH inhibitors. Cell Mol Life Sci. [https://pubmed.ncbi.nlm.nih.gov/34971423/](https://pubmed.ncbi.nlm.nih.gov/34971423/)
+3. Aussel A et al., 2026. Tumor metabolic adaptation induced by L-asparaginase reveals a vulnerability to PARP1/2 inhibitor in B-cell lymphomas. Nat Commun. [https://pubmed.ncbi.nlm.nih.gov/41760625/](https://pubmed.ncbi.nlm.nih.gov/41760625/)
+4. J. Unterlass et al., 2017. Structural insights into the enzymatic activity and potential substrate promiscuity of human 3-phosphoglycerate dehydrogenase (PHGDH) [https://doi.org/10.18632/oncotarget.22327](https://doi.org/10.18632/oncotarget.22327)
+5. Katherine R. Mattaini et al., 2015. An epitope tag alters phosphoglycerate dehydrogenase structure and impairs ability to support cell proliferation [https://doi.org/10.1186/s40170-015-0131-7](https://doi.org/10.1186/s40170-015-0131-7)
