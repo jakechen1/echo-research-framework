@@ -8,7 +8,7 @@ category: machine-learning
 
 # Generative optimal and backward HJB matching
 
-The research paper, "Generative optimal transport via forward-backward HJB matching," introduces a mathematical framework for controlling the evolution of many-body stochastic systems. Specifically, it addresses the problem of driving a system from a disordered reference state to a structured target ensemble, a task fundamental to [[Generative Modeling]] and [[Optimal Transport]].
+The research paper, "Generative optimal transport via forward-backward HJB matching," introduces a mathematical framework for controlling the evolution of many-body stochastic systems. Specifically, it addresses the problem of driving a system from a disordered reference state to a structured target ensemble, a task fundamental to [[generative-modeling-of-granular-flow-on-inclined-planes-using-conditional-flow-m|Generative Modeling]] and [[fast-and-interpretable-protein-substructure-alignment-via-optimal-transport|Optimal Transport]].
 
 ## The Problem of Reversing Relaxation
 

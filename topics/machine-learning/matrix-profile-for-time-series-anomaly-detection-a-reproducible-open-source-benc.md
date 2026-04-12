@@ -8,11 +8,11 @@ category: machine-learning
 
 # Matrix Profile for Time-Series Anomaly Detection: A Reproducible Open-Source Benchmark on TSB-AD
 
-This technical report introduces the **Matrix Profile for Anomaly Detection (MMPAD)**, an open-source implementation designed to provide a reproducible reference for [[Matrix Profile]] (MP) methods within the [[TSB-AD]] benchmark framework. The research focuses on leveraging the scalable and interpretable nature of distance-based algorithms to solve complex [[Time-Series Anomaly Detection]] tasks.
+This technical report introduces the **Matrix Profile for Anomaly Detection (MMPAD)**, an open-source implementation designed to provide a reproducible reference for [[matrix-profile-for-anomaly-detection-on-multidimensional-time-series|Matrix Profile]] (MP) methods within the [[tsb-ad|TSB-AD]] benchmark framework. The research focuses on leveraging the scalable and interpretable nature of distance-based algorithms to solve complex [[matrix-profile-for-time-series-anomaly-detection-a-reproducible-open-source-benc|Time-Series Anomaly Detection]] tasks.
 
 ### Core Methodology
 
-While the vanilla nearest-neighbor profile serves as a foundational tool for identifying patterns, the authors demonstrate that achieving high-tier performance on modern benchmarks requires sophisticated architectural design. The MMPAD system integrates several advanced components to handle the complexities of both [[Univariate Time Series]] and [[Multivariate Time Series]]:
+While the vanilla nearest-neighbor profile serves as a foundational tool for identifying patterns, the authors demonstrate that achieving high-tier performance on modern benchmarks requires sophisticated architectural design. The MMPAD system integrates several advanced components to handle the complexities of both [[univariate-time-series|Univariate Time Series]] and [[prism-lightweight-multivariate-time-series-classification-through-symmetric-mult|Multivariate Time Series]]:
 
 1.  **Pre-sorted Multidimensional Aggregation**: Optimized processing of multidimensional data to maintain efficiency across large-scale datasets.
 2.  **Exclusion-zone-aware k-Nearest Neighbor (kNN) Retrieval**: A specialized mechanism designed to identify repeated anomalies. By incorporating an exclusion zone, the system prevents redundant detection of the same anomalous event, a common pitfall in standard kNN-based approaches.
@@ -20,6 +20,6 @@ While the vanilla nearest-neighbor profile serves as a foundational tool for ide
 
 ### Contributions to the Field
 
-The primary objective of this work is to establish a reliable, open-source baseline for the [[Machine Learning]] community. The report provides comprehensive documentation regarding hyperparameter configurations tailored for the specific tracks within the [[TSB-AD]] benchmark. 
+The primary objective of this work is to establish a reliable, open-source baseline for the [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] community. The report provides comprehensive documentation regarding hyperparameter configurations tailored for the specific tracks within the [[tsb-ad|TSB-AD]] benchmark. 
 
 Furthermore, the authors provide a rigorous analysis of how the system performs across diverse dataset characteristics, offering insights into the strengths and limitations of

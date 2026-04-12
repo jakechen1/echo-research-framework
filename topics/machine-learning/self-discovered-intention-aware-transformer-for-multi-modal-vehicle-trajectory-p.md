@@ -9,10 +9,10 @@ category: machine-learning
 # Self-Discovered Intention-aware Transformer for Multi-modal Vehicle Trajectory Prediction
 
 ## Overview
-Predicting vehicle trajectories is a fundamental challenge in the development of [[Autonomous Driving]] and [[Intelligent Transportation Systems]] (ITS). Accurate prediction is essential for safe navigation and collision avoidance in complex, dynamic environments. Traditional [[Deep Learning]] approaches have frequently relied on specific [[Graph Neural Networks]] (GNNs) or required explicit, manually labeled intention data, both of which limit the flexibility and scalability of the models in diverse traffic scenarios.
+Predicting vehicle trajectories is a fundamental challenge in the development of [[dvgt-2-vision-geometry-action-model-for-autonomous-driving-at-scale|Autonomous Driving]] and [[intelligent-transportation-systems|Intelligent Transportation Systems]] (ITS). Accurate prediction is essential for safe navigation and collision avoidance in complex, dynamic environments. Traditional [[benchmarking-deep-learning-for-future-liver-remnant-segmentation-in-colorectal-l|Deep Learning]] approaches have frequently relied on specific [[openglt-a-comprehensive-benchmark-of-graph-neural-networks-for-graph-level-tasks|Graph Neural Networks]] (GNNs) or required explicit, manually labeled intention data, both of which limit the flexibility and scalability of the models in diverse traffic scenarios.
 
 ## Methodology
-The paper introduces a novel, pure [[Transformer]]-based network designed for multi-modal trajectory prediction. Unlike previous architectures that rely on fixed graph structures, this model leverages the attention mechanisms of the [[Transformer]] to consider the interactions between a target vehicle and its neighboring vehicles.
+The paper introduces a novel, pure [[crft-consistent-recurrent-feature-flow-transformer-for-cross-modal-image-registr|Transformer]]-based network designed for multi-modal trajectory prediction. Unlike previous architectures that rely on fixed graph structures, this model leverages the attention mechanisms of the [[crft-consistent-recurrent-feature-flow-transformer-for-cross-modal-image-registr|Transformer]] to consider the interactions between a target vehicle and its neighboring vehicles.
 
 The architecture is built upon a dual-track design:
 1. **Trajectory Track**: This module focuses on the precise mathematical prediction of future vehicle paths.
@@ -26,4 +26,4 @@ A key finding of this study is that separating the spatial reasoning module from
 * **Self-Discovered Intentions**: The model reduces the reliance on human-annotated labels by learning to infer intention likelihood directly from the environmental multi-modal context.
 
 ## Applications
-This research provides a scalable framework for [[Multi-modal Learning]] in robotics and automotive engineering, specifically impacting motion planning algorithms and real-time decision-making systems in urban mobility.
+This research provides a scalable framework for [[multi-modal-learning|Multi-modal Learning]] in robotics and automotive engineering, specifically impacting motion planning algorithms and real-time decision-making systems in urban mobility.

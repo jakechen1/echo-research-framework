@@ -8,7 +8,7 @@ category: ai
 
 # HeartcareGPT
 
-**HeartcareGPT** is a groundbreaking framework designed to bridge the gap between physiological signal processing and [[Medical Multimodal Large Language Models]] (Med-MLLMs). The core challenge addressed by this research is the difficulty of achieving "cross-modal semantic alignment"—the ability for an AI to understand the relationship between the visual patterns in medical images and the temporal waveforms found in [[Electrocardiogram]] (ECG) data.
+**HeartcareGPT** is a groundbreaking framework designed to bridge the gap between physiological signal processing and [[medical-multimodal-large-language-models|Medical Multimodal Large Language Models]] (Med-MLLMs). The core challenge addressed by this research is the difficulty of achieving "cross-modal semantic alignment"—the ability for an AI to understand the relationship between the visual patterns in medical images and the temporal waveforms found in [[electrocardiogram|Electrocardiogram]] (ECG) data.
 
 ## The Heartcare Suite
 
@@ -25,6 +25,6 @@ The flagship model, **HeartcareGPT**, utilizes a structure-aware discrete tokeni
 
 ## Impact and Significance
 
-HeartcareGPT has demonstrated consistent improvements across various ECG understanding tasks. By providing a unified modeling paradigm, this research establishes a methodological foundation for extending [[Large Language Models]] beyond text and images into the domain of complex [[Physiological Signals]]. This advancement is a significant step toward more integrated and accurate [[Automated Medical Diagnosis]] systems.
+HeartcareGPT has demonstrated consistent improvements across various ECG understanding tasks. By providing a unified modeling paradigm, this research establishes a methodological foundation for extending [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] beyond text and images into the domain of complex [[physiological-signals|Physiological Signals]]. This advancement is a significant step toward more integrated and accurate [[automated-medical-diagnosis|Automated Medical Diagnosis]] systems.
 
-The project's implementation and datasets can be accessed via their official [[GitHub]] repository.
+The project's implementation and datasets can be accessed via their official [[github|GitHub]] repository.

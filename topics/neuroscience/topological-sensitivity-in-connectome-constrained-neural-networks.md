@@ -10,9 +10,9 @@ category: machine-learning
 
 ## Overview
 
-The study of **connectome-constrained neural networks** has long been driven by the hypothesis that the specific graph topology of biological brains provides a fundamental advantage in learning efficiency. Researchers often use the [[Connectome]] of organisms like *Drosophila* (fruit fly) to constrain the weights and architectures of [[Neural Networks]], comparing them against random graphs to demonstrate "biological superiority" in tasks such as reduced loss and faster runtime.
+The study of **connectome-constrained neural networks** has long been driven by the hypothesis that the specific graph topology of biological brains provides a fundamental advantage in learning efficiency. Researchers often use the [[topological-sensitivity-in-connectome-constrained-neural-networks|Connectome]] of organisms like *Drosophila* (fruit fly) to constrain the weights and architectures of [[curvature-aware-optimization-for-high-accuracy-physics-informed-neural-networks|Neural Networks]], comparing them against random graphs to demonstrate "biological superiority" in tasks such as reduced loss and faster runtime.
 
-However, the paper *Topological Sensitivity in Connectome-Constrained Neural Networks* (arXiv:2604.04033) provides a critical re-evaluation of these claims, suggesting that much of the perceived advantage may be an artifact of flawed experimental controls rather than true [[Biological Intelligence]].
+However, the paper *Topological Sensitivity in Connectome-Constrained Neural Networks* (arXiv:2604.04033) provides a critical re-evaluation of these claims, suggesting that much of the perceived advantage may be an artifact of flawed experimental controls rather than true [[biological-intelligence|Biological Intelligence]].
 
 ## Research Methodology
 
@@ -24,12 +24,12 @@ The researchers tested these models under "weak" and "strict" control conditions
 
 ## Key Findings
 
-The study reveals that when [[Machine Learning]] benchmarks are scaled to more rigorous standards, the supposed advantages of biological topology largely disappear:
+The study reveals that when [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] benchmarks are scaled to more rigorous standards, the supposed advantages of biological topology largely disappear:
 
-*   **Initialization Confounds:** When both the connectome-constrained models and the null models were trained from a shared random [[Initialization]], the advantage in early training loss was eliminated.
+*   **Initialization Confounds:** When both the connectome-constrained models and the null models were trained from a shared random [[lora-da-data-aware-initialization-for-low-rank-adaptation-via-asymptotic-analysi|Initialization]], the advantage in early training loss was eliminated.
 *   **Structural Confounds:** When the "naive" null model was replaced with a "degree-preserving" null model (which accounts for the local connectivity density), the perceived advantages in mean activity also vanished.
 *   **Lack of Causal Superiority:** While the researchers identified mechanisms that characterize the behavior of the networks under weak controls, they conclude these are not evidence of the biological structure being inherently "better," but rather a result of how the models were compared.
 
-## Implications for [[Artificial Intelligence]]
+## Implications for [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]]
 
-This research serves as a significant warning for the field of [[Computational Neuroscience]] and [[AI]] architecture design. It highlights the danger of using insufficient [[Null Models]] when evaluating the efficacy of biologically-inspired architectures. For researchers attempting to bridge the gap between [[Biology]] and [[Technology]], the paper emphasizes that true topological advantage can only be claimed when controls account for node degree and initialization-driven variance.
+This research serves as a significant warning for the field of [[computational-neuroscience|Computational Neuroscience]] and [[a-mathematical-theory-of-evolution-for-self-designing-ais|AI]] architecture design. It highlights the danger of using insufficient [[null-models|Null Models]] when evaluating the efficacy of biologically-inspired architectures. For researchers attempting to bridge the gap between [[neurobiology|Biology]] and [[us-cities-are-axing-flock-safety-surveillance-technology|Technology]], the paper emphasizes that true topological advantage can only be claimed when controls account for node degree and initialization-driven variance.

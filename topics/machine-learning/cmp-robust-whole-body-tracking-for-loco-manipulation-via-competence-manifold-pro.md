@@ -8,7 +8,7 @@ category: machine-learning
 
 # CMP: Robust Whole-Body Tracking for Loco-Manipulation via Competence Manifold Projection
 
-The research paper "CMP: Robust Whole-Body Tracking for Loco-Manipulation via Competence Manifold Projection" addresses a critical vulnerability in [[robotics]]: the fragility of [[whole-body control]] policies when encountering [[out-of-distribution (OOD)]] inputs. While decoupled control schemes for legged mobile manipulators provide some stability, integrated holistic policies often suffer catastrophic failures when faced with sensor noise or infeasible user commands.
+The research paper "CMP: Robust Whole-Body Tracking for Loco-Manipulation via Competence Manifold Projection" addresses a critical vulnerability in [[ai-driven-marine-robotics-emerging-trends-in-underwater-perception-and-ecosystem|robotics]]: the fragility of [[whole-body-control|whole-body control]] policies when encountering [[out-of-distribution-ood|out-of-distribution (OOD)]] inputs. While decoupled control schemes for legged mobile manipulators provide some stability, integrated holistic policies often suffer catastrophic failures when faced with sensor noise or infeasible user commands.
 
 ### The Competence Manifold Projection (CMP) Approach
 

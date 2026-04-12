@@ -8,10 +8,10 @@ category: ai
 
 # Routing-Based Continual Learning for Multimodal Large Language Models
 
-The research paper "Routing-Based Continual Learning for Multimodal Large Language Models" addresses a fundamental bottleneck in the development of [[Artificial Intelligence]]: the phenomenon of [[Catastrophic Forgetting]]. As [[Multimodal Large Language Models (MLLMs)]] are sequentially fine-tuned to acquire new capabilities, they frequently lose the foundational knowledge acquired during their initial training.
+The research paper "Routing-Based Continual Learning for Multimodal Large Language Models" addresses a fundamental bottleneck in the development of [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]]: the phenomenon of [[catastrophic-forgetting|Catastrophic Forgetting]]. As [[multimodal-large-language-models-mllms|Multimodal Large Language Models (MLLMs)]] are sequentially fine-tuned to acquire new capabilities, they frequently lose the foundational knowledge acquired during their initial training.
 
 ## The Problem: Scaling and Forgetting
-Traditional approaches to task adaptation typically fall into two categories: [[Multi-Task Learning (MTL)]] and [[Sequential Fine-Tuning]]. While MTL provides a high performance upper bound by training on all tasks simultaneously, it suffers from a linearly scaling computational overhead; as more tasks are added, the cost of training grows proportionally. Conversely, sequential fine-tuning is computationally efficient but prone to degrading the model's original capabilities.
+Traditional approaches to task adaptation typically fall into two categories: [[multi-task-learning-mtl|Multi-Task Learning (MTL)]] and [[sequential-fine-tuning|Sequential Fine-Tuning]]. While MTL provides a high performance upper bound by training on all tasks simultaneously, it suffers from a linearly scaling computational overhead; as more tasks are added, the cost of training grows proportionally. Conversely, sequential fine-tuning is computationally efficient but prone to degrading the model's original capabilities.
 
 ## The Solution: Routing-Based Architecture
 The authors introduce a novel routing-based architecture that offers a middle ground. This method maintains fixed data and compute requirements, ensuring that the overhead does not increase regardless of the length of the task sequence. Testing across models ranging from 2B to 8B parameters demonstrates that this routing approach performs on par with MTL while retaining the high training efficiency characteristic of sequential methods.
@@ -19,8 +19,8 @@ The authors introduce a novel routing-based architecture that offers a middle gr
 ## Key Discoveries
 The paper highlights several critical advantages of the routing mechanism:
 
-* **[[Cross-Modal Transfer]]**: Beyond simply mitigating forgetting, token-level routing enables the model to leverage knowledge from one modality to bolster performance in another, enhancing the integration of visual and textual data.
+* **[[cross-modal-transfer|Cross-Modal Transfer]]**: Beyond simply mitigating forgetting, token-level routing enables the model to leverage knowledge from one modality to bolster performance in another, enhancing the integration of visual and textual data.
 * **Scalability**: Ablation studies confirm that the routing mechanism remains robust even when deployed with large expert pools. It effectively capitalizes on task relatedness to optimize information flow.
 * **Efficiency at Scale**: The method scales favorably with model size. Larger models exhibit minimal performance degradation when compared to the benchmarks of fully specialized fine-tuning.
 
-This architectural shift represents a significant step toward creating more sustainable and scalable [[Machine Learning]] frameworks capable of lifelong learning in complex, multi-sensory environments.
+This architectural shift represents a significant step toward creating more sustainable and scalable [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] frameworks capable of lifelong learning in complex, multi-sensory environments.

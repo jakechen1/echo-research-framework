@@ -8,7 +8,7 @@ category: ai, technology
 
 # ExplainFuzz
 
-ExplainFuzz is an innovative framework designed to enhance [[Software Testing]] through explainable and controllable test input generation. The framework addresses the inherent limitations found in traditional [[Fuzzing]] methodologies, such as grammar-based fuzzers, [[probabilistic Context-Free Grammars]] (pCFGs), and [[Large Language Models]] (LLMs).
+ExplainFuzz is an innovative framework designed to enhance [[software-testing|Software Testing]] through explainable and controllable test input generation. The framework addresses the inherent limitations found in traditional [[once4all-skeleton-guided-smt-solver-fuzzing-with-llm-synthesized-generators|Fuzzing]] methodologies, such as grammar-based fuzzers, [[probabilistic-context-free-grammars|probabilistic Context-Free Grammars]] (pCFGs), and [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs).
 
 ### The Problem
 Existing approaches to automated test generation often suffer from three critical challenges:
@@ -17,13 +17,13 @@ Existing approaches to automated test generation often suffer from three critica
 3. **Lack of Explainability:** Current generative models often act as "black boxes," making it difficult to understand the underlying logic of the produced test cases.
 
 ### The ExplainFuzz Approach
-ExplainFuzz leverages [[Probabilistic Circuits]] (PCs) to learn and query structured distributions over grammar-based inputs in an interpretable manner. The workflow begins with a [[Context-Free Grammar]] (CFG), from which a grammar-aware PC is compiled. This circuit is subsequently trained on existing, valid datasets to capture the distribution of the input language.
+ExplainFuzz leverages [[probabilistic-circuits|Probabilistic Circuits]] (PCs) to learn and query structured distributions over grammar-based inputs in an interpretable manner. The workflow begins with a [[evaluating-in-context-translation-with-synchronous-context-free-grammar-transduc|Context-Free Grammar]] (CFG), from which a grammar-aware PC is compiled. This circuit is subsequently trained on existing, valid datasets to capture the distribution of the input language.
 
-A defining feature of ExplainFuzz is its native **conditioning capability**. This allows users to incorporate specific, test-specific constraints into the generation process. For instance, a developer can query the system to ensure that a generated [[SQL]] query specifically includes a `GROUP BY` clause. The PC then performs constrained probabilistic sampling to produce inputs that satisfy both the fundamental grammar and the user-provided constraints.
+A defining feature of ExplainFuzz is its native **conditioning capability**. This allows users to incorporate specific, test-specific constraints into the generation process. For instance, a developer can query the system to ensure that a generated [[av-sql-decomposing-complex-text-to-sql-queries-with-agentic-views|SQL]] query specifically includes a `GROUP BY` clause. The PC then performs constrained probabilistic sampling to produce inputs that satisfy both the fundamental grammar and the user-provided constraints.
 
 ### Experimental Performance
 The framework has demonstrated significant improvements in both the quality of generated inputs and the efficiency of bug detection:
 * **Improved Realism:** ExplainFuzz achieves significant perplexity reduction compared to LLMs and grammar-unaware PCs, indicating much higher linguistic coherence.
-* **Increased Bug-Triggering:** Compared to traditional grammar-aware mutational fuzzing, ExplainFuzz increased bug-triggering rates from 35% to 63% in [[SQL]] and from 10% to 100% in [[XML]].
+* **Increased Bug-Triggering:** Compared to traditional grammar-aware mutational fuzzing, ExplainFuzz increased bug-triggering rates from 35% to 63% in [[av-sql-decomposing-complex-text-to-sql-queries-with-agentic-views|SQL]] and from 10% to 100% in [[xml|XML]].
 
-By enabling the exploration of the global input distribution rather than just the local neighborhood of seed inputs, ExplainFuzz provides a powerful foundation for the next generation of [[Artificial Intelligence]]-driven software verification.
+By enabling the exploration of the global input distribution rather than just the local neighborhood of seed inputs, ExplainFuzz provides a powerful foundation for the next generation of [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]]-driven software verification.

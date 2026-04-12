@@ -9,7 +9,7 @@ category: ai
 # LINE: LLM-based Iterative Neuron Explanations for Vision Models
 
 ## Overview
-**LINE** (LLM-based Iterative Neuron Explanations) is a novel, training-free framework designed to enhance the [[Interpretability]] of individual neurons within [[Computer Vision]] models. As [[Deep Learning]] architectures grow in complexity, understanding the specific features and high-level concepts encoded by individual neurons is a critical step toward ensuring [[AI Safety]] and model transparency.
+**LINE** (LLM-based Iterative Neuron Explanations) is a novel, training-free framework designed to enhance the [[a-multi-level-causal-intervention-framework-for-mechanistic-interpretability-in-|Interpretability]] of individual neurons within [[computer-vision|Computer Vision]] models. As [[benchmarking-deep-learning-for-future-liver-remnant-segmentation-in-colorectal-l|Deep Learning]] architectures grow in complexity, understanding the specific features and high-level concepts encoded by individual neurons is a critical step toward ensuring [[iatrobench-pre-registered-evidence-of-iatrogenic-harm-from-ai-safety-measures|AI Safety]] and model transparency.
 
 ## The Problem
 Existing methods for neuron labeling face two primary limitations:

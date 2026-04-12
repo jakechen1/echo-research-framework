@@ -8,7 +8,7 @@ category: machine-learning
 
 # Rethinking Generalization in Reasoning SFT
 
-The paper *"Rethinking Generalization in Reasoning SFT: A Conditional Analysis on Optimization, Data, and Model Capability"* challenges the prevailing paradigm in [[Large Language Models]] (LLMs) post-training. Historically, a common narrative has suggested that [[Supervised Fine-Tuning]] (SFT) is primarily a mechanism for memorization, whereas [[Reinforcement Learning]] (RL) is the necessary driver for true [[Generalization]]. This research re-evaluates this distinction through the lens of reasoning SFT using long [[Chain-of-Thought]] (CoT) supervision.
+The paper *"Rethinking Generalization in Reasoning SFT: A Conditional Analysis on Optimization, Data, and Model Capability"* challenges the prevailing paradigm in [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) post-training. Historically, a common narrative has suggested that [[supervised-fine-tuning|Supervised Fine-Tuning]] (SFT) is primarily a mechanism for memorization, whereas [[deepsearch-overcome-the-bottleneck-of-reinforcement-learning-with-verifiable-rew|Reinforcement Learning]] (RL) is the necessary driver for true [[a-canonical-generalization-of-obdd|Generalization]]. This research re-evaluates this distinction through the lens of reasoning SFT using long [[tool-mcot-tool-augmented-multimodal-chain-of-thought-for-content-safety-moderati|Chain-of-Thought]] (CoT) supervision.
 
 ## Key Findings
 
@@ -22,10 +22,10 @@ The study highlights that generalization is conditional upon two main pillars:
 *   **Base Model Capacity:** There is a clear divide in how models process SFT data based on their strength. Stronger models are capable of internalizing transferable procedural patterns—such as [[backtracking]]—even when trained on simple, "toy" arithmetic tasks. In contrast, weaker models tend to exhibit "surface verbosity," where they mimic the length and style of the training data without capturing the underlying logic.
 
 ### The Cost of Reasoning
-Crucially, the research notes an asymmetric trade-off: while SFT can enhance complex reasoning capabilities, it may simultaneously lead to a degradation in [[AI Safety]] and alignment. This shifts the research focus from whether SFT can generalize to understanding the specific conditions and costs associated with such a transition.
+Crucially, the research notes an asymmetric trade-off: while SFT can enhance complex reasoning capabilities, it may simultaneously lead to a degradation in [[iatrobench-pre-registered-evidence-of-iatrogenic-harm-from-ai-safety-measures|AI Safety]] and alignment. This shifts the research focus from whether SFT can generalize to understanding the specific conditions and costs associated with such a transition.
 
 ## Related Topics
-* [[Reinforcement Learning]]
-* [[Transformer Architectures]]
-* [[Artificial Intelligence Safety]]
+* [[deepsearch-overcome-the-bottleneck-of-reinforcement-learning-with-verifiable-rew|Reinforcement Learning]]
+* [[transformer-architectures|Transformer Architectures]]
+* [[artificial-intelligence-safety|Artificial Intelligence Safety]]
 *

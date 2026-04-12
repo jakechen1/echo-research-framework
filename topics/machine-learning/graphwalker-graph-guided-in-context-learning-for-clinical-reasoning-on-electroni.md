@@ -8,7 +8,7 @@ category: machine-learning
 
 # GraphWalker: Graph-Guided In-Context Learning for Clinical Reasoning on EHRs
 
-The application of [[Large Language Models]] (LLMs) to [[Electronic Health Records]] (EHRs) has opened new frontiers for automated [[Clinical Reasoning]]. A primary method for adapting these models to specific medical tasks without retraining is [[In-Context Learning]] (ICL). However, the effectiveness of ICL is heavily dependent on the quality and selection of demonstrations provided in the prompt.
+The application of [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) to [[mining-electronic-health-records-to-investigate-effectiveness-of-ensemble-deep-c|Electronic Health Records]] (EHRs) has opened new frontiers for automated [[graphwalker-graph-guided-in-context-learning-for-clinical-reasoning-on-electroni|Clinical Reasoning]]. A primary method for adapting these models to specific medical tasks without retraining is [[graphwalker-graph-guided-in-context-learning-for-clinical-reasoning-on-electroni|In-Context Learning]] (ICL). However, the effectiveness of ICL is heavily dependent on the quality and selection of demonstrations provided in the prompt.
 
 ## The Challenges of Traditional ICL in Healthcare
 

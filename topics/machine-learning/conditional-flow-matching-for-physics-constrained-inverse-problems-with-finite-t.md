@@ -8,6 +8,6 @@ category: machine-learning
 
 # Conditional flow matching for physics-constrained inverse problems with finite training data
 
-The research paper "Conditional flow matching for physics-constrained inverse problems with finite training data" introduces a specialized [[Conditional Flow Matching]] (CFM) framework designed for solving complex [[Bayesian Inference]] tasks. The study specifically targets [[Inverse Problems]] where the objective is to recover hidden variables from observed measurements under physical constraints.
+The research paper "Conditional flow matching for physics-constrained inverse problems with finite training data" introduces a specialized [[conditional-flow-matching-for-physics-constrained-inverse-problems-with-finite-t|Conditional Flow Matching]] (CFM) framework designed for solving complex [[bayesian-inference|Bayesian Inference]] tasks. The study specifically targets [[conditional-flow-matching-for-physics-constrained-inverse-problems-with-finite-t|Inverse Problems]] where the objective is to recover hidden variables from observed measurements under physical constraints.
 
 ##

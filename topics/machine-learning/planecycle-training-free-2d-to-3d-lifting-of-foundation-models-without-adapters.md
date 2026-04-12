@@ -8,7 +8,7 @@ category: ai, machine-learning
 
 # PlaneCycle
 
-**PlaneCycle** is a novel research advancement in [[Computer Vision]] that introduces a training-free, adapter-free operator designed for the 2D-to-3D lifting of [[Foundation Models]]. Traditionally, extending the powerful representations found in 2D models to 3D volumetric data has required expensive retraining, the introduction of specialized [[Adapters]], or complex architectural redesigns. PlaneCycle eliminates these requirements, offering an architecture-agnostic solution.
+**PlaneCycle** is a novel research advancement in [[computer-vision|Computer Vision]] that introduces a training-free, adapter-free operator designed for the 2D-to-3D lifting of [[a-family-of-open-time-series-foundation-models-for-the-radio-access-network|Foundation Models]]. Traditionally, extending the powerful representations found in 2D models to 3D volumetric data has required expensive retraining, the introduction of specialized [[orthofuse-training-free-riemannian-fusion-of-orthogonal-style-concept-adapters-f|Adapters]], or complex architectural redesigns. PlaneCycle eliminates these requirements, offering an architecture-agnostic solution.
 
 ## Methodology
 
@@ -21,15 +21,15 @@ Crucially, this method is:
 
 ## Performance and Results
 
-The effectiveness of PlaneCycle was evaluated using pretrained [[DINOv3]] models across six 3D classification benchmarks and three 3D segmentation benchmarks. The results demonstrated significant capabilities:
+The effectiveness of PlaneCycle was evaluated using pretrained [[dinov3|DINOv3]] models across six 3D classification benchmarks and three 3D segmentation benchmarks. The results demonstrated significant capabilities:
 
 1. **Linear Probing**: Without any additional training, the lifted models exhibited intrinsic 3D fusion capabilities, significantly outperforming traditional slice-wise 2D baselines and approaching the performance of models specifically trained for 3D tasks.
-2. **Full Fine-Tuning**: When subjected to full fine-tuning, PlaneCycle's performance matched that of standard 3D architectures, proving its potential as a seamless [[2D-to-3D Lifting]] operator.
+2. **Full Fine-Tuning**: When subjected to full fine-tuning, PlaneCycle's performance matched that of standard 3D architectures, proving its potential as a seamless [[planecycle-training-free-2d-to-3d-lifting-of-foundation-models-without-adapters|2D-to-3D Lifting]] operator.
 
 These findings suggest that substantial 3D intelligence is already latent within large-scale 2D models and can be unlocked through efficient structural manipulation rather than massive computational retraining.
 
 ## See Also
-* [[Computer Vision]]
-* [[Machine Learning]]
-* [[Neural Networks]]
-* [[3D Reconstruction]]
+* [[computer-vision|Computer Vision]]
+* [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]]
+* [[curvature-aware-optimization-for-high-accuracy-physics-informed-neural-networks|Neural Networks]]
+* [[3dturboquant-training-free-near-optimal-quantization-for-3d-reconstruction-model|3D Reconstruction]]

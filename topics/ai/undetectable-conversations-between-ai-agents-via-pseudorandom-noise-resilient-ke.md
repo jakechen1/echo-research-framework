@@ -8,7 +8,7 @@ category: ai
 
 # Undetectable Conversations Between AI Agents
 
-As [[AI Agents]] are increasingly deployed to interact autonomously on behalf of users and organizations, the security of their communication protocols becomes a paramount concern. The research paper, *Undertectable Conversations Between AI Agents via Pseudorandom Noise-Resilient Key Exchange*, investigates whether two agents, operated by different entities, can maintain a secret, parallel conversation that remains invisible to a "strong passive auditor."
+As [[undetectable-conversations-between-ai-agents-via-pseudorandom-noise-resilient-ke|AI Agents]] are increasingly deployed to interact autonomously on behalf of users and organizations, the security of their communication protocols becomes a paramount concern. The research paper, *Undertectable Conversations Between AI Agents via Pseudorandom Noise-Resilient Key Exchange*, investigates whether two agents, operated by different entities, can maintain a secret, parallel conversation that remains invisible to a "strong passive auditor."
 
 ## Core Research Problem
 
@@ -16,4 +16,4 @@ The central question is whether agents can carry out a covert dialogue while pro
 
 ## Key Discoveries
 
-Building upon existing foundations in [[LLM]] watermarking and [[steganography]],
+Building upon existing foundations in [[analyzing-multimodal-interaction-strategies-for-llm-assisted-manipulation-of-3d-|LLM]] watermarking and [[steganography]],

@@ -8,7 +8,7 @@ category: machine-learning
 
 # Self-Distilled RLVR (RLSD)
 
-[[Self-Distilled RLVR]], or **RLSD**, is an advanced training paradigm designed to optimize the reinforcement learning process for [[Large Language Models]] (LLMs). The methodology addresses the fundamental tension between learning signal density and signal reliability in [[Machine Learning]] training.
+[[self-distilled-rlvr|Self-Distilled RLVR]], or **RLSD**, is an advanced training paradigm designed to optimize the reinforcement learning process for [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs). The methodology addresses the fundamental tension between learning signal density and signal reliability in [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] training.
 
 ## The Training Dilemma
 

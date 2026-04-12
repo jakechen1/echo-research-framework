@@ -7,7 +7,7 @@ tags: [ai, machine-learning, technology, computer-graphics, 3d-simulation]
 
 # MAVEN: A Mesh-Aware Volumetric Encoding Network
 
-**MAVEN** is a novel deep learning architecture designed to advance the field of [[3D Physical Simulation]]. While [[Graph Neural Networks]] (GNNs) have become a standard for simulating the flexible deformation and contact of solids, traditional approaches often suffer from structural information loss.
+**MAVEN** is a novel deep learning architecture designed to advance the field of [[3d-physical-simulation|3D Physical Simulation]]. While [[openglt-a-comprehensive-benchmark-of-graph-neural-networks-for-graph-level-tasks|Graph Neural Networks]] (GNNs) have become a standard for simulating the flexible deformation and contact of solids, traditional approaches often suffer from structural information loss.
 
 ## The Limitation of Graph-Based Approaches
 Existing GNN-based methods typically represent 3D meshes as graphs composed solely of vertices and edges. This simplification ignores the higher-dimensional spatial features of the original geometry, such as **2D facets** and **3D cells**. Because these higher-dimensional elements are absent, current models struggle to accurately capture:
@@ -28,4 +28,4 @@ The architecture establishes learnable mappings between three critical tiers of 
 By enabling flexible mutual transformations between these elements and integrating explicit geometric features, MAVEN alleviates the computational burden of requiring the network to "learn" geometry implicitly. This results in a more natural and physically accurate simulation of how objects deform under stress.
 
 ## Performance and Applications
-The efficacy of MAVEN has been demonstrated through state-of-the-art (SOTA) results across established datasets. Notably, the researchers introduced a new **metal stretch-bending task**, which focuses on large-scale deformations and prolonged contact periods. In these rigorous tests, MAVEN consistently outperformed existing [[Deep Learning]] models, proving its capability in handling complex, high-fidelity [[Geometry Processing]] tasks.
+The efficacy of MAVEN has been demonstrated through state-of-the-art (SOTA) results across established datasets. Notably, the researchers introduced a new **metal stretch-bending task**, which focuses on large-scale deformations and prolonged contact periods. In these rigorous tests, MAVEN consistently outperformed existing [[benchmarking-deep-learning-for-future-liver-remnant-segmentation-in-colorectal-l|Deep Learning]] models, proving its capability in handling complex, high-fidelity [[geometry-processing|Geometry Processing]] tasks.

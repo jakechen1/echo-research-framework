@@ -8,11 +8,11 @@ category: ai
 
 # Initialisation Determines the Basin
 
-The paper **"Initialisation Determines the Basin"** investigates a critical failure mode in the [[Quantization]] of [[Large Language Models]] (LLMs), specifically when attempting extreme [[Compression]] at 2-bit precision. While additive quantization offers highly efficient $O(1)$ lookup-table dequantization—making it ideal for [[Edge Computing]]—the authors demonstrate that at extremely low bitrates, the process often fails catastrophously.
+The paper **"Initialisation Determines the Basin"** investigates a critical failure mode in the [[3dturboquant-training-free-near-optimal-quantization-for-3d-reconstruction-model|Quantization]] of [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs), specifically when attempting extreme [[lightthinker-from-reasoning-compression-to-memory-management|Compression]] at 2-bit precision. While additive quantization offers highly efficient $O(1)$ lookup-table dequantization—making it ideal for [[multi-turn-reasoning-llms-for-task-offloading-in-mobile-edge-computing|Edge Computing]]—the authors demonstrate that at extremely low bitrates, the process often fails catastrophously.
 
 ## The Problem: Poor Optimization Basins
 
-The researchers identified that the primary bottleneck in extreme quantization is not the lack of refinement through [[Beam Search]] or [[Post-Training Quantization]] (PTQ), but rather the initial state of the codebook. Traditional **greedy sequential initialization** often places the model into "poor optimization regions." Once the model is trapped in these suboptimal basins, subsequent fine-tuning and optimization algorithms struggle to recover the lost accuracy.
+The researchers identified that the primary bottleneck in extreme quantization is not the lack of refinement through [[beam-search|Beam Search]] or [[post-training-quantization|Post-Training Quantization]] (PTQ), but rather the initial state of the codebook. Traditional **greedy sequential initialization** often places the model into "poor optimization regions." Once the model is trapped in these suboptimal basins, subsequent fine-tuning and optimization algorithms struggle to recover the lost accuracy.
 
 The severity of this issue is tied to the **representational ratio** ($\rho = N/KM$), which characterizes the relationship between weight groups and the available codebook capacity. The paper notes that the bottleneck is moderate at 3 bits per parameter (bpp) but becomes extreme at 2 bpp, where poor initialization can degrade model perplexity by orders of magnitude.
 
@@ -23,8 +23,8 @@ To resolve this, the authors propose **OA-EM** (Output-aware EM initialization).
 ## Experimental Results
 
 The effectiveness of OA-EM was tested across several state-of-the-art architectures:
-* [[Llama 3.1 (8B)]]
-* [[Llama 3.2 (3B)]]
-* [[Qwen 2.5 (3B)]]
+* [[llama-31-8b|Llama 3.1 (8B)]]
+* [[llama-32-3b|Llama 3.2 (3B)]]
+* [[qwen-25-3b|Qwen 2.5 (3B)]]
 
-Across all tested compression rates and search budgets, OA-EM consistently dominated the **quality-compute frontier**, providing superior solutions after PV-tuning. The findings highlight that in the highly constrained geometry of compressed [[Neural Network]] spaces, the importance of initialization can outweigh the benefits of extensive search or fine-tuning.
+Across all tested compression rates and search budgets, OA-EM consistently dominated the **quality-compute frontier**, providing superior solutions after PV-tuning. The findings highlight that in the highly constrained geometry of compressed [[curvature-aware-optimization-for-high-accuracy-physics-informed-neural-networks|Neural Network]] spaces, the importance of initialization can outweigh the benefits of extensive search or fine-tuning.

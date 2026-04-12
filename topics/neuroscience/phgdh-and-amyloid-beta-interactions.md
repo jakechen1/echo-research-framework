@@ -11,7 +11,7 @@ source_urls:
 
 The interaction between **3-phosphoglycerate dehydrogenase (PHGDH)** and **Amyloid-Beta (Aβ)** represents a critical frontier in the study of the metabolic-proteotoxic nexus in neurodegeneration. At its core, this interaction describes how dysregulation in the **Serine Synthesis Pathway (SSP)**, specifically through the catalytic activity of PHGDH, influences the proteolytic processing of the **Amyloid Precursor Protein (APP)** and the subsequent aggregation of Aβ peptides into neurotoxic plaques.
 
-While traditional Alzheimer's disease (AD) research has focused primarily on the proteinopathy of Aβ and Tau, emerging evidence from 2024–2026 suggests that the metabolic state of the neuron—particularly the flux of amino acids through the SSP—serves as a primary driver of the amyloidogenic cascade. PHGDH, the rate-limiting enzyme of the SSP, plays a central role in maintaining the levels of serine and glycine, which are vital for [[One-Carbon Metabolism]], glutathione synthesis, and epigenetic regulation. Disruptions in PHGDH-mediated serine production create a biochemical environment that promotes the activation of $\beta$-secretase (BACE1) and exacerbates the accumulation of Aβ.
+While traditional Alzheimer's disease (AD) research has focused primarily on the proteinopathy of Aβ and Tau, emerging evidence from 2024–2026 suggests that the metabolic state of the neuron—particularly the flux of amino acids through the SSP—serves as a primary driver of the amyloidogenic cascade. PHGDH, the rate-limiting enzyme of the SSP, plays a central role in maintaining the levels of serine and glycine, which are vital for [[one-carbon-metabolism|One-Carbon Metabolism]], glutathione synthesis, and epigenetic regulation. Disruptions in PHGDH-mediated serine production create a biochemical environment that promotes the activation of $\beta$-secretase (BACE1) and exacerbates the accumulation of Aβ.
 
 ## The Biochemical Role of PHGDH in the SSP
 
@@ -31,7 +31,7 @@ The interaction between PHGDH and Aβ occurs through three primary biochemical m
 ### 1. The Redox-BACE1 Axis
 The most direct link between PHGDH activity and Aβ formation is through the regulation of oxidative stress. A deficiency in PHGDH-mediated serine synthesis leads to a reduction in cysteine availability, subsequently lowering intracellular GSH levels. The resulting increase in **Reactive Oxygen Species (ROS)** triggers the activation of BACE1 (Beta-site Amyloid Precursor Protein Cleaving Enzyme 1). 
 
-Under conditions of high oxidative stress, BACE1 undergoes-upregulation via proteolytic activation and increased transcriptional activity. This enhances the cleavage of APP at the $\beta$-site, significantly increasing the production of the Aβ42 isoform, which is more prone to aggregation than Aβ40. This mechanism is a key component of the broader phenomenon of [[PHGDH-Mediated Neurodegeneration]].
+Under conditions of high oxidative stress, BACE1 undergoes-upregulation via proteolytic activation and increased transcriptional activity. This enhances the cleavage of APP at the $\beta$-site, significantly increasing the production of the Aβ42 isoform, which is more prone to aggregation than Aβ40. This mechanism is a key component of the broader phenomenon of [[phgdh-mediated-neurodegeneration|PHGDH-Mediated Neurodegeneration]].
 
 ### 2. Epigenetic Modulation via One-Carbon Flux
 PHGDH activity directly dictates the availability of methyl groups in the brain. The flux from serine through the homocysteine-methionine cycle determines the SAM/SAH (S-adenosylhomocysteine) ratio. Recent studies (2025) have demonstrated that low PHGDH activity leads to hypomethylation of the promoter regions of genes involved in the amyloidogenic pathway. Specifically, the promoter of the *BACE1* gene is sensitive to methylation status; decreased methylation (driven by low SAM levels) facilitates increased BACE1 expression, thereby accelerating Aβ production.
@@ -58,7 +58,7 @@ Despite significant progress, several hurdles remain in defining the PHGDH-Aβ i
 
 ## Future Directions and Therapeutic Potential
 
-The most promising avenue for future research lies in [[Pharmacological Targeting of PHGDH]]. Since the goal is to restore metabolic homeostasis rather than simply inhibiting a protein, researchers are exploring two distinct strategies:
+The most promising avenue for future research lies in [[pharmacological-targeting-of-phgdh|Pharmacological Targeting of PHGDH]]. Since the goal is to restore metabolic homeostasis rather than simply inhibiting a protein, researchers are exploring two distinct strategies:
 
 *   **PHGDH Mimetics/Activators:** Developing small molecules that can bypass the enzymatic deficit or enhance the catalytic efficiency of existing PHBT-driven serine synthesis to restore GSH levels and suppress BACE1.
 *   **Metabolic Bypass Therapies:** Using engineered metabolic precursors (e.g., stabilized serine derivatives) that can cross the Blood-Brain Barrier (BBB) to replenish the SSP during the early stages of neurodegeneration.

@@ -8,13 +8,13 @@ categories: [ai, machine-learning, technology]
 
 # ForkKV: Scaling Multi-LoRA Agent Serving via Copy-on-Write Disaggregated KV Cache
 
-ForkKV is an innovative serving system designed to optimize the performance of [[Large Language Models (LLMs)]] within complex [[Multi-Agent Systems]]. As AI deployment shifts toward workflows where specialized agents collaborate over massive, shared contexts, traditional memory management strategies are struggling to scale.
+ForkKV is an innovative serving system designed to optimize the performance of [[large-language-models-llms|Large Language Models (LLMs)]] within complex [[strategic-persuasion-with-trait-conditioned-multi-agent-systems-for-iterative-le|Multi-Agent Systems]]. As AI deployment shifts toward workflows where specialized agents collaborate over massive, shared contexts, traditional memory management strategies are struggling to scale.
 
 ## The Challenge: KV Cache Divergence
-The use of [[Low-Rank Adaptation (LoRA)]] allows for the efficient deployment of numerous specialized agents on a single base model. However, this introduces a critical memory bottleneck. Because unique LoRA weights cause activations to differ between agents, the [[Key-Value (KV) Cache]] begins to diverge.
+The use of [[low-rank-adaptation-lora|Low-Rank Adaptation (LoRA)]] allows for the efficient deployment of numerous specialized agents on a single base model. However, this introduces a critical memory bottleneck. Because unique LoRA weights cause activations to differ between agents, the [[key-value-kv-cache|Key-Value (KV) Cache]] begins to diverge.
 
-This divergence renders traditional [[Prefix Caching]] ineffective, as the shared context can no longer be reused across different agents without redundancy. This leads to:
-*   Rapid saturation of [[GPU]] capacity.
+This divergence renders traditional [[prefix-caching|Prefix Caching]] ineffective, as the shared context can no longer be reused across different agents without redundancy. This leads to:
+*   Rapid saturation of [[when-gpus-fail-quietly-observability-aware-early-warning-beyond-numeric-telemetr|GPU]] capacity.
 *   Significant overhead in redundant KV cache maintenance.
 *   Degradation of overall system throughput.
 

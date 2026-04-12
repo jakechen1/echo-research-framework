@@ -8,4 +8,4 @@ category: ai
 
 # AgentHER: Hindsight Experience Replay for LLM Agent Trajectory Relabeling
 
-[[AgentHER]] is a novel framework designed to address the inherent inefficiency in training [[LLM Agents]]. In current training paradigms, when
+[[agenther-hindsight-experience-replay-for-llm-agent-trajectory-relabeling|AgentHER]] is a novel framework designed to address the inherent inefficiency in training [[decocted-experience-improves-test-time-inference-in-llm-agents|LLM Agents]]. In current training paradigms, when

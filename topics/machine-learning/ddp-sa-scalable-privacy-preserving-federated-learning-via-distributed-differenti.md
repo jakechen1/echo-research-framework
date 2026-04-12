@@ -8,7 +8,7 @@ category: machine-learning
 
 # DDP-SA: Scalable Privacy-Preserving Federated Learning
 
-**DDP-SA** is an advanced framework designed to enhance the security and scalability of [[Federated Learning]] (FL) environments. As distributed training becomes essential for sensitive data industries, the need for robust protection against gradient leakage and malicious servers has become paramount. DDP-SA addresses this by combining [[Local Differential Privacy]] (LDP) with [[Additive Secret Sharing]] (ASS) to provide a layered defense mechanism.
+**DDP-SA** is an advanced framework designed to enhance the security and scalability of [[afl-a-single-round-analytic-approach-for-federated-learning-with-pre-trained-mod|Federated Learning]] (FL) environments. As distributed training becomes essential for sensitive data industries, the need for robust protection against gradient leakage and malicious servers has become paramount. DDP-SA addresses this by combining [[feature-aware-anisotropic-local-differential-privacy-for-utility-preserving-grap|Local Differential Privacy]] (LDP) with [[additive-secret-sharing|Additive Secret Sharing]] (ASS) to provide a layered defense mechanism.
 
 ### Core Methodology
 
@@ -19,12 +19,12 @@ The DDP-SA framework operates through a dual-stage protection process that mitig
 
 ### Key Advantages
 
-DDP-SA distinguishes itself from traditional [[Secure Multi-party Computation (MPC)]] and standalone LDP methods through several critical improvements:
+DDP-SA distinguishes itself from traditional [[secure-multi-party-computation-mpc|Secure Multi-party Computation (MPC)]] and standalone LDP methods through several critical improvements:
 
 *   **Superior Model Accuracy**: While pure LDP often introduces excessive noise that degrades model performance, DDP-SA maintains substantially higher accuracy by balancing noise levels with the structural security of secret sharing.
 *   **End-to-End Privacy**: The framework ensures that no single compromised server or intercepted communication channel can reveal individual client updates. The parameter server only ever sees the final, aggregated noisy gradient, never the raw client-specific contributions.
-*   **Linear Scalability**: Unlike many MPC-heavy approaches that suffer from exponential complexity, DDP-SA scales linearly with the number of participants. This makes it a practical solution for large-scale [[Machine Learning]] applications with significant communication and computational constraints.
+*   **Linear Scalability**: Unlike many MPC-heavy approaches that suffer from exponential complexity, DDP-SA scales linearly with the number of participants. This makes it a practical solution for large-scale [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] applications with significant communication and computational constraints.
 
 ### Applications
 
-DDP-SA is particularly relevant for high-stakes [[Data Privacy]] sectors, such as healthcare and finance, where [[Machine Learning]] training must occur on decentralized, sensitive datasets without risking the exposure of raw underlying information.
+DDP-SA is particularly relevant for high-stakes [[data-privacy|Data Privacy]] sectors, such as healthcare and finance, where [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] training must occur on decentralized, sensitive datasets without risking the exposure of raw underlying information.

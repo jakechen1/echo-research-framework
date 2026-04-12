@@ -8,7 +8,7 @@ category: machine-learning
 
 # Minimum-Action Learning (MAL)
 
-[[Minimum-Action Learning]] (MAL) is a computational framework within [[Scientific Machine Learning]] designed to identify symbolic physical laws from highly noisy observational data. The method addresses the fundamental challenge of extracting interpretable force laws from datasets where the Signal-to-Noise Ratio (SNR) is extremely low, making traditional regression techniques unreliable.
+[[minimum-action-learning-energy-constrained-symbolic-model-selection-for-physical|Minimum-Action Learning]] (MAL) is a computational framework within [[scientific-machine-learning|Scientific Machine Learning]] designed to identify symbolic physical laws from highly noisy observational data. The method addresses the fundamental challenge of extracting interpretable force laws from datasets where the Signal-to-Noise Ratio (SNR) is extremely low, making traditional regression techniques unreliable.
 
 ## Methodology
 
@@ -28,4 +28,4 @@ The framework was benchmarked using two fundamental physical models: **Kepler gr
 
 ## Comparative Analysis
 
-MAL provides a distinct alternative to existing [[Symbolic Regression]] and neural network architectures. Unlike [[SINDy]] (Sparse Identification of Nonlinear Dynamics) variants, which focus primarily on sparse regression, or [[Hamiltonian Neural Networks]] and [[Lagrangian Neural Networks]], which focus on learning dynamics, MAL focuses on **energy-constrained model selection**. It excels in scenarios where the model must not only fit the data but also satisfy the underlying physical constraints of the system.
+MAL provides a distinct alternative to existing [[symbolic-regression|Symbolic Regression]] and neural network architectures. Unlike [[a-robust-sindy-autoencoder-for-noisy-dynamical-system-identification|SINDy]] (Sparse Identification of Nonlinear Dynamics) variants, which focus primarily on sparse regression, or [[hamiltonian-neural-networks|Hamiltonian Neural Networks]] and [[lagrangian-neural-networks|Lagrangian Neural Networks]], which focus on learning dynamics, MAL focuses on **energy-constrained model selection**. It excels in scenarios where the model must not only fit the data but also satisfy the underlying physical constraints of the system.

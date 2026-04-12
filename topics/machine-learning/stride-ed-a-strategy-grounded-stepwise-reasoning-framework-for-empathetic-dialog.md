@@ -8,11 +8,11 @@ category: [ai, machine-learning, technology]
 
 # STRIDE-ED
 
-**STRIDE-ED** (STRategy-grounded, Interpretable, and DEep reasoning) is a novel framework designed to advance the capabilities of [[Empathetic Dialogue]] systems. Unlike traditional approaches that focus primarily on simple emotion recognition, STRIDE-ED treats empathetic interaction as a complex, multi-stage cognitive and decision-making process.
+**STRIDE-ED** (STRategy-grounded, Interpretable, and DEep reasoning) is a novel framework designed to advance the capabilities of [[empathetic-dialogue|Empathetic Dialogue]] systems. Unlike traditional approaches that focus primarily on simple emotion recognition, STRIDE-ED treats empathetic interaction as a complex, multi-stage cognitive and decision-making process.
 
 ## The Problem: Limitations in Empathy Modeling
 
-Current models in [[Natural Language Processing]] often struggle to maintain consistent empathy because they lack three critical components:
+Current models in [[natural-language-processing|Natural Language Processing]] often struggle to maintain consistent empathy because they lack three critical components:
 1.  A comprehensive framework for empathy strategies.
 *   Explicit, task-aligned multi-stage reasoning capabilities.
 *   High-quality, strategy-aware training datasets.
@@ -24,7 +24,7 @@ Without these elements, existing models are unable to make the context-sensitive
 The STRIDE-ED framework introduces a structured approach to model empathetic dialogue through strategy-conditioned reasoning. The researchers implemented two primary innovations to bridge the gap between emotion detection and strategic response generation.
 
 ### 1. Strategy-Aware Data Refinement
-To address the lack of high-quality data, the developers created a pipeline that utilizes [[Large Language Models]] (LLMs) for sophisticated data augmentation. This pipeline integrates:
+To address the lack of high-quality data, the developers created a pipeline that utilizes [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) for sophisticated data augmentation. This pipeline integrates:
 *   **LLM-based Annotation:** Generating labels that link emotions to specific conversational strategies.
 *   **Multi-model Consistency-weighted Evaluation:** Using multiple models to verify the accuracy of annotations.
 *   **Dynamic Sampling:** Ensuring the training set is balanced and representative of complex emotional scenarios.
@@ -36,4 +36,4 @@ The framework employs a rigorous training process to align model outputs with ta
 
 ## Performance and Generalization
 
-Extensive experiments demonstrate that STRIDE-ED is highly versatile and generalizes effectively across various open-source [[Large Language Models]]. The framework has consistently outperformed existing state-of
+Extensive experiments demonstrate that STRIDE-ED is highly versatile and generalizes effectively across various open-source [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]]. The framework has consistently outperformed existing state-of

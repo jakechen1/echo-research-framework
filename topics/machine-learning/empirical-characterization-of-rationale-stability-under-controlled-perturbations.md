@@ -8,4 +8,4 @@ category: [ai, machine-learning]
 
 # Empirical Characterability of Rationale Stability
 
-The research paper, "Empirical Characterization of Rationale Stability Under Controlled Perturbations for Explainable Pattern Recognition," addresses a critical gap in the field of [[Explainable AI]] (XAI). While many current evaluation methods for feature attribution are instance-centric, they often fail to assess
+The research paper, "Empirical Characterization of Rationale Stability Under Controlled Perturbations for Explainable Pattern Recognition," addresses a critical gap in the field of [[explainable-ai-for-microseismic-event-detection|Explainable AI]] (XAI). While many current evaluation methods for feature attribution are instance-centric, they often fail to assess

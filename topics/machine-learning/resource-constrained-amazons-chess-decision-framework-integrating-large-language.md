@@ -12,7 +12,7 @@ The research paper "Resource-constrained Amazons chess decision framework integr
 
 ## Methodology
 
-Traditional [[Machine Learning]] models often require massive datasets and high-performance hardware. To circumvent these limitations, the researchers proposed an architecture that combines the generative prowess of [[Large Language Models]] (specifically GPT-4o-mini) with the structural reasoning of [[Graph Neural Networks]].
+Traditional [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] models often require massive datasets and high-performance hardware. To circumvent these limitations, the researchers proposed an architecture that combines the generative prowess of [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (specifically GPT-4o-mini) with the structural reasoning of [[openglt-a-comprehensive-benchmark-of-graph-neural-networks-for-graph-level-tasks|Graph Neural Networks]].
 
 The framework utilizes several key components:
 *   **Graph Attention Autoencoder (GAE):** This component acts as a structural filter to denoise noisy outputs provided by the LLM.
@@ -26,4 +26,4 @@ Experimental results on a $10 \times 10$ Amazons board indicate significant effi
 
 ## Implications
 
-This research provides a blueprint for evolving specialized, high-performance [[Artificial Intelligence]] agents from general-purpose foundation models. It demonstrates that under stringent [[Technology]] constraints, integrating structural reinforcement through graph-based learning can effectively bridge the gap between generative intuition and rigorous
+This research provides a blueprint for evolving specialized, high-performance [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] agents from general-purpose foundation models. It demonstrates that under stringent [[us-cities-are-axing-flock-safety-surveillance-technology|Technology]] constraints, integrating structural reinforcement through graph-based learning can effectively bridge the gap between generative intuition and rigorous

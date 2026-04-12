@@ -8,13 +8,13 @@ category: [ai, machine-learning]
 
 # Generalized Spherical Neural Operators: Green's Function Formulation
 
-The paper "Generalized Spherical Neural Operators: Green's Function Formulation" introduces a significant advancement in the field of [[Neural Operators]], specifically addressing the complexities of modeling on spherical domains. While neural operators have proven effective at solving parametric [[Partial Differential Equations]] (PDEs), applying them to a sphere presents unique challenges, primarily the need to maintain intrinsic geometry while avoiding rotational distortions.
+The paper "Generalized Spherical Neural Operators: Green's Function Formulation" introduces a significant advancement in the field of [[lotka-sharpe-neural-operators-for-control-of-population-pdes|Neural Operators]], specifically addressing the complexities of modeling on spherical domains. While neural operators have proven effective at solving parametric [[ae-vit-stable-long-horizon-parametric-partial-differential-equations-modeling|Partial Differential Equations]] (PDEs), applying them to a sphere presents unique challenges, primarily the need to maintain intrinsic geometry while avoiding rotational distortions.
 
 ## The GSNO Framework
 
-The authors propose the **Green's-function Spherical Neural Operator (GSNO)**. A core difficulty in spherical modeling is the tension between [[Rotational Equivariance]] and the flexibility needed for real-world, non-symmetric data. To address this, the researchers developed a framework based on a designable spherical [[Green's Function]] and its corresponding [[Harmonic Expansion]].
+The authors propose the **Green's-function Spherical Neural Operator (GSNO)**. A core difficulty in spherical modeling is the tension between [[rotational-equivariance|Rotational Equivariance]] and the flexibility needed for real-world, non-symmetric data. To address this, the researchers developed a framework based on a designable spherical [[generalized-spherical-neural-operators-greens-function-formulation|Green's Function]] and its corresponding [[harmonic-expansion|Harmonic Expansion]].
 
-Unlike previous methods that are often constrained by strict symmetry requirements, GSNO utilizes an absolute and relative position-dependent Green's function. This allows the model to achieve a flexible balance between equivariance and invariance, enabling it to adapt to complex systems that do not exhibit perfect rotational symmetry. The GSNO employs a novel [[Spectral Learning]] method that maintains both spectral efficiency and grid invariance.
+Unlike previous methods that are often constrained by strict symmetry requirements, GSNO utilizes an absolute and relative position-dependent Green's function. This allows the model to achieve a flexible balance between equivariance and invariance, enabling it to adapt to complex systems that do not exhibit perfect rotational symmetry. The GSNO employs a novel [[spectral-learning|Spectral Learning]] method that maintains both spectral efficiency and grid invariance.
 
 ## SHNet Architecture
 
@@ -27,8 +27,8 @@ This architecture enhances global feature representation, making it highly effec
 ## Applications and Performance
 
 The effectiveness of the GSNO and SHNet framework was evaluated across several high-impact scientific domains:
-* **Diffusion MRI**: Improving reconstruction and analysis in [[Neuroscience]].
+* **Diffusion MRI**: Improving reconstruction and analysis in [[neuroscience|Neuroscience]].
 * **Shallow Water Dynamics**: Modeling fluid movements on a planetary scale.
-* **Global Weather Forecasting**: Advancing accuracy in atmospheric [[Deep Learning]] models.
+* **Global Weather Forecasting**: Advancing accuracy in atmospheric [[benchmarking-deep-learning-for-future-liver-remnant-segmentation-in-colorectal-l|Deep Learning]] models.
 
-Experimental results demonstrate that GSNO and SHNet consistently outperform existing state-of-the-art methods, establishing a robust foundation for future research in [[Spherical Learning]] and computational physics.
+Experimental results demonstrate that GSNO and SHNet consistently outperform existing state-of-the-art methods, establishing a robust foundation for future research in [[spherical-learning|Spherical Learning]] and computational physics.

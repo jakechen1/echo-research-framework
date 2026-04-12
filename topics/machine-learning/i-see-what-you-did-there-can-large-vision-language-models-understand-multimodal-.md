@@ -8,7 +8,7 @@ category: ai
 
 # "I See What You Did There": Can Large Vision-Language Models Understand Multimodal Puns?
 
-The research paper explores the capacity of [[Vision-Language Models]] (VLMs) to interpret multimodal puns—a complex form of rhetorical wordplay that integrates visual and textual elements. Unlike text-only puns, which rely on [[polysemy]] and phonetic similarity, multimodal puns require a simultaneous understanding of literal visual cues and figurative linguistic meanings, where the two modalities work in synergy to create humor.
+The research paper explores the capacity of [[aligned-vector-quantization-for-edge-cloud-collabrative-vision-language-models|Vision-Language Models]] (VLMs) to interpret multimodal puns—a complex form of rhetorical wordplay that integrates visual and textual elements. Unlike text-only puns, which rely on [[polysemy]] and phonetic similarity, multimodal puns require a simultaneous understanding of literal visual cues and figurative linguistic meanings, where the two modalities work in synergy to create humor.
 
 ## The MultiPun Dataset
-A significant gap in current [[machine-learning]] research is the
+A significant gap in current [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|machine-learning]] research is the

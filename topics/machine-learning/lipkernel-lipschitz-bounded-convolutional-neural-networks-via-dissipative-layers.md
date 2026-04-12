@@ -8,11 +8,11 @@ categories: [ai, machine-learning, technology]
 
 # LipKernel
 
-**LipKernel** is a novel architectural framework for [[Convolutional Neural Networks]] (CNNs) designed to provide built-in robustness guarantees by enforcing a prescribed [[Lipschitz bound]]. The primary objective of this method is to ensure that the input-output mapping of a neural network remains bounded, which is critical for the stability and reliability of [[Machine Learning]] models in high-stakes environments.
+**LipKernel** is a novel architectural framework for [[lipkernel-lipschitz-bounded-convolutional-neural-networks-via-dissipative-layers|Convolutional Neural Networks]] (CNNs) designed to provide built-in robustness guarantees by enforcing a prescribed [[lipkernel-lipschitz-bounded-convolutional-neural-networks-via-dissipative-layers|Lipschitz bound]]. The primary objective of this method is to ensure that the input-output mapping of a neural network remains bounded, which is critical for the stability and reliability of [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] models in high-stakes environments.
 
 ## Technical Overview
 
-The fundamental innovation of LipKernel lies in its layer-wise parameterization. Instead of relying on traditional spectral bounds or orthogonal layers—which can limit the expressiveness of the network—LipKernel ensures that each layer satisfies a [[Linear Matrix Inequality]] (LMI). This satisfaction implies dissipativity with respect to a specific supply rate. 
+The fundamental innovation of LipKernel lies in its layer-wise parameterization. Instead of relying on traditional spectral bounds or orthogonal layers—which can limit the expressiveness of the network—LipKernel ensures that each layer satisfies a [[linear-matrix-inequality|Linear Matrix Inequality]] (LMI). This satisfaction implies dissipativity with respect to a specific supply rate. 
 
 Specifically, the method directly parameterizes dissipative convolution kernels using a 2-D Roesser-type state space model. Because the kernels are parameterized this way, the convolutional layers are presented in a standard form after the training phase. This design choice ensures that the network can be evaluated without any additional computational overhead, a significant departure from existing methods that require complex transformations.
 
@@ -20,9 +20,9 @@ Specifically, the method directly parameterizes dissipative convolution kernels 
 
 LipKernel offers several key advantages over existing state-of-the-art Lipschitz-bounded networks:
 
-* **Computational Efficiency:** Unlike methods that parameterize convolutions in the [[Fourier domain]], which can introduce significant latency, LipKernel maintains a run-time that is orders of magnitude faster.
+* **Computational Efficiency:** Unlike methods that parameterize convolutions in the [[fourier-domain|Fourier domain]], which can introduce significant latency, LipKernel maintains a run-time that is orders of magnitude faster.
 * **High Expressiveness:** By utilizing LMI-based dissipative layers, the model achieves a more expressive parameterization than previous approaches.
-* **Real-Time Application:** The lack of evaluation overhead makes LipKernel particularly attractive for [[real-time perception]], [[robotics]], [[autonomous vehicles]], and critical [[automation systems]].
+* **Real-Time Application:** The lack of evaluation overhead makes LipKernel particularly attractive for [[real-time-perception|real-time perception]], [[ai-driven-marine-robotics-emerging-trends-in-underwater-perception-and-ecosystem|robotics]], [[autonomous-vehicles|autonomous vehicles]], and critical [[automation-systems|automation systems]].
 
 ## Scope and Extensibility
 

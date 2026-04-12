@@ -13,7 +13,7 @@ source_urls:
 
 Phosphoglycerate dehydrogenase (PHGDH) is the rate-limiting enzyme of the *de novo* serine biosynthetic pathway (SSP). It catalyzes the NAD$^+$-dependent oxidation of 3-phosphoglycerate (3-PG) to 3-phosphohydroxypyruvate (3-PHP), the first committed step in the production of serine. Because serine and its derivative, glycine, are essential for nucleotide synthesis, sphingolipid production, and glutathione-mediated antioxidant defense, PHGDH is frequently upregulated in various malignancies, including triple-negative breast cancer (TNBC), neuroblastoma, and melanoma. 
 
-The development of **chemical inhibitors of PHGDH** represents a critical frontier in [[Pharmacological Targeting of PHGDH]]. By disrupting the flux through the SSP, small molecule inhibitors aim to starve cancer cells of essential metabolic precursors, thereby inducing metabolic stress and inhibiting proliferation. This page provides a comprehensive survey of the chemical classes, mechanisms of action, and the current landscape of small molecule development targeting PHGDHT activity.
+The development of **chemical inhibitors of PHGDH** represents a critical frontier in [[pharmacological-targeting-of-phgdh|Pharmacological Targeting of PHGDH]]. By disrupting the flux through the SSP, small molecule inhibitors aim to starve cancer cells of essential metabolic precursors, thereby inducing metabolic stress and inhibiting proliferation. This page provides a comprehensive survey of the chemical classes, mechanisms of action, and the current landscape of small molecule development targeting PHGDHT activity.
 
 ## Enzymatic Mechanism and Structural Context
 
@@ -23,7 +23,7 @@ To design effective inhibitors, one must understand the complex architecture of 
 3.  **The Intermediate Domain:** Provides structural stability and connects the catalytic and regulatory regions.
 4.  **The Regulatory/Allosteric Domain (C-terminal):** Contains the site for allosteric feedback inhibition by serine.
 
-Small molecule inhibition strategies generally target either the orthosteric site (the active site where $NAD^+$ and 3-PG bind) or the allosteric site (the C-terminal domain). The distinction between these two approaches is fundamental to [[Structure-Based Drug Design (SBDD) for PHGDH]].
+Small molecule inhibition strategies generally target either the orthosteric site (the active site where $NAD^+$ and 3-PG bind) or the allosteric site (the C-terminal domain). The distinction between these two approaches is fundamental to [[structure-based-drug-design-sbdd-for-phgdh|Structure-Based Drug Design (SBDD) for PHGDH]].
 
 ## Classes of Small Molecule Inhibitors
 
@@ -40,7 +40,7 @@ The most intuitive approach to PHGDH inhibition involves designing molecules tha
 
 Allosteric inhibition is currently considered the most promising strategy for achieving high selectivity. These molecules bind to sites distal to the active site, often at the interface between monomers or within the C-terminal regulatory domain.
 
-*   **Feedback Mimetic Inhibitors:** Since serine naturally inhibits PHGDH through an allosteric mechanism, researchers are utilizing [[Structure-Based Drug Design (SBDD) for PHGDH]] to create synthetic analogs that mimic the "closed" or "inactive" conformation induced by serine binding.
+*   **Feedback Mimetic Inhibitors:** Since serine naturally inhibits PHGDH through an allosteric mechanism, researchers are utilizing [[structure-based-drug-design-sbdd-for-phgdh|Structure-Based Drug Design (SBDD) for PHGDH]] to create synthetic analogs that mimic the "closed" or "inactive" conformation induced by serine binding.
 *   **Interface Disruptors:** These compounds target the tetrameric interface of the enzyme. By preventing the assembly of the functional homotetramer or destabilizing the interface between the catalytic and regulatory domains, these inhibitors can effectively shut down enzymatic activity. Recent computational screening (2023-2025) has identified small, hydrophobic molecules capable of wedging into the monomer-monomer interfaces, effectively promoting dissociation into inactive dimers or monomers.
 
 ### 3. Covalent Inhibitors

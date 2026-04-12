@@ -8,17 +8,17 @@ category: machine-learning
 
 # MF-GLaM: A multifidelity stochastic emulator using generalized lambda models
 
-The **MF-GLaM** (Multifidelity Generalized Lambda Models) framework introduces a specialized approach to [[surrogate modeling]] for [[stochastic simulators]]. In many scientific disciplines, simulators exhibit intrinsic stochasticity caused by unobservable or unmodeled input variables. This results in random outputs even when input conditions remain fixed, making it difficult for traditional deterministic modeling techniques to predict the full [[probability distribution]] of the outcomes.
+The **MF-GLaM** (Multifidelity Generalized Lambda Models) framework introduces a specialized approach to [[hybrid-fourier-neural-operator-for-surrogate-modeling-of-laser-processing-with-a|surrogate modeling]] for [[stochastic-simulators|stochastic simulators]]. In many scientific disciplines, simulators exhibit intrinsic stochasticity caused by unobservable or unmodeled input variables. This results in random outputs even when input conditions remain fixed, making it difficult for traditional deterministic modeling techniques to predict the full [[probability-distribution|probability distribution]] of the outcomes.
 
 ## The Challenge of Stochastic Emulation
 
-Accurately characterizing the response distribution of a simulator is computationally intensive. While [[high-fidelity data]] provides the most accurate representation, acquiring enough samples to map the entire distribution is often prohibitively expensive. Traditional [[machine learning]] approaches often struggle to capture the nuances of the conditional response distribution without massive datasets.
+Accurately characterizing the response distribution of a simulator is computationally intensive. While [[high-fidelity-data|high-fidelity data]] provides the most accurate representation, acquiring enough samples to map the entire distribution is often prohibitively expensive. Traditional [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|machine learning]] approaches often struggle to capture the nuances of the conditional response distribution without massive datasets.
 
 ## The MF-GLaM Approach
 
-MF-GLaM addresses this by implementing a [[multifidelity modeling]] framework. The method aims to enhance limited high-fidelity information by exploiting available data from [[low-fidelity data]] sources. 
+MF-GLaM addresses this by implementing a [[multifidelity-modeling|multifidelity modeling]] framework. The method aims to enhance limited high-fidelity information by exploiting available data from [[low-fidelity-data|low-fidelity data]] sources. 
 
-The architecture is built upon the **Generalized Lambda Model** (GLaM), which utilizes a flexible, four-parameter [[generalized lambda distribution]] to represent the conditional distribution at each input point. Key features of the MF-GLaM method include:
+The architecture is built upon the **Generalized Lambda Model** (GLaM), which utilizes a flexible, four-parameter [[generalized-lambda-distribution|generalized lambda distribution]] to represent the conditional distribution at each input point. Key features of the MF-GLaM method include:
 
 *   **Non-intrusive implementation:** The model does not require access to the internal stochastic mechanisms of the underlying simulator.
 *   **Data efficiency:** It eliminates the need for multiple replications of the same input values, which is a common requirement in traditional stochastic modeling.

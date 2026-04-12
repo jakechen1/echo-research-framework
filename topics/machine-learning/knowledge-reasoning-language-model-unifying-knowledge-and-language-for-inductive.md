@@ -7,13 +7,13 @@ tags: [ai, machine-learning, knowledge-graphs, llm]
 
 # Knowledge Reasoning Language Model (KRLM)
 
-The **Knowledge Reasoning Language Model (KRLM)** is an advanced framework designed to enhance **Inductive Knowledge Graph Reasoning (KGR)**. The primary goal of KGR is to discover new facts within open-domain [[Knowledge Graphs]] (KGs) that contain previously unseen entities and relations. This task is inherently difficult because models must navigate the uncertainty of unknown KG components.
+The **Knowledge Reasoning Language Model (KRLM)** is an advanced framework designed to enhance **Inductive Knowledge Graph Reasoning (KGR)**. The primary goal of KGR is to discover new facts within open-domain [[beyond-predefined-schemas-trace-kg-for-context-enriched-knowledge-graphs-from-co|Knowledge Graphs]] (KGs) that contain previously unseen entities and relations. This task is inherently difficult because models must navigate the uncertainty of unknown KG components.
 
 ## The Challenge of Inductive Reasoning
 
-Recent progress has shifted toward integrating [[Large Language Models]] (LLMs) into [[Knowledge Graph Foundation Models]] (KGFMs). While LLMs possess vast internal knowledge, two critical issues hinder their effectiveness in KGR:
+Recent progress has shifted toward integrating [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) into [[knowledge-graph-foundation-models|Knowledge Graph Foundation Models]] (KGFMs). While LLMs possess vast internal knowledge, two critical issues hinder their effectiveness in KGR:
 
-1.  **Knowledge Distortion**: When presented with a [[Knowledge Graph]] context, the sparse information provided can overshadow the LLM's intrinsic knowledge, leading to a misalignment between the model's learned parameters and the provided structural context.
+1.  **Knowledge Distortion**: When presented with a [[ontology-based-knowledge-graph-infrastructure-for-interoperable-atomistic-simula|Knowledge Graph]] context, the sparse information provided can overshadow the LLM's intrinsic knowledge, leading to a misalignment between the model's learned parameters and the provided structural context.
 2.  **Hallucination**: The generative nature of LLMs often leads to "hallucinations," where the model produces reasoning results that are logically inconsistent or structurally impossible within the KG, undermining the credibility of the output.
 
 ## The KRLM Solution

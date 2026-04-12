@@ -9,12 +9,12 @@ category: [ai, machine-learning, technology]
 # DiffSketcher: Text Guided Vector Sketch Synthesis through Latent Diffusion Models
 
 ## Overview
-**DiffSketcher** is a novel algorithmic framework designed to enable the generation of vectorized, free-hand sketches using natural language instructions. While most state-of-the-art [[Latent Diffusion Models]] are trained on rasterized pixel data, DiffSketcher demonstrates that these models possess an inherent capacity to guide the synthesis of parametric [[vector graphics]].
+**DiffSketcher** is a novel algorithmic framework designed to enable the generation of vectorized, free-hand sketches using natural language instructions. While most state-of-the-art [[diffsketcher-text-guided-vector-sketch-synthesis-through-latent-diffusion-models|Latent Diffusion Models]] are trained on rasterized pixel data, DiffSketcher demonstrates that these models possess an inherent capacity to guide the synthesis of parametric [[vector-graphics|vector graphics]].
 
 ## Technical Approach
 The primary innovation of DiffSketcher lies in its ability to bridge the gap between a raster-level diffusion prior and a parametric vector generator. The method focuses on the following technical implementations:
 
-*   **Optimization via SDS Loss:** The system optimizes a collection of [[Bézier curves]] by utilizing an extended [[Score Distillation Sampling (SDS)]] loss. This allows the gradient information from the diffusion model to be applied directly to the parameters of the vector paths.
+*   **Optimization via SDS Loss:** The system optimizes a collection of [[bzier-curves|Bézier curves]] by utilizing an extended [[score-distillation-sampling-sds|Score Distillation Sampling (SDS)]] loss. This allows the gradient information from the diffusion model to be applied directly to the parameters of the vector paths.
 *   **Attention-Driven Initialization:** To address the high computational latency typically associated with optimizing curves from random noise, the authors introduce a stroke initialization strategy. This strategy leverages the intrinsic **attention maps** of the diffusion model to provide a structural starting point, significantly accelerating the generation process.
 
 ## Performance and Results
@@ -24,7 +24,7 @@ Experiments indicate that DiffSketcher outperforms existing methods in several k
 3.  **Efficiency:** The use of attention-based initialization allows for faster convergence compared to traditional optimization-based vector synthesis.
 
 ## Related Topics
-*   [[Generative AI]]
-*   [[Computer Vision]]
-*   [[Neural Rendering]]
-*   [[Text-to-Image Synthesis]]
+*   [[synthetic-trust-attacks-modeling-how-generative-ai-manipulates-human-decisions-i|Generative AI]]
+*   [[computer-vision|Computer Vision]]
+*   [[neural-rendering|Neural Rendering]]
+*   [[text-to-image-synthesis|Text-to-Image Synthesis]]

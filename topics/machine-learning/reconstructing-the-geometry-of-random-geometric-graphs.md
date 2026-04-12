@@ -11,12 +11,12 @@ category: machine-learning
 The research paper "Reconstructing the Geometry of Random Geometric Graphs" (arXiv:2402.09591) explores the mathematical challenge of recovering the properties of an underlying metric space using only the data provided by a sampled graph.
 
 ### Fundamentals of Random Geometric Graphs
-A [[Random Geometric Graph]] (RGG) is a stochastic model constructed within a metric space. The process involves two primary steps:
+A [[reconstructing-the-geometry-of-random-geometric-graphs|Random Geometric Graph]] (RGG) is a stochastic model constructed within a metric space. The process involves two primary steps:
 1. **Sampling**: A set of points is sampled from a predefined metric space.
 2. **Connection**: Each pair of sampled points is connected by an edge with a probability that is strictly dependent on the distance between them. This probability is applied independently to all pairs.
 
 ### The Reconstruction Challenge
-The core problem addressed in this work is the "reconstruction problem." When we only have access to the final graph (the vertices and the edges), how can we efficiently infer the geometry of the original space from which the points were drawn? This is a foundational question in the study of [[Complex Networks]] and [[Data Science]].
+The core problem addressed in this work is the "reconstruction problem." When we only have access to the final graph (the vertices and the edges), how can we efficiently infer the geometry of the original space from which the points were drawn? This is a foundational question in the study of [[complex-networks|Complex Networks]] and [[data-science|Data Science]].
 
 ### The Manifold Assumption
 The authors introduce an efficient reconstruction method by utilizing the **manifold assumption**. This framework assumes that:
@@ -24,4 +24,4 @@ The authors introduce an efficient reconstruction method by utilizing the **mani
 * The connection probability between any two points is a **strictly decreasing function** of their Euclidean distance within a given embedding in $\mathbb{R}^N$.
 
 ### Contribution to Manifold Learning
-This work directly complements the established field of [[Manifold Learning]]. While traditional manifold learning often focuses on recovering a manifold from points and their approximate distances, this research demonstrates how the connectivity patterns (the edges) of a graph can be leveraged to reconstruct the underlying geometry. By providing a method to recover the space from purely relational data, this paper offers new tools for [[Topological Data Analysis]] and the study of [[Metric Spaces]].
+This work directly complements the established field of [[manifold-learning|Manifold Learning]]. While traditional manifold learning often focuses on recovering a manifold from points and their approximate distances, this research demonstrates how the connectivity patterns (the edges) of a graph can be leveraged to reconstruct the underlying geometry. By providing a method to recover the space from purely relational data, this paper offers new tools for [[topological-data-analysis|Topological Data Analysis]] and the study of [[metric-spaces|Metric Spaces]].

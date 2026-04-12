@@ -7,19 +7,20 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/33017684/"
   - "https://pubmed.ncbi.nlm.nih.gov/32005372/"
   - "https://pubmed.ncbi.nlm.nih.gov/37421473/"
+  - "https://en.wikipedia.org/wiki/High-throughput_screening"
 ---
 
 ## Overview
 
-High-Throughput Screening (HTS) technologies refer to an integrated suite of automated experimental platforms designed to rapidly interrogate vast chemical libraries—ranging from thousands to millions of small molecules—to identify bioactive compounds that modulate the activity of a specific biological target. In the context of metabolic oncology, HTS is most critically applied to the identification of [[Chemical Inhibitors of PHGDH]]. 
+High-Throughput Screening (HTS) technologies refer to an integrated suite of automated experimental platforms designed to rapidly interrogate vast chemical libraries—ranging from thousands to millions of small molecules—to identify bioactive compounds that modulate the activity of a specific biological target. In the context of metabolic oncology, HTS is most critically applied to the identification of [[chemical-inhibitors-of-phgdh|Chemical Inhibitors of PHGDH]]. 
 
-Phosphoglycerate dehydrogenase (PHGDH) is the rate-limiting enzyme of the serine biosynthetic pathway (SSP). Because many cancer phenotypes, particularly triple-negative breast cancer and neuroblastoma, rely on upregulated PHGDH to support nucleoside and antioxidant production, HTS serves as the primary engine for [[Pharmacological Targeting of PHCLDH]]. These technologies transition from purely biochemical, cell-free assays to complex, cell-based metabolic profiling, aiming to identify hits that exhibit high potency, selectivity, and favorable pharmacokinetic properties.
+Phosphoglycerate dehydrogenase (PHGDH) is the rate-limiting enzyme of the serine biosynthetic pathway (SSP). Because many cancer phenotypes, particularly triple-negative breast cancer and neuroblastoma, rely on upregulated PHGDH to support nucleoside and antioxidant production, HTS serves as the primary engine for [[pharmacological-targeting-of-phcldh|Pharmacological Targeting of PHCLDH]]. These technologies transition from purely biochemical, cell-free assays to complex, cell-based metabolic profiling, aiming to identify hits that exhibit high potency, selectivity, and favorable pharmacokinetic properties.
 
 ## Principles of PHGDH Activity Scrutiny
 
 The fundamental principle underlying most HTS technologies for PHGDH revolves around monitoring the enzymatic conversion of 3-phosphoglycerate (3-PG) to 3-phosphohydroxypyruvate (3-PHP). This reaction is coupled with the reduction of $\text{NAD}^+$ to $\text{NADH} + \text{H}^+$. 
 
-Because the stoichiometric conversion of $\text{NAD}^+$ to $\text{NADH}$ can be tracked via characteristic changes in optical properties (absorbance at 340 nm or fluorescence excitation/emission), the biochemical assay serves as the "primary screen." The secondary and tertiary screens then employ more complex methodologies to validate that the identified [[Chemical Inhibitors of PHGDH]] function within the intracellular environment and do not exhibit non-specific toxicity.
+Because the stoichiometric conversion of $\text{NAD}^+$ to $\text{NADH}$ can be tracked via characteristic changes in optical properties (absorbance at 340 nm or fluorescence excitation/emission), the biochemical assay serves as the "primary screen." The secondary and tertiary screens then employ more complex methodologies to validate that the identified [[chemical-inhibitors-of-phgdh|Chemical Inhibitors of PHGDH]] function within the intracellular environment and do not exhibit non-specific toxicity.
 
 ## Primary Screening Modalities
 
@@ -71,7 +72,7 @@ Despite technological advancements, several persistent challenges remain in the 
 
 ## Future Directions
 
-The future of PHGDH screening lies in the convergence of **single-cell metabolomics** and **organoid-on-a-chip** technologies. Moving away from bulk cell populations toward studying the metabolic heterogeneity of 3D multicellular structures will allow for the identification of inhibitors that can penetrate complex tumor architectures. Additionally, the development of "proximity-dependent" labeling assays will likely allow for the identification of compounds that disrupt the PHGDH-protein interactome, providing new avenues for [[Pharmacological Targeting of PHGDH]].
+The future of PHGDH screening lies in the convergence of **single-cell metabolomics** and **organoid-on-a-chip** technologies. Moving away from bulk cell populations toward studying the metabolic heterogeneity of 3D multicellular structures will allow for the identification of inhibitors that can penetrate complex tumor architectures. Additionally, the development of "proximity-dependent" labeling assays will likely allow for the identification of compounds that disrupt the PHGDH-protein interactome, providing new avenues for [[pharmacological-targeting-of-phgdh|Pharmacological Targeting of PHGDH]].
 
 ## References
 1. Rienzo M et al., 2021. High-throughput screening for high-efficiency small-molecule biosynthesis. Metab Eng. [https://pubmed.ncbi.nlm.nih.gov/33017684/](https://pubmed.ncbi.nlm.nih.gov/33017684/)

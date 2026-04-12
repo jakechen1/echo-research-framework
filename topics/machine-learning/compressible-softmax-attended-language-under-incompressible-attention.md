@@ -8,10 +8,10 @@ category: machine-learning
 
 # Compressible Softmax-Attended Language under Incompressible Attention
 
-The research presented in "Compressible Softmax-Attended Language under Incompressible Attention" investigates the spectral properties of [[Softmax Attention]] within modern [[Transformer]] architectures. The study seeks to determine whether the computational complexity of attention mechanisms is an inherent feature of the model's weights or an intrinsic property of the data being processed.
+The research presented in "Compressible Softmax-Attended Language under Incompressible Attention" investigates the spectral properties of [[softmax-attention|Softmax Attention]] within modern [[crft-consistent-recurrent-feature-flow-transformer-for-cross-modal-image-registr|Transformer]] architectures. The study seeks to determine whether the computational complexity of attention mechanisms is an inherent feature of the model's weights or an intrinsic property of the data being processed.
 
 ### Methodology and Decomposition
-The researchers analyzed 5,888 KV heads across five distinct [[Transformer]] architecture families, covering model scales from 124M to 7B parameters. To understand the distribution of information, they decomposed the attention logit field into two distinct parts:
+The researchers analyzed 5,888 KV heads across five distinct [[crft-consistent-recurrent-feature-flow-transformer-for-cross-modal-image-registr|Transformer]] architecture families, covering model scales from 124M to 7B parameters. To understand the distribution of information, they decomposed the attention logit field into two distinct parts:
 1.  **A learned component:** Represented by the interaction matrix ($W_Q^\mathrm{T} W_K$).
 2.  **A generated component:** Represented by the data-driven influence of the input text.
 
@@ -24,5 +24,5 @@ The study reveals a significant disparity between the complexity of the model's 
 *   **Compressible Language:** In stark contrast, the actual logit energy field ($\tilde{E}$) is highly compressed. The researchers found that 90% of the variance in the logit field is captured by only 2 to 11 singular components.
 *   **Spectral Gap:** There is a massive "spectral gap" in effective rank, measuring between 5$\times$ and 25$\times$ depending on the model.
 
-### Implications for [[Machine Learning]]
-The central conclusion is that the **compressibility** of attention is a property of the data (the language) rather than the architectural frame (the weights). This discovery has profound implications for the development of [[Efficient Transformers]] and [[Model Compression]] techniques. It suggests that future [[Large Language Models (LLMs)]] could potentially utilize low-rank approximations to significantly reduce the computational overhead of attention mechanisms without sacrificing the representation of complex linguistic structures.
+### Implications for [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]]
+The central conclusion is that the **compressibility** of attention is a property of the data (the language) rather than the architectural frame (the weights). This discovery has profound implications for the development of [[efficient-transformers|Efficient Transformers]] and [[enec-a-lossless-ai-model-compression-method-enabling-fast-inference-on-ascend-np|Model Compression]] techniques. It suggests that future [[large-language-models-llms|Large Language Models (LLMs)]] could potentially utilize low-rank approximations to significantly reduce the computational overhead of attention mechanisms without sacrificing the representation of complex linguistic structures.

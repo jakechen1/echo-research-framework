@@ -8,4 +8,4 @@ category: ai
 
 # Deep Privacy Funnel Model
 
-The Deep Privacy Funnel (PF) model introduces a robust framework for [[Privacy-preserving representation learning]], bridging the gap between discriminative and generative approaches. This research focuses on managing the critical trade-off between the utility of extracted features and the obfuscation of sensitive information, utilizing
+The Deep Privacy Funnel (PF) model introduces a robust framework for [[privacy-preserving-representation-learning|Privacy-preserving representation learning]], bridging the gap between discriminative and generative approaches. This research focuses on managing the critical trade-off between the utility of extracted features and the obfuscation of sensitive information, utilizing

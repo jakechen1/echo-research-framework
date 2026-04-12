@@ -8,11 +8,11 @@ category: neuroscience
 
 # A Rosetta Stone Hypothesis for Neurophenomenology
 
-A fundamental challenge in [[Consciousness Science]] is the "explanatory gap" between first-person subjective experiences and third-person empirical observations. While [[Neurophenomenology]] aims to bridge this divide by creating "generative passages" between experience and neuroscientific data, the field has lacked the robust mathematical machinery required to formalize these connections.
+A fundamental challenge in [[consciousness-science|Consciousness Science]] is the "explanatory gap" between first-person subjective experiences and third-person empirical observations. While [[a-rosetta-stone-hypothesis-for-neurophenomenology-mathematical-predictions-from-|Neurophenomenology]] aims to bridge this divide by creating "generative passages" between experience and neuroscientific data, the field has lacked the robust mathematical machinery required to formalize these connections.
 
 ## The Rosetta Stone Hypothesis
 
-This paper proposes a "**Rosetta Stone hypothesis**" derived from the framework of [[Predictive Processing]]. The central premise is that [[Beliefs]] act as a mathematical hub, providing a unified link between three critical domains:
+This paper proposes a "**Rosetta Stone hypothesis**" derived from the framework of [[predictive-processing|Predictive Processing]]. The central premise is that [[avoiding-non-integrable-beliefs-in-expectation-propagation|Beliefs]] act as a mathematical hub, providing a unified link between three critical domains:
 1.  **Phenomenology** (the content of subjective experience)
 2.  **Behavior** (observable physical actions)
 3.  **Neural Dynamics** (the underlying biological activity)

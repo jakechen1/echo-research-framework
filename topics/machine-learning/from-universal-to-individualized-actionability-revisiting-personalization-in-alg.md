@@ -8,7 +8,7 @@ category: ai, machine-learning
 
 # From Universal to Individualized Actionability
 
-The research paper, "From Universal to Individualized Actionability: Revisiting Personalization in Algorithmic Recourse," addresses a significant gap in the study of [[algorithmic recourse]]. While much of the existing literature in [[machine learning]] focuses on the universal properties of recourse—such as efficiency, robustness, and [[fairness]]—the role of personalized user preferences remains largely unquantified and structurally undefined.
+The research paper, "From Universal to Individualized Actionability: Revisiting Personalization in Algorithmic Recourse," addresses a significant gap in the study of [[algorithmic-recourse|algorithmic recourse]]. While much of the existing literature in [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|machine learning]] focuses on the universal properties of recourse—such as efficiency, robustness, and [[cafp-a-post-processing-framework-for-group-fairness-via-counterfactual-model-ave|fairness]]—the role of personalized user preferences remains largely unquantified and structurally undefined.
 
 ## The Framework of Individual Actionability
 
@@ -17,7 +17,7 @@ The authors propose moving away from implicit personalization toward a formal de
 1.  **Hard Constraints:** These represent the absolute boundaries of what an individual can change, defining which features are physically or legally actionable (e.g., one can change a credit limit, but not their date of birth).
 2.  **Soft Constraints:** These capture the subjective preferences of a user, specifically relating to the perceived costs and values associated with various actions (e.g., a preference for minimizing financial expenditure over minimizing time spent).
 
-To operationalize these dimensions, the paper utilizes a [[causal algorithmic recourse]] framework. It employs a **pre-hoc user-prompting approach**, where individuals express their preferences through rankings or scores prior to the generation of any algorithmic recommendation.
+To operationalize these dimensions, the paper utilizes a [[causal-algorithmic-recourse|causal algorithmic recourse]] framework. It employs a **pre-hoc user-prompting approach**, where individuals express their preferences through rankings or scores prior to the generation of any algorithmic recommendation.
 
 ## Critical Trade-offs and Findings
 

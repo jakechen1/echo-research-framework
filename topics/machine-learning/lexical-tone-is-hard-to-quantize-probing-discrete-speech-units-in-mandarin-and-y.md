@@ -8,18 +8,18 @@ category: machine-learning
 
 # Lexical Tone is Hard to Quantize
 
-The research paper **"Lexical Tone is Hard to Quantize: Probing Discrete Speech Units in Mandarin and Yorùbá"** explores the inherent difficulties in preserving suprasegmental linguistic features during the creation of [[Discrete Speech Units]] (DSUs).
+The research paper **"Lexical Tone is Hard to Quantize: Probing Discrete Speech Units in Mandarin and Yorùbá"** explores the inherent difficulties in preserving suprasegmental linguistic features during the creation of [[lexical-tone-is-hard-to-quantize-probing-discrete-speech-units-in-mandarin-and-y|Discrete Speech Units]] (DSUs).
 
 ## Overview
 
-[[Discrete Speech Units]] are fundamental components derived from quantizing representations produced by [[Self-Supervised Learning]] (SSL) models. These units are widely utilized in various spoken language tasks, particularly in architectures where [[Text-to-Speech]] and multimodal dialogue systems require a unified representation of text and audio. While DSUs are highly effective at capturing segmental structure (phonetic content), this paper identifies a significant failure in their ability to encode suprasegmental information, such as [[Prosody]] and lexical tone.
+[[lexical-tone-is-hard-to-quantize-probing-discrete-speech-units-in-mandarin-and-y|Discrete Speech Units]] are fundamental components derived from quantizing representations produced by [[self-supervised-learning|Self-Supervised Learning]] (SSL) models. These units are widely utilized in various spoken language tasks, particularly in architectures where [[text-to-speech|Text-to-Speech]] and multimodal dialogue systems require a unified representation of text and audio. While DSUs are highly effective at capturing segmental structure (phonetic content), this paper identifies a significant failure in their ability to encode suprasegmental information, such as [[prosody|Prosody]] and lexical tone.
 
 ## Key Findings
 
 The researchers conducted comparative investigations using two tonal languages: **Mandarin** and **Yorùbá**. The study reveals a critical distinction between the raw SSL latent representations and the quantized DSUs:
 
 1.  **Latent Encoding:** The underlying SSL latent representations successfully encode lexical tone.
-2.  **Quantization Loss:** The process of [[Quantization]]—specifically common methods like [[K-means clustering]]—tends to prioritize phonetic and segmental structures. This prioritization causes the tonal information to be lost or rendered unreliable in the resulting DSUs.
+2.  **Quantization Loss:** The process of [[3dturboquant-training-free-near-optimal-quantization-for-3d-reconstruction-model|Quantization]]—specifically common methods like [[k-means-clustering|K-means clustering]]—tends to prioritize phonetic and segmental structures. This prioritization causes the tonal information to be lost or rendered unreliable in the resulting DSUs.
 3.  **Method Agnostic:** The loss of tonal accuracy is not limited to K-means; it appears to be a systemic limitation of current quantization strategies across different methods.
 
 ## Proposed Solution

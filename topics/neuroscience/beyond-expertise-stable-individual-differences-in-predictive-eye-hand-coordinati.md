@@ -8,10 +8,10 @@ category: neuroscience
 
 # Beyond Expertise: Stable Individual Differences in Predictive Eye-Hand Coordination
 
-The research paper titled "Beyond Expertise: Stable Individual Differences in Predictive Eye-Hand Coordination" explores the underlying mechanisms of human [[eye-hand coordination]]. A central component of this coordination is the brain's reliance on internal [[forward models]], which allow the nervous system to predict future limb states and compensate for inherent sensory delays.
+The research paper titled "Beyond Expertise: Stable Individual Differences in Predictive Eye-Hand Coordination" explores the underlying mechanisms of human [[eye-hand-coordination|eye-hand coordination]]. A central component of this coordination is the brain's reliance on internal [[physical-sensitivity-kernels-can-emerge-in-data-driven-forward-models-evidence-f|forward models]], which allow the nervous system to predict future limb states and compensate for inherent sensory delays.
 
 ### Study Overview
-To determine whether predictive gaze patterns are a product of learned skill or innate biology, the study compared professional [[calligraphy]] experts against non-experts using a controlled line tracing task. The researchers analyzed the temporal coupling between saccade distance (SD) and pen speed (PS) to identify a "predictive window" within the [[oculomotor system]].
+To determine whether predictive gaze patterns are a product of learned skill or innate biology, the study compared professional [[calligraphy]] experts against non-experts using a controlled line tracing task. The researchers analyzed the temporal coupling between saccade distance (SD) and pen speed (PS) to identify a "predictive window" within the [[oculomotor-system|oculomotor system]].
 
 ### Key Findings
 The study revealed substantial interpersonal variability in how individuals approach movement. The findings include:
@@ -22,4 +22,4 @@ The study revealed substantial interpersonal variability in how individuals appr
 * **Lack of Expertise Impact:** Notably, there were no significant differences in spatial or temporal indices between calligraphers and non-experts. Furthermore, these predictive parameters did not correlate with tracing accuracy.
 
 ### Scientific Implications
-These results support the "minimum intervention principle" of [[optimal feedback control]], suggesting that multiple, diverse predictive strategies can be just as effective at achieving high performance. Rather than being a skill that is refined through training, the study concludes that predictive timing represents a stable, idiosyncratic "Predictive Protocol" dictated by an individual's unique [[neuromotor
+These results support the "minimum intervention principle" of [[optimal-feedback-control|optimal feedback control]], suggesting that multiple, diverse predictive strategies can be just as effective at achieving high performance. Rather than being a skill that is refined through training, the study concludes that predictive timing represents a stable, idiosyncratic "Predictive Protocol" dictated by an individual's unique [[neuromotor

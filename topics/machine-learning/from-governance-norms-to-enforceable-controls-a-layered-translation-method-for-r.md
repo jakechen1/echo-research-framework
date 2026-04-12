@@ -9,16 +9,16 @@ category: ai
 # From Governance Normances to Enforceable Controls
 
 ## Overview
-This paper addresses the fundamental gap between high-level [[AI Governance]] standards and the technical implementation of [[Runtime Guardrails]] for [[Agentic AI]]. As AI systems evolve from single-turn generative models to agents capable of planning, tool use, and executing multi-step trajectories, the risk profile shifts. Unlike traditional [[Machine Learning]] deployment, where risks are often mitigated during training, agentic systems introduce emergent risks that manifest during execution through external environmental interactions.
+This paper addresses the fundamental gap between high-level [[ai-governance|AI Governance]] standards and the technical implementation of [[runtime-guardrails|Runtime Guardrails]] for [[dynamic-agentic-ai-expert-profiler-system-architecture-for-multidomain-intellige|Agentic AI]]. As AI systems evolve from single-turn generative models to agents capable of planning, tool use, and executing multi-step trajectories, the risk profile shifts. Unlike traditional [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] deployment, where risks are often mitigated during training, agentic systems introduce emergent risks that manifest during execution through external environmental interactions.
 
 ## The Problem: The Governance-Implementation Gap
-Current regulatory and organizational frameworks—such as the [[NIST AI Risk Management Framework]], [[ISO/IEC 42001]], and [[ISO/IEC 23894]]—provide essential high-level objectives for safety and ethics. However, these standards do not inherently provide the technical specifications required to create actionable, automated controls for autonomous agents. There is a lack of a clear translation layer between "what" must be governed and "how" that governance is enforced at the software level.
+Current regulatory and organizational frameworks—such as the [[nist-ai-risk-management-framework|NIST AI Risk Management Framework]], [[isoiec-42001|ISO/IEC 42001]], and [[isoiec-23894|ISO/IEC 23894]]—provide essential high-level objectives for safety and ethics. However, these standards do not inherently provide the technical specifications required to create actionable, automated controls for autonomous agents. There is a lack of a clear translation layer between "what" must be governed and "how" that governance is enforced at the software level.
 
 ## The Proposed Solution: Layered Translation Method
 The authors propose a "layered translation method" designed to map governance objectives into four distinct operational layers:
 
 1.  **Governance Objectives:** The high-level requirements derived from legal and organizational standards.
-2.  **Design-time Constraints:** Architectural decisions and [[Software Engineering]] constraints established during development.
+2.  **Design-time Constraints:** Architectural decisions and [[triage-routing-software-engineering-tasks-to-cost-effective-llm-tiers-via-code-q|Software Engineering]] constraints established during development.
 3.  **Runtime Mediation:** Active intervention mechanisms that monitor and interact with the agent during execution.
 4.  **Assurance Feedback:** The mechanisms used to collect evidence that controls are functioning as intended.
 

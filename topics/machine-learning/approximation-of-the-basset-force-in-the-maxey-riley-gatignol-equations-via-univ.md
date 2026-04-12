@@ -8,7 +8,7 @@ category: machine-learning
 
 # Approximation of the Basting Force in MaRGE via UDEs
 
-The research paper "Approximation of the Basset force in the Maxey-Riley-Gatignol equations via universal differential equations" introduces a computational breakthrough in modeling particle dynamics within fluid environments. The study focuses on the [[Maxey-Riley-Gatignol equations]] (MaRGE), which are the standard mathematical framework used to model the motion of spherical inertial particles moving through a fluid.
+The research paper "Approximation of the Basset force in the Maxey-Riley-Gatignol equations via universal differential equations" introduces a computational breakthrough in modeling particle dynamics within fluid environments. The study focuses on the [[approximation-of-the-basset-force-in-the-maxey-riley-gatignol-equations-via-univ|Maxey-Riley-Gatignol equations]] (MaRGE), which are the standard mathematical framework used to model the motion of spherical inertial particles moving through a fluid.
 
 ## The Challenge of the Basset Force
 
@@ -18,11 +18,11 @@ Unlike simpler forces that depend only on the current state of the particle, the
 
 ## The Proposed Solution: Universal Differential Equations
 
-To overcome this computational bottleneck, the authors propose using [[Universal Differential Equations]] (UDEs). By integrating [[Neural Networks]] into the mathematical framework, the researchers developed a method to approximate the complex history-dependent integral term.
+To overcome this computational bottleneck, the authors propose using [[universal-differential-equations|Universal Differential Equations]] (UDEs). By integrating [[curvature-aware-optimization-for-high-accuracy-physics-informed-neural-networks|Neural Networks]] into the mathematical framework, the researchers developed a method to approximate the complex history-dependent integral term.
 
 The innovation lies in the transformation of the mathematical structure:
 * **Input:** The complex, history-dependent integral of the Basset force.
 * **Mechanism:** A trained neural network architecture that learns to represent the effect of the force.
-* **Output:** A simplified system of [[Ordinary Differential Equations]] (ODEs).
+* **Output:** A simplified system of [[ordinary-differential-equations|Ordinary Differential Equations]] (ODEs).
 
-By approximating the Basset force this way, the complex MaRGE equations can be solved using standard, highly efficient [[Numerical Analysis]] tools, such as [[Runge-Kutta methods]]. This advancement allows for high-fidelity simulations of [[Fluid Dynamics]] that capture essential physical phenomena without the prohibitive computational overhead previously required.
+By approximating the Basset force this way, the complex MaRGE equations can be solved using standard, highly efficient [[numerical-analysis|Numerical Analysis]] tools, such as [[runge-kutta-methods|Runge-Kutta methods]]. This advancement allows for high-fidelity simulations of [[fluid-dynamics|Fluid Dynamics]] that capture essential physical phenomena without the prohibitive computational overhead previously required.

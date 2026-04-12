@@ -8,11 +8,11 @@ category: machine-learning
 
 # FlowAdam
 
-**FlowAdam** is a novel hybrid optimizer designed to overcome the structural limitations of adaptive moment estimation methods, such as [[Adam]]. Traditional adaptive optimizers rely on a diagonal, coordinate-wise preconditioner based on the exponential moving averages of squared gradients. Because this approach treats each parameter independently, it often struggles with dense or rotated parameter couplings, which are prevalent in complex architectures like [[Matrix Factorization]], [[Tensor Decomposition]], and [[Graph Neural Networks (GNNs)]].
+**FlowAdam** is a novel hybrid optimizer designed to overcome the structural limitations of adaptive moment estimation methods, such as [[flowadam-implicit-regularization-via-geometry-aware-soft-momentum-injection|Adam]]. Traditional adaptive optimizers rely on a diagonal, coordinate-wise preconditioner based on the exponential moving averages of squared gradients. Because this approach treats each parameter independently, it often struggles with dense or rotated parameter couplings, which are prevalent in complex architectures like [[shift-and-stretch-invariant-non-negative-matrix-factorization-with-an-applicatio|Matrix Factorization]], [[tensor-decomposition|Tensor Decomposition]], and [[graph-neural-networks-gnns|Graph Neural Networks (GNNs)]].
 
 ## Mechanism
 
-FlowAdam introduces a method to augment Adam with continuous gradient-flow integration through an [[Ordinary Differential Equation (ODE)]]. The optimizer monitors the optimization landscape using EMA-based statistics; when these statistics detect high landscape difficulty (such as complex parameter couplings), FlowAdam transitions into a clipped ODE integration mode.
+FlowAdam introduces a method to augment Adam with continuous gradient-flow integration through an [[ordinary-differential-equation-ode|Ordinary Differential Equation (ODE)]]. The optimizer monitors the optimization landscape using EMA-based statistics; when these statistics detect high landscape difficulty (such as complex parameter couplings), FlowAdam transitions into a clipped ODE integration mode.
 
 The central innovation is a technique known as **Soft Momentum Injection**. In previous attempts at hybrid optimization, switching between different-mode optimizers often caused "training collapse." FlowAdam prevents this by smoothly blending the velocity derived from the ODE integration with the existing momentum components of the Adam-based update.
 
@@ -22,8 +22,8 @@ FlowAdam provides significant **implicit regularization** benefits, particularly
 
 *   **Low-rank recovery:** A 10-22% reduction in held-out error during matrix and tensor recovery.
 *   **Collaborative Filtering:** A 6% improvement on the Jester dataset.
-*   **Standard Benchmarks:** On well-conditioned workloads like [[CIFAR-10]], FlowAdam maintains performance parity with [[Adam]].
-*   **Comparative Performance:** FlowAdam outperforms other recent optimizers, including [[Lion]] and [[AdaBelief]], in coupled optimization tasks.
+*   **Standard Benchmarks:** On well-conditioned workloads like [[cifar-10|CIFAR-10]], FlowAdam maintains performance parity with [[flowadam-implicit-regularization-via-geometry-aware-soft-momentum-injection|Adam]].
+*   **Comparative Performance:** FlowAdam outperforms other recent optimizers, including [[using-predefined-vector-systems-to-speed-up-neural-network-multimillion-class-cl|Lion]] and [[adabelief|AdaBelief]], in coupled optimization tasks.
 
 ## Ablation Studies
 

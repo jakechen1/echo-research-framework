@@ -1,3 +1,9 @@
+---
+title: "Sspinnpose A Self Supervised Pinn For Inertial Pose And Dynamics Estimation"
+category: machine-learning
+created: 2026-04-12
+---
+
 title: SSPINNpose: A Self-Supervised PINN for Inertial Pose and Dynamics Estimation
 created: 2025-06-15
 source: https://arxiv.org/abs/2506.11786
@@ -6,15 +12,15 @@ category: machine-learning
 
 ## Overview
 
-SSPINNpose is a novel computational framework designed for the real-time estimation of human movement dynamics, specifically focusing on joint kinematics and kinetics. It utilizes a [[Physics-Informed Neural Network]] (PINN) architecture to process data from [[Inertial Measurement Units]] (IMUs), providing a way to estimate internal joint moments and muscle forces without the traditional requirement for labeled ground-truth datasets.
+SSPINNpose is a novel computational framework designed for the real-time estimation of human movement dynamics, specifically focusing on joint kinematics and kinetics. It utilizes a [[curvature-aware-optimization-for-high-accuracy-physics-informed-neural-networks|Physics-Informed Neural Network]] (PINN) architecture to process data from [[inertial-measurement-units|Inertial Measurement Units]] (IMUs), providing a way to estimate internal joint moments and muscle forces without the traditional requirement for labeled ground-truth datasets.
 
 ## The Challenge of Supervised Learning
 
-Traditionally, accurate motion analysis has relied on [[Optical Motion Capture]] systems to provide ground-truth labels for [[Supervised Learning]] models. While precise, these systems are labor-intensive, restricted to laboratory settings, and prone to measurement errors. Furthermore, models trained on such data often fail to generalize to real-world environments or previously unseen movement patterns. The need for massive, manually labeled datasets presents a significant barrier to scalable [[Biomechanical Analysis]].
+Traditionally, accurate motion analysis has relied on [[optical-motion-capture|Optical Motion Capture]] systems to provide ground-truth labels for [[loft-parameter-efficient-fine-tuning-for-long-tailed-semi-supervised-learning-in|Supervised Learning]] models. While precise, these systems are labor-intensive, restricted to laboratory settings, and prone to measurement errors. Furthermore, models trained on such data often fail to generalize to real-world environments or previously unseen movement patterns. The need for massive, manually labeled datasets presents a significant barrier to scalable [[biomechanical-analysis|Biomechanical Analysis]].
 
 ## Methodology: Self-Supervised Physics Integration
 
-To overcome the reliance on external ground truth, SSPINNpose implements a [[Self-Supervised Learning]] approach. The architecture integrates a [[Physics Model]] of the human body directly into the training loop to ensure physical plausibility. The process involves:
+To overcome the reliance on external ground truth, SSPINNpose implements a [[self-supervised-learning|Self-Supervised Learning]] approach. The architecture integrates a [[physics-model|Physics Model]] of the human body directly into the training loop to ensure physical plausibility. The process involves:
 
 1.  **Sensor Processing:** The network ingests data from sparse IMU configurations.
 2.  **Physical Simulation:** The network's output is processed through a musculoskeletal physics model.
@@ -34,5 +40,5 @@ The framework is notably robust when using sparse sensor configurations and even
 ## Applications
 
 The scalability and portability of SSPINNpose make it a transformative tool for:
-*   [[Clinical Diagnostics]] and gait analysis in outpatient settings.
+*   [[clinical-diagnostics|Clinical Diagnostics]] and gait analysis in outpatient settings.
 *   [[Sports Performance

@@ -4,14 +4,15 @@ created: 2024-05-24
 source: https://arxiv.org/abs/2504.17212
 tags: [Computer Vision, 3DGS, Digital Twins, Robotics]
 category: ai
+---
 
 # Part$^{2}$GS: Part-aware Modeling of Articulated Objects using 3D Gaussian Splatting
 
 ## Overview
-The research paper **Part$^{2}$GS** introduces a groundbreaking framework designed to solve the complexities of modeling articulated objects—objects composed of multiple moving parts, such as robotic arms, kitchen drawers, or hinges. While traditional [[3D Reconstruction]] techniques have made massive strides in capturing static scenes, modeling the structural dynamics and realistic motion of multi-part objects remains a significant hurdle in [[Computer Vision]].
+The research paper **Part$^{2}$GS** introduces a groundbreaking framework designed to solve the complexities of modeling articulated objects—objects composed of multiple moving parts, such as robotic arms, kitchen drawers, or hinges. While traditional [[3dturboquant-training-free-near-optimal-quantization-for-3d-reconstruction-model|3D Reconstruction]] techniques have made massive strides in capturing static scenes, modeling the structural dynamics and realistic motion of multi-part objects remains a significant hurdle in [[computer-vision|Computer Vision]].
 
 ## Technical Innovations
-Part$^{2}$GS presents a method for creating high-fidelity [[Digital Twin]] representations by utilizing a part-aware version of [[3D Gaussian Splatting]] (3DGS). The framework focuses on two primary objectives: preserving high-fidelity geometry and ensuring physically consistent motion.
+Part$^{2}$GS presents a method for creating high-fidelity [[graph-neural-ode-digital-twins-for-control-oriented-reactor-thermal-hydraulic-fo|Digital Twin]] representations by utilizing a part-aware version of [[generative-3d-gaussian-splatting-for-arbitrary-resolutionatmospheric-downscaling|3D Gaussian Splatting]] (3DGS). The framework focuses on two primary objectives: preserving high-fidelity geometry and ensuring physically consistent motion.
 
 The architecture incorporates three core technical pillars:
 

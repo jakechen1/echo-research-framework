@@ -8,14 +8,14 @@ category: [ai, machine-learning, drug-discovery, biology]
 
 # EvoFlows: Evolutionary Edit-Based Flow-Matching for Protein Engineering
 
-**EvoFlows** is a novel, variable-length protein sequence-to-sequence modeling framework designed to advance the field of [[protein engineering]]. By utilizing an edit-based [[flow matching]] approach, the model provides a more flexible way to navigate the landscape of protein mutations compared to traditional [[generative AI]] architectures.
+**EvoFlows** is a novel, variable-length protein sequence-to-sequence modeling framework designed to advance the field of [[evoflows-evolutionary-edit-based-flow-matching-for-protein-engineering|protein engineering]]. By utilizing an edit-based [[evoflows-evolutionary-edit-based-flow-matching-for-protein-engineering|flow matching]] approach, the model provides a more flexible way to navigate the landscape of protein mutations compared to traditional [[synthetic-trust-attacks-modeling-how-generative-ai-manipulates-human-decisions-i|generative AI]] architectures.
 
 ## The Challenge in Protein Modeling
 
-Traditional [[Protein Language Models]] (PLMs) encounter significant bottlenecks when applied to specific optimization tasks. Current methodologies generally fall into three categories, each with inherent limitations:
-* **[[Autoregressive models]]**: These require the generation of an entire sequence from scratch, making it difficult to perform targeted edits on a known template.
-* **[[Masked Language Models]]**: These rely on pre-specified mutation locations, limiting their utility in discovering new structural motifs.
-* **[[Diffusion Models]]**: Discrete diffusion approaches often struggle to naturally incorporate insertions and deletions (indels) relative to a template.
+Traditional [[protein-language-models|Protein Language Models]] (PLMs) encounter significant bottlenecks when applied to specific optimization tasks. Current methodologies generally fall into three categories, each with inherent limitations:
+* **[[privacy-attacks-on-image-autoregressive-models|Autoregressive models]]**: These require the generation of an entire sequence from scratch, making it difficult to perform targeted edits on a known template.
+* **[[masked-language-models|Masked Language Models]]**: These rely on pre-specified mutation locations, limiting their utility in discovering new structural motifs.
+* **[[diffhdr-re-exposing-ldr-videos-with-video-diffusion-models|Diffusion Models]]**: Discrete diffusion approaches often struggle to naturally incorporate insertions and deletions (indels) relative to a template.
 
 ## The EvoFlows Approach
 
@@ -28,6 +28,6 @@ Crucially, EvoFlows is capable of predicting both **what** mutation to perform a
 
 ## Performance and Applications
 
-Through extensive *in silico* evaluations using diverse protein families from the [[UniRef]] and [[OAS]] databases, EvoFlows has demonstrated superior performance over leading [[machine learning]] baselines. The model excels at generating novel protein variants that explore a wider sequence space than previous methods while ensuring that the generated variants remain consistent with the biological characteristics of their natural protein families. 
+Through extensive *in silico* evaluations using diverse protein families from the [[uniref|UniRef]] and [[a-solver-in-the-loop-framework-for-end-to-end-differentiable-coastal-hydrodynami|OAS]] databases, EvoFlows has demonstrated superior performance over leading [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|machine learning]] baselines. The model excels at generating novel protein variants that explore a wider sequence space than previous methods while ensuring that the generated variants remain consistent with the biological characteristics of their natural protein families. 
 
-This capability holds immense potential for [[drug discovery]], the design of novel enzymes, and the broader field of [[bioinformatics]].
+This capability holds immense potential for [[targeting-phgdh-for-alzheimers-disease-drug-discovery-strategies|drug discovery]], the design of novel enzymes, and the broader field of [[bioinformatics]].

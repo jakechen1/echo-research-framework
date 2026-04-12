@@ -9,4 +9,4 @@ category: [ai, machine-learning, technology]
 # Optimizing LLM Prompt Engineering with DSPy Based Declarative Learning
 
 ## Overview
-Conventional [[Prompt Engineering]] for [[Large Language Models]] (LLMs) has traditionally relied on manual, heuristic-based trial-
+Conventional [[optimizing-llm-prompt-engineering-with-dspy-based-declarative-learning|Prompt Engineering]] for [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) has traditionally relied on manual, heuristic-based trial-

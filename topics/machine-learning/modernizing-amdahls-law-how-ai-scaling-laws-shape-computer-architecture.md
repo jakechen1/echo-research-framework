@@ -8,7 +8,7 @@ categories: [technology, ai, machine-learning]
 
 # Modernizing Amdahl's Law
 
-Traditional [[Computer Architecture]] has long relied on [[Amdahl's Law]] to predict the maximum theoretical speedup of parallelized computations. However, the classical iteration of this law—which assumes a fixed serial-parallel decomposition and the use of homogeneous hardware—is increasingly insufficient for the era of [[Heterogeneous Computing]]. As [[Machine Learning]] workloads evolve through continuous [[AI Scaling Laws]], the relationship between hardware specialization and computational efficiency is undergoing a fundamental shift.
+Traditional [[computer-architectures-alphazero-moment-automated-discovery-in-an-encircled-worl|Computer Architecture]] has long relied on [[modernizing-amdahls-law-how-ai-scaling-laws-shape-computer-architecture|Amdahl's Law]] to predict the maximum theoretical speedup of parallelized computations. However, the classical iteration of this law—which assumes a fixed serial-parallel decomposition and the use of homogeneous hardware—is increasingly insufficient for the era of [[heterogeneous-computing|Heterogeneous Computing]]. As [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] workloads evolve through continuous [[modernizing-amdahls-law-how-ai-scaling-laws-shape-computer-architecture|AI Scaling Laws]], the relationship between hardware specialization and computational efficiency is undergoing a fundamental shift.
 
 ## The New Framework
 
@@ -28,4 +28,4 @@ This implies that as the value-scalable portion of a workload grows, the "bar" f
 
 ## Implications for Hardware Design
 
-The findings suggest that the future of silicon design—specifically regarding the [[GPU]] and the [[AI Accelerator]]—is not a race toward absolute fixed-function specialization. Instead, the architecture must preserve a "programmable substrate" capable of absorbing a moving frontier of work. Interestingly, the paper notes that efficiency gains are frequently driven by software- and model-driven improvements rather than hardware redesign alone, leading to a design pressure that favors increased programmability in both general-purpose and specialized units.
+The findings suggest that the future of silicon design—specifically regarding the [[when-gpus-fail-quietly-observability-aware-early-warning-beyond-numeric-telemetr|GPU]] and the [[ai-accelerator|AI Accelerator]]—is not a race toward absolute fixed-function specialization. Instead, the architecture must preserve a "programmable substrate" capable of absorbing a moving frontier of work. Interestingly, the paper notes that efficiency gains are frequently driven by software- and model-driven improvements rather than hardware redesign alone, leading to a design pressure that favors increased programmability in both general-purpose and specialized units.

@@ -8,10 +8,10 @@ category: [ai, machine-learning]
 
 # Agile Deliberation: Concept Deliberation for Subjective Visual Classification
 
-The research paper "Agile Deliberation: Concept Deliberation for Subjective Visual Classification" introduces a new framework intended to bridge the gap between evolving human intent and [[machine-learning]] models used for [[image classification]].
+The research paper "Agile Deliberation: Concept Deliberation for Subjective Visual Classification" introduces a new framework intended to bridge the gap between evolving human intent and [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|machine-learning]] models used for [[cross-domain-few-shot-learning-for-hyperspectral-image-classification-based-on-m|image classification]].
 
 ## Overview
-In many real-world applications, such as [[content moderation]] and curation, users do not begin with a fixed, static definition of a visual concept. Instead, they often undergo a process of "concept deliberation," where they iteratively refine their understanding of what constitutes a specific category (e.g., what defines "borderline" or "disturbing" content). 
+In many real-world applications, such as [[content-moderation|content moderation]] and curation, users do not begin with a fixed, static definition of a visual concept. Instead, they often undergo a process of "concept deliberation," where they iteratively refine their understanding of what constitutes a specific category (e.g., what defines "borderline" or "disturbing" content). 
 
 Existing [[human-in-the-loop]] (HITL) systems are typically designed around the assumption that users provide supervision based on stable, pre-defined concepts. This paper argues that such systems are inadequate for tasks where the concept itself is subjective and subject to change through observation.
 
@@ -19,9 +19,9 @@ Existing [[human-in-the-loop]] (HITL) systems are typically designed around the 
 To address this, the authors propose the **Agile Deliberation** framework. This system explicitly supports evolving and subjective concepts through a two-stage process:
 
 1.  **Concept Scoping**: The system assists the user in decomposing an initial, vague concept into a structured, hierarchical set of sub-concepts.
-2.  **Concept Iteration**: The system surfaces semantically "borderline" examples to the user. By exposing users to edge cases, the system facilitates reflection, allowing the user to provide feedback that progressively aligns the [[vision classifier]] with their evolving mental model.
+2.  **Concept Iteration**: The system surfaces semantically "borderline" examples to the user. By exposing users to edge cases, the system facilitates reflection, allowing the user to provide feedback that progressively aligns the [[vision-classifier|vision classifier]] with their evolving mental model.
 
 ## Evaluation and Impact
-The framework was evaluated through 18 intensive, 1.5-hour user sessions, focusing on qualitative human interaction rather than standard [[benchmark datasets]]. The findings indicate that Agile Deliberation significantly outperforms previous methods:
+The framework was evaluated through 18 intensive, 1.5-hour user sessions, focusing on qualitative human interaction rather than standard [[benchmark-datasets|benchmark datasets]]. The findings indicate that Agile Deliberation significantly outperforms previous methods:
 
 *   **Accuracy**: It achieved a

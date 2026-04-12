@@ -3,20 +3,16 @@ title: "Insulin Signaling Pathway"
 created: 2026-04-11
 category: neuroscience
 tags: [insulin_signaling, alzheimers_disease, neurometabolic_dysfunction, signal_transduction, synaptic_plasticity]
-    title: "The role of insulin resistance in Alzheimer's disease"
-  - url: "https://pubmed.ncbi.nlm.nih.gov/33456789/"
-    title: "Mechanisms of insulin signaling in the central nervous system"
-  - url: "https://pubmed.ncbi.nlm.nih.gov/32092326/"
-    title: "Insulin signaling and neurodegeneration"
 source_urls:
-  - "https://pubmed.ncbi.nlm.nih.gov/34069890/"
+  - "https://pubmed.ncbi.nlm.nih.gov/36308670/"
+  - "https://pubmed.ncbi.nlm.nih.gov/38718757/"
   - "https://pubmed.ncbi.nlm.nih.gov/32092326/"
-  - "https://pubmed.ncbi.nlm.nih.gov/34576151/"
+  - "https://en.wikipedia.org/wiki/Insulin_signal_transduction_pathway"
 ---
 
 ## Definition
 
-The **Insulin Signaling Pathway** is a complex, highly regulated intracellular signal transduction cascade initiated by the binding of insulin to its cell-surface receptor. While traditionally studied for its role in systemic glucose homeostasis and anabolic metabolism in peripheral tissues (such as muscle, liver, and adipose tissue), the pathway is equally critical within the central nervous system (CNS). In neurons, insulin signaling modulates essential physiological processes, including glucose uptake, synaptic plasticity, dendritic arborization, and cell survival. Disruption of this pathway in the brain is a hallmark of [[Neurometroph metabolic Dysfunction in Alzheimer’s]], leading to impaired cognitive function and accelerated neurodegeneration.
+The **Insulin Signaling Pathway** is a complex, highly regulated intracellular signal transduction cascade initiated by the binding of insulin to its cell-surface receptor. While traditionally studied for its role in systemic glucose homeostasis and anabolic metabolism in peripheral tissues (such as muscle, liver, and adipose tissue), the pathway is equally critical within the central nervous system (CNS). In neurons, insulin signaling modulates essential physiological processes, including glucose uptake, synaptic plasticity, dendritic arborization, and cell survival. Disruption of this pathway in the brain is a hallmark of [[neurometroph-metabolic-dysfunction-in-alzheimers|Neurometroph metabolic Dysfunction in Alzheimer’s]], leading to impaired cognitive function and accelerated neurodegeneration.
 
 ## Molecular Mechanisms of Insulin Signaling
 
@@ -47,7 +43,7 @@ The pathway facilitates:
 *   **Dendritic Morphology:** Insulin signaling promotes the complexity of dendritic trees, providing the structural framework for increased synaptic density.
 *   **Neuroprotection:** By inhibiting pro-apoptotic pathways (such as BAD and Caspase-9) via Akt, the pathway protects neurons from oxidative stress and proteotoxic insult.
 
-## Insulin Resistance and [[Neurometabolic Dysfunction in Alzheimer’s]]
+## Insulin Resistance and [[neurometabolic-dysfunction-in-alzheimers|Neurometabolic Dysfunction in Alzheimer’s]]
 
 A critical development in modern neuroscience is the recognition of **Brain Insulin Resistance** as a primary driver of Alzheimer’s Disease (AD). This phenomenon, often referred to as "Type 3 Diabetes," describes a state where the brain's neurons fail to respond to insulin despite adequate or even elevated insulin levels.
 
@@ -63,7 +59,7 @@ As of 2025, the field has moved from characterizing insulin resistance to invest
 
 1.  **GLP-1 Receptor Agonists:** Following the massive success of GLP-1 agonists (like semaglutide) in metabolic and obesity treatment, significant clinical trials are underway to determine if these agents can cross the blood-brain barrier (BBB) and restore insulin sensitivity in the hippocampus.
 2.  **Direct Insulin Delivery:** New technologies in nanoparticle-mediated delivery are being explored to bypass the BBB and deliver insulin or insulin-sensitizing molecules directly to the CSF (cerebrospinal fluid).
-3.  **Metabolic Biomarkers:** There is an increasing push to use PET imaging of glucose metabolism (FDG-PET) in conjunction with insulin-sensitivity markers in blood to identify patients in the "pre-symptomatic" stage of [[Neurometabolic Dysfunction in Alzheimer’s]].
+3.  **Metabolic Biomarkers:** There is an increasing push to use PET imaging of glucose metabolism (FDG-PET) in conjunction with insulin-sensitivity markers in blood to identify patients in the "pre-symptomatic" stage of [[neurometabolic-dysfunction-in-alzheimers|Neurometabolic Dysfunction in Alzheimer’s]].
 
 ## Challenges and Future Directions
 

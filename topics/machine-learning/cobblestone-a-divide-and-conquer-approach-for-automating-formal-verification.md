@@ -8,7 +8,7 @@ categories: [ai, machine-learning, technology]
 
 # Cobblestone
 
-**Cobblestone** is an innovative framework designed to automate the process of [[Formal Verification]] using a "divide-and-conquer" strategy. While proof assistants like [[Coq]] are essential for ensuring the mathematical correctness of software and hardware, they traditionally require significant manual effort and specialized expertise. Although [[Machine Learning]] has introduced new possibilities for [[Proof Synthesis]], existing [[Large Language Models]] (LLMs) often struggle to prove complex properties and can introduce unsound logic.
+**Cobblestone** is an innovative framework designed to automate the process of [[automated-conjecture-resolution-with-formal-verification|Formal Verification]] using a "divide-and-conquer" strategy. While proof assistants like [[coq|Coq]] are essential for ensuring the mathematical correctness of software and hardware, they traditionally require significant manual effort and specialized expertise. Although [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] has introduced new possibilities for [[proof-synthesis|Proof Synthesis]], existing [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) often struggle to prove complex properties and can introduce unsound logic.
 
 ## Methodology
 
@@ -22,7 +22,7 @@ A defining characteristic of Cobbletone is its commitment to **soundness**. Desp
 
 ## Performance and Efficiency
 
-Evaluations performed on various open-source [[Coq]] benchmarks demonstrate that Cobblestone is highly efficient. The framework has shown the ability to outperform:
+Evaluations performed on various open-source [[coq|Coq]] benchmarks demonstrate that Cobblestone is highly efficient. The framework has shown the ability to outperform:
 *   State-of-the-art non-LLM automated tools.
 *   Current leading LLM-based proof synthesis tools.
 
@@ -30,4 +30,4 @@ In terms of resource consumption, Cobblestone is remarkably cost-effective, with
 
 ## Human-AI Collaboration
 
-Cobblestone is not limited to fully autonomous operation. It is designed to integrate external inputs, such as lemmas or structural hints provided by a human user or an external automated tool. When provided with an "oracle" (external guidance), the system's success rate increases significantly, proving up to 58% of theorems. This capability highlights the potential of using [[Artificial Intelligence]] to augment, rather than replace, human expertise in [[Software Engineering]].
+Cobblestone is not limited to fully autonomous operation. It is designed to integrate external inputs, such as lemmas or structural hints provided by a human user or an external automated tool. When provided with an "oracle" (external guidance), the system's success rate increases significantly, proving up to 58% of theorems. This capability highlights the potential of using [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] to augment, rather than replace, human expertise in [[triage-routing-software-engineering-tasks-to-cost-effective-llm-tiers-via-code-q|Software Engineering]].

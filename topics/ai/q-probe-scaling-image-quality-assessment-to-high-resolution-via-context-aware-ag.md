@@ -8,7 +8,7 @@ category: ai
 
 # Q-Probe: Scaling Image Quality Assessment to High Resolution
 
-[[Q-Probe]] is a groundbreaking agentic framework designed to overcome the limitations of traditional [[Image Quality Assessment]] (IQA) in high-resolution environments. While recent advancements in [[Multimodal Large Language Models]] (MLLMs) have leveraged [[Reinforcement Learning]] (RL) to align model outputs with human aesthetic preferences, these models typically rely on coarse-grained, global perspectives. This prevents them from identifying subtle, localized degradations that only become apparent at higher resolutions.
+[[q-probe-scaling-image-quality-assessment-to-high-resolution-via-context-aware-ag|Q-Probe]] is a groundbreaking agentic framework designed to overcome the limitations of traditional [[q-probe-scaling-image-quality-assessment-to-high-resolution-via-context-aware-ag|Image Quality Assessment]] (IQA) in high-resolution environments. While recent advancements in [[multimodal-large-language-models-for-multi-subject-in-context-image-generation|Multimodal Large Language Models]] (MLLMs) have leveraged [[deepsearch-overcome-the-bottleneck-of-reinforcement-learning-with-verifiable-rew|Reinforcement Learning]] (RL) to align model outputs with human aesthetic preferences, these models typically rely on coarse-grained, global perspectives. This prevents them from identifying subtle, localized degradations that only become apparent at higher resolutions.
 
 ## The Challenge of High-Resolution Perception
 
@@ -27,4 +27,4 @@ To mitigate these issues, the Q-Probe framework utilizes **context-aware agentic
 
 ## Conclusion
 
-Extensive experimental validation demonstrates that Q-Probe achieves state-of-the-art (SOTA) performance in high-resolution IQA. Furthermore, the framework maintains superior efficacy across various resolution scales, proving that agentic, context-aware probing is a robust solution for the future of [[Computer Vision]] and high-fidelity image analysis.
+Extensive experimental validation demonstrates that Q-Probe achieves state-of-the-art (SOTA) performance in high-resolution IQA. Furthermore, the framework maintains superior efficacy across various resolution scales, proving that agentic, context-aware probing is a robust solution for the future of [[computer-vision|Computer Vision]] and high-fidelity image analysis.

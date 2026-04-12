@@ -8,12 +8,12 @@ tags: [ai, machine-learning, technology]
 # Context is All You Need
 
 ## Overview
-The research paper, "Context is All You Need," introduces a novel methodology known as **CONTXT** (Contextual augmentatiOn for Neural feaTure X Transforms). The core focus of this research is to enhance the robustness of [[Artificial Neural Networks]] (ANNs) when they encounter [[Distribution Shift]]—a state where deployment data differs significantly from the initial training datasets.
+The research paper, "Context is All You Need," introduces a novel methodology known as **CONTXT** (Contextual augmentatiOn for Neural feaTure X Transforms). The core focus of this research is to enhance the robustness of [[artificial-neural-networks|Artificial Neural Networks]] (ANNs) when they encounter [[learning-stable-predictors-from-weak-supervision-under-distribution-shift|Distribution Shift]]—a state where deployment data differs significantly from the initial training datasets.
 
 ## The Challenge: Generalization and Adaptation
-In modern [[Machine Learning]], two primary strategies are used to handle unseen data:
-1. **[[Domain Generalization]] (DG):** Training models to be inherently robust to unseen domains without access to target data.
-2. **[[Test-Time Adaptation]] (TTA):** Adjusting the model during the inference phase using unlabeled test data to improve performance.
+In modern [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]], two primary strategies are used to handle unseen data:
+1. **[[auglift-depth-aware-input-reparameterization-improves-domain-generalization-in-2|Domain Generalization]] (DG):** Training models to be inherently robust to unseen domains without access to target data.
+2. **[[uncertainty-aware-test-time-adaptation-for-cross-region-spatio-temporal-fusion-o|Test-Time Adaptation]] (TTA):** Adjusting the model during the inference phase using unlabeled test data to improve performance.
 
 Existing approaches to these challenges are often criticized for being resource-intensive, computationally complex, and difficult to scale to larger, more modern architectures.
 
@@ -24,8 +24,8 @@ By applying these transforms, the method effectively steers the information flow
 
 ### Key Advantages
 * **Lightweight Integration:** The method is designed to be easy to integrate into existing models with minimal computational overhead.
-* **Broad Applicability:** Extensive testing shows consistent performance gains across various model types, including discriminative architectures like [[Convolutional Neural Networks]] (CNNs) and generative models like [[Large Language Models]] (LLMs).
+* **Broad Applicability:** Extensive testing shows consistent performance gains across various model types, including discriminative architectures like [[lipkernel-lipschitz-bounded-convolutional-neural-networks-via-dissipative-layers|Convolutional Neural Networks]] (CNNs) and generative models like [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs).
 * **Efficiency:** Because it avoids the need for intensive retraining, it provides a compact way to maintain performance in unpredictable, real-world settings.
 
 ## Conclusion
-CONTXT represents a significant step toward creating more resilient [[Artificial Intelligence]] systems. By focusing on simple feature modulation, it offers a scalable solution for maintaining high accuracy in the face of domain shifts, bridgeing the gap between controlled training environments and the complexities of real-world deployment.
+CONTXT represents a significant step toward creating more resilient [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] systems. By focusing on simple feature modulation, it offers a scalable solution for maintaining high accuracy in the face of domain shifts, bridgeing the gap between controlled training environments and the complexities of real-world deployment.

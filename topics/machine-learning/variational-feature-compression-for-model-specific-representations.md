@@ -8,10 +8,10 @@ category: ai, machine-learning
 
 # Variational Feature Compression for Model-Specific Representations
 
-In the evolving landscape of cloud-based [[Deep Learning]] inference, "input repurposing" has emerged as a critical security vulnerability. This phenomenon occurs when data submitted for a specific, authorized task is intercepted and reused by unauthorized models to perform secondary, unintended tasks.
+In the evolving landscape of cloud-based [[benchmarking-deep-learning-for-future-liver-remnant-segmentation-in-colorectal-l|Deep Learning]] inference, "input repurposing" has emerged as a critical security vulnerability. This phenomenon occurs when data submitted for a specific, authorized task is intercepted and reused by unauthorized models to perform secondary, unintended tasks.
 
 ## Overview
-The research presented in arXiv:2604.06644 introduces a novel feature extraction framework designed to mitigate the risks of input repurposing. Unlike traditional [[Privacy-Preserving Machine Learning]] techniques that focus on restricting data access, this framework focuses on controlling the utility of the released representations, ensuring they are only useful for a designated classifier.
+The research presented in arXiv:2604.06644 introduces a novel feature extraction framework designed to mitigate the risks of input repurposing. Unlike traditional [[privacy-preserving-machine-learning|Privacy-Preserving Machine Learning]] techniques that focus on restricting data access, this framework focuses on controlling the utility of the released representations, ensuring they are only useful for a designated classifier.
 
 ## Technical Framework
 The proposed method utilizes a **variational latent bottleneck** to map inputs into a compressed, protected latent space. The framework is built upon several key innovations:

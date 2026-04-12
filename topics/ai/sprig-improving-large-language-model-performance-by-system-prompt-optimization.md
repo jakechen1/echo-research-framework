@@ -8,8 +8,8 @@ category: ai
 
 # SPRIG: Improving Large Language Model Performance by System Prompt Optimization
 
-[[SPRIG]] is an innovative framework designed to enhance the performance of [[Large Language Models]] (LLMs) through the automated optimization of [[System Prompts]]. While much existing research in [[Prompt Engineering]] focuses on tailoring instructions for specific, individual tasks, SPRIG addresses the critical gap in optimizing the high-level, general instructions that govern model behavior across diverse scenarios.
+[[sprig-improving-large-language-model-performance-by-system-prompt-optimization|SPRIG]] is an innovative framework designed to enhance the performance of [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) through the automated optimization of [[system-prompts|System Prompts]]. While much existing research in [[optimizing-llm-prompt-engineering-with-dspy-based-declarative-learning|Prompt Engineering]] focuses on tailoring instructions for specific, individual tasks, SPRIG addresses the critical gap in optimizing the high-level, general instructions that govern model behavior across diverse scenarios.
 
 ## Methodology
 
-The core of the SPRIG framework is an **edit-based [[Genetic Algorithm]]**. Instead of relying on
+The core of the SPRIG framework is an **edit-based [[genetic-algorithm|Genetic Algorithm]]**. Instead of relying on

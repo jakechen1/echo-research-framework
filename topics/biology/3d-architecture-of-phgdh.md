@@ -4,17 +4,17 @@ created: 2026-04-11
 category: biology
 tags: [enzymology, protein structure, metabolism, cancer biology, allosteric regulation]
 source_urls:
+  - "https://pubmed.ncbi.nlm.nih.gov/34971423/"
   - "https://pubmed.ncbi.nlm.nih.gov/19235232/"
-  - "https://doi.org/10.1042/BCJ20220579"
-  - "https://doi.org/10.1021/acs.biochem.3c00404"
-  - "https://doi.org/10.2210/pdb7cvp/pdb"
+  - "https://pubmed.ncbi.nlm.nih.gov/29262655/"
+  - "https://en.wikipedia.org/wiki/Phosphoglycerate_dehydrogenase"
 ---
 
 ## Introduction
 
 Phosphoglycerate Dehydrogenase (PHGDH) is the rate-limiting enzyme of the de novo serine biosynthesis pathway. It catalyzes the NAD+-dependent oxidation of 3-phosphoglycerate (3-PG) to 3-phosphohydroxypyruvate (3-PHP). Beyond its primary metabolic function, PHGDH plays a pivotal role in regulating one-carbon metabolism, which is essential for nucleotide synthesis, methylation reactions, and redox homeostasis. 
 
-The biological activity of PHGDH is inextricably linked to its complex 3D architecture. Understanding the protein's organization—from the detailed folding of its individual polypeptide chains (tertiary structure) to the assembly of its functional multi-subunit complex (quaternary structure)—is critical for deciphering the mechanisms of allosteric regulation and for advancing [[Structure-Based Drug Design (SBDD) for PHGDH]]. This page provides an authoritative examination of the structural motifs that define the PHGDH enzyme.
+The biological activity of PHGDH is inextricably linked to its complex 3D architecture. Understanding the protein's organization—from the detailed folding of its individual polypeptide chains (tertiary structure) to the assembly of its functional multi-subunit complex (quaternary structure)—is critical for deciphering the mechanisms of allosteric regulation and for advancing [[structure-based-drug-design-sbdd-for-phgdh|Structure-Based Drug Design (SBDD) for PHGDH]]. This page provides an authoritative examination of the structural motifs that define the PHGDH enzyme.
 
 ## Tertiary Structural Architecture: The Single Polypeptide Fold
 
@@ -39,7 +39,7 @@ PHGDH does not function as a monomer; rather, it as an active homotetramer. The 
 The fundamental building block of the PHGDH complex is the dimer. The interface between two monomers is stabilized by a network of hydrophobic interactions and hydrogen bonds. Key residues at this interface contribute to the structural stability of the catalytic core. In many species, the dimer interface is positioned such that it holds the catalytic domains of adjacent monomers in a specific orientation, potentially allowing for cooperativity.
 
 ### The Tetrameric Assembly and Allosteric Communication
-The association of two dimers into a tetramer completes the functional enzyme. This quaternary structure creates new, secondary interfaces that are far from the primary active sites. These inter-subunit contacts are critical for [[Allosteric Regulation]]. 
+The association of two dimers into a tetramer completes the functional enzyme. This quaternary structure creates new, secondary interfaces that are far from the primary active sites. These inter-subunit contacts are critical for [[allosteric-regulation|Allosteric Regulation]]. 
 
 The 3D architecture of the tetramer allows for long-range conformational changes. When L-serine binds to the NTD of one subunit, the structural signal is transmitted through the tertiary folds of the protein and across the quaternary interfaces of the tetramer. This signal eventually reaches the catalytic site, inducing a conformational shift that decreases the enzyme's affinity for 3-PG or reduces its catalytic turnover rate ($k_{cat}$). This mechanism, known as feedback inhibition, ensures that serine production does not exceed cellular demand.
 
@@ -65,13 +65,13 @@ Despite significant progress, several challenges remain in the study of PHGDH ar
 *   **Intrinsically Disordered Regions (IDRs):** There is increasing evidence that certain loops within the PHGDH structure may be intrinsically disordered, playing a role in protein-protein interactions with other metabolic enzymes. Characterizing these regions requires specialized NMR techniques.
 *   **Complex Allostery:** While the effect of serine is well-documented, the role of other metabolic intermediates and the impact of post-translational modifications (like phosphorylation or acetylation) on the 3D architecture is still being explored.
 
-The future of PHGDH research lies in the integration of structural biology with metabolic flux analysis. Specifically, the ability to target the allosteric pockets identified in the NTD via [[Structure-Based Drug Design (SBDD) for PHGDH]] represents one of the most promising frontiers in oncology, particularly for treating cancers that are "addicted" to the serine biosynthesis pathway.
+The future of PHGDH research lies in the integration of structural biology with metabolic flux analysis. Specifically, the ability to target the allosteric pockets identified in the NTD via [[structure-based-drug-design-sbdd-for-phgdh|Structure-Based Drug Design (SBDD) for PHGDH]] represents one of the most promising frontiers in oncology, particularly for treating cancers that are "addicted" to the serine biosynthesis pathway.
 
 ## Related Pages
-*   [[PHGDH: Molecular Fundamentals]]
-*   [[Structure-Based Drug Design (SBDD) for PHGDH]]
-*   [[Serine Biosynthesis Pathway]]
-*   [[Allosteric Regulation in Metabolic Enzymes]]
+*   [[phgdh-molecular-fundamentals|PHGDH: Molecular Fundamentals]]
+*   [[structure-based-drug-design-sbdd-for-phgdh|Structure-Based Drug Design (SBDD) for PHGDH]]
+*   [[serine-biosynthesis-pathway|Serine Biosynthesis Pathway]]
+*   [[allosteric-regulation-in-metabolic-enzymes|Allosteric Regulation in Metabolic Enzymes]]
 
 ## References
 

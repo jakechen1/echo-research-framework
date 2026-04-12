@@ -3,20 +3,16 @@ title: "Neurobiology"
 created: 2026-04-11
 category: biology
 tags: [neuroscience, cellular biology, metabolism, neurology, molecular biology]
-    title: "Neurobiology - an overview"
-  - url: "https://www.nature.com/subjects/neurobiology"
-    title: "Nature: Neurobiology"
-  - url: "https://www.ncbi.nlm.nih.gov/books/NBK10791/"
-    title: "Principles of Neural Science"
 source_urls:
-  - "https://www.sciencedirect.com/topics/neuroscience/neurobiology"
-  - "https://www.nature.com/subjects/neurobiology"
-  - "https://www.ncbi.nlm.nih.gov/books/NBK10791/"
+  - "https://pubmed.ncbi.nlm.nih.gov/39086292/"
+  - "https://pubmed.ncbi.nlm.nih.gov/31443880/"
+  - "https://pubmed.ncbi.nlm.nih.gov/11931738/"
+  - "https://en.wikipedia.org/wiki/Neuroscience"
 ---
 
 ## Definition
 
-**Neurobiology** is the branch of biology dedicated to the study of the structure, function, development, and pathologies of the nervous system. It encompasses a multi-scale approach, ranging from the molecular interactions within a single synapse to the complex circuit dynamics of entire brain regions. While often used interchangeably with [[Neuroscience]], neurobiology specifically emphasizes the biological and physiological mechanisms—such as [[Signal Transduction]], [[Electrophysiology]], and [[Neurometabolism]]—that underpin neural activity. Crucially, neurobiology integrates the study of [[Neurotransmission]] with the underlying metabolic frameworks, including the pivotal role of amino acid availability and pathways such as [[The Serine Biosynthetic Pathway]], which provide the essential chemical building blocks for neuronal survival and signaling.
+**Neurobiology** is the branch of biology dedicated to the study of the structure, function, development, and pathologies of the nervous system. It encompasses a multi-scale approach, ranging from the molecular interactions within a single synapse to the complex circuit dynamics of entire brain regions. While often used interchangeably with [[neuroscience|Neuroscience]], neurobiology specifically emphasizes the biological and physiological mechanisms—such as [[signal-transduction|Signal Transduction]], [[electrophysiology|Electrophysiology]], and [[neurometabolism|Neurometabolism]]—that underpin neural activity. Crucially, neurobiology integrates the study of [[neurotransmission|Neurotransmission]] with the underlying metabolic frameworks, including the pivotal role of amino acid availability and pathways such as [[the-serine-biosynthetic-pathway|The Serine Biosynthetic Pathway]], which provide the essential chemical building blocks for neuronal survival and signaling.
 
 ## Cellular and Molecular Foundations
 
@@ -25,7 +21,7 @@ The fundamental unit of the neurobiological system is the **neuron**. Neurons ar
 ### Neuronal Architecture and Signaling
 The communication between neurons occurs at junctions known as **synapses**. In a chemical synapse, an action potential arriving at the presynaptic terminal triggers the influx of calcium ions ($Ca^{2+}$), leading to the exocytosis of neurotransmitters into the **synaptic cleft**. These molecules then bind to receptors on the postsynaptic membrane, inducing either an excitatory or inhibitory response. 
 
-The efficiency of this process is heavily dependent on the availability of specific molecules. For example, the **NMDA receptor**, a critical component of [[Long-term Potent and Plasticity]], requires the presence of **glycine** as a co-agonist. Because glycine is synthesized directly from serine via the enzyme serine hydroxymethyltransferase, the efficiency of neurobiological signaling is inextricably linked to [[The Serine Biosynthetic Pathway]].
+The efficiency of this process is heavily dependent on the availability of specific molecules. For example, the **NMDA receptor**, a critical component of [[long-term-potent-and-plasticity|Long-term Potent and Plasticity]], requires the presence of **glycine** as a co-agonist. Because glycine is synthesized directly from serine via the enzyme serine hydroxymethyltransferase, the efficiency of neurobiological signaling is inextricably linked to [[the-serine-biosynthetic-pathway|The Serine Biosynthetic Pathway]].
 
 ### The Role of Glial Cells
 Modern neurobiology has moved beyond the "neuron-centric" view to recognize the vital role of **glia**. Glial cells are not merely structural support; they are active participants in neural computation and metabolic homeostasis.
@@ -37,7 +33,7 @@ Modern neurobiology has moved beyond the "neuron-centric" view to recognize the 
 
 A burgeoning subfield of neurobiology focuses on how cellular metabolism dictates neural function. The brain is a metabolically demanding organ, consuming a disproportionate amount of the body's glucose and oxygen. 
 
-The intersection of [[The Serine Biosynthetic Pathway]] and neurobiology is a prime example of this integration. Serine serves as a critical node in **one-carbon metabolism**, providing the carbon units necessary for the synthesis of nucleotides, proteins, and lipids. In the context of the brain:
+The intersection of [[the-serine-biosynthetic-pathway|The Serine Biosynthetic Pathway]] and neurobiology is a prime example of this integration. Serine serves as a critical node in **one-carbon metabolism**, providing the carbon units necessary for the synthesis of nucleotides, proteins, and lipids. In the context of the brain:
 1.  **Neurotransmitter Synthesis:** As mentioned, serine is the precursor for glycine, which modulates excitatory neurotransmission.
 *   **Lipid Biosynthesis:** Serine is a substrate for the synthesis of **sphingolipids** and **phosphatidylserine**, both of which are essential for maintaining the integrity of the neuronal plasma membrane and the myelin sheath.
 *   **Redox Balance:** Serine metabolism contributes to the production of glutathione, the brain's primary antioxidant, protecting neurons from **oxidative stress**.
@@ -64,7 +60,7 @@ As of 2025, the field of neurobiology is transitioning from descriptive studies 
 
 ### Current Research Frontiers
 *   **The Neuro-Metabolic Axis:** Investigating how systemic metabolic diseases (e.g., Type 2 Diabetes) alter the molecular landscape of the brain through pathways like serine-mediated one-carbon metabolism.
-*   **Neuroimmunology:** Deepening the understanding of how microglial activation contributes to the progression of [[Alzheimer's Disease]] and [[Multiple Sclerosis]].
+*   **Neuroimmunology:** Deepening the understanding of how microglial activation contributes to the progression of [[targeting-phgdh-for-alzheimers-disease-drug-discovery-strategies|Alzheimer's Disease]] and [[multiple-sclerosis|Multiple Sclerosis]].
 *   **Brain-Computer Interfaces (BCI):** Refining the neurobiological principles of signal decoding to create seamless communication between the nervous system and external digital devices.
 
 ### Challenges and Limitations

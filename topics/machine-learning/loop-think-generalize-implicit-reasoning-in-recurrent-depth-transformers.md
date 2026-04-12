@@ -8,7 +8,7 @@ category: [ai, machine-learning]
 
 # Loop, Think, & Generalize: Implicit Reasoning in Recurrent-Depth Transformers
 
-The research paper "Loop, Think, & Generalize" investigates a fundamental limitation in modern [[Artificial Intelligence]]: the failure of [[Transformer]] architectures to perform **implicit reasoning**. This refers to the capacity to combine existing factual knowledge or rules within a single forward pass to solve multi-hop problems. While [[Large Language Models]] (LLMs) demonstrate high levels of parametric knowledge, they often struggle with [[Compositional Generalization]], failing to compose known elements in novel ways.
+The research paper "Loop, Think, & Generalize" investigates a fundamental limitation in modern [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]]: the failure of [[crft-consistent-recurrent-feature-flow-transformer-for-cross-modal-image-registr|Transformer]] architectures to perform **implicit reasoning**. This refers to the capacity to combine existing factual knowledge or rules within a single forward pass to solve multi-hop problems. While [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) demonstrate high levels of parametric knowledge, they often struggle with [[compositional-generalization|Compositional Generalization]], failing to compose known elements in novel ways.
 
 To address this, the study explores **recurrent-depth transformers**, which allow for iterative computation by passing data through the same transformer layers multiple times. The researchers focus on two specific challenges:
 
@@ -23,4 +23,4 @@ The study demonstrates that recurrent-depth architectures are significantly more
 *   **Inference-Time Scaling**: The research shows that depth extrapolation can be unlocked by scaling **inference-time compute** (increasing the number of recurrent iterations). More iterations allow the model to navigate deeper reasoning chains.
 *   **The Overthinking Limitation**: A critical discovery is the identification of "overthinking." The study found that excessive recurrence is not always beneficial; beyond a certain point, additional iterations actually degrade prediction accuracy, limiting the model's ability to generalize to extremely deep compositions.
 
-These findings provide vital architectural guidance for developing the next generation of [[Neural Networks]] capable of complex, multi-step logical reasoning.
+These findings provide vital architectural guidance for developing the next generation of [[curvature-aware-optimization-for-high-accuracy-physics-informed-neural-networks|Neural Networks]] capable of complex, multi-step logical reasoning.

@@ -8,4 +8,4 @@ category: ai
 
 # TeamLLM
 
-TeamLLM presents a groundbreaking approach to [[Multi-Agent Systems]] by specifically targeting the inefficiencies found in traditional [[Large Language Models (LLMs)]] orchestration. Current multi-LLM frameworks often struggle with multi-step [[Contextualized Tasks]] because they lack an explicit division of labor. This absence of structured roles frequently results in a "single-perspective" bias, where the models fail to account for the various dependencies and nuances required in
+TeamLLM presents a groundbreaking approach to [[strategic-persuasion-with-trait-conditioned-multi-agent-systems-for-iterative-le|Multi-Agent Systems]] by specifically targeting the inefficiencies found in traditional [[large-language-models-llms|Large Language Models (LLMs)]] orchestration. Current multi-LLM frameworks often struggle with multi-step [[contextualized-tasks|Contextualized Tasks]] because they lack an explicit division of labor. This absence of structured roles frequently results in a "single-perspective" bias, where the models fail to account for the various dependencies and nuances required in

@@ -8,7 +8,7 @@ category: [ai, machine-learning, technology]
 
 # OASIC: Occlusion-Agnostic and Severity-Informed Classification
 
-**OASIC** (Occlusion-Agnostic and Severity-Informed Classification) is a specialized framework designed to overcome the fundamental challenges posed by severe object occlusions in [[Computer Vision]]. In real-world environments, occlusions degrade the performance of [[Machine Learning]] models through two primary drivers: the permanent loss of visible object features and the introduction of distracting visual patterns from the occluder itself.
+**OASIC** (Occlusion-Agnostic and Severity-Informed Classification) is a specialized framework designed to overcome the fundamental challenges posed by severe object occlusions in [[computer-vision|Computer Vision]]. In real-world environments, occlusions degrade the performance of [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] models through two primary drivers: the permanent loss of visible object features and the introduction of distracting visual patterns from the occluder itself.
 
 ### Methodology
 
@@ -21,4 +21,4 @@ The OASIC approach implements a dual-layered strategy to mitigate these two root
 
 Rather than relying on a single, generalized model, OASIC employs an adaptive selection strategy. It estimates the severity of the occlusion in a new image and then selects the specific model from its suite that was optimized for that exact degree of severity.
 
-The experimental results demonstrate the robustness of this strategy. The combination of gray masking and adaptive model selection improved the $\text{AUC}_\text{occ}$ by **+18.5** compared to standard training on occluded images, and by **+23.7** compared to traditional fine-tuning on unoccluded datasets. This makes OASIC a significant advancement for [[Artificial Intelligence]] applications in unpredictable or cluttered environments.
+The experimental results demonstrate the robustness of this strategy. The combination of gray masking and adaptive model selection improved the $\text{AUC}_\text{occ}$ by **+18.5** compared to standard training on occluded images, and by **+23.7** compared to traditional fine-tuning on unoccluded datasets. This makes OASIC a significant advancement for [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] applications in unpredictable or cluttered environments.

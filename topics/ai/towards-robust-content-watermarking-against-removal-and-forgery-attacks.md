@@ -8,16 +8,16 @@ category: ai, technology
 
 # Towards Robust Content Watermarking Against Removal and Forgery Attacks
 
-The rapid advancement of [[Generative AI]] has introduced unprecedented challenges regarding [[Copyright Protection]], [[Image Provenance]], and [[Credit Attribution]]. As [[Text-to-Image Diffusion Models]] become increasingly sophisticated, the ability to distinguish between synthetic and organic media is essential for maintaining the integrity of digital information.
+The rapid advancement of [[synthetic-trust-attacks-modeling-how-generative-ai-manipulates-human-decisions-i|Generative AI]] has introduced unprecedented challenges regarding [[copyright-protection|Copyright Protection]], [[image-provenance|Image Provenance]], and [[credit-attribution|Credit Attribution]]. As [[text-to-image-diffusion-models|Text-to-Image Diffusion Models]] become increasingly sophisticated, the ability to distinguish between synthetic and organic media is essential for maintaining the integrity of digital information.
 
 ## The Problem: Adversarial Vulnerabilities
 
-While various [[Watermarking]] techniques have been developed to embed detectable signals into generated imagery, current methods are highly vulnerable to [[Adversarial Attacks]]. Research indicates that these watermarks are susceptible to two primary forms of interference:
+While various [[towards-robust-content-watermarking-against-removal-and-forgery-attacks|Watermarking]] techniques have been developed to embed detectable signals into generated imagery, current methods are highly vulnerable to [[explainability-guided-adversarial-attacks-on-transformer-based-malware-detectors|Adversarial Attacks]]. Research indicates that these watermarks are susceptible to two primary forms of interference:
 
 *   **Removal Attacks:** Techniques designed to strip the watermark from the image while preserving the visual content and semantic integrity of the generation.
 *   **Forgery Attacks:** Attempts to manipulate or replace existing watermarks with fraudulent signals, leading to incorrect attribution or false claims of authenticity.
 
-These vulnerabilities undermine the utility of watermarking as a reliable tool for [[Content Verification]] in the [[AI Ecosystem]].
+These vulnerabilities undermine the utility of watermarking as a reliable tool for [[content-verification|Content Verification]] in the [[ai-ecosystem|AI Ecosystem]].
 
 ## The ISTS Solution
 
@@ -30,4 +30,4 @@ To mitigate these risks, this research introduces a novel watermarking paradigm:
 
 ## Conclusion
 
-Experimental results demonstrate that the ISTS paradigm offers superior resistance to both removal and forgery attacks compared to contemporary methods. By integrating prompt semantics into the watermarking process, ISTS provides a more stable foundation for securing the future of [[Digital Media]] and protecting intellectual property in the age of automated content generation.
+Experimental results demonstrate that the ISTS paradigm offers superior resistance to both removal and forgery attacks compared to contemporary methods. By integrating prompt semantics into the watermarking process, ISTS provides a more stable foundation for securing the future of [[digital-media|Digital Media]] and protecting intellectual property in the age of automated content generation.

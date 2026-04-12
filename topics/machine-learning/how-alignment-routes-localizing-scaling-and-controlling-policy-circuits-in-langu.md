@@ -8,16 +8,16 @@ category: ai
 
 # How Alignment Routes
 
-The research paper **"How Alignment Routes: Localizing, Scaling, and Controlling Policy Circuits in Language Models"** identifies a recurring sparse routing mechanism within [[Large Language Models]] (LLMs) that is responsible for enforcing [[alignment]] and safety policies. The study moves beyond simple observation of refusal behaviors to map the specific "circuitry" used during [[post-training]].
+The research paper **"How Alignment Routes: Localizing, Scaling, and Controlling Policy Circuits in Language Models"** identifies a recurring sparse routing mechanism within [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) that is responsible for enforcing [[rlaif-spa-structured-ai-feedback-for-semantic-prosodic-alignment-in-speech-synth|alignment]] and safety policies. The study moves beyond simple observation of refusal behaviors to map the specific "circuitry" used during [[ahcq-sam-toward-accurate-and-hardware-compatible-post-training-segment-anything-|post-training]].
 
 ## The Policy Circuit Mechanism
 
-The researchers discovered a functional circuit composed of two primary components within the model's [[attention heads]]:
+The researchers discovered a functional circuit composed of two primary components within the model's [[attention-heads|attention heads]]:
 
 1.  **Gate Heads:** These act as the detection layer. They monitor incoming tokens for specific patterns associated with sensitive or restricted content (such as political censorship or safety violations).
 2.  **Amplifier Heads:** Once the gate heads detect a match, they trigger these downstream heads, which amplify the neural signal to drive the model toward a "refusal" response.
 
-This mechanism was validated across nine different models from six major AI laboratories, demonstrating that this routing architecture is a consistent feature of modern [[machine learning]] alignment techniques.
+This mechanism was validated across nine different models from six major AI laboratories, demonstrating that this routing architecture is a consistent feature of modern [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|machine learning]] alignment techniques.
 
 ## Scaling and Control
 
@@ -27,8 +27,8 @@ Furthermore, the study demonstrates that the policy strength is not binary. By c
 
 ## Intent Recognition vs. Policy Routing
 
-A critical discovery is the structural decoupling between **intent recognition** and **policy routing**. Using [[cipher encoding]] (input transformations that obscure text), the researchers found that while the model's deeper layers still represented the harmful underlying content, the gate heads failed to trigger. 
+A critical discovery is the structural decoupling between **intent recognition** and **policy routing**. Using [[cipher-encoding|cipher encoding]] (input transformations that obscure text), the researchers found that while the model's deeper layers still represented the harmful underlying content, the gate heads failed to trigger. 
 
-This suggests a fundamental asymmetry in [[neural networks]]: 
+This suggests a fundamental asymmetry in [[curvature-aware-optimization-for-high-accuracy-physics-informed-neural-networks|neural networks]]: 
 *   **Pre-training** builds robust, broad semantic understanding.
 *   **Post-training/Alignment** creates a narrower, more brittle layer of policy binding that can be bypassed by certain input transformations, even when the model "understands" the prompt.

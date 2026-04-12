@@ -8,7 +8,7 @@ category: ai, technology
 
 # AI and Collective Decisions: Strengthening Legitimacy and Losers' Consent
 
-The research paper "AI and Collective Decisions: Strengthening Legitimacy and Losers' Consent" addresses a critical gap in the deployment of [[Artificial Intelligence]] within [[Democratic Processes]]. While current literature focuses heavily on using [[Machine Learning]] to achieve scale and efficiency in [[Collective Decision-Making]], there is significantly less attention paid to [[Procedural Legitimacy]]—specifically the concept of "losers' consent." This refers to the degree to which participants who do not receive their preferred outcome still accept the final decision as fair and valid.
+The research paper "AI and Collective Decisions: Strengthening Legitimacy and Losers' Consent" addresses a critical gap in the deployment of [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] within [[democratic-processes|Democratic Processes]]. While current literature focuses heavily on using [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] to achieve scale and efficiency in [[collective-decision-making|Collective Decision-Making]], there is significantly less attention paid to [[procedural-legitimacy|Procedural Legitimacy]]—specifically the concept of "losers' consent." This refers to the degree to which participants who do not receive their preferred outcome still accept the final decision as fair and valid.
 
 ## The System Design
 
@@ -29,4 +29,4 @@ The researchers conducted a randomized experiment involving 181 participants. Th
 
 ## Implications for Future Technology
 
-This research suggests a paradigm shift for [[Human-Computer Interaction]] in governance. Rather than viewing [[Artificial Intelligence]] solely as a tool for optimization or computational speed, this study proposes that AI can be engineered to facilitate empathy and connection. By prioritizing the visibility of diverse human experiences, AI systems can help maintain [[Social Cohesion]] and the stability of democratic institutions during periods of intense political divergence.
+This research suggests a paradigm shift for [[human-computer-interactions-predict-mental-health|Human-Computer Interaction]] in governance. Rather than viewing [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] solely as a tool for optimization or computational speed, this study proposes that AI can be engineered to facilitate empathy and connection. By prioritizing the visibility of diverse human experiences, AI systems can help maintain [[social-cohesion|Social Cohesion]] and the stability of democratic institutions during periods of intense political divergence.

@@ -8,13 +8,13 @@ category: machine-learning, biology, technology
 
 # VertAX
 
-**VertAX** is a specialized computational framework designed for the differentiable modeling of confluent [[Epithelial Tissues]] using a [[Vertex Model]] approach. Built on the [[JAX]] library, the framework provides researchers with the tools to simulate and learn the complex mechanical interactions that drive tissue-scale reshaping and [[Morphogenesis]].
+**VertAX** is a specialized computational framework designed for the differentiable modeling of confluent [[epithelial-tissues|Epithelial Tissues]] using a [[vertax-a-differentiable-vertex-model-for-learning-epithelial-tissue-mechanics|Vertex Model]] approach. Built on the [[jax|JAX]] library, the framework provides researchers with the tools to simulate and learn the complex mechanical interactions that drive tissue-scale reshaping and [[morphogenesis|Morphogenesis]].
 
 ## Overview
 
-Traditional vertex models are highly effective at capturing the local mechanical interactions among cells. However, these models often involve a vast array of tunable parameters, making the processes of [[Parameter Inference]] and optimization computationally intensive. VertAX addresses this by introducing a framework that supports **automatic differentiation**, **GPU acceleration**, and **end-to-end bilevel optimization**. 
+Traditional vertex models are highly effective at capturing the local mechanical interactions among cells. However, these models often involve a vast array of tunable parameters, making the processes of [[parameter-inference|Parameter Inference]] and optimization computationally intensive. VertAX addresses this by introducing a framework that supports **automatic differentiation**, **GPU acceleration**, and **end-to-end bilevel optimization**. 
 
-Because VertAX is implemented using pure Python, it allows for the definition of arbitrary energy and cost functions. This flexibility enables seamless integration with existing [[Machine Learning]] pipelines, allowing researchers to move between forward simulation and inverse mechanical design within a single unified ecosystem.
+Because VertAX is implemented using pure Python, it allows for the definition of arbitrary energy and cost functions. This flexibility enables seamless integration with existing [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] pipelines, allowing researchers to move between forward simulation and inverse mechanical design within a single unified ecosystem.
 
 ## Core Functionalities
 
@@ -31,4 +31,4 @@ A key highlight of the research is the benchmarking of three distinct differenti
 *   **Implicit Differentiation:** A method focused on gradients through steady-state or equilibrium systems.
 *   **Equilibrium Propagation:** A strategy that approximates gradients using repeated forward, adjoint-free simulations.
 
-The study demonstrates that [[Equilibrium Propagation]] can effectively approximate gradients, providing a vital pathway for extending complex, inverse biophysical problems to non-differentiable simulators with minimal additional engineering effort. This bridges the gap between high-fidelity [[Cell Biology]] simulations and gradient-based optimization.
+The study demonstrates that [[equilibrium-propagation|Equilibrium Propagation]] can effectively approximate gradients, providing a vital pathway for extending complex, inverse biophysical problems to non-differentiable simulators with minimal additional engineering effort. This bridges the gap between high-fidelity [[cell-biology|Cell Biology]] simulations and gradient-based optimization.

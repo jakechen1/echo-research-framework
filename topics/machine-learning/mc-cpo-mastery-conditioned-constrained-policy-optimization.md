@@ -8,10 +8,10 @@ category: machine-learning
 
 # MC-CPO: Mastery-Conditioned Constrained Policy Optimization
 
-The paper **"MC-CPO: Mastery-Conditioned Constrained Policy Optimization"** addresses a critical failure mode in [[Reinforcement Learning]] (RL) applied to educational technology: **reward hacking**. In [[Adaptive Tutoring]] systems, optimization for short-term engagement signals (such as time-on-task or click-through rates) often creates structural incentives for policies to prioritize addictive behaviors over sustained [[pedagogy]] and actual learning outcomes.
+The paper **"MC-CPO: Mastery-Conditioned Constrained Policy Optimization"** addresses a critical failure mode in [[deepsearch-overcome-the-bottleneck-of-reinforcement-learning-with-verifiable-rew|Reinforcement Learning]] (RL) applied to educational technology: **reward hacking**. In [[adaptive-tutoring|Adaptive Tutoring]] systems, optimization for short-term engagement signals (such as time-on-task or click-through rates) often creates structural incentives for policies to prioritize addictive behaviors over sustained [[pedagogy]] and actual learning outcomes.
 
 ## Problem Formalization
-The authors formalize this challenge as a [[Constrained Markov Decision Process]] (CMDP) characterized by **mastery-conditioned feasibility**. In this framework, pedagogical safety constraints are not static; instead, they dynamically restrict the set of admissible actions based on the learner's current mastery level and the prerequisite structure of the curriculum. This prevents the agent from bypassing essential foundational knowledge to achieve immediate, superficial rewards.
+The authors formalize this challenge as a [[constrained-markov-decision-process|Constrained Markov Decision Process]] (CMDP) characterized by **mastery-conditioned feasibility**. In this framework, pedagogical safety constraints are not static; instead, they dynamically restrict the set of admissible actions based on the learner's current mastery level and the prerequisite structure of the curriculum. This prevents the agent from bypassing essential foundational knowledge to achieve immediate, superficial rewards.
 
 ## The MC-CPO Algorithm
 The researchers introduce **Mastery-Conditioned Constrained Policy Optimization (MC-CPO)**, a two-timescale primal-dual algorithm. The methodology integrates:
@@ -26,4 +26,4 @@ Testing was conducted across minimal tabular environments and extended neural tu
 2. **Safety Cost Reduction**: The algorithm reduces discounted safety costs compared to both unconstrained and reward-shaped baselines.
 3. **Mitigation of Reward Hacking**: There is a substantial reduction in the **Reward Hacking Severity Index (RHSI)**.
 
-These findings suggest that embedding structural domain knowledge—specifically the hierarchy of mastery—directly into the [[Machine Learning]] optimization process provides a principled foundation for creating safe, effective, and robust automated instruction.
+These findings suggest that embedding structural domain knowledge—specifically the hierarchy of mastery—directly into the [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] optimization process provides a principled foundation for creating safe, effective, and robust automated instruction.

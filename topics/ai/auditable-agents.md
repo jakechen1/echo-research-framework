@@ -8,7 +8,7 @@ category: ai
 
 # Auditable Agents
 
-As [[Large Language Models]] evolve into [[Agentic Systems]] capable of calling tools, querying databases, and triggering external side effects, the paradigm of AI safety is shifting. While traditional safety research focuses on preventing harmful actions, the rise of agents necessitates a focus on **answerability**. If an agent performs an irreversible action in the real world, the critical question is no longer just "how do we stop it?" but "how do we hold it accountable?"
+As [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] evolve into [[agentic-systems|Agentic Systems]] capable of calling tools, querying databases, and triggering external side effects, the paradigm of AI safety is shifting. While traditional safety research focuses on preventing harmful actions, the rise of agents necessitates a focus on **answerability**. If an agent performs an irreversible action in the real world, the critical question is no longer just "how do we stop it?" but "how do we hold it accountable?"
 
 ## The Pillars of Oversight
 

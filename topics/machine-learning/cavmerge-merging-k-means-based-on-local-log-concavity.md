@@ -8,6 +8,6 @@ category: machine-learning
 
 # CavMerge: Merging K-means Based on Local Log-Concavity
 
-CavMerge is a novel algorithmic approach designed to enhance the effectiveness of [[K-means]] clustering, particularly when dealing with datasets that exhibit non-linear separability. While traditional [[K-means]] is a fundamental tool in [[unsupervised learning]], its reliance on centroid-based partitions often leads to suboptimal results when data clusters are not linearly separable.
+CavMerge is a novel algorithmic approach designed to enhance the effectiveness of [[cavmerge-merging-k-means-based-on-local-log-concavity|K-means]] clustering, particularly when dealing with datasets that exhibit non-linear separability. While traditional [[cavmerge-merging-k-means-based-on-local-log-concavity|K-means]] is a fundamental tool in [[unsupervised-learning|unsupervised learning]], its reliance on centroid-based partitions often leads to suboptimal results when data clusters are not linearly separable.
 
 ### The Problem with Traditional Mer

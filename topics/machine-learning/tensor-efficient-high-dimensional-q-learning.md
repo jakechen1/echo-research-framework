@@ -8,11 +8,11 @@ category: machine-learning
 
 # Tensor-Efficient High-Dimensional Q-learning
 
-High-dimensional [[Reinforcement Learning]] (RL) face significant bottlenecks due to the "curse of dimensionality," where the number of state-action pairs grows exponentially with the problem size. This complexity leads to massive computational overhead and notoriously low sample efficiency. While [[Deep Q-Networks]] (DQN) and other neural-network-based approaches have demonstrated success in complex environments, they often fail to explicitly exploit the inherent structural patterns of the underlying tasks.
+High-dimensional [[deepsearch-overcome-the-bottleneck-of-reinforcement-learning-with-verifiable-rew|Reinforcement Learning]] (RL) face significant bottlenecks due to the "curse of dimensionality," where the number of state-action pairs grows exponentially with the problem size. This complexity leads to massive computational overhead and notoriously low sample efficiency. While [[deep-q-networks|Deep Q-Networks]] (DQN) and other neural-network-based approaches have demonstrated success in complex environments, they often fail to explicitly exploit the inherent structural patterns of the underlying tasks.
 
 ## The TEQL Framework
 
-The paper introduces **Tensor-Efficient Q-Learning (TEQL)**, a method designed to leverage the latent structures found in high-dimensional control tasks. Many high-dimensional value functions exhibit a low-rank structure; TEQL exploits this by representing the Q-function as a low-rank [[CP Decomposition]] (CANDECOMP/PARAFAC) tensor over discretized state-action spaces. By utilizing [[Tensor Decomposition]], the model achieves a highly parameter-efficient representation compared to standard dense architectures.
+The paper introduces **Tensor-Efficient Q-Learning (TEQL)**, a method designed to leverage the latent structures found in high-dimensional control tasks. Many high-dimensional value functions exhibit a low-rank structure; TEQL exploits this by representing the Q-function as a low-rank [[cp-decomposition|CP Decomposition]] (CANDECOMP/PARAFAC) tensor over discretized state-action spaces. By utilizing [[tensor-decomposition|Tensor Decomposition]], the model achieves a highly parameter-efficient representation compared to standard dense architectures.
 
 ## Key Innovations
 
@@ -23,4 +23,4 @@ TEQL introduces two primary mechanisms to enhance learning stability and efficie
 
 ## Experimental Results
 
-Benchmark tests on classic control tasks demonstrate that TEQL outperforms both matrix-based [[Low-rank Approximation]] methods and standard [[Deep Reinforcement Learning]] baselines. Under matched parameter budgets, TEQL shows significantly higher sample efficiency, making it an ideal candidate for [[Resource-Constrained AI]] applications where the cost of environment interaction is high.
+Benchmark tests on classic control tasks demonstrate that TEQL outperforms both matrix-based [[low-rank-approximation|Low-rank Approximation]] methods and standard [[deep-reinforcement-learning|Deep Reinforcement Learning]] baselines. Under matched parameter budgets, TEQL shows significantly higher sample efficiency, making it an ideal candidate for [[resource-constrained-ai|Resource-Constrained AI]] applications where the cost of environment interaction is high.

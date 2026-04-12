@@ -8,10 +8,10 @@ category: ai, machine-learning
 
 # Action Without Interaction
 
-The research paper **"Action Without Interaction: Probing the Physical Foundations of Video LMMs via Contact-Release Detection"** examines the discrepancy between semantic recognition and physical reasoning in [[Large Multi-modal Models]] (LMMs). As models like [[GPT]], [[Gemini]], and [[Qwen]] become increasingly proficient at describing video sequences, a critical question arises: do these models truly understand the physical mechanics of the scenes they describe, or are they merely performing advanced pattern matching?
+The research paper **"Action Without Interaction: Probing the Physical Foundations of Video LMMs via Contact-Release Detection"** examines the discrepancy between semantic recognition and physical reasoning in [[large-multi-modal-models|Large Multi-modal Models]] (LMMs). As models like [[forgerygpt-a-multimodal-llm-for-interpretable-image-forgery-detection-and-locali|GPT]], [[gemini|Gemini]], and [[qwen|Qwen]] become increasingly proficient at describing video sequences, a critical question arises: do these models truly understand the physical mechanics of the scenes they describe, or are they merely performing advanced pattern matching?
 
 ### Research Methodology
-The authors introduced a first-of-its-kind large-scale dataset designed to test the limits of physical grounding. Utilizing segments from the [[Something-Something-V2]] dataset, the researchers focused on identifying two fundamental physical primitives:
+The authors introduced a first-of-its-kind large-scale dataset designed to test the limits of physical grounding. Utilizing segments from the [[something-something-v2|Something-Something-V2]] dataset, the researchers focused on identifying two fundamental physical primitives:
 *   **Contact:** The precise moment an agent or object attaches to another.
 *   **Release:** The moment the physical attachment is broken.
 
@@ -25,6 +25,6 @@ The authors categorize this as a form of **shortcut learning**. The models succe
 ### Cognitive Implications
 The researchers interpret these results through a dual-process framework:
 1.  **System 1 (Intuitive):** LMMs excel at rapid, intuitive pattern recognition and semantic labeling.
-2.  **System 2 (Reasoning):** LMMs lack the higher-order cognitive foundations required to reason about the physical laws of [[Computer Vision]] and dynamic environments.
+2.  **System 2 (Reasoning):** LMMs lack the higher-order cognitive foundations required to reason about the physical laws of [[computer-vision|Computer Vision]] and dynamic environments.
 
-This lack of true [[Physical Grounding]] suggests that while LMMs are highly effective at description, they currently lack the foundation for truly understanding the physical reality of the dynamic scenes they observe.
+This lack of true [[physical-grounding|Physical Grounding]] suggests that while LMMs are highly effective at description, they currently lack the foundation for truly understanding the physical reality of the dynamic scenes they observe.

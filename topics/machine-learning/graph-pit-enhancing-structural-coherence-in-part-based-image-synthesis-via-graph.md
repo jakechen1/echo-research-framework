@@ -8,7 +8,7 @@ category: ai
 
 # Graph-PiT: Enhancing Structural Coherence in Part-Based Image Synthesis via Graph Priors
 
-**Graph-PiT** is a novel framework designed to address the structural limitations in part-based [[Image Synthesis]]. In traditional generative approaches, user-provided parts are often treated as an unordered set, which ignores the inherent spatial and semantic relationships between components. This lack of relational awareness frequently results in generated compositions that lack structural integrity and visual coherence.
+**Graph-PiT** is a novel framework designed to address the structural limitations in part-based [[graph-pit-enhancing-structural-coherence-in-part-based-image-synthesis-via-graph|Image Synthesis]]. In traditional generative approaches, user-provided parts are often treated as an unordered set, which ignores the inherent spatial and semantic relationships between components. This lack of relational awareness frequently results in generated compositions that lack structural integrity and visual coherence.
 
 ### Methodology
 
@@ -24,8 +24,8 @@ To enforce structural consistency, the authors introduced two specialized loss f
 
 ### Experimental Results
 
-The effectiveness of Graph-PiT was evaluated across several controlled synthetic domains, including **character generation**, **product design**, **indoor layouts**, and **jigsaw puzzles**. The results demonstrate that Graph-PiT provides significantly higher structural coherence compared to the vanilla [[PiT]] (Part-based Image Transformer) approach. Furthermore, the method showed successful qualitative transfer to real-world web images.
+The effectiveness of Graph-PiT was evaluated across several controlled synthetic domains, including **character generation**, **product design**, **indoor layouts**, and **jigsaw puzzles**. The results demonstrate that Graph-PiT provides significantly higher structural coherence compared to the vanilla [[marangoni-driven-redistribution-and-activity-of-piezo1-molecules-in-epithelial-a|PiT]] (Part-based Image Transformer) approach. Furthermore, the method showed successful qualitative transfer to real-world web images.
 
 ### Significance
 
-Graph-PiT offers an interpretable and scalable mechanism for complex, multi-part synthesis. Because the framework remains compatible with the original [[IP-Prior]] pipeline, it serves as an accessible enhancement for existing [[Generative AI]] workflows, providing a more robust way to enforce user-specified adjacency constraints in [[Computer Vision]] tasks.
+Graph-PiT offers an interpretable and scalable mechanism for complex, multi-part synthesis. Because the framework remains compatible with the original [[ip-prior|IP-Prior]] pipeline, it serves as an accessible enhancement for existing [[synthetic-trust-attacks-modeling-how-generative-ai-manipulates-human-decisions-i|Generative AI]] workflows, providing a more robust way to enforce user-specified adjacency constraints in [[computer-vision|Computer Vision]] tasks.

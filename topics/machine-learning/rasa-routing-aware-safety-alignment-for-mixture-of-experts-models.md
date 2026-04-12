@@ -8,10 +8,10 @@ category: ai, machine-learning
 
 # RASA: Routing-Aware Safety Alignment for Mixture-of-Experts Models
 
-The paper "RASA: Routing-Aware Safety Alignment for Mixture-of-Experts Models" introduces a specialized framework designed to address the unique vulnerabilities present in [[Mixture-of-Experts (MoE)]] architectures during the [[Safety Alignment]] process.
+The paper "RASA: Routing-Aware Safety Alignment for Mixture-of-Experts Models" introduces a specialized framework designed to address the unique vulnerabilities present in [[mixture-of-experts-moe|Mixture-of-Experts (MoE)]] architectures during the [[freakout-llm-the-effect-of-emotional-stimuli-on-safety-alignment|Safety Alignment]] process.
 
 ## The Challenge of MoE Safety
-Standard [[Large Language Models (LLMs)]] typically undergo full-parameter fine-tuning to mitigate [[Jailbreaking Attacks]]. However, in [[Mixture-of-Experts (MoE)]] models, the sparse routing mechanism introduces a unique failure mode known as "degenerate optimization." 
+Standard [[large-language-models-llms|Large Language Models (LLMs)]] typically undergo full-parameter fine-tuning to mitigate [[jailbreaking-attacks|Jailbreaking Attacks]]. However, in [[mixture-of-experts-moe|Mixture-of-Experts (MoE)]] models, the sparse routing mechanism introduces a unique failure mode known as "degenerate optimization." 
 
 The researchers observed that naive fine-tuning often leads to "routing-based bypasses" or "expert dominance effects." Rather than actually repairing the specific "Safety-Critical Experts" responsible for processing harmful prompts, the model learns to manipulate the router to avoid certain weights or reroute traffic. This results in a superficial layer of safety that is easily circumvented by sophisticated adversarial prompts.
 
@@ -23,6 +23,6 @@ To combat this, the authors propose **RASA** (Routing-Aware Safety Alignment). U
 3. **Routing Consistency**: The framework subsequently enforces routing consistency, ensuring that the model maintains safe behavior even when provided with safety-aligned contexts.
 
 ## Results and Impact
-Experimental results across diverse MoE architectures demonstrate that RASA achieves near-perfect robustness against various [[Jailbreaking Attacks]] and shows strong cross-attack generalization. Notably, RASA significantly reduces the issue of [[Over-refusal]]—a common side effect of safety training where models refuse harmless queries—while maintaining high performance on core reasoning and knowledge benchmarks such as [[MMLU]], [[GSM8K]], and [[TruthfulQA]].
+Experimental results across diverse MoE architectures demonstrate that RASA achieves near-perfect robustness against various [[jailbreaking-attacks|Jailbreaking Attacks]] and shows strong cross-attack generalization. Notably, RASA significantly reduces the issue of [[over-refusal|Over-refusal]]—a common side effect of safety training where models refuse harmless queries—while maintaining high performance on core reasoning and knowledge benchmarks such as [[mmlu|MMLU]], [[gsm8k|GSM8K]], and [[truthfulqa|TruthfulQA]].
 
-By focusing on targeted expert repair rather than global parameter shifts, RASA provides a more efficient and architecture-preserving method for securing the next generation of sparse [[Machine Learning]] models.
+By focusing on targeted expert repair rather than global parameter shifts, RASA provides a more efficient and architecture-preserving method for securing the next generation of sparse [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] models.

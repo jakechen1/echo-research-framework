@@ -8,13 +8,13 @@ category: biology
 
 # Marangoni-Driven Redistribution and Activity of Piezo1 Molecules
 
-The activity and spatial distribution of **Piezo1** molecules, along with the maturity of [[Focal Adhesions]] (FAs), are fundamental drivers of cellular [[Mechanosensing]]. Recent theoretical research investigates the physical mechanisms that cause significant differences in Piezo1 behavior between [[Epithelial Cells]] and mesenchymal-like [[Cancer Cells]].
+The activity and spatial distribution of **Piezo1** molecules, along with the maturity of [[focal-adhesions|Focal Adhesions]] (FAs), are fundamental drivers of cellular [[mechanosensing|Mechanosensing]]. Recent theoretical research investigates the physical mechanisms that cause significant differences in Piezo1 behavior between [[epithelial-cells|Epithelial Cells]] and mesenchymal-like [[cancer-cells|Cancer Cells]].
 
 ## Spatial Distribution Patterns
 
 The study identifies two distinct patterns of molecular organization:
 
-*   **Epithelial Cells**: These cells exhibit a **heterogeneous** distribution. Piezo1 molecules tend to cluster around FAs. This localized grouping is heavily dependent on [[Actomyosin Contractility]]; a reduction in contractility leads to a more uniform distribution of the molecules.
+*   **Epithelial Cells**: These cells exhibit a **heterogeneous** distribution. Piezo1 molecules tend to cluster around FAs. This localized grouping is heavily dependent on [[actomyosin-contractility|Actomyosin Contractility]]; a reduction in contractility leads to a more uniform distribution of the molecules.
 *   **Cancer Cells**: In contrast, cancer cells exhibit a **uniform** distribution across the cell membrane. Furthermore, the expression and activity levels of Piezo1 are markedly higher in these malignant cells than in their epithelial counterparts.
 
 ## Physical Mechanisms: The Marangoni Effect
@@ -27,4 +27,4 @@ A primary goal of this research is to provide a physical explanation for these o
 
 ## Biological Implications
 
-Because the activity of Piezo1 molecules is directly correlated with [[Intracellular Calcium]] concentrations, understanding their redistribution
+Because the activity of Piezo1 molecules is directly correlated with [[intracellular-calcium|Intracellular Calcium]] concentrations, understanding their redistribution

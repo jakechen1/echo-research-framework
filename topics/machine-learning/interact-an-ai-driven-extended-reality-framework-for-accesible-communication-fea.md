@@ -8,20 +8,20 @@ categories: [ai, technology]
 
 # INTERACT
 
-**INTERACT** (Inclusive Networking for Translation and Embodied Real-Time Augmented Communication Tool) is an advanced [[Artificial Intelligence (AI)]] framework designed to enhance inclusivity within [[Extended Reality (XR)]] environments. The system specifically addresses the communication barriers faced by deaf, hard-of-hearing, and multilingual users during digital collaboration and video conferencing.
+**INTERACT** (Inclusive Networking for Translation and Embodied Real-Time Augmented Communication Tool) is an advanced [[artificial-intelligence-ai|Artificial Intelligence (AI)]] framework designed to enhance inclusivity within [[extended-reality-xr|Extended Reality (XR)]] environments. The system specifically addresses the communication barriers faced by deaf, hard-of-hearing, and multilingual users during digital collaboration and video conferencing.
 
 ## Overview
 
-As global reliance on video conferencing grows, significant gaps in accessibility persist. With projections suggesting hearing loss-related rehabilitation needs may exceed 700 million people by 2050, there is an urgent need for scalable [[Assistive Technology]]. INTERACT leverages immersive technologies to provide a multi-sensory communication experience that includes:
+As global reliance on video conferencing grows, significant gaps in accessibility persist. With projections suggesting hearing loss-related rehabilitation needs may exceed 700 million people by 2050, there is an urgent need for scalable [[assistive-technology|Assistive Technology]]. INTERACT leverages immersive technologies to provide a multi-sensory communication experience that includes:
 
 *   **Real-time Speech-to-Text:** Converting spoken dialogue into readable text.
 *   **Sign Language Rendering:** Utilizing 3D avatars to interpret and display International Sign Language (ISL).
 *   **Multilingual Translation:** Breaking language barriers through automated translation services.
-*   **Emotion Recognition:** Adding emotional depth to digital avatars to facilitate more natural, [[Human-Computer Interaction]] (HCI).
+*   **Emotion Recognition:** Adding emotional depth to digital avatars to facilitate more natural, [[human-computer-interactions-predict-mental-health|Human-Computer Interaction]] (HCI).
 
 ## Technical Architecture
 
-The framework is built upon the **CORTEX2** framework and is optimized for deployment on the [[Meta Quest 3]] headset. The system integrates several specialized [[Machine Learning]] models to achieve real-time performance:
+The framework is built upon the **CORTEX2** framework and is optimized for deployment on the [[meta-quest-3|Meta Quest 3]] headset. The system integrates several specialized [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] models to achieve real-time performance:
 
 1.  **Whisper:** Utilized for high-fidelity speech recognition and transcription.
 2.  **NLLB (No Language Left Behind):** Powers the multilingual translation capabilities.

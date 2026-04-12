@@ -8,7 +8,7 @@ category: ai
 
 # ACE-Bench
 
-**ACE-Bench** is a novel benchmarking framework designed to address the fundamental inefficiencies and reliability issues present in current [[Artificial Intelligence]] agent evaluation methods. Traditional [[Agentic AI]] benchmarks often suffer from two primary bottlenecks: high environmental interaction overhead—which can consume up to 41% of total evaluation time—and imbalanced task distributions that make aggregate performance scores unreliable for comparing model capabilities.
+**ACE-Bench** is a novel benchmarking framework designed to address the fundamental inefficiencies and reliability issues present in current [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] agent evaluation methods. Traditional [[dynamic-agentic-ai-expert-profiler-system-architecture-for-multidomain-intellige|Agentic AI]] benchmarks often suffer from two primary bottlenecks: high environmental interaction overhead—which can consume up to 41% of total evaluation time—and imbalanced task distributions that make aggregate performance scores unreliable for comparing model capabilities.
 
 ## Core Methodology
 
@@ -16,8 +16,8 @@ The researchers propose a unified, grid-based planning task. In this environment
 
 The benchmark introduces two orthogonal axes of control to allow for fine-grained, repeatable experimentation:
 
-*   **[[Scalable Horizons]]**: This axis is controlled by the number of hidden slots ($H$), allowing researchers to test how an agent's reasoning holds up as the planning window expands.
-*   **[[Controllable Difficulty]]**: This is managed through a "decoy budget" ($B$), which determines the number of globally misleading decoy candidates present in the environment. This allows for the precise measurement of an agent's ability to filter noise.
+*   **[[ace-bench-agent-configurable-evaluation-with-scalable-horizons-and-controllable-|Scalable Horizons]]**: This axis is controlled by the number of hidden slots ($H$), allowing researchers to test how an agent's reasoning holds up as the planning window expands.
+*   **[[controllable-difficulty|Controllable Difficulty]]**: This is managed through a "decoy budget" ($B$), which determines the number of globally misleading decoy candidates present in the environment. This allows for the precise measurement of an agent's ability to filter noise.
 
 ## Lightweight Environment Design
 
@@ -25,4 +25,4 @@ A key innovation of ACE-Bench is its **Lightweight Environment** architecture. U
 
 ## Experimental Results
 
-The framework was validated through comprehensive experiments involving 13 different models from diverse families across 6 distinct domains. The study confirmed that the $H$ and $B$ parameters provide reliable control over task complexity and that the benchmark exhibits high model discriminability. The results revealed significant performance variations across different [[Machine Learning]] architectures, proving that ACE-Bench provides an interpretable and highly controllable lens for evaluating agentic reasoning.
+The framework was validated through comprehensive experiments involving 13 different models from diverse families across 6 distinct domains. The study confirmed that the $H$ and $B$ parameters provide reliable control over task complexity and that the benchmark exhibits high model discriminability. The results revealed significant performance variations across different [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] architectures, proving that ACE-Bench provides an interpretable and highly controllable lens for evaluating agentic reasoning.

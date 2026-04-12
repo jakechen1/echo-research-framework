@@ -8,7 +8,7 @@ category: machine-learning
 
 # Importance Sparsification for Sinkhorn Algorithm
 
-The **Sinkhorn algorithm** is a fundamental computational tool used to approximate solutions for [[Optimal Transport]] (OT) and [[Unbalanced Optimal Transport]] (UOT) problems. While highly effective for various applications, its practical deployment in large-scale datasets is often hindered by prohibitive [[Computational Complexity]].
+The **Sinkhorn algorithm** is a fundamental computational tool used to approximate solutions for [[fast-and-interpretable-protein-substructure-alignment-via-optimal-transport|Optimal Transport]] (OT) and [[unbalanced-optimal-transport|Unbalanced Optimal Transport]] (UOT) problems. While highly effective for various applications, its practical deployment in large-scale datasets is often hindered by prohibitive [[computational-complexity|Computational Complexity]].
 
 ## The Spar-Sink Method
 

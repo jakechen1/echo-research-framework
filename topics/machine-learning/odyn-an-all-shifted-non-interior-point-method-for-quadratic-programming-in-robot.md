@@ -8,7 +8,7 @@ category: [ai, machine-learning, technology]
 
 # ODYN
 
-**ODYN** is a novel, all-shifted primal-dual non-interior-point solver specifically engineered to address [[Quadratic Programming]] (QP) challenges in high-performance computing environments. Designed to manage both dense and sparse QP structures, ODYN offers a robust alternative to traditional [[Interior-Point Methods]], particularly in scenarios involving ill-conditioned or degenerate problems.
+**ODYN** is a novel, all-shifted primal-dual non-interior-point solver specifically engineered to address [[odyn-an-all-shifted-non-interior-point-method-for-quadratic-programming-in-robot|Quadratic Programming]] (QP) challenges in high-performance computing environments. Designed to manage both dense and sparse QP structures, ODYN offers a robust alternative to traditional [[interior-point-methods|Interior-Point Methods]], particularly in scenarios involving ill-conditioned or degenerate problems.
 
 ## Technical Overview
 
@@ -18,12 +18,12 @@ A defining feature of ODYN is its exceptional **warm-start performance**. In seq
 
 ## Applications in Robotics and AI
 
-ODYN is optimized for the heavy computational demands of modern [[Artificial Intelligence]] and [[Robotics]]. Its utility is demonstrated through several specialized implementations:
+ODYN is optimized for the heavy computational demands of modern [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] and [[ai-driven-marine-robotics-emerging-trends-in-underwater-perception-and-ecosystem|Robotics]]. Its utility is demonstrated through several specialized implementations:
 
 *   **Model Predictive Control (MPC):** Through the **OdynSQP** framework, ODYN acts as the backend for Sequential Quadratic Programming-based predictive control, facilitating smooth, real-time trajectory planning.
-*   **Differentiable Optimization:** The **ODYNLayer** serves as an implicitly differentiable optimization layer, allowing researchers to incorporate complex optimization constraints directly into [[Deep Learning]] architectures and [[Neural Network]] training.
+*   **Differentiable Optimization:** The **ODYNLayer** serves as an implicitly differentiable optimization layer, allowing researchers to incorporate complex optimization constraints directly into [[benchmarking-deep-learning-for-future-liver-remnant-segmentation-in-colorectal-l|Deep Learning]] architectures and [[curvature-aware-optimization-for-high-accuracy-physics-informed-neural-networks|Neural Network]] training.
 *   **Physical Simulation:** In the context of **ODYNSim**, the solver functions as the core optimizer for contact-dynamics simulations, managing the complex constraints inherent in multibody dynamics.
 
 ## Performance Benchmarks
 
-Extensive testing on the Maros-Mészáros test set reveals that ODYN achieves state-of-the-art convergence performance across a wide range of problem scales, from small-scale computations to high-dimensional, large-scale architectures. Its versatility in handling both sparse and dense matrices makes it a significant advancement in the field of [[Computational Mathematics]] and [[Optimization Theory]].
+Extensive testing on the Maros-Mészáros test set reveals that ODYN achieves state-of-the-art convergence performance across a wide range of problem scales, from small-scale computations to high-dimensional, large-scale architectures. Its versatility in handling both sparse and dense matrices makes it a significant advancement in the field of [[computational-mathematics|Computational Mathematics]] and [[optimization-theory|Optimization Theory]].

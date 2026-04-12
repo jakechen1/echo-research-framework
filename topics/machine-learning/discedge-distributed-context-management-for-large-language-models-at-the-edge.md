@@ -8,7 +8,7 @@ categories: [ai, technology]
 
 # DisCEdge
 
-**DisCEdge** is an innovative distributed context management system specifically engineered for the deployment of [[Large Language Models]] (LLMs) within [[edge computing]] environments. As the industry shifts toward deploying AI at the network edge to support latency-sensitive and privacy-aware applications, the architectural challenge of maintaining user state becomes increasingly complex.
+**DisCEdge** is an innovative distributed context management system specifically engineered for the deployment of [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) within [[multi-turn-reasoning-llms-for-task-offloading-in-mobile-edge-computing|edge computing]] environments. As the industry shifts toward deploying AI at the network edge to support latency-sensitive and privacy-aware applications, the architectural challenge of maintaining user state becomes increasingly complex.
 
 ## The Problem: Statelessness and Overhead
 Because LLMs are inherently stateless, managing user context—including session histories, user preferences, and conversation states—across geo-distributed edge nodes is difficult. Current workarounds often rely on client-side context storage, where the user's device transmits the entire transaction history with every request. This approach creates significant network latency and heavy bandwidth consumption, which undermines the fundamental advantages of edge computing.
@@ -23,4 +23,4 @@ Evaluations of an open-source DisCEdge prototype in realistic edge environments 
 * **Synchronization Efficiency:** Reduced median inter-node synchronization overhead by up to 15% compared to raw-text-based systems.
 * **Bandwidth Optimization:** Reduced median client request sizes by 90% compared to traditional client-side context management.
 
-By minimizing the data payload and optimizing the way tokens are replicated, DisCEdge provides a scalable framework for the next generation of [[artificial intelligence]] services operating on the edge.
+By minimizing the data payload and optimizing the way tokens are replicated, DisCEdge provides a scalable framework for the next generation of [[artificial-intelligence-and-the-structure-of-mathematics|artificial intelligence]] services operating on the edge.

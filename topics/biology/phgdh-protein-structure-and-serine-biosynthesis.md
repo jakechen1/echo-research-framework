@@ -7,15 +7,14 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/32226297/"
   - "https://pubmed.ncbi.nlm.nih.gov/34971423/"
   - "https://pubmed.ncbi.nlm.nih.gov/41760625/"
-  - "https://doi.org/10.18632/oncotarget.22327"
-  - "https://doi.org/10.1186/s40170-015-0131-7"
+  - "https://en.wikipedia.org/wiki/Phosphoglycerate_dehydrogenase"
 ---
 
 ## Introduction
 
 **Phosphoglycerate dehydrogenase (PHGDH)** is the rate-limiting enzyme of the phosphorylated pathway of L-serine biosynthesis. This metabolic pathway is a critical shunt from glycolysis, diverting 3-phosphoglycerate (3-PG) away from the energy-producing steps of glycolysis to produce the amino acid L-serine. As the first committed step in this pathway, PHGDH acts as a metabolic checkpoint, regulating the flux of carbon into one-carbon metabolism, glycine biosynthesis, and nucleotide synthesis.
 
-The importance of PHGDH extends beyond simple amino acid production; it is a central node in cellular adaptation to nutrient deprivation and oxidative stress. The downstream products of the PHGDH-driven pathway—serine, glycine, and cysteine—are essential for the synthesis of glutathione, a primary antioxidant, and for the maintenance of the epigenetic landscape via the folate cycle. Because of its control over these vital metabolic outputs, PHGDH has become a focal point in studying [[metabolic reprogramming]] in cancer and neurodegenerative pathologies, including [[PHGDH Dysregulation in Alzheimer's Disease Pathogenesis]].
+The importance of PHGDH extends beyond simple amino acid production; it is a central node in cellular adaptation to nutrient deprivation and oxidative stress. The downstream products of the PHGDH-driven pathway—serine, glycine, and cysteine—are essential for the synthesis of glutathione, a primary antioxidant, and for the maintenance of the epigenetic landscape via the folate cycle. Because of its control over these vital metabolic outputs, PHGDH has become a focal point in studying [[metabolic-reprogramming|metabolic reprogramming]] in cancer and neurodegenerative pathologies, including [[phgdh-dysregulation-in-alzheimers-disease-pathogenesis|PHGDH Dysregulation in Alzheimer's Disease Pathogenesis]].
 
 ## Structural Architecture of PHGDH
 
@@ -70,7 +69,7 @@ Furthermore, the field is currently focused on the **metabolic plasticity** of P
 Despite significant progress, several challenges remain in the study and therapeutic targeting of PHGDH:
 
 1.  **Isoform Specificity:** While PHGDH is the primary enzyme, researchers are still working to understand the degree of redundancy or synergy with other metabolic bypasses in different tissue types.
-2.  **Targeting the Allosteric Site:** While the catalytic site is a logical target for inhibition, the allosteric site presents a more complex challenge for drug design. Developing small molecules that mimic serine binding to induce the "closed" inactive state is a high-priority area in [[Targeting PHGDH for Alzheimer's Disease: Drug Discovery Strategies]].
+2.  **Targeting the Allosteric Site:** While the catalytic site is a logical target for inhibition, the allosteric site presents a more complex challenge for drug design. Developing small molecules that mimic serine binding to induce the "closed" inactive state is a high-priority area in [[targeting-phgdh-for-alzheimers-disease-drug-discovery-strategies|Targeting PHGDH for Alzheimer's Disease: Drug Discovery Strategies]].
 3.  **Context-Dependency:** The role of PHGDH in neurodegeneration versus oncology is paradoxical; while overactivity supports much-needed proliferation in cancer, dysregulation or depletion may contribute to the metabolic failure seen in neurodegenerative diseases like Alzheimer's. Understanding this "metabolic dualism" is essential for developing safe therapeutics.
 
 Future research will likely focus on the development of **metabolic probes**—fluorescent or radiolabeled molecules that can track PHGDH flux in vivo—and the integration of structural biology with computational modeling to predict how mutations in the PHGDH regulatory domain contribute to disease states.

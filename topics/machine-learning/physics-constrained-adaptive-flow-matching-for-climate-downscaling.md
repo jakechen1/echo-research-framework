@@ -8,11 +8,11 @@ category: machine-learning
 
 # Physics-Constrained Adaptive Flow Matching for Climate Downscale
 
-The paper **"Physics-Constrained Adaptive Flow Matching for Climate Downscaling"** introduces **PC-AFM**, a novel generative framework designed to address the computational bottlenecks of [[Global Climate Models]] (GCMs). While traditional GCMs are essential for predicting the impacts of [[Climate Change]], their high computational cost makes kilometer-scale regional modeling prohibitively expensive. While [[Machine Learning]] offers a fast alternative for [[Climate Downscaling]], standard models often suffer from two major flaws: the violation of fundamental physical laws and poor performance when encountering climates outside their training distribution.
+The paper **"Physics-Constrained Adaptive Flow Matching for Climate Downscaling"** introduces **PC-AFM**, a novel generative framework designed to address the computational bottlenecks of [[global-climate-models|Global Climate Models]] (GCMs). While traditional GCMs are essential for predicting the impacts of [[climate-change|Climate Change]], their high computational cost makes kilometer-scale regional modeling prohibitively expensive. While [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] offers a fast alternative for [[ipsl-aid-generative-diffusion-models-for-climate-downscaling-from-global-to-regi|Climate Downscaling]], standard models often suffer from two major flaws: the violation of fundamental physical laws and poor performance when encountering climates outside their training distribution.
 
 ### Methodology
 
-Built upon the [[Adaptive Flow Matching]] (AFM) architecture, PC-AFM incorporates **soft conservation constraints** to ensure that downscaled outputs remain physically consistent with large-scale inputs. These constraints specifically target the conservation of mass and moisture for variables such as precipitation and humidity. 
+Built upon the [[physics-constrained-adaptive-flow-matching-for-climate-downscaling|Adaptive Flow Matching]] (AFM) architecture, PC-AFM incorporates **soft conservation constraints** to ensure that downscaled outputs remain physically consistent with large-scale inputs. These constraints specifically target the conservation of mass and moisture for variables such as precipitation and humidity. 
 
 To prevent these new physical constraints from interfering with the model's primary generative objective, the researchers implemented **gradient surgery** using the **ConFIG algorithm**. This allows the model to learn complex atmospheric distributions while adhering to essential physical boundaries.
 
@@ -26,4 +26,4 @@ The study yielded several critical findings:
 
 ### Conclusion
 
-The results highlight that [[Physics-Informed Machine Learning]] is a practical necessity for the real-world deployment of [[Generative Models]] in Earth sciences. By enforcing physical consistency, PC-AFM provides a scalable and reliable method for high-resolution regional climate forecasting.
+The results highlight that [[physics-informed-machine-learning|Physics-Informed Machine Learning]] is a practical necessity for the real-world deployment of [[approximately-equivariant-recurrent-generative-models-for-quasi-periodic-time-se|Generative Models]] in Earth sciences. By enforcing physical consistency, PC-AFM provides a scalable and reliable method for high-resolution regional climate forecasting.

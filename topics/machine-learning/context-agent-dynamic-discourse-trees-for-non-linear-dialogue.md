@@ -8,11 +8,11 @@ tags: [ai, machine-learning, technology, NLP]
 # Context-Agent: Dynamic Discourse Trees for Non-Linear Dialogue
 
 ## Overview
-The research paper "Context-Agent: Dynamic Discourse Trees for Non-Linear Dialogue" addresses a fundamental architectural limitation in current [[Large Language Models]] (LLMs): the treatment of conversation history as a flat, linear sequence. While traditional models excel at processing continuous text, they struggle with the "branching" nature of human interaction, where topics shift, instructions are refined, and users revert to previous threads.
+The research paper "Context-Agent: Dynamic Discourse Trees for Non-Linear Dialogue" addresses a fundamental architectural limitation in current [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs): the treatment of conversation history as a flat, linear sequence. While traditional models excel at processing continuous text, they struggle with the "branching" nature of human interaction, where topics shift, instructions are refined, and users revert to previous threads.
 
 ## The Problem: Linear Context Constraints
-In standard [[Natural Language Processing]] (NLP) implementations, dialogue history is processed chronologically. This linear approach is misaligned with the hierarchical structure of natural discourse. When a user departs from a primary topic to pursue a sub-topic, a linear model often loses the coherence of the original thread. This leads to significant challenges in:
-* **Context Utilization:** Inefficient management of the [[Context Window]].
+In standard [[natural-language-processing|Natural Language Processing]] (NLP) implementations, dialogue history is processed chronologically. This linear approach is misaligned with the hierarchical structure of natural discourse. When a user departs from a primary topic to pursue a sub-topic, a linear model often loses the coherence of the original thread. This leads to significant challenges in:
+* **Context Utilization:** Inefficient management of the [[lsrm-high-fidelity-object-centric-reconstruction-via-scaled-context-windows|Context Window]].
 * **Coherence Loss:** Difficulty maintaining logic during extended, multi-topic interactions.
 * **Instruction Drifting:** The inability to handle complex, nested instruction refinements.
 
@@ -25,4 +25,4 @@ To resolve these issues, the authors introduce **Context-Agent**, a framework th
 ## Benchmarking and Results
 The researchers developed the **Non-linear Task Multi-turn Dialogue (NTM)** benchmark. This specialized dataset is designed to stress-test models in scenarios involving high levels of non-linear complexity. 
 
-Experimental findings demonstrate that Context-Agent significantly enhances **task completion rates** and improves **token efficiency** across various LLMs. By utilizing structured context management, the framework proves that hierarchical modeling is essential for the next generation of complex [[Dialogue Systems]] and autonomous [[Artificial Intelligence]] agents.
+Experimental findings demonstrate that Context-Agent significantly enhances **task completion rates** and improves **token efficiency** across various LLMs. By utilizing structured context management, the framework proves that hierarchical modeling is essential for the next generation of complex [[dialogue-systems|Dialogue Systems]] and autonomous [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] agents.

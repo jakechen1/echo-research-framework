@@ -8,11 +8,11 @@ category: ai, technology, biology
 
 # Learning Superpixel Ensemble and Hierarchy Graphs for Melanoma Detection
 
-This article explores an advanced approach to [[Melanoma Detection]] through the application of [[Graph Signal Processing (GSP)]]. As GSP becomes an essential tool in biomedical image analysis, this research moves beyond traditional statistical methods by implementing graph structure learning to create more flexible and reliable data representations.
+This article explores an advanced approach to [[learning-superpixel-ensemble-and-hierarchy-graphs-for-melanoma-detection|Melanoma Detection]] through the application of [[graph-signal-processing-gsp|Graph Signal Processing (GSP)]]. As GSP becomes an essential tool in biomedical image analysis, this research moves beyond traditional statistical methods by implementing graph structure learning to create more flexible and reliable data representations.
 
 ## Methodology
 
-The research introduces two primary graph-theoretic representations designed for analyzing [[Dermoscopic Images]]:
+The research introduces two primary graph-theoretic representations designed for analyzing [[dermoscopic-images|Dermoscopic Images]]:
 
 1.  **Superpixel Ensemble Graphs (SEG):** Graphs generated at multiple levels without parent-child constraints between adjacent levels.
 2.  **Superpixel Hierarchy Graphs (SHG):** Graphs that incorporate specific parent-child constraints among superpixels at adjacent levels.
@@ -25,6 +25,6 @@ The signals assigned to the graph nodes are derived from a combination of textur
 
 ## Experimental Results
 
-The proposed method was evaluated using the **ISIC2017 dataset**. To mitigate the challenges of class imbalance—a frequent issue in medical [[Image Analysis]]—the researchers employed [[Data Augmentation]] techniques, integrating additional melanoma images from the broader ISIC archive.
+The proposed method was evaluated using the **ISIC2017 dataset**. To mitigate the challenges of class imbalance—a frequent issue in medical [[image-analysis|Image Analysis]]—the researchers employed [[data-augmentation|Data Augmentation]] techniques, integrating additional melanoma images from the broader ISIC archive.
 
 The results indicate that the most effective configuration is the use of **learned superpixel ensemble graphs** utilizing **textural nodal signals**. This specific approach achieved a state-of-the-art performance metric, reaching an **accuracy of 99.00%** and an **AUC of 99.59%**, demonstrating the significant potential of graph-based learning in automated pathology detection.

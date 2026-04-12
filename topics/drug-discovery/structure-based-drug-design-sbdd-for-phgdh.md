@@ -4,9 +4,9 @@ created: 2026-04-11
 category: drug-discovery
 tags: [metabolic-oncology, enzyme-inhibition, computational-chemistry, drug-design, PHGDH]
 source_urls:
-  - "https://pubmed.ncbi.nlm.nih.gov/37687259/"
-  - "https://pubmed.ncbi.nlm.nih.gov/33735398/"
-  - "https://pubmed.ncbi.nlm.nih.gov/30852233/"
+  - "https://pubmed.ncbi.nlm.nih.gov/39934141/"
+  - "https://pubmed.ncbi.nlm.nih.gov/29568346/"
+  - "https://pubmed.ncbi.nlm.nih.gov/28042046/"
 ---
 
 # Structure-ability-Based Drug Design (SBDD) for PHGDH
@@ -23,7 +23,7 @@ The primary objective in PHGDH drug discovery is to disrupt the catalytic activi
 
 ## Structural Rationalization and Targetable Pockets
 
-Effective SBDD requires an intimate understanding of the [[3D Architecture of PHHDH]]. The enzyme functions as a homotetramer, and its activity is inextricably linked to its quaternary structure.
+Effective SBDD requires an intimate understanding of the [[3d-architecture-of-phhdh|3D Architecture of PHHDH]]. The enzyme functions as a homotetramer, and its activity is inextricably linked to its quaternary structure.
 
 ### The Catalytic Domain (NAD+ Binding Site)
 The catalytic domain of PHGDH features a characteristic $(\beta/\alpha)_8$ barrel (TIM barrel) fold. Within this domain, the $NAD^+$ binding pocket is highly conserved. While designing $NAD^+$ mimics is a mathematically viable approach in SBDD, it presents significant challenges in selectivity. Because many dehydrogenases (such as GAPDH) utilize $NAD^+$, a ligand designed purely for the $NAD^+$ pocket risks high off-target toxicity. Current SBDD efforts focus on identifying unique residues in the PHGDH $NAD^+$ pocket—specifically those that interact with the phosphate or ribose moiety—to increase specificity.
@@ -41,7 +41,7 @@ The foundation of SBDD is the availability of high-resolution structures. Techni
 ### 2. Virtual Screening and Molecular Docking
 Once a pocket is identified, researchers perform **High-Throughput Virtual Screening (HTVS)**. Using libraries containing millions of compounds, docking algorithms (such as AutoDock Vina or Glide) predict the binding orientation and affinity of potential ligands. This stage is critical for narrowing down chemical space before expensive in vitro assays.
 
-### 3. Integration with [[Machine Learning in PHGDH Ligand Discovery]]
+### 3. Integration with [[machine-learning-in-phgdh-ligand-discovery|Machine Learning in PHGDH Ligand Discovery]]
 As of 2025, the field has moved beyond classical docking. **Machine Learning (ML)** models, particularly deep learning architectures like Graph Neural Networks (GNNs), are now used to predict the binding affinity of novel scaffolds. Furthermore, generative models (e.g., Variational Autoencoders) are being employed for *de novo* design, where the AI "grows" a molecule atom-by-atom within the PHGDH allosteric pocket to maximize complementarity.
 
 ### 4. Free Energy Perturbation (FEP)

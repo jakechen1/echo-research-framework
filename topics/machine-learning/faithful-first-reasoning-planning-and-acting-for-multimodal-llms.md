@@ -7,7 +7,7 @@ tags: [ai, machine-learning, multimodal, hallucination]
 
 # Faithful-First Reasoning, Planning, and Acting for Multimodal LLMs
 
-The paper "Faithful-First Reasoning, Planning, and Acting for Multimodal LLMs" addresses a critical challenge in the evolution of [[Multimodal Large Language Models]] (MLLMs): the phenomenon of **unfaithfulness**. In many current models, the generated reasoning chains often drift away from the provided visual evidence or end in predictions that fundamentally contradict the intermediate logic presented by the model.
+The paper "Faithful-First Reasoning, Planning, and Acting for Multimodal LLMs" addresses a critical challenge in the evolution of [[multimodal-large-language-models-for-multi-subject-in-context-image-generation|Multimodal Large Language Models]] (MLLMs): the phenomenon of **unfaithfulness**. In many current models, the generated reasoning chains often drift away from the provided visual evidence or end in predictions that fundamentally contradict the intermediate logic presented by the model.
 
 ### The RPA Framework
 

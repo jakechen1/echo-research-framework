@@ -8,20 +8,20 @@ category: machine-learning
 
 # CAMO: A Class-Aware Minority-Optimized Ensemble
 
-**CAMO** (Class-Aware Minority-Optimized) is a specialized [[Ensemble Learning]] technique engineered to mitigate the detrimental effects of [[Class Imbalance]] in text categorization tasks. In traditional classification environments, ensemble methods often exhibit a bias toward majority classes, which significantly degrades the performance and [[Macro F1-score]] of underrepresented minority classes.
+**CAMO** (Class-Aware Minority-Optimized) is a specialized [[ensemble-learning|Ensemble Learning]] technique engineered to mitigate the detrimental effects of [[class-imbalance|Class Imbalance]] in text categorization tasks. In traditional classification environments, ensemble methods often exhibit a bias toward majority classes, which significantly degrades the performance and [[macro-f1-score|Macro F1-score]] of underrepresented minority classes.
 
 ## Methodology
 
 The CAMO framework utilizes a hierarchical procedure designed to protect and amplify minority class forecasts. Unlike standard voting mechanisms, CAMO incorporates three critical components to ensure robustness:
 * **Vote Distributions:** Analyzing the spread of predictions across the ensemble.
-* **[[Confidence Calibration]]:** Adjusting model outputs to ensure predicted probabilities reflect true likelihoods.
+* **[[fine-grained-approaches-for-confidence-calibration-of-llms-in-automated-code-rev|Confidence Calibration]]:** Adjusting model outputs to ensure predicted probabilities reflect true likelihoods.
 * **Inter-model Uncertainty:** Measuring the variance in predictions between different models in the ensemble.
 
 By dynamically boosting underrepresented classes through these mechanisms, CAMO preserves the integrity of minority class predictions while maintaining overall ensemble stability.
 
 ## Experimental Validation
 
-The researchers evaluated CAMO against seven established ensemble algorithms using a diverse array of eight different language models, including three [[Large Language Models]] (LLMs) and five [[Small Language Models]] (SLMs). The testing was conducted under both [[Zero-shot Learning]] and fine-tuned settings to ensure a comprehensive assessment.
+The researchers evaluated CAMO against seven established ensemble algorithms using a diverse array of eight different language models, including three [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) and five [[small-language-models|Small Language Models]] (SLMs). The testing was conducted under both [[zero-shot-learning|Zero-shot Learning]] and fine-tuned settings to ensure a comprehensive assessment.
 
 Two highly unbalanced, domain-specific benchmarks were used for verification:
 1. **DIAR-AI/Emotion dataset:** Focused on emotion recognition.

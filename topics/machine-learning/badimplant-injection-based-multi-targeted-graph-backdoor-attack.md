@@ -8,10 +8,10 @@ category: machine-learning
 
 # BadImplant: Injection-based Multi-Targeted Graph Backdoor Attack
 
-BadImplant represents a significant shift in the study of [[Adversarial Machine Learning]] within the context of [[Graph Neural Networks]] (GNNs). While GNNs have demonstrated exceptional performance in solving complex problems in fields like [[bioinformatics]] and social network analysis, they remain highly susceptible to [[backdoor attacks]].
+BadImplant represents a significant shift in the study of [[adversarial-machine-learning|Adversarial Machine Learning]] within the context of [[openglt-a-comprehensive-benchmark-of-graph-neural-networks-for-graph-level-tasks|Graph Neural Networks]] (GNNs). While GNNs have demonstrated exceptional performance in solving complex problems in fields like [[bioinformatics]] and social network analysis, they remain highly susceptible to [[skilltrojan-backdoor-attacks-on-skill-based-agent-systems|backdoor attacks]].
 
 ## Overview
-Traditionally, research into backdoor attacks for [[Graph Classification]] has been limited to single-target scenarios. In these conventional models, an attacker utilizes a "subgraph replacement" mechanism, where a single trigger is implanted to redirect all poisoned samples toward one specific target label. 
+Traditionally, research into backdoor attacks for [[graph-classification|Graph Classification]] has been limited to single-target scenarios. In these conventional models, an attacker utilizes a "subgraph replacement" mechanism, where a single trigger is implanted to redirect all poisoned samples toward one specific target label. 
 
 BadImplant introduces the first **multi-targeted backdoor attack** for graph classification tasks. This framework allows an attacker to simultaneously deploy multiple triggers, each capable of redirecting predictions to different, distinct target labels. 
 
@@ -23,6 +23,6 @@ Extensive evaluations across five different datasets demonstrate the efficacy of
 * **High Attack Success Rate (ASR):** The attack successfully redirects predictions to all targeted labels.
 * **Minimal Accuracy Impact:** The attack maintains high "clean accuracy," ensuring the model remains functional on legitimate data to avoid detection.
 * **Generalization:** The attack remains effective across various GNN architectures and different training parameter settings.
-* **Defense Resilience:** The study evaluates BadImplant against state-of-the-art [[defense mechanisms]], specifically [[randomized smoothing]] and [[fine-pruning]], demonstrating that the attack remains robust even against these advanced countermeasures.
+* **Defense Resilience:** The study evaluates BadImplant against state-of-the-art [[defense-mechanisms|defense mechanisms]], specifically [[randomized-smoothing|randomized smoothing]] and [[fine-pruning]], demonstrating that the attack remains robust even against these advanced countermeasures.
 
-This research highlights a critical security vulnerability in GNNs, suggesting that current [[machine-learning]] defenses may be insufficient against advanced, multi-target injection strategies.
+This research highlights a critical security vulnerability in GNNs, suggesting that current [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|machine-learning]] defenses may be insufficient against advanced, multi-target injection strategies.

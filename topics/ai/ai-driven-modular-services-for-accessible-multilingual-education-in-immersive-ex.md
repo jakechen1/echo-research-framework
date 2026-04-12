@@ -8,4 +8,4 @@ category: ai, technology
 
 # AI-Driven Modular Services for Accessible Multilingual Education in XR
 
-The research paper "AI-Driven Modular Services for Accessible Multilingual Education in Immersive Extended Reality Settings" introduces a groundbreaking, modular platform designed to foster [[Digital Accessibility]] within [[Extended Reality (XR)]] environments. The architecture integrates six specialized [[Artificial Intelligence]] services to create a seamless, multilingual, and
+The research paper "AI-Driven Modular Services for Accessible Multilingual Education in Immersive Extended Reality Settings" introduces a groundbreaking, modular platform designed to foster [[digital-accessibility|Digital Accessibility]] within [[extended-reality-xr|Extended Reality (XR)]] environments. The architecture integrates six specialized [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] services to create a seamless, multilingual, and

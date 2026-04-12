@@ -11,9 +11,9 @@ source_urls:
 
 ## Overview
 
-Pharmacological targeting of 3-phosphoglycerate dehydrogenase (PHGDH) refers to the intentional modulation—primarily through enzymatic inhibition—of the rate-limiting enzyme in the serine biosynthesis pathway (SSP). In the context of modern neuropharmacology, this strategy aims to correct metabolic dysregulation characterized by the overproduction of serine and glycine, a phenomenon central to [[PHGDH-Mediated Neurodegeneration]]. By manipulating the flux of the SSP, researchers seek to prevent the downstream accumulation of metabolic byproducts that contribute to oxidative stress, mitochondrial dysfunction, and protein misfolding in the central nervous system (CNS).
+Pharmacological targeting of 3-phosphoglycerate dehydrogenase (PHGDH) refers to the intentional modulation—primarily through enzymatic inhibition—of the rate-limiting enzyme in the serine biosynthesis pathway (SSP). In the context of modern neuropharmacology, this strategy aims to correct metabolic dysregulation characterized by the overproduction of serine and glycine, a phenomenon central to [[phgdh-mediated-neurodegeneration|PHGDH-Mediated Neurodegeneration]]. By manipulating the flux of the SSP, researchers seek to prevent the downstream accumulation of metabolic byproducts that contribute to oxidative stress, mitochondrial dysfunction, and protein misfolding in the central nervous system (CNS).
 
-The therapeutic potential of PHGDH modulation lies in its ability to act as a "metabolic thermostat." While systemic serine levels are critical for protein synthesis and one-carbon metabolism, localized hyper-activity of PHGDH in specific neuronal populations can trigger a cascade of neurotoxic events. Consequently, the development of [[Chemical Inhibitors of PHGDH]] represents a burgeoning frontier in drug discovery, focused on achieving high selectivity and blood-brain barrier (BBB) permeability to mitigate neurodegenerative progression.
+The therapeutic potential of PHGDH modulation lies in its ability to act as a "metabolic thermostat." While systemic serine levels are critical for protein synthesis and one-carbon metabolism, localized hyper-activity of PHGDH in specific neuronal populations can trigger a cascade of neurotoxic events. Consequently, the development of [[chemical-inhibitors-of-phgdh|Chemical Inhibitors of PHGDH]] represents a burgeoning frontier in drug discovery, focused on achieving high selectivity and blood-brain barrier (BBB) permeability to mitigate neurodegenerative progression.
 
 ## Biochemical Foundation and Mechanism of Action
 
@@ -29,7 +29,7 @@ PHGDH exists as a homotetramer. Each monomer contains several essential domains:
 Pharmacological intervention strategies typically target the N-terminal regulatory domain or the NAD$^{+}$ binding pocket. Successful inhibitors must mimic the transition state of the 3-PG to 3-PHP conversion or interfere with the allosteric "closing" of the tetramer that occurs when serine concentrations are high.
 
 ### Pathological Implications of PHGDH Dysregulation
-In many neurodegenerative models, PHGDH is upregulated, leading to an uncontrolled influx of serine into the one-carbon metabolism cycle. This excess flux increases the availability of glycine and methyl donors, which can paradoxically promote the production of Reactive Oxygen Species (ROS) and alter the methylation landscape of DNA and histones. This metabolic imbalance is a hallmark of [[PHGDH-Mediated Neurodegeneration]], where the resulting oxidative damage leads to synaptic loss and neuronal death.
+In many neurodegenerative models, PHGDH is upregulated, leading to an uncontrolled influx of serine into the one-carbon metabolism cycle. This excess flux increases the availability of glycine and methyl donors, which can paradoxically promote the production of Reactive Oxygen Species (ROS) and alter the methylation landscape of DNA and histones. This metabolic imbalance is a hallmark of [[phgdh-mediated-neurodegeneration|PHGDH-Mediated Neurodegeneration]], where the resulting oxidative damage leads to synaptic loss and neuronal death.
 
 ## Strategies for Pharmacological Modulation
 
@@ -49,7 +49,7 @@ An alternative, though less common, strategy involves the co-administration of s
 
 ## Current State of the Field (2025–2026)
 
-As of 2026, the field has transitioned from basic identification of [[Chemical Inhibitors of PHGDH]] to complex pharmacokinetic optimization. The "Post-Genomic Era" of neurodegeneration research has highlighted that PHGDH activity is not uniform across all brain regions; it varies between the hippocampus, cortex, and cerebellum.
+As of 2026, the field has transitioned from basic identification of [[chemical-inhibitors-of-phgdh|Chemical Inhibitors of PHGDH]] to complex pharmacokinetic optimization. The "Post-Genomic Era" of neurodegeneration research has highlighted that PHGDH activity is not uniform across all brain regions; it varies between the hippocampus, cortex, and cerebellum.
 
 Recent breakthroughs in **AI-driven de novo design** have allowed researchers to predict the binding affinity of billions of potential molecules within the PHGDHS Rossmann fold in hours rather than years. Furthermore, the integration of **organ-on-a-chip** technology using human iPSC-derived neurons has provided a more physiologically relevant platform for testing PHGDH inhibitors, moving away from the often misleading results of rodent models.
 
@@ -60,7 +60,7 @@ Clinical focus has shifted toward "Precision Metabolic Medicine," where a patien
 Despite the promise, several significant hurdles remains in the pharmacological targeting of PHGDH:
 
 ### 1. Blood-Brain Barrier (BBB) Permeability
-Most highly potent [[Chemical Inhibitors of PHGDH]] developed in early-stage research are highly polar molecules due to their reliance on mimetic structures for the phosphate group of 3-PG. These polar molecules are generally excluded from the CNS. Designing molecules that maintain high potency while possessing the lipophilicity required for BBB penetration remains the primary bottleneck in the field.
+Most highly potent [[chemical-inhibitors-of-phgdh|Chemical Inhibitors of PHGDH]] developed in early-stage research are highly polar molecules due to their reliance on mimetic structures for the phosphate group of 3-PG. These polar molecules are generally excluded from the CNS. Designing molecules that maintain high potency while possessing the lipophilicity required for BBB penetration remains the primary bottleneck in the field.
 
 ### 2. Systemic Toxicity and Metabolic Homeostasis
 PHGDH is not merely a driver of disease; it is essential for fundamental cellular processes. Total inhibition of PHGDH can lead to:

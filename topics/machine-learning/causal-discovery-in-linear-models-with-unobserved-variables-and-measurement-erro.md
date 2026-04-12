@@ -8,7 +8,7 @@ category: machine-learning
 
 # Causal Discovery in Linear Models with Unobserved Variables and Measurement Error
 
-The research paper "Causal Discovery in Linear Models with Unobserved Variables and Measurement Error" addresses one of the most significant challenges in [[causal inference]]: the presence of hidden confounders and noisy data. In many real-world applications, the existence of [[unobserved common causes]] and [[measurement error]] poses a major obstacle to [[causal structure learning]], as ignoring these complexities frequently induces [[spurious relations]] among the variables of interest.
+The research paper "Causal Discovery in Linear Models with Unobserved Variables and Measurement Error" addresses one of the most significant challenges in [[causal-inference|causal inference]]: the presence of hidden confounders and noisy data. In many real-world applications, the existence of [[unobserved-common-causes|unobserved common causes]] and [[measurement-error|measurement error]] poses a major obstacle to [[causal-structure-learning|causal structure learning]], as ignoring these complexities frequently induces [[spurious-relations|spurious relations]] among the variables of interest.
 
 ## The LV-SEM-ME Model
 
@@ -20,7 +20,7 @@ To address these complexities, the authors introduce a specialized causal model 
 
 ## Key Contributions
 
-The paper provides a rigorous mathematical characterization of the limits of what can be known within this complex system. By leveraging a "separability condition"—specifically the identifiability of the mixing matrix associated with the exogenous noise terms—and applying certain [[faithfulness assumptions]], the authors define the extent of [[identifiability]] and the resulting [[observational equivalence classes]].
+The paper provides a rigorous mathematical characterization of the limits of what can be known within this complex system. By leveraging a "separability condition"—specifically the identifiability of the mixing matrix associated with the exogenous noise terms—and applying certain [[faithfulness-assumptions|faithfulness assumptions]], the authors define the extent of [[non-identifiability-of-explanations-from-model-behavior-in-deep-networks-of-imag|identifiability]] and the resulting [[observational-equivalence-classes|observational equivalence classes]].
 
 The researchers also provide:
 * **Graphical Characterizations**: Visual representations of the equivalence classes within the model.
@@ -28,4 +28,4 @@ The researchers also provide:
 
 ## Identification Robustness
 
-A significant highlight of this work is the development of a "four-node union model." This unified framework subsumes several classical causal identification strategies, including the [[Instrumental Variable]] (IV) method, the [[Front-door Criterion]], and [[Negative Control-Outcome]] settings. The authors establish a form of **identification robustness**, demonstrating that the target causal effect remains identifiable in the broader LV-SEM-ME model, even when the specialized assumptions required by the individual sub-models do not all hold simultaneously.
+A significant highlight of this work is the development of a "four-node union model." This unified framework subsumes several classical causal identification strategies, including the [[instrumental-variable|Instrumental Variable]] (IV) method, the [[front-door-criterion|Front-door Criterion]], and [[negative-control-outcome|Negative Control-Outcome]] settings. The authors establish a form of **identification robustness**, demonstrating that the target causal effect remains identifiable in the broader LV-SEM-ME model, even when the specialized assumptions required by the individual sub-models do not all hold simultaneously.

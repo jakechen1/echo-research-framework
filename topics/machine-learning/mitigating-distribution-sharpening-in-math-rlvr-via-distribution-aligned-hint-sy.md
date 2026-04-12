@@ -8,7 +8,7 @@ category: ai, machine-learning
 
 # Mitigating Distribution Sharpend in Math RLVR
 
-The paper "**Mitigating Distribution Sharpening in Math RLVR via Distribution-Aligned Hint Synthesis and Backward Hint Annealing**" addresses a critical bottleneck in training [[Large Language Models (LLMs)]] for mathematical reasoning using [[Reinforcement Learning with Verifiable Rewards (RLVR)]].
+The paper "**Mitigating Distribution Sharpening in Math RLVR via Distribution-Aligned Hint Synthesis and Backward Hint Annealing**" addresses a critical bottleneck in training [[large-language-models-llms|Large Language Models (LLMs)]] for mathematical reasoning using [[reinforcement-learning-with-verifiable-rewards-rlvr|Reinforcement Learning with Verifiable Rewards (RLVR)]].
 
 ## The Problem: Distribution Sharpening
 
@@ -23,16 +23,16 @@ Furthermore, while using "hints" can make difficult problems trainable, traditio
 To resolve these issues, the researchers introduced two novel components:
 
 ### 1. Distribution-Aligned Hint Synthesis (DAHS)
-[[Distribution-Aligned Hint Synthesis (DAHS)]] mitigates the distribution mismatch by constructing verified teacher hints that are specifically conditioned on the student-style responses. This ensures the guidance provided is pedagogically relevant to the model's current learning state.
+[[distribution-aligned-hint-synthesis-dahs|Distribution-Aligned Hint Synthesis (DAHS)]] mitigates the distribution mismatch by constructing verified teacher hints that are specifically conditioned on the student-style responses. This ensures the guidance provided is pedagogically relevant to the model's current learning state.
 
 ### 2. Backward Hint Annealing (BHA)
-[[Backward Hint Annealing (BHA)]] addresses the need for hint removal. The method anneals hint exposure across different difficulty buckets. By implementing per-question hint dropout, the framework ensures that the model continues to receive unassisted updates, preventing a permanent reliance on scaffolds and preparing the model for no-hint [[Inference]] evaluation.
+[[backward-hint-annealing-bha|Backward Hint Annealing (BHA)]] addresses the need for hint removal. The method anneals hint exposure across different difficulty buckets. By implementing per-question hint dropout, the framework ensures that the model continues to receive unassisted updates, preventing a permanent reliance on scaffolds and preparing the model for no-hint [[epistemic-blinding-an-inference-time-protocol-for-auditing-prior-contamination-i|Inference]] evaluation.
 
 ## Experimental Results
 
-The researchers evaluated the method using the [[DAPO Training Framework]] on several [[AIME Benchmarks]] (AIME24, AIME25, and AIME26). Using models such as [[Qwen3-1.7B-Base]] and [[Llama-3.2-1B-Instruct]], the study found:
+The researchers evaluated the method using the [[dapo-training-framework|DAPO Training Framework]] on several [[aime-benchmarks|AIME Benchmarks]] (AIME24, AIME25, and AIME26). Using models such as [[qwen3-17b-base|Qwen3-1.7B-Base]] and [[llama-32-1b-instruct|Llama-3.2-1B-Instruct]], the study found:
 
 *   **Qwen3-1.7B-Base:** Significant improvements were observed in both pass@1 and pass@2048 metrics.
 *   **Llama-3.2-1B-Instruct:** Gains were primarily concentrated in the large-$k$ regime.
 
-The study concludes that [[scaffolded learning]] is most effective when it provides necessary learning signals during early training stages and is systematically removed before final deployment.
+The study concludes that [[scaffolded-learning|scaffolded learning]] is most effective when it provides necessary learning signals during early training stages and is systematically removed before final deployment.

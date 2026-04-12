@@ -3,20 +3,16 @@ title: "Flux Balance Analysis of Serine Metabolism"
 created: 2026-04-11
 category: machine-learning
 tags: [metabolic-modeling, flux-balance-analysis, neurodegeneration, bioinformatics, serine-pathway]
-    title: "Flux Balance Analysis: Developments, Applications and Outstanding Challenges"
-  - url: "https://doi.org/10.1016/j.cell.2019.03.013"
-    title: "The metabolic landscape of the brain"
-  - url: "https://doi.org/10.1038/s41576-020-00286-w"
-    title: "Metabolic rewiring in neurodegenerative diseases"
 source_urls:
-  - "https://doi.org/10.1038/nbt.2010.238"
-  - "https://doi.org/10.1016/j.cell.2019.03.013"
-  - "https://doi.org/10.1038/s41576-020-00286-w"
+  - "https://pubmed.ncbi.nlm.nih.gov/35574856/"
+  - "https://pubmed.ncbi.nlm.nih.gov/37985220/"
+  - "https://pubmed.ncbi.nlm.nih.gov/26590126/"
+  - "https://en.wikipedia.org/wiki/Metabolism"
 ---
 
 ## Definition
 
-**Flux Balance Analysis (FBA) of Serine Metabolism** refers to a mathematical and computational modeling framework used to quantify the distribution of metabolic fluxes through the serine biosynthetic and catabolic pathways. By employing constraint-based reconstruction and analysis (COBRA), researchers can simulate how cellular networks redirect carbon flow in response to metabolic stressors, specifically within the context of neurological decay. This technique is critical for understanding how perturbations in [[The Serine Biosynthetic Pathway]] contribute to the broader landscape of [[Neurometabolic Dysfunction in Alzheimer’s]] and other proteinopathies.
+**Flux Balance Analysis (FBA) of Serine Metabolism** refers to a mathematical and computational modeling framework used to quantify the distribution of metabolic fluxes through the serine biosynthetic and catabolic pathways. By employing constraint-based reconstruction and analysis (COBRA), researchers can simulate how cellular networks redirect carbon flow in response to metabolic stressors, specifically within the context of neurological decay. This technique is critical for understanding how perturbations in [[the-serine-biosynthetic-pathway|The Serine Biosynthetic Pathway]] contribute to the broader landscape of [[neurometabolic-dysfunction-in-alzheimers|Neurometabolic Dysfunction in Alzheimer’s]] and other proteinopathies.
 
 Unlike traditional metabolic experiments that measure metabolite concentrations (metabolomics), FBA calculates the *rate* of enzymatic activity (flux) under a steady-state assumption. In the context of serine metabolism, FBA allows for the prediction of how fluctuations in glucose uptake or glutamine availability impact the production of serine, which is a vital precursor for one-carbon metabolism, glycine, and cysteine synthesis.
 
@@ -40,9 +36,9 @@ The accuracy of FBA in neurodegenerative contexts depends heavily on the biologi
 
 ## The Serine Pathway and Neurodegeneration
 
-Serine metabolism is not an isolated loop; it is a central hub connecting glycolysis to [[One-Carbon Metabolism]]. The pathway begins with the conversion of 3-phosphoglycerate (3-PG) to serine via three key enzymatic steps: PHGDH, PSAT1, and PSPH.
+Serine metabolism is not an isolated loop; it is a central hub connecting glycolysis to [[one-carbon-metabolism|One-Carbon Metabolism]]. The pathway begins with the conversion of 3-phosphoglycerate (3-PG) to serine via three key enzymatic steps: PHGDH, PSAT1, and PSPH.
 
-In neurodegenerative pathologies, particularly [[Neurometabolic Dysfunction in Alzheimer’s]], the metabolic "flexibility" of neurons is compromised. FBA allows researchers to observe how a decline in glycolytic efficiency leads to a downstream "starvation" of the serine pathway. Because serine is a precursor for the synthesis of NMDA receptor co-agonists and antioxidant molecules like glutathione, a flux deficit predicted by FBA directly correlates with the oxidative stress and glutamate excitotoxicity observed in clinical Alzheimer’s datasets.
+In neurodegenerative pathologies, particularly [[neurometabolic-dysfunction-in-alzheimers|Neurometabolic Dysfunction in Alzheimer’s]], the metabolic "flexibility" of neurons is compromised. FBA allows researchers to observe how a decline in glycolytic efficiency leads to a downstream "starvation" of the serine pathway. Because serine is a precursor for the synthesis of NMDA receptor co-agonists and antioxidant molecules like glutathione, a flux deficit predicted by FBA directly correlates with the oxidative stress and glutamate excitotoxicity observed in clinical Alzheimer’s datasets.
 
 ## Integration with Machine Learning (ML)
 

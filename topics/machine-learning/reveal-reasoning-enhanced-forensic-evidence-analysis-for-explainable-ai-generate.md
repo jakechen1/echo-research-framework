@@ -8,7 +8,7 @@ category: [ai, machine-learning, technology]
 
 # REVEAL: Reasoning-Enhanced Forensic Evidence Analysis
 
-The rapid advancement of [[Generative AI]] and high-fidelity visual models has made [[AI-generated images]] increasingly difficult to distinguish from authentic photographs. This surge in synthetic media poses significant risks to [[information integrity]] and public trust. While various detection methods exist, there is a critical need for detectors that are not only accurate but also "forensically explainable."
+The rapid advancement of [[synthetic-trust-attacks-modeling-how-generative-ai-manipulates-human-decisions-i|Generative AI]] and high-fidelity visual models has made [[ai-generated-images|AI-generated images]] increasingly difficult to distinguish from authentic photographs. This surge in synthetic media poses significant risks to [[information-integrity|information integrity]] and public trust. While various detection methods exist, there is a critical need for detectors that are not only accurate but also "forensically explainable."
 
 ## The Problem: Post-hoc Rationalization
 Current multimodal approaches to detection often suffer from two major flaws:
@@ -23,5 +23,5 @@ Based on this benchmark, the authors proposed the **REVEAL** (Reasoning-enhanced
 * **Reasoning Stability**: Ensuring the chain-of-evidence remains consistent and logical.
 * **Explanation Faithfulness**: Ensuring the generated explanations are true to the model's actual decision-making process.
 
-## Impact on [[Digital Forensics]]
-Extensive testing demonstrates that REVEAL significantly outperforms baseline detectors in **cross-domain generalization**. By moving away from simple pattern matching and toward a structured, evidence-based reasoning approach, REVEAL provides a more robust framework for [[Explainable AI]] (XAI) in the fight against [[deepfakes]].
+## Impact on [[digital-forensics|Digital Forensics]]
+Extensive testing demonstrates that REVEAL significantly outperforms baseline detectors in **cross-domain generalization**. By moving away from simple pattern matching and toward a structured, evidence-based reasoning approach, REVEAL provides a more robust framework for [[explainable-ai-for-microseismic-event-detection|Explainable AI]] (XAI) in the fight against [[deepfakes]].

@@ -8,11 +8,11 @@ category: machine-learning
 
 # Efficient Dataset Selection for Continual Adaptation of Generative Recommenders
 
-In modern production environments, [[Recommendation Systems]] must constantly adapt to shifting user preferences and behaviors. This phenomenon, often referred to as temporal [[Distributional Drift]], presents a significant challenge for maintaining model accuracy. While frequent retraining is a standard response, the sheer volume of data generated in large-scale streaming environments makes full-scale retraining computationally impractical and resource-intensive.
+In modern production environments, [[recommendation-systems|Recommendation Systems]] must constantly adapt to shifting user preferences and behaviors. This phenomenon, often referred to as temporal [[distributional-drift|Distributional Drift]], presents a significant challenge for maintaining model accuracy. While frequent retraining is a standard response, the sheer volume of data generated in large-scale streaming environments makes full-scale retraining computationally impractical and resource-intensive.
 
 ## Overview
 
-The research presented in "Efficient Dataset Selection for Continual Adaptation of Generative Recommenders" investigates strategies for targeted [[Data Selection]]. The objective is to identify and curate small but highly informative subsets of user interaction data that allow for effective [[Continual Learning]] without the need for massive data ingestion.
+The research presented in "Efficient Dataset Selection for Continual Adaptation of Generative Recommenders" investigates strategies for targeted [[on-the-step-length-confounding-in-llm-reasoning-data-selection|Data Selection]]. The objective is to identify and curate small but highly informative subsets of user interaction data that allow for effective [[information-as-structural-alignment-a-dynamical-theory-of-continual-learning|Continual Learning]] without the need for massive data ingestion.
 
 ## Methodology and Key Findings
 
@@ -26,4 +26,4 @@ The key findings include:
 
 ## Implications for AI Production
 
-The results suggest that [[Data Curation]] serves as a practical and scalable mechanism for monitoring and updating models in real-time. By prioritizing informative data points, organizations can implement adaptive updates in [[Generative Models
+The results suggest that [[curalight-debate-guided-data-curation-for-llm-centered-traffic-signal-control|Data Curation]] serves as a practical and scalable mechanism for monitoring and updating models in real-time. By prioritizing informative data points, organizations can implement adaptive updates in [[Generative Models

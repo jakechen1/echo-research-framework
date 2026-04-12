@@ -8,7 +8,7 @@ category: [ai, machine-learning]
 
 # LSRM: High-Fidelity Object-Centric Reconstruction
 
-The **Large Sparse Reconstruction Model (LSRM)** is a novel framework introduced to study how scaling [[Transformer]] context windows impacts feed-forward [[3D Reconstruction]]. While contemporary object-centric methods offer robust reconstruction capabilities, they historically struggle to match the fine-grained texture and appearance recovery achieved by [[Dense-view Optimization]]. LSRM bridges this gap by substantially expanding the number of active object and image tokens within the model's context window.
+The **Large Sparse Reconstruction Model (LSRM)** is a novel framework introduced to study how scaling [[crft-consistent-recurrent-feature-flow-transformer-for-cross-modal-image-registr|Transformer]] context windows impacts feed-forward [[3dturboquant-training-free-near-optimal-quantization-for-3d-reconstruction-model|3D Reconstruction]]. While contemporary object-centric methods offer robust reconstruction capabilities, they historically struggle to match the fine-grained texture and appearance recovery achieved by [[dense-view-optimization|Dense-view Optimization]]. LSRM bridges this gap by substantially expanding the number of active object and image tokens within the model's context window.
 
 ## Core Innovations
 
@@ -22,4 +22,4 @@ To facilitate effective scaling without incurring prohibitive computational cost
 
 The architectural improvements in LSRM allow it to handle **20x more object tokens** and over **2x more image tokens** than previous state-of-the-art (SOTA) methods. Extensive testing on novel-view synthesis benchmarks reveals significant quantitative gains, specifically a **2.5 dB higher PSNR** and a **40% lower LPIPS** compared to existing models.
 
-In the domain of [[Inverse Rendering]], LSRM demonstrates consistent improvements in recovering intricate textures and complex geometries. Its performance in these tasks matches or exceeds the capabilities of traditional dense-view optimization, marking a significant advancement in [[Computer Vision]] and [[Neural Rendering]] technologies.
+In the domain of [[inverse-rendering|Inverse Rendering]], LSRM demonstrates consistent improvements in recovering intricate textures and complex geometries. Its performance in these tasks matches or exceeds the capabilities of traditional dense-view optimization, marking a significant advancement in [[computer-vision|Computer Vision]] and [[neural-rendering|Neural Rendering]] technologies.

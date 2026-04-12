@@ -4,16 +4,17 @@ created: 2026-04-11
 category: machine-learning
 tags: [drug-discovery, deep-learning, PHGDH, binding-affinity, computational-biochemistry]
 source_urls:
-  - "https://www.nature.com/articles/s41586-021-03370-w"
-  - "https://academic.oup.com/bioinformatics/article/36/17/4485/6282163"
-  - "https://pubs.acs.org/doi/10.1021/acsmedchem.0c01564"
+  - "https://pubmed.ncbi.nlm.nih.gov/33844136/"
+  - "https://pubmed.ncbi.nlm.nih.gov/38594926/"
+  - "https://pubmed.ncbi.nlm.nih.gov/39737570/"
+  - "https://en.wikipedia.org/wiki/Drug_discovery"
 ---
 
 ## Overview
 
 Machine Learning (ML) in PHGDH ligand discovery refers to the application of advanced computational architectures—primarily deep learning—to predict the binding affinity and inhibitory potential of small molecules against Phosphoglycine dehydrogenase (PHGDH). PHGDH is a key rate-limiting enzyme in the serine biosynthetic pathway, and its dysregulation is a hallmark of several highly aggressive malignancies, including triple-negative breast cancer (TNBC) and neuroblastoma. 
 
-As the pharmaceutical industry moves away from purely stochastic high-throughput screening (HTS) toward more predictive, data-driven models, ML has emerged as a critical tool for navigating the vast chemical space. The primary objective of these ML models is to accurately estimate the change in free energy ($\Delta G$) upon binding between a potential ligand and the PHGDH catalytic or allosteric sites, thereby streamlining the [[Structure-Based Drug Design (SBDD) for PHGDH]] workflow.
+As the pharmaceutical industry moves away from purely stochastic high-throughput screening (HTS) toward more predictive, data-driven models, ML has emerged as a critical tool for navigating the vast chemical space. The primary objective of these ML models is to accurately estimate the change in free energy ($\Delta G$) upon binding between a potential ligand and the PHGDH catalytic or allosteric sites, thereby streamlining the [[structure-based-drug-design-sbdd-for-phgdh|Structure-Based Drug Design (SBDD) for PHGDH]] workflow.
 
 ## Core Methodologies
 
@@ -22,7 +23,7 @@ The application of machine learning to PHGDH inhibition involves three primary c
 ### 1. Molecular and Protein Representation
 The efficacy of any ML model in this domain depends on how the chemical and biological entities are encoded into mathematical formats:
 *   **Ligand Encoding:** Small molecules are represented through **SMILES** (Simplified Molecular Input Line/output System) strings, which allow the use of Natural Language Processing (NLP) architectures like Transformers. Alternatively, **Molecular Graphs** are used, where atoms are nodes and bonds are edges, allowing for the application of Graph Neural Networks (GNNs).
-*   **Protein Encoding:** The PHGDH enzyme is represented via its primary amino acid sequence (1D), its 3D atomic coordinates (3D), or its surface properties (2D). In the context of [[Virtual Screening Protocols for PHGDH]], 3D representations are crucial for capturing the geometry of the NAD-binding domain and the catalytic pocket.
+*   **Protein Encoding:** The PHGDH enzyme is represented via its primary amino acid sequence (1D), its 3D atomic coordinates (3D), or its surface properties (2D). In the context of [[virtual-screening-protocols-for-phgdh|Virtual Screening Protocols for PHGDH]], 3D representations are crucial for capturing the geometry of the NAD-binding domain and the catalytic pocket.
 
 ### 2. Deep Learning Architectures
 Several specialized architectures have become standard in the 2025–2026 era for predicting PHGDH-ligand interactions:
@@ -37,10 +38,10 @@ Several specialized architectures have become standard in the 2025–2026 era fo
 Machine learning does not operate in isolation; it serves as the predictive engine within broader experimental frameworks.
 
 ### Integration with SBDD
-Within [[Structure-Based Drug Design (SBDD) for PHGDH]], ML models act as "learned scoring functions." Traditional physics-based scoring functions (like AutoDock Vina) often struggle with the complex electrostatic environment of the PHGDH catalytic loop. ML-based scoring functions can approximate the complex energy landscapes of these interactions more accurately by learning from crystal structures available in the Protein Data Bank (PDB).
+Within [[structure-based-drug-design-sbdd-for-phgdh|Structure-Based Drug Design (SBDD) for PHGDH]], ML models act as "learned scoring functions." Traditional physics-based scoring functions (like AutoDock Vina) often struggle with the complex electrostatic environment of the PHGDH catalytic loop. ML-based scoring functions can approximate the complex energy landscapes of these interactions more accurately by learning from crystal structures available in the Protein Data Bank (PDB).
 
 ### Enhancing Virtual Screening
-In [[Virtual Screening Protocols for PHGDH]], ML enables "ultra-large library screening." While traditional docking of 10 million compounds might take months, ML-based surrogate models can screen billions of molecules from the ZINC20 database in days. The protocol typically involves:
+In [[virtual-screening-protocols-for-phgdh|Virtual Screening Protocols for PHGDH]], ML enables "ultra-large library screening." While traditional docking of 10 million compounds might take months, ML-based surrogate models can screen billions of molecules from the ZINC20 database in days. The protocol typically involves:
 1.  **Initial Filter:** Using simple ML models to remove non-drug-like molecules.
 2.**Active Learning:** A cycle where a small subset of molecules is docked using high-fidelity physics-based methods, and the results are used to retrain the ML model iteratively.
 3.  **Final Selection:** The top-scoring candidates are subjected to rigorous molecular dynamics (MD) simulations.

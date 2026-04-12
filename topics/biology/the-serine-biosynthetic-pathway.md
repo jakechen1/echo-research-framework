@@ -7,21 +7,20 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/38091408/"
   - "https://pubmed.ncbi.nlm.nih.gov/36084651/"
   - "https://pubmed.ncbi.nlm.nih.gov/24657017/"
-  - "https://doi.org/10.3389/fonc.2022.842406"
-  - "https://doi.org/10.1002/path.5085"
+  - "https://en.wikipedia.org/wiki/Biosynthesis"
 ---
 
-The **serine biosynthetic pathway** is a critical metabolic route used by cells to produce the non-essential amino acid L-serine *de novo* from glycolytic intermediates. While cells can acquire serine through extracellular uptake via amino acid transporters, the *de novo* pathway is fundamental for maintaining cellular homeostasis, particularly during periods of nutrient scarcity, rapid proliferation, or high metabolic demand. The pathway serves as a primary junction between glucose metabolism (glycolysis) and a vast array of downstream biosynthetic processes, including [[One-Carbon Metabolism]], nucleotide synthesis, glycine production, and the regulation of redox balance. Central to this pathway is the enzymatic regulation of the first committed step, which makes the pathway a significant target in both [[Oncology]] and [[Neurobiology]].
+The **serine biosynthetic pathway** is a critical metabolic route used by cells to produce the non-essential amino acid L-serine *de novo* from glycolytic intermediates. While cells can acquire serine through extracellular uptake via amino acid transporters, the *de novo* pathway is fundamental for maintaining cellular homeostasis, particularly during periods of nutrient scarcity, rapid proliferation, or high metabolic demand. The pathway serves as a primary junction between glucose metabolism (glycolysis) and a vast array of downstream biosynthetic processes, including [[one-carbon-metabolism|One-Carbon Metabolism]], nucleotide synthesis, glycine production, and the regulation of redox balance. Central to this pathway is the enzymatic regulation of the first committed step, which makes the pathway a significant target in both [[oncology|Oncology]] and [[neurobiology|Neurobiology]].
 
 ## The Three-Step Enzymatic Cascade
 
 The *de novo* synthesis of serine occurs primarily in the cytosol and branches off from the glycolytic pathway at the level of **3-phosphoglycerate (3-PG)**. The pathway consists of three highly conserved enzymatic steps:
 
 ### 1. Oxidation of 3-PG by PHGDH
-The initial and rate-limiting step involves the conversion of 3-phosphoglycerate into 3-phosphohydroxypyruvate (3-PHP). This reaction is catalyzed by **phosphoglycerate dehydrogenase (PHGDH)**. This step is an oxidative reaction requiring the reduction of $NAD^+$ to $NADH$. Because this enzyme controls the diversion of carbon from glycolysis into the serine pathway, it serves as the primary metabolic "valve." Detailed structural insights into this enzyme's catalytic site and its regulatory domains are covered in [[PHHDH: Molecular Fundamentals]].
+The initial and rate-limiting step involves the conversion of 3-phosphoglycerate into 3-phosphohydroxypyruvate (3-PHP). This reaction is catalyzed by **phosphoglycerate dehydrogenase (PHGDH)**. This step is an oxidative reaction requiring the reduction of $NAD^+$ to $NADH$. Because this enzyme controls the diversion of carbon from glycolysis into the serine pathway, it serves as the primary metabolic "valve." Detailed structural insights into this enzyme's catalytic site and its regulatory domains are covered in [[phhdh-molecular-fundamentals|PHHDH: Molecular Fundamentals]].
 
 ### 2. Transamination by PSAT1
-The second step involves the conversion of 3-phosphohydroxypyruvate (3-PHP) into 3-phosphoserine. This is a transamination reaction catalyzed by **phosphoserine aminotransferase 1 (PSAT1)**. In this reaction, an amino group is transferred from glutamate to 3-PHP, resulting in the production of $\alpha$-ketoglutarate as a byproduct. This step links serine biosynthesis directly to the nitrogen metabolism and the [[Tricarboxylic Acid (TCA) Cycle]].
+The second step involves the conversion of 3-phosphohydroxypyruvate (3-PHP) into 3-phosphoserine. This is a transamination reaction catalyzed by **phosphoserine aminotransferase 1 (PSAT1)**. In this reaction, an amino group is transferred from glutamate to 3-PHP, resulting in the production of $\alpha$-ketoglutarate as a byproduct. This step links serine biosynthesis directly to the nitrogen metabolism and the [[tricarboxylic-acid-tca-cycle|Tricarboxylic Acid (TCA) Cycle]].
 
 ### 3. Dephosphorylation by PSPH
 The final step is the hydrolysis of 3-phosphoserine to yield L-serine. This reaction is catalyzed by **phosphoserine phosphatase (PSPH)**. The removal of the phosphate group is an irreversible step under physiological conditions, effectively driving the pathway forward toward the accumulation of the final amino acid product.
@@ -33,13 +32,13 @@ The serine biosynthetic pathway is not an isolated metabolic loop; it acts as a 
 ### One-Carbon Metabolism and Epigenetics
 Serine is the primary donor of one-carbon units to the folate cycle. Through the action of serine hydroxymethyltransferase (SHMT), serine is converted to glycine, transferring a carbon unit to tetrahydrofolate (THF). This flux is essential for:
 * **Nucleotide Synthesis:** Providing the carbon atoms necessary for the synthesis of purines and thymidine (DNA).
-* **Methylation Cycles:** Generating S-adenosylmethionine (SAM), the universal methyl donor for DNA, RNA, and protein methylation, which is crucial for [[Epigenetic Regulation]].
+* **Methylation Cycles:** Generating S-adenosylmethionine (SAM), the universal methyl donor for DNA, RNA, and protein methylation, which is crucial for [[epigenetic-regulation|Epigenetic Regulation]].
 
 ### Redox Homeostasis and Glycine Production
 The pathway is a major source of glycine, which is a direct precursor to **glutathione (GSH)**, the cell's primary antioxidant. By regulating serine and glycine levels, the pathway directly influences the cell's ability to manage oxidative stress and reactive oxygen species (ROS).
 
 ### Neurotransmitter Regulation
-In the central nervous system, the availability of serine and its derivatives (such as glycine) is critical for modulating NMDA receptor activity. Imbalances in the serine biosynthetic flux have been increasingly implicated in neurodegenerative pathologies, specifically within the context of [[Neurometabolic Dysfunction in Alzheimer’s]].
+In the central nervous system, the availability of serine and its derivatives (such as glycine) is critical for modulating NMDA receptor activity. Imbalances in the serine biosynthetic flux have been increasingly implicated in neurodegenerative pathologies, specifically within the context of [[neurometabolic-dysfunction-in-alzheimers|Neurometabolic Dysfunction in Alzheimer’s]].
 
 ## Regulatory Mechanisms of PHGDH
 
@@ -59,7 +58,7 @@ By upregulating the serine pathway, cancer cells can:
 Small-molecule inhibition of PHGDH is currently being investigated as a potential therapeutic strategy to "starve" tumor cells of essential biosynthetic precursors.
 
 ### Neurodegeneration and Aging
-Conversely, in the context of the aging brain, dysregulation of this pathway is a hallmark of metabolic decline. Reduced flux through the serine pathway can lead to a deficiency in glycine and folate-mediated methylation, contributing to the protein misfolding and synaptic loss observed in [[Neurometabolic Dysfunction in Alzheimer’s]]. Understanding whether the pathology is driven by a loss of enzyme activity or a substrate-level deficiency remains a primary focus of current longitudinal studies.
+Conversely, in the context of the aging brain, dysregulation of this pathway is a hallmark of metabolic decline. Reduced flux through the serine pathway can lead to a deficiency in glycine and folate-mediated methylation, contributing to the protein misfolding and synaptic loss observed in [[neurometabolic-dysfunction-in-alzheimers|Neurometabolic Dysfunction in Alzheimer’s]]. Understanding whether the pathology is driven by a loss of enzyme activity or a substrate-level deficiency remains a primary focus of current longitudinal studies.
 
 ## Challenges and Future Directions
 

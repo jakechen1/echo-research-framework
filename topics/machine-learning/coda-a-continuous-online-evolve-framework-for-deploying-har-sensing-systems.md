@@ -8,10 +8,10 @@ category: [ai, machine-learning, technology]
 
 # CODA: A Continuous Online Evolve Framework for
 
-The **CODA** framework introduces a specialized approach to [[Human Activity Recognition (HAR)]] tailored for long-term, always-on [[Mobile Sensing]] deployments. The core problem addressed by the researchers is the "silent erosion" of model accuracy, a phenomenon where prediction performance degrades as accumulated [[Domain Shift]] renders static models obsolete.
+The **CODA** framework introduces a specialized approach to [[human-activity-recognition-har|Human Activity Recognition (HAR)]] tailored for long-term, always-on [[mobile-sensing|Mobile Sensing]] deployments. The core problem addressed by the researchers is the "silent erosion" of model accuracy, a phenomenon where prediction performance degrades as accumulated [[feddap-domain-aware-prototype-learning-for-federated-learning-under-domain-shift|Domain Shift]] renders static models obsolete.
 
 ## The Challenge: Non-Stationary Drift
-In pervasive computing environments, sensors—such as those found in smartphones and smartwatches—operate in highly dynamic settings. Over time, [[Non-stationary Drift]] occurs due to changes in user behavior, sensor positioning, or environmental conditions. Traditional [[Machine Learning]] approaches typically rely on periodic, one-off updates that are computationally expensive and struggle to keep pace with continuous environmental shifts.
+In pervasive computing environments, sensors—such as those found in smartphones and smartwatches—operate in highly dynamic settings. Over time, [[non-stationary-drift|Non-stationary Drift]] occurs due to changes in user behavior, sensor positioning, or environmental conditions. Traditional [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] approaches typically rely on periodic, one-off updates that are computationally expensive and struggle to keep pace with continuous environmental shifts.
 
 ## The CODA Framework
 CODA proposes a continuous online adaptation framework that treats model updating as a principled "cache evolution" rather than a resource-heavy parameter reconfiguration. The framework relies on two synergistic components:
@@ -23,7 +23,7 @@ CODA proposes a continuous online adaptation framework that treats model updatin
 The efficiency of CODA was evaluated across four heterogeneous datasets involving various phone, watch, and multi-sensor configurations. The findings demonstrate that:
 
 *   **Superior Adaptation**: CODA consistently outperforms traditional one-off adaptation methods under conditions of heavy drift.
-*   **Edge Compatibility**: The framework incurs negligible on-device latency, making it suitable for real-time [[Artificial Intelligence]] at the edge.
+*   **Edge Compatibility**: The framework incurs negligible on-device latency, making it suitable for real-time [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] at the edge.
 *   **Robustness**: The system remains resilient even when faced with imperfect or noisy feedback during the accumulation process.
 
 By moving away from massive retraining

@@ -8,4 +8,4 @@ category: ai
 
 # A mathematical theory of evolution for self-designing AIs
 
-The research presented in "A mathematical theory of evolution for self-designing AIs" investigates the emergent evolutionary patterns within [[artificial intelligence]] systems
+The research presented in "A mathematical theory of evolution for self-designing AIs" investigates the emergent evolutionary patterns within [[artificial-intelligence-and-the-structure-of-mathematics|artificial intelligence]] systems

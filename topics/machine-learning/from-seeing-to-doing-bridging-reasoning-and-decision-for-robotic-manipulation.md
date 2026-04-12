@@ -8,7 +8,7 @@ category: [ai, machine-learning, technology]
 
 # From Seeing to Doing: Bridging Reasoning and Decision for Robotic Manipulation
 
-The research paper **"From Seeing to Doing" (FSD)** addresses one of the most significant hurdles in [[Robotics]]: achieving generalization in robotic manipulation when faced with unseen objects or novel environments. While current [[Vision-Language-Action (VLA)]] models leverage powerful [[Foundation Models]], they often struggle with zero-shot performance due to the scarcity and high heterogeneity of [[Embodied AI]] datasets.
+The research paper **"From Seeing to Doing" (FSD)** addresses one of the most significant hurdles in [[ai-driven-marine-robotics-emerging-trends-in-underwater-perception-and-ecosystem|Robotics]]: achieving generalization in robotic manipulation when faced with unseen objects or novel environments. While current [[vision-language-action-vla|Vision-Language-Action (VLA)]] models leverage powerful [[a-family-of-open-time-series-foundation-models-for-the-radio-access-network|Foundation Models]], they often struggle with zero-shot performance due to the scarcity and high heterogeneity of [[towards-provable-probabilistic-safety-for-scalable-embodied-ai-systems|Embodied AI]] datasets.
 
 ## The FSD Framework
 
@@ -23,10 +23,10 @@ The architecture relies on two primary innovations:
 The researchers evaluated FSD using eight benchmarks focused on spatial reasoning and embodied reference abilities. Additionally, they introduced **VABench**, a more challenging benchmark specifically designed to test the limits of coordinated interaction.
 
 The performance results demonstrate significant breakthroughs:
-*   **Simulated Environments**: In the [[SimplerEnv]] environment, FSD achieved a **40.6% success rate**.
+*   **Simulated Environments**: In the [[simplerenv|SimplerEnv]] environment, FSD achieved a **40.6% success rate**.
 *   **Real-World Robotics**: In actual physical settings, the model achieved a **72% success rate** across eight different tasks.
 *   **Baseline Comparison**: FSD outperformed the strongest existing baselines by a margin of **30%**.
 
 ## Conclusion
 
-By transforming the problem from pure end-to-end learning to a process of "reasoning-then-acting," FSD demonstrates that intermediate spatial intelligence is key to unlocking more robust [[Machine Learning]] applications in the physical world. This research marks a significant step toward autonomous agents capable of operating in complex, unmodeled human environments.
+By transforming the problem from pure end-to-end learning to a process of "reasoning-then-acting," FSD demonstrates that intermediate spatial intelligence is key to unlocking more robust [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] applications in the physical world. This research marks a significant step toward autonomous agents capable of operating in complex, unmodeled human environments.

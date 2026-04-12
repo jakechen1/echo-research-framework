@@ -8,7 +8,7 @@ category: technology
 
 # AEROS
 
-**AEROS** (Agent Execution Runtime Operating System) represents a paradigm shift in how [[Robotics]] systems are structured. Traditional robotic architectures often struggle with a lack of principled abstraction, frequently oscillating between monolithic structures that are difficult to update and loosely coordinated multi-agent systems that lack a unified sense of identity and control authority.
+**AEROS** (Agent Execution Runtime Operating System) represents a paradigm shift in how [[ai-driven-marine-robotics-emerging-trends-in-underwater-perception-and-ecosystem|Robotics]] systems are structured. Traditional robotic architectures often struggle with a lack of principled abstraction, frequently oscillating between monolithic structures that are difficult to update and loosely coordinated multi-agent systems that lack a unified sense of identity and control authority.
 
 ## Core Concept: The Single Persistent Agent
 
@@ -23,15 +23,15 @@ This architecture enables **modular extensibility**, allowing developers to "hot
 
 ## Safety and Runtime Enforcement
 
-A defining feature of AEROS is the separation of capability execution from a **policy-separated runtime**. While ECMs provide the "intelligence" and "skills," the runtime environment enforces execution constraints and safety guarantees. This separation is vital for [[Safety-Critical Systems]], as it creates a formal boundary that prevents high-level logic errors from translating into physical harm. In testing, this layer successfully blocked all invalid actions with zero false acceptances.
+A defining feature of AEROS is the separation of capability execution from a **policy-separated runtime**. While ECMs provide the "intelligence" and "skills," the runtime environment enforces execution constraints and safety guarantees. This separation is vital for [[safety-critical-systems|Safety-Critical Systems]], as it creates a formal boundary that prevents high-level logic errors from translating into physical harm. In testing, this layer successfully blocked all invalid actions with zero false acceptances.
 
 ## Performance and Evaluation
 
-The efficacy of AEROS was validated using a Franka Panda 7-DOF manipulator within a [[PyBullet]] simulation environment. The architecture was compared against standard industry benchmarks, including [[BehaviorTree.CPP]] and [[ProgPrompt]]. 
+The efficacy of AEROS was validated using a Franka Panda 7-DOF manipulator within a [[pybullet|PyBullet]] simulation environment. The architecture was compared against standard industry benchmarks, including [[behaviortreecpp|BehaviorTree.CPP]] and [[progprompt|ProgPrompt]]. 
 
 The results showed a significant leap in reliability:
 * **AEROS:** Achieved 100% task success across primary test scenarios.
 * **BehaviorTree/ProgPrompt Baselines:** Achieved 92–93% success.
 * **Flat Pipelines:** Achieved only 67–73% success.
 
-AEROS demonstrated particular strength in [[Failure Recovery]] and cross-task generality, proving that the architecture provides intrinsic benefits to [[Agentic AI]] that do not require task-specific tuning.
+AEROS demonstrated particular strength in [[failure-recovery|Failure Recovery]] and cross-task generality, proving that the architecture provides intrinsic benefits to [[dynamic-agentic-ai-expert-profiler-system-architecture-for-multidomain-intellige|Agentic AI]] that do not require task-specific tuning.

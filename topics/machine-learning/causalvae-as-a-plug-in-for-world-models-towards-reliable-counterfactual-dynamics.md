@@ -8,9 +8,9 @@ category: machine-learning
 
 # CausalVAE as a Plug-in for World Models
 
-The paper **"CausalVAE as a Plug-in for World Models: Towards Reliable Counterfactual Dynamics"** introduces a novel structural module known as **CausalVAE**. This module is engineered to function as a modular "plug-in" that can be integrated into various existing [[Latent World Models]], specifically attaching to diverse [[Encoder-transition backbones]].
+The paper **"CausalVAE as a Plug-in for World Models: Towards Reliable Counterfactual Dynamics"** introduces a novel structural module known as **CausalVAE**. This module is engineered to function as a modular "plug-in" that can be integrated into various existing [[latent-world-models|Latent World Models]], specifically attaching to diverse [[encoder-transition-backbones|Encoder-transition backbones]].
 
 ## Overview and Mechanism
-The primary goal of CausalVAE is to bridge the gap between factual prediction and [[Counterfactual Reasoning]]. While standard world models are proficient at predicting future states within a static distribution, they often lack the robustness required for handling [[Interventions]] or significant [[Distribution Shift]]. CausalVAE addresses this by incorporating a structural component that allows the model to better simulate "what-if" scenarios by learning the underlying structural dependencies of the latent environment.
+The primary goal of CausalVAE is to bridge the gap between factual prediction and [[counterfactual-reasoning|Counterfactual Reasoning]]. While standard world models are proficient at predicting future states within a static distribution, they often lack the robustness required for handling [[analysis-of-non-pharmaceutical-interventions-with-sir-epidemic-models-decreasing|Interventions]] or significant [[learning-stable-predictors-from-weak-supervision-under-distribution-shift|Distribution Shift]]. CausalVAE addresses this by incorporating a structural component that allows the model to better simulate "what-if" scenarios by learning the underlying structural dependencies of the latent environment.
 
 ## Experimental Results

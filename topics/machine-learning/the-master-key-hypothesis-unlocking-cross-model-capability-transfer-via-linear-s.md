@@ -8,11 +8,11 @@ category: [ai, machine-learning]
 
 # The Master Key Hypothesis
 
-The research paper titled **"The Master Key Hypothesis: Unlocking Cross-Model Capability Transfer via Linear Subspace Alignment"** explores a novel method for transferring post-trained capabilities between different [[Large Language Models]] (LLMs) without the need for retraining or fine-tuning.
+The research paper titled **"The Master Key Hypothesis: Unlocking Cross-Model Capability Transfer via Linear Subspace Alignment"** explores a novel method for transferring post-trained capabilities between different [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) without the need for retraining or fine-tuning.
 
 ## Core Hypothesis
 
-The paper introduces the **Master Key Hypothesis**, which posits that specific cognitive capabilities (such as reasoning or mathematical proficiency) are not randomly distributed but correspond to specific directions within a low-dimensional [[Latent Subspace]]. According to this theory, these "capability directions" are fundamental properties that can be identified and aligned across different model architectures and scales through linear transformations.
+The paper introduces the **Master Key Hypothesis**, which posits that specific cognitive capabilities (such as reasoning or mathematical proficiency) are not randomly distributed but correspond to specific directions within a low-dimensional [[latent-subspace|Latent Subspace]]. According to this theory, these "capability directions" are fundamental properties that can be identified and aligned across different model architectures and scales through linear transformations.
 
 ## The UNLOCK Framework
 
@@ -31,4 +31,4 @@ The effectiveness of UNLOCK was demonstrated through significant improvements in
 
 ## Conclusion
 
-The research concludes that the success of the UNLOCK framework relies on the latent capabilities already present within the pre-trained weights of the models. Rather than introducing new knowledge, the process acts as a mechanism for [[Model Alignment]], effectively "sharpening" the output distribution to amplify existing, yet dormant, reasoning trajectories.
+The research concludes that the success of the UNLOCK framework relies on the latent capabilities already present within the pre-trained weights of the models. Rather than introducing new knowledge, the process acts as a mechanism for [[model-alignment|Model Alignment]], effectively "sharpening" the output distribution to amplify existing, yet dormant, reasoning trajectories.

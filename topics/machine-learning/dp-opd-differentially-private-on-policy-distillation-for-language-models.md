@@ -8,11 +8,11 @@ category: ai
 
 # DP-OPD: Differentially Private On-Policy Distillation for Language Models
 
-**DP-OPD** (Differentially Private On-Policy Distillation) is a novel framework designed to address the fundamental tension between maintaining formal [[Differential Privacy]] guarantees and preserving the utility of [[Large Language Models]] (LLMs) during the process of [[Model Compression]].
+**DP-OPD** (Differentially Private On-Policy Distillation) is a novel framework designed to address the fundamental tension between maintaining formal [[adaptive-differential-privacy-for-federated-medical-image-segmentation-across-di|Differential Privacy]] guarantees and preserving the utility of [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) during the process of [[enec-a-lossless-ai-model-compression-method-enabling-fast-inference-on-ascend-np|Model Compression]].
 
 ## Background and Problem Statement
 
-As LLMs are increasingly fine-tuned on proprietary and sensitive datasets, ensuring privacy is critical. The standard approach, [[DP-SGD]] (Differentially Private Stochastic Gradient Descent), provides robust record-level protection. However, in the context of [[Autoregressive generation]], the noise introduced by DP-SGD often leads to significant utility degradation. This is particularly problematic due to "exposure bias," where optimization noise compounds over long sequence rollouts.
+As LLMs are increasingly fine-tuned on proprietary and sensitive datasets, ensuring privacy is critical. The standard approach, [[dp-sgd|DP-SGD]] (Differentially Private Stochastic Gradient Descent), provides robust record-level protection. However, in the context of [[autoregressive-generation|Autoregressive generation]], the noise introduced by DP-SGD often leads to significant utility degradation. This is particularly problematic due to "exposure bias," where optimization noise compounds over long sequence rollouts.
 
 Historically, researchers used two main approaches to private distillation:
 1. **Dual DP-Training**: Applying DP-SGD to both the teacher and student models, which is computationally expensive and further degrades utility.
@@ -20,9 +20,9 @@ Historically, researchers used two main approaches to private distillation:
 
 ## The DP-OPD Approach
 
-DP-OP1 introduces a synthesis-free framework that streamlines the distillation process into a single training loop. The core innovation lies in its **on-policy** nature: instead of relying on external synthetic datasets, the framework applies [[Differential Privacy]] solely to the student model while utilizing a frozen teacher model to provide dense, token-level targets.
+DP-OP1 introduces a synthesis-free framework that streamlines the distillation process into a single training loop. The core innovation lies in its **on-policy** nature: instead of relying on external synthetic datasets, the framework applies [[adaptive-differential-privacy-for-federated-medical-image-segmentation-across-di|Differential Privacy]] solely to the student model while utilizing a frozen teacher model to provide dense, token-level targets.
 
-In DP-OPD, the student model generates its own trajectories (on-policy). The frozen teacher then provides feedback on these student-generated tokens through a process of [[Private Generalized Knowledge Distillation]]. This prevents the need for expensive teacher training or offline data generation.
+In DP-OPD, the student model generates its own trajectories (on-policy). The frozen teacher then provides feedback on these student-generated tokens through a process of [[private-generalized-knowledge-distillation|Private Generalized Knowledge Distillation]]. This prevents the need for expensive teacher training or offline data generation.
 
 ## Results and Impact
 

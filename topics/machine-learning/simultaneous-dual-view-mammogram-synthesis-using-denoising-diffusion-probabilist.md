@@ -8,16 +8,16 @@ categories: [ai, machine-learning, technology]
 
 # Simultaneous Dual-View Mammogram Synthesis Using Denoising Diffusion Probabilistic Models
 
-In the field of [[Medical Imaging]], particularly [[Breast Cancer Screening]], the availability of paired mammographic views is a critical bottleneck for algorithm development. Standard diagnostic procedures rely on two distinct angles providing complementary anatomical information: the craniocaudal (CC) and the mediolateral oblique (MLO) views. However, many clinical datasets are incomplete, lacking the paired views necessary to train models that require cross-view consistency.
+In the field of [[medical-imaging|Medical Imaging]], particularly [[breast-cancer-screening|Breast Cancer Screening]], the availability of paired mammographic views is a critical bottleneck for algorithm development. Standard diagnostic procedures rely on two distinct angles providing complementary anatomical information: the craniocaudal (CC) and the mediolateral oblique (MLO) views. However, many clinical datasets are incomplete, lacking the paired views necessary to train models that require cross-view consistency.
 
 ## Proposed Methodology
 
-To address the scarcity of paired data, this research proposes a novel approach using [[Denoising Diffusion Probabilistic Models]] (DDPM). The core innovation is a three-channel diffusion architecture designed to generate CC and MLO views simultaneously. Rather than treating the views as independent entities, the model utilizes:
+To address the scarcity of paired data, this research proposes a novel approach using [[extending-tabular-denoising-diffusion-probabilistic-models-for-time-series-data-|Denoising Diffusion Probabilistic Models]] (DDPM). The core innovation is a three-channel diffusion architecture designed to generate CC and MLO views simultaneously. Rather than treating the views as independent entities, the model utilizes:
 * **Channel 1:** The CC view projection.
 * **Channel 2:** The MLO view projection.
 * **Channel 3:** The absolute difference between the CC and MLO views.
 
-This "difference-based encoding" serves as a structural guide, forcing the [[Machine Learning]] model to learn and maintain the underlying anatomical relationships and global breast structure across both projections. The researchers fine-tuned a pretrained DDPM on a private screening dataset to achieve this high-fidelity synthesis.
+This "difference-based encoding" serves as a structural guide, forcing the [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] model to learn and maintain the underlying anatomical relationships and global breast structure across both projections. The researchers fine-tuned a pretrained DDPM on a private screening dataset to achieve this high-fidelity synthesis.
 
 ## Evaluation and Results
 
@@ -28,6 +28,6 @@ The effectiveness of the synthesized dual-view pairs was evaluated through sever
 
 The results indicate that the difference-guided encoding successfully preserves global structures, producing synthetic pairs that closely resemble real clinical acquisitions.
 
-## Impact on [[Artificial Intelligence]]
+## Impact on [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]]
 
-This work demonstrates the feasibility of using generative models for [[Data Augmentation]] in radiology. By synthesizing realistic, paired mammographic views, researchers can expand limited datasets, potentially leading to the development of more robust, cross-view-aware diagnostic tools in [[Computer Vision]] for oncology.
+This work demonstrates the feasibility of using generative models for [[data-augmentation|Data Augmentation]] in radiology. By synthesizing realistic, paired mammographic views, researchers can expand limited datasets, potentially leading to the development of more robust, cross-view-aware diagnostic tools in [[computer-vision|Computer Vision]] for oncology.

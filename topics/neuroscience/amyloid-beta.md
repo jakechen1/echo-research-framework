@@ -3,20 +3,16 @@ title: "Amyloid-beta"
 created: 2026-04-11
 category: neuroscience
 tags: [amyloid-beta, alzheimers-disease, proteopathy, neurodegeneration, amyloid-cascade-hypothesis]
-    title: "Alzheimer's Association"
-  - url: "https://www.nature.com/articles/s41583-018-0036-x"
-    title: "The amyloid cascade hypothesis: progress and problems"
-  - url: "https://pubmed.ncbi.nlm.nih.gov/"
-    title: "PubMed Database"
 source_urls:
-  - "https://www.alz.org"
-  - "https://www.nature.com/articles/s41583-018-0036-x"
-  - "https://pubmed.ncbi.nlm.nih.gov/"
+  - "https://pubmed.ncbi.nlm.nih.gov/32096039/"
+  - "https://pubmed.ncbi.nlm.nih.gov/24398426/"
+  - "https://pubmed.ncbi.nlm.nih.gov/10703837/"
+  - "https://en.wikipedia.org/wiki/Amyloid_beta"
 ---
 
 ## Definition
 
-**Amyloid-beta (Aβ)** is a peptide fragment derived from the proteolytic cleavage of the **Amyloid Precursor Protein (APP)**. It plays a central role in the pathogenesis of [[Alzheimer's Disease]] (AD) and other forms of neurodegenerative proteopathies. Aβ is characterized by its ability to undergo progressive aggregation, transitioning from soluble monomers into highly neurotoxic oligomers, protofibrils, and eventually into insoluble extracellular amyloid plaques. While Aβ is present in the healthy brain at low concentrations, its accumulation and subsequent aggregation are hallmark pathological features of AD, driving a cascade of downstream events including [[Tau Protein]] neurofibragens, [[Neuroinflammation]], and [[Mitochondrial Dysfunction]].
+**Amyloid-beta (Aβ)** is a peptide fragment derived from the proteolytic cleavage of the **Amyloid Precursor Protein (APP)**. It plays a central role in the pathogenesis of [[targeting-phgdh-for-alzheimers-disease-drug-discovery-strategies|Alzheimer's Disease]] (AD) and other forms of neurodegenerative proteopathies. Aβ is characterized by its ability to undergo progressive aggregation, transitioning from soluble monomers into highly neurotoxic oligomers, protofibrils, and eventually into insoluble extracellular amyloid plaques. While Aβ is present in the healthy brain at low concentrations, its accumulation and subsequent aggregation are hallmark pathological features of AD, driving a cascade of downstream events including [[tau-protein|Tau Protein]] neurofibragens, [[neuroinflammation-targets|Neuroinflammation]], and [[mitochondrial-dysfunction|Mitochondrial Dysfunction]].
 
 ## Proteolytic Processing of APP
 
@@ -37,11 +33,11 @@ In this pathway, **$\alpha$-secretase** cleaves APP within the Aβ domain itself
 For decades, the "Amyloid Cascade Hypothesis" has served as the dominant framework in Alzheimer's research. The hypothesis posits that the primary event in AD pathogenesis is the imbalance between Aβ production and clearance, leading to the accumulation of Aβ. This accumulation is thought to trigger a downstream sequence of:
 1.  Aβ oligomerization.
 2.  Disruption of synaptic signaling and dendritic spine loss.
-3.  Activation of microglial cells and widespread [[Neuroinflammation]].
-4.  Induction of hyperphosphorylated [[Tau Protein]] neurofibrillary tangles.
+3.  Activation of microglial cells and widespread [[neuroinflammation-targets|Neuroinflammation]].
+4.  Induction of hyperphosphorylated [[tau-protein|Tau Protein]] neurofibrillary tangles.
 5.  Neuronal death and macroscopic brain atrophy.
 
-While the hypothesis has been the focus of most clinical trials, contemporary views have become more nuanced, recognizing that Aβ accumulation may be an upstream trigger that interacts heavily with [[Metabolic Dysfunction]] and vascular pathology.
+While the hypothesis has been the focus of most clinical trials, contemporary views have become more nuanced, recognizing that Aβ accumulation may be an upstream trigger that interacts heavily with [[neurometabolic-dysfunction-in-alzheimer’s|Metabolic Dysfunction]] and vascular pathology.
 
 ## Mechanisms of Neurotoxicity
 
@@ -53,9 +49,9 @@ Aβ oligomers bind to various receptors at the synaptic cleft, including NMDA re
 ### Induction of Oxidative Stress
 Aβ accumulation promotes the generation of Reactive Oxygen Species (ROS) through the activation of NADPH oxidase and the impairment of antioxidant enzymes. This oxidative stress damages lipids, proteins, and DNA within the neuron.
 
-### Relationship to [[Neurometabolic Dysfunction in Alzheimer’s]]
+### Relationship to [[neurometabolic-dysfunction-in-alzheimers|Neurometabolic Dysfunction in Alzheimer’s]]
 A critical aspect of Aβ toxicity is its role in disrupting brain energy homeostasis. Aβ interacts with several metabolic checkpoints:
-*   **Insulin Signaling Interference:** Aβ oligomers can impair the insulin signaling pathway, specifically by inducing the hyperphosphorylation of Insulin Receptor Substrate 1 (IRS-1). This creates a state of "brain insulin resistance," a hallmark of [[Neurometabolic Dysfunction in Alzheimer’s]].
+*   **Insulin Signaling Interference:** Aβ oligomers can impair the insulin signaling pathway, specifically by inducing the hyperphosphorylation of Insulin Receptor Substrate 1 (IRS-1). This creates a state of "brain insulin resistance," a hallmark of [[neurometabolic-dysfunction-in-alzheimers|Neurometabolic Dysfunction in Alzheimer’s]].
 *   **Mitochondrial Impairment:** Aβ can penetrate the mitochondrial membrane, disrupting the Electron Transport Chain (ETC) and reducing ATP production. This leads to a deficit in cellular energy, further exacerbating the cell's inability to maintain ion gradients and clear protein aggregates.
 *   **Glucose Hypometabolism:** The disruption of insulin signaling and mitochondrial function leads to the characteristic reduction in glucose uptake in the cerebral cortex, often measurable via FDG-PET imaging.
 
@@ -67,7 +63,7 @@ As of 2025, the landscape of Alzheimer’s therapeutics has undergone a paradigm
 The FDA approvals of drugs such as **Lecanemab** and **Donanemab** have demonstrated that reducing the amyloid burden in the brain can lead to a statistically significant slowing of cognitive decline in patients with early-stage AD. These therapies work by targeting protofibrils or amyloid plaques for clearance by microglia.
 
 ### Beyond Amyloid: Multi-target Approaches
-Despite the success of amyloid-clearing drugs, the field has moved toward "combination therapies." Researchers now recognize that clearing Aβ may not be sufficient if [[Tau Protein]] pathology and [[Neuroinflammation]] are already self-propagating. Current research is heavily focused on drugs that simultaneously target Aβ, stabilize microglial activation, and restore metabolic health via the modulation of glucose metabolism.
+Despite the success of amyloid-clearing drugs, the field has moved toward "combination therapies." Researchers now recognize that clearing Aβ may not be sufficient if [[tau-protein|Tau Protein]] pathology and [[neuroinflammation-targets|Neuroinflammation]] are already self-propagating. Current research is heavily focused on drugs that simultaneously target Aβ, stabilize microglial activation, and restore metabolic health via the modulation of glucose metabolism.
 
 ## Challenges and Limitations
 

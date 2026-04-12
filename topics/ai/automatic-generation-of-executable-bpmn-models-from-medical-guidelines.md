@@ -8,16 +8,16 @@ category: [ai, technology]
 
 # Automatic Generation of Executable BPMN Models from Medical Guidelines
 
-The research paper explores a novel end-to-end pipeline designed to transform static [[Healthcare Policy]] documents into executable, data-aware [[BPMN]] (Business Process Model and Notation) models. The primary objective of this system is to enable simulation-based policy evaluation, allowing healthcare providers to test the implications of medical guidelines against synthetic populations before real-world implementation.
+The research paper explores a novel end-to-end pipeline designed to transform static [[healthcare-policy|Healthcare Policy]] documents into executable, data-aware [[automatic-generation-of-executable-bpmn-models-from-medical-guidelines|BPMN]] (Business Process Model and Notation) models. The primary objective of this system is to enable simulation-based policy evaluation, allowing healthcare providers to test the implications of medical guidelines against synthetic populations before real-world implementation.
 
 ### Core Contributions
 
 The researchers address the inherent difficulties of automated policy digitization through four primary technical innovations:
 
-1.  **Data-grounded BPMN Generation**: This feature utilizes [[Large Language Models]] (LLMs) to interpret text, integrated with a syntax auto-correction mechanism to ensure the resulting models are formally valid.
+1.  **Data-grounded BPMN Generation**: This feature utilizes [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) to interpret text, integrated with a syntax auto-correction mechanism to ensure the resulting models are formally valid.
 2.  **Executable Augmentation**: The pipeline enhances standard models with the necessary logic and data-awareness required for computational execution.
 3.  **KPI Instrumentation**: The system embeds Key Performance Indicators (KPIs) directly into the generated models, allowing for the automated measurement of policy outcomes.
-4.  **Entropy-based Uncertainty Detection**: To mitigate the "hallucination" risks associated with [[Artificial Intelligence]], the pipeline employs an entropy-based detector. This mechanism identifies segments of a document where the model's interpretation is ambiguous, effectively flagging areas that require human intervention or clarification.
+4.  **Entropy-based Uncertainty Detection**: To mitigate the "hallucination" risks associated with [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]], the pipeline employs an entropy-based detector. This mechanism identifies segments of a document where the model's interpretation is ambiguous, effectively flagging areas that require human intervention or clarification.
 
 ### Experimental Validation
 
@@ -30,4 +30,4 @@ The results were highly promising:
 
 ### Significance
 
-This work represents a major advancement in [[Digital Transformation]] within the medical field, providing a scalable framework for [[Process Automation]] and the rigorous testing of clinical decision-making workflows.
+This work represents a major advancement in [[digital-transformation|Digital Transformation]] within the medical field, providing a scalable framework for [[process-automation|Process Automation]] and the rigorous testing of clinical decision-making workflows.

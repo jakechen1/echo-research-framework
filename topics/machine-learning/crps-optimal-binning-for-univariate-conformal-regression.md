@@ -8,15 +8,15 @@ category: machine-learning
 
 # CRPS-Optimal Binning for Univariate Conformal Regression
 
-The research paper "CRPS-Optimal Binning for Univariate Conformal Regression" introduces a novel method for [[Non-parametric Estimation]] of conditional distributions. The core methodology involves partitioning covariate-sorted observations into contiguous bins and utilizing the within-bin empirical cumulative distribution function (CDF) as the [[Predictive Distribution]].
+The research paper "CRPS-Optimal Binning for Univariate Conformal Regression" introduces a novel method for [[non-parametric-estimation|Non-parametric Estimation]] of conditional distributions. The core methodology involves partitioning covariate-sorted observations into contiguous bins and utilizing the within-bin empirical cumulative distribution function (CDF) as the [[predictive-distribution|Predictive Distribution]].
 
 ### Methodology and Optimization
-A primary innovation of this approach is the optimization of bin boundaries to minimize the total leave-one-out [[Continuous Ranked Probability Score (CRPS)]]. The authors present a closed-form cost function that facilitates efficient computation, requiring $O(n^2 \log n)$ precomputation and $O(n^2)$ storage. The optimal $K$-partition is recovered through [[Dynamic Programming]], settling at a complexity of $O(n^2 K)$.
+A primary innovation of this approach is the optimization of bin boundaries to minimize the total leave-one-out [[continuous-ranked-probability-score-crps|Continuous Ranked Probability Score (CRPS)]]. The authors present a closed-form cost function that facilitates efficient computation, requiring $O(n^2 \log n)$ precomputation and $O(n^2)$ storage. The optimal $K$-partition is recovered through [[dynamic-programming|Dynamic Programming]], settling at a complexity of $O(n^2 K)$.
 
-To prevent the in-sample optimism often associated with direct minimization, the authors address the selection of the number of bins ($K$) through $K$-fold [[Cross-validation]] of the test CRPS. This process identifies a U-shaped criterion with a well-defined minimum, ensuring the model generalizes effectively to unseen data.
+To prevent the in-sample optimism often associated with direct minimization, the authors address the selection of the number of bins ($K$) through $K$-fold [[cross-validation|Cross-validation]] of the test CRPS. This process identifies a U-shaped criterion with a well-defined minimum, ensuring the model generalizes effectively to unseen data.
 
 ### Conformal Prediction Integration
-The framework integrates seamlessly with [[Conformal Prediction]] to generate two complementary predictive objects:
+The framework integrates seamlessly with [[weighted-bayesian-conformal-prediction|Conformal Prediction]] to generate two complementary predictive objects:
 1.  **Venn prediction bands**
 2.  **Conformal prediction sets**
 

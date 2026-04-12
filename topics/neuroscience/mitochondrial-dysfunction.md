@@ -3,22 +3,18 @@ title: "Mitochondrial Dysfunction"
 created: 2026-04-11
 category: neuroscience
 tags: [neurodegeneration, bioenergetics, oxidative_stress, mitophagy, alzheimers_disease, metabolism]
-    title: "Mitochondrial dysfunction in neurodegenerative diseases"
-  - url: "https://pubmed.ncbi.nlm.nih.gov/25811171/"
-    title: "Mitochondrial dysfunction in Alzheimer's disease"
-  - url: "https://www.cell.com/trends/neuroscience/fulltext/S0966-2236(18)30126-3"
-    title: "Mitochondrial dynamics and neurodegeneration"
 source_urls:
-  - "https://www.nature.com/articles/s41583-020-0328-x"
-  - "https://pubmed.ncbi.nlm.nih.gov/25811171/"
-  - "https://www.cell.com/trends/neuroscience/fulltext/S0966-2236(18)30126-3"
+  - "https://pubmed.ncbi.nlm.nih.gov/38744846/"
+  - "https://pubmed.ncbi.nlm.nih.gov/38241161/"
+  - "https://pubmed.ncbi.nlm.nih.gov/40023293/"
+  - "https://en.wikipedia.org/wiki/Mitochondrial_disease"
 ---
 
 ## Definition
 
 **Mitochondrial dysfunction** refers to a breakdown in the physiological processes of the mitochondrion, the double-membrane-bound organelle responsible for generating adenosine triphosphate (ATP) through oxidative phosphorylation (OXPHOS). In the context of neuroscience, mitochondrial dysfunction is characterized by an imbalance between ATP production and cellular energy demand, an increase in the production of reactive oxygen species (ROS), impaired mitochondrial dynamics (fission and fusion), and defective mitophagic clearance. 
 
-While mitochondrial impairment is a feature of various pathologies, it is a primary driver in the framework of [[Neurometabolic Dysfunction in Alzheimer’s]], where the failure of bioenergetic homeostasis contributes directly to synaptic loss, axonal degeneration, and neuronal death.
+While mitochondrial impairment is a feature of various pathologies, it is a primary driver in the framework of [[neurometabolic-dysfunction-in-alzheimers|Neurometabolic Dysfunction in Alzheimer’s]], where the failure of bioenergetic homeostasis contributes directly to synaptic loss, axonal degeneration, and neuronal death.
 
 ## Pathophysiological Mechanisms
 
@@ -31,7 +27,7 @@ The Electron Transport Chain (ETC), specifically Complexes I, III, and IV, serve
 Mitochondria are not static structures but exist in a dynamic equilibrium of fusion (the merging of two mitochondria) and fission (the division of one into two).
 *   **Fusion:** Mediated by proteins such as **Mitofusins (MFN1, MFN2)** and **OPA1**, fusion allows for the exchange of genetic material and the dilution of damaged components.
 *   **Fission:** Mediated by **DRP1 (Dynamin-related protein 1)**, fission is essential for mitochondrial segregation and the isolation of damaged segments for degradation.
-In many neurodegenerative states, an imbalance—often excessive fission—leads to mitochondrial fragmentation, which is a hallmark of cellular senescence and the early stages of [[Neuroinflammation]].
+In many neurodegenerative states, an imbalance—often excessive fission—leads to mitochondrial fragmentation, which is a hallmark of cellular senescence and the early stages of [[neuroinflammation-targets|Neuroinflammation]].
 
 ### 3. Defective Mitophagy and Quality Control
 Mitophagy is the selective autophagy of damaged mitochondria. The **PINK1/Parkin pathway** is the most well-characterized mechanism for identifying dysfunctional mitochondria. PINK1 accumulates on the outer mitochondrial membrane of depolarized mitochondria, recruiting the E3 ubiquitin ligase Parkin. This signals the autophagic machinery to engulf and degrade the organelle. Failure in this "quality control" mechanism leads to the accumulation of "zombie" mitochondria that consume ATP while producing lethal levels of ROS.
@@ -43,7 +39,7 @@ Mitochondria act as critical buffers for intracellular calcium ($Ca^{2+}$). Thro
 
 The relationship between mitochondrial failure and neurodegeneration is a central pillar of modern neuroscience.
 
-### Connection to [[Neurometabolic Dysfunction in Alzheimer’s]]
+### Connection to [[neurometabolic-dysfunction-in-alzheimers|Neurometabolic Dysfunction in Alzheimer’s]]
 In Alzheimer’s Disease (AD), mitochondrial dysfunction is not merely a byproduct of cell death but an upstream initiator. The accumulation of amyloid-beta ($A\beta$) oligomers has been shown to directly inhibit **Complex IV (Cytochrome c oxidase)**, the terminal enzyme of the ETC. This inhibition creates a profound energy crisis, reducing the ATP available for the Na+/K+-ATPase pumps necessary for maintaining neuronal membrane potentials. This metabolic starvation leads to the synaptic failure characteristic of the early stages of AD.
 
 Furthermore, the hyperphosphorylation of **Tau protein** has been linked to the disruption of axonal transport of mitochondria. When mitochondria cannot be transported to distal synapses, the energy-dem-demanding synaptic terminals undergo "metabolic starvation," contributing to the cognitive decline observed in patients.

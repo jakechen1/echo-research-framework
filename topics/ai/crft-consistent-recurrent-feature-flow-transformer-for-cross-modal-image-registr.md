@@ -7,7 +7,7 @@ tags: [computer-vision, transformers, image-registration, multimodal-learning]
 
 # CRFT: Consistent-Recurrent Feature Flow Transformer
 
-The **Consistent-Recurrent Feature Flow Transformer (CRFT)** is an advanced, unified coarse-to-fine framework designed to solve the complexities of [[Cross-Modal Image Registration]]. By leveraging [[Transformer Architecture]], CRFT establishes a modality-independent feature flow representation, allowing for robust alignment between images from different sensing modalities.
+The **Consistent-Recurrent Feature Flow Transformer (CRFT)** is an advanced, unified coarse-to-fine framework designed to solve the complexities of [[cross-modal-image-registration|Cross-Modal Image Registration]]. By leveraging [[transformer-architecture|Transformer Architecture]], CRFT establishes a modality-independent feature flow representation, allowing for robust alignment between images from different sensing modalities.
 
 ### Architectural Overview
 

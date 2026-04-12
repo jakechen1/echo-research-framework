@@ -8,10 +8,10 @@ category: ai, machine-learning, technology
 
 # Can VLMs Unlock Semantic Anomaly Detection? A Framework for Structured Reasoning
 
-The paper introduces **SAVANT** (Semantic Anomaly Verification/Analysis Toolkit), a novel, model-agnostic reasoning framework designed to enhance [[Anomaly Detection]] within [[Autonomous Driving]] systems. 
+The paper introduces **SAVANT** (Semantic Anomaly Verification/Analysis Toolkit), a novel, model-agnostic reasoning framework designed to enhance [[a-giant-step-baby-step-classifier-for-scalable-and-real-time-anomaly-detection-i|Anomaly Detection]] within [[dvgt-2-vision-geometry-action-model-for-autonomous-driving-at-scale|Autonomous Driving]] systems. 
 
 ### The Problem: The Long-Tail Challenge
-A critical vulnerability in modern autonomous systems is the "long-tail" distribution of rare, [[Out-of-Distribution]] (OOD) semantic anomalies. While [[Vision-Language Models]] (VLMs) have emerged as powerful tools for perception, their current use in anomaly detection typically relies on ad hoc prompting of proprietary models. This approach suffers from significant limitations regarding reliability, reproducibility, and the high computational costs of deployment.
+A critical vulnerability in modern autonomous systems is the "long-tail" distribution of rare, [[out-of-distribution|Out-of-Distribution]] (OOD) semantic anomalies. While [[aligned-vector-quantization-for-edge-cloud-collabrative-vision-language-models|Vision-Language Models]] (VLMs) have emerged as powerful tools for perception, their current use in anomaly detection typically relies on ad hoc prompting of proprietary models. This approach suffers from significant limitations regarding reliability, reproducibility, and the high computational costs of deployment.
 
 ### The Solution: The SAVANT Framework
 To bridge this gap, the authors propose a framework that transforms VLM-based detection into a principled, multi-stage process. Instead of simple prompting, SAVANT utilizes a two-phase pipeline:
@@ -23,7 +23,7 @@ By substituting unstructured prompts with semantic-aware reasoning, the framewor
 ### Key Results and Impact
 The implementation of SAVANT yielded several breakthrough results:
 *   **Improved Recall:** Applying SAVANT improved the absolute recall of VLMs by approximately 18.5% compared to standard prompting baselines.
-*   **Automated Data Curation:** The framework enabled high-confidence, large-scale [[Data Annotation]], allowing the researchers to automatically label 10,000 real-world images.
+*   **Automated Data Curation:** The framework enabled high-confidence, large-scale [[data-annotation|Data Annotation]], allowing the researchers to automatically label 10,000 real-world images.
 *   **Efficient Local Deployment:** Leveraging the newly curated dataset, the researchers fine-tuned an open-source **Qwen2.5-VL** (7B) model. The resulting model achieved 90.8% recall and 93.8% accuracy, surpassing previous benchmarks while remaining capable of local deployment at near-zero cost.
 
-Ultimately, SAVANT provides a scalable solution to the problem of [[Data Scarcity]] in [[Computer Vision]] applications, offering a pathway to safer, more robust [[Machine Learning]] deployments in safety-critical environments.
+Ultimately, SAVANT provides a scalable solution to the problem of [[data-scarcity|Data Scarcity]] in [[computer-vision|Computer Vision]] applications, offering a pathway to safer, more robust [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] deployments in safety-critical environments.

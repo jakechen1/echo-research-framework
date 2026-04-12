@@ -8,10 +8,10 @@ category: ai
 
 # StarVLA
 
-StarVLA is an open-source, modular framework specifically designed to address the extreme fragmentation currently hindering research in [[Vision-Language-Action (VLA)]] models. As the development of [[Embodied AI]] requires the seamless integration of perception, language understanding, and physical action, StarVMA provides a unified ecosystem to facilitate the creation of generalist agents.
+StarVLA is an open-source, modular framework specifically designed to address the extreme fragmentation currently hindering research in [[vision-language-action-vla|Vision-Language-Action (VLA)]] models. As the development of [[towards-provable-probabilistic-safety-for-scalable-embodied-ai-systems|Embodied AI]] requires the seamless integration of perception, language understanding, and physical action, StarVMA provides a unified ecosystem to facilitate the creation of generalist agents.
 
 ### Modular Architecture
-The core strength of StarVLA lies in its "Lego-like" design. It employs a decoupled architecture where the backbone and the action head can be swapped independently. This structural flexibility allows researchers to utilize diverse [[Vision-Language Models (VLM)]], such as Qwen-VL, or integrate advanced [[World Models]] like Cosmos into a unified training pipeline. This modularity is essential for prototyping new [[Machine Learning]] architectures without the need to rewrite fundamental codebases or incompatible architectures.
+The core strength of StarVLA lies in its "Lego-like" design. It employs a decoupled architecture where the backbone and the action head can be swapped independently. This structural flexibility allows researchers to utilize diverse [[vision-language-models-vlm|Vision-Language Models (VLM)]], such as Qwen-VL, or integrate advanced [[causalvae-as-a-plug-in-for-world-models-towards-reliable-counterfactual-dynamics|World Models]] like Cosmos into a unified training pipeline. This modularity is essential for prototyping new [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] architectures without the need to rewrite fundamental codebases or incompatible architectures.
 
 ### Unified Training and Evaluation
-Beyond architecture, StarVLA implements standardized, reusable training strategies, including [[cross-embodiment learning]] and [[multimodal co-training]]. These strategies are designed to work consistently across various robotic
+Beyond architecture, StarVLA implements standardized, reusable training strategies, including [[cross-embodiment-learning|cross-embodiment learning]] and [[multimodal-co-training|multimodal co-training]]. These strategies are designed to work consistently across various robotic

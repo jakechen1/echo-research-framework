@@ -8,7 +8,7 @@ category: ai
 
 # Dynamic Attentional Context Scoping (DACS)
 
-**Dynamic Attentional Context Scoping (DACS)** is an architectural mechanism designed to solve the problem of [[context pollution]] within [[Multi-Agent Systems]] (MAS). In complex [[Large Language Models]] (LLM) orchestration, a central orchestrator often manages multiple concurrent agents. As the number of agents ($N$) increases, the orchestrator's [[context window]] becomes saturated with interleaved task states, partial outputs, and competing instructions, which degrades the quality of decision-making and steering.
+**Dynamic Attentional Context Scoping (DACS)** is an architectural mechanism designed to solve the problem of [[context-pollution|context pollution]] within [[strategic-persuasion-with-trait-conditioned-multi-agent-systems-for-iterative-le|Multi-Agent Systems]] (MAS). In complex [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLM) orchestration, a central orchestrator often manages multiple concurrent agents. As the number of agents ($N$) increases, the orchestrator's [[lsrm-high-fidelity-object-centric-reconstruction-via-scaled-context-windows|context window]] becomes saturated with interleaved task states, partial outputs, and competing instructions, which degrades the quality of decision-making and steering.
 
 ## The Problem: Context Pollution
 In traditional "flat-context" orchestration, every agent's data competes for the same limited attention space. This results in "cross-agent contamination," where the instructions or outputs of Agent A interfere with the processing of Agent B. This interference leads to significant drops in steering accuracy and makes scaling agentic workflows computationally inefficient.

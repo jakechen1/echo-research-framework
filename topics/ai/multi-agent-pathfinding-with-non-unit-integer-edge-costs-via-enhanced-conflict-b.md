@@ -8,7 +8,7 @@ category: [ai, technology]
 
 # Multi-Agent Pathfinding with Non-Unit Integer Edge Costs
 
-The research presented in arXiv:2604.05416 addresses a fundamental limitation in [[Multi-Agent Pathfinding]] (MAPF). Traditionally, MAPF models operate under the assumption of unit edge costs and single-timestep actions. While these constraints allow for efficient computation, they lack the realism required for complex, real-world applications where movement durations and traversal costs vary significantly.
+The research presented in arXiv:2604.05416 addresses a fundamental limitation in [[multi-agent-pathfinding-with-non-unit-integer-edge-costs-via-enhanced-conflict-b|Multi-Agent Pathfinding]] (MAPF). Traditionally, MAPF models operate under the assumption of unit edge costs and single-timestep actions. While these constraints allow for efficient computation, they lack the realism required for complex, real-world applications where movement durations and traversal costs vary significantly.
 
 ## The Challenge of Realism vs. Complexity
 
@@ -18,9 +18,9 @@ Previous attempts to extend MAPF to handle real-valued edge costs (often referre
 
 The paper introduces two primary technological advancements to solve the MAPFZ problem:
 
-1.  **CBS-NIC**: An enhanced [[Conflict-Based Search]] (CBS) framework. This method integrates time-interval-based conflict detection with an improved version of [[Safe Interval Path Planning]] (SIPP). By focusing on intervals rather than discrete timesteps, the algorithm can more effectively navigate agents through complex, non-uniform temporal constraints.
-2.  **Bayesian Optimization for Graph Design (BOGD)**: A sophisticated discretization method used to handle non-unit edge costs. By employing [[Bayesian Optimization]], BOGD designs graph structures that balance computational efficiency with modeling accuracy, successfully achieving a sub-linear regret bound.
+1.  **CBS-NIC**: An enhanced [[conflict-based-search|Conflict-Based Search]] (CBS) framework. This method integrates time-interval-based conflict detection with an improved version of [[safe-interval-path-planning|Safe Interval Path Planning]] (SIPP). By focusing on intervals rather than discrete timesteps, the algorithm can more effectively navigate agents through complex, non-uniform temporal constraints.
+2.  **Bayesian Optimization for Graph Design (BOGD)**: A sophisticated discretization method used to handle non-unit edge costs. By employing [[we-still-dont-understand-high-dimensional-bayesian-optimization|Bayesian Optimization]], BOGD designs graph structures that balance computational efficiency with modeling accuracy, successfully achieving a sub-linear regret bound.
 
 ## Conclusion
 
-Extensive experimental evaluations demonstrate that the proposed approach significantly outperforms existing state-of-the-art methods. The combination of CBS-NIC and BOGD shows superior performance in both runtime and success rates across various benchmark scenarios, marking a significant advancement in [[Algorithms]] for autonomous [[Robotics]] and coordinated system navigation.
+Extensive experimental evaluations demonstrate that the proposed approach significantly outperforms existing state-of-the-art methods. The combination of CBS-NIC and BOGD shows superior performance in both runtime and success rates across various benchmark scenarios, marking a significant advancement in [[accelerated-sinkhorn-algorithms-for-partial-optimal-transport|Algorithms]] for autonomous [[ai-driven-marine-robotics-emerging-trends-in-underwater-perception-and-ecosystem|Robotics]] and coordinated system navigation.

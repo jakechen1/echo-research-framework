@@ -1,3 +1,9 @@
+---
+title: "Approximate Replicability In Learning"
+category: machine-learning
+created: 2026-04-12
+---
+
 title: Approximate Replicability in Learning
 created: 2024-05-23
 source: https://arxiv.org/abs/2510.20200
@@ -6,7 +12,7 @@ category: machine-learning
 
 # Approximate Replicability in Learning
 
-The concept of [[Replicability]] in [[Machine Learning]] refers to the property where algorithms remain stable under the resampling of their inputs, provided the algorithm has access to shared randomness. While this provides a robust framework for [[Algorithm Stability]], strict adherence to replicability can be mathematically prohibitive. For instance, certain fundamental tasks, such as [[Threshold Learning]], have been proven impossible to achieve under strict replicable constraints.
+The concept of [[approximate-replicability-in-learning|Replicability]] in [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] refers to the property where algorithms remain stable under the resampling of their inputs, provided the algorithm has access to shared randomness. While this provides a robust framework for [[algorithm-stability|Algorithm Stability]], strict adherence to replicability can be mathematically prohibitive. For instance, certain fundamental tasks, such as [[threshold-learning|Threshold Learning]], have been proven impossible to achieve under strict replicable constraints.
 
 ## The Challenge of Strict Replicability
 

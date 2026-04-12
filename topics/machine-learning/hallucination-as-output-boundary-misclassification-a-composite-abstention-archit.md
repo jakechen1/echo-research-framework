@@ -8,7 +8,7 @@ category: ai
 
 # Hallucination as output-boundary misclassification
 
-The research paper "Hallucination as output-boundary misclassification" proposes a novel framework for mitigating [[hallucinations]] in [[Large Language Models]] (LLMs). Rather than treating hallucinations as stochastic errors, the authors frame them as a specific type of "output-boundary misclassification." In this view, the model erroneously treats internally generated, ungrounded completions as if they were statistically supported by training evidence.
+The research paper "Hallucination as output-boundary misclassification" proposes a novel framework for mitigating [[blending-human-and-llm-expertise-to-detect-hallucinations-and-omissions-in-menta|hallucinations]] in [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs). Rather than treating hallucinations as stochastic errors, the authors frame them as a specific type of "output-boundary misclassification." In this view, the model erroneously treats internally generated, ungrounded completions as if they were statistically supported by training evidence.
 
 ## The Composite Architecture
 
@@ -24,7 +24,7 @@ The structural gate does not require access to the model's internal weights, ins
 
 ## Evaluation and Findings
 
-The study evaluated the architecture across several models, including [[GPT-3.5-turbo]], under various epistemic regimes. The findings revealed that single-layer interventions are insufficient:
+The study evaluated the architecture across several models, including [[gpt-35-turbo|GPT-3.5-turbo]], under various epistemic regimes. The findings revealed that single-layer interventions are insufficient:
 *   **Instruction-only prompting** successfully reduced hallucinations but introduced high "over-abstention," where the model refused to answer perfectly valid questions.
 *   **The structural gate** preserved accuracy on answerable items but failed to detect "confident confabulations" in scenarios involving conflicting evidence.
 

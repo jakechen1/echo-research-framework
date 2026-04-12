@@ -12,9 +12,9 @@ The paper "A Muon-Accelerated Algorithm for Low Separation Rank Tensor Generaliz
 
 ## Background
 
-In complex fields such as [[Biomedical Imaging]], data frequently manifests as [[Tensor-valued data]]. A primary challenge in [[Machine Learning]] is that traditional approaches often rely on "naive vectorization" to incorporate these tensors into [[Generalized Linear Models]] (GLMs). This process is problematic because vectorization destroys the essential multi-way structure of the data, leading to high-dimensional and ill-posed estimation problems.
+In complex fields such as [[biomedical-imaging|Biomedical Imaging]], data frequently manifests as [[tensor-valued-data|Tensor-valued data]]. A primary challenge in [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] is that traditional approaches often rely on "naive vectorization" to incorporate these tensors into [[generalized-linear-models|Generalized Linear Models]] (GLMs). This process is problematic because vectorization destroys the essential multi-way structure of the data, leading to high-dimensional and ill-posed estimation problems.
 
-To address this, [[Low Separation Rank]] (LSR) decompositions are employed. These decompositions reduce model complexity by imposing a low-rank multilinear structure on the coefficient tensor. The current standard approach, known as the Low Separation Rank Tensor Regression (LSRTR) algorithm, utilizes [[Block Coordinate Descent]] and enforces the orthogonality of factor matrices through repeated [[QR Decomposition]]-based projections. However, these repeated projection steps are computationally expensive and result in slow convergence.
+To address this, [[a-muon-accelerated-algorithm-for-low-separation-rank-tensor-generalized-linear-m|Low Separation Rank]] (LSR) decompositions are employed. These decompositions reduce model complexity by imposing a low-rank multilinear structure on the coefficient tensor. The current standard approach, known as the Low Separation Rank Tensor Regression (LSRTR) algorithm, utilizes [[block-coordinate-descent|Block Coordinate Descent]] and enforces the orthogonality of factor matrices through repeated [[qr-decomposition|QR Decomposition]]-based projections. However, these repeated projection steps are computationally expensive and result in slow convergence.
 
 ## The LSRTR-M Innovation
 
@@ -28,4 +28,4 @@ The performance of LSRTR-M was evaluated across various synthetic models, includ
 * **Accuracy:** Achieving lower normalized estimation and prediction errors compared to predecessor algorithms.
 * **Scalability:** Demonstrated superior computational efficiency on the **Vessel MNIST 3D** task, maintaining highly competitive classification performance.
 
-This advancement offers a more scalable and efficient pathway for [[Algorithm Optimization]] in large-scale tensor-based estimation and signal processing applications.
+This advancement offers a more scalable and efficient pathway for [[algorithm-optimization|Algorithm Optimization]] in large-scale tensor-based estimation and signal processing applications.

@@ -8,7 +8,7 @@ category: machine-learning
 
 # LNN-PINN
 
-**LNN-PINN** is an advanced [[machine-learning]] framework designed to enhance the predictive accuracy of [[Physics-Informed Neural Networks]] (PINNs). While traditional PINNs are highly effective at integrating priors from [[partial differential equations]] into deep learning architectures, they frequently encounter limitations in accuracy when applied to highly complex or non-linear scientific problems.
+**LNN-PINN** is an advanced [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|machine-learning]] framework designed to enhance the predictive accuracy of [[curvature-aware-optimization-for-high-accuracy-physics-informed-neural-networks|Physics-Informed Neural Networks]] (PINNs). While traditional PINNs are highly effective at integrating priors from [[ae-vit-stable-long-horizon-parametric-partial-differential-equations-modeling|partial differential equations]] into deep learning architectures, they frequently encounter limitations in accuracy when applied to highly complex or non-linear scientific problems.
 
 ## Overview
 
@@ -18,7 +18,7 @@ The framework employs a lightweight gating mechanism specifically within the hid
 
 ## Key Features and Performance
 
-LNN-PINN offers several significant advantages for [[computational physics]] and [[engineering]]:
+LNN-PINN offers several significant advantages for [[computational-physics|computational physics]] and [[hyve-hybrid-views-for-llm-context-engineering-over-machine-data|engineering]]:
 
 * **Architectural Efficiency:** The gating mechanism is lightweight, providing a concise enhancement to existing models without the computational overhead of much larger architectures.
 * **Predictive Accuracy:** In benchmark testing across four diverse problems, LNN-PINN demonstrated a consistent reduction in both Root Mean Square Error (RMSE) and Mean Absolute Error (MAE) compared to standard architectures.
@@ -27,4 +27,4 @@ LNN-PINN offers several significant advantages for [[computational physics]] and
 
 ## Applications
 
-The LNN-PINN framework is particularly relevant for researchers working in [[fluid dynamics]], [[structural mechanics]], and any field involving the simulation of complex physical phenomena through [[deep learning]]. It serves as a robust tool for scaling the capabilities of physics-informed models to more challenging, high-dimensional scientific tasks.
+The LNN-PINN framework is particularly relevant for researchers working in [[fluid-dynamics|fluid dynamics]], [[structural-mechanics|structural mechanics]], and any field involving the simulation of complex physical phenomena through [[benchmarking-deep-learning-for-future-liver-remnant-segmentation-in-colorectal-l|deep learning]]. It serves as a robust tool for scaling the capabilities of physics-informed models to more challenging, high-dimensional scientific tasks.

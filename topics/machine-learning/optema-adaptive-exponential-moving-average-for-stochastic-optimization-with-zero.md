@@ -8,7 +8,7 @@ category: machine-learning
 
 # OptEMA
 
-**OptEMA** (Adaptive Exponential Moving Average) is a novel framework designed to advance the efficiency and theoretical robustness of [[Stochastic Optimization]]. While the [[Exponential Moving Average]] (EMA) serves as a fundamental building block for widely utilized optimizers such as [[Adam]], existing analyses of Adam-style methods often face significant theoretical bottlenecks. These include a reliance on known [[Lipschitz constants]], the requirement for bounded gradients, and suboptimal performance in the zero-noise regime.
+**OptEMA** (Adaptive Exponential Moving Average) is a novel framework designed to advance the efficiency and theoretical robustness of [[neural-two-stage-stochastic-optimization-for-solving-unit-commitment-problem|Stochastic Optimization]]. While the [[optema-adaptive-exponential-moving-average-for-stochastic-optimization-with-zero|Exponential Moving Average]] (EMA) serves as a fundamental building block for widely utilized optimizers such as [[flowadam-implicit-regularization-via-geometry-aware-soft-momentum-injection|Adam]], existing analyses of Adam-style methods often face significant theoretical bottlenecks. These include a reliance on known [[lipschitz-constants|Lipschitz constants]], the requirement for bounded gradients, and suboptimal performance in the zero-noise regime.
 
 ## Overview of Variants
 
@@ -21,6 +21,6 @@ The foundational innovation of both variants is the **Corrected AdaGrad-Norm** s
 
 ## Theoretical Convergence
 
-Under standard [[Stochastic Gradient Descent]] (SGD) assumptions—specifically smoothness, a lower-bounded objective, and unbiased gradients with bounded variance—OptEMA achieves a noise-adaptive convergence rate of $\widetilde{\mathcal{O}}(T^{-1/2}+\sigma^{1/2} T^{-1/4})$, where $\sigma$ represents the noise level.
+Under standard [[stochastic-gradient-descent-in-the-saddle-to-saddle-regime-of-deep-linear-networ|Stochastic Gradient Descent]] (SGD) assumptions—specifically smoothness, a lower-bounded objective, and unbiased gradients with bounded variance—OptEMA achieves a noise-adaptive convergence rate of $\widetilde{\mathcal{O}}(T^{-1/2}+\sigma^{1/2} T^{-1/4})$, where $\sigma$ represents the noise level.
 
-A critical feature of this method is its **zero-noise optimality**. In deterministic scenarios where noise is absent ($\sigma=0$), the convergence bounds automatically reduce to the nearly optimal deterministic rate of $\widetilde{\mathcal{O}}(T^{-1/2})$. This transition occurs seamlessly without the need for manual hyperparameter retuning, making OptEMA a highly robust candidate for complex [[Deep Learning]] tasks where noise levels vary across training stages.
+A critical feature of this method is its **zero-noise optimality**. In deterministic scenarios where noise is absent ($\sigma=0$), the convergence bounds automatically reduce to the nearly optimal deterministic rate of $\widetilde{\mathcal{O}}(T^{-1/2})$. This transition occurs seamlessly without the need for manual hyperparameter retuning, making OptEMA a highly robust candidate for complex [[benchmarking-deep-learning-for-future-liver-remnant-segmentation-in-colorectal-l|Deep Learning]] tasks where noise levels vary across training stages.

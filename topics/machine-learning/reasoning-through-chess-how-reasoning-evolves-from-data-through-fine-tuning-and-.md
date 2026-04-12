@@ -8,7 +8,7 @@ category: ai, machine-learning
 
 # Reasoning Through Chess
 
-The research paper "Reasoning Through Chess: How Reasoning Evolves from Data Through Fine-Tuning and Reinforcement Learning" investigates the developmental trajectory of reasoning capabilities within [[Large Language Models]] (LLMs). By using [[Chess]] as a controlled, high-complexity benchmark, the authors study how reasoning emerges as a model moves from [[Supervised Fine-Tuning]] (SFT) to [[Reinforcement Learning]] (RL).
+The research paper "Reasoning Through Chess: How Reasoning Evolves from Data Through Fine-Tuning and Reinforcement Learning" investigates the developmental trajectory of reasoning capabilities within [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs). By using [[1d-chess|Chess]] as a controlled, high-complexity benchmark, the authors study how reasoning emerges as a model moves from [[supervised-fine-tuning|Supervised Fine-Tuning]] (SFT) to [[deepsearch-overcome-the-bottleneck-of-reinforcement-learning-with-verifiable-rew|Reinforcement Learning]] (RL).
 
 ## The Evolution of Reasoning via SFT
 
@@ -19,8 +19,8 @@ The study focuses on how different SFT datasets impact the model's ability to pe
 
 ## Benefits of Reinforcement Learning
 
-The researchers found that the RL phase provides more than just strategic improvements. Beyond a substantial positive shift in the distribution of move quality, RL serves as a corrective mechanism that reduces [[Hallucination]] rates as a secondary effect. This suggests that RL can refine the reliability of a model's output alongside its accuracy.
+The researchers found that the RL phase provides more than just strategic improvements. Beyond a substantial positive shift in the distribution of move quality, RL serves as a corrective mechanism that reduces [[blending-human-and-llm-expertise-to-detect-hallucinations-and-omissions-in-menta|Hallucination]] rates as a secondary effect. This suggests that RL can refine the reliability of a model's output alongside its accuracy.
 
 ## Predictive Metrics and Performance
 
-A key discovery presented in the paper is that specific metrics from the SFT checkpoint—spanning evaluation performance, hallucination rates, and reasoning quality—are highly predictive of the model’s post-RL performance. By leveraging these insights, the authors produced a 7B-parameter model capable of surpassing leading open-source reasoning models in [[Chess]] proficiency.
+A key discovery presented in the paper is that specific metrics from the SFT checkpoint—spanning evaluation performance, hallucination rates, and reasoning quality—are highly predictive of the model’s post-RL performance. By leveraging these insights, the authors produced a 7B-parameter model capable of surpassing leading open-source reasoning models in [[1d-chess|Chess]] proficiency.

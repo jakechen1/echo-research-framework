@@ -8,7 +8,7 @@ category: ai
 
 # WebExpert
 
-**WebExpert** is an advanced [[Web Agent]] framework designed to address the inherent difficulties of performing high-precision searches within specialized domains. While general-purpose agents perform well on broad queries, tasks in specialized fields such as [[Biomedicine]], [[Finance]], and [[Pharmaceuticals]] often suffer from "query drift," noisy evidence, and brittle reasoning due to a lack of domain-specific priors.
+**WebExpert** is an advanced [[websp-eval-evaluating-web-agents-on-website-security-and-privacy-tasks|Web Agent]] framework designed to address the inherent difficulties of performing high-precision searches within specialized domains. While general-purpose agents perform well on broad queries, tasks in specialized fields such as [[biomedicine|Biomedicine]], [[finance|Finance]], and [[pharmaceuticals|Pharmaceuticals]] often suffer from "query drift," noisy evidence, and brittle reasoning due to a lack of domain-specific priors.
 
 ## Core Innovations
 
@@ -24,7 +24,7 @@ At the inference stage, WebExpert utilizes a lightweight **experience gate**. Th
 
 ## Performance Benchmarks
 
-WebExpert has demonstrated significant improvements over the strongest existing [[Browsing Baseline]] models. In rigorous evaluations conducted on benchmarks including [[GAIA]], [[GPQA]], [[HLE]], and [[WebWalkerQA]], WebExpert achieved:
+WebExpert has demonstrated significant improvements over the strongest existing [[browsing-baseline|Browsing Baseline]] models. In rigorous evaluations conducted on benchmarks including [[gaia|GAIA]], [[gpqa|GPQA]], [[hle|HLE]], and [[webwalkerqa|WebWalkerQA]], WebExpert achieved:
 
 *   An increase in **Answer Exact Match (EM)** scores by 1.5 to 3.6 percentage points.
-*   A measurable reduction in the number of **page hops** required to find information, indicating higher navigational efficiency and more precise [[Information Retrieval]].
+*   A measurable reduction in the number of **page hops** required to find information, indicating higher navigational efficiency and more precise [[information-retrieval|Information Retrieval]].

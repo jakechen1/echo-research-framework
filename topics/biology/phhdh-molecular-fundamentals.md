@@ -3,22 +3,17 @@ title: "PHHDH: Molecular Fundamentals"
 created: 2026-04-11
 category: biology
 tags: [metabolism, enzymes, biochemistry, oncology, serine biosynthesis]
-    title: "PHGDH is a key driver of serine biosynthesis in cancer"
-  - url: "https://pubmed.ncbi.nlm.nih.gov/25200345/"
-    title: "The role of phosphoglycerate dehydrogenase in cancer metabolism"
-  - url: "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/phosphoglycerate-dehydrogenase"
-    title: "Phosphoglycerate Dehydrogenase - Encyclopedia of Biological Chemistry"
 source_urls:
-  - "https://www.nature.com/articles/s41589-020-0523-x"
-  - "https://pubmed.ncbi.nlm.nih.gov/25200345/"
-  - "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/phosphoglycerate-dehydrogenase"
+  - "https://pubmed.ncbi.nlm.nih.gov/12209002/"
+  - "https://pubmed.ncbi.nlm.nih.gov/36990946/"
+  - "https://pubmed.ncbi.nlm.nih.gov/36251047/"
 ---
 
 ## Overview
 
-**PHGDH** (Phosphoglycerate Dehydrogenase, often referred to in specific metabolic contexts within the context of the **PHHDH** nomenclature) is the rate-limiting enzyme that initiates the de novo synthesis of L-serine. As the first committed step in [[The Serine Biosynthetic Pathway]], this enzyme plays a critical role in diverting carbon intermediates from [[Glycolysis]] toward amino acid production. Specifically, PHGDH catalyzes the NAD⁺-dependent oxidation of 3-phosphoglycerate (3-PG) to 3-phosphohydroxypyruvate (3-PHP).
+**PHGDH** (Phosphoglycerate Dehydrogenase, often referred to in specific metabolic contexts within the context of the **PHHDH** nomenclature) is the rate-limiting enzyme that initiates the de novo synthesis of L-serine. As the first committed step in [[the-serine-biosynthetic-pathway|The Serine Biosynthetic Pathway]], this enzyme plays a critical role in diverting carbon intermediates from [[glycolysis|Glycolysis]] toward amino acid production. Specifically, PHGDH catalyzes the NAD⁺-dependent oxidation of 3-phosphoglycerate (3-PG) to 3-phosphohydroxypyruvate (3-PHP).
 
-The regulation of this enzyme is fundamental to cellular homeostasis, as it governs the flux of carbon into [[One-Carbon Metabolism]], which is essential for nucleotide biosynthesis, methylation reactions, and redox balance via the production of glutathione. In recent years, PHGDH has emerged as a significant focal point in cancer biology, where its overexpression drives the metabolic reprogramming necessary for rapid cellular proliferation and survival under nutrient-deprived conditions.
+The regulation of this enzyme is fundamental to cellular homeostasis, as it governs the flux of carbon into [[one-carbon-metabolism|One-Carbon Metabolism]], which is essential for nucleotide biosynthesis, methylation reactions, and redox balance via the production of glutathione. In recent years, PHGDH has emerged as a significant focal point in cancer biology, where its overexpression drives the metabolic reprogramming necessary for rapid cellular proliferation and survival under nutrient-deprived conditions.
 
 ## Molecular Architecture and Domain Structure
 
@@ -45,7 +40,7 @@ This reaction is critical because it marks the departure of carbon from the ener
 
 To prevent the depletion of glycolytic intermediates and the overproduction of serine, PHGDH is subject to rigorous allosteric control. The primary regulatory mechanism is **feedback inhibition by L-serine**.
 
-When intracellular concentrations of L-serine reach a physiological threshold, serine molecules bind to the C-terminal regulatory domain (Domain 4). This binding event induces a conformational change that is propagated through the tetramerization domain to the catalytic site. This structural shift reduces the enzyme's affinity for its substrate (3-PG) or inhibits the hydride transfer process, effectively throttling the flux through [[The Serine Biosynthetic Pathway]].
+When intracellular concentrations of L-serine reach a physiological threshold, serine molecules bind to the C-terminal regulatory domain (Domain 4). This binding event induces a conformational change that is propagated through the tetramerization domain to the catalytic site. This structural shift reduces the enzyme's affinity for its substrate (3-PG) or inhibits the hydride transfer process, effectively throttling the flux through [[the-serine-biosynthetic-pathway|The Serine Biosynthetic Pathway]].
 
 This mechanism ensures that the cell maintains a precise balance between the need for serine-derived precursors (such as glycine and cysteine) and the maintained efficiency of glycolysis for ATP production.
 

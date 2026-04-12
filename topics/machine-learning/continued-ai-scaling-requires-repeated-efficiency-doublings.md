@@ -8,7 +8,7 @@ categories: [ai, machine-learning, technology]
 
 # Continued AI Scaling Requires Repeated Efficiency Doublings
 
-The research paper arXiv:2603.28507 explores the fundamental economic and physical constraints governing the current era of [[Artificial Intelligence]] development. The central thesis posits that the continuation of modern [[Scaling Laws]] is not merely a matter of adding more data or more GPUs, but is fundamentally dependent on recurrent "efficiency doublings" across the entire computing stack.
+The research paper arXiv:2603.28507 explores the fundamental economic and physical constraints governing the current era of [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] development. The central thesis posits that the continuation of modern [[modernizing-amdahls-law-how-ai-scaling-laws-shape-computer-architecture|Scaling Laws]] is not merely a matter of adding more data or more GPUs, but is fundamentally dependent on recurrent "efficiency doublings" across the entire computing stack.
 
 ## Logical vs. Physical Compute
 
@@ -18,11 +18,11 @@ The paper suggests that "diminishing returns" should not be interpreted as a pla
 
 ## The Efficiency Mandate
 
-To sustain the current trajectory of AI advancement, the industry must maintain a cadence of improvement analogous to [[Moore's Law]]. The authors argue that these efficiency gains are not optional; they are a requirement to offset the rising cost of scaling. These gains must manifest across three critical layers:
+To sustain the current trajectory of AI advancement, the industry must maintain a cadence of improvement analogous to [[moores-law|Moore's Law]]. The authors argue that these efficiency gains are not optional; they are a requirement to offset the rising cost of scaling. These gains must manifest across three critical layers:
 
-*   **[[Hardware]] Architecture**: The development of more efficient specialized accelerators and advanced silicon fabrication.
-*   **[[Algorithms]]**: The creation of neural architectures that maximize intelligence per floating-point operation.
-*   **[[Systems Engineering]]**: Improvements in distributed computing, power management, and data orchestration.
+*   **[[ahcq-sam-toward-accurate-and-hardware-compatible-post-training-segment-anything-|Hardware]] Architecture**: The development of more efficient specialized accelerators and advanced silicon fabrication.
+*   **[[accelerated-sinkhorn-algorithms-for-partial-optimal-transport|Algorithms]]**: The creation of neural architectures that maximize intelligence per floating-point operation.
+*   **[[systems-engineering|Systems Engineering]]**: Improvements in distributed computing, power management, and data orchestration.
 
 ## Conclusion
 

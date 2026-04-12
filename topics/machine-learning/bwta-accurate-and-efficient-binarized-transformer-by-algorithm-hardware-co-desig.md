@@ -8,12 +8,12 @@ categories: [ai, machine-learning, technology]
 
 # BWTA: Accurate and Efficient Binarized Transformer by Algorithm-Hardware Co-design
 
-**BWTA** (Binary Weights & Ternary Activations) is a novel framework designed to enable ultra-low-bit [[Quantization]] in [[Transformer]] architectures without the typical-heavy loss in accuracy or lack of hardware acceleration. The research employs an algorithm-hardware co-design approach to bridge the gap between extreme compression and practical deployment.
+**BWTA** (Binary Weights & Ternary Activations) is a novel framework designed to enable ultra-low-bit [[3dturboquant-training-free-near-optimal-quantization-for-3d-reconstruction-model|Quantization]] in [[crft-consistent-recurrent-feature-flow-transformer-for-cross-modal-image-registr|Transformer]] architectures without the typical-heavy loss in accuracy or lack of hardware acceleration. The research employs an algorithm-hardware co-design approach to bridge the gap between extreme compression and practical deployment.
 
 ## Problem Statement
-While ultra-low-bit quantization offers massive potential for reducing the computational footprint of [[Machine Learning]] models, two primary obstacles exist:
+While ultra-low-bit quantization offers massive potential for reducing the computational footprint of [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] models, two primary obstacles exist:
 1. **Accuracy Degradation:** Traditional binarization often suffers from "zero-point distortion," leading to significant performance drops.
-2. **Hardware Inefficiency:** Existing low-bit methods often lack optimized [[CUDA]] kernels, preventing real-world speedups on modern GPUs.
+2. **Hardware Inefficiency:** Existing low-bit methods often lack optimized [[foundry-template-based-cuda-graph-context-materialization-for-fast-llm-serving-c|CUDA]] kernels, preventing real-world speedups on modern GPUs.
 
 ## Proposed Solution
 

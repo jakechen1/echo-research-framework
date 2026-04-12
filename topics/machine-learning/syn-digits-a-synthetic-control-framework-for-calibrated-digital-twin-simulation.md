@@ -8,7 +8,7 @@ categories: [ai, machine-learning, technology]
 
 # SYN-DIGITS: A Synthetic Control Framework for Calibrated Digital Twin Simulation
 
-[[Large Language Models]] (LLMs) are increasingly utilized for [[persona simulation]], a technique frequently referred to as [[digital twin simulation]]. This approach is becoming foundational in fields such as [[market research]], [[recommender systems]], and the [[social sciences]]. However, a critical bottleneck persists: LLMs often exhibit systematic bias and miscalibration relative to actual human behavior, which severely limits their reliability for high-stakes decision-making.
+[[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) are increasingly utilized for [[persona-simulation|persona simulation]], a technique frequently referred to as [[syn-digits-a-synthetic-control-framework-for-calibrated-digital-twin-simulation|digital twin simulation]]. This approach is becoming foundational in fields such as [[market-research|market research]], [[the-unreasonable-effectiveness-of-data-for-recommender-systems|recommender systems]], and the [[social-sciences|social sciences]]. However, a critical bottleneck persists: LLMs often exhibit systematic bias and miscalibration relative to actual human behavior, which severely limits their reliability for high-stakes decision-making.
 
 ## The SYN-DIGITS Framework
 

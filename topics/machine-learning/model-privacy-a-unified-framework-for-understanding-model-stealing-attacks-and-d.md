@@ -9,9 +9,9 @@ category: machine-learning
 # Model Privacy: A Unified Framework for Understanding Model Stealing Attacks and Defenses
 
 ## Overview
-As [[Machine Learning]] (ML) applications become integrated into essential infrastructure—ranging from [[Cloud Computing]] services to on-chip AI interfaces—the risk of intellectual property theft has grown significantly. A primary threat is the **model stealing attack**, where an adversary uses limited query-response interactions to reconstruct a proprietary model. 
+As [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] (ML) applications become integrated into essential infrastructure—ranging from [[cloud-computing|Cloud Computing]] services to on-chip AI interfaces—the risk of intellectual property theft has grown significantly. A primary threat is the **model stealing attack**, where an adversary uses limited query-response interactions to reconstruct a proprietary model. 
 
-This research introduces a groundbreaking framework titled "**Model Privacy**." This framework addresses the lack of theoretical standardization and evaluation criteria prevalent in existing literature regarding attack and defense strategies in the field of [[Adversarial Machine Learning]].
+This research introduces a groundbreaking framework titled "**Model Privacy**." This framework addresses the lack of theoretical standardization and evaluation criteria prevalent in existing literature regarding attack and defense strategies in the field of [[adversarial-machine-learning|Adversarial Machine Learning]].
 
 ## The Model Privacy Framework
 The authors present a unified theoretical foundation that moves beyond heuristic-based approaches. The framework focuses on three core pillars:
@@ -26,6 +26,6 @@ A major takeaway from this work is the importance of the **attack-specific struc
 Through extensive experimentation, the paper demonstrates that defenses developed using this unified framework are more robust and effective than traditional, non-standardized methods. By viewing model privacy through a defender's perspective across various learning scenarios, this work provides the necessary tools to enhance the security of ML models in high-stakes environments.
 
 ## Further Reading
-*   [[Adversarial Machine Learning]]
-*   [[Data Privacy]]
-*   [[Information Theory in ML]]
+*   [[adversarial-machine-learning|Adversarial Machine Learning]]
+*   [[data-privacy|Data Privacy]]
+*   [[information-theory-in-ml|Information Theory in ML]]

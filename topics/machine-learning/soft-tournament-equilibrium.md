@@ -8,11 +8,11 @@ category: [ai, machine-learning]
 
 # Soft Tournament Equilibrium
 
-The evaluation of general-purpose [[Artificial Intelligence]] agents, particularly [[Large Language Models]], faces a fundamental obstacle: the **non-transitive** nature of their interactions. In many competitive or interactive domains, performance is often cyclic—where Agent A defeats Agent B, Agent Undefeated Agent B defeats Agent C, and Agent C defeats Agent A. In such scenarios, traditional linear ranking systems are inherently unstable and provide a misleading representation of agent capabilities.
+The evaluation of general-purpose [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] agents, particularly [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]], faces a fundamental obstacle: the **non-transitive** nature of their interactions. In many competitive or interactive domains, performance is often cyclic—where Agent A defeats Agent B, Agent Undefeated Agent B defeats Agent C, and Agent C defeats Agent A. In such scenarios, traditional linear ranking systems are inherently unstable and provide a misleading representation of agent capabilities.
 
 ## Overview of STE
 
-[[Soft Tournament Equilibrium]] (STE) is a proposed differentiable framework designed to shift the paradigm of evaluation from unstable rankings to a stable, **set-valued core**. Drawing inspiration from classical [[Tournament Theory]], STE seeks to identify a group of "core agents" rather than a single-file hierarchy.
+[[soft-tournament-equilibrium|Soft Tournament Equilibrium]] (STE) is a proposed differentiable framework designed to shift the paradigm of evaluation from unstable rankings to a stable, **set-valued core**. Drawing inspiration from classical [[tournament-theory|Tournament Theory]], STE seeks to identify a group of "core agents" rather than a single-file hierarchy.
 
 ## Technical Framework
 
@@ -21,7 +21,7 @@ The STE framework functions by learning a probabilistic tournament model, which 
 *   **Soft Reachability:** Provides a continuous way to determine the reachability of agents within a tournament graph.
 *   **Soft Covering:** Enables the computation of a continuous version of the **Uncovered Set**.
 
-Through these operators, the system produces a set of agents where each member is assigned a calibrated membership score. This provides a nuanced and robust assessment that accounts for the uncertainty and cyclicality inherent in modern [[Machine Learning]] benchmarks.
+Through these operators, the system produces a set of agents where each member is assigned a calibrated membership score. This provides a nuanced and robust assessment that accounts for the uncertainty and cyclicality inherent in modern [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] benchmarks.
 
 ## Theoretical Significance
 

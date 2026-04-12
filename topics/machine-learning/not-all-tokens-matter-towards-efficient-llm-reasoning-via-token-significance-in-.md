@@ -8,11 +8,11 @@ category: ai, machine-learning
 
 # Not All Tokens Matter: Towards Efficient LLM Reasoning via Token Significance in Reinforcement Learning
 
-The paper "Not All Tokens Matter" addresses a significant bottleneck in the deployment of [[Large Language Models]] (LLMs): the computational inefficiency caused by excessively long and redundant reasoning processes. While [[Chain-of-Thought]] (CoT) prompting has significantly enhanced the reasoning capabilities of models, these models often generate unnecessary verbosity that increases latency and computational costs without adding value to the final answer.
+The paper "Not All Tokens Matter" addresses a significant bottleneck in the deployment of [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs): the computational inefficiency caused by excessively long and redundant reasoning processes. While [[tool-mcot-tool-augmented-multimodal-chain-of-thought-for-content-safety-moderati|Chain-of-Thought]] (CoT) prompting has significantly enhanced the reasoning capabilities of models, these models often generate unnecessary verbosity that increases latency and computational costs without adding value to the final answer.
 
 ## The Problem of Uniform Penalization
 
-Current methods for optimizing reasoning via [[Reinforcement Learning]] (RL) often attempt to regulate response length using uniform length-based rewards. However, the authors observe that these methods are fundamentally flawed because they treat all tokens as equal. In a typical reasoning chain, certain tokens are critical for logical progression, while others are merely "filler." When RL agents are penalized using a uniform approach, they often prune essential logical steps to satisfy the brevity constraint, leading to a decrease in [[Accuracy]].
+Current methods for optimizing reasoning via [[deepsearch-overcome-the-bottleneck-of-reinforcement-learning-with-verifiable-rew|Reinforcement Learning]] (RL) often attempt to regulate response length using uniform length-based rewards. However, the authors observe that these methods are fundamentally flawed because they treat all tokens as equal. In a typical reasoning chain, certain tokens are critical for logical progression, while others are merely "filler." When RL agents are penalized using a uniform approach, they often prune essential logical steps to satisfy the brevity constraint, leading to a decrease in [[curvature-aware-optimization-for-high-accuracy-physics-informed-neural-networks|Accuracy]].
 
 ## Proposed Innovations
 
@@ -23,4 +23,4 @@ To resolve this, the researchers introduce a framework centered on **token signi
 
 ## Conclusion and Impact
 
-Experimental results across various benchmarks demonstrate that this significance-aware approach substantially reduces response length while preserving, or even improving, reasoning correctness. This research provides a vital blueprint for developing more efficient [[Artificial Intelligence]] agents capable of high-performance reasoning
+Experimental results across various benchmarks demonstrate that this significance-aware approach substantially reduces response length while preserving, or even improving, reasoning correctness. This research provides a vital blueprint for developing more efficient [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] agents capable of high-performance reasoning

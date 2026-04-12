@@ -8,7 +8,7 @@ category: ai
 
 # Draw-In-Mind (DIM)
 
-**Draw-In-Mind (DIM)** is a novel framework designed to resolve inefficiency in unified [[Multimodal Models]] during complex [[Image Editing]] tasks. The research addresses a fundamental "imbalance" found in current [[Text-to-Image Generation]] architectures, where the roles of understanding and rendering are poorly distributed.
+**Draw-In-Mind (DIM)** is a novel framework designed to resolve inefficiency in unified [[draw-in-mind-rebalancing-designer-painter-roles-in-unified-multimodal-models-ben|Multimodal Models]] during complex [[image-editing|Image Editing]] tasks. The research addresses a fundamental "imbalance" found in current [[text-to-image-generation|Text-to-Image Generation]] architectures, where the roles of understanding and rendering are poorly distributed.
 
 ## The Designer-Painter Problem
 
@@ -27,6 +27,6 @@ The DIM approach rebalances these responsibilities by explicitly assigning the "
 
 ## Architecture and Performance
 
-The DIM architecture, specifically the **DIM-4.6B** model, utilizes a frozen [[Qwen2.5-VL-3B]] model integrated with a trainable [[SANA1.5-1.6B]] module via a lightweight two-layer MLP. 
+The DIM architecture, specifically the **DIM-4.6B** model, utilizes a frozen [[qwen25-vl-3b|Qwen2.5-VL-3B]] model integrated with a trainable [[sana15-16b|SANA1.5-1.6B]] module via a lightweight two-layer MLP. 
 
-Despite its relatively modest parameter scale, the DIM-4.6B-Edit model achieves state-of-the-art (SOTA) or highly competitive performance on the **ImgEdit** and **GEdit-Bench** benchmarks. Remarkably, it outperforms much larger models, such as [[UniWorld-V1]] and [[Step1X-Edit]], proving that explicit architectural delegation of design tasks is more effective than raw model scaling.
+Despite its relatively modest parameter scale, the DIM-4.6B-Edit model achieves state-of-the-art (SOTA) or highly competitive performance on the **ImgEdit** and **GEdit-Bench** benchmarks. Remarkably, it outperforms much larger models, such as [[uniworld-v1|UniWorld-V1]] and [[step1x-edit|Step1X-Edit]], proving that explicit architectural delegation of design tasks is more effective than raw model scaling.

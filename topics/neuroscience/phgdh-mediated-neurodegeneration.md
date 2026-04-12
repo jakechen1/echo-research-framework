@@ -4,16 +4,16 @@ created: 2026-04-11
 category: neuroscience
 tags: [neurodegeneration, alzheimers-disease, metabolism, serine-biosynthesis, neuroinflammation]
 source_urls:
-  - "https://pubmed.ncbi.nlm.com/32123456/"
-  - "https://doi.org/10.1016/j.cellmet.2024.05.002"
-  - "https://www.nature.com/articles/s41586-023-00000-x"
+  - "https://pubmed.ncbi.nlm.nih.gov/33173198/"
+  - "https://pubmed.ncbi.nlm.nih.gov/27418434/"
+  - "https://pubmed.ncbi.nlm.nih.gov/31515488/"
+  - "https://en.wikipedia.org/wiki/Phosphoglycerate_dehydrogenase"
 ---
-
 ## Overview
 
 **PHGDH-Mediated Neurodegeneration** refers to the pathological process in which the dysregulation of 3-phosphoglycerate dehydrogenase (PHGDH) activity triggers a cascade of neuronal death and synaptic loss. PHGDH is the rate-limiting enzyme in the *de novo* serine biosynthesis pathway (SBP), converting 3-phosphoglycerate into 3-phosphohydroxypyruvate. Because serine and its derivative, glycine, are fundamental precursors for protein synthesis, sphingolipid production, and the synthesis of glutathione (a primary antioxidant), the stability of PHGDH activity is critical for maintaining the metabolic and structural integrity of the central nervous system.
 
-In the context of [[Neurometabolic Dysfunction in Alzheimer’s]], deviations in PHGDH activity—specifically the reduction of activity observed in late-stage neurodegeneration—lead to a state of "metabolic starvation" in neurons. This deficiency disrupts the one-carbon metabolism cycle, resulting in oxidative stress, impaired neurotransmission, and the eventual collapse of dendritic spines, marking the transition from metabolic dysfunction to irreversible neurodegeneration.
+In the context of [[neurometabolic-dysfunction-in-alzheimers|Neurometabolic Dysfunction in Alzheimer’s]], deviations in PHGDH activity—specifically the reduction of activity observed in late-stage neurodegeneration—lead to a state of "metabolic starvation" in neurons. This deficiency disrupts the one-carbon metabolism cycle, resulting in oxidative stress, impaired neurotransmission, and the eventual collapse of dendritic spines, marking the transition from metabolic dysfunction to irreversible neurodegeneration.
 
 ## Biochemical Foundations of PHGDH Function
 
@@ -36,7 +36,7 @@ The most immediate consequence of reduced PHGDH activity is the depletion of the
 Synaptic stability is highly dependent on the availability of serine for the synthesis of sphingomyelin and phosphatidylserine. PHGDH-mediated decline in these lipids leads to the destabilization of the neuronal membrane at the presynaptic terminal. Furthermore, because glycine acts as a crucial co-agonist at N-methyl-D-aspartate (NMDA) receptors, PHGDH-induced glycine deficiency leads to impaired excitatory neurotransmission. This disruption of glutamatergic signaling is a hallmark of the early synaptic loss seen in preclinical Alzheimer's disease.
 
 ### 3. PHGDH and Amyloid-Beta Interactions
-There is an emerging paradigm involving [[PHGDH and Amyloid-Beta Interactions]], where the accumulation of Amyloid-beta (A$\beta$) oligomers potentially inhibits PHGDH enzymatic activity via oxidative modification of its active site. This creates a "vicious cycle": A$\beta$ accumulation reduces PHGDHS activity, which lowers antioxidant capacity, which in turn facilitates further A$\beta$-induced oxidative damage and aggregation. This feedback loop is a key driver in the progressive nature of the disease.
+There is an emerging paradigm involving [[phgdh-and-amyloid-beta-interactions|PHGDH and Amyloid-Beta Interactions]], where the accumulation of Amyloid-beta (A$\beta$) oligomers potentially inhibits PHGDH enzymatic activity via oxidative modification of its active site. This creates a "vicious cycle": A$\beta$ accumulation reduces PHGDHS activity, which lowers antioxidant capacity, which in turn facilitates further A$\beta$-induced oxidative damage and aggregation. This feedback loop is a key driver in the progressive nature of the disease.
 
 ## Experimental Models and Research Methodologies
 
@@ -68,11 +68,11 @@ Despite significant progress, several hurdles remain in the study and potential 
 *   **Gene Therapy:** Investigating the use of AAV-mediated delivery of PHGDH to specific hippocampal circuits to prevent the onset of synaptic loss.
 
 ## Related Pages
-*   [[Neurometabolic Dysfunction in Alzheimer’s]]
-*   [[PHGDH and Amyloid-Beta Interactions]]
-*   [[One-Carbon Metabolism in the CNS]]
-*   [[Glutathione Redox Homeostasis]]
-*   [[Synaptic Pruning and Microglial Activation]]
+*   [[neurometabolic-dysfunction-in-alzheimers|Neurometabolic Dysfunction in Alzheimer’s]]
+*   [[phgdh-and-amyloid-beta-interactions|PHGDH and Amyloid-Beta Interactions]]
+*   [[one-carbon-metabolism|One-Carbon Metabolism in the CNS]]
+*   [[glutathione-redox-homeostasis|Glutathione Redox Homeostasis]]
+*   [[synaptic-pruning-and-microglial-activation|Synaptic Pruning and Microglial Activation]]
 
 ## References
 

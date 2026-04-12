@@ -8,4 +8,4 @@ category: machine-learning
 
 # OpenPRC
 
-[[OpenPRC]] is an open-source [[Python]] framework designed to unify the fragmented development and evaluation pipelines within the field of [[Physical Reservoir Computing]] (PRC). While PRC offers a compelling paradigm for energy-efficient, embodied [[Machine Learning]] by leveraging the intrinsic nonlinear dynamics of physical substrates (such
+[[openprc-a-unified-open-source-framework-for-physics-to-task-evaluation-in-physic|OpenPRC]] is an open-source [[openclassgen-a-large-scale-corpus-of-real-world-python-classes-for-llm-research|Python]] framework designed to unify the fragmented development and evaluation pipelines within the field of [[physical-reservoir-computing|Physical Reservoir Computing]] (PRC). While PRC offers a compelling paradigm for energy-efficient, embodied [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] by leveraging the intrinsic nonlinear dynamics of physical substrates (such

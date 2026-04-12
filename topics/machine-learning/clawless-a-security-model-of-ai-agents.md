@@ -8,7 +8,7 @@ category: [ai, technology]
 
 # ClawLess: A Security Model of AI Agents
 
-As [[Autonomous AI Agents]] powered by [[Large Language Models]] (LLMs) become more integrated into computational workflows, they bring unprecedented capabilities in reasoning, planning, and code execution. However, the ability of these agents to autonomously retrieve information and interact with system resources introduces significant [[Cybersecurity]] risks. Current mitigation strategies primarily focus on regulating agent behavior through [[Prompt Engineering]] or specialized training, which fails to provide fundamental security guarantees, particularly when facing an [[Adversarial Machine Learning]] threat.
+As [[autonomous-ai-agents|Autonomous AI Agents]] powered by [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) become more integrated into computational workflows, they bring unprecedented capabilities in reasoning, planning, and code execution. However, the ability of these agents to autonomously retrieve information and interact with system resources introduces significant [[cybersecurity|Cybersecurity]] risks. Current mitigation strategies primarily focus on regulating agent behavior through [[optimizing-llm-prompt-engineering-with-dspy-based-declarative-learning|Prompt Engineering]] or specialized training, which fails to provide fundamental security guarantees, particularly when facing an [[adversarial-machine-learning|Adversarial Machine Learning]] threat.
 
 ## The ClawLess Framework
 
@@ -21,6 +21,6 @@ The framework introduces a fine-grained security model centered on three pillars
 
 ## Implementation and Enforcement
 
-A key innovation of ClawLess is its ability to bridge the gap between theoretical [[Formal Verification]] and practical system enforcement. The framework translates abstract security policies into concrete rules that are enforced via a specialized user-space kernel. 
+A key innovation of ClawLess is its ability to bridge the gap between theoretical [[automated-conjecture-resolution-with-formal-verification|Formal Verification]] and practical system enforcement. The framework translates abstract security policies into concrete rules that are enforced via a specialized user-space kernel. 
 
-By utilizing [[BPF]] (Berkeley Packet Filter) for [[System Call Interception]], ClawLess can monitor and restrict the agent's interactions with the Operating System at a low level. This ensures that even if an agent attempts to bypass high-level software constraints, the kernel-level enforcement will intercept unauthorized [[Syscall]] attempts, providing a robust defense-in-depth mechanism for the next generation of [[Agentic AI]].
+By utilizing [[bpf|BPF]] (Berkeley Packet Filter) for [[system-call-interception|System Call Interception]], ClawLess can monitor and restrict the agent's interactions with the Operating System at a low level. This ensures that even if an agent attempts to bypass high-level software constraints, the kernel-level enforcement will intercept unauthorized [[syscall|Syscall]] attempts, providing a robust defense-in-depth mechanism for the next generation of [[dynamic-agentic-ai-expert-profiler-system-architecture-for-multidomain-intellige|Agentic AI]].

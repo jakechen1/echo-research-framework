@@ -8,15 +8,15 @@ category: [ai, machine-learning]
 
 # Causal Process Models (CPMs)
 
-The paper **"Causal Process Models: Reframing Dynamic Causal Graph Discovery as a Reinforcement Learning Problem"** introduces a novel architecture designed to address the limitations of static [[Causal Inference]] models. Traditional neural models of causality typically assume a fixed, static causal graph. However, this fails to capture the reality of physical environments where causal relationships—such as collisions or attachments between objects—emerge and dissolve dynamically over time.
+The paper **"Causal Process Models: Reframing Dynamic Causal Graph Discovery as a Reinforcement Learning Problem"** introduces a novel architecture designed to address the limitations of static [[causal-inference|Causal Inference]] models. Traditional neural models of causality typically assume a fixed, static causal graph. However, this fails to capture the reality of physical environments where causal relationships—such as collisions or attachments between objects—emerge and dissolve dynamically over time.
 
 ## Overview of the Causal Process Framework
 
-To bridge this gap, the authors propose the **Causal Process Framework** and its neural implementation, **Causal Process Models (CPMs)**. The core objective is to learn sparse, time-varying causal graphs directly from visual observations. Unlike previous [[Graph Neural Networks]] that rely on dense, permanent connectivity, CPMs explicitly construct causal edges only when objects are actively interacting.
+To bridge this gap, the authors propose the **Causal Process Framework** and its neural implementation, **Causal Process Models (CPMs)**. The core objective is to learn sparse, time-varying causal graphs directly from visual observations. Unlike previous [[openglt-a-comprehensive-benchmark-of-graph-neural-networks-for-graph-level-tasks|Graph Neural Networks]] that rely on dense, permanent connectivity, CPMs explicitly construct causal edges only when objects are actively interacting.
 
 ### Reinforcement Learning Integration
 
-The primary innovation lies in treating the construction of dynamic interaction graphs as a [[Multi-Agent Reinforcement Learning]] (MARL) problem. In this framework, specialized agents act as decision-makers that sequentially evaluate pairs of objects to determine if a causal connection exists at a specific timestep. This approach allows the model to maintain high [[Interpretability]] by focusing only on relevant, active interactions.
+The primary innovation lies in treating the construction of dynamic interaction graphs as a [[a-multi-agent-reinforcement-learning-framework-for-public-health-decision-analys|Multi-Agent Reinforcement Learning]] (MARL) problem. In this framework, specialized agents act as decision-makers that sequentially evaluate pairs of objects to determine if a causal connection exists at a specific timestep. This approach allows the model to maintain high [[a-multi-level-causal-intervention-framework-for-mechanistic-interpretability-in-|Interpretability]] by focusing only on relevant, active interactions.
 
 ## Technical Innovations
 
@@ -26,7 +26,7 @@ The CPM architecture utilizes a structured representation that factorizes object
 2.  **Causal Relevance**: Measures the influence an object exerts on its environment.
 3.  **Control Relevance**: Determines the degree of influence an agent can exert over an object.
 
-By decomposing vectors this way, the model achieves automatic discovery of meaningful encodings from raw data, which is essential for robust [[World Models]].
+By decomposing vectors this way, the model achieves automatic discovery of meaningful encodings from raw data, which is essential for robust [[causalvae-as-a-plug-in-for-world-models-towards-reliable-counterfactual-dynamics|World Models]].
 
 ## Performance and Results
 
@@ -35,4 +35,4 @@ Empirical evaluations demonstrate that CPMs significantly outperform dense graph
 *   **Scalability**: Handling increasing object counts without the computational explosion associated with dense connectivity.
 *   **Efficiency**: Leveraging sparsity to reduce the computational overhead of tracking interactions.
 
-This research marks a significant step forward in developing more efficient and biologically inspired models for [[Artificial Intelligence]] in complex, dynamic environments.
+This research marks a significant step forward in developing more efficient and biologically inspired models for [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] in complex, dynamic environments.

@@ -7,17 +7,17 @@ tags: [ai, machine-learning, VLMs, financial-ai, adversarial-learning, computer-
 
 # PyFi
 
-**PyFi** is a novel framework designed to advance [[Vision Language Models]] (VLMs) in the specialized domain of financial image understanding. The framework introduces a "pyramid-like" reasoning approach, allowing models to navigate through question chains that progress from simple visual perception to complex, expert-level financial analysis.
+**PyFi** is a novel framework designed to advance [[aligned-vector-quantization-for-edge-cloud-collabrative-vision-language-models|Vision Language Models]] (VLMs) in the specialized domain of financial image understanding. The framework introduces a "pyramid-like" reasoning approach, allowing models to navigate through question chains that progress from simple visual perception to complex, expert-level financial analysis.
 
 ## Core Components
 
 ### PyFi-600K Dataset
 The foundation of the framework is the **PyFi-600K** dataset, which consists of 600,000 question-answer pairs. The dataset is structured as a reasoning pyramid:
 * **The Base:** Comprises questions requiring fundamental visual perception (e.g., identifying numbers or text in a chart).
-* **The Apex:** Contains high-complexity questions that demand deep [[Machine Learning]]-driven expertise and multi-step financial reasoning.
+* **The Apex:** Contains high-complexity questions that demand deep [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]]-driven expertise and multi-step financial reasoning.
 
 ### PyFi-adv Mechanism
-To ensure scalability without the need for manual human annotation, the researchers implemented **PyFi-adv**. This is a multi-agent adversarial mechanism operating under the [[Monte Carlo Tree Search]] (MCTS) paradigm. The process involves two competing entities:
+To ensure scalability without the need for manual human annotation, the researchers implemented **PyFi-adv**. This is a multi-agent adversarial mechanism operating under the [[monte-carlo-tree-search|Monte Carlo Tree Search]] (MCTS) paradigm. The process involves two competing entities:
 1. **Challenger Agent:** Tasked with generating increasingly difficult question chains to probe the limits of the model.
 2. **Solver Agent:** Tasked with answering the generated questions.
 
@@ -31,7 +31,7 @@ The performance improvements were significant:
 * **Qwen2.5-VL-7B:** Achieved an average accuracy increase of **8.06%**.
 
 ## Related Topics
-* [[Artificial Intelligence]]
-* [[Computer Vision]]
-* [[Large Language Models]]
-* [[Financial Technology]]
+* [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]]
+* [[computer-vision|Computer Vision]]
+* [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]]
+* [[financial-technology|Financial Technology]]

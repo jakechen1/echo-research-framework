@@ -8,7 +8,7 @@ category: [ai, machine-learning]
 
 # SUPERNOVA
 
-**SUPERNOVA** is a specialized data curation framework designed to bridge the gap between formal domain reasoning and general-purpose reasoning in [[Large Language Models (LLMs)]]. While [[Reinforcement Learning with Verifiable Rewards (RLVR)]] has demonstrated transformative success in structured domains such as mathematics and [[Computer Programming]], its application to general reasoning—encompassing tasks like [[Causal Inference]] and temporal reasoning—has been hindered by a lack of high-quality, verifiable training data.
+**SUPERNOVA** is a specialized data curation framework designed to bridge the gap between formal domain reasoning and general-purpose reasoning in [[large-language-models-llms|Large Language Models (LLMs)]]. While [[reinforcement-learning-with-verifiable-rewards-rlvr|Reinforcement Learning with Verifiable Rewards (RLVR)]] has demonstrated transformative success in structured domains such as mathematics and [[computer-programming|Computer Programming]], its application to general reasoning—encompassing tasks like [[causal-inference|Causal Inference]] and temporal reasoning—has been hindered by a lack of high-quality, verifiable training data.
 
 ## Overview
 
@@ -22,14 +22,14 @@ The core innovation of SUPERNOVA lies in its ability to adapt existing instructi
 
 The research highlights that the process of task selection is highly sensitive; specifically, selecting tasks based on their performance relative to individual target tasks is significantly more effective than using strategies based on overall average performance. 
 
-When implemented, the SUPERNOVA framework significantly outperforms industry-standard baselines, such as [[Qwen3.5]], on several rigorous benchmarks, including:
+When implemented, the SUPERNOVA framework significantly outperforms industry-standard baselines, such as [[qwen35|Qwen3.5]], on several rigorous benchmarks, including:
 *   **BBEH** (achieving relative improvements of up to 52.8% across various model scales)
 *   **Zebralogic**
 *   **MMLU-Pro**
 
 ## Impact
 
-By providing a principled approach to [[Data Curation]], SUPERNOVA offers a scalable methodology for expanding the reasoning capabilities of [[Artificial Intelligence]] models. The framework demonstrates that the bottleneck for general reasoning is not necessarily the RL algorithm itself, but the strategic utilization of human-annotated resources to create verifiable learning environments.
+By providing a principled approach to [[curalight-debate-guided-data-curation-for-llm-centered-traffic-signal-control|Data Curation]], SUPERNOVA offers a scalable methodology for expanding the reasoning capabilities of [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] models. The framework demonstrates that the bottleneck for general reasoning is not necessarily the RL algorithm itself, but the strategic utilization of human-annotated resources to create verifiable learning environments.
 
 ## External Resources
 *   **Code and Data:** [GitHub - asuvarna31/supernova](https://github.com/asuvarna31/supernova)

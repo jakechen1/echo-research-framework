@@ -4,19 +4,19 @@ created: 2026-04-11
 category: drug-discovery
 tags: [Alzheimer's Disease, PHGDH, drug discovery, small molecules, metabolic reprogramming, neurodegeneration]
 source_urls:
-  - "https://www.nature.com/articles/s41586-023-06000-0"
-  - "https://pubmed.ncbi.nlm.nih.gov/"
+  - "https://pubmed.ncbi.nlm.nih.gov/40273909/"
+  - "https://pubmed.ncbi.nlm.nih.gov/41344159/"
 ---
 
 ## Introduction
 
-The therapeutic modulation of Phosphoglycerate dehydrogenase (PHGDH) represents a burgeoning frontier in the metabolic neuropharmacology of Alzheimer's Disease (AD). As understanding of [[PHGDH Dysregulation in Alzheimer's Disease Pathogenesis]] has deepened, researchers have identified the enzymes of the serine biosynthesis pathway (SSP) as critical drivers of the metabolic shifts observed in early-stage neurodegeneration. PHGDH catalyzes the first and rate-limiting step of the SSP, converting 3-phosphoglycerate to 3-phosphohydroxypyruvate. In the context of AD, the pathological upregulation of PHGDH activity contributes to an imbalance in serine and glycine availability, which subsequently disrupts one-carbon metabolism, redox homeostasis, and epigenetic regulation.
+The therapeutic modulation of Phosphoglycerate dehydrogenase (PHGDH) represents a burgeoning frontier in the metabolic neuropharmacology of Alzheimer's Disease (AD). As understanding of **PHGDH Dysregulation in Alzheimer's Disease Pathogenesis** has deepened, researchers have identified the enzymes of the serine biosynthesis pathway (SSP) as critical drivers of the metabolic shifts observed in early-stage neurodegeneration. PHGDH catalyzes the first and rate-limiting step of the SSP, converting 3-phosphoglycerate to 3-phosphohydroxypyruvate. In the context of AD, the pathological upregulation of PHGDH activity contributes to an imbalance in serine and glycine availability, which subsequently disrupts one-carbon metabolism, redox homeostasis, and epigenetic regulation.
 
 The primary objective of current drug discovery efforts is the development of small molecule modulators capable of fine-tuning PHGDHT activity to restore metabolic equilibrium. Unlike traditional neuropharmacology, which focuses on neurotransmitter modulation or amyloid-beta clearance, targeting PHGDH involves a "metabolic reprogramming" strategy. This approach seeks to mitigate the downstream consequences of serine overproduction, such as oxidative stress and aberrant DNA methylation, without inducing systemic serine deficiency.
 
 ## Biochemical Rationale for Targeting PHGDH
 
-To understand the drug discovery landscape, one must first reference the [[PHGDH Protein Structure and Serine Biosynthesis]] pathway. PHGDH functions as a homotetramer, possessing distinct catalytic domains, NAD+-binding sites, and an allosteric regulatory site (the ACT domain).
+To understand the drug discovery landscape, one must first reference the [[phgdh-protein-structure-and-serine-biosynthesis|PHGDH Protein Structure and Serine Biosynthesis]] pathway. PHGDH functions as a homotetramer, possessing distinct catalytic domains, NAD+-binding sites, and an allosteric regulatory site (the ACT domain).
 
 The rationale for medicinal intervention stems from the observation that hyperactive PHGDH flux drives an excess of serine, which fuels the glycine-dependent production of glutathione (GSH) and the one-carbon cycle. While increased GSH can be an adaptive response to oxidative stress, chronic oversupply of one-carbon units can lead to hypermethylation of histones and DNA, potentially locking neurons into a pro-inflammatory or dysfunctional state. Therefore, drug discovery is not merely about "inhibition" but about "metabolic recalibration."
 
@@ -26,7 +26,7 @@ The development of PHGDH modulators follows three primary pharmacological pillar
 
 ### High-Throughput Screening (HTS)
 
-Traditional HTS remains the bedrock of early-stage identification. Current libraries used in neuropharmacological screens are specifically enriched for compounds possessing high Blood-Brain Barrier (BBB) permeability and low P-glycoprotein (P-gp) efflux ratios.
+Traditional HTS remains the bedrock of early-stage identification. Current libraries used in neuropharmacological screens are specifically enriched for compounds possessing high Blood-brain Barrier (BBB) permeability and low P-glycoprotein (P-gp) efflux ratios.
 
 1.  **Enzymatic Assays:** The most common approach involves fluorescence-based assays that monitor the reduction of $NAD^+$ to $NADH$ during the catalytic conversion of 3-phosphoglycerate.
 2.  **Metabolomic Fingerprinting:** More recent, advanced screens use mass spectrometry-based metabolomics to identify compounds that alter the ratio of serine to glycine in neuronal cell lines, providing a more holistic view of pathway modulation than simple enzyme kinetic assays.

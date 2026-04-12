@@ -8,11 +8,11 @@ category: ai, machine-learning, technology
 
 # ConceptTracer: Interactive Analysis of Concept Saliency and Selectivity in Neural Representations
 
-**ConceptTracer** is an interactive application designed to advance the field of [[mechanistic interpretability]] by providing a systematic way to explore the learned representations within [[neural networks]]. While modern architectures achieve unprecedented predictive performance, their internal decision-making processes often remain "black boxes," making it difficult to audit or trust their outputs in critical applications.
+**ConceptTracer** is an interactive application designed to advance the field of [[a-multi-level-causal-intervention-framework-for-mechanistic-interpretability-in-|mechanistic interpretability]] by providing a systematic way to explore the learned representations within [[curvature-aware-optimization-for-high-accuracy-physics-informed-neural-networks|neural networks]]. While modern architectures achieve unprecedented predictive performance, their internal decision-making processes often remain "black boxes," making it difficult to audit or trust their outputs in critical applications.
 
 ## Core Methodology
 
-ConceptTracer addresses the lack of tools for analyzing complex models—particularly [[tabular foundation models]]—by implementing two specific information-theoretic measures:
+ConceptTracer addresses the lack of tools for analyzing complex models—particularly [[on-the-robustness-of-tabular-foundation-models-test-time-attacks-and-in-context-|tabular foundation models]]—by implementing two specific information-theoretic measures:
 
 1.  **Concept Saliency:** Quantifies the importance or prominence of a concept within the neural activations.
 2.  **Concept Selectivity:** Measures how uniquely a neuron responds to a specific concept compared to other features.
@@ -24,8 +24,8 @@ By integrating these metrics, the application allows researchers to identify spe
 The researchers demonstrated the utility of ConceptTracer using **TabPFN**, a powerful model designed for tabular data. Through the application, they showed that it is possible to uncover interpretable neurons within TabPFN's complex architecture, providing empirical evidence of how the model encodes concept-level information.
 
 The framework serves as a practical utility for:
-*   **Model Auditing:** Verifying that [[machine-learning]] models are relying on appropriate features rather than spurious correlations.
-*   **Feature Discovery:** Identifying the underlying logic used by large-scale models in [[deep learning]].
+*   **Model Auditing:** Verifying that [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|machine-learning]] models are relying on appropriate features rather than spurious correlations.
+*   **Feature Discovery:** Identifying the underlying logic used by large-scale models in [[benchmarking-deep-learning-for-future-liver-remnant-segmentation-in-colorectal-l|deep learning]].
 *   **AI Transparency:** Enhancing the interpretability of automated decision-making systems.
 
 ## Availability

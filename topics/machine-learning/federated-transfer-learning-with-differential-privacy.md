@@ -8,17 +8,17 @@ category: machine-learning
 
 # Federated Transfer Learning with Differential Privacy
 
-The research paper "Federated Transfer Learning with Differential Privacy" addresses two of the most significant hurdles in modern [[Federated Learning]]: the presence of **data heterogeneity** across distributed sites and the necessity of maintaining strict **data privacy**. While federated frameworks are ideal for analyzing distributed datasets, the variability between datasets (non-IID data) and the risk of information leakage remain critical barriers to widespread adoption.
+The research paper "Federated Transfer Learning with Differential Privacy" addresses two of the most significant hurdles in modern [[afl-a-single-round-analytic-approach-for-federated-learning-with-pre-trained-mod|Federated Learning]]: the presence of **data heterogeneity** across distributed sites and the necessity of maintaining strict **data privacy**. While federated frameworks are ideal for analyzing distributed datasets, the variability between datasets (non-IID data) and the risk of information leakage remain critical barriers to widespread adoption.
 
 ### The Proposed Framework
-The authors introduce a [[Federated Transfer Learning]] framework designed to optimize learning on a specific target dataset. This is achieved by strategically leveraging information from multiple, heterogeneous source datasets. The goal is to improve the accuracy of the target model by extracting useful patterns from source data, all while operating under rigorous privacy constraints.
+The authors introduce a [[federated-transfer-learning-with-differential-privacy|Federated Transfer Learning]] framework designed to optimize learning on a specific target dataset. This is achieved by strategically leveraging information from multiple, heterogeneous source datasets. The goal is to improve the accuracy of the target model by extracting useful patterns from source data, all while operating under rigorous privacy constraints.
 
 ### Federated Differential Privacy
-A core innovation of this work is the formalization of **federated differential privacy**. Unlike traditional models, this approach does not rely on the assumption of a [[Trusted Central Server]]. Instead, it provides privacy guarantees for each individual dataset. 
+A core innovation of this work is the formalization of **federated differential privacy**. Unlike traditional models, this approach does not rely on the assumption of a [[trusted-central-server|Trusted Central Server]]. Instead, it provides privacy guarantees for each individual dataset. 
 
 Theoretically, the paper positions this new model as an intermediate state between two well-established paradigms:
-* [[Local Differential Privacy]] (LDP): Where noise is added by the client, often at a high cost to utility.
-* [[Central Differential Privacy]] (CDP): Which assumes a central entity can be trusted with raw or weakly perturbed data.
+* [[feature-aware-anisotropic-local-differential-privacy-for-utility-preserving-grap|Local Differential Privacy]] (LDP): Where noise is added by the client, often at a high cost to utility.
+* [[central-differential-privacy|Central Differential Privacy]] (CDP): Which assumes a central entity can be trusted with raw or weakly perturbed data.
 
 ### Statistical Validation and Findings
 To test the robustness of this framework, the researchers analyzed four specific statistical problems:

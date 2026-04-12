@@ -8,10 +8,10 @@ category: ai
 
 # The Impact of Steering Large
 
-This article examines the implications of using **activation-based steering** to personalize [[Large Language Models]] (LLMs) within educational environments. While persona vectors allow developers to modify model behavior at inference time without retraining, this study investigates the secondary effects of these modifications on short-answer generation and [[Automated Scoring]].
+This article examines the implications of using **activation-based steering** to personalize [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) within educational environments. While persona vectors allow developers to modify model behavior at inference time without retraining, this study investigates the secondary effects of these modifications on short-answer generation and [[automated-scoring|Automated Scoring]].
 
 ## Research Methodology
-The study analyzed seven distinct character traits applied to three different models, spanning both [[Dense Models]] and [[Mixture-of-Experts]] (MoE) architectures. Using the [[ASAP-SAS benchmark]], the researchers tested the models across two primary academic domains: English Language Arts (ELA) and Science.
+The study analyzed seven distinct character traits applied to three different models, spanning both [[dense-models|Dense Models]] and [[efficient-quantization-of-mixture-of-experts-with-theoretical-generalization-gua|Mixture-of-Experts]] (MoE) architectures. Using the [[asap-sas-benchmark|ASAP-SAS benchmark]], the researchers tested the models across two primary academic domains: English Language Arts (ELA) and Science.
 
 ## Key Findings
 
@@ -27,7 +27,7 @@ The study identified predictable "valence-aligned" shifts in how models assign g
 * **Task Vulnerability:** ELA scoring was 2.5–3x more susceptible to these personalization shifts than science scoring.
 
 ### Architectural Impact
-The architecture of the [[Machine Learning]] model plays a vital role in stability. The [[Mixture-of-Experts]] models demonstrated roughly 6x larger calibration shifts compared to dense models, suggesting that the sparse routing mechanism may amplify the effects of steering vectors.
+The architecture of the [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] model plays a vital role in stability. The [[efficient-quantization-of-mixture-of-experts-with-theoretical-generalization-gua|Mixture-of-Experts]] models demonstrated roughly 6x larger calibration shifts compared to dense models, suggesting that the sparse routing mechanism may amplify the effects of steering vectors.
 
 ## Conclusion
-The findings highlight a critical challenge for [[Educational Technology]]: the deployment of steered models requires task-aware and architecture-aware calibration to ensure fairness and accuracy in automated assessment.
+The findings highlight a critical challenge for [[educational-technology|Educational Technology]]: the deployment of steered models requires task-aware and architecture-aware calibration to ensure fairness and accuracy in automated assessment.

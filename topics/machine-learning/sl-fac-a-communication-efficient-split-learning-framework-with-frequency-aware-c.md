@@ -8,12 +8,12 @@ category: ai, machine-learning, technology
 
 # SL-FAC: A Communication-Efficient Split Learning Framework with Frequency-Aware Compression
 
-The paper "SL-FAC: A Communication-Efficient Split Learning Framework with Frequency-Aware Compression" introduces a novel architecture designed to address the primary bottleneck in modern [[Distributed Machine Learning]]: communication overhead in [[Split Learning]] (SL).
+The paper "SL-FAC: A Communication-Efficient Split Learning Framework with Frequency-Aware Compression" introduces a novel architecture designed to address the primary bottleneck in modern [[distributed-machine-learning|Distributed Machine Learning]]: communication overhead in [[hosl-hybrid-order-split-learning-for-memory-constrained-edge-training|Split Learning]] (SL).
 
 ### The Challenge of Split Learning
-As [[Neural Networks]] increase in complexity, deploying training workloads on resource-constrained edge devices becomes increasingly difficult. [[Split Learning]] offers a potential solution by partitioning a model into two parts, offloading the heavy computational workload from edge devices to a more powerful edge server. 
+As [[curvature-aware-optimization-for-high-accuracy-physics-informed-neural-networks|Neural Networks]] increase in complexity, deploying training workloads on resource-constrained edge devices becomes increasingly difficult. [[hosl-hybrid-order-split-learning-for-memory-constrained-edge-training|Split Learning]] offers a potential solution by partitioning a model into two parts, offloading the heavy computational workload from edge devices to a more powerful edge server. 
 
-However, this paradigm introduces a massive communication burden. The continuous transmission of "smashed data"—specifically the activations and gradients passed between the device and the server—creates significant latency. As the number of participating devices scales and model depth increases, this communication overhead becomes a critical bottleneck, limiting the efficiency of [[Edge Computing]]-based training.
+However, this paradigm introduces a massive communication burden. The continuous transmission of "smashed data"—specifically the activations and gradients passed between the device and the server—creates significant latency. As the number of participating devices scales and model depth increases, this communication overhead becomes a critical bottleneck, limiting the efficiency of [[multi-turn-reasoning-llms-for-task-offloading-in-mobile-edge-computing|Edge Computing]]-based training.
 
 ### The SL-FAC Framework
 To tackle this, the authors propose **SL-FAC**, a framework that utilizes frequency-domain analysis to reduce the size of transmitted data without sacrificing model accuracy. The framework relies on two primary components:

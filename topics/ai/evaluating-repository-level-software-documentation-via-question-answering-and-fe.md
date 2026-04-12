@@ -1,3 +1,9 @@
+---
+title: "Evaluating Repository Level Software Documentation Via Question Answering And Fe"
+category: artificial-intelligence
+created: 2026-04-12
+---
+
 title: Evaluating Repository-level Software Documentation via Question Answering and Feature-Driven Development
 created: 2024-05-23
 source: https://arxiv.org/abs/2604.06793
@@ -6,7 +12,7 @@ category: ai, technology
 
 # Evaluating Repository-level Software Documentation via Question Answering and Feature-Driven Development
 
-Software documentation is a fundamental component of [[Software Engineering]], essential for repository comprehension and long-term maintenance. As [[Large Language Models]] (LLMs) advance from generating simple code snippets to understanding entire repositories, the need for robust evaluation metrics has become critical. 
+Software documentation is a fundamental component of [[triage-routing-software-engineering-tasks-to-cost-effective-llm-tiers-via-code-q|Software Engineering]], essential for repository comprehension and long-term maintenance. As [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) advance from generating simple code snippets to understanding entire repositories, the need for robust evaluation metrics has become critical. 
 
 ## The Limitations of Current Evaluation
 

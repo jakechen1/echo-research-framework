@@ -9,7 +9,7 @@ category: ai
 # HISA: Efficient Hierarchical Indexing for Fine-Grained Sparse Attention
 
 ## Overview
-As [[Large Language Models]] (LLMs) strive for increasingly larger context windows, the computational overhead of attention mechanisms becomes a primary bottleneck. While current [[Sparse Attention]] mechanisms, such as [[DeepSeek Sparse Attention]] (DSA), attempt to mitigate this by selecting only a subset of keys, they rely on a "flat" indexer. This indexer must scan every historical token for every query, resulting in a per-layer computational cost that grows prohibitively with context length.
+As [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) strive for increasingly larger context windows, the computational overhead of attention mechanisms becomes a primary bottleneck. While current [[hisa-efficient-hierarchical-indexing-for-fine-grained-sparse-attention|Sparse Attention]] mechanisms, such as [[deepseek-sparse-attention|DeepSeek Sparse Attention]] (DSA), attempt to mitigate this by selecting only a subset of keys, they rely on a "flat" indexer. This indexer must scan every historical token for every query, resulting in a per-layer computational cost that grows prohibitively with context length.
 
 **HISA (Hierarchical Indexed Sparse Attention)** is proposed as a highly efficient, plug-and-play replacement for this indexing bottleneck.
 
@@ -21,8 +21,8 @@ HISA transforms the search path from a linear token scan into a streamlined, two
 
 ## Key Advantages
 *   **No Retraining Required:** HISA is designed to be a direct replacement for existing indexers. It requires no additional training or fine-tuning to implement.
-*   **Pattern Preservation:** The mechanism preserves the identical token-level top-sparse pattern required by downstream operators, such as [[Sparse MLA]].
+*   **Pattern Preservation:** The mechanism preserves the identical token-level top-sparse pattern required by downstream operators, such as [[sparse-mla|Sparse MLA]].
 *   **Efficiency at Scale:** HISA demonstrates significant speedups at long context lengths, specifically up to 64K tokens.
 
 ## Performance and Benchmarks
-Empirical testing shows that HISA maintains the high-quality retrieval capabilities of the original DSA. When integrated into state-of-the-art models like [[DeepSeek-V3.2]] and [[GLM-5]], HISA maintains excellent performance on complex long-context benchmarks, including [[Needle-in-a-Haystack]] and [[LongBench]]. Furthermore, HISA significantly outperforms standard block-sparse baselines, making it a robust solution for the next generation of [[Machine Learning]] architectures.
+Empirical testing shows that HISA maintains the high-quality retrieval capabilities of the original DSA. When integrated into state-of-the-art models like [[deepseek-v32|DeepSeek-V3.2]] and [[glm-5|GLM-5]], HISA maintains excellent performance on complex long-context benchmarks, including [[needle-in-a-haystack--one-class-representation-learning-for-detecting-rare-malig|Needle-in-a-Haystack]] and [[longbench|LongBench]]. Furthermore, HISA significantly outperforms standard block-sparse baselines, making it a robust solution for the next generation of [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] architectures.

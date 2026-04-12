@@ -8,7 +8,7 @@ category: ai
 
 # Beyond Behavior: Why AI Evaluation Needs a Cognitive Revolution
 
-The paper **"Beyond Behavior: Why AI Evaluation Needs a Cognitive Revolution"** explores a fundamental epistemological limitation within the field of [[Artificial Intelligence]]. The authors argue that the current methodology for evaluating intelligence is tethered to a "behavioral" framework established by the [[Turing Test]], which prioritizes indistinguishable outputs over internal mechanisms.
+The paper **"Beyond Behavior: Why AI Evaluation Needs a Cognitive Revolution"** explores a fundamental epistemological limitation within the field of [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]]. The authors argue that the current methodology for evaluating intelligence is tethered to a "behavioral" framework established by the [[turing-test|Turing Test]], which prioritizes indistinguishable outputs over internal mechanisms.
 
 ## The Behavioral Constraint
 
@@ -20,10 +20,10 @@ Since 1950, the success of an AI system has largely been measured by its ability
 
 ## The Psychological Parallel
 
-To illustrate the crisis, the authors draw a structural parallel to the history of [[Psychology]]. They point to the transition from [[Behaviorism]]—which focused strictly on stimulus and response—to the **Cognitive Revolution**, which allowed researchers to investigate internal mental processes. 
+To illustrate the crisis, the authors draw a structural parallel to the history of [[psychology|Psychology]]. They point to the transition from [[behaviorism|Behaviorism]]—which focused strictly on stimulus and response—to the **Cognitive Revolution**, which allowed researchers to investigate internal mental processes. 
 
-The authors argue that [[Machine Learning]] currently finds itself in a "behaviorist" trap. Because current evaluation infrastructures cannot distinguish between systems that achieve identical outputs through fundamentally different computational processes, the field lacks the tools to make deep claims about the nature of intelligence attribution.
+The authors argue that [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] currently finds itself in a "behaviorist" trap. Because current evaluation infrastructures cannot distinguish between systems that achieve identical outputs through fundamentally different computational processes, the field lacks the tools to make deep claims about the nature of intelligence attribution.
 
 ## Toward a Post-Behaviorist Epistemology
 
-The paper does not advocate for the abandonment of behavioral evidence. Instead, it calls for a new epistemological framework—a **cognitive revolution for AI**. This new approach would integrate insights from [[Cognitive Science]] and [[Neuroscience]] to move beyond "black box" evaluations. A post-behaviorist epistemology would enable researchers to move from asking "Can this machine mimic a human?" to "What computational processes constitute the intelligence within this system?"
+The paper does not advocate for the abandonment of behavioral evidence. Instead, it calls for a new epistemological framework—a **cognitive revolution for AI**. This new approach would integrate insights from [[cognitive-science|Cognitive Science]] and [[neuroscience|Neuroscience]] to move beyond "black box" evaluations. A post-behaviorist epistemology would enable researchers to move from asking "Can this machine mimic a human?" to "What computational processes constitute the intelligence within this system?"

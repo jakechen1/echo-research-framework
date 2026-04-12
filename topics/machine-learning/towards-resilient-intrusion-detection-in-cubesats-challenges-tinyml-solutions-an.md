@@ -9,4 +9,4 @@ category: technology
 # Towards Resilient Intrusion Detection in CubeSats
 
 ## Introduction
-The proliferation of [[CubeSats]] has revolutionized access to space, providing affordable and accessible platforms for a wide range of scientific, educational, and commercial missions. However, the widespread use of [[
+The proliferation of [[towards-resilient-intrusion-detection-in-cubesats-challenges-tinyml-solutions-an|CubeSats]] has revolutionized access to space, providing affordable and accessible platforms for a wide range of scientific, educational, and commercial missions. However, the widespread use of [[

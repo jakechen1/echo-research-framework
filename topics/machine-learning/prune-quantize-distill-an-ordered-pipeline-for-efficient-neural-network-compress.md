@@ -9,4 +9,4 @@ category: machine-learning
 # Prune-Quantize-Distill: An Ordered Pipeline for Efficient Neural Network Compression
 
 ## Overview
-The deployment of [[Neural Networks]] on edge devices and resource-constrained hardware often faces a critical discrepancy between theoretical compression metrics and actual hardware performance. Traditional proxies, such as parameter counts or [[FLOPs]], do not reliably
+The deployment of [[curvature-aware-optimization-for-high-accuracy-physics-informed-neural-networks|Neural Networks]] on edge devices and resource-constrained hardware often faces a critical discrepancy between theoretical compression metrics and actual hardware performance. Traditional proxies, such as parameter counts or [[flops|FLOPs]], do not reliably

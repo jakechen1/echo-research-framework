@@ -9,19 +9,19 @@ category: ai
 # Neural Global Optimization via Iterally Refined Noisy Samples
 
 ## Overview
-The research paper "Neural Global Optimization via Iterative Refinement from Noisy Samples" introduces a significant advancement in the field of [[Machine Learning]] and scientific computing. The study addresses the long-standing difficulty of performing [[Global Optimization]] on [[Black-Box Functions]] when the available data is subject to noise.
+The research paper "Neural Global Optimization via Iterative Refinement from Noisy Samples" introduces a significant advancement in the field of [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] and scientific computing. The study addresses the long-standing difficulty of performing [[neural-global-optimization-via-iterative-refinement-from-noisy-samples|Global Optimization]] on [[black-box-functions|Black-Box Functions]] when the available data is subject to noise.
 
 ## The Challenge of Multi-modal Landscapes
 Traditional optimization strategies often struggle with complex, multi-modal landscapes (functions with multiple peaks and valleys). 
-* **[[Bayesian Optimization]]** frequently fails by converging to local minima rather than the true global minimum.
-* **[[Gradient-Free Optimization]]** methods, while robust, are often computationally expensive due to the intensive number of function evaluations required.
+* **[[we-still-dont-understand-high-dimensional-bayesian-optimization|Bayesian Optimization]]** frequently fails by converging to local minima rather than the true global minimum.
+* **[[gradient-free-optimization|Gradient-Free Optimization]]** methods, while robust, are often computationally expensive due to the intensive number of function evaluations required.
 
 ## Proposed Neural Approach
 The authors present a novel neural architecture designed to learn optimization principles rather than merely performing curve fitting. The model employs an **iterative refinement** strategy. It takes an initial guess and progressively updates its position to move toward the global minimum.
 
 The architecture is unique because it encodes multiple modalities of data, including:
 * Noisy function samples.
-* Fitted [[Splines]] representing the function shape.
+* Fitted [[splines|Splines]] representing the function shape.
 * Function derivatives and spline coefficients.
 
 By integrating these diverse inputs, the model can navigate noisy landscapes without needing explicit derivative information or the need for multiple manual restarts.

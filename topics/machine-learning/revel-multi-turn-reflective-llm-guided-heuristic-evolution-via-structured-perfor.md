@@ -8,13 +8,13 @@ category: ai, machine-learning, technology
 
 # ReVEL
 
-**ReVEL** (Multi-Turn Reflective LLM-Guided Heuristic Evolution via Structured Performance Feedback) is a hybrid computational framework designed to automate the creation of effective heuristics for [[NP-hard]] [[Combinatorial Optimization]] problems. 
+**ReVEL** (Multi-Turn Reflective LLM-Guided Heuristic Evolution via Structured Performance Feedback) is a hybrid computational framework designed to automate the creation of effective heuristics for [[np-hard|NP-hard]] [[combinatorial-optimization|Combinatorial Optimization]] problems. 
 
 ## Overview
 
-The design of heuristics for complex optimization tasks is traditionally a resource-intensive process requiring significant human expertise. While recent advancements in [[Large Language Models]] (LLMs) have enabled automated code synthesis, most existing approaches rely on "one-shot" generation. This one-shot method often results in brittle, non-adaptive heuristics because it fails to utilize the LLM's capacity for iterative reasoning and error correction.
+The design of heuristics for complex optimization tasks is traditionally a resource-intensive process requiring significant human expertise. While recent advancements in [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) have enabled automated code synthesis, most existing approaches rely on "one-shot" generation. This one-shot method often results in brittle, non-adaptive heuristics because it fails to utilize the LLM's capacity for iterative reasoning and error correction.
 
-ReVEL addresses these limitations by embedding LLMs as interactive, multi-turn reasoners within an [[Evolutionary Algorithm]] (EA) framework. Instead of simple generation, ReVEL implements a closed-loop system where the model learns from the performance of its previous iterations.
+ReVEL addresses these limitations by embedding LLMs as interactive, multi-turn reasoners within an [[evolutionary-algorithm|Evolutionary Algorithm]] (EA) framework. Instead of simple generation, ReVEL implements a closed-loop system where the model learns from the performance of its previous iterations.
 
 ## Key Mechanisms
 
@@ -29,4 +29,4 @@ The system is managed by an **EA-based meta-controller**. This component is resp
 
 ## Experimental Results
 
-Benchmarks conducted on standard optimization tasks demonstrate that ReVEL consistently outperforms strong existing baselines. The heuristics produced via ReVEL are characterized by higher robustness and greater structural diversity. These results suggest that multi-turn reasoning, when paired with structured feedback grouping, represents a principled new paradigm for [[Automated Machine Learning]] (AutoML) and algorithmic design.
+Benchmarks conducted on standard optimization tasks demonstrate that ReVEL consistently outperforms strong existing baselines. The heuristics produced via ReVEL are characterized by higher robustness and greater structural diversity. These results suggest that multi-turn reasoning, when paired with structured feedback grouping, represents a principled new paradigm for [[automated-machine-learning|Automated Machine Learning]] (AutoML) and algorithmic design.

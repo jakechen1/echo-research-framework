@@ -8,7 +8,7 @@ categories: [ai, machine-learning, technology]
 
 # Active Statistical Inference
 
-**Active Statistical Inference** is a novel methodology designed to optimize the process of [[Statistical Inference]] by integrating [[Machine Learning]]-assisted data collection strategies. The framework is heavily inspired by the principles of [[Active Learning]], specifically aiming to bridge the gap between predictive modeling and rigorous statistical validation under limited label budgets.
+**Active Statistical Inference** is a novel methodology designed to optimize the process of [[active-statistical-inference|Statistical Inference]] by integrating [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]]-assisted data collection strategies. The framework is heavily inspired by the principles of [[almab-dc-active-learning-multi-armed-bandits-and-distributed-computing-for-seque|Active Learning]], specifically aiming to bridge the gap between predictive modeling and rigorous statistical validation under limited label budgets.
 
 ## Methodology
 
@@ -22,6 +22,6 @@ By focusing labeling efforts on the "boundaries" of model knowledge, the method 
 
 ## Statistical Rigor and Advantages
 
-Unlike many adaptive sampling techniques that may introduce bias or invalidate traditional metrics, active inference is designed to construct provably valid [[Confidence Intervals]] and perform legitimate [[Hypothesis Testing]]. A significant strength of this framework is its flexibility; it can leverage any [[Black-box Models]] and is robust against various underlying data distributions.
+Unlike many adaptive sampling techniques that may introduce bias or invalidate traditional metrics, active inference is designed to construct provably valid [[confidence-intervals|Confidence Intervals]] and perform legitimate [[hypothesis-testing|Hypothesis Testing]]. A significant strength of this framework is its flexibility; it can leverage any [[black-box-models|Black-box Models]] and is robust against various underlying data distributions.
 
 Compared to

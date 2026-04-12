@@ -8,7 +8,7 @@ category: [ai, machine-learning, technology]
 
 # SLaB: Sparse-Lowrank-Binary Decomposition for Efficient Large Language Models
 
-The SLaB framework is a novel approach designed to address the escalating deployment challenges posed by the massive computational and memory demands of [[Large Language Models]] (LLMs). As these models continue to scale, traditional [[Model Compression]] techniques, such as standard [[Network Pruning]], often face a significant trade-off, failing to maintain high performance when pushed to high compression ratios.
+The SLaB framework is a novel approach designed to address the escalating deployment challenges posed by the massive computational and memory demands of [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs). As these models continue to scale, traditional [[enec-a-lossless-ai-model-compression-method-enabling-fast-inference-on-ascend-np|Model Compression]] techniques, such as standard [[neural-network-pruning-via-qubo-optimization|Network Pruning]], often face a significant trade-off, failing to maintain high performance when pushed to high compression ratios.
 
 ## Methodology
 
@@ -22,9 +22,9 @@ A key innovation of SLaB is that it eliminates the need for computationally expe
 
 ## Experimental Results
 
-Evaluations conducted on the [[Llama]] family of models demonstrate that SLaB achieves state-of-the-art performance in efficiency and accuracy. Key findings include:
+Evaluations conducted on the [[llama|Llama]] family of models demonstrate that SLaB achieves state-of-the-art performance in efficiency and accuracy. Key findings include:
 
 *   **Perplexity Reduction**: At a 50% compression ratio, SLaB reduced perplexity by up to 36% compared to existing compression methods.
 *   **Accuracy Gains**: The framework demonstrated an improvement in accuracy of up to 8.98% over the baseline on zero-shot tasks.
 
-By maximizing the utility of each parameter, SLaB provides a robust pathway for deploying high-performance [[Artificial Intelligence]] on resource-constrained hardware without the degradation typically associated with aggressive [[Machine Learning]] optimization.
+By maximizing the utility of each parameter, SLaB provides a robust pathway for deploying high-performance [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] on resource-constrained hardware without the degradation typically associated with aggressive [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] optimization.

@@ -10,13 +10,13 @@ category: ai, machine-learning, technology
 
 ## Overview
 
-In the field of [[Federated Learning]] (FL), one of the most significant hurdles to scalability is the communication bottleneck. As model dimensions increase, the repeated uploading of high-dimensional updates from edge agents to a central server consumes massive amounts of bandwidth. This issue is particularly acute in IoT and mobile networks where bandwidth is a limited resource.
+In the field of [[afl-a-single-round-analytic-approach-for-federated-learning-with-pre-trained-mod|Federated Learning]] (FL), one of the most significant hurdles to scalability is the communication bottleneck. As model dimensions increase, the repeated uploading of high-dimensional updates from edge agents to a central server consumes massive amounts of bandwidth. This issue is particularly acute in IoT and mobile networks where bandwidth is a limited resource.
 
-[[FedScalar]] is a novel, communication-efficient algorithm designed to mitigate this bottleneck by decoupling the communication cost from the model dimension $d$.
+[[fedscalar-federated-learning-with-scalar-communication-for-bandwidth-constrained|FedScalar]] is a novel, communication-efficient algorithm designed to mitigate this bottleneck by decoupling the communication cost from the model dimension $d$.
 
 ## Methodology
 
-The fundamental innovation of [[FedScalar]] is its ability to compress an entire model update into just two scalar values per round, regardless of how large the model is. The algorithm follows a specific encoding process:
+The fundamental innovation of [[fedscalar-federated-learning-with-scalar-communication-for-bandwidth-constrained|FedScalar]] is its ability to compress an entire model update into just two scalar values per round, regardless of how large the model is. The algorithm follows a specific encoding process:
 
 1. **Encoding:** Each agent calculates its local update difference.
 2. **Projection:** The agent computes an inner product between this update and a locally generated random vector.
@@ -27,17 +27,17 @@ A key finding in the research is the importance of the distribution used for the
 
 ## Performance and Convergence
 
-Theoretically, [[FedScalar]] provides a robust convergence guarantee, achieving a rate of $O(d/\sqrt{K})$ for smooth, non-convex loss functions. 
+Theoretically, [[fedscalar-federated-learning-with-scalar-communication-for-bandwidth-constrained|FedScalar]] provides a robust convergence guarantee, achieving a rate of $O(d/\sqrt{K})$ for smooth, non-convex loss functions. 
 
-In practical applications, the impact of this dimension-free upload cost is significant. When compared to industry-standard algorithms like [[FedAvg]] and [[QSGD]], [[FedScalar]] shows marked improvements in:
+In practical applications, the impact of this dimension-free upload cost is significant. When compared to industry-standard algorithms like [[fedavg|FedAvg]] and [[qsgd|QSGD]], [[fedscalar-federated-learning-with-scalar-communication-for-bandwidth-constrained|FedScalar]] shows marked improvements in:
 * **Wall-clock time:** Faster training completion due to reduced transmission latency.
 * **Energy efficiency:** Reduced power consumption for battery-constrained edge devices.
 * **Bandwidth utilization:** Significant reduction in network congestion.
 
 ## Related Topics
 
-* [[Federated Learning]]
-* [[Communication-Efficient Machine Learning]]
-* [[Stochastic Optimization]]
-* [[Distributed Computing]]
-* [[Gradient Descent]]
+* [[afl-a-single-round-analytic-approach-for-federated-learning-with-pre-trained-mod|Federated Learning]]
+* [[communication-efficient-machine-learning|Communication-Efficient Machine Learning]]
+* [[neural-two-stage-stochastic-optimization-for-solving-unit-commitment-problem|Stochastic Optimization]]
+* [[almab-dc-active-learning-multi-armed-bandits-and-distributed-computing-for-seque|Distributed Computing]]
+* [[multirate-stein-variational-gradient-descent-for-efficient-bayesian-sampling|Gradient Descent]]

@@ -8,11 +8,11 @@ category: technology
 
 # GovAuctions
 
-**GovAuctions** is a centralized web-based platform designed to aggregate and streamline the process of browsing various [[Government Surplus]] and seizure auctions across disparate jurisdictions.
+**GovAuctions** is a centralized web-based platform designed to aggregate and streamline the process of browsing various [[government-surplus|Government Surplus]] and seizure auctions across disparate jurisdictions.
 
 ## Overview
 
-Historically, locating deals on government-held assets—such as seized goods, surplus equipment, and departmental liquidations—has been a fragmented and cumbersome task. Users are typically forced to manually monitor dozens of individual agency websites, many of which are characterized by poor [[User Experience (UX)]], high page latency, and inefficient navigation architectures (e.g., "back" buttons that reset the user to a homepage).
+Historically, locating deals on government-held assets—such as seized goods, surplus equipment, and departmental liquidations—has been a fragmented and cumbersome task. Users are typically forced to manually monitor dozens of individual agency websites, many of which are characterized by poor [[user-experience-ux|User Experience (UX)]], high page latency, and inefficient navigation architectures (e.g., "back" buttons that reset the user to a homepage).
 
 GovAuctions addresses these inefficiencies by providing a unified interface that scrapes and parses data from multiple government sources, allowing for a single point of entry for auction hunters.
 
@@ -27,7 +27,7 @@ The platform provides several tools to enhance the efficiency of browsing and mo
 
 ## Use Cases
 
-The platform is particularly beneficial for resellers, industrial purchasers, and bargain hunters looking for high-value items. Examples of items found in these auctions include heavy machinery, electronics, and raw materials (such as recent listings for large quantities of lead shot). By consolidating [[Data Aggregation]] for [[Public Procurement]] and [[Asset Forfeiture]] listings, GovAuctions transforms a tedious manual process into an automated, efficient workflow.
+The platform is particularly beneficial for resellers, industrial purchasers, and bargain hunters looking for high-value items. Examples of items found in these auctions include heavy machinery, electronics, and raw materials (such as recent listings for large quantities of lead shot). By consolidating [[data-aggregation|Data Aggregation]] for [[public-procurement|Public Procurement]] and [[asset-forfeiture|Asset Forfeiture]] listings, GovAuctions transforms a tedious manual process into an automated, efficient workflow.
 
 ## External Links
 

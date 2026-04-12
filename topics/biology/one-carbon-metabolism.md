@@ -3,22 +3,18 @@ title: "One-Carbon Metabolism"
 created: 2026-04-11
 category: biology
 tags: [biochemistry, metabolism, folate cycle, epigenetics, nutrient signaling]
-    title: "Methylation and One-Carbon Metabolism"
-  - url: "https://www.nature.com/articles/s41576-021-00353-x"
-    title: "Metabolic regulation of the epigenome"
-  - url: "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/one-carbon-metabolism"
-    title: ScienceDirect: One-Carbon Metabolism Overview
 source_urls:
-  - "https://www.ncbi.nlm.nih.gov/books/NBK22362/"
-  - "https://www.nature.com/articles/s41576-021-00353-x"
-  - "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/one-carbon-metabolism"
+  - "https://pubmed.ncbi.nlm.nih.gov/27641100/"
+  - "https://pubmed.ncbi.nlm.nih.gov/38928008/"
+  - "https://pubmed.ncbi.nlm.nih.gov/36551330/"
+  - "https://en.wikipedia.org/wiki/Histone_methylation"
 ---
 
 ## Definition
 
 **One-Carbon (1C) Metabolism** is a highly complex and integrated network of biochemical reactions responsible for the transfer of single-carbon units (such as methyl, methylene, formyl, and methenyl groups) to various molecules. These one-carbon units are essential for several vital cellular functions, most notably the biosynthesis of nucleotides (purines and pyrimidines), the synthesis of various amino acids, and the regulation of epigenetic modifications via methylation. 
 
-At its core, 1C metabolism functions through two interlinked cycles: the **Folate Cycle** and the **Methionine Cycle**. The metabolic flux through these cycles is critically dependent on the availability of methyl donors and the activity of enzymes that shuttle carbon units between different oxidation states. Notably, 1C metabolism is intrinsically linked to [[The Serine Biosynthetic Pathway]], as serine serves as a primary donor of one-carbon units, facilitating the transition of carbon from the amino acid pool into the folate-mediated transfer processes.
+At its core, 1C metabolism functions through two interlinked cycles: the **Folate Cycle** and the **Methionine Cycle**. The metabolic flux through these cycles is critically dependent on the availability of methyl donors and the activity of enzymes that shuttle carbon units between different oxidation states. Notably, 1C metabolism is intrinsically linked to [[the-serine-biosynthetic-pathway|The Serine Biosynthetic Pathway]], as serine serves as a primary donor of one-carbon units, facilitating the transition of carbon from the amino acid pool into the folate-mediated transfer processes.
 
 ## The Biochemical Architecture of 1C Metabolism
 
@@ -26,9 +22,9 @@ The architecture of 1C metabolism can be understood through three interconnected
 
 ### 1. The Folate Cycle
 The folate cycle is centered around the molecule **Tetrahydrofolate (THF)**, the active form of folate vitamins. THF acts as a versatile carrier for one-carbon units at varying oxidation states. 
-*   **Carbon Unit Transfer:** Enzymes such as [[Serine Hydroxymethyltransferase]] (SHMT) transfer a carbon unit from serine to THF, producing 5,10-methylene-THF.
+*   **Carbon Unit Transfer:** Enzymes such as [[serine-hydroxymethyltransferase|Serine Hydroxymethyltransferase]] (SHMT) transfer a carbon unit from serine to THF, producing 5,10-methylene-THF.
 *   **One-Carbon Derivatives:** Depending on the enzymatic processing, THF can carry formyl groups (for purine synthesis), methylene groups (for thymidylate synthesis), or methyl groups (for the methionine cycle).
-*   **The Role of Serine:** As part of [[The Serine Biosynthetic Pathway]], serine is converted to glycine, a reaction that simultaneously loads a one-carbon unit onto THF. This makes serine the fundamental "feeder" for the entire folate pool.
+*   **The Role of Serine:** As part of [[the-serine-biosynthetic-pathway|The Serine Biosynthetic Pathway]], serine is converted to glycine, a reaction that simultaneously loads a one-carbon unit onto THF. This makes serine the fundamental "feeder" for the entire folate pool.
 
 ### 2. The Methionine Cycle
 This cycle is the primary engine for cellular methylation. It begins when a methyl group is transferred from 5-methyl-THF to **Homocysteine**, a reaction catalyzed by methionine synthase (which requires Vitamin B12 as a cofactor).
@@ -52,7 +48,7 @@ For a cell to undergo division, it must replicate its genome. This requires a ma
 As mentioned, 1C metabolism drives the methylation of DNA and histones. This chemical modification pattern (the "epigenome") dictates gene expression patterns without altering the underlying DNA sequence. Fluctuations in 1C metabolism, often driven by dietary folate or B-vitamin availability, can lead to large-scale changes in the epigenome, which are central to developmental biology and disease progression.
 
 ### Amino Acid Homeostasis
-The interplay between 1C metabolism and [[The Serine Biosynthetic Pathway]] ensures that the cell can balance its requirements for protein synthesis and nucleotide synthesis. The regulation of SHMT1 (cytosolic) and SHMT2 (mitochondrial) isoforms allows the cell to partition one-carbon units between the mitochondria and the cytosol according to metabolic demand.
+The interplay between 1C metabolism and [[the-serine-biosynthetic-pathway|The Serine Biosynthetic Pathway]] ensures that the cell can balance its requirements for protein synthesis and nucleotide synthesis. The regulation of SHMT1 (cytosolic) and SHMT2 (mitochondrial) isoforms allows the cell to partition one-carbon units between the mitochondria and the cytosol according to metabolic demand.
 
 ## Current State of the Field (2025-2026)
 

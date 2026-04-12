@@ -9,10 +9,10 @@ category: [ai, machine-learning, technology]
 # ATLAS-RTC
 
 ## Overview
-ATLAS-RTC is an innovative runtime control system designed for [[Autoregressive Language Models]] to enforce structural integrity during the decoding process. The system is specifically engineered to bridge the gap between model reasoning and the mechanical execution of output, ensuring that [[AI Agents]] adhere to strict output contracts and schemas.
+ATLAS-RTC is an innovative runtime control system designed for [[autoregressive-language-models|Autoregressive Language Models]] to enforce structural integrity during the decoding process. The system is specifically engineered to bridge the gap between model reasoning and the mechanical execution of output, ensuring that [[undetectable-conversations-between-ai-agents-via-pseudorandom-noise-resilient-ke|AI Agents]] adhere to strict output contracts and schemas.
 
 ## Mechanism
-Unlike traditional approaches such as [[Post-hoc Validation]], which evaluates a response only after the entire sequence is generated, or static [[Constrained Decoding]], which relies on predefined constraints, ATLAS-RTC operates in a "closed loop." It monitors the generation process at each individual token step to detect "drift"—instances where the model's trajectory begins to deviate from the required output format.
+Unlike traditional approaches such as [[post-hoc-validation|Post-hoc Validation]], which evaluates a response only after the entire sequence is generated, or static [[constrained-decoding|Constrained Decoding]], which relies on predefined constraints, ATLAS-RTC operates in a "closed loop." It monitors the generation process at each individual token step to detect "drift"—instances where the model's trajectory begins to deviate from the required output format.
 
 To maintain alignment, ATLAS-RTC utilizes three primary lightweight intervention strategies:
 *   **Biasing**: Adjusting the probability distribution of the vocabulary to favor valid tokens.
@@ -20,5 +20,5 @@ To maintain alignment, ATLAS-RTC utilizes three primary lightweight intervention
 *   **Rollback**: Reverting the generation to a previously known valid state to allow for a corrected path.
 
 ## Performance and Impact
-The implementation of ATLAS-RTC has demonstrated significant measurable improvements in [[Structured Generation]] and [[Tool-calling]] tasks. Key findings include:
+The implementation of ATLAS-RTC has demonstrated significant measurable improvements in [[structured-generation|Structured Generation]] and [[tracesafe-a-systematic-assessment-of-llm-guardrails-on-multi-step-tool-calling-t|Tool-calling]] tasks. Key findings include:
 *   **Accuracy**: An increase in first-attempt success rates by 20 to 37.8 percentage points.

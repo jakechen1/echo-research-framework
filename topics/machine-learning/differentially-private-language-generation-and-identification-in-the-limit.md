@@ -7,7 +7,7 @@ tags: [ai, machine-learning, differential-privacy, computational-learning-theory
 
 # Differentially Private Language Generation and Identification in the Limit
 
-This research explores the intersection of [[Differential Privacy]] (DP) and the "language in the limit" framework, a theoretical model recently introduced by Kleinberg and Mullainathan (2024). The study investigates the fundamental limits of an algorithm's ability to generate and identify languages within a continuous stream of data while maintaining strict privacy guarantees for the input sequence.
+This research explores the intersection of [[adaptive-differential-privacy-for-federated-medical-image-segmentation-across-di|Differential Privacy]] (DP) and the "language in the limit" framework, a theoretical model recently introduced by Kleinberg and Mullainathan (2024). The study investigates the fundamental limits of an algorithm's ability to generate and identify languages within a continuous stream of data while maintaining strict privacy guarantees for the input sequence.
 
 ## Language Generation
 
@@ -24,4 +24,4 @@ The study reveals much more significant barriers when moving from generation to 
 
 ## Conclusion
 
-Ultimately, this work establishes a new dimension of complexity in [[Machine Learning]] theory. By demonstrating how [[Differential Privacy]] induces a separation between adversarial and stochastic settings for identification, the paper provides critical insights into the inherent trade-offs between data utility and information protection in [[Algorithmic Learning Theory]].
+Ultimately, this work establishes a new dimension of complexity in [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] theory. By demonstrating how [[adaptive-differential-privacy-for-federated-medical-image-segmentation-across-di|Differential Privacy]] induces a separation between adversarial and stochastic settings for identification, the paper provides critical insights into the inherent trade-offs between data utility and information protection in [[algorithmic-learning-theory|Algorithmic Learning Theory]].

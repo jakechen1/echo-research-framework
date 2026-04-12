@@ -8,11 +8,11 @@ category: [ai, machine-learning]
 
 # Relative Density Ratio Optimization
 
-The field of [[Artificial Intelligence]] relies heavily on the ability to align [[Large Language Models]] (LLMs) with human values to ensure safety and reliability. Current standard practices often utilize specific preference models, such as the [[Bradley-Terry Model]], to approximate human preferences during the training process. However, these approaches are limited by specific architectural assumptions that may fail to capture true human preferences accurately. This lack of **statistical consistency** means that as the amount of training data increases, the models may not necessarily converge to the true, underlying human preference distribution.
+The field of [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] relies heavily on the ability to align [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) with human values to ensure safety and reliability. Current standard practices often utilize specific preference models, such as the [[bradley-terry-model|Bradley-Terry Model]], to approximate human preferences during the training process. However, these approaches are limited by specific architectural assumptions that may fail to capture true human preferences accurately. This lack of **statistical consistency** means that as the amount of training data increases, the models may not necessarily converge to the true, underlying human preference distribution.
 
 ## The Challenge of DDRO
 
-To circumvent the limitations of predefined preference models, researchers have explored [[Direct Density Ratio Optimization]] (DDRO). Unlike previous methods, DDRO does not assume a specific preference model, allowing for true statistical consistency. Instead, it models the density ratio between preferred and non-preferred data distributions directly. 
+To circumvent the limitations of predefined preference models, researchers have explored [[direct-density-ratio-optimization|Direct Density Ratio Optimization]] (DDRO). Unlike previous methods, DDRO does not assume a specific preference model, allowing for true statistical consistency. Instead, it models the density ratio between preferred and non-preferred data distributions directly. 
 
 Despite its theoretical advantages, DDRO faces significant practical hurdles. The density ratio in DDRO is notoriously unstable and prone to divergence during training, which leads to high computational instability and inconsistent model performance.
 
@@ -27,4 +27,4 @@ Instead of comparing preferred data directly to non-preferred data, the proposed
 
 ## Experimental Validation
 
-The effectiveness of this optimization framework was tested on industry-standard models, including [[Llama 3]] and [[Qwen 2.5]]. The results demonstrate that the relative density ratio approach provides a more robust and reliable path for model alignment, ensuring that language models converge more predictably to the desired human-aligned state.
+The effectiveness of this optimization framework was tested on industry-standard models, including [[llama-3|Llama 3]] and [[qwen-25|Qwen 2.5]]. The results demonstrate that the relative density ratio approach provides a more robust and reliable path for model alignment, ensuring that language models converge more predictably to the desired human-aligned state.

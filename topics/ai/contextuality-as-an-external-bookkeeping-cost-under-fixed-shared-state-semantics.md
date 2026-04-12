@@ -8,15 +8,15 @@ category: technology
 
 # Contextuality as an External Bookkeeping Cost
 
-The paper **"Contextuality as an External Bookkeeping Cost under Fixed Shared-State Semantics"** (arXiv:2601.20167) proposes a quantitative framework for understanding [[Contextuality]], a phenomenon that serves as the primary distinction between [[Quantum Mechanics]] and [[Classical Probability Theory]]. Historically, the operational significance of contextuality has often been discussed in qualitative terms; this research seeks to provide a rigorous, information-theoretic metric for its impact.
+The paper **"Contextuality as an External Bookkeeping Cost under Fixed Shared-State Semantics"** (arXiv:2601.20167) proposes a quantitative framework for understanding [[contextuality-as-an-external-bookkeeping-cost-under-fixed-shared-state-semantics|Contextuality]], a phenomenon that serves as the primary distinction between [[quantum-mechanics|Quantum Mechanics]] and [[classical-probability-theory|Classical Probability Theory]]. Historically, the operational significance of contextuality has often been discussed in qualitative terms; this research seeks to provide a rigorous, information-theoretic metric for its impact.
 
 ### The Simulation Model
-The authors focus on a specific problem: determining the informational overhead required by a [[Classical Simulation]] to replicate quantum statistics when the underlying internal description (the shared state) is held constant across different measurement contexts. 
+The authors focus on a specific problem: determining the informational overhead required by a [[classical-simulation|Classical Simulation]] to replicate quantum statistics when the underlying internal description (the shared state) is held constant across different measurement contexts. 
 
 To analyze this, the study employs a "minimal external-label simulation model." In this architecture, the simulation attempts to maintain a fixed shared state, but must account for context-dependent variations through an auxiliary label. The goal is to measure the "price" of this dependency.
 
 ### Key Findings: The Obstruction Cost
-The central contribution of the paper is the definition and bounding of the **obstruction cost**. This cost is defined as the minimum [[Mutual Information]] required between the measurement context and the auxiliary label to successfully reproduce the observed experimental statistics.
+The central contribution of the paper is the definition and bounding of the **obstruction cost**. This cost is defined as the minimum [[mutual-information|Mutual Information]] required between the measurement context and the auxiliary label to successfully reproduce the observed experimental statistics.
 
 The researchers prove a conservative quantitative lower bound for this cost:
 *   The paper demonstrates that any **linear witness**—a mathematical function used to distinguish quantum statistics from non-contextual ones—provides a strictly positive lower bound on the obstruction cost.

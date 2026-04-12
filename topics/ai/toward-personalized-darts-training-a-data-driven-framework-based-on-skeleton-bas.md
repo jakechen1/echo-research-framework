@@ -8,7 +8,7 @@ category: technology
 
 # Toward Personalized Dott Training: A Data-Driven Framework Based on Skeleton-Based Biomechanical Analysis and Motion Modeling
 
-Traditional coaching in high-precision sports like darts has historically relied on subjective visual observation and the accumulated experience of trainers. However, as sports training becomes increasingly data-driven, these qualitative methods are proving inadequate for the high-precision requirements of modern athletes. This paper introduces a closed-loop, data-driven framework designed to provide personalized training through [[Biomechanics]] and [[Motion Capture]].
+Traditional coaching in high-precision sports like darts has historically relied on subjective visual observation and the accumulated experience of trainers. However, as sports training becomes increasingly data-driven, these qualitative methods are proving inadequate for the high-precision requirements of modern athletes. This paper introduces a closed-loop, data-driven framework designed to provide personalized training through [[biomechanics|Biomechanics]] and [[motion-capture|Motion Capture]].
 
 ## Methodology
 
@@ -22,11 +22,11 @@ The research utilizes a markerless motion capture setup involving a Kinect 2.0 d
 
 The system architecture is built upon two primary computational modules:
 
-1.  **Personalized Optimal Trajectory Model**: This module generates smooth, personalized reference trajectories. It achieves this by merging historical high-quality performance samples with the [[Minimum Jerk Criterion]], ensuring the generated models remain consistent with natural human [[Kinematics]].
-2.  **Motion Deviation Diagnosis and Recommendation Model**: Utilizing [[Z-score]] analysis and hierarchical logic, this module identifies specific errors in an athlete's technique.
+1.  **Personalized Optimal Trajectory Model**: This module generates smooth, personalized reference trajectories. It achieves this by merging historical high-quality performance samples with the [[minimum-jerk-criterion|Minimum Jerk Criterion]], ensuring the generated models remain consistent with natural human [[kinematics|Kinematics]].
+2.  **Motion Deviation Diagnosis and Recommendation Model**: Utilizing [[z-score|Z-score]] analysis and hierarchical logic, this module identifies specific errors in an athlete's technique.
 
 ## Results and Applications
 
 Experimental results demonstrate the system's ability to identify specific mechanical flaws, such as abnormal elbow displacement, poor trunk stability, and imbalanced velocity control. 
 
-The significant contribution of this work is the proposed shift in evaluation philosophy. Instead of measuring an athlete's performance against a single, uniform global standard, the framework evaluates deviation from an individual's specific "optimal control range." This personalized approach improves the interpretability of coaching and has significant implications for other high-precision target sports and [[Human-Computer Interaction]] in athletic training.
+The significant contribution of this work is the proposed shift in evaluation philosophy. Instead of measuring an athlete's performance against a single, uniform global standard, the framework evaluates deviation from an individual's specific "optimal control range." This personalized approach improves the interpretability of coaching and has significant implications for other high-precision target sports and [[human-computer-interactions-predict-mental-health|Human-Computer Interaction]] in athletic training.

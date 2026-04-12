@@ -8,6 +8,6 @@ category: machine-learning
 
 # Improving Multimodal Learning with Dispersive and Anchoring Regularization
 
-The core objective of [[Multimodal Learning]] is to integrate complementary information from heterogeneous sources—such as text, vision, and audio—into a unified representation. However, simply optimizing standard loss functions is often insufficient to ensure that these models develop well-structured latent spaces.
+The core objective of [[improving-multimodal-learning-with-dispersive-and-anchoring-regularization|Multimodal Learning]] is to integrate complementary information from heterogeneous sources—such as text, vision, and audio—into a unified representation. However, simply optimizing standard loss functions is often insufficient to ensure that these models develop well-structured latent spaces.
 
 ## The Problem

@@ -8,14 +8,14 @@ category: ai, machine-learning
 
 # FactReview
 
-**FactReview** is an innovative, evidence-grounded automated reviewing system designed to mitigate the growing pressure on the [[Machine Learning]] peer review process. As submission volumes continue to surge, human reviewers face significant time constraints. Most existing [[Large Language Models]] (LLMs) used for reviewing are limited to reading the manuscript provided, which makes them susceptible to being misled by high-quality writing that may lack underlying empirical truth.
+**FactReview** is an innovative, evidence-grounded automated reviewing system designed to mitigate the growing pressure on the [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] peer review process. As submission volumes continue to surge, human reviewers face significant time constraints. Most existing [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) used for reviewing are limited to reading the manuscript provided, which makes them susceptible to being misled by high-quality writing that may lack underlying empirical truth.
 
 ## Core Methodology
 
 To overcome the limitations of text-only analysis, FactReview implements a multi-faceted approach to verification:
 
 *   **Claim Extraction**: The system identifies the primary technical claims and reported empirical results presented in the submission.
-*   **Literature Positioning**: The framework retrieves and analyzes related research to ascertain the paper's technical position within the broader [[Artificial Intelligence]] landscape.
+*   **Literature Positioning**: The framework retrieves and analyzes related research to ascertain the paper's technical position within the broader [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] landscape.
 *   **Execution-Based Verification**: When the authors provide a repository, FactReview executes the released code under a bounded budget. This allows the system to perform direct empirical testing of the paper's central claims.
 
 ## The Evidence Report
@@ -33,11 +33,11 @@ In a practical application involving the **CompGCN** paper, FactReview successfu
 
 ## Research Philosophy
 
-The developers of FactReview suggest that the most effective role for AI in [[Peer Review]] is not to serve as a final decision-maker. Instead, AI should function as a sophisticated tool for evidence gathering, assisting human experts in producing more rigorous, transparent, and evidence-grounded assessments.
+The developers of FactReview suggest that the most effective role for AI in [[peer-review|Peer Review]] is not to serve as a final decision-maker. Instead, AI should function as a sophisticated tool for evidence gathering, assisting human experts in producing more rigorous, transparent, and evidence-grounded assessments.
 
 ***
 
 **Related Resources:**
 *   [Review-Assistant GitHub Repository](https://github.com/DEFENSE-SEU/Review-Assistant)
-*   [[Automated Software Testing]]
-*   [[Reproducibility in Science]]
+*   [[automated-software-testing|Automated Software Testing]]
+*   [[reproducibility-in-science|Reproducibility in Science]]

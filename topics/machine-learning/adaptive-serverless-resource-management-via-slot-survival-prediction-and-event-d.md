@@ -8,7 +8,7 @@ category: technology, machine-learning
 
 # Adaptive Serverless Resource Management via Slot-Survival Prediction and Event-Driven Lifecycle Control
 
-The research paper "Adaptive Serverless Resource Management via Slot-Survival Prediction and Event-Driven Lifecycle Control" addresses the critical performance bottlenecks inherent in modern [[Cloud Computing]] architectures, specifically focusing on the inefficiencies found in [[Serverless Computing]].
+The research paper "Adaptive Serverless Resource Management via Slot-Survival Prediction and Event-Driven Lifecycle Control" addresses the critical performance bottlenecks inherent in modern [[cloud-computing|Cloud Computing]] architectures, specifically focusing on the inefficiencies found in [[serverless-computing|Serverless Computing]].
 
 ## The Problem: Latency and Inefficiency
 While serverless architectures eliminate the need for manual infrastructure management, they introduce two significant operational challenges:
@@ -16,7 +16,7 @@ While serverless architectures eliminate the need for manual infrastructure mana
 2. **Resource Underutilization:** Traditional static allocation methods fail to adapt to the highly variable workloads typical of modern applications, leading to either performance degradation or excessive operational costs.
 
 ## Proposed Solution: Predictive Lifecycle Control
-The authors propose an adaptive engineering framework that leverages [[Machine Learning]] principles and [[Event-Driven Architecture]] to optimize resource usage. The core of this framework is a dual-strategy mechanism designed to bridge the gap between responsiveness and cost-efficiency.
+The authors propose an adaptive engineering framework that leverages [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] principles and [[event-driven-architecture|Event-Driven Architecture]] to optimize resource usage. The core of this framework is a dual-strategy mechanism designed to bridge the gap between responsiveness and cost-efficiency.
 
 ### Key Mechanisms:
 * **Slot-Survival Prediction:** The system employs probabilistic modeling to predict the remaining lifespan of idle computational "slots." By understanding how long a resource is likely to remain active, the system can make informed decisions about resource retention.
@@ -28,4 +28,4 @@ Evaluations conducted across various multi-cloud environments demonstrate that t
 * **Cold Start Reduction:** A decrease in cold start frequency by up to **51.2%**.
 * **Cost Optimization:** An improvement in cost-efficiency by nearly **2x**.
 
-By integrating predictive modeling into the resource management lifecycle, this framework provides a robust foundation for scaling [[Distributed Systems]] while maintaining low latency and high economic efficiency.
+By integrating predictive modeling into the resource management lifecycle, this framework provides a robust foundation for scaling [[distributed-systems|Distributed Systems]] while maintaining low latency and high economic efficiency.

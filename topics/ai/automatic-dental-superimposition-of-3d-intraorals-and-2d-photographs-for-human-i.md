@@ -9,7 +9,7 @@ category: ai
 # Automatic dental superimposition of 3D intraorals and 2D photographs for human identification
 
 ## Overview
-Dental comparison is a fundamental pillar of [[forensic science]], serving as a primary method for [[human identification]] alongside [[DNA profiling]] and [[fingerprinting]]. While highly reliable, the process of morphological comparison is traditionally manual and time-consuming. A significant bottleneck in modern forensics is the lack of accessible ante-mortem medical records, particularly in scenarios involving migrant populations or regions without universal healthcare.
+Dental comparison is a fundamental pillar of [[forensic-science|forensic science]], serving as a primary method for [[human-identification|human identification]] alongside [[dna-profiling|DNA profiling]] and [[fingerprinting]]. While highly reliable, the process of morphological comparison is traditionally manual and time-consuming. A significant bottleneck in modern forensics is the lack of accessible ante-mortem medical records, particularly in scenarios involving migrant populations or regions without universal healthcare.
 
 ## The Problem: 2D vs. 3D Disparity
 As digital presence grows, odontologists have increasingly turned to social media photos—where teeth are often visible—to find ante-mortem evidence. However, utilizing 2D photographs for comparison against 3D post-mortem scans presents major technical challenges, including:
@@ -18,7 +18,7 @@ As digital presence grows, odontologists have increasingly turned to social medi
 *   **Modeling Limitations:** Previous state-of-the-art proposals often fail to properly model the complex projection of a 3D object onto a 2D plane.
 
 ## Proposed Solution
-The research presents an automated approach to bridge the gap between 3D intraoral scans (post-mortem) and 2D photographs (ante-mortem). By employing [[computer vision]] and advanced [[optimization techniques]], the system replicates the perspective of the 2D image within the 3D model to perform a direct morphological comparison.
+The research presents an automated approach to bridge the gap between 3D intraoral scans (post-mortem) and 2D photographs (ante-mortem). By employing [[computer-vision|computer vision]] and advanced [[optimization-techniques|optimization techniques]], the system replicates the perspective of the 2D image within the 3D model to perform a direct morphological comparison.
 
 The researchers developed two distinct automated approaches:
 1.  **Landmark-based Method:** Utilizing paired anatomical landmarks to align the datasets.

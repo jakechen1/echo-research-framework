@@ -1,3 +1,9 @@
+---
+title: "LLM Augmented Knowledge Base Construction For Root Cause Analysis"
+category: artificial-intelligence
+created: 2026-04-12
+---
+
 title: LLM-Augmented Knowledge Base Construction For Root Cause Analysis
 created: 2023-10-27
 source: https://arxiv.org/abs/2604.06171

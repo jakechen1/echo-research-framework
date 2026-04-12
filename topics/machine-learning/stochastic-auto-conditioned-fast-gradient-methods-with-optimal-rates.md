@@ -8,10 +8,10 @@ category: machine-learning
 
 # Stochastic Auto-conditioned Fast Gradient Methods with Optimal Rates
 
-The research paper **"Stochastic Auto-conditioned Fast Gradient Methods with Optimal Rates"** addresses a fundamental challenge within [[Convex Optimization]]: achieving optimal convergence rates in [[Stochastic Optimization]] without requiring prior knowledge of problem-specific parameters.
+The research paper **"Stochastic Auto-conditioned Fast Gradient Methods with Optimal Rates"** addresses a fundamental challenge within [[primal-dual-methods-for-nonsmooth-nonconvex-optimization-with-orthogonality-cons|Convex Optimization]]: achieving optimal convergence rates in [[neural-two-stage-stochastic-optimization-for-solving-unit-commitment-problem|Stochastic Optimization]] without requiring prior knowledge of problem-specific parameters.
 
 ## Background
-In the realm of deterministic optimization, the **Auto-conditioned Fast Gradient Method (AC-FGM)** has emerged as a significant innovation. It allows for accelerated convergence without the need for a line-search procedure or the pre-calculation of the [[Lipschitz continuity]] constant. This makes it a primary candidate for "parameter-free" acceleration. 
+In the realm of deterministic optimization, the **Auto-conditioned Fast Gradient Method (AC-FGM)** has emerged as a significant innovation. It allows for accelerated convergence without the need for a line-search procedure or the pre-calculation of the [[lipschitz-continuity|Lipschitz continuity]] constant. This makes it a primary candidate for "parameter-free" acceleration. 
 
 However, transitioning this success to the stochastic setting has historically been difficult. Most existing parameter-free stochastic algorithms suffer from significant drawbacks, such as:
 *   Failure to achieve accelerated convergence rates.
@@ -31,4 +31,4 @@ The paper provides rigorous theoretical guarantees for the efficiency of stochas
 1.  **Iteration Complexity:** $O(1/\sqrt{\varepsilon})$
 2.  **Sample Complexity:** $O(1/\varepsilon^2)$
 
-By reaching these optimal rates, the stochastic AC-FGM represents a significant step forward in the development of robust, autonomous algorithms for [[Machine Learning]] and large-scale [[Scientific Computing]].
+By reaching these optimal rates, the stochastic AC-FGM represents a significant step forward in the development of robust, autonomous algorithms for [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] and large-scale [[scientific-computing|Scientific Computing]].

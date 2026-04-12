@@ -8,13 +8,13 @@ category: ai
 
 # NePPO: Near-Potential Policy Optimization
 
-[[Multi-Agent Reinforcement Learning]] (MARL) is a foundational technology for developing autonomous agents capable of interacting within complex, shared environments. However, training effective agents in [[General-Sum Games]] remains a significant challenge. Unlike [[Zero-Sum Games]] or fully cooperative settings—where convergence guarantees are relatively well-established—general-sum environments are prone to unstable learning dynamics. This instability is compounded when agents possess heterogeneous and conflicting preferences, making it difficult to determine a stable system-level objective.
+[[a-multi-agent-reinforcement-learning-framework-for-public-health-decision-analys|Multi-Agent Reinforcement Learning]] (MARL) is a foundational technology for developing autonomous agents capable of interacting within complex, shared environments. However, training effective agents in [[general-sum-games|General-Sum Games]] remains a significant challenge. Unlike [[zero-sum-games|Zero-Sum Games]] or fully cooperative settings—where convergence guarantees are relatively well-established—general-sum environments are prone to unstable learning dynamics. This instability is compounded when agents possess heterogeneous and conflicting preferences, making it difficult to determine a stable system-level objective.
 
 ## The NePPO Framework
 
-To address these challenges, the paper introduces **NePPO** (Near-Potential Policy Optimization). NePPO is a novel pipeline designed to compute approximate [[Nash Equilibrium]] within mixed cooperative-competitive environments. 
+To address these challenges, the paper introduces **NePPO** (Near-Potential Policy Optimization). NePPO is a novel pipeline designed to compute approximate [[nash-equilibrium|Nash Equilibrium]] within mixed cooperative-competitive environments. 
 
-The core innovation of NePPO lies in its use of a player-independent [[Potential Function]]. The researchers propose that by creating a cooperative game where this shared potential function acts as the common utility, the equilibrium reached in the cooperative version will closely approximate the [[Nash Equilibrium]] of the original, more complex game.
+The core innovation of NePPO lies in its use of a player-independent [[potential-function|Potential Function]]. The researchers propose that by creating a cooperative game where this shared potential function acts as the common utility, the equilibrium reached in the cooperative version will closely approximate the [[nash-equilibrium|Nash Equilibrium]] of the original, more complex game.
 
 ## Algorithmic Implementation
 

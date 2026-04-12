@@ -2,13 +2,13 @@
 title: Weight space Detection of Backdoors in LoRA Adapters
 created: 2024-05-22
 source: https://arxiv.org/abs/2602.15195
-tags: [[AI Security]], [[LoRA]], [[Machine Learning]], [[Backdoor Detection]], [[Large Language Models]]
+tags: [[robust-ai-security-and-alignment-a-sisyphean-endeavor|AI Security]], [[evgeoqa-benchmarking-llms-on-dynamic-multi-objective-geo-spatial-exploration|LoRA]], [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]], [[boba-boosting-backdoor-detection-through-data-distribution-inference-in-federate|Backdoor Detection]], [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]]
 category: ai
 ---
 
 # Weight space Detection of Backdoors in LoRA Adapters
 
-The research paper "Weight space Detection of Backdoors in LoRA Adapters" introduces a novel approach for identifying malicious modifications in [[Low-Rank Adaptation]] (LoRA) weights. As [[Large Language Models]] (LLMs) become more integrated into diverse applications, the use of LoRA adapters has become a standard for efficient fine-tuning. However, because these adapters are frequently distributed through open-access repositories like the [[Hugging Face Hub]], they present a significant security vulnerability via [[Backdoor Attacks]].
+The research paper "Weight space Detection of Backdoors in LoRA Adapters" introduces a novel approach for identifying malicious modifications in [[lora-da-data-aware-initialization-for-low-rank-adaptation-via-asymptotic-analysi|Low-Rank Adaptation]] (LoRA) weights. As [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) become more integrated into diverse applications, the use of LoRA adapters has become a standard for efficient fine-tuning. However, because these adapters are frequently distributed through open-access repositories like the [[hugging-face-hub|Hugging Face Hub]], they present a significant security vulnerability via [[skilltrojan-backdoor-attacks-on-skill-based-agent-systems|Backdoor Attacks]].
 
 ### The Problem: Inefficiency in Traditional Detection
 Current methodologies for detecting poisoned models typically require running the model through an inference process using specific test inputs. This approach faces two major hurdles:
@@ -22,8 +22,8 @@ The researchers focus on the attention projection matrices: Query (Q), Key (K), 
 
 ### Experimental Results
 The effectiveness of this detection technique was tested across several prominent model families, including:
-* [[Llama-3.2-3B]]
-* [[Qwen2.5-3B]]
-* [[Gemma-2-2B]]
+* [[llama-32-3b|Llama-3.2-3B]]
+* [[qwen25-3b|Qwen2.5-3B]]
+* [[gemma-2-2b|Gemma-2-2B]]
 
 The study evaluated the detector against a variety of downstream tasks, including instruction-following, reasoning, code generation, and classification. In all tested architectures, the detector achieved **100% accuracy**, proving that structural anomalies in the weight space can reliably signal the presence of adversarial interference without the need for known attack patterns or costly inference.

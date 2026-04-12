@@ -2,13 +2,13 @@
 title: Endogenous Aggregation of Multiple Data Envelopment Analysis Scores for Large Data Sets
 created: 2024-05-22
 source: https://arxiv.org/abs/2510.20052
-tags: [[Data Envelopment Analysis]], [[Efficiency Evaluation]], [[Optimization]], [[Operations Research]], [[Regularization]]
+tags: [[endogenous-aggregation-of-multiple-data-envelopment-analysis-scores-for-large-da|Data Envelopment Analysis]], [[efficiency-evaluation|Efficiency Evaluation]], [[a-firefly-algorithm-for-mixed-variable-optimization-based-on-hybrid-distance-mod|Optimization]], [[operations-research|Operations Research]], [[flowadam-implicit-regularization-via-geometry-aware-soft-momentum-injection|Regularization]]
 category: technology
 ---
 
 # Endogenous Aggregation of Multiple DEA Scores
 
-This article details a novel methodological approach for performing dynamic efficiency evaluation across multiple organizational dimensions using [[Data Envelopment Analysis]] (DEA). The research addresses the computational challenges of large-scale datasets while providing a framework for generating both dimension-specific and aggregate efficiency scores.
+This article details a novel methodological approach for performing dynamic efficiency evaluation across multiple organizational dimensions using [[endogenous-aggregation-of-multiple-data-envelopment-analysis-scores-for-large-da|Data Envelopment Analysis]] (DEA). The research addresses the computational challenges of large-scale datasets while providing a framework for generating both dimension-specific and aggregate efficiency scores.
 
 ## Methodology
 
@@ -29,4 +29,4 @@ To validate the effectiveness of these models, the authors applied their approac
 
 ## Findings and Significance
 
-The numerical results demonstrate that both the SBM and GP-SBM models outperform conventional [[Performance Benchmarking]] methods. While traditional methods typically evaluate dimensions in isolation before performing aggregation, the proposed models are significantly better at capturing the underlying correlations among input and output variables. This integrated approach provides a more accurate and holistic view of organizational performance, particularly in multi-dimensional environments like healthcare administration.
+The numerical results demonstrate that both the SBM and GP-SBM models outperform conventional [[performance-benchmarking|Performance Benchmarking]] methods. While traditional methods typically evaluate dimensions in isolation before performing aggregation, the proposed models are significantly better at capturing the underlying correlations among input and output variables. This integrated approach provides a more accurate and holistic view of organizational performance, particularly in multi-dimensional environments like healthcare administration.

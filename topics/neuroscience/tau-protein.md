@@ -3,22 +3,18 @@ title: "Tau Protein"
 created: 2026-04-11
 category: neuroscience
 tags: [microtubules, alzheimers-disease, tauopathies, neurodegeneration, neurobiology]
-    title: "Tau Protein and Neurodegeneration"
-  - url: "https://www.nature.com/articles/s41586-021-03320-w"
-    title: "Tau-mediated neurodegeneration in Alzheimer's disease"
-  - url: "https://www.alzforum.org/news/tau-amyloid-synergy"
-    title: "The synergistic role of Amyloid and Tau"
 source_urls:
-  - "https://www.ncbi.nlm.nih.gov/books/NBK557848/"
-  - "https://www.nature.com/articles/s41586-021-03320-w"
-  - "https://www.alzforum.org/news/tau-amyloid-synergy"
+  - "https://pubmed.ncbi.nlm.nih.gov/28833749/"
+  - "https://pubmed.ncbi.nlm.nih.gov/39014245/"
+  - "https://pubmed.ncbi.nlm.nih.gov/15036206/"
+  - "https://en.wikipedia.org/wiki/Tau_protein"
 ---
 
 ## Overview
 
 The **Tau protein** is a highly conserved, microtubule-associated protein (MAP) primarily located in the axons of neurons within the central nervous system (CNS). In its physiological state, Tau plays a critical role in stabilizing **microtubules**, which are essential components of the neuronal cytoskeleton responsible for maintaining axonal structure and facilitating **axonal transport**.
 
-While functional Tau is indispensable for neuronal integrity, its pathological transformation is a defining hallmark of a group of neurodegenerative diseases known as [[Tauopathies]]. The most prominent of these is **Alzheimer’s Disease (AD)**, where the hyperphosphorylation of Tau leads to its dissociation from microtubules and the subsequent formation of insoluble **neurofibrillary tangles (NFTs)**. Unlike [[Amyloid-beta]] plaques, which may accumulate years before clinical symptoms, the density and anatomical distribution of Tau tangles correlate strongly with the degree of cognitive decline and [[Neurodegeneration]].
+While functional Tau is indispensable for neuronal integrity, its pathological transformation is a defining hallmark of a group of neurodegenerative diseases known as [[tauopathies|Tauopathies]]. The most prominent of these is **Alzheimer’s Disease (AD)**, where the hyperphosphorylation of Tau leads to its dissociation from microtubules and the subsequent formation of insoluble **neurofibrillary tangles (NFTs)**. Unlike [[amyloid-beta|Amyloid-beta]] plaques, which may accumulate years before clinical symptoms, the density and anatomical distribution of Tau tangles correlate strongly with the degree of cognitive decline and [[phgdh-mediated-neurodegeneration|Neurodegeneration]].
 
 ## Physiological Function and Structure
 
@@ -59,13 +55,13 @@ able.
 ### The Prion-like Spreading Hypothesis
 A significant breakthrough in the last decade of neuroscience is the concept of **trans-synaptic spreading**. Evidence suggests that pathological Tau can exit a dying neuron, enter the extracellular space, and be taken up by adjacent healthy neurons. This "seeding" mechanism allows Tau pathology to spread anatomically through the brain along well-defined neuroanatomical pathways, a process described by the **Braak Staging** system.
 
-## Tau and [[Neurometabolic Dysfunction in Alzheimer’s]]
+## Tau and [[neurometabolic-dysfunction-in-alzheimers|Neurometabolic Dysfunction in Alzheimer’s]]
 
 The relationship between Tau and metabolic health is a primary focus of modern neurobiology. Tau pathology does not occur in a vacuum; it is intimately linked to the metabolic state of the neuron.
 
 ### Insulin Signaling and Tau
 One of the most critical links is the intersection of **insulin signaling** and Tau regulation. The **PI3K/Akt** signaling pathway, which is central to glucose metabolism and insulin sensitivity, is responsible for inhibiting **GSK-3$\beta$**. 
-In the context of [[Neurometabolic Dysfunction in Alzheimer’s]], insulin resistance in the brain leads to a reduction in Akt activity. This failure to inhibit GSK-3$\beta$ results in the hyperactivation of this kinase, driving the hyperphosphorylation of Tau. Therefore, metabolic failure acts as a biochemical trigger for Tau-mediated neurodegeneration.
+In the context of [[neurometabolic-dysfunction-in-alzheimers|Neurometabolic Dysfunction in Alzheimer’s]], insulin resistance in the brain leads to a reduction in Akt activity. This failure to inhibit GSK-3$\beta$ results in the hyperactivation of this kinase, driving the hyperphosphorylation of Tau. Therefore, metabolic failure acts as a biochemical trigger for Tau-mediated neurodegeneration.
 
 ### Mitochondrial Dysfunction and Oxidative Stress
 Tau aggregates have been shown to physically interfere with mitochondrial transport and function. Accumulating Tau can lead to:
@@ -77,7 +73,7 @@ Tau aggregates have been shown to physically interfere with mitochondrial transp
 
 ### Biomarkers and Imaging
 The field has moved toward "precision neurology," utilizing advanced biomarkers to detect Tau before clinical symptoms appear.
-*   **[[Tau-PET Imaging]]:** The development of second-generation radioligands (e.g., $^{18}$F-flortaucipir) has allowed clinicians to visualize the anatomical spread of tangles in living patients.
+*   **[[tau-pet-imaging|Tau-PET Imaging]]:** The development of second-generation radioligands (e.g., $^{18}$F-flortaucipir) has allowed clinicians to visualize the anatomical spread of tangles in living patients.
 *   **CSF and Blood-based Biomarkers:** Highly sensitive assays (such as SiMoA) now allow for the detection of phosphorylated Tau (p-tau217, p-tau181) in much lower concentrations in cerebrospinal fluid and even peripheral blood, offering a non-invasive window into disease progression.
 
 ### Therapeutic Strategies

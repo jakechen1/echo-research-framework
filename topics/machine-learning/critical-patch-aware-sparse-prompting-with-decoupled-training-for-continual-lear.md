@@ -8,7 +8,7 @@ tags: [ai, machine-learning, technology, edge-computing]
 # Critical Patch-Aware Sparse Prompting with Decoupled Training for Continual Learning on the Edge
 
 ## Overview
-The paper introduces **CPS-Prompt**, a novel framework designed to optimize [[Continual Learning]] (CL) specifically for [[edge devices]]. While [[Prompt-based Continual Learning]] (PCL) has emerged as a parameter-efficient method for maintaining accuracy across evolving tasks, existing approaches often prioritize inference-time performance or predictive accuracy, neglecting the intensive computational and memory requirements inherent in on-device training.
+The paper introduces **CPS-Prompt**, a novel framework designed to optimize [[information-as-structural-alignment-a-dynamical-theory-of-continual-learning|Continual Learning]] (CL) specifically for [[edge-devices|edge devices]]. While [[prompt-based-continual-learning|Prompt-based Continual Learning]] (PCL) has emerged as a parameter-efficient method for maintaining accuracy across evolving tasks, existing approaches often prioritize inference-time performance or predictive accuracy, neglecting the intensive computational and memory requirements inherent in on-device training.
 
 ## The CPS-Prompt Framework
 To address the

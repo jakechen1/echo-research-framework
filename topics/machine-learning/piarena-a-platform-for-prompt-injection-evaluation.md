@@ -7,11 +7,11 @@ tags: [ai, machine-learning, technology]
 
 # PIAArena: A Platform for Prompt Injection Evaluation
 
-The security of [[Large Language Models]] (LLMs) is increasingly threatened by [[Prompt Injection]] attacks, which pose significant risks to real-world applications. Despite the growing attention surrounding this threat, the research community has lacked a unified platform for standardized evaluation. This fragmentation has made it difficult to reliably compare various [[Cybersecurity]] defenses or understand their true robustness across different tasks and benchmarks.
+The security of [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) is increasingly threatened by [[piarena-a-platform-for-prompt-injection-evaluation|Prompt Injection]] attacks, which pose significant risks to real-world applications. Despite the growing attention surrounding this threat, the research community has lacked a unified platform for standardized evaluation. This fragmentation has made it difficult to reliably compare various [[cybersecurity|Cybersecurity]] defenses or understand their true robustness across different tasks and benchmarks.
 
 ## The Need for Unified Evaluation
 
-A major challenge in [[Machine Learning]] security is that many defenses previously reported as effective have been found to exhibit limited robustness when exposed to diverse datasets and novel attack vectors. Without a centralized framework, it is nearly impossible to assess how well a defense generalizes or how it holds up against evolving [[Adversarial Attacks]].
+A major challenge in [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] security is that many defenses previously reported as effective have been found to exhibit limited robustness when exposed to diverse datasets and novel attack vectors. Without a centralized framework, it is nearly impossible to assess how well a defense generalizes or how it holds up against evolving [[explainability-guided-adversarial-attacks-on-transformer-based-malware-detectors|Adversarial Attacks]].
 
 ## Introducing PIAArena
 
@@ -29,5 +29,5 @@ Using the PIAArena framework, researchers uncovered several fundamental limitati
 
 ## Resources
 
-To support further advancements in [[AI Security]], the researchers have released the following resources:
+To support further advancements in [[robust-ai-security-and-alignment-a-sisyphean-endeavor|AI Security]], the researchers have released the following resources:
 * **Code and Datasets:** [https://github.com/sleeepeer/PIArena](https://github.com/sleeepeer/PIArena)

@@ -1,3 +1,9 @@
+---
+title: "Predict Dont React Value Based Safety Forecasting For LLM Streaming"
+category: machine-learning
+created: 2026-04-12
+---
+
 title: Predict, Don't React: Value-Based Safety Forecasting for LLM Streaming
 created: 2024-05-22
 source: https://arxiv.org/abs/2604.03962
@@ -6,10 +12,10 @@ category: ai, machine-learning, technology
 
 # Predict, Don't React: Value-Based Safety Forecasting for LLM Streaming
 
-The research paper **"Predict, Don't React"** introduces **StreamGuard**, a novel, model-agnostic framework designed to enhance safety in [[Large Language Models]] (LLMs) during [[Streaming Inference]]. 
+The research paper **"Predict, Don't React"** introduces **StreamGuard**, a novel, model-agnostic framework designed to enhance safety in [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) during [[streaming-inference|Streaming Inference]]. 
 
 ## The Problem: Reactive Guardrails
-In most current [[AI Safety]] deployments, moderation systems act as "boundary detectors." When a model generates text, the guardrail monitors the output and attempts to identify the exact token where the text becomes unsafe. This reactive approach is inherently flawed for streaming applications, as the unsafe content has often already been delivered to the user by the time the violation is detected.
+In most current [[iatrobench-pre-registered-evidence-of-iatrogenic-harm-from-ai-safety-measures|AI Safety]] deployments, moderation systems act as "boundary detectors." When a model generates text, the guardrail monitors the output and attempts to identify the exact token where the text becomes unsafe. This reactive approach is inherently flawed for streaming applications, as the unsafe content has often already been delivered to the user by the time the violation is detected.
 
 ## The Solution: StreamGuard
 Instead of boundary detection, StreamGuard redefines moderation as a **forecasting problem**. Rather than asking, "Is this text currently unsafe?", the system asks, "Given this partial prefix, how likely is the future continuation to be harmful?"
@@ -24,4 +30,4 @@ StreamGuard demonstrates significant improvements over existing benchmarks, spec
 * **Intervention Accuracy:** On the QWENGUARDTEST benchmark, StreamGuard achieved a 92.6% on-time intervention rate and successfully reduced the "miss rate" (unprotected harmful content) from 7.9% to 4.9%.
 
 ## Generalizability and Transfer Learning
-A significant finding of the study is the effectiveness of **transfer learning** across different model architectures and tokenizers. The researchers demonstrated that forecasting-based supervision learned from one model family could be applied to another, such as **Gemma3**, which achieved a 98.2% streaming F1 score. This suggests that proactive, value-based forecasting is a highly robust strategy for maintaining low-latency safety in evolving [[Machine Learning]] ecosystems.
+A significant finding of the study is the effectiveness of **transfer learning** across different model architectures and tokenizers. The researchers demonstrated that forecasting-based supervision learned from one model family could be applied to another, such as **Gemma3**, which achieved a 98.2% streaming F1 score. This suggests that proactive, value-based forecasting is a highly robust strategy for maintaining low-latency safety in evolving [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] ecosystems.

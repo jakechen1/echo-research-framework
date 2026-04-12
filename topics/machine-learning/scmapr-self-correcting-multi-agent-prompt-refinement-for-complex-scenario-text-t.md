@@ -8,4 +8,4 @@ category: ai
 
 # SCMAPR
 
-**SCMAPR** (Scenario-aware and Self-Correcting Multi-Agent Prompt Refinement) is an advanced framework designed to enhance the performance of [[Text-to-Video]] (T2V) generation models. The framework specifically targets the "complexity gap"—the difficulty [[Diffusion Models]] face when
+**SCMAPR** (Scenario-aware and Self-Correcting Multi-Agent Prompt Refinement) is an advanced framework designed to enhance the performance of [[less-is-more-data-efficient-adaptation-for-controllable-text-to-video-generation|Text-to-Video]] (T2V) generation models. The framework specifically targets the "complexity gap"—the difficulty [[diffhdr-re-exposing-ldr-videos-with-video-diffusion-models|Diffusion Models]] face when

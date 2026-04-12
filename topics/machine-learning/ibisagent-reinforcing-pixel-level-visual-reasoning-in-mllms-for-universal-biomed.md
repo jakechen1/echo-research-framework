@@ -1,3 +1,9 @@
+---
+title: "Ibisagent Reinforcing Pixel Level Visual Reasoning In Mllms For Universal Biomed"
+category: machine-learning
+created: 2026-04-12
+---
+
 title: IBISAgent: Reinforcing Pixel-Level Visual Reasoning in MLLMs for Universal Biomedical Object Referring and Segmentation
 created: 2024-05-22
 source: https://arxiv.org/abs/2601.03054
@@ -6,7 +12,7 @@ category: [ai, machine-learning, biology, technology]
 
 # IBISAgent
 
-**IBISAgent** is a pioneering agentic framework designed to enhance pixel-level visual reasoning within [[Multimodal Large Language Models]] (MLLMs), specifically tailored for the complexities of [[Biomedical Imaging]]. While recent progress in medical AI has significantly improved image-level classification, achieving precise, pixel-level [[Segmentation]] remains a major frontier.
+**IBISAgent** is a pioneering agentic framework designed to enhance pixel-level visual reasoning within [[multimodal-large-language-models-for-multi-subject-in-context-image-generation|Multimodal Large Language Models]] (MLLMs), specifically tailored for the complexities of [[biomedical-imaging|Biomedical Imaging]]. While recent progress in medical AI has significantly improved image-level classification, achieving precise, pixel-level [[llm-as-judge-for-semantic-judging-of-powerline-segmentation-in-uav-inspection|Segmentation]] remains a major frontier.
 
 ## Challenges in Medical MLLMs
 Current research in medical MLLMs faces two critical bottlenecks regarding fine-grained comprehension:

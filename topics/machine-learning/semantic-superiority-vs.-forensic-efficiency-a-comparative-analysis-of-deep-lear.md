@@ -8,7 +8,7 @@ category: ai, technology
 
 # Semantic Superiority vs. Forensic Efficiency
 
-The research examines the detection of [[Business Email Compromise (BEC)]], a highly damaging [[Cybersecurity]] threat characterized by extreme operational asymmetry. Within BEC frameworks, a [[false negative]] event can trigger massive financial devastation, whereas a [[false positive]] primarily incurs costs related to investigation and administrative delay.
+The research examines the detection of [[business-email-compromise-bec|Business Email Compromise (BEC)]], a highly damaging [[cybersecurity|Cybersecurity]] threat characterized by extreme operational asymmetry. Within BEC frameworks, a [[false-negative|false negative]] event can trigger massive financial devastation, whereas a [[false-positive|false positive]] primarily incurs costs related to investigation and administrative delay.
 
-The study presents a comparative analysis of two distinct [[Machine Learning]] paradigms:
+The study presents a comparative analysis of two distinct [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] paradigms:
 

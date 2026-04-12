@@ -8,7 +8,7 @@ category: ai
 
 # Embedding Enhancement via Fine-Tuned Language Models for Learner-Item Cognitive Modeling
 
-The research paper "Embedding Enhancement via Fine-Tuned Language Models for Learner-Item Cognitive Modeling" explores advancements in [[Cognitive Diagnosis (CD)]] within the context of [[Online Intelligent Education]] systems. While traditional learner-item modeling has long relied on the effectiveness of ID embedding, the emergence of [[Language Models (LMs)]] presents a new opportunity to utilize rich semantic representations to improve diagnostic accuracy.
+The research paper "Embedding Enhancement via Fine-Tuned Language Models for Learner-Item Cognitive Modeling" explores advancements in [[cognitive-diagnosis-cd|Cognitive Diagnosis (CD)]] within the context of [[online-intelligent-education|Online Intelligent Education]] systems. While traditional learner-item modeling has long relied on the effectiveness of ID embedding, the emergence of [[language-models-lms|Language Models (LMs)]] presents a new opportunity to utilize rich semantic representations to improve diagnostic accuracy.
 
 ## The Problem Statement
 
@@ -26,4 +26,4 @@ To resolve these issues, the paper proposes **EduEmbed**, a unified embedding en
 
 ## Experimental Validation
 
-The proposed EduEmbed framework was rigorously tested across four different CD tasks and a [[Computerized Adaptive Testing (CAT)]] task. The experimental results demonstrate robust performance improvements across the board. Beyond mere performance metrics, the paper provides a comprehensive analysis of how semantic information influences diverse tasks, offering critical insights for future research in [[Artificial Intelligence]] and [[Machine Learning]] applied to educational technology.
+The proposed EduEmbed framework was rigorously tested across four different CD tasks and a [[computerized-adaptive-testing-cat|Computerized Adaptive Testing (CAT)]] task. The experimental results demonstrate robust performance improvements across the board. Beyond mere performance metrics, the paper provides a comprehensive analysis of how semantic information influences diverse tasks, offering critical insights for future research in [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] and [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] applied to educational technology.

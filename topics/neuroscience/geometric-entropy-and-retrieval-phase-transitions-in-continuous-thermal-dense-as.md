@@ -1,3 +1,9 @@
+---
+title: "Geometric Entropy And Retrieval Phase Transitions In Continuous Thermal Dense As"
+category: neuroscience
+created: 2026-04-12
+---
+
 title: Geometric Entropy and Retrieval Phase Transitions in Continuous Thermal Dense Associative Memory
 created: 2024-05-22
 source: https://arxiv.org/abs/2604.07401
@@ -6,7 +12,7 @@ category: machine-learning
 
 # Geometric Entropy and Retrieval Phase Transitions in Continuous Thermal Dense Associative Memory
 
-This article explores the thermodynamic capacity and stability of modern [[Hopfield Networks]], specifically focusing on [[Dense Associative Memory]] (DAM) models. Unlike classical pairwise associative memories, these modern architectures utilize continuous states to achieve an exponential memory capacity, defined by the relation $p = e^{\alpha N}$.
+This article explores the thermodynamic capacity and stability of modern [[hopfield-networks|Hopfield Networks]], specifically focusing on [[dense-associative-memory|Dense Associative Memory]] (DAM) models. Unlike classical pairwise associative memories, these modern architectures utilize continuous states to achieve an exponential memory capacity, defined by the relation $p = e^{\alpha N}$.
 
 ## Overview of Research
 

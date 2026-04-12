@@ -8,4 +8,4 @@ category: ai
 
 # High-Stakes Personalization: Rethinking LLM Customization for Individual Investor Decision-Making
 
-This article examines the fundamental limitations of current [[Large Language Models]] (LLMs) when applied to high-stakes, dynamic environments, specifically focusing on the domain
+This article examines the fundamental limitations of current [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) when applied to high-stakes, dynamic environments, specifically focusing on the domain

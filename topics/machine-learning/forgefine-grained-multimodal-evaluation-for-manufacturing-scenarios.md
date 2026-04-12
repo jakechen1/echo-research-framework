@@ -8,7 +8,7 @@ category: ai, technology
 
 # FORGE: Fine-grained Multimodal Evaluation for Manufacturing Scenarios
 
-The [[Manufacturing]] sector is currently undergoing a transition from simple automated perception to autonomous execution through the integration of [[Multimodal Large Language Models (MLLMs)]]. However, as highlighted in the study of the **FORGE** framework, existing evaluation methodologies fail to account for the high-precision requirements of real-world industrial environments. Current progress is largely restricted by a lack of specialized datasets and the absence of fine-grained domain semantics.
+The [[forgefine-grained-multimodal-evaluation-for-manufacturing-scenarios|Manufacturing]] sector is currently undergoing a transition from simple automated perception to autonomous execution through the integration of [[multimodal-large-language-models-mllms|Multimodal Large Language Models (MLLMs)]]. However, as highlighted in the study of the **FORGE** framework, existing evaluation methodologies fail to account for the high-precision requirements of real-world industrial environments. Current progress is largely restricted by a lack of specialized datasets and the absence of fine-grained domain semantics.
 
 ## Overview of FORGE
 To bridge the gap between general-purpose AI and industrial necessity, the researchers introduced FORGE. The framework is built upon a high-quality multimodal dataset that uniquely combines:
@@ -22,10 +22,10 @@ The study conducted a rigorous evaluation of 18 state-of-the-art MLLMs across th
 2. **Structural Surface Inspection:** Detecting anomalies and defects on material surfaces.
 3. **Assembly Verification:** Confirming the correct placement and integration of components.
 
-A significant finding of the research was the identification of the primary performance bottleneck. While it is often assumed that [[Visual Grounding]]—the ability to locate objects in an image—is the limiting factor, the FORGE analysis reveals that the true bottleneck is a lack of **domain-specific knowledge** within the models.
+A significant finding of the research was the identification of the primary performance bottleneck. While it is often assumed that [[visual-grounding|Visual Grounding]]—the ability to locate objects in an image—is the limiting factor, the FORGE analysis reveals that the true bottleneck is a lack of **domain-specific knowledge** within the models.
 
 ## Towards Domain-Adapted AI
-The paper demonstrates that the FORGE dataset is not merely a benchmark but an actionable resource for [[Domain Adaptation]]. By utilizing [[Supervised Fine-Tuning (SFT)]] on a compact 3B-parameter model using the FORGE annotations, the researchers achieved a relative accuracy improvement of up to 90.8% on held-out manufacturing scenarios. This provides a clear methodology for developing efficient, specialized models for industrial [[Artificial Intelligence]] applications.
+The paper demonstrates that the FORGE dataset is not merely a benchmark but an actionable resource for [[gan-based-domain-adaptation-for-image-aware-layout-generation-in-advertising-pos|Domain Adaptation]]. By utilizing [[supervised-fine-tuning-sft|Supervised Fine-Tuning (SFT)]] on a compact 3B-parameter model using the FORGE annotations, the researchers achieved a relative accuracy improvement of up to 90.8% on held-out manufacturing scenarios. This provides a clear methodology for developing efficient, specialized models for industrial [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] applications.
 
 ## Related Resources
 * **Code and Datasets:** [FORGE Web Repository](https://ai4manufacturing.github.io/forge-web)

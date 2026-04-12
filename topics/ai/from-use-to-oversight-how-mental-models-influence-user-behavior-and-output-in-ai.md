@@ -8,7 +8,7 @@ category: [ai, technology]
 
 # From Use to Oversight: How Mental Models Influence User Behavior and Output in AI Writing Assistants
 
-The research paper "From Use to Oversight: How Mental Models Influence User Behavior and Output in AI Writing Assistants" investigates the psychological relationship between users and [[Artificial Intelligence]] writing tools. While [[AI Writing Assistants]] are becoming ubiquitous, there remains a significant gap in understanding how a user's internal [[Mental Models]] dictate their level of scrutiny and "control behavior" during the writing process.
+The research paper "From Use to Oversight: How Mental Models Influence User Behavior and Output in AI Writing Assistants" investigates the psychological relationship between users and [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] writing tools. While [[ai-writing-assistants|AI Writing Assistants]] are becoming ubiquitous, there remains a significant gap in understanding how a user's internal [[from-use-to-oversight-how-mental-models-influence-user-behavior-and-output-in-ai|Mental Models]] dictate their level of scrutiny and "control behavior" during the writing process.
 
 ## Experimental Framework
 
@@ -26,8 +26,8 @@ The study revealed a complex relationship between system understanding and user 
 Key observations included:
 *   **Increased Usability Perception**: Participants with structural models judged the system as more usable.
 *   **Reduced Criticality**: Despite their higher understanding, these participants were less likely to catch errors, resulting in final documents with higher counts of grammatical mistakes.
-*   **The Trust-Control Paradox**: The data suggests that a deeper understanding of a system's architecture may inadvertently increase trust to a level that diminishes the user's role as a critical monitor, a phenomenon closely related to [[Automation Bias]].
+*   **The Trust-Control Paradox**: The data suggests that a deeper understanding of a system's architecture may inadvertently increase trust to a level that diminishes the user's role as a critical monitor, a phenomenon closely related to [[automation-bias|Automation Bias]].
 
-## Implications for [[User Experience]]
+## Implications for [[user-experience|User Experience]]
 
-These findings have profound implications for the design of [[Human-Computer Interaction]] (HCI). As developers move toward more transparent, "white-box" AI models, they must account for the risk that increased transparency might decrease necessary user oversight. Designing for [[User Experience]] (UX) in AI necessitates not just teaching users how a system works, but actively fostering the critical skepticism required to manage error-prone outputs.
+These findings have profound implications for the design of [[human-computer-interactions-predict-mental-health|Human-Computer Interaction]] (HCI). As developers move toward more transparent, "white-box" AI models, they must account for the risk that increased transparency might decrease necessary user oversight. Designing for [[user-experience|User Experience]] (UX) in AI necessitates not just teaching users how a system works, but actively fostering the critical skepticism required to manage error-prone outputs.

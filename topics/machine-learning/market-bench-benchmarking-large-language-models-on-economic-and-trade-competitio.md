@@ -8,7 +8,7 @@ category: ai
 
 # Market-Bench
 
-**Market-Bench** is an innovative benchmarking framework developed to assess the proficiency of [[Large Language Models]] (LLMs) in performing tasks relevant to [[Economics]] and international trade. As [[Artificial Intelligence]] moves toward more autonomous roles, understanding how these models manage resources, navigate auctions, and compete in complex markets becomes a vital area of research within [[Machine Learning]].
+**Market-Bench** is an innovative benchmarking framework developed to assess the proficiency of [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) in performing tasks relevant to [[economics|Economics]] and international trade. As [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] moves toward more autonomous roles, understanding how these models manage resources, navigate auctions, and compete in complex markets becomes a vital area of research within [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]].
 
 ## Overview
 
@@ -26,4 +26,4 @@ A key strength of Market-Bench is its comprehensive logging system. The framewor
 
 ## Key Findings
 
-Research conducted on 20 different open- and closed-source LLM agents uncovered significant performance disparities. Notably, the study identified a **"winner-take-most"** phenomenon. While a small, elite subset of LLM retailers was able to achieve consistent capital appreciation, a much larger group of agents remained near the break-even point. Interestingly, many agents remained economically stagnant even when they achieved high semantic matching scores, suggesting that linguistic competence does not inherently translate to economic success within [[Multi-Agent Systems]].
+Research conducted on 20 different open- and closed-source LLM agents uncovered significant performance disparities. Notably, the study identified a **"winner-take-most"** phenomenon. While a small, elite subset of LLM retailers was able to achieve consistent capital appreciation, a much larger group of agents remained near the break-even point. Interestingly, many agents remained economically stagnant even when they achieved high semantic matching scores, suggesting that linguistic competence does not inherently translate to economic success within [[strategic-persuasion-with-trait-conditioned-multi-agent-systems-for-iterative-le|Multi-Agent Systems]].

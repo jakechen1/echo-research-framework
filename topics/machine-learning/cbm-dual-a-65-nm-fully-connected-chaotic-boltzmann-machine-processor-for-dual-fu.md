@@ -8,11 +8,11 @@ category: ai, machine-learning, technology
 
 # CBM-Dual
 
-**CBM-Dual** is a groundbreaking silicon-proven [[Digital Dynamics Processor]] (CDP) designed to bridge the gap between optimization and temporal pattern recognition. Fabricated using a 65-nm process, it represents the first hardware architecture capable of supporting both [[Simulated Annealing]] (SA) and [[Reservoir Computing]] (RC) within a single unified framework.
+**CBM-Dual** is a groundbreaking silicon-proven [[digital-dynamics-processor|Digital Dynamics Processor]] (CDP) designed to bridge the gap between optimization and temporal pattern recognition. Fabricated using a 65-nm process, it represents the first hardware architecture capable of supporting both [[simulated-annealing|Simulated Annealing]] (SA) and [[recurrent-quantum-feature-maps-for-reservoir-computing|Reservoir Computing]] (RC) within a single unified framework.
 
 ## Architecture and Core Technology
 
-The processor is built upon a large-scale, fully connected 1024-neuron [[Chaotic Boltzmann Machine]] (CBM). This architecture is specifically engineered for [[Edge AI]] applications, where the goal is to provide real-time decision-making capabilities and lightweight adaptation for autonomous systems. The design utilizes chaotic dynamics to drive the underlying computational processes, allowing for high-efficiency execution of complex tasks.
+The processor is built upon a large-scale, fully connected 1024-neuron [[cbm-dual-a-65-nm-fully-connected-chaotic-boltzmann-machine-processor-for-dual-fu|Chaotic Boltzmann Machine]] (CBM). This architecture is specifically engineered for [[pca-driven-adaptive-sensor-triage-for-edge-ai-inference|Edge AI]] applications, where the goal is to provide real-time decision-making capabilities and lightweight adaptation for autonomous systems. The design utilizes chaotic dynamics to drive the underlying computational processes, allowing for high-efficiency execution of complex tasks.
 
 ## Key Innovations
 
@@ -25,7 +25,7 @@ To mitigate the traditional high computational overhead and physical area costs 
 
 The physical implementation of CBM-Dual occupies a 12mm$^2$ area on a 65nm process. The processor achieves state-of-the-art energy efficiency and excels at simultaneous heterogeneous task execution. Compared to existing benchmarks, CBM-Dual delivers:
 
-*   **A 25-54$\times$ improvement** in the efficiency of [[Simulated Annealing]] tasks.
-*   **A 4.5$\times$ improvement** in the efficiency of [[Reservoir Computing]] tasks.
+*   **A 25-54$\times$ improvement** in the efficiency of [[simulated-annealing|Simulated Annealing]] tasks.
+*   **A 4.5$\times$ improvement** in the efficiency of [[recurrent-quantum-feature-maps-for-reservoir-computing|Reservoir Computing]] tasks.
 
 Through these advancements, CBM-Dual provides a blueprint for the next generation of high-performance, low-power neuromorphic hardware capable of handling multi-modal workloads in autonomous environments.

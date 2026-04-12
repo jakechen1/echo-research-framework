@@ -8,14 +8,14 @@ category: ai, machine-learning
 
 # Robust Adaptation of Foundation Models with Black-Box Visual Prompting
 
-This article explores the challenges and solutions presented in the research paper regarding the adaptation of large-scale [[Pre-trained Models]] (PTMs) when the underlying architecture and parameters are inaccessible.
+This article explores the challenges and solutions presented in the research paper regarding the adaptation of large-scale [[pre-trained-models|Pre-trained Models]] (PTMs) when the underlying architecture and parameters are inaccessible.
 
 ## The Problem: The Black-Box Limitation
-Current advancements in [[Parameter-Efficient Transfer Learning]] (PETL) typically rely on two optimistic assumptions:
+Current advancements in [[a-parameter-efficient-transfer-learning-approach-through-multitask-prompt-distil|Parameter-Efficient Transfer Learning]] (PETL) typically rely on two optimistic assumptions:
 1. **Full Parameter Access:** The ability to see and modify the weights of the PTM.
 2. **High Memory Capacity:** The availability of sufficient memory to cache intermediate activations for gradient computation.
 
-In practical-world applications, however, many state-of-the-art models are deployed as proprietary software or accessed via [[APIs]]. In these "black-box" scenarios, developers cannot access the internal parameters of the model, nor can they meet the massive memory requirements necessitated by modern [[Deep Learning]] architectures.
+In practical-world applications, however, many state-of-the-art models are deployed as proprietary software or accessed via [[apis|APIs]]. In these "black-box" scenarios, developers cannot access the internal parameters of the model, nor can they meet the massive memory requirements necessitated by modern [[benchmarking-deep-learning-for-future-liver-remnant-segmentation-in-colorectal-l|Deep Learning]] architectures.
 
 ## The Solution: BlackVIP
 The authors propose **BlackVIP** (Black-box Visual Prompting), a method designed to enable efficient adaptation without any knowledge of the model's internal structure. The framework operates via two core components:
@@ -28,4 +28,4 @@ For high-efficiency needs, the researchers also introduced **BlackVIP-SE**, a va
 ## Experimental Results and Theory
 The effectiveness of BlackVIP was demonstrated across 19 different datasets, proving its ability to achieve robust adaptation across diverse tasks with minimal memory consumption. 
 
-Furthermore, the paper provides a deep theoretical connection between visual prompting and [[Randomized Smoothing]]. The authors demonstrate that the generalization capabilities of visual prompting methods are inherently linked to the *certified robustness* found in randomized smoothing, providing empirical support for the method's enhanced stability and robustness against distribution shifts.
+Furthermore, the paper provides a deep theoretical connection between visual prompting and [[randomized-smoothing|Randomized Smoothing]]. The authors demonstrate that the generalization capabilities of visual prompting methods are inherently linked to the *certified robustness* found in randomized smoothing, providing empirical support for the method's enhanced stability and robustness against distribution shifts.

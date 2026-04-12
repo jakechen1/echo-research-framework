@@ -7,11 +7,11 @@ tags: [ai, machine-learning, technology]
 
 # VideoStir: Understanding Long Videos via Spatio-Temporally Structured and Intent-Aware RAG
 
-The challenge of scaling [[Multimodal Large Language Models]] (MLLMs) to encompass long-form video content is primarily driven by the limitations of context windows. As video duration increases, the computational overhead of processing every frame becomes unsustainable. While [[Retrieval-Augmented Generation]] (RAG) provides a potential remedy by retrieving only relevant visual segments, current methodologies face two critical bottlenecks: the destruction of temporal continuity and a lack of deep semantic understanding.
+The challenge of scaling [[multimodal-large-language-models-for-multi-subject-in-context-image-generation|Multimodal Large Language Models]] (MLLMs) to encompass long-form video content is primarily driven by the limitations of context windows. As video duration increases, the computational overhead of processing every frame becomes unsustainable. While [[contradictions-in-context-challenges-for-retrieval-augmented-generation-in-healt|Retrieval-Augmented Generation]] (RAG) provides a potential remedy by retrieving only relevant visual segments, current methodologies face two critical bottlenecks: the destruction of temporal continuity and a lack of deep semantic understanding.
 
 ## Limitations of Existing RAG Methods
 
-Current video RAG approaches typically employ a "flattening" technique, where videos are decomposed into independent, isolated segments. This process breaks the inherent [[Spatio-Temporal Graph]] structure of the footage, stripping away the relationship between sequential events. Furthermore, most existing models rely on explicit semantic matching, which often fails to capture cues that are implicitly relevant to a user's underlying reasoning intent.
+Current video RAG approaches typically employ a "flattening" technique, where videos are decomposed into independent, isolated segments. This process breaks the inherent [[spatio-temporal-graph|Spatio-Temporal Graph]] structure of the footage, stripping away the relationship between sequential events. Furthermore, most existing models rely on explicit semantic matching, which often fails to capture cues that are implicitly relevant to a user's underlying reasoning intent.
 
 ## The VideoStir Framework
 
@@ -22,4 +22,4 @@ To address these issues, the **VideoStir** framework introduces a structured, in
 
 ## Data and Performance
 
-To support the development of this capability, the researchers curated **[[IR-600K]]**, a large-scale dataset specifically designed for learning the alignment between video frames and complex query intents.
+To support the development of this capability, the researchers curated **[[ir-600k|IR-600K]]**, a large-scale dataset specifically designed for learning the alignment between video frames and complex query intents.

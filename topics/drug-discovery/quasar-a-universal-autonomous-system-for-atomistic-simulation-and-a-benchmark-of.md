@@ -8,16 +8,16 @@ category: ai, machine-learning, technology
 
 # QUASAR
 
-**QUASAR** is an autonomous, agentic system designed to revolutionize the field of [[atomistic simulation]] by integrating [[Large Language Models (LLMs)]] into complex computational workflows. Unlike previous iterations of scientific automation that rely on rigid, task-specific tool-calling paradigms, QUASAR is engineered to function as a universal reasoning system capable of performing production-grade scientific discovery with minimal human intervention.
+**QUASAR** is an autonomous, agentic system designed to revolutionize the field of [[quasar-a-universal-autonomous-system-for-atomistic-simulation-and-a-benchmark-of|atomistic simulation]] by integrating [[large-language-models-llms|Large Language Models (LLMs)]] into complex computational workflows. Unlike previous iterations of scientific automation that rely on rigid, task-specific tool-calling paradigms, QUASAR is engineered to function as a universal reasoning system capable of performing production-grade scientific discovery with minimal human intervention.
 
 ## System Overview
 
 The primary innovation of QUASAR lies in its ability to orchestrate multi-scale workflows across a variety of diverse computational methods. The system can autonomously navigate and execute tasks involving:
 
-* [[Density Functional Theory (DFT)]]
-* [[Machine Learning Potentials]]
-* [[Molecular Dynamics]]
-* [[Monte Carlo simulations]]
+* [[density-functional-theory-dft|Density Functional Theory (DFT)]]
+* [[machine-learning-potentials|Machine Learning Potentials]]
+* [[making-room-for-ai-multi-gpu-molecular-dynamics-with-deep-potentials-in-gromacs|Molecular Dynamics]]
+* [[monte-carlo-simulations|Monte Carlo simulations]]
 
 To manage the inherent complexity of scientific research, QUASAR incorporates sophisticated mechanisms for adaptive planning and context-efficient memory management. It utilizes hybrid knowledge retrieval to ensure that the agent can access and apply domain-specific information accurately during the simulation process.
 
@@ -32,4 +32,4 @@ The benchmarking results suggest that QUASAR transcends the limitations of simpl
 
 ## Scientific Impact
 
-The development of QUASAR marks a significant step toward the deployment of agentic [[Artificial Intelligence]] in [[computational chemistry]]. By automating the orchestration of complex simulations, QUASAR has the potential to significantly accelerate research in [[materials science]] and potentially influence downstream applications in [[drug-discovery]]. While the authors identify areas for further optimization, the system provides a robust foundation for the future of autonomous scientific discovery.
+The development of QUASAR marks a significant step toward the deployment of agentic [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] in [[computational-chemistry|computational chemistry]]. By automating the orchestration of complex simulations, QUASAR has the potential to significantly accelerate research in [[materials-science|materials science]] and potentially influence downstream applications in [[targeting-phgdh-for-alzheimers-disease-drug-discovery-strategies|drug-discovery]]. While the authors identify areas for further optimization, the system provides a robust foundation for the future of autonomous scientific discovery.

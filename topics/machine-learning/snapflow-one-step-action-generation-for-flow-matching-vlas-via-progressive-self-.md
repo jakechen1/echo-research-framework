@@ -8,13 +8,13 @@ category: machine-learning
 
 # SnapFlow
 
-**SnapFlow** is a novel [[self-distillation]] technique designed to accelerate [[Vision-Language-Action]] (VLA) models that utilize [[flow-matching]] architectures. While modern models such as pi0, pi0.5, and SmolVLA have achieved state-of-the-art performance in [[robotics]] manipulation, their reliance on iterative denoising—typically requiring 10 ODE steps—creates significant computational bottlenecks. In modern GPU environments, this denoising process can account for up to 80% of the total end-to-end inference latency.
+**SnapFlow** is a novel [[embarrassingly-simple-self-distillation-improves-code-generation|self-distillation]] technique designed to accelerate [[starvla-a-lego-like-codebase-for-vision-language-action-model-developing|Vision-Language-Action]] (VLA) models that utilize [[evoflows-evolutionary-edit-based-flow-matching-for-protein-engineering|flow-matching]] architectures. While modern models such as pi0, pi0.5, and SmolVLA have achieved state-of-the-art performance in [[ai-driven-marine-robotics-emerging-trends-in-underwater-perception-and-ecosystem|robotics]] manipulation, their reliance on iterative denoising—typically requiring 10 ODE steps—creates significant computational bottlenecks. In modern GPU environments, this denoising process can account for up to 80% of the total end-to-end inference latency.
 
 ## Technical Approach
 
-The core innovation of SnapFlow is its ability to compress multi-step denoising into a single forward pass (1-NFE) without requiring an external teacher model or structural changes to the existing architecture. The method is described as "plug-and-play" and functions by mixing standard [[flow-matching]] samples with consistency samples. 
+The core innovation of SnapFlow is its ability to compress multi-step denoising into a single forward pass (1-NFE) without requiring an external teacher model or structural changes to the existing architecture. The method is described as "plug-and-play" and functions by mixing standard [[evoflows-evolutionary-edit-based-flow-matching-for-protein-engineering|flow-matching]] samples with consistency samples. 
 
-These consistency samples utilize two-step Euler shortcut velocities, which are computed from the model's own marginal velocity predictions. This specific approach is designed to avoid the trajectory drift typically caused by conditional velocities. Furthermore, SnapFlow employs a zero-initialized target-time embedding, allowing the [[neural-networks]] to switch seamlessly between local velocity estimation and global one-step generation within a single unified architecture.
+These consistency samples utilize two-step Euler shortcut velocities, which are computed from the model's own marginal velocity predictions. This specific approach is designed to avoid the trajectory drift typically caused by conditional velocities. Furthermore, SnapFlow employs a zero-initialized target-time embedding, allowing the [[curvature-aware-optimization-for-high-accuracy-physics-informed-neural-networks|neural-networks]] to switch seamlessly between local velocity estimation and global one-step generation within a single unified architecture.
 
 ## Performance and Results
 
@@ -26,4 +26,4 @@ SnapFlow has demonstrated significant efficiency gains across various scales of 
 
 ## Conclusion
 
-SnapFlow is orthogonal to other optimization strategies such as [[layer-distillation]] and [[token-pruning]]. This compatibility allows for compositional speedups, making it a powerful tool for deploying high-performance, real-time [[artificial-intelligence]] models in complex, physical environments.
+SnapFlow is orthogonal to other optimization strategies such as [[layer-distillation]] and [[token-pruning]]. This compatibility allows for compositional speedups, making it a powerful tool for deploying high-performance, real-time [[artificial-intelligence-and-the-structure-of-mathematics|artificial-intelligence]] models in complex, physical environments.

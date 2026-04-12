@@ -8,7 +8,7 @@ category: machine-learning
 
 # k-Maximum Inner and Product Attention for Graph Transformers and the Expressive Power of GraphGPS
 
-The research paper introduces **k-Maximum Inner Product (k-MIP) attention**, a specialized mechanism designed to overcome the scalability bottlenecks inherent in traditional [[Graph Transformers]]. While traditional [[Graph Neural Networks]] (GNNs) are often limited by phenomena such as [[oversquashing]] and difficulty modeling long-range dependencies, standard Transformer architectures are constrained by the quadratic computational and memory complexity of the all-to-all [[Attention Mechanism]].
+The research paper introduces **k-Maximum Inner Product (k-MIP) attention**, a specialized mechanism designed to overcome the scalability bottlenecks inherent in traditional [[biscale-gtr-fragment-aware-graph-transformers-for-multi-scale-molecular-represen|Graph Transformers]]. While traditional [[openglt-a-comprehensive-benchmark-of-graph-neural-networks-for-graph-level-tasks|Graph Neural Networks]] (GNNs) are often limited by phenomena such as [[oversquashing]] and difficulty modeling long-range dependencies, standard Transformer architectures are constrained by the quadratic computational and memory complexity of the all-to-all [[attention-mechanism|Attention Mechanism]].
 
 ## The k-MIP Mechanism
 

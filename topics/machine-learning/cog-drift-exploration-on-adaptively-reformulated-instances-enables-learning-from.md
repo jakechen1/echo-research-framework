@@ -4,10 +4,11 @@ created: 2024-05-23
 source: https://arxiv.org/abs/2604.04767
 tags: [LLM, Reinforcement Learning, Curriculum Learning, Reasoning]
 categories: [ai, machine-learning]
+---
 
 # Cog-DRIFT
 
-**Cog-DRIFT** is a novel framework designed to overcome the "exploration barrier" in [[Reinforcement Learning]] from Verifiable Rewards (RLVR) for [[Large Language Models]] (LLMs). The primary limitation addressed by this research is the inability of models to learn from extremely complex reasoning problems that are initially too difficult to solve within their current policy, as these problems yield no meaningful reward signal.
+**Cog-DRIFT** is a novel framework designed to overcome the "exploration barrier" in [[deepsearch-overcome-the-bottleneck-of-reinforcement-learning-with-verifiable-rew|Reinforcement Learning]] from Verifiable Rewards (RLVR) for [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs). The primary limitation addressed by this research is the inability of models to learn from extremely complex reasoning problems that are initially too difficult to solve within their current policy, as these problems yield no meaningful reward signal.
 
 ## Methodology
 

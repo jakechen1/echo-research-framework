@@ -8,7 +8,7 @@ category: ai
 
 # MapTab: Are MLL．Models Ready for Multi-Criteria Route Planning in Heterogeneous Graphs?
 
-MapTab is a specialized multimodal benchmark designed to rigorously evaluate the reasoning capabilities of [[Multimodal Large Language Models]] (MLLMs) when faced with multi-criteria constraints. As the field moves toward [[Artificial General Intelligence]] (AGI), MapTab addresses a critical gap: the lack of benchmarks capable of testing how models process information from heterogeneous sources—specifically map images and structured tabular data—to solve complex spatial problems.
+MapTab is a specialized multimodal benchmark designed to rigorously evaluate the reasoning capabilities of [[multimodal-large-language-models-for-multi-subject-in-context-image-generation|Multimodal Large Language Models]] (MLLMs) when faced with multi-criteria constraints. As the field moves toward [[artificial-general-intelligence|Artificial General Intelligence]] (AGI), MapTab addresses a critical gap: the lack of benchmarks capable of testing how models process information from heterogeneous sources—specifically map images and structured tabular data—to solve complex spatial problems.
 
 ## Benchmark Structure
 

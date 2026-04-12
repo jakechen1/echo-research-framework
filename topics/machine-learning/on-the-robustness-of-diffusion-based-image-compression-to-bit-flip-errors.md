@@ -8,11 +8,11 @@ category: [ai, machine-learning, technology]
 
 # On the Robustness of Diffusion-Based Image Compression to Bit-Flip Errors
 
-The research paper "On the Robustness of Diffusion-Based Image Compression to Bit-Flip Errors" investigates a critical yet frequently overlooked dimension of [[Image Compression]]: resilience to bit-level corruption. Historically, the development of compression standards has focused almost exclusively on optimizing the [[Rate-Distortion-Perception Trade-off]], prioritizing file size reduction and visual fidelity over the ability to withstand data corruption.
+The research paper "On the Robustness of Diffusion-Based Image Compression to Bit-Flip Errors" investigates a critical yet frequently overlooked dimension of [[on-the-robustness-of-diffusion-based-image-compression-to-bit-flip-errors|Image Compression]]: resilience to bit-level corruption. Historically, the development of compression standards has focused almost exclusively on optimizing the [[rate-distortion-perception-trade-off|Rate-Distortion-Perception Trade-off]], prioritizing file size reduction and visual fidelity over the ability to withstand data corruption.
 
 ## Key Findings
 
-The authors demonstrate that compression architectures utilizing the [[Reverse Channel Coding]] (RCC) paradigm—specifically those built upon [[Diffusion Models]]—exhibits significantly higher robustness to bit-flip errors compared to both [[Classical Compression]] (such as JPEG) and modern [[Neural Compression]] (learned) codecs. 
+The authors demonstrate that compression architectures utilizing the [[reverse-channel-coding|Reverse Channel Coding]] (RCC) paradigm—specifically those built upon [[diffhdr-re-exposing-ldr-videos-with-video-diffusion-models|Diffusion Models]]—exhibits significantly higher robustness to bit-flip errors compared to both [[classical-compression|Classical Compression]] (such as JPEG) and modern [[neural-compression|Neural Compression]] (learned) codecs. 
 
 The study identifies that the generative nature of the diffusion process allows the decoder to effectively "reconstruct" or "smooth over" localized bit-level inaccuracies, preventing the catastrophic structural failures often seen in traditional entropy-coded bitstreams.
 
@@ -22,4 +22,4 @@ A primary contribution of this work is the introduction of a highly robust varia
 
 ## Implications for Communication
 
-The findings hold significant implications for [[Information Theory]] and [[Communication Systems]], particularly in environments characterized by high signal-to-noise ratios. If [[Diffusion-Based Compression]] can inherently withstand bit-level noise, there may be a decreased reliance on heavy, computationally expensive [[Error-Correcting Codes]] (ECC) in transmission pipelines. This could lead to more efficient end-to-end protocols in sectors such as [[Satellite Communications]] and [[Edge Computing]], where minimizing overhead in noisy environments is paramount.
+The findings hold significant implications for [[information-theory|Information Theory]] and [[communication-systems|Communication Systems]], particularly in environments characterized by high signal-to-noise ratios. If [[diffusion-based-compression|Diffusion-Based Compression]] can inherently withstand bit-level noise, there may be a decreased reliance on heavy, computationally expensive [[error-correcting-codes|Error-Correcting Codes]] (ECC) in transmission pipelines. This could lead to more efficient end-to-end protocols in sectors such as [[satellite-communications|Satellite Communications]] and [[multi-turn-reasoning-llms-for-task-offloading-in-mobile-edge-computing|Edge Computing]], where minimizing overhead in noisy environments is paramount.

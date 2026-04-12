@@ -9,7 +9,7 @@ category: machine-learning
 # Beyond Loss Values: Robust Dynamic Pruning via Loss Trajectory Alignment
 
 ## Overview
-In the field of [[Machine Learning]], [[Dynamic Data Pruning]] has emerged as a vital technique for optimizing training efficiency. By selecting a high-quality subset of data, researchers can reduce the computational burden of training large-scale [[Neural Networks]]. However, a significant challenge arises when training datasets contain [[Label Noise]]. 
+In the field of [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]], [[dynamic-data-pruning|Dynamic Data Pruning]] has emerged as a vital technique for optimizing training efficiency. By selecting a high-quality subset of data, researchers can reduce the computational burden of training large-scale [[curvature-aware-optimization-for-high-accuracy-physics-informed-neural-networks|Neural Networks]]. However, a significant challenge arises when training datasets contain [[the-malignant-tail-spectral-segregation-of-label-noise-in-over-parameterized-net|Label Noise]]. 
 
 Standard pruning methods typically use per-sample loss as the primary ranking criterion. In a noisy-label environment, this strategy often fails; because noisy samples inherently produce higher loss values, the pruning algorithm mistakenly identifies them as "important" samples to be preserved. This leads to the retention of errors, which fundamentally degrades the model's final accuracy.
 
@@ -19,10 +19,10 @@ To address the instability of loss-based ranking, the paper introduces **AlignPr
 Unlike traditional methods that look at a single snapshot of loss, the DAS utilizes a **Loss Trajectory-based** criterion. By analyzing the evolution of loss over the course of the training process, AlignPrune can more accurately distinguish between truly informative, difficult samples and those that are simply mislabeled. This trajectory-based approach allows the system to identify patterns characteristic of noise, effectively filtering them out during the pruning phase.
 
 ## Key Features and Performance
-AlignPrune is designed to be a "plug-and-play" solution, making it highly versatile for the [[Artificial Intelligence]] community. Its primary advantages include:
+AlignPrune is designed to be a "plug-and-play" solution, making it highly versatile for the [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] community. Its primary advantages include:
 
-* **Seamless Integration:** It can be integrated into existing [[State-of-the-Art (SOTA)]] dynamic pruning frameworks without requiring changes to the model architecture.
-* **Pipeline Compatibility:** The module does not necessitate modifications to the standard [[Training Pipeline]].
+* **Seamless Integration:** It can be integrated into existing [[state-of-the-art-sota|State-of-the-Art (SOTA)]] dynamic pruning frameworks without requiring changes to the model architecture.
+* **Pipeline Compatibility:** The module does not necessitate modifications to the standard [[training-pipeline|Training Pipeline]].
 * **Superior Accuracy:** Experimental results across five widely-used benchmarks show that AlignPrune can increase accuracy by up to 6.3% compared to existing baselines.
 
 ## Resources

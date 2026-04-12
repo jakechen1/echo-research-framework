@@ -8,4 +8,4 @@ category: [ai, machine-learning, technology]
 
 # SHIELD: A Segmented Hierarchical Memory Architecture
 
-The deployment of [[Large Language Models]] (LLMs) on [[Edge Computing]] hardware, specifically on [[Neural Processing Unit]] (NPU) architectures,
+The deployment of [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) on [[multi-turn-reasoning-llms-for-task-offloading-in-mobile-edge-computing|Edge Computing]] hardware, specifically on [[neural-processing-unit|Neural Processing Unit]] (NPU) architectures,

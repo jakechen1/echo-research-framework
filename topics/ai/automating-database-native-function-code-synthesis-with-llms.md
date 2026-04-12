@@ -8,10 +8,10 @@ categories: [ai, technology]
 
 # Automating Database-Native Function Code Synthesis with LLMs
 
-The continuous evolution of [[Database Systems]] necessitates the integration of an increasing number of database-native functions within their kernels to support modern applications and business migrations. However, the manual synthesis of these functions is both complex and error-prone, as it involves registering multiple function units, linking internal references, and ensuring precise implementation logic.
+The continuous evolution of [[database-systems|Database Systems]] necessitates the integration of an increasing number of database-native functions within their kernels to support modern applications and business migrations. However, the manual synthesis of these functions is both complex and error-prone, as it involves registering multiple function units, linking internal references, and ensuring precise implementation logic.
 
 ## The Challenge of Generic LLMs
-While recent breakthroughs in [[Large Language Models]] (LLMs) have significantly advanced [[Code Generation]], generic models (such as Claude Code) often struggle with database-specific development. These models frequently suffer from hallucinations or overlook the critical context required for database kernels, specifically regarding the intricate dependencies between function units and the registration of internal references.
+While recent breakthroughs in [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) have significantly advanced [[compiled-ai-deterministic-code-generation-for-llm-based-workflow-automation|Code Generation]], generic models (such as Claude Code) often struggle with database-specific development. These models frequently suffer from hallucinations or overlook the critical context required for database kernels, specifically regarding the intricate dependencies between function units and the registration of internal references.
 
 ## Introducing DBCooker
 To mitigate these issues, the researchers proposed **DBCooker**, a specialized LLM-based system designed for the automated synthesis of database-native functions. DBCooker operates through three primary architectural components:
@@ -23,4 +23,4 @@ To mitigate these issues, the researchers proposed **DBCooker**, a specialized L
 The system is unified by an **Adaptive Orchestration Strategy**, which dynamically sequences operations by leveraging the orchestration history of similar functions and existing development tools.
 
 ## Performance and Results
-Empirical evaluations demonstrate that DBCooker significantly outperforms existing methods when applied to widely used database engines, including [[SQLite]], [[PostgreSQL]], and [[DuckDB]], yielding an average accuracy improvement of **34.55%**. Furthermore, the system has demonstrated the capability to synthesize entirely new functions that are not present in the latest versions of [[SQLite]] (v3.50), marking a significant step forward in autonomous database development.
+Empirical evaluations demonstrate that DBCooker significantly outperforms existing methods when applied to widely used database engines, including [[sqlite|SQLite]], [[postgresql|PostgreSQL]], and [[duckdb|DuckDB]], yielding an average accuracy improvement of **34.55%**. Furthermore, the system has demonstrated the capability to synthesize entirely new functions that are not present in the latest versions of [[sqlite|SQLite]] (v3.50), marking a significant step forward in autonomous database development.

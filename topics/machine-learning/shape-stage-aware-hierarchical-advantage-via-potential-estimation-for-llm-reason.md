@@ -7,10 +7,10 @@ tags: [ai, machine-learning, technology]
 
 # SHAPE: Stage-aware Hierarchical Advantage via Potential Estimation for LLM Reasoning
 
-The paper "SHAPE: Stage-aware Hierarchical Advantage via Potential Estimation for LLM Reasoning" introduces a novel framework designed to optimize the [[Reasoning]] capabilities of [[Large Language Models]] (LLMs). The core objective is to address a critical flaw in current [[Process Supervision]] methods: the inability to distinguish genuine logical progress from mere "verbosity."
+The paper "SHAPE: Stage-aware Hierarchical Advantage via Potential Estimation for LLM Reasoning" introduces a novel framework designed to optimize the [[$pi^2$-structure-originated-reasoning-data-improves-long-context-reasoning-abili|Reasoning]] capabilities of [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs). The core objective is to address a critical flaw in current [[process-supervision|Process Supervision]] methods: the inability to distinguish genuine logical progress from mere "verbosity."
 
 ### The Challenge of Verbosity
-In modern [[Machine Learning]] training, process supervision is often used to reward correct intermediate steps. However, current models frequently suffer from "token inefficiency," where the model generates long, repetitive sequences that do not actually contribute to solving the problem. This creates a "noise" problem where the model learns to be wordy rather than logically precise, leading to increased computational costs and degraded reasoning accuracy.
+In modern [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] training, process supervision is often used to reward correct intermediate steps. However, current models frequently suffer from "token inefficiency," where the model generates long, repetitive sequences that do not actually contribute to solving the problem. This creates a "noise" problem where the model learns to be wordy rather than logically precise, leading to increased computational costs and degraded reasoning accuracy.
 
 ### The SHAPE Framework
 To combat this, the authors propose **SHAPE** (Stage-aware Hierarchical Advantage via Potential Estimation). This framework re-imagines the reasoning process as a trajectory moving through a state space of "empirical solvability." SHAPE utilizes a hierarchical credit assignment mechanism to refine training:
@@ -23,4 +23,4 @@ The efficacy of SHAPE was evaluated across three base models and five different 
 *   **Accuracy**: An average gain of **3%** in mathematical reasoning tasks.
 *   **Efficiency**: A **30% reduction** in total token consumption.
 
-By focusing on meaningful progress rather than sequence length, SHAPE provides a path toward more intelligent, concise, and computationally efficient [[Artificial Intelligence]] architectures.
+By focusing on meaningful progress rather than sequence length, SHAPE provides a path toward more intelligent, concise, and computationally efficient [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] architectures.

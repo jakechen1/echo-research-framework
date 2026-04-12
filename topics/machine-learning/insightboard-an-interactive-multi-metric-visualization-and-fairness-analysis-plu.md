@@ -8,7 +8,7 @@ category: machine-learning
 
 # InsightBoard
 
-**InsightBoard** is an interactive [[TensorBoard]] plugin designed to enhance the visibility of training dynamics and [[Subgroup Fairness]] during the development of [[Machine Learning]] models. As [[Artificial Intelligence]] systems are increasingly deployed in safety-critical domains, the ability to monitor not just aggregate performance, but also the evolution of disparities across different data slices, has become essential.
+**InsightBoard** is an interactive [[tensorboard|TensorBoard]] plugin designed to enhance the visibility of training dynamics and [[investigating-data-interventions-for-subgroup-fairness-an-icu-case-study|Subgroup Fairness]] during the development of [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] models. As [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] systems are increasingly deployed in safety-critical domains, the ability to monitor not just aggregate performance, but also the evolution of disparities across different data slices, has become essential.
 
 ## Problem Overview
 
@@ -29,4 +29,4 @@ The effectiveness of InsightBoard was demonstrated through case studies using th
 
 ## Conclusion
 
-A primary advantage of InsightBoard is its ease of integration. It supports more informed, early-stage model inspection without necessitating modifications to existing [[Deep Learning]] training pipelines or requiring additional, complex data storage infrastructures. This makes it a powerful tool for improving [[Algorithmic Fairness]] and model robustness throughout the [[Neural Network]] training lifecycle.
+A primary advantage of InsightBoard is its ease of integration. It supports more informed, early-stage model inspection without necessitating modifications to existing [[benchmarking-deep-learning-for-future-liver-remnant-segmentation-in-colorectal-l|Deep Learning]] training pipelines or requiring additional, complex data storage infrastructures. This makes it a powerful tool for improving [[algorithmic-fairness|Algorithmic Fairness]] and model robustness throughout the [[curvature-aware-optimization-for-high-accuracy-physics-informed-neural-networks|Neural Network]] training lifecycle.

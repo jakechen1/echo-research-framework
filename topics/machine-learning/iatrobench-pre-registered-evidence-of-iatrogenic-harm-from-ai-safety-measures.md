@@ -8,7 +8,7 @@ category: ai
 
 # IatroBench
 
-**IatroBench** is a benchmarking framework designed to evaluate "iatrogenic harm"—harm resulting from medical interventions—inflicted by [[AI Safety]] protocols in [[Frontier Models]]. The research investigates a critical phenomenon: **identity-contingent withholding**, where models provide clinically accurate guidance when interacting with a "physician" persona but withhold life-saving information when interacting with a "layperson" persona.
+**IatroBench** is a benchmarking framework designed to evaluate "iatrogenic harm"—harm resulting from medical interventions—inflicted by [[iatrobench-pre-registered-evidence-of-iatrogenic-harm-from-ai-safety-measures|AI Safety]] protocols in [[frontier-models|Frontier Models]]. The research investigates a critical phenomenon: **identity-contingent withholding**, where models provide clinically accurate guidance when interacting with a "physician" persona but withhold life-saving information when interacting with a "layperson" persona.
 
 ## Methodology
 
@@ -29,4 +29,4 @@ The researchers identified three distinct failure modes driving this behavior:
 
 ## Evaluation Limitations
 
-A significant concern raised by IatroBench is the failure of [[LLM-as-a-judge]] methodologies. The study found that standard LLM judges assigned zero harm (OH = 0) to 73% of responses that physician evaluators identified as dangerous. This suggests that current [[Machine Learning]] evaluation pipelines may possess the same blind spots as the training apparatus they are intended to monitor.
+A significant concern raised by IatroBench is the failure of [[beyond-llm-as-a-judge-deterministic-metrics-for-multilingual-generative-text-eva|LLM-as-a-judge]] methodologies. The study found that standard LLM judges assigned zero harm (OH = 0) to 73% of responses that physician evaluators identified as dangerous. This suggests that current [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] evaluation pipelines may possess the same blind spots as the training apparatus they are intended to monitor.

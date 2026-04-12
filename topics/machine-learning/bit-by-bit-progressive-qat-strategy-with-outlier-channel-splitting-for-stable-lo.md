@@ -8,7 +8,7 @@ category: machine-learning
 
 # Bit-by-Bit: Progressive QAT Strategy with Outlier Channel Splitting for Stable Low-Bit LLMs
 
-The paper **Bit-by-Bit** introduces a novel framework for [[Quantization-Aware Training]] (QAT) designed to solve the fundamental stability and convergence issues associated with training [[Large Language Models]] (LLMs) at ultra-low precision. Traditional low-bit quantization often suffers from significant error accumulation and high training costs, largely driven by quantization noise originating from heavy-tailed outlier channels in the model layers.
+The paper **Bit-by-Bit** introduces a novel framework for [[quantization-aware-training|Quantization-Aware Training]] (QAT) designed to solve the fundamental stability and convergence issues associated with training [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) at ultra-low precision. Traditional low-bit quantization often suffers from significant error accumulation and high training costs, largely driven by quantization noise originating from heavy-tailed outlier channels in the model layers.
 
 ## Core Methodology
 

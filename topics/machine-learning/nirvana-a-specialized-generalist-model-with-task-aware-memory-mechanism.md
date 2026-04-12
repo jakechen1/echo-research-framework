@@ -8,7 +8,7 @@ category: [ai, machine-learning, technology]
 
 # Nirvana: A Specialized Generalist Model With Task-Aware Memory Mechanism
 
-Nirvana is an innovative architecture within the field of [[Machine Learning]] designed to bridge the gap between [[Large Language Models]] (LLMs) and the requirements of niche, technical domains. While standard LLMs excel at general language processing, they often lack the precision required for highly specialized fields. Nirvana addresses this via a **Specialized Generalist Model (SGM)** framework, which preserves broad-spectrum intelligence while enabling deep adaptation to target domains.
+Nirvana is an innovative architecture within the field of [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] designed to bridge the gap between [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) and the requirements of niche, technical domains. While standard LLMs excel at general language processing, they often lack the precision required for highly specialized fields. Nirvana addresses this via a **Specialized Generalist Model (SGM)** framework, which preserves broad-spectrum intelligence while enabling deep adaptation to target domains.
 
 ## Core Architecture
 
@@ -19,10 +19,10 @@ The Nirvana architecture is centered around two primary components designed to f
 
 ## Performance and Applications
 
-Nirvana has demonstrated superior performance across several critical professional domains. In benchmarks for [[Biomedicine]], [[Finance]], and [[Law]], Nirvana achieved the lowest perplexity scores, outperforming traditional LLM baselines.
+Nirvana has demonstrated superior performance across several critical professional domains. In benchmarks for [[biomedicine|Biomedicine]], [[finance|Finance]], and [[beyond-case-law-evaluating-structure-aware-retrieval-and-safety-in-statute-centr|Law]], Nirvana achieved the lowest perplexity scores, outperforming traditional LLM baselines.
 
-Beyond text-based tasks, the model has shown significant potential in [[Computer Vision]] and medical reconstruction. By attaching lightweight codecs to a frozen Nirvana backbone, the system can process paired k-space signals and images for [[Magnetic Resonance Imaging]] (MRI) reconstruction. This method achieves higher-fidelity reconstructions than conventional models, proving that the $\textit{Trigger}$ mechanism is highly effective for cross-modal, domain-specific adaptation.
+Beyond text-based tasks, the model has shown significant potential in [[computer-vision|Computer Vision]] and medical reconstruction. By attaching lightweight codecs to a frozen Nirvana backbone, the system can process paired k-space signals and images for [[magnetic-resonance-imaging|Magnetic Resonance Imaging]] (MRI) reconstruction. This method achieves higher-fidelity reconstructions than conventional models, proving that the $\textit{Trigger}$ mechanism is highly effective for cross-modal, domain-specific adaptation.
 
 ## Conclusion
 
-Ablation studies conducted by the researchers confirm that the $\textit{Trigger}$ mechanism is essential to the model's success; removing it leads to substantial performance degradation. As [[Artificial Intelligence]] moves toward more specialized applications, Nirvana provides a blueprint for models that can be both broadly capable and deeply expert.
+Ablation studies conducted by the researchers confirm that the $\textit{Trigger}$ mechanism is essential to the model's success; removing it leads to substantial performance degradation. As [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] moves toward more specialized applications, Nirvana provides a blueprint for models that can be both broadly capable and deeply expert.

@@ -8,10 +8,10 @@ category: ai, machine-learning
 
 # Cite Pretrain: Retrieval-Free Knowledge Attribution for Large Language Models
 
-The paper "Cite Pretrain" addresses the critical challenge of [[Knowledge Attribution]] in [[Large Language Models]] (LLMs). While providing verifiable answers is essential for trustworthiness, current systems often rely on [[Retrieval-Augmented Generation]] (RAG) to insert citations at inference time. While effective, RAG-based approaches introduce significant latency, infrastructure dependencies, and vulnerability to retrieval noise.
+The paper "Cite Pretrain" addresses the critical challenge of [[cite-pretrain-retrieval-free-knowledge-attribution-for-large-language-models|Knowledge Attribution]] in [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs). While providing verifiable answers is essential for trustworthiness, current systems often rely on [[contradictions-in-context-challenges-for-retrieval-augmented-generation-in-healt|Retrieval-Augmented Generation]] (RAG) to insert citations at inference time. While effective, RAG-based approaches introduce significant latency, infrastructure dependencies, and vulnerability to retrieval noise.
 
 ### Methodology
 
-The authors propose a "retrieval-free" alternative that enables LLMs to reliably attribute information to documents seen during [[Continual Pretraining]] without requiring test-time retrieval. The approach utilizes a two-stage process:
+The authors propose a "retrieval-free" alternative that enables LLMs to reliably attribute information to documents seen during [[continual-pretraining|Continual Pretraining]] without requiring test-time retrieval. The approach utilizes a two-stage process:
 
 1

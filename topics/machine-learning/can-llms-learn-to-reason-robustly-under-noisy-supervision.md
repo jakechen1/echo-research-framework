@@ -7,7 +7,7 @@ tags: [ai, machine-learning, reinforcement-learning, large-language-models, nois
 
 # Can LLMs Learn to Reason Robustly under Noisy Supervision?
 
-The research paper "Can LLMs Learn to Reason Robustly under Noisy Supervision?" investigates the impact of incorrect training data on [[Large Language Models]] trained using [[Reinforcement Learning with Verifiable Rewards]] (RLVR). While RLVR is highly effective when using perfect labels, the scarcity of human experts often results in "noisy" or incorrect labels in training datasets, creating a significant challenge for scaling [[Machine Learning]] intelligence.
+The research paper "Can LLMs Learn to Reason Robustly under Noisy Supervision?" investigates the impact of incorrect training data on [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] trained using [[reinforcement-learning-with-verifiable-rewards|Reinforcement Learning with Verifiable Rewards]] (RLVR). While RLVR is highly effective when using perfect labels, the scarcity of human experts often results in "noisy" or incorrect labels in training datasets, creating a significant challenge for scaling [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] intelligence.
 
 ## The Mechanism of Noise in RLVR
 

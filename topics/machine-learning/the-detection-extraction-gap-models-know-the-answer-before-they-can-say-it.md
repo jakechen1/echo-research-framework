@@ -2,13 +2,13 @@
 title: "The Detection--Extraction Gap: Models Know the Answer Before They Can Say It"
 created: 2024-05-23
 source: https://arxiv.org/abs/2604.06613
-tags: [[Large Language Models]], [[Chain-of-Thought]], [[Inference Optimization]], [[Machine Learning]]
+tags: [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]], [[tool-mcot-tool-augmented-multimodal-chain-of-thought-for-content-safety-moderati|Chain-of-Thought]], [[joint-task-offloading-inference-optimization-and-uav-trajectory-planning-for-gen|Inference Optimization]], [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]]
 category: ai, machine-learning
 ---
 
 # The Detection--Extraction Gap
 
-The **Detection--Extraction Gap** is a structural phenomenon identified in modern [[Large Language Models]] (LLMs) where the model's internal state and partial output sequences contain the correct answer long before the model completes its generation process. Research demonstrates that in various model configurations and benchmarks, between **52% and 88% of [[Chain-of-Thought]] (CoT) tokens** are generated after the answer is already recoverable from an early prefix of the sequence.
+The **Detection--Extraction Gap** is a structural phenomenon identified in modern [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) where the model's internal state and partial output sequences contain the correct answer long before the model completes its generation process. Research demonstrates that in various model configurations and benchmarks, between **52% and 88% of [[tool-mcot-tool-augmented-multimodal-chain-of-thought-for-content-safety-moderati|Chain-of-Thought]] (CoT) tokens** are generated after the answer is already recoverable from an early prefix of the sequence.
 
 ## The Phenomenon
 
@@ -23,7 +23,7 @@ The study finds that while the answer is often present in the early stages of a 
 
 The researchers formalize this discrepancy using a **total-variation bound** to measure the shift between "free" continuation distributions (unconstrained generation) and "forced" continuation distributions (generation guided by specific prompts).
 
-To mitigate this inefficiency, the paper proposes **[[Black-box Adaptive Early Exit]] (BAEE)**. This method utilizes free continuations to perform both detection and extraction simultaneously. By exiting the generation process as soon as the answer is detectable, BAEE achieves significant performance improvements:
+To mitigate this inefficiency, the paper proposes **[[black-box-adaptive-early-exit|Black-box Adaptive Early Exit]] (BAEE)**. This method utilizes free continuations to perform both detection and extraction simultaneously. By exiting the generation process as soon as the answer is detectable, BAEE achieves significant performance improvements:
 
 *   **Efficiency:** Reduces serial generation by **70–78%**.
 *   **Accuracy:** Increases accuracy by **1–5 percentage points** across all tested models.
@@ -32,7 +32,7 @@ To mitigate this inefficiency, the paper proposes **[[Black-box Adaptive Early E
 A cost-optimized version of BAEE can achieve a reduction in generation cost of up to 73% while maintaining a median of only 9 API calls.
 
 ## Related Topics
-* [[Transformer Architectures]]
-* [[Inference Latency]]
-* [[Algorithmic Efficiency]]
-* [[Generative AI]]
+* [[transformer-architectures|Transformer Architectures]]
+* [[inference-latency|Inference Latency]]
+* [[algorithmic-efficiency|Algorithmic Efficiency]]
+* [[synthetic-trust-attacks-modeling-how-generative-ai-manipulates-human-decisions-i|Generative AI]]

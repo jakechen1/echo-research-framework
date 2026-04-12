@@ -9,15 +9,15 @@ category: ai
 # What Drives Representation Steering? A Mechanistic Case Study on Steering Refusal
 
 ## Overview
-[[Representation steering]] has emerged as an efficient and effective technique for the [[model alignment]] of [[Large Language Models]] (LLMs). However, the field has lacked a clear, interpretable explanation of the internal neural mechanisms that these steering vectors manipulate to alter model outputs. This paper provides a detailed mechanistic analysis, using the phenomenon of "refusal" as a primary case study to uncover how steering vectors influence model behavior.
+[[what-drives-representation-steering-a-mechanistic-case-study-on-steering-refusal|Representation steering]] has emerged as an efficient and effective technique for the [[model-alignment|model alignment]] of [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs). However, the field has lacked a clear, interpretable explanation of the internal neural mechanisms that these steering vectors manipulate to alter model outputs. This paper provides a detailed mechanistic analysis, using the phenomenon of "refusal" as a primary case study to uncover how steering vectors influence model behavior.
 
 ## Methodology
-The researchers utilized a multi-token [[activation patching]] framework to conduct a comprehensive investigation into the causal mechanisms of steering. By patching activations across different layers and components, the study aims to pinpoint which specific parts of the [[Attention Mechanism]] are susceptible to steering interventions.
+The researchers utilized a multi-token [[activation-patching|activation patching]] framework to conduct a comprehensive investigation into the causal mechanisms of steering. By patching activations across different layers and components, the study aims to pinpoint which specific parts of the [[attention-mechanism|Attention Mechanism]] are susceptible to steering interventions.
 
 ## Key Discoveries
 
 ### The OV vs. QK Circuit Distinction
-The core finding of the research is the identification of the specific circuit responsible for steering efficacy. The study reveals that steering vectors primarily interact with the [[OV circuit]] (Output-Value) within the attention mechanism. Conversely, the [[QK circuit]] (Query-Key) plays a negligible role in this process. The impact of this was quantified by freezing all attention scores during steering; this intervention resulted in a performance drop of only 8.75% across multiple model families, proving that the QK circuit is largely ignored by the steering process.
+The core finding of the research is the identification of the specific circuit responsible for steering efficacy. The study reveals that steering vectors primarily interact with the [[ov-circuit|OV circuit]] (Output-Value) within the attention mechanism. Conversely, the [[qk-circuit|QK circuit]] (Query-Key) plays a negligible role in this process. The impact of this was quantified by freezing all attention scores during steering; this intervention resulted in a performance drop of only 8.75% across multiple model families, proving that the QK circuit is largely ignored by the steering process.
 
 ### Interpretability and Optimization
 Beyond identifying the circuit, the paper explores the mathematical properties of these vectors:
@@ -26,4 +26,4 @@ Beyond identifying the circuit, the paper explores the mathematical properties o
 * **Dimensional Agreement:** The research shows that various steering methodologies converge on a shared subset of important dimensions, suggesting a robust underlying structure to how these vectors operate.
 
 ## Conclusion
-By identifying the [[OV circuit]] as the primary driver of steering, this research provides a foundation for more efficient and interpretable [[AI safety]] techniques, allowing for highly compressed yet effective control mechanisms in next-generation models.
+By identifying the [[ov-circuit|OV circuit]] as the primary driver of steering, this research provides a foundation for more efficient and interpretable [[iatrobench-pre-registered-evidence-of-iatrogenic-harm-from-ai-safety-measures|AI safety]] techniques, allowing for highly compressed yet effective control mechanisms in next-generation models.

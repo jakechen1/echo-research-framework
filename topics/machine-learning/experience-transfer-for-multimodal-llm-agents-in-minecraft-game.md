@@ -8,7 +8,7 @@ category: ai, machine-learning
 
 # Experience Transfer for Multimodal LLM Agents in Minecraft Game
 
-The research paper introduces **Echo**, a transfer-oriented memory framework designed to bridge the gap between static data storage and active knowledge application in [[Multimodal LLM]] agents. In complex, high-entropy environments like [[Minecraft]], agents often struggle to leverage past successes to solve novel tasks efficiently.
+The research paper introduces **Echo**, a transfer-oriented memory framework designed to bridge the gap between static data storage and active knowledge application in [[forgerygpt-a-multimodal-llm-for-interpretable-image-forgery-detection-and-locali|Multimodal LLM]] agents. In complex, high-entropy environments like [[experience-transfer-for-multimodal-llm-agents-in-minecraft-game|Minecraft]], agents often struggle to leverage past successes to solve novel tasks efficiently.
 
 ## The Echo Framework
 

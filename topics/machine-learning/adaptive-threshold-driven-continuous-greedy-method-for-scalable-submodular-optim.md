@@ -8,14 +8,14 @@ category: machine-learning
 
 # Adaptive Threshold-Driven Continuous Greedy Method (ATCG)
 
-The paper introduces the **Adaptive Threshold-Driven Continuous Greedy (ATCG)** method, a novel algorithmic framework designed to address the scalability challenges in [[Submodular Maximization]] under [[Matroid Constraints]]. Submodular optimization is a fundamental pillar in several computational domains, including [[Active Learning]], [[Data Summarization]], [[Sensing]], and [[Resource Allocation]].
+The paper introduces the **Adaptive Threshold-Driven Continuous Greedy (ATCG)** method, a novel algorithmic framework designed to address the scalability challenges in [[submodular-maximization|Submodular Maximization]] under [[matroid-constraints|Matroid Constraints]]. Submodular optimization is a fundamental pillar in several computational domains, including [[almab-dc-active-learning-multi-armed-bandits-and-distributed-computing-for-seque|Active Learning]], [[data-summarization|Data Summarization]], [[asking-like-socrates-socrates-helps-vlms-understand-remote-sensing-images|Sensing]], and [[a-graph-foundation-model-for-wireless-resource-allocation|Resource Allocation]].
 
 ## The Optimization Dilemma
 
 The research highlights a critical trade-off between approximation accuracy and computational/communication efficiency in existing literature:
 
-*   **[[Sequential Greedy]] (SG):** While computationally straightforward, this algorithm is limited by its "irrevocable selections," which prevent it from achieving more than a $1/2$-approximation.
-*   **[[Continuous Greedy]] (CG):** This method attains the optimal $(1-1/e)$-approximation via [[Multilinear Relaxation]]. However, it suffers from a significant scalability bottleneck: it utilizes a progressively dense decision vector. In distributed settings, this requires agents to exchange feature embeddings for nearly every element in the ground set, leading to prohibitive [[Communication Overhead]].
+*   **[[sequential-greedy|Sequential Greedy]] (SG):** While computationally straightforward, this algorithm is limited by its "irrevocable selections," which prevent it from achieving more than a $1/2$-approximation.
+*   **[[adaptive-threshold-driven-continuous-greedy-method-for-scalable-submodular-optim|Continuous Greedy]] (CG):** This method attains the optimal $(1-1/e)$-approximation via [[multilinear-relaxation|Multilinear Relaxation]]. However, it suffers from a significant scalability bottleneck: it utilizes a progressively dense decision vector. In distributed settings, this requires agents to exchange feature embeddings for nearly every element in the ground set, leading to prohibitive [[communication-overhead|Communication Overhead]].
 
 ## The ATCG Solution
 
@@ -25,4 +25,4 @@ To bridge this gap, the authors propose **ATCG**. The core innovation lies in a 
 
 The paper provides a robust theoretical foundation, establishing a **curvature-aware approximation guarantee**. The effective approximation factor is defined as $\tau_{\mathrm{eff}}=\max\{\tau,1-c\}$, which allows the algorithm to interpolate smoothly between a threshold-based guarantee and the high-performance regime observed in low-curvature scenarios.
 
-In empirical evaluations, the authors utilized a class-balanced prototype selection task on a subset of the [[CIFAR-10]] dataset. The results demonstrate that ATCG achieves objective values comparable to the full [[Continuous Greedy]] method while significantly reducing the volume of data exchanged, making it a highly scalable solution for modern [[Machine Learning]] and distributed computing architectures.
+In empirical evaluations, the authors utilized a class-balanced prototype selection task on a subset of the [[cifar-10|CIFAR-10]] dataset. The results demonstrate that ATCG achieves objective values comparable to the full [[adaptive-threshold-driven-continuous-greedy-method-for-scalable-submodular-optim|Continuous Greedy]] method while significantly reducing the volume of data exchanged, making it a highly scalable solution for modern [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] and distributed computing architectures.

@@ -8,7 +8,7 @@ category: ai, machine-learning
 
 # InfoTok
 
-**InfoTok** is a novel information-theoretic regularization framework designed to optimize the shared visual tokenizers used in unified [[Multimodal Large Language Models]] (MLLMs). As these models aim to unify both image understanding (perception) and image generation (synthesis) within a single framework, the shared tokenizer must act as an efficient interface, mapping high-dimensional visual input into a strictly limited token budget.
+**InfoTok** is a novel information-theoretic regularization framework designed to optimize the shared visual tokenizers used in unified [[multimodal-large-language-models-for-multi-subject-in-context-image-generation|Multimodal Large Language Models]] (MLLMs). As these models aim to unify both image understanding (perception) and image generation (synthesis) within a single framework, the shared tokenizer must act as an efficient interface, mapping high-dimensional visual input into a strictly limited token budget.
 
 ## The Challenge of Shared Tokenization
 
@@ -18,7 +18,7 @@ In contemporary MLLM architectures, the shared visual tokenizer is the primary b
 
 The researchers propose viewing the shared tokenizer as a compute-bounded learner. The core philosophy of InfoTok is that a finite representational budget should prioritize reusable structural information over high-entropy variations and redundant pixel-level noise. 
 
-Grounded in the [[Information Bottleneck]] (IB) principle, InfoTok implements an information-regularized mechanism that explicitly controls the flow of information from images to tokens. By imposing [[Mutual Information]] (MI) constraints, the framework enforces a mathematical trade-off between:
+Grounded in the [[information-bottleneck|Information Bottleneck]] (IB) principle, InfoTok implements an information-regularized mechanism that explicitly controls the flow of information from images to tokens. By imposing [[mutual-information|Mutual Information]] (MI) constraints, the framework enforces a mathematical trade-off between:
 1. **Compression:** Minimizing unnecessary data to stay within the token budget.
 2. **Task Relevance:** Maximizing the information necessary for both downstream multimodal reasoning and synthesis.
 
@@ -28,4 +28,4 @@ Since computing MI in high-dimensional visual spaces is computationally intracta
 * **Variational IB Formulation:** A method to approximate the information bottleneck.
 * **Hilbert-Schmidt Independence Criterion (HSIC):** A kernel-based approach to estimate dependence without explicit density estimation.
 
-When integrated into representative unified MLLMs, InfoTok consistently improves performance in both image understanding and generation tasks. Importantly, these gains are achieved without the requirement for additional training data, demonstrating that optimizing the information density of the tokenizer itself is a highly effective strategy for advancing [[Computer Vision]] and multimodal AI.
+When integrated into representative unified MLLMs, InfoTok consistently improves performance in both image understanding and generation tasks. Importantly, these gains are achieved without the requirement for additional training data, demonstrating that optimizing the information density of the tokenizer itself is a highly effective strategy for advancing [[computer-vision|Computer Vision]] and multimodal AI.

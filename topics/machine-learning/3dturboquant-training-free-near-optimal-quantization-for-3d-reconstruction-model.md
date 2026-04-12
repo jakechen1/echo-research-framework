@@ -8,13 +8,13 @@ category: [ai, machine-learning, technology]
 
 # 3DTurboQuant
 
-**3DTurboQuant** is a novel framework designed for the efficient, training-free compression of 3D reconstruction models. While existing compression methods for [[3D Gaussian Splatting]] (3DGS), [[NeRF]], and [[Transformer]]-based reconstructors typically require learning a data-dependent codebook through expensive per-scene fine-tuning, 3DTurboQuant eliminates the need for any training, calibration data, or codebook learning.
+**3DTurboQuant** is a novel framework designed for the efficient, training-free compression of 3D reconstruction models. While existing compression methods for [[generative-3d-gaussian-splatting-for-arbitrary-resolutionatmospheric-downscaling|3D Gaussian Splatting]] (3DGS), [[nerf|NeRF]], and [[crft-consistent-recurrent-feature-flow-transformer-for-cross-modal-image-registr|Transformer]]-based reconstructors typically require learning a data-dependent codebook through expensive per-scene fine-tuning, 3DTurboQuant eliminates the need for any training, calibration data, or codebook learning.
 
 ## Core Methodology
 
-The breakthrough of 3DTurboQuant stems from a mathematical insight regarding high-dimensional parameter vectors. The authors observed that the 45-dimensional spherical harmonics used in 3DGS and the 1024-dimensional key-value vectors in [[DUSt3R]] exist in a dimensional range where a single random rotation can transform any input into coordinates following a known [[Beta distribution]]. 
+The breakthrough of 3DTurboQuant stems from a mathematical insight regarding high-dimensional parameter vectors. The authors observed that the 45-dimensional spherical harmonics used in 3DGS and the 1024-dimensional key-value vectors in [[dust3r|DUSt3R]] exist in a dimensional range where a single random rotation can transform any input into coordinates following a known [[beta-distribution|Beta distribution]]. 
 
-By leveraging this property, the framework utilizes precomputed, data-independent [[Lloyd-Max quantization]] to achieve near-optimal compression, performing within a factor of 2.7 of the information-theoretic lower bound.
+By leveraging this property, the framework utilizes precomputed, data-independent [[lloyd-max-quantization|Lloyd-Max quantization]] to achieve near-optimal compression, performing within a factor of 2.7 of the information-theoretic lower bound.
 
 ## Key Contributions
 

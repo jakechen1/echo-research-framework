@@ -8,4 +8,4 @@ category: ai
 
 # $S^    3$: Stratified Scaling Search for Test-Time in Diffusion Language Models
 
-$S^3$ (Stratified Scaling Search) is an algorithmic framework designed to optimize [[Test-time scaling]] within [[Diffusion Language Models]] (DLMs). The core objective of $S^3$ is to enhance the quality of generated outputs by intelligently reallocating [[Inference compute]] during the denoising process, rather than relying solely on post
+$S^3$ (Stratified Scaling Search) is an algorithmic framework designed to optimize [[test-time-scaling|Test-time scaling]] within [[$s^3$-stratified-scaling-search-for-test-time-in-diffusion-language-models|Diffusion Language Models]] (DLMs). The core objective of $S^3$ is to enhance the quality of generated outputs by intelligently reallocating [[inference-compute|Inference compute]] during the denoising process, rather than relying solely on post

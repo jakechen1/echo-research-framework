@@ -8,11 +8,11 @@ category: ai
 
 # DRAFT: Task Decoupled Latent Reasoning for Agent Safety
 
-The emergence of [[tool-using LLM agents]] has fundamentally changed the landscape of safety monitoring. Unlike standard text generation, where risks are often visible in a single output, agentic workflows involve long, noisy interaction trajectories. In these contexts, safety-critical evidence is often sparse, making traditional binary supervision and simple output moderation insufficient for effective credit assignment.
+The emergence of [[tool-using-llm-agents|tool-using LLM agents]] has fundamentally changed the landscape of safety monitoring. Unlike standard text generation, where risks are often visible in a single output, agentic workflows involve long, noisy interaction trajectories. In these contexts, safety-critical evidence is often sparse, making traditional binary supervision and simple output moderation insufficient for effective credit assignment.
 
 ## Overview of DRAFT
 
-**DRAFT** (Task Decoupled Latent Reasoning for Agent Safety) is a proposed framework designed to address the challenges of auditing long-context agent interactions. The core innovation of DRAFT is the decoupling of the safety judgment process into two distinct, trainable stages that function through [[latent space]] aggregation.
+**DRAFT** (Task Decoupled Latent Reasoning for Agent Safety) is a proposed framework designed to address the challenges of auditing long-context agent interactions. The core innovation of DRAFT is the decoupling of the safety judgment process into two distinct, trainable stages that function through [[not-all-latent-spaces-are-flat-hyperbolic-concept-control|latent space]] aggregation.
 
 ### Technical Architecture
 
@@ -32,4 +32,4 @@ DRAFT has been evaluated against several strong baselines using specialized benc
 
 ## Conclusion
 
-The success of DRAFT suggests that performing continuous [[latent reasoning]] prior to the final readout is a highly practical and robust path toward ensuring the safety of [[artificial intelligence]] agents operating in complex, long-context environments.
+The success of DRAFT suggests that performing continuous [[are-latent-reasoning-models-easily-interpretable|latent reasoning]] prior to the final readout is a highly practical and robust path toward ensuring the safety of [[artificial-intelligence-and-the-structure-of-mathematics|artificial intelligence]] agents operating in complex, long-context environments.

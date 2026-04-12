@@ -8,11 +8,11 @@ category: machine-learning
 
 # Discrete Flow Matching Policy Optimization (DoMinO)
 
-The **Discrete Flow Matching Policy Optimization (DoMinO)** is a newly introduced unified framework designed for the [[Reinforcement Learning]] (RL) fine-tuning of [[Discrete Flow Matching]] (DFM) models. As generative modeling for discrete sequences becomes increasingly important in fields such as [[Bioinformatics]] and [[Generative AI]], DoMinO provides a method to steer these models toward specific rewards while maintaining the integrity of the learned distribution.
+The **Discrete Flow Matching Policy Optimization (DoMinO)** is a newly introduced unified framework designed for the [[deepsearch-overcome-the-bottleneck-of-reinforcement-learning-with-verifiable-rew|Reinforcement Learning]] (RL) fine-tuning of [[discrete-flow-matching-policy-optimization|Discrete Flow Matching]] (DFM) models. As generative modeling for discrete sequences becomes increasingly important in fields such as [[bioinformatics|Bioinformatics]] and [[synthetic-trust-attacks-modeling-how-generative-ai-manipulates-human-decisions-i|Generative AI]], DoMinO provides a method to steer these models toward specific rewards while maintaining the integrity of the learned distribution.
 
 ## Methodology
 
-The fundamental innovation of DoMinO is the conceptualization of the DFM sampling procedure as a multi-step [[Markov Decision Process]] (MDP). By viewing the sampling trajectory through this lens, the authors provide a transparent reformulation of reward maximization into a robust RL objective. 
+The fundamental innovation of DoMinO is the conceptualization of the DFM sampling procedure as a multi-step [[markov-decision-process|Markov Decision Process]] (MDP). By viewing the sampling trajectory through this lens, the authors provide a transparent reformulation of reward maximization into a robust RL objective. 
 
 Key technical features include:
 * **Sampler Preservation:** Unlike many prior methods, DoMinO preserves the original DFM samplers, ensuring compatibility with existing architectures.

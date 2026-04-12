@@ -8,7 +8,7 @@ category: machine-learning, technology
 
 # FedIFL: A Federated Cross-Domain Diagnostic Framework
 
-The **FedIFL** (Federated Invariant Features Learning) framework is a specialized approach developed to address the complexities of industrial [[Fault Diagnosis]] in decentralized environments. In many industrial sectors, particularly among start-ups, the scarcity of localized data prevents the independent training of comprehensive models. While [[Federated Learning]] provides a mechanism for collaborative training while preserving data privacy, standard federated methods often fail when faced with "inconsistent fault modes"—situations where different clients observe different sets of failure types.
+The **FedIFL** (Federated Invariant Features Learning) framework is a specialized approach developed to address the complexities of industrial [[fault-diagnosis|Fault Diagnosis]] in decentralized environments. In many industrial sectors, particularly among start-ups, the scarcity of localized data prevents the independent training of comprehensive models. While [[afl-a-single-round-analytic-approach-for-federated-learning-with-pre-trained-mod|Federated Learning]] provides a mechanism for collaborative training while preserving data privacy, standard federated methods often fail when faced with "inconsistent fault modes"—situations where different clients observe different sets of failure types.
 
 ## The Challenge of Inconsistent Label Spaces
 

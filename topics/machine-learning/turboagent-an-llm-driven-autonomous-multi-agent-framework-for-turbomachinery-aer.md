@@ -8,7 +8,7 @@ category: ai, machine-learning, technology
 
 # TurboAgent
 
-**TurboAgent** is an innovative autonomous framework designed to revolutionize the [[Aerodynamic Design]] of turbomachinery through the integration of [[Large Language Models]] (LLMs) and [[Multi-Agent Systems]]. 
+**TurboAgent** is an innovative autonomous framework designed to revolutionize the [[aerodynamic-design|Aerodynamic Design]] of turbomachinery through the integration of [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) and [[strategic-persuasion-with-trait-conditioned-multi-agent-systems-for-iterative-le|Multi-Agent Systems]]. 
 
 ## Overview
 The design process for turbomachinery, such as compressors and turbines, is traditionally a complex, multi-stage endeavor. It requires a tightly coupled sequence of geometry generation, performance prediction, and rigorous high-fidelity physical validation. Historically, these processes have relied on manually intensive trial-and-error methods or loosely coupled, fragmented pipelines that lack end-to-end autonomy.
@@ -17,8 +17,8 @@ TurboAgent addresses these challenges by utilizing an LLM as a central orchestra
 
 * **Generative Design Agent:** Handles the initial creation of blade geometries.
 * **Performance Prediction Agent:** Provides rapid estimation of aerodynamic metrics.
-* **Optimization Agent:** Executes [[Multi-objective Optimization]] to enhance design parameters.
-* **Validation Agent:** Conducts high-fidelity [[Computational Fluid Dynamics]] (CFD) simulations for final verification.
+* **Optimization Agent:** Executes [[multi-objective-optimization|Multi-objective Optimization]] to enhance design parameters.
+* **Validation Agent:** Conducts high-fidelity [[computational-fluid-dynamics|Computational Fluid Dynamics]] (CFD) simulations for final verification.
 
 ## Key Results
 The framework was validated using a transonic single-rotor compressor. The study demonstrated that TurboAgent can bridge the gap between natural language requirements and finalized physical designs. Key performance indicators include:
@@ -29,4 +29,4 @@ The framework was validated using a transonic single-rotor compressor. The study
 * **Computational Efficiency:** The complete autonomous workflow, capable of running under parallel computing, can be completed in approximately 30 minutes.
 
 ## Significance
-TurboAgent represents a paradigm shift in [[Automated Engineering]], moving from disconnected computational tools to a seamless, closed-loop [[Artificial Intelligence]] workflow. Its ability to transform high-level natural language instructions into optimized, physics-validated engineering designs provides a scalable solution for complex fluid machinery development.
+TurboAgent represents a paradigm shift in [[automated-engineering|Automated Engineering]], moving from disconnected computational tools to a seamless, closed-loop [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] workflow. Its ability to transform high-level natural language instructions into optimized, physics-validated engineering designs provides a scalable solution for complex fluid machinery development.

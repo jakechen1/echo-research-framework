@@ -9,20 +9,20 @@ category: machine-learning
 # Improving Model Performance by Adapulating the KGE Metric to Account for System Non-Stationarity
 
 ## Overview
-In the field of [[geosciences]], particularly within [[hydrological modeling]], a significant challenge is the presence of pronounced [[non-stationarity]]. This phenomenon arises from seasonal fluctuations, climatic variability in hydrometeorological drivers, and anthropogenic changes to land use. 
+In the field of [[geosciences]], particularly within [[hydrological-modeling|hydrological modeling]], a significant challenge is the presence of pronounced [[non-stationarity]]. This phenomenon arises from seasonal fluctuations, climatic variability in hydrometeorological drivers, and anthropogenic changes to land use. 
 
 Traditional evaluation metrics used in model development often rely on the "unjustifiable assumption" that the underlying data-generating process is time-stationary. This paper argues that ignoring these non-stationary trends can render traditional model assessments obsolete for effective water management.
 
 ## The JKGE_ss Metric
-To rectify the flaws inherent in stationary evaluation, the authors introduce the **JKGE_ss** metric (an adaptation of the [[Kling-Gupta Efficiency (KGE)]]). 
+To rectify the flaws inherent in stationary evaluation, the authors introduce the **JKGE_ss** metric (an adaptation of the [[kling-gupta-efficiency-kge|Kling-Gupta Efficiency (KGE)]]). 
 
-Unlike the [[Nash-Sutcliffe Efficiency (NSE)]] and standard $KGE_{ss}$, which use the long-term mean as a benchmark for model efficiency, the $JKGE_{ss}$ metric is designed to:
+Unlike the [[nash-sutcliffe-efficiency-nse|Nash-Sutcliffe Efficiency (NSE)]] and standard $KGE_{ss}$, which use the long-term mean as a benchmark for model efficiency, the $JKGE_{ss}$ metric is designed to:
 * Detect and account for **dynamical non-stationarity** in the statistical properties of data.
 * Emphasize the reproduction of **temporal variations** in system storage.
 * Improve information extraction during the model training phase.
 
 ## Experimental Validation
-The robustness of the $JKGE_{ss}$ metric was tested using a variety of [[machine learning]] and physical-conceptual catchment-scale models. The testing environment spanned diverse hydroclimatic conditions, including:
+The robustness of the $JKGE_{ss}$ metric was tested using a variety of [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|machine learning]] and physical-conceptual catchment-scale models. The testing environment spanned diverse hydroclimatic conditions, including:
 * **Snow-dominated** regimes.
 * **Arid** and precipitation-dominated regions.
 * Varying levels of flow, specifically focusing on **recession periods**.

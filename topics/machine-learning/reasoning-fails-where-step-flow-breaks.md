@@ -8,7 +8,7 @@ category: ai
 
 # Reasoning Fails Where Step Flow Breaks
 
-"Reasoning Fails Where Step Flow Breaks" investigates the structural instabilities present in [[Large Reasoning Models]] (LRMs) during long-sequence processing. As modern models increasingly rely on extensive [[Chain of Thought]] (CoT) trajectories to solve complex [[Mathematical Reasoning]], [[Science]], and [[Coding]] tasks, understanding how information flows through these elongated, structured reasoning traces becomes critical.
+"Reasoning Fails Where Step Flow Breaks" investigates the structural instabilities present in [[early-stopping-for-large-reasoning-models-via-confidence-dynamics|Large Reasoning Models]] (LRMs) during long-sequence processing. As modern models increasingly rely on extensive [[tool-mcot-tool-augmented-multimodal-chain-of-thought-for-content-safety-moderati|Chain of Thought]] (CoT) trajectories to solve complex [[do-mllms-really-understand-space-a-mathematical-reasoning-evaluation|Mathematical Reasoning]], [[bayesian-optimization-for-mixed-variable-problems-in-the-natural-sciences|Science]], and [[dmax-aggressive-parallel-decoding-for-dllms|Coding]] tasks, understanding how information flows through these elongated, structured reasoning traces becomes critical.
 
 ## The Discovery of Step-Saliency
 
@@ -19,9 +19,9 @@ The researchers introduce **Step-Saliency**, a novel analytical framework that u
 
 ## The StepFlow Intervention
 
-To mitigate these failures, the authors propose **StepFlow**, a test-time intervention designed to repair broken information flows without the computational burden of [[Neural Network]] retraining. StepFlow utilizes two primary mechanisms:
+To mitigate these failures, the authors propose **StepFlow**, a test-time intervention designed to repair broken information flows without the computational burden of [[curvature-aware-optimization-for-high-accuracy-physics-informed-neural-networks|Neural Network]] retraining. StepFlow utilizes two primary mechanisms:
 
 *   **Odds-Equal Bridge**: A method used to adjust the shallow saliency patterns identified by Step-Saliency, ensuring better integration of early context.
 *   **Step Momentum Injection**: A technique that adds a small, step-level residual in deeper layers to maintain the continuity of the reasoning trace.
 
-Experimental results across multiple LRMs demonstrate that StepFlow significantly improves accuracy in high-complexity tasks. The findings suggest that the performance bottlenecks in [[Machine Learning]] reasoning are not necessarily due to a lack of knowledge, but rather a failure in the architectural maintenance of information flow.
+Experimental results across multiple LRMs demonstrate that StepFlow significantly improves accuracy in high-complexity tasks. The findings suggest that the performance bottlenecks in [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] reasoning are not necessarily due to a lack of knowledge, but rather a failure in the architectural maintenance of information flow.

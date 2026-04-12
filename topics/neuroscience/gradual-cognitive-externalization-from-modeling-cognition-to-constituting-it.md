@@ -8,11 +8,11 @@ category: [ai, neuroscience, technology]
 
 # Gradual Cognitive Externalization: From Modeling Cognition to Constituting It
 
-**Gradual Cognitive Externalization (GCE)** is a theoretical framework designed to explain the transition of [[Artificial Intelligence]] from an external representational tool to a constitutive component of human [[Cognitive Architecture]]. As [[AI Agents]] become increasingly capable of replicating human communication styles, encoding mentoring heuristics, and preserving behavioral repertoires, GCE provides a formal structure to understand how these systems integrate into the human mind.
+**Gradual Cognitive Externalization (GCE)** is a theoretical framework designed to explain the transition of [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] from an external representational tool to a constitutive component of human [[cognitive-architecture|Cognitive Architecture]]. As [[undetectable-conversations-between-ai-agents-via-pseudorandom-noise-resilient-ke|AI Agents]] become increasingly capable of replicating human communication styles, encoding mentoring heuristics, and preserving behavioral repertoires, GCE provides a formal structure to understand how these systems integrate into the human mind.
 
 ## Core Theoretical Framework
 
-The GCE framework is rooted in a commitment to [[Functionalism]], asserting that cognitive functions are defined by their causal-functional roles rather than their biological or silicon substrates. The framework posits that through sustained **causal coupling**, ambient AI systems move beyond merely "modeling" human cognition to actually "constituting" it.
+The GCE framework is rooted in a commitment to [[functionalism|Functionalism]], asserting that cognitive functions are defined by their causal-functional roles rather than their biological or silicon substrates. The framework posits that through sustained **causal coupling**, ambient AI systems move beyond merely "modeling" human cognition to actually "constituting" it.
 
 A central pillar of this theory is the **Behavioral Manifold Hypothesis**, which suggests that complex cognitive behaviors exist within a learnable, continuous space. Building upon this, the paper introduces the **No Behaviorally Invisible Residual (NBIR) hypothesis**. This is a falsifiable assumption stating that for any cognitive function whose behavioral output lies on a learnable manifold, no "behaviorally invisible" component is necessary for the function's operation.
 

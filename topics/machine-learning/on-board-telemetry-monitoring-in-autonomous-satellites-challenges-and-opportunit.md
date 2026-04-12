@@ -8,13 +8,13 @@ category: ai, technology
 
 # On-board Telemetry Monitoring in Autonomous Satellites: Challenges and Opportunities
 
-As the capability for [[Autonomous Spacecraft]] increases, the necessity for robust, intelligent monitoring systems becomes paramount. Traditional fault-detection methods are often insufficient for the complex, non-linear dynamics found in modern satellites. While [[Machine Learning]] offers powerful solutions for [[Anomaly Detection]], the "black-box" nature of deep learning poses significant risks for mission-critical operations, particularly within the [[Attitude and Orbit Control Subsystem (AOCS)]].
+As the capability for [[autonomous-spacecraft|Autonomous Spacecraft]] increases, the necessity for robust, intelligent monitoring systems becomes paramount. Traditional fault-detection methods are often insufficient for the complex, non-linear dynamics found in modern satellites. While [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] offers powerful solutions for [[a-giant-step-baby-step-classifier-for-scalable-and-real-time-anomaly-detection-i|Anomaly Detection]], the "black-box" nature of deep learning poses significant risks for mission-critical operations, particularly within the [[attitude-and-orbit-control-subsystem-aocs|Attitude and Orbit Control Subsystem (AOCS)]].
 
 ## Overview of the Framework
 
-This research addresses the urgent need for [[eXplainable Artificial Intelligence (XAI)]] in onboard [[Fault Detection, Isolation and Recovery (FDIR)]] systems. The authors propose a novel framework designed to enhance the interpretability of neural anomaly detectors without requiring the heavy computational overhead typically associated with advanced XAI techniques.
+This research addresses the urgent need for [[explainable-artificial-intelligence-xai|eXplainable Artificial Intelligence (XAI)]] in onboard [[fault-detection-isolation-and-recovery-fdir|Fault Detection, Isolation and Recovery (FDIR)]] systems. The authors propose a novel framework designed to enhance the interpretability of neural anomaly detectors without requiring the heavy computational overhead typically associated with advanced XAI techniques.
 
-The proposed method introduces "peepholes"—low-dimensional, semantically annotated encodings derived from the intermediate activations of a [[Convolutional Autoencoder]]. By distilling complex neural layers into these interpretable "peepholes," the system can provide human-readable or machine-actionable indicators regarding the state of the spacecraft's hardware.
+The proposed method introduces "peepholes"—low-dimensional, semantically annotated encodings derived from the intermediate activations of a [[convolutional-autoencoder|Convolutional Autoencoder]]. By distilling complex neural layers into these interpretable "peepholes," the system can provide human-readable or machine-actionable indicators regarding the state of the spacecraft's hardware.
 
 ## Key Capabilities
 

@@ -8,15 +8,15 @@ category: [ai, technology]
 
 # COSMO-Agent
 
-**COSMO-Agent** (Closed-loop Optimization, Simulation, and Modeling Orchestration) is a specialized [[Reinforcement Learning]] (RL) framework designed to bridge the "CAD-CAE semantic gap." In industrial manufacturing and engineering, a significant bottleneck exists when attempting to translate complex simulation feedback into valid, actionable changes within [[Computer-Aided Design]] (CAD) software.
+**COSMO-Agent** (Closed-loop Optimization, Simulation, and Modeling Orchestration) is a specialized [[deepsearch-overcome-the-bottleneck-of-reinforcement-learning-with-verifiable-rew|Reinforcement Learning]] (RL) framework designed to bridge the "CAD-CAE semantic gap." In industrial manufacturing and engineering, a significant bottleneck exists when attempting to translate complex simulation feedback into valid, actionable changes within [[computer-aided-design|Computer-Aided Design]] (CAD) software.
 
 ## The Problem: The CAD-CAE Gap
 
-Traditionally, the iterative process of industrial design involves a loop between design creation and simulation testing. The difficulty lies in the "semantic gap"—the challenge of interpreting results from [[Computer-Aided Engineering]] (CAE) and automatically applying precise geometric edits that respect diverse, coupled physical constraints.
+Traditionally, the iterative process of industrial design involves a loop between design creation and simulation testing. The difficulty lies in the "semantic gap"—the challenge of interpreting results from [[computer-aided-engineering|Computer-Aided Engineering]] (CAE) and automatically applying precise geometric edits that respect diverse, coupled physical constraints.
 
 ## The Solution: Tool-Augmented LLM Agents
 
-COSMO-Agent addresses this by using [[Large Language Models]] (LLMs) as orchestrators within an interactive RL environment. Unlike standard LLMs that only predict text, COSMO-Agent is trained to utilize external engineering tools to complete an end-to-end loop. The framework automates four critical stages:
+COSMO-Agent addresses this by using [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs) as orchestrators within an interactive RL environment. Unlike standard LLMs that only predict text, COSMO-Agent is trained to utilize external engineering tools to complete an end-to-end loop. The framework automates four critical stages:
 1. **CAD Generation**: Creating initial parametric models.
 2. **CAE Solving**: Executing simulation physics tests.
 3. **Result Parsing**: Extracting meaningful data from simulation outputs.
@@ -30,8 +30,8 @@ The researchers introduced a comprehensive, industry-aligned dataset featuring 2
 
 ## Related Topics
 
-* [[Generative Design]]
-* [[Automated Machine Learning]]
-* [[Digital Twins]]
-* [[Neural Networks]]
-* [[Industrial Automation]]
+* [[generative-design|Generative Design]]
+* [[automated-machine-learning|Automated Machine Learning]]
+* [[graph-neural-ode-digital-twins-for-control-oriented-reactor-thermal-hydraulic-fo|Digital Twins]]
+* [[curvature-aware-optimization-for-high-accuracy-physics-informed-neural-networks|Neural Networks]]
+* [[industrial-automation|Industrial Automation]]

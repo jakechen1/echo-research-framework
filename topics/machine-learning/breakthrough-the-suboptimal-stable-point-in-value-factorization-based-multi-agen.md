@@ -8,7 +8,7 @@ category: machine-learning
 
 # Breakthrough the Suboptimal Stable Point in Value-Factorization-Based Multi-Agent Reinforcement Learning
 
-The paper addresses a critical bottleneck in [[Multi-Agent Reinforcement Learning]] (MARL). While [[Value Factorization]] has emerged as a dominant paradigm for achieving decentralized control through centralized training, its inherent tendency to converge to suboptimal solutions has remained a significant algorithmic and theoretical challenge.
+The paper addresses a critical bottleneck in [[a-multi-agent-reinforcement-learning-framework-for-public-health-decision-analys|Multi-Agent Reinforcement Learning]] (MARL). While [[breakthrough-the-suboptimal-stable-point-in-value-factorization-based-multi-agen|Value Factorization]] has emerged as a dominant paradigm for achieving decentralized control through centralized training, its inherent tendency to converge to suboptimal solutions has remained a significant algorithmic and theoretical challenge.
 
 ## The Problem of Suboptimal Stability
 

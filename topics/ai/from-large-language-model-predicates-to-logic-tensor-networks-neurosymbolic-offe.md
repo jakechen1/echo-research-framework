@@ -8,7 +8,7 @@ category: ai
 
 # From Large Language Model Predicates to Logic Tensor Networks
 
-The research paper "From Large Language Model Predicates to Logic Tensor Networks: Neurosymbolic Offer Validation in Regulated Procurement" presents a specialized [[Neurosymbolic AI]] framework designed to automate the validation of complex documents within highly regulated sectors.
+The research paper "From Large Language Model Predicates to Logic Tensor Networks: Neurosymbolic Offer Validation in Regulated Procurement" presents a specialized [[neurosymbolic-ai|Neurosymbolic AI]] framework designed to automate the validation of complex documents within highly regulated sectors.
 
 ## The Challenge of Auditability
 In environments such as [[

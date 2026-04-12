@@ -3,15 +3,11 @@ title: "Allosteric Regulation"
 created: 2026-04-11
 category: biology
 tags: [enzymology, structural biology, metabolism, signal transduction, pharmacology]
-    title: "Allosteric regulation of enzymes"
-  - url: "https://pve.med.umich.edu/allostery"
-    title: "Principles of Allostery"
-  - url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6359923/"
-    title: "Structural basis of allosteric regulation"
 source_urls:
-  - "https://www.nature.com/articles/s41576-020-0242-x"
-  - "https://pve.med.umich.edu/allostery"
-  - "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6359923/"
+  - "https://pubmed.ncbi.nlm.nih.gov/38984616/"
+  - "https://pubmed.ncbi.nlm.nih.gov/35513109/"
+  - "https://pubmed.ncbi.nlm.nih.gov/36794774/"
+  - "https://en.wikipedia.org/wiki/Allosteric_regulation"
 ---
 
 ## Introduction
@@ -30,7 +26,7 @@ Effectors, or modulators, are small molecules that shift the equilibrium between
 *   **Allosteric Inhibitors:** Molecules that stabilize the T-state, reducing substrate binding or enzymatic activity.
 
 ### Cooperativity
-A hallmark of many allosteric proteins, particularly multimeric ones, is **cooperativity**. In a cooperative system, the binding of a ligand to one subunit of a protein increases (positive cooperativity) or decreases (negative cooperativity) the affinity of the remaining subunits for the ligand. This phenomenon is characterized by a sigmoidal (S-shaped) curve when plotting reaction velocity against substrate concentration, rather than the hyperbolic curve seen in standard [[Michaelis-Menten Kinetics]].
+A hallmark of many allosteric proteins, particularly multimeric ones, is **cooperativity**. In a cooperative system, the binding of a ligand to one subunit of a protein increases (positive cooperativity) or decreases (negative cooperativity) the affinity of the remaining subunits for the ligand. This phenomenon is characterized by a sigmoidal (S-shaped) curve when plotting reaction velocity against substrate concentration, rather than the hyperbolic curve seen in standard [[michaelis-menten-kinetics|Michaelis-Menten Kinetics]].
 
 ## Theoretical Models of Allostery
 
@@ -47,19 +43,19 @@ In the modern era of protein dynamics, the EAM has emerged as a dominant paradig
 
 ## Structural Basis: The Case of PHGDH
 
-The importance of allosteric regulation is perhaps most visible in the [[3D Architecture of PHGDH]] (Phosphoglycerate Dehydrogenase). PHGDH is the rate-limiting enzyme of the serine biosynthesis pathway, a pathway critical for providing the necessary building blocks for one-carbon metabolism and nucleotide synthesis.
+The importance of allosteric regulation is perhaps most visible in the [[3d-architecture-of-phgdh|3D Architecture of PHGDH]] (Phosphoglycerate Dehydrogenase). PHGDH is the rate-limiting enzyme of the serine biosynthesis pathway, a pathway critical for providing the necessary building blocks for one-carbon metabolism and nucleotide synthesis.
 
-The regulatory mechanism of PHGDHD is a classic example of **feedback inhibition**. In the [[3D Architecture of PHGDH]], the enzyme exists as a homotetramer. Each subunit consists of a catalytic domain and a regulatory domain. When the concentration of the end-product, L-serine, rises, it binds to the allosteric site located in the C-terminal regulatory domain. 
+The regulatory mechanism of PHGDHD is a classic example of **feedback inhibition**. In the [[3d-architecture-of-phgdh|3D Architecture of PHGDH]], the enzyme exists as a homotetramer. Each subunit consists of a catalytic domain and a regulatory domain. When the concentration of the end-product, L-serine, rises, it binds to the allosteric site located in the C-terminal regulatory domain. 
 
-The binding of L-serine triggers a massive conformational rearrangement. Structural studies (utilizing [[X-ray Crystallography]] and [[Cryo-Electron Microscopy]]) have shown that this binding induces a rotation and translation of the regulatory domains relative to the catalytic domains. This movement effectively "closes" the enzyme or stabilizes a conformation that sterically hinders the substrate (3-phosphoglycerate) from accessing the active site or prevents the necessary movement of the catalytic loops required for catalysis. Understanding this allosteric switch is vital for researching metabolic reprogramming in cancer cells, where PHGDH is often upregulated.
+The binding of L-serine triggers a massive conformational rearrangement. Structural studies (utilizing [[x-ray-crystallography|X-ray Crystallography]] and [[cryo-electron-microscopy|Cryo-Electron Microscopy]]) have shown that this binding induces a rotation and translation of the regulatory domains relative to the catalytic domains. This movement effectively "closes" the enzyme or stabilizes a conformation that sterically hinders the substrate (3-phosphoglycerate) from accessing the active site or prevents the necessary movement of the catalytic loops required for catalysis. Understanding this allosteric switch is vital for researching metabolic reprogramming in cancer cells, where PHGDH is often upregulated.
 
 ## Experimental Methodologies
 
 Studying allostery requires tools capable of detecting minute structural shifts and changes in protein dynamics.
 
-1.  **[[Cryo-Electron Microscopy (Cryo-EM)]]:** The current gold standard for visualizing different conformational states of large, multimeric proteins in near-native conditions. Cryo-Em allows researchers to capture "snapshots" of the T and R states, providing the structural basis for allosteric transitions.
-2.  **[[Nuclear Magnetic Resonance (NMR)]] Spectroscopy:** Essential for studying the protein dynamics and the timescale of allosteric signaling. NMR can detect changes in the chemical environment of atoms even in the absence of significant backbone movement, revealing "hidden" allosteric pathways.
-3.  **[[Hydrogen-Deuterium Exchange Mass Spectrometry (HDX-MS)]]:** A powerful method to map changes in protein solvent accessibility. When an allosteric effector binds, HDX-MS can identify which specific peptide segments become more or less "protected" due to conformational tightening or loosening.
+1.  **[[cryo-electron-microscopy-cryo-em|Cryo-Electron Microscopy (Cryo-EM)]]:** The current gold standard for visualizing different conformational states of large, multimeric proteins in near-native conditions. Cryo-Em allows researchers to capture "snapshots" of the T and R states, providing the structural basis for allosteric transitions.
+2.  **[[nuclear-magnetic-resonance-nmr|Nuclear Magnetic Resonance (NMR)]] Spectroscopy:** Essential for studying the protein dynamics and the timescale of allosteric signaling. NMR can detect changes in the chemical environment of atoms even in the absence of significant backbone movement, revealing "hidden" allosteric pathways.
+3.  **[[hydrogen-deuterium-exchange-mass-spectrometry-hdx-ms|Hydrogen-Deuterium Exchange Mass Spectrometry (HDX-MS)]]:** A powerful method to map changes in protein solvent accessibility. When an allosteric effector binds, HDX-MS can identify which specific peptide segments become more or less "protected" due to conformational tightening or loosening.
 4.  **Site-Directed Mutagenesis:** Used to identify specific amino acid residues that act as "communication hubs" or "allosteric conduits" that transmit the signal from the regulatory site to the active site.
 
 ## Clinical and Therapeutic Significance
@@ -78,7 +74,7 @@ In oncology, targeting the allosteric regulation of enzymes like PHGDH represent
 Despite significant progress, several challenges remain in the study of allostery:
 
 *   **Complexity of Allosteric Networks:** Proteins are not simple two-state switches. Mapping the entire network of communicating residues within a protein (the "allosteric pathway") remains computationally and experimentally difficult.
-*   **Cryptic Pockets:** Many allosteric sites are "cryptic," meaning they only appear when a ligand is present or when the protein undergoes a specific movement. Identifying these transient pockets via [[Computational Drug Design]] is a major current focus.
+*   **Cryptic Pockets:** Many allosteric sites are "cryptic," meaning they only appear when a ligand is present or when the protein undergoes a specific movement. Identifying these transient pockets via [[computational-drug-design|Computational Drug Design]] is a major current focus.
 *   **Long-range Allostery:** Understanding how allostery operates over very large distances (e.g., across different protein complexes or within intrinsically disordered proteins) is an emerging area of research.
 
 As we move into the late 2020s, the integration of **Artificial Intelligence** and **Machine Learning** (e.g., advancements following AlphaFold) with high-resolution structural data promises to allow for the predictive modeling of allosteric transitions, potentially revolutionizing our ability to design the next generation of allosteric therapeutics.

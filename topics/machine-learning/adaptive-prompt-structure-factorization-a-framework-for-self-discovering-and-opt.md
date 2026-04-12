@@ -8,4 +8,4 @@ category: ai, machine-learning
 
 # Adaptive Prompt Structure Factorization (aPSF)
 
-[[Adaptive Prompt Structure Factorization]] (aPSF) is a novel framework designed to revolutionize [[Prompt Engineering]] for [[Large Language Models]] (LLMs). The framework addresses the inherent inefficiencies found in traditional [[Prompt Optimization
+[[adaptive-prompt-structure-factorization-a-framework-for-self-discovering-and-opt|Adaptive Prompt Structure Factorization]] (aPSF) is a novel framework designed to revolutionize [[optimizing-llm-prompt-engineering-with-dspy-based-declarative-learning|Prompt Engineering]] for [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs). The framework addresses the inherent inefficiencies found in traditional [[Prompt Optimization

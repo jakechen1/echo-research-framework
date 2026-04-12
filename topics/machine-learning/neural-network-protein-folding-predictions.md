@@ -3,22 +3,18 @@ title: "Neural Network Protein Folding Predictions"
 created: 2026-04-11
 category: machine-learning
 tags: [proteomics, deep-learning, PHGDH, structural-biochemistry, AlphaFold, protein-engineering]
-    title: "Highly accurate protein structure prediction with AlphaFold"
-  - url: "https://www.science.org/doi/10.1126/science.adi2577"
-    title: "Accurate prediction of protein structures and interactions using AlphaFold 3"
-  - url: "https://pubmed.ncbi.nlm.nih.gov/32444641/"
-    title: "PHGDH: A novel target for cancer therapy"
 source_urls:
-  - "https://www.nature.com/articles/s41586-021-03819-2"
-  - "https://www.science.org/doi/10.1126/science.adi2577"
-  - "https://pubmed.ncbi.nlm.nih.gov/32444641/"
+  - "https://pubmed.ncbi.nlm.nih.gov/34282049/"
+  - "https://pubmed.ncbi.nlm.nih.gov/34265844/"
+  - "https://pubmed.ncbi.nlm.nih.gov/39913643/"
+  - "https://en.wikipedia.org/wiki/AlphaFold"
 ---
 
 ## Introduction
 
 Neural network protein folding prediction refers to the application of advanced deep learning architectures to predict the three-dimensional (3D) tertiary structure of a protein from its primary amino acid sequence. For decades, the "protein folding problem"—determining how a linear chain of amino acids reaches its biologically functional native state—remained one of the most significant challenges in computational biology. The advent of end-to-end differentiable neural networks has fundamentally transformed this landscape, moving the field from computationally expensive physics-based simulations (such as Molecular Dynamics) to high-speed, high-accuracy geometric deep learning models.
 
-In the context of metabolic enzymes, particularly Phosphoglycerate Dehydrogenase (PHGDH), these predictive models serve as critical tools for investigating structural stability. PHGDH, a key enzyme in the serine biosynthesis pathway, is frequently dysregulated in various cancers. Understanding how genetic mutations alter the protein's conformational landscape and thermodynamic stability is essential for drug discovery. Neural network predictions allow researchers to visualize the impact of single-nucleotide polymorphisms (SNPs) on the [[3D Architecture of PHGTD]], providing insights into allosteric regulation and enzymatic potency without the immediate need for costly X-ray crystallography or Cryo-Electron Microscopy (Cryo-EM).
+In the context of metabolic enzymes, particularly Phosphoglycerate Dehydrogenase (PHGDH), these predictive models serve as critical tools for investigating structural stability. PHGDH, a key enzyme in the serine biosynthesis pathway, is frequently dysregulated in various cancers. Understanding how genetic mutations alter the protein's conformational landscape and thermodynamic stability is essential for drug discovery. Neural network predictions allow researchers to visualize the impact of single-nucleotide polymorphisms (SNPs) on the [[3d-architecture-of-phgtd|3D Architecture of PHGTD]], providing insights into allosteric regulation and enzymatic potency without the immediate need for costly X-ray crystallography or Cryo-Electron Microscopy (Cryo-EM).
 
 ## Core Mechanisms of Folding Prediction
 
@@ -41,10 +37,10 @@ The application of these models to PHGDH is particularly transformative for stud
 PHGDH functions as a homotetramer, and its stability is highly dependent on the interfaces between its subunits. Neural networks can predict the $\Delta\Delta G$ (the change in Gibbs free energy of folding) resulting from specific mutations. For instance, a mutation in the regulatory domain may not disrupt the active site directly but could destabilize the interface, leading to an uncontrolled increase in enzymatic activity—a common hallmark of oncogenic PHGDH. By simulating these mutations in silico, researchers can identify "hotspots" of instability that are likely to drive metabolic reprogramming in cancer cells.
 
 ### Allosteric Regulation and Conformational Dynamics
-PHGDH is regulated allosterically by the concentration of serine. Traditional structural biology often provides a "static" snapshot of the enzyme. However, neural networks are increasingly capable of predicting conformational ensembles. By analyzing the predicted structural shifts in response to ligand binding, researchers can understand how the [[3ability of PHGDH to transition between active and inactive states]] is governed by its internal architecture. This is vital for understanding how mutations in the allosteric site bypass the natural inhibitory feedback loops of the serine pathway.
+PHGDH is regulated allosterically by the concentration of serine. Traditional structural biology often provides a "static" snapshot of the enzyme. However, neural networks are increasingly capable of predicting conformational ensembles. By analyzing the predicted structural shifts in response to ligand binding, researchers can understand how the [[3ability-of-phgdh-to-transition-between-active-and-inactive-states|3ability of PHGDH to transition between active and inactive states]] is governed by its internal architecture. This is vital for understanding how mutations in the allosteric site bypass the natural inhibitory feedback loops of the serine pathway.
 
 ### Integration with Ligand Discovery
-The predictive power of these models extends to the interaction between PHGDH and small molecules. As part of the broader framework of [[Machine Learning in PHGDH Ligand Discovery]], protein folding models provide the "target structure" required for molecular docking. When a neural network accurately predicts the precise orientation of side chains in the PHGDH catalytic pocket, the accuracy of virtual screening for potential inhibitors increases exponentially.
+The predictive power of these models extends to the interaction between PHGDH and small molecules. As part of the broader framework of [[machine-learning-in-phgdh-ligand-discovery|Machine Learning in PHGDH Ligand Discovery]], protein folding models provide the "target structure" required for molecular docking. When a neural network accurately predicts the precise orientation of side chains in the PHGDH catalytic pocket, the accuracy of virtual screening for potential inhibitors increases exponentially.
 
 ## Current State of the Field (2025-2026)
 
@@ -67,7 +63,7 @@ Despite the monumental progress, several bottlenecks remain in the implementatio
 
 The future of neural network protein folding lies in the integration of multi-modal data. We anticipate the emergence of models that integrate Cryo-EM density maps, mass spectrometry data, and biochemical kinetic data directly into the neural network training loop.
 
-Furthermore, the convergence of [[Machine Learning in PHGDH Ligand Discovery]] and folding prediction will likely lead to "Closed-Loop Drug Discovery." In this future paradigm, an AI would predict a mutation’s effect on PHGDH stability, design a compensatory small molecule to inhibit the mutated enzyme, and suggest the experimental synthesis of the protein—all within a single, automated computational pipeline. This will accelerate the development of personalized therapies for patients harboring specific PHGDH-driven metabolic signatures.
+Furthermore, the convergence of [[machine-learning-in-phgdh-ligand-discovery|Machine Learning in PHGDH Ligand Discovery]] and folding prediction will likely lead to "Closed-Loop Drug Discovery." In this future paradigm, an AI would predict a mutation’s effect on PHGDH stability, design a compensatory small molecule to inhibit the mutated enzyme, and suggest the experimental synthesis of the protein—all within a single, automated computational pipeline. This will accelerate the development of personalized therapies for patients harboring specific PHGDH-driven metabolic signatures.
 
 ## References
 

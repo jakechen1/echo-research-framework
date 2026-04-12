@@ -8,11 +8,11 @@ category: ai, machine-learning, neuroscience, technology
 
 # Modality-Aware and Anatomical Vector-Quantized Autoencoding for Multimodal Brain MRI
 
-The research paper introduces **NeuroQuant**, a novel 3D [[Vector Quantized Variational Autoencoder]] (VQ-VAE) designed to address the limitations of existing models in [[Medical Image Analysis]]. While traditional brain-centric VAEs typically focus on single-modality data (such as T1-weighted MRI), NeuroQuant is specifically engineered to reconstruct multi-modal brain MRIs, leveraging the complementary diagnostic information found in different sequences like T2-weighted imaging.
+The research paper introduces **NeuroQuant**, a novel 3D [[vector-quantized-variational-autoencoder|Vector Quantized Variational Autoencoder]] (VQ-VAE) designed to address the limitations of existing models in [[medical-image-analysis|Medical Image Analysis]]. While traditional brain-centric VAEs typically focus on single-modality data (such as T1-weighted MRI), NeuroQuant is specifically engineered to reconstruct multi-modal brain MRIs, leveraging the complementary diagnostic information found in different sequences like T2-weighted imaging.
 
 ### Core Architecture
 
-The NeuroQuant architecture employs several advanced [[Machine Learning]] techniques to achieve high-fidelity reconstruction:
+The NeuroQuant architecture employs several advanced [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] techniques to achieve high-fidelity reconstruction:
 
 *   **Dual-Stream 3D Encoder:** The model explicitly separates the encoding of **modality-invariant anatomical structures** from **modality-dependent appearance**. This allows the network to understand the underlying brain geometry independently of the specific imaging contrast.
 *   **Factorized Multi-Axis Attention:** To capture complex spatial relationships, the model utilizes multi-axis attention mechanisms. This allows the network to model dependencies between distant brain regions effectively.
@@ -23,4 +23,4 @@ The NeuroQuant architecture employs several advanced [[Machine Learning]] techni
 
 A significant challenge in 3D medical imaging is the slice-based acquisition of data. To mitigate this, the researchers utilized a **joint 2D/3D training strategy**, ensuring the model remains robust to the volumetric complexities of MRI data.
 
-Extensive experiments demonstrate that NeuroQuant achieves superior reconstruction fidelity compared to existing state-of-the-art VAEs. This makes the architecture a scalable foundation for advanced tasks in [[Generative Modeling]], such as MRI synthesis, and facilitates more complex [[Cross-modal Brain Image Analysis]] in the field of [[Neuroscience]].
+Extensive experiments demonstrate that NeuroQuant achieves superior reconstruction fidelity compared to existing state-of-the-art VAEs. This makes the architecture a scalable foundation for advanced tasks in [[generative-modeling-of-granular-flow-on-inclined-planes-using-conditional-flow-m|Generative Modeling]], such as MRI synthesis, and facilitates more complex [[cross-modal-brain-image-analysis|Cross-modal Brain Image Analysis]] in the field of [[neuroscience|Neuroscience]].

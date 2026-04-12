@@ -8,4 +8,4 @@ category: technology
 
 # The Future of Everything is Lies, I Guess
 
-The article "The Future of Everything is Lies, I Guess" examines the growing crisis of authenticity in the age of ubiquitous [[Artificial Intelligence]]. As [[Generative AI]] and advanced [[Machine Learning]] models achieve unprecedented levels
+The article "The Future of Everything is Lies, I Guess" examines the growing crisis of authenticity in the age of ubiquitous [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]]. As [[synthetic-trust-attacks-modeling-how-generative-ai-manipulates-human-decisions-i|Generative AI]] and advanced [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] models achieve unprecedented levels

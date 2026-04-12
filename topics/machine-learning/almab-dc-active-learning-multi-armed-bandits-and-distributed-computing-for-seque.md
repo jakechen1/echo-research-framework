@@ -7,11 +7,11 @@ tags: [ai, machine-learning, technology]
 
 # ALMAB-DC
 
-**ALMAB-DC** is an advanced framework designed for [[Sequential Experimental Design]] in environments where evaluation budgets are tightly constrained and objectives are gradient-free. The framework integrates [[Active Learning]], [[Multi-Armed Bandits]] (MAB), and [[Distributed Computing]] to optimize expensive [[Black-Box Optimization]] problems.
+**ALMAB-DC** is an advanced framework designed for [[sequential-experimental-design|Sequential Experimental Design]] in environments where evaluation budgets are tightly constrained and objectives are gradient-free. The framework integrates [[almab-dc-active-learning-multi-armed-bandits-and-distributed-computing-for-seque|Active Learning]], [[almab-dc-active-learning-multi-armed-bandits-and-distributed-computing-for-seque|Multi-Armed Bandits]] (MAB), and [[almab-dc-active-learning-multi-armed-bandits-and-distributed-computing-for-seque|Distributed Computing]] to optimize expensive [[black-box-optimization|Black-Box Optimization]] problems.
 
 ## Architecture and Methodology
 
-The core of ALMAB-DC relies on a [[Gaussian Process]] surrogate model. This model uses uncertainty-aware acquisition to identify the most informative query points for the next iteration of experiments. To manage parallelization, the framework implements a bandit controller—utilizing either [[Upper Confidence Bound]] (UCB) or [[Thompson Sampling]]—to effectively allocate evaluations across multiple parallel workers. 
+The core of ALMAB-DC relies on a [[the-theory-and-practice-of-highly-scalable-gaussian-process-regression-with-near|Gaussian Process]] surrogate model. This model uses uncertainty-aware acquisition to identify the most informative query points for the next iteration of experiments. To manage parallelization, the framework implements a bandit controller—utilizing either [[upper-confidence-bound|Upper Confidence Bound]] (UCB) or [[thompson-sampling-for-infinite-horizon-discounted-decision-processes|Thompson Sampling]]—to effectively allocate evaluations across multiple parallel workers. 
 
 A critical component of the framework is its asynchronous scheduler, which is engineered to handle heterogeneous runtimes, ensuring that the system remains efficient even when individual experimental tasks vary in duration.
 
@@ -19,9 +19,9 @@ A critical component of the framework is its asynchronous scheduler, which is en
 
 The effectiveness of ALMAB-DC has been validated across several diverse benchmarks:
 
-*   **Statistical Experimental Design:** In dose-response optimization, ALMAB-DC achieved lower simple regret than Random, Equal Spacing, and D-optimal designs. In adaptive spatial field estimation, it matched the performance of the Greedy Max-Variance benchmark and outperformed [[Latin Hypercube Sampling]].
-*   **Machine Learning:** During [[Hyperparameter Optimization]] (HPO) for CIFAR-10, the framework reached 93.4% accuracy, outperforming popular libraries such as [[Optuna]] and BOHB.
-*   **Engineering and Robotics:** In [[Computational Fluid Dynamics]] (CFD) drag minimization, the framework reduced airfoil drag by 36.9% compared to Grid Search. Additionally, in [[Reinforcement Learning]] tasks using MuJoCo, it improved returns by 50%.
+*   **Statistical Experimental Design:** In dose-response optimization, ALMAB-DC achieved lower simple regret than Random, Equal Spacing, and D-optimal designs. In adaptive spatial field estimation, it matched the performance of the Greedy Max-Variance benchmark and outperformed [[latin-hypercube-sampling|Latin Hypercube Sampling]].
+*   **Machine Learning:** During [[can-llms-beat-classical-hyperparameter-optimization-algorithms-a-study-on-autore|Hyperparameter Optimization]] (HPO) for CIFAR-10, the framework reached 93.4% accuracy, outperforming popular libraries such as [[optuna|Optuna]] and BOHB.
+*   **Engineering and Robotics:** In [[computational-fluid-dynamics|Computational Fluid Dynamics]] (CFD) drag minimization, the framework reduced airfoil drag by 36.9% compared to Grid Search. Additionally, in [[deepsearch-overcome-the-bottleneck-of-reinforcement-learning-with-verifiable-rew|Reinforcement Learning]] tasks using MuJoCo, it improved returns by 50%.
 
 ## Scalability
 

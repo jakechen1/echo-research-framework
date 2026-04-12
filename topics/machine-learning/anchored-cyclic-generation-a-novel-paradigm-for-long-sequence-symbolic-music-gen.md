@@ -8,7 +8,7 @@ category: ai
 
 # Anchored Cyclic Generation (ACG)
 
-**Anchored Cyclic Generation (ACG)** is a novel computational paradigm designed to address the fundamental limitations of [[autoregressive models]] when generating long-duration sequences. While [[autoregressive modeling]] is a cornerstone of modern [[artificial intelligence]], it is prone to a phenomenon known as "error accumulation." In sequential tasks like [[symbolic music generation]], small prediction errors compound over time, eventually leading to a loss of structural coherence and musical quality.
+**Anchored Cyclic Generation (ACG)** is a novel computational paradigm designed to address the fundamental limitations of [[privacy-attacks-on-image-autoregressive-models|autoregressive models]] when generating long-duration sequences. While [[autoregressive-modeling|autoregressive modeling]] is a cornerstone of modern [[artificial-intelligence-and-the-structure-of-mathematics|artificial intelligence]], it is prone to a phenomenon known as "error accumulation." In sequential tasks like [[symbolic-music-generation|symbolic music generation]], small prediction errors compound over time, eventually leading to a loss of structural coherence and musical quality.
 
 ## The ACG Paradigm
 
@@ -24,10 +24,10 @@ Key features of the Hi-ACG framework include:
 
 ## Performance and Generalization
 
-Experimental results indicate that the ACG paradigm is highly effective, reducing the average cosine distance between predicted feature vectors and ground-truth semantic vectors by **34.7%** compared to traditional models. Beyond long-sequence generation, the Hi-ACG framework demonstrates robust generalization capabilities, achieving state-of-the-art performance in related tasks such as [[music completion]].
+Experimental results indicate that the ACG paradigm is highly effective, reducing the average cosine distance between predicted feature vectors and ground-truth semantic vectors by **34.7%** compared to traditional models. Beyond long-sequence generation, the Hi-ACG framework demonstrates robust generalization capabilities, achieving state-of-the-art performance in related tasks such as [[music-completion|music completion]].
 
 ## See Also
-* [[Generative AI]]
-* [[Deep Learning]]
-* [[Neural Networks]]
-* [[Digital Signal Processing]]
+* [[synthetic-trust-attacks-modeling-how-generative-ai-manipulates-human-decisions-i|Generative AI]]
+* [[benchmarking-deep-learning-for-future-liver-remnant-segmentation-in-colorectal-l|Deep Learning]]
+* [[curvature-aware-optimization-for-high-accuracy-physics-informed-neural-networks|Neural Networks]]
+* [[digital-signal-processing|Digital Signal Processing]]

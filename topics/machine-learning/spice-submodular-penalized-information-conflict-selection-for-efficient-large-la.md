@@ -8,10 +8,10 @@ category: [ai, machine-learning]
 
 # SPICE: Submodular Penalized Information-Conflict Selection
 
-**SPICE** (Submodular Penalized Information-Conflict Selection) is an innovative framework designed to optimize the efficiency of [[Instruction Tuning]] for [[Large Language Models]] (LLMs). The method addresses the core challenge of selecting the most informative subset of data from massive datasets to reduce [[Computational Cost]] without sacrificing model performance.
+**SPICE** (Submodular Penalized Information-Conflict Selection) is an innovative framework designed to optimize the efficiency of [[instruction-tuning|Instruction Tuning]] for [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs). The method addresses the core challenge of selecting the most informative subset of data from massive datasets to reduce [[computational-cost|Computational Cost]] without sacrificing model performance.
 
 ## Background and Problem Statement
-In the context of [[Machine Learning]], information-based data selection often relies on maximizing the log-determinant of the [[Fisher Information]] matrix. This approach is a monotone [[Submodular Optimization]] problem, which can be solved using greedy algorithms with a guaranteed $(1-1/e)$ approximation ratio. 
+In the context of [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]], information-based data selection often relies on maximizing the log-determinant of the [[fisher-information|Fisher Information]] matrix. This approach is a monotone [[submodular-optimization|Submodular Optimization]] problem, which can be solved using greedy algorithms with a guaranteed $(1-1/e)$ approximation ratio. 
 
 However, the authors of the SPICE paper identify a significant practical hurdle: **gradient conflicts**. These conflicts, or the misalignment between per-sample gradients, slow the decay of marginal information gains. This misalignment prevents the selection process from effectively achieving the significant information loss reduction that theoretical submodular models suggest is possible.
 
@@ -22,10 +22,10 @@ Guided by this framework, **SPICE** operates as a conflict-aware selector. It op
 1. **Maximizing Information Gain:** Ensuring the selected subset retains high-value data.
 2. **Penalizing Misalignment:** Actively reducing the presence of conflicting gradients within the subset.
 
-To ensure the method is scalable to modern [[Artificial Intelligence]] workloads, SPICE incorporates support for **early stopping** and the use of **Proxy Models**, allowing for high-fidelity selection without the need to train massive models from scratch during the selection phase.
+To ensure the method is scalable to modern [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] workloads, SPICE incorporates support for **early stopping** and the use of **Proxy Models**, allowing for high-fidelity selection without the need to train massive models from scratch during the selection phase.
 
 ## Empirical Results
-The effectiveness of SPICE has been demonstrated across eight major benchmarks using [[LLaMA2-7B]] and [[Qwen2-7B]] architectures. The findings are significant:
+The effectiveness of SPICE has been demonstrated across eight major benchmarks using [[llama2-7b|LLaMA2-7B]] and [[qwen2-7b|Qwen2-7B]] architectures. The findings are significant:
 * **Data Efficiency:** SPICE can achieve performance that matches or exceeds full-data tuning while using only **10% of the training data**.
 * **Performance Gains:** In several instances, the conflict-aware selection actually outperformed much larger, unoptimized datasets.
-* **Cost Reduction:** By drastically reducing the volume of data required for effective tuning, SPICE enables much faster and cheaper [[Model Training]] iterations.
+* **Cost Reduction:** By drastically reducing the volume of data required for effective tuning, SPICE enables much faster and cheaper [[model-training|Model Training]] iterations.

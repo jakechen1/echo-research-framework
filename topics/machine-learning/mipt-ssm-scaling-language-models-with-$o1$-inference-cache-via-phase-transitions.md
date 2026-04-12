@@ -8,7 +8,7 @@ category: ai
 
 # MIPT-SSM
 
-**MIPT-SSM** is a novel neural sequence architecture inspired by the physics of [[Measurement-Induced Phase Transitions]] (MIPT). The model is designed to overcome the fundamental limitations of current [[Transformer]] architectures, specifically the $O(N)$ scaling of the [[KV Cache]] and the "no-go theorem" that prevents a single linear operator from efficiently handling both distributed information propagation and precise local storage.
+**MIPT-SSM** is a novel neural sequence architecture inspired by the physics of [[measurement-induced-phase-transitions|Measurement-Induced Phase Transitions]] (MIPT). The model is designed to overcome the fundamental limitations of current [[crft-consistent-recurrent-feature-flow-transformer-for-cross-modal-image-registr|Transformer]] architectures, specifically the $O(N)$ scaling of the [[comparative-characterization-of-kv-cache-management-strategies-for-llm-inference|KV Cache]] and the "no-go theorem" that prevents a single linear operator from efficiently handling both distributed information propagation and precise local storage.
 
 ## Core Mechanism
 
@@ -21,7 +21,7 @@ By modulating $p_{t}$, the model bypasses the incompatibility between these two 
 
 ## Performance and Efficiency
 
-MIPT-SSM demonstrates significant improvements in both accuracy and computational efficiency compared to standard [[machine learning]] models:
+MIPT-SSM demonstrates significant improvements in both accuracy and computational efficiency compared to standard [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|machine learning]] models:
 
 *   **Memory Efficiency:** At a sequence length of $N=8192$, MIPT-SSM requires only 810 MB of memory, a 42.8x reduction compared to the 34,651 MB required by a standard Transformer. This enables $O(1)$ inference cache scaling.
 *   **Classification Accuracy:** On the AG News dataset, MIPT achieved 90.5% accuracy, outperforming the Transformer's 73.6% by a margin of 16.6%.

@@ -1,3 +1,9 @@
+---
+title: "A State Update Prompting Strategy For Efficient And Robust Multi Turn Dialogue"
+category: artificial-intelligence
+created: 2026-04-12
+---
+
 title: "A State-Update Prompting Strategy for Efficient and Robust Multi-turn Dialogue"
 created: 2024-05-22
 source: "https://arxiv.org/abs/2509.17766"
@@ -7,10 +13,10 @@ category: ai
 # A State-Update Prompting Strategy for Efficient and Robust Multi-turn Dialogue
 
 ## Overview
-The research paper "A State-Update Prompting Strategy for Efficient and Robust Multi-turn Dialogue" addresses a fundamental bottleneck in [[Large Language Models]] (LLMs): the degradation of performance and the increase in computational costs during long-horizon, multi-turn conversations. In extended dialogues, LLMs frequently suffer from "information forgetting" and high latency due to expanding context windows.
+The research paper "A State-Update Prompting Strategy for Efficient and Robust Multi-turn Dialogue" addresses a fundamental bottleneck in [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs): the degradation of performance and the increase in computational costs during long-horizon, multi-turn conversations. In extended dialogues, LLMs frequently suffer from "information forgetting" and high latency due to expanding context windows.
 
 ## The State-Update Strategy
-To combat these issues, the authors introduce a training-free [[Prompt Engineering]] method called the **State-Update Multi-turn Dialogue Strategy**. This approach does not require fine-tuning the underlying model but instead optimizes how the model processes historical context through two key mechanisms:
+To combat these issues, the authors introduce a training-free [[optimizing-llm-prompt-engineering-with-dspy-based-declarative-learning|Prompt Engineering]] method called the **State-Update Multi-turn Dialogue Strategy**. This approach does not require fine-tuning the underlying model but instead optimizes how the model processes historical context through two key mechanisms:
 
 *   **State Reconstruction**: This component focuses on rebuilding the essential conversational context, ensuring the model maintains a stable "state" despite the complexity of the dialogue.
 *   **History Remind**: This mechanism proactively resurfaces critical information from previous turns, preventing the loss of vital details over long-range interactions.

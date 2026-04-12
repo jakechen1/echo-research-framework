@@ -8,11 +8,11 @@ categories: [ai, machine-learning, technology]
 
 # HQF-Net
 
-**HQF-Net** (Hybrid Quantum-Classical Multi-Scale Fusion Network) is an advanced architectural framework designed to enhance [[Semantic Segmentation]] within the field of [[Remote Sensing]]. The primary challenge in remote sensing is the ability to capture both fine-grained spatial details and high-level semantic context within highly complex, multi-scale scenes.
+**HQF-Net** (Hybrid Quantum-Classical Multi-Scale Fusion Network) is an advanced architectural framework designed to enhance [[semantic-segmentation|Semantic Segmentation]] within the field of [[asking-like-socrates-socrates-helps-vlms-understand-remote-sensing-images|Remote Sensing]]. The primary challenge in remote sensing is the ability to capture both fine-grained spatial details and high-level semantic context within highly complex, multi-scale scenes.
 
 ## Architecture and Methodology
 
-HQF-Net utilizes a hybrid approach that merges classical [[Deep Learning]] strengths with [[Quantum Computing]] innovations. The network architecture is built upon a frozen DINOv3 [[Vision Transformer]] (ViT-L/16) backbone, which provides robust multi-scale semantic guidance. This backbone is integrated with a customized [[U-Net]] architecture via a **Deformable Multiscale Cross-Attention Fusion (DMCAF)** module, which facilitates more effective feature interaction across scales.
+HQF-Net utilizes a hybrid approach that merges classical [[benchmarking-deep-learning-for-future-liver-remnant-segmentation-in-colorectal-l|Deep Learning]] strengths with [[a-cryptography-engineers-perspective-on-quantum-computing-timelines|Quantum Computing]] innovations. The network architecture is built upon a frozen DINOv3 [[inside-out-measuring-generalization-in-vision-transformers-through-inner-working|Vision Transformer]] (ViT-L/16) backbone, which provides robust multi-scale semantic guidance. This backbone is integrated with a customized [[implantable-adaptive-cells-a-novel-enhancement-for-pre-trained-u-nets-in-medical|U-Net]] architecture via a **Deformable Multiscale Cross-Attention Fusion (DMCAF)** module, which facilitates more effective feature interaction across scales.
 
 To optimize feature refinement and information flow, the framework introduces two specialized quantum-inspired components:
 
@@ -29,4 +29,4 @@ Experimental evaluations conducted on three major remote sensing datasets demons
 
 ## Conclusion
 
-The success of HQF-Net suggests that structured hybrid quantum-classical processing is a highly promising direction for [[Computer Vision]] tasks. By leveraging the strengths of both paradigms, the network provides a scalable solution for complex image analysis under the constraints of near-term quantum hardware.
+The success of HQF-Net suggests that structured hybrid quantum-classical processing is a highly promising direction for [[computer-vision|Computer Vision]] tasks. By leveraging the strengths of both paradigms, the network provides a scalable solution for complex image analysis under the constraints of near-term quantum hardware.

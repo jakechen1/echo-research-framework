@@ -8,13 +8,13 @@ category: ai, machine-learning, drug-discovery, biology, technology
 
 # Equivariant Efficient Joint Discrete and Continuous MeanFlow for Molecular Graph Generation
 
-The paper introduces **EQUIMF**, a novel framework designed to solve the fundamental challenges in [[Molecular Graph Generation]]. Molecules are complex structures that consist of both **discrete topology** (the types of atoms and their connectivity/bonds) and **continuous geometry** (the 3D spatial coordinates of those atoms). 
+The paper introduces **EQUIMF**, a novel framework designed to solve the fundamental challenges in [[molecular-graph-generation|Molecular Graph Generation]]. Molecules are complex structures that consist of both **discrete topology** (the types of atoms and their connectivity/bonds) and **continuous geometry** (the 3D spatial coordinates of those atoms). 
 
 ### The Problem: Decoupling and Inconsistency
-Traditional [[Generative Modeling]] approaches for molecules typically treat the discrete and continuous components as separate tasks. This decoupling often leads to several critical failures:
+Traditional [[generative-modeling-of-granular-flow-on-inclined-planes-using-conditional-flow-m|Generative Modeling]] approaches for molecules typically treat the discrete and continuous components as separate tasks. This decoupling often leads to several critical failures:
 *   **Physical Inconsistency:** The generated 3D conformations may not align with the predicted chemical bonds.
 *   **Incompatible Dynamics:** Discrete and continuous distributions react differently to noise, making unified learning difficult.
-*   **Sampling Inefficiency:** Existing [[Diffusion Models]] often require many iterative steps, resulting in slow generation speeds.
+*   **Sampling Inefficiency:** Existing [[diffhdr-re-exposing-ldr-videos-with-video-diffusion-models|Diffusion Models]] often require many iterative steps, resulting in slow generation speeds.
 
 ### The Solution: EQUIMF
 EQUIMF proposes a unified, **SE(3)-equivariant** generative framework that utilizes synchronized **MeanFlow dynamics**. Instead of treating the components in isolation, the model uses a "unified time bridge" to evolve both the structure and the geometry through a single continuous process.
@@ -25,4 +25,4 @@ Key technical advancements include:
 *   **Discrete MeanFlow Formulation:** The authors developed a new formulation for the discrete component, providing a simple yet effective parameterization for generating graph structures.
 
 ### Impact on Drug Discovery
-Extensive experiments show that EQUIMF outperforms prior [[Flow Matching]] and diffusion-based methods. It achieves higher generation quality, superior physical validity, and much higher sampling efficiency. This makes EQUIMF a highly promising tool for [[Drug Discovery]] and [[Computational Chemistry]], where the rapid and accurate generation of valid molecular candidates is essential.
+Extensive experiments show that EQUIMF outperforms prior [[evoflows-evolutionary-edit-based-flow-matching-for-protein-engineering|Flow Matching]] and diffusion-based methods. It achieves higher generation quality, superior physical validity, and much higher sampling efficiency. This makes EQUIMF a highly promising tool for [[targeting-phgdh-for-alzheimers-disease-drug-discovery-strategies|Drug Discovery]] and [[computational-chemistry|Computational Chemistry]], where the rapid and accurate generation of valid molecular candidates is essential.

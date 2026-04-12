@@ -8,11 +8,11 @@ category: machine-learning
 
 # Soft-Quantum Algorithms
 
-The paper "Soft-Quantum Algorithms" (arXiv:2604.06523) introduces a novel computational framework designed to address the efficiency bottlenecks in training [[Variational Quantum Circuits]] (VQCs) and [[Quantum Neural Networks]] (QNNs). 
+The paper "Soft-Quantum Algorithms" (arXiv:2604.06523) introduces a novel computational framework designed to address the efficiency bottlenecks in training [[variational-quantum-circuits|Variational Quantum Circuits]] (VQCs) and [[shot-based-quantum-encoding-a-data-loading-paradigm-for-quantum-neural-networks|Quantum Neural Networks]] (QNNs). 
 
 ## The Problem of Decomposition
 
-In standard [[Quantum Machine Learning]] (QML), quantum operations on pure states are represented by [[Unitary Matrices]]. Traditionally, training a QNN requires decomposing these operators into a sequence of discrete, trainable gates. However, the high computational cost of gate decomposition and the low fidelity of current NISQ-era (Noisy Intermediate-Scale Quantum) hardware make direct circuit training extremely slow and prone to error. This often restricts large-scale QML research to classical simulations.
+In standard [[machine-unlearning-in-the-era-of-quantum-machine-learning-an-empirical-study|Quantum Machine Learning]] (QML), quantum operations on pure states are represented by [[unitary-matrices|Unitary Matrices]]. Traditionally, training a QNN requires decomposing these operators into a sequence of discrete, trainable gates. However, the high computational cost of gate decomposition and the low fidelity of current NISQ-era (Noisy Intermediate-Scale Quantum) hardware make direct circuit training extremely slow and prone to error. This often restricts large-scale QML research to classical simulations.
 
 ## The Soft-Unitary Approach
 

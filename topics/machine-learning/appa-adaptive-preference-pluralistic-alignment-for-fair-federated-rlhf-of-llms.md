@@ -8,10 +8,10 @@ category: ai
 
 # APPA: Adaptive Preference Pluralistic Alignment for Fair Federated RLHF of LLMs
 
-The **APPA (Adaptive Preference Pluralistic Alignment)** framework introduces a novel method for addressing the tension between global model performance and the diverse values of multiple user groups during the alignment of [[Large Language Models]] (LLMs).
+The **APPA (Adaptive Preference Pluralistic Alignment)** framework introduces a novel method for addressing the tension between global model performance and the diverse values of multiple user groups during the alignment of [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs).
 
 ## The Challenge of Pluralistic Alignment
-As [[Artificial Intelligence]] systems are deployed globally, they must navigate [[Pluralistic Alignment]]—the necessity for a single model to respect the distinct, and often conflicting, values of various cultural or demographic groups. This challenge is amplified in [[Federated Learning]] environments, specifically within [[Federated Reinforcement Learning from Human Feedback]] (FedRLHF). In these decentralized settings, the goal is to train a shared policy using distributed data without ever centralizing raw preference data to preserve privacy.
+As [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] systems are deployed globally, they must navigate [[appa-adaptive-preference-pluralistic-alignment-for-fair-federated-rlhf-of-llms|Pluralistic Alignment]]—the necessity for a single model to respect the distinct, and often conflicting, values of various cultural or demographic groups. This challenge is amplified in [[afl-a-single-round-analytic-approach-for-federated-learning-with-pre-trained-mod|Federated Learning]] environments, specifically within [[federated-reinforcement-learning-from-human-feedback|Federated Reinforcement Learning from Human Feedback]] (FedRLHF). In these decentralized settings, the goal is to train a shared policy using distributed data without ever centralizing raw preference data to preserve privacy.
 
 Existing reward aggregation methods in FedRLHF face a fundamental trade-off:
 * **Average-based Aggregation:** Focuses on the mean performance across all clients, which systematically neglects and under-aligns the "worst-performing" or minority groups.
@@ -23,6 +23,6 @@ APPA proposes an **Adaptive Preference Pluralistic Alignment** framework that ut
 A primary strength of APPA is its efficiency and privacy-preserving nature; the framework achieves superior fairness without requiring access to the sensitive, raw preference data held by individual federated clients.
 
 ## Performance and Results
-The researchers integrated APPA into a [[Proximal Policy Optimization]] (PPO) based FedRLHF pipeline. Evaluations were conducted using the GLOBALQA and OQA benchmarks across several prominent model families, including [[Gemma 2]], [[Llama 3.2]], and [[Qwen3]]. 
+The researchers integrated APPA into a [[proximal-policy-optimization|Proximal Policy Optimization]] (PPO) based FedRLHF pipeline. Evaluations were conducted using the GLOBALQA and OQA benchmarks across several prominent model families, including [[gemma-2|Gemma 2]], [[llama-32|Llama 3.2]], and [[qwen3|Qwen3]]. 
 
-The results demonstrated that APPA provides a significantly better balance of [[Algorithmic Fairness]] and utility. Notably, the framework improved the alignment of the worst-performing groups by up to **28%** compared to average aggregation, while simultaneously maintaining a higher level of overall alignment than the min-aggregation strategy.
+The results demonstrated that APPA provides a significantly better balance of [[algorithmic-fairness|Algorithmic Fairness]] and utility. Notably, the framework improved the alignment of the worst-performing groups by up to **28%** compared to average aggregation, while simultaneously maintaining a higher level of overall alignment than the min-aggregation strategy.

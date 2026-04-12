@@ -8,7 +8,7 @@ category: ai, machine-learning, technology
 
 # AHCQ-SAM
 
-**AHCQ-SAM** is an advanced [[Post-Training Quantization (PTQ)]] framework designed to optimize the [[Segment Anything Model (SAM)]] for deployment on resource-constrained [[Edge Computing]] devices. While SAM has revolutionized [[Computer Vision]] through its zero-shot capabilities, its massive parameter count presents significant computational hurdles for hardware with limited memory and power.
+**AHCQ-SAM** is an advanced [[post-training-quantization-ptq|Post-Training Quantization (PTQ)]] framework designed to optimize the [[segment-anything-model-sam|Segment Anything Model (SAM)]] for deployment on resource-constrained [[multi-turn-reasoning-llms-for-task-offloading-in-mobile-edge-computing|Edge Computing]] devices. While SAM has revolutionized [[computer-vision|Computer Vision]] through its zero-shot capabilities, its massive parameter count presents significant computational hurdles for hardware with limited memory and power.
 
 ## The Quantization Challenge
 Existing PTQ methods often struggle to maintain accuracy when compressing large-scale models due to four specific architectural bottlenecks within SAM:
@@ -26,7 +26,7 @@ To address these bottlenecks, AHCQ-SAM introduces four synergistic components de
 * **Logarithmic Nonlinear Quantization (LNQ):** Applies logarithmic transformations to resize the quantization resolution, specifically targeting the heterogeneous nature of attention scores.
 
 ## Experimental Results
-Empirical evaluations demonstrate that AHCQ-SAM significantly outperforms existing [[Machine Learning]] quantization state-of-the-art (SOTA) methods. Key milestones include:
+Empirical evaluations demonstrate that AHCQ-SAM significantly outperforms existing [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] quantization state-of-the-art (SOTA) methods. Key milestones include:
 * **SAM-B (4-bit):** Achieved a 15.2% improvement in mAP using Faster R-CNN on the COCO dataset.
 * **SAM2-Tiny (4-bit):** Demonstrated a 14.01% improvement in J&F on the SA-V Test dataset.
-* **Hardware Efficiency:** Implementation on [[FPGA]] platforms validated a **7.12x speedup** and a **6.62x improvement in power efficiency** compared to the original floating-point baseline.
+* **Hardware Efficiency:** Implementation on [[fpga|FPGA]] platforms validated a **7.12x speedup** and a **6.62x improvement in power efficiency** compared to the original floating-point baseline.

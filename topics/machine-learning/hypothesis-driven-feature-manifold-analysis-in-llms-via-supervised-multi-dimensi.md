@@ -8,7 +8,7 @@ category: ai, machine-learning
 
 # Hypothesis-Driven Feature Manifold Analysis in LLMs via Supervised Multi-Dimensional Scaling
 
-The research paper "Hypothesis-Driven Feature Manifold Analysis in LLMs via Supervised Multi-Dimensional Scaling" explores the internal geometric organization of [[Large Language Models]] (LLMs). The study is grounded in the [[Linear Representation Hypothesis]], which suggests that language models encode semantic concepts as specific directions within their [[Latent Space]], ultimately forming complex, multidimensional manifolds.
+The research paper "Hypothesis-Driven Feature Manifold Analysis in LLMs via Supervised Multi-Dimensional Scaling" explores the internal geometric organization of [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs). The study is grounded in the [[linear-representation-hypothesis|Linear Representation Hypothesis]], which suggests that language models encode semantic concepts as specific directions within their [[not-all-latent-spaces-are-flat-hyperbolic-concept-control|Latent Space]], ultimately forming complex, multidimensional manifolds.
 
 ## Supervised Multi-Dimensional Scaling (SMDS)
 
@@ -16,10 +16,10 @@ Previous attempts to understand model internals have often been limited to ident
 
 ## Experimental Results: Temporal Reasoning
 
-By applying SMDS to the task of [[Temporal Reasoning]], the researchers demonstrated that features do not follow a single uniform shape but instead instantiate various distinct geometric structures, including:
-* [[Circular Manifolds]]
-* [[Linear Structures]]
-* [[Feature Clustering]]
+By applying SMDS to the task of [[temporal-reasoning|Temporal Reasoning]], the researchers demonstrated that features do not follow a single uniform shape but instead instantiate various distinct geometric structures, including:
+* [[circular-manifolds|Circular Manifolds]]
+* [[linear-structures|Linear Structures]]
+* [[feature-clustering|Feature Clustering]]
 
 The study identified several persistent characteristics of these manifolds:
 1. **Semantic Alignment**: The geometry of the manifold directly reflects the semantic properties of the concepts being represented.

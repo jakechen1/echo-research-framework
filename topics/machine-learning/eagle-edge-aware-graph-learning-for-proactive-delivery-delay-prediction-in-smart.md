@@ -8,7 +8,7 @@ category: [ai, machine-learning, technology]
 
 # EAGLE: Edge-Aware Graph Learning
 
-**EAGLE** (Edge-Aware Graph Learning) is a novel [[Deep Learning]] framework designed for proactive delivery delay prediction within [[Smart Logistics]] networks. Traditional approaches to managing logistics often rely on reactive measures or treat predictive modeling as simple tabular classification, which fails to account for the complex spatial and temporal dependencies inherent in modern [[Supply Chain Management]].
+**EAGLE** (Edge-Aware Graph Learning) is a novel [[benchmarking-deep-learning-for-future-liver-remnant-segmentation-in-colorectal-l|Deep Learning]] framework designed for proactive delivery delay prediction within [[smart-logistics|Smart Logistics]] networks. Traditional approaches to managing logistics often rely on reactive measures or treat predictive modeling as simple tabular classification, which fails to account for the complex spatial and temporal dependencies inherent in modern [[supply-chain-management|Supply Chain Management]].
 
 ## Problem Statement
 Modern logistics networks generate vast amounts of operational data, including order timestamps, routing records, and shipping manifests. Existing predictive methods typically suffer from two primary limitations:
@@ -18,7 +18,7 @@ Modern logistics networks generate vast amounts of operational data, including o
 ## Methodology
 To bridge these gaps, EAGLE proposes a hybrid architecture that models the supply chain as a dynamic, relational graph. The framework utilizes two integrated components:
 
-*   **Temporal Modeling:** A lightweight [[Transformer]] patch encoder is employed to capture temporal order-flow dynamics, processing time-sensitive data streams accurately.
+*   **Temporal Modeling:** A lightweight [[crft-consistent-recurrent-feature-flow-transformer-for-cross-modal-image-registr|Transformer]] patch encoder is employed to capture temporal order-flow dynamics, processing time-sensitive data streams accurately.
 *   **Spatial Modeling:** An **Edge-Aware Graph Attention Network (E-GAT)** is implemented to model inter-hub relational dependencies, specifically focusing on the edges (transportation lanes) that connect various nodes in the network.
 
 The model is optimized via a multi-task learning objective, allowing it to simultaneously learn structural and temporal features.
@@ -28,4 +28,4 @@ Evaluated on the real-world **DataCo Smart Supply Chain** dataset, EAGLE demonst
 *   **F1-score:** 0.8762
 *   **AUC-ROC:** 0.9773
 
-Beyond raw accuracy, the framework showed exceptional training stability. The cross-seed F1 standard deviation was recorded at only 0.0089, marking a 3.8-fold improvement in stability over its best ablated variant. This combination of high precision and low variance makes EAGLE a highly reliable tool for [[Artificial Intelligence]] integration in industrial-scale risk management.
+Beyond raw accuracy, the framework showed exceptional training stability. The cross-seed F1 standard deviation was recorded at only 0.0089, marking a 3.8-fold improvement in stability over its best ablated variant. This combination of high precision and low variance makes EAGLE a highly reliable tool for [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] integration in industrial-scale risk management.

@@ -9,7 +9,7 @@ category: ai
 # ZeD-MAP: Bundle Adjustment Guided Zero-Shot Depth Maps
 
 ## Overview
-[[ZeD-MAP]] is a high-performance framework designed for real-time depth reconstruction using ultra-high-resolution [[UAV]] imagery. The system addresses the critical need for rapid 3D environmental modeling in time-sensitive scenarios, such as [[Disaster Response]] and [[Geospatial Analysis]], where traditional reconstruction methods often fail due to computational bottlenecks or complex visual environments (e.g., specular surfaces and occlusions).
+[[zed-map-bundle-adjustment-guided-zero-shot-depth-maps-for-real-time-aerial-imagi|ZeD-MAP]] is a high-performance framework designed for real-time depth reconstruction using ultra-high-resolution [[llm-as-judge-for-semantic-judging-of-powerline-segmentation-in-uav-inspection|UAV]] imagery. The system addresses the critical need for rapid 3D environmental modeling in time-sensitive scenarios, such as [[disaster-response|Disaster Response]] and [[geospatial-analysis|Geospatial Analysis]], where traditional reconstruction methods often fail due to computational bottlenecks or complex visual environments (e.g., specular surfaces and occlusions).
 
 ## The Challenge of Depth Estimation
 Recent breakthroughs

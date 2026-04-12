@@ -9,7 +9,7 @@ category: ai
 # Empowering Power Outage Prediction with SA-HGNN
 
 ## Overview
-In the context of accelerating [[Climate Change]], the frequency and severity of [[Extreme Weather]]—including hurricanes, snowstorms, and ice storms—are rising significantly. These events pose a direct threat to [[Critical Infrastructure]], causing widespread power outages that disrupt industrial operations, damage economies, and impact human safety across various sectors. 
+In the context of accelerating [[climate-change|Climate Change]], the frequency and severity of [[extreme-weather|Extreme Weather]]—including hurricanes, snowstorms, and ice storms—are rising significantly. These events pose a direct threat to [[critical-infrastructure|Critical Infrastructure]], causing widespread power outages that disrupt industrial operations, damage economies, and impact human safety across various sectors. 
 
 To combat these risks, researchers from the University of Connecticut and Eversource Energy Center have introduced an advanced Outage Prediction Modeling (OPM) system designed to provide pre-emptive forecasts for electric distribution networks.
 

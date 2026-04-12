@@ -7,7 +7,7 @@ tags: [ai, machine-learning, bias, evaluation-metrics]
 
 # Self-Preference Bias in Rubric-Based Evaluation of Large Language Models
 
-The rise of the [[LLM-as-a-judge]] paradigm has established a new standard for evaluating [[Large Language Models]]. However, this approach is susceptible to **Self-Preference Bias (SPB)**, a phenomenon where judging models exhibit a tendency to favor outputs produced by themselves or their model families. This research focuses on a specific, emerging subset of evaluation: **rubric-based evaluation**, where judges issue binary (pass/fail) verdicts on individual criteria rather than providing holistic scores.
+The rise of the [[beyond-llm-as-a-judge-deterministic-metrics-for-multilingual-generative-text-eva|LLM-as-a-judge]] paradigm has established a new standard for evaluating [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]]. However, this approach is susceptible to **Self-Preference Bias (SPB)**, a phenomenon where judging models exhibit a tendency to favor outputs produced by themselves or their model families. This research focuses on a specific, emerging subset of evaluation: **rubric-based evaluation**, where judges issue binary (pass/fail) verdicts on individual criteria rather than providing holistic scores.
 
 ### Key Research Findings
 

@@ -8,11 +8,11 @@ category: machine-learning
 
 # Accelerating Byzantine-Robust Distributed Learning
 
-In the evolving landscape of [[Machine Learning]], particularly within [[Distributed Learning]] frameworks, a significant vulnerability exists: the presence of malicious or malfunctioning nodes, a challenge known as [[Byzantine Robustness]]. This paper presents a significant advancement in addressing this vulnerability while simultaneously tackling the bottleneck of communication overhead through advanced compression techniques.
+In the evolving landscape of [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]], particularly within [[accelerating-byzantine-robust-distributed-learning-with-compressed-communication|Distributed Learning]] frameworks, a significant vulnerability exists: the presence of malicious or malfunctioning nodes, a challenge known as [[byzantine-robustness|Byzantine Robustness]]. This paper presents a significant advancement in addressing this vulnerability while simultaneously tackling the bottleneck of communication overhead through advanced compression techniques.
 
 ## The Byz-DM21 Algorithm
 
-The authors propose **Byz-DM21**, a novel algorithm that integrates a unique gradient estimator based on a **double-momentum mechanism**. This mechanism is designed to work in tandem with modern [[Error Feedback]] techniques. The primary goal is to enable effective [[Communication Compression]], allowing nodes to transmit smaller parameter updates without compromising the system's ability to resist adversarial attacks.
+The authors propose **Byz-DM21**, a novel algorithm that integrates a unique gradient estimator based on a **double-momentum mechanism**. This mechanism is designed to work in tandem with modern [[error-feedback|Error Feedback]] techniques. The primary goal is to enable effective [[communication-compression|Communication Compression]], allowing nodes to transmit smaller parameter updates without compromising the system's ability to resist adversarial attacks.
 
 Key features of Byz-DM21 include:
 * **Efficiency:** It eliminates the requirement for large batch sizes typically needed to mitigate noise.
@@ -25,4 +25,4 @@ To further push the boundaries of optimization, the researchers introduced **Byz
 
 ## Mathematical Scope and Results
 
-The theoretical framework of the paper is extended to functions that satisfy the [[Polyak-Łojasiewicz (PL) Condition]], demonstrating that the benefits of the double-momentum approach are applicable to a wide range of optimization landscapes. Ultimately, the researchers provide numerical experiments that validate the effectiveness of these algorithms in practical, large-scale distributed environments, proving that communication efficiency and Byzantine resilience can coexist.
+The theoretical framework of the paper is extended to functions that satisfy the [[polyak-ojasiewicz-pl-condition|Polyak-Łojasiewicz (PL) Condition]], demonstrating that the benefits of the double-momentum approach are applicable to a wide range of optimization landscapes. Ultimately, the researchers provide numerical experiments that validate the effectiveness of these algorithms in practical, large-scale distributed environments, proving that communication efficiency and Byzantine resilience can coexist.

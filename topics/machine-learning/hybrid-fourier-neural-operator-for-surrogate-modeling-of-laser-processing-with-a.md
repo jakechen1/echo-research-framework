@@ -8,14 +8,14 @@ categories: [ai, machine-learning, technology]
 
 # Hybrid Fourier Neural Operator for Surrogate Modeling of Laser Processing with a Quantum-Circuit Mixer
 
-The paper introduces **HQ-LP-FNO**, a novel hybrid architecture designed to optimize the performance of [[Fourier Neural Operator]] (FNO) models for high-dimensional, complex engineering simulations. The primary challenge addressed is the scaling inefficiency of classical FNOs, where the dense spectral channel mixing scales linearly with the number of Fourier modes, significantly increasing parameter counts and hindering [[Real-time Simulation]].
+The paper introduces **HQ-LP-FNO**, a novel hybrid architecture designed to optimize the performance of [[hybrid-fourier-neural-operator-for-surrogate-modeling-of-laser-processing-with-a|Fourier Neural Operator]] (FNO) models for high-dimensional, complex engineering simulations. The primary challenge addressed is the scaling inefficiency of classical FNOs, where the dense spectral channel mixing scales linearly with the number of Fourier modes, significantly increasing parameter counts and hindering [[real-time-simulation|Real-time Simulation]].
 
 ### Methodology: The Quantum-Classical Hybrid Approach
-The researchers developed a hybrid quantum-classical framework that replaces a configurable portion of dense spectral blocks with a compact, mode-shared [[Variational Quantum Circuit]] (VQC) mixer. Unlike traditional classical blocks, the parameter count of this VQC mixer remains independent of the Fourier mode budget. To provide a rigorous scientific benchmark, the authors utilized a parameter-matched classical bottleneck control, allowing for an "apples-to-apples" comparison between classical and quantum-enhanced architectures.
+The researchers developed a hybrid quantum-classical framework that replaces a configurable portion of dense spectral blocks with a compact, mode-shared [[variational-quantum-circuit|Variational Quantum Circuit]] (VQC) mixer. Unlike traditional classical blocks, the parameter count of this VQC mixer remains independent of the Fourier mode budget. To provide a rigorous scientific benchmark, the authors utilized a parameter-matched classical bottleneck control, allowing for an "apples-to-apples" comparison between classical and quantum-enhanced architectures.
 
-### Application in [[Laser Processing]]
-The architecture was evaluated on the 3D surrogate modeling of high-energy [[Laser Processing]]. This domain is characterized by extreme [[Multiphysics]] complexity, requiring the simultaneous modeling of:
-* [[Heat Transfer]]
+### Application in [[hybrid-fourier-neural-operator-for-surrogate-modeling-of-laser-processing-with-a|Laser Processing]]
+The architecture was evaluated on the 3D surrogate modeling of high-energy [[hybrid-fourier-neural-operator-for-surrogate-modeling-of-laser-processing-with-a|Laser Processing]]. This domain is characterized by extreme [[pi-jepa-label-free-surrogate-pretraining-for-coupled-multiphysics-simulation-via|Multiphysics]] complexity, requiring the simultaneous modeling of:
+* [[heat-transfer|Heat Transfer]]
 * Melt-pool convection
 * Free-surface deformation
 * Phase change phenomena

@@ -8,11 +8,11 @@ category: ai, machine-learning
 
 # How Much LLM Does a Self-Revising Agent Actually Need?
 
-The paper "How Much LLM Does a Self-Revising Agent Actually Need?" addresses a fundamental ambiguity in the development of [[Artificial Intelligence]] agents: the distinction between the intrinsic reasoning capabilities of a [[Large Language Model]] (LLM) and the efficacy of the algorithmic architecture surrounding it.
+The paper "How Much LLM Does a Self-Revising Agent Actually Need?" addresses a fundamental ambiguity in the development of [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] agents: the distinction between the intrinsic reasoning capabilities of a [[from-large-language-model-predicates-to-logic-tensor-networks-neurosymbolic-offe|Large Language Model]] (LLM) and the efficacy of the algorithmic architecture surrounding it.
 
 ## The Problem of Conflated Competence
 
-In modern [[Agentic Workflows]], processes such as [[Planning]], [[World Modeling]], and [[Reflection]] are frequently bundled within a single, opaque model loop. This architectural pattern makes it difficult to determine whether an agent's success stems from the model's innate "intelligence" or the efficiency of the explicit software loops (the "structure") designed to guide it.
+In modern [[agentic-workflows|Agentic Workflows]], processes such as [[maptab-are-mllms-ready-for-multi-criteria-route-planning-in-heterogeneous-graphs|Planning]], [[event-centric-world-modeling-with-memory-augmented-retrieval-for-embodied-decisi|World Modeling]], and [[prism-mcts-learning-from-reasoning-trajectories-with-metacognitive-reflection|Reflection]] are frequently bundled within a single, opaque model loop. This architectural pattern makes it difficult to determine whether an agent's success stems from the model's innate "intelligence" or the efficiency of the explicit software loops (the "structure") designed to guide it.
 
 ## Methodology: Externalizing Reflection
 
@@ -32,4 +32,4 @@ The experimental results reveal a significant disparity in the importance of the
 
 ## Conclusion
 
-The primary contribution of this research is methodological rather than a claim to a new state-of-the-art leaderboard. By externalizing reflection, the authors provide a framework for [[Machine Learning]] researchers to audit [[Autonomous Agents]], turning latent, "black-box" behaviors into interpretable, inspectable runtime structures. This allows for a more rigorous scientific study of [[Cognitive Architectures]].
+The primary contribution of this research is methodological rather than a claim to a new state-of-the-art leaderboard. By externalizing reflection, the authors provide a framework for [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] researchers to audit [[claw-eval-toward-trustworthy-evaluation-of-autonomous-agents|Autonomous Agents]], turning latent, "black-box" behaviors into interpretable, inspectable runtime structures. This allows for a more rigorous scientific study of [[cognitive-architectures|Cognitive Architectures]].

@@ -8,7 +8,7 @@ category: machine-learning
 
 # Order-Optimal Sequential 1-Bit Mean Estimation in General Tail Regimes
 
-The study of **Mean Estimation** under extreme communication constraints is a critical frontier in [[Statistical Learning Theory]]. This research investigates the problem of estimating the mean ($\mu$) of a distribution when communication is restricted to a **1-bit constraint**. In this setting, the estimator only receives a single bit of information per sample, typically indicating whether a sample exceeds a specific, sequentially chosen threshold.
+The study of **Mean Estimation** under extreme communication constraints is a critical frontier in [[statistical-learning-theory|Statistical Learning Theory]]. This research investigates the problem of estimating the mean ($\mu$) of a distribution when communication is restricted to a **1-bit constraint**. In this setting, the estimator only receives a single bit of information per sample, typically indicating whether a sample exceeds a specific, sequentially chosen threshold.
 
 ## Methodology
 
@@ -20,8 +20,8 @@ The core strength of this approach lies in its **order-optimality** across vario
 
 ### Sample Complexity and Optimality
 The researchers demonstrate that the estimator's **sample complexity** is optimal across all specified $k$-value regimes:
-* **For $k \neq 2$:** The estimator matches the unquantized [[Minimax Lower Bounds]], subject to a small $O(\log(\lambda/\sigma))$ localization cost.
-* **For $k = 2$ (Finite Variance):** The estimator incurs an extra multiplicative $O(\log(\sigma/\epsilon))$ penalty. Crucially, the authors provide an [[Information Theory]]-based proof showing that this penalty is a fundamental, unavoidable limit of 1-bit quantization.
+* **For $k \neq 2$:** The estimator matches the unquantized [[minimax-lower-bounds|Minimax Lower Bounds]], subject to a small $O(\log(\lambda/\sigma))$ localization cost.
+* **For $k = 2$ (Finite Variance):** The estimator incurs an extra multiplicative $O(\log(\sigma/\epsilon))$ penalty. Crucially, the authors provide an [[information-theory|Information Theory]]-based proof showing that this penalty is a fundamental, unavoidable limit of 1-bit quantization.
 
 ### The Adaptivity Gap
 A significant contribution of this work is the identification of a major **adaptivity gap**. The study proves that any **non-adaptive estimator** (one that does not adjust thresholds based on previous outcomes) suffers from a sample complexity that scales linearly with the search space parameter $\lambda/\sigma$. This makes non-adaptive approaches vastly less efficient than the proposed adaptive algorithm.

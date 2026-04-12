@@ -8,7 +8,7 @@ category: ai
 
 # AI's impact on mathematics is analogous to the car's impact on cities
 
-The integration of [[Artificial Intelligence]] into the domain of [[Mathematics]] represents far more than a mere increase in computational efficiency; it suggests a fundamental restructuring of the mathematical landscape. This concept posits that the impact of AI on mathematical research is profoundly analogous to how the automobile transformed the structural organization of modern cities.
+The integration of [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] into the domain of [[artificial-intelligence-and-the-structure-of-mathematics|Mathematics]] represents far more than a mere increase in computational efficiency; it suggests a fundamental restructuring of the mathematical landscape. This concept posits that the impact of AI on mathematical research is profoundly analogous to how the automobile transformed the structural organization of modern cities.
 
 ### The Structural Analogy
 
@@ -18,7 +18,7 @@ In a parallel fashion, the "pre-AI" era of mathematics was defined by manual pro
 
 ### Shifting Topographies
 
-As [[Machine Learning]] models and [[Large Language Models]] become increasingly capable of identifying patterns, generating conjectures, and assisting in [[Automated Theorem Proving]], the boundaries of mathematical inquiry are expanding. We are moving toward a hybrid model where:
+As [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] models and [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] become increasingly capable of identifying patterns, generating conjectures, and assisting in [[automated-theorem-proving|Automated Theorem Proving]], the boundaries of mathematical inquiry are expanding. We are moving toward a hybrid model where:
 
 * **Pattern Recognition:** AI can explore high-dimensional data structures that are invisible to the human eye, much like cars allowed humans to traverse distances previously considered impossible.
 * **Expansion of Scope:** The "mathematical landscape" is expanding into new territories, where the complexity of problems is no longer limited by manual calculation but by the availability of computational "infrastructure."

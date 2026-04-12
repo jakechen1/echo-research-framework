@@ -11,7 +11,7 @@ source_urls:
 
 ## Introduction
 
-Phosphoglycerate Dehydrogenase (PHGDH) is a critical, rate-limiting enzyme situated at the metabolic intersection of glycolysis and [[The Serine Biosynthetic Pathway]]. As a member of the family of 2-hydroxyacid dehydrogenases, PHGDH catalyzes the first committed step in the phosphorylated pathway of serine biosynthesis: the NAD⁺-dependent oxidation of 3-phosphoglycerate (3-PG) into 3-phosphohydroxypyruvate (3-PHP). By diverting carbon intermediates away from the downstream glycolytic pathway toward the production of amino acids, PHGDH plays a fundamental role in maintaining cellular redox balance, providing precursors for nucleotide synthesis, and facilitating one-carbon metabolism.
+Phosphoglycerate Dehydrogenase (PHGDH) is a critical, rate-limiting enzyme situated at the metabolic intersection of glycolysis and [[the-serine-biosynthetic-pathway|The Serine Biosynthetic Pathway]]. As a member of the family of 2-hydroxyacid dehydrogenases, PHGDH catalyzes the first committed step in the phosphorylated pathway of serine biosynthesis: the NAD⁺-dependent oxidation of 3-phosphoglycerate (3-PG) into 3-phosphohydroxypyruvate (3-PHP). By diverting carbon intermediates away from the downstream glycolytic pathway toward the production of amino acids, PHGDH plays a fundamental role in maintaining cellular redox balance, providing precursors for nucleotide synthesis, and facilitating one-carbon metabolism.
 
 In the context of cellular homeostasis, PHGDH serves as a metabolic sensor, regulating the flux of glycolytic intermediates based on the availability of amino acids and the energetic demands of the cell. While essential for normal physiological processes, the dysregulation of PHGDH—specifically its overexpression—has emerged as a hallmark of metabolic reprogramming in various malignancies, most notably in highly proliferative cells such as certain types of breast cancer and glioblastoma.
 
@@ -23,14 +23,14 @@ The primary catalytic function of PHGDH is the dehydrogenation of the hydroxyl g
 The chemical equation for the primary reaction catalyzed by PHGDH is:
 **3-Phosphoglycerate + NAD⁺ $\rightleftharpoons$ 3-Phosphohydroxypyruvate + NADH + H⁺**
 
-During this transition, the enzyme facilitates the transfer of a hydride ion from the C2 of 3-PG to the NAD⁺ cofactor. This conversion transforms the hydroxy acid (3-PG) into a keto acid (3-PHP). This specific step is considered the "gatekeeping" step of [[The Serine Biosability Pathway]], as any flux diverted by PHGDH is no longer available for ATP production via the completion of glycolysis in the mitochondria.
+During this transition, the enzyme facilitates the transfer of a hydride ion from the C2 of 3-PG to the NAD⁺ cofactor. This conversion transforms the hydroxy acid (3-PG) into a keto acid (3-PHP). This specific step is considered the "gatekeeping" step of [[the-serine-biosability-pathway|The Serine Biosability Pathway]], as any flux diverted by PHGDH is no longer available for ATP production via the completion of glycolysis in the mitochondria.
 
 ### Kinetic Regulation
 The enzymatic activity of PHGDH is subject to rigorous kinetic control. The enzyme exhibits high affinity for its substrate, 3-PG, and its cofactor, NAD⁺. However, the most significant regulatory feature is the feedback inhibition exerted by the end-product of the pathway, L-serine. When intracellular concentrations of serine exceed the metabolic requirements of the cell, serine binds to a specialized regulatory domain on the enzyme, inducing a conformational change that reduces the catalytic efficiency ($V_{max}$) and increases the apparent $K_m$ for 3-PG. This prevents the wasteful depletion of glycolytic intermediates when amino acid levels are sufficient.
 
 ## Structural Fundamentals
 
-The functional unit of PHGDH is a homotetramer, a quaternary structure essential for its catalytic and regulatory capabilities. Understanding the enzyme's function requires an integrated view of its multi-domain architecture, detailed extensively in the study of [[3D Architecture of PHGDH]].
+The functional unit of PHGDH is a homotetramer, a quaternary structure essential for its catalytic and regulatory capabilities. Understanding the enzyme's function requires an integrated view of its multi-domain architecture, detailed extensively in the study of [[3d-architecture-of-phgdh|3D Architecture of PHGDH]].
 
 ### Domain Organization
 Each monomer of the PHGDH tetramer is composed of several distinct functional domains:
@@ -84,7 +84,7 @@ The future of PHGDH research lies in **combination therapies**. Probing the syne
 | **Substrate** | 3-phosphoglycerate (3-PG) |
 | **Cofactor** | NAD⁺ |
 | **Product** | 3-phosphohydroxypyruvate (3-PHP) |
-| **Pathway** | [[The Serine Biosynthetic Pathway]] |
+| **Pathway** | [[the-serine-biosynthetic-pathway|The Serine Biosynthetic Pathway]] |
 | **Quaternary Structure** | Homotetramer |
 | **Primary Regulation** | Feedback inhibition by L-serine |
 | **Key Pathological Link** | Oncogenic metabolic reprogramming |

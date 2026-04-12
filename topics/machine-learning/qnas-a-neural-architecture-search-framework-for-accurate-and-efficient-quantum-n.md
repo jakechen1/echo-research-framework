@@ -8,13 +8,13 @@ category: machine-learning
 
 # QNAS: A Neural Architecture Search Framework
 
-The paper introduces **QNAS**, an advanced [[Neural Architecture Search]] (NAS) framework specifically engineered to address the complexities of designing [[Quantum Neural Networks]] (QNNs) for use on [[NISQ hardware]]. A primary challenge in the current era of quantum computing is the difficulty of designing ansatze that balance high expressivity and trainability with the severe resource constraints of near-term devices.
+The paper introduces **QNAS**, an advanced [[qnas-a-neural-architecture-search-framework-for-accurate-and-efficient-quantum-n|Neural Architecture Search]] (NAS) framework specifically engineered to address the complexities of designing [[shot-based-quantum-encoding-a-data-loading-paradigm-for-quantum-neural-networks|Quantum Neural Networks]] (QNNs) for use on [[nisq-hardware|NISQ hardware]]. A primary challenge in the current era of quantum computing is the difficulty of designing ansatze that balance high expressivity and trainability with the severe resource constraints of near-term devices.
 
 ### The QNAS Framework
 
-Designing efficient models often requires [[Circuit Cutting]] to manage limited qubit availability; however, existing methods often ignore the exponential computational overhead this process introduces. QNAS addresses this by providing a unified, hardware-aware evaluation system for [[Hybrid Quantum-Classical Neural Networks]] (HQNNs). 
+Designing efficient models often requires [[circuit-cutting|Circuit Cutting]] to manage limited qubit availability; however, existing methods often ignore the exponential computational overhead this process introduces. QNAS addresses this by providing a unified, hardware-aware evaluation system for [[hybrid-quantum-classical-neural-networks|Hybrid Quantum-Classical Neural Networks]] (HQNNs). 
 
-The framework utilizes a shared parameter "SuperCircuit" and employs the [[NSGA-II]] algorithm to perform multi-objective optimization. The search evaluates candidate architectures based on three critical dimensions:
+The framework utilizes a shared parameter "SuperCircuit" and employs the [[nsga-ii|NSGA-II]] algorithm to perform multi-objective optimization. The search evaluates candidate architectures based on three critical dimensions:
 1. **Validation Error:** Minimizing prediction error to ensure accuracy.
 2. **Runtime Cost Proxy:** Measuring the estimated wall-clock evaluation time.
 3. **Cutting Overhead:** Optimizing the number of subcircuits required under a specific qubit budget.

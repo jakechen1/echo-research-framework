@@ -8,7 +8,7 @@ category: [ai, machine-learning, technology]
 
 # OV-Stitcher
 
-**OV-Stitcher** is an innovative framework designed for **Training-Free Open-Vocabulary Semantic Segmentation (TF-OVSS)**. This method aims to perform dense prediction tasks by leveraging the pre-existing knowledge embedded within large-scale [[Vision-Language Models]] (VLMs) and pretrained vision encoders, eliminating the need for expensive additional training or fine-tuning processes.
+**OV-Stitcher** is an innovative framework designed for **Training-Free Open-Vocabulary Semantic Segmentation (TF-OVSS)**. This method aims to perform dense prediction tasks by leveraging the pre-existing knowledge embedded within large-scale [[aligned-vector-quantization-for-edge-cloud-collabrative-vision-language-models|Vision-Language Models]] (VLMs) and pretrained vision encoders, eliminating the need for expensive additional training or fine-tuning processes.
 
 ## The Problem: Context Fragmentation
 Current approaches to TF-OVSS face a significant bottleneck regarding input resolution. Because pretrained encoders often have limited input resolution, existing methods typically employ a **sliding-window strategy**. In this setup, high-resolution images are broken down into smaller, cropped sub-images that are processed independently. 
@@ -26,4 +26,4 @@ This process enables **Global Attention** within the final stage of the encoder,
 2. **Spatial Consistency:** The resulting segmentation maps are more stable and semantically aligned across the entire input frame.
 
 ## Performance Benchmarks
-The effectiveness of OV-Stitcher has been validated through extensive evaluations across eight different benchmarks. The framework demonstrates significant scalability and precision, specifically improving the **mean Intersection over Union (mIoU)** from 48.7 to 50.7 when compared to previous training-free baselines. This advancement represents a significant step forward in the field of [[Computer Vision]] and [[Machine Learning]], particularly for tasks requiring high-resolution analysis without the computational burden of retraining.
+The effectiveness of OV-Stitcher has been validated through extensive evaluations across eight different benchmarks. The framework demonstrates significant scalability and precision, specifically improving the **mean Intersection over Union (mIoU)** from 48.7 to 50.7 when compared to previous training-free baselines. This advancement represents a significant step forward in the field of [[computer-vision|Computer Vision]] and [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]], particularly for tasks requiring high-resolution analysis without the computational burden of retraining.

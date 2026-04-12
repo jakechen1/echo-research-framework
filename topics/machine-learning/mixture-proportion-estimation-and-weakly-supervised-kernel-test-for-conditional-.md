@@ -8,7 +8,7 @@ category: machine-learning
 
 # Mixture Proportion Estimation and Weakly-supervised Kernel Test for Conditional Independence
 
-Mixture Proportion Estimation (MPE) is a fundamental task in [[Machine Learning]] that involves estimating class priors from unlabeled datasets. This process is vital for several downstream tasks in [[Weakly Supervised Learning]], including [[PU Learning]] (Positive-Unlabeled learning), learning with [[Label Noise]], and [[Domain Adaptation]].
+Mixture Proportion Estimation (MPE) is a fundamental task in [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] that involves estimating class priors from unlabeled datasets. This process is vital for several downstream tasks in [[weakly-supervised-learning|Weakly Supervised Learning]], including [[pu-learning|PU Learning]] (Positive-Unlabeled learning), learning with [[the-malignant-tail-spectral-segregation-of-label-noise-in-over-parameterized-net|Label Noise]], and [[gan-based-domain-adaptation-for-image-aware-layout-generation-in-advertising-pos|Domain Adaptation]].
 
 ## The Problem of Identifiability
 
@@ -16,11 +16,11 @@ Historically, the success of MPE methods has relied heavily on the "irreducibili
 
 ## Proposed Innovations
 
-This research introduces a novel approach to MPE by shifting the focus from irreducibility to assumptions based on [[Conditional Independence]] (CI) given the class label. This shift allows for the identification of class proportions even in scenarios where irreducibility does not hold. 
+This research introduces a novel approach to MPE by shifting the focus from irreducibility to assumptions based on [[conditional-independence|Conditional Independence]] (CI) given the class label. This shift allows for the identification of class proportions even in scenarios where irreducibility does not hold. 
 
 The paper contributes two primary mathematical frameworks:
 1.  **Method of Moments Estimators:** The authors developed new estimators under these CI-based assumptions and provided a rigorous analysis of their asymptotic properties, ensuring statistical reliability.
-2.  **Weakly-supervised Kernel Tests:** To ensure the validity of the underlying CI assumptions, the researchers introduced kernel-based tests. These tests are of significant interest to the broader scientific community, particularly in fields such as [[Causal Discovery]] and [[Fairness Evaluation]], where verifying independence is critical.
+2.  **Weakly-supervised Kernel Tests:** To ensure the validity of the underlying CI assumptions, the researchers introduced kernel-based tests. These tests are of significant interest to the broader scientific community, particularly in fields such as [[local-markov-equivalence-for-pc-style-local-causal-discovery-and-identification-|Causal Discovery]] and [[fairness-evaluation-and-inference-level-mitigation-in-llms|Fairness Evaluation]], where verifying independence is critical.
 
 ## Experimental Results
 

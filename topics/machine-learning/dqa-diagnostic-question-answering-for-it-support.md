@@ -8,10 +8,10 @@ category: [ai, technology]
 
 # DQA: Diagnostic Question Answering for IT Support
 
-DQA (Diagnostic Question Answering) is a specialized framework designed to optimize [[Automated Troubleshooting]] within [[Enterprise IT Support]] environments. The system is built to address the unique challenges of diagnostic reasoning, where resolving an issue requires iterative evidence gathering from ambiguous and often incomplete user reports.
+DQA (Diagnostic Question Answering) is a specialized framework designed to optimize [[automated-troubleshooting|Automated Troubleshooting]] within [[enterprise-it-support|Enterprise IT Support]] environments. The system is built to address the unique challenges of diagnostic reasoning, where resolving an issue requires iterative evidence gathering from ambiguous and often incomplete user reports.
 
 ## The Challenge in Standard RAG
-Traditional [[Retrieval-Augmented Generation (RAG)]] systems often struggle with multi-turn, diagnostic-heavy interactions. While RAG provides essential grounding via historical documentation, standard implementations lack an explicit **diagnostic state**. Consequently, these systems find it difficult to accumulate evidence or resolve competing hypotheses across a conversation, often losing track of the underlying issue as the dialogue progresses.
+Traditional [[retrieval-augmented-generation-rag|Retrieval-Augmented Generation (RAG)]] systems often struggle with multi-turn, diagnostic-heavy interactions. While RAG provides essential grounding via historical documentation, standard implementations lack an explicit **diagnostic state**. Consequently, these systems find it difficult to accumulate evidence or resolve competing hypotheses across a conversation, often losing track of the underlying issue as the dialogue progresses.
 
 ## The DQA Framework
 DQA introduces a paradigm shift by maintaining a persistent diagnostic state and shifting the focus of knowledge retrieval. The framework preserves the context of the investigation and utilizes three primary mechanisms:

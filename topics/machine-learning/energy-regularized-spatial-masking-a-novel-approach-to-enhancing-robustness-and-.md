@@ -8,7 +8,7 @@ category: ai, machine-learning, technology
 
 # Energy-Regularized Spatial Masking (ERSM)
 
-**Energy-Regularized Spatial Masking (ERSM)** is a novel computational framework designed to enhance the robustness and interpretability of [[Deep Convolutional Neural Networks]]. While modern [[Computer Vision]] models achieve high accuracy, they often rely on exhaustive processing of dense feature maps, which leads to significant computational redundancy and a vulnerability to spurious background correlations. ERSM addresses these issues by transforming feature selection into a differentiable energy minimization problem.
+**Energy-Regularized Spatial Masking (ERSM)** is a novel computational framework designed to enhance the robustness and interpretability of [[deep-convolutional-neural-networks|Deep Convolutional Neural Networks]]. While modern [[computer-vision|Computer Vision]] models achieve high accuracy, they often rely on exhaustive processing of dense feature maps, which leads to significant computational redundancy and a vulnerability to spurious background correlations. ERSM addresses these issues by transforming feature selection into a differentiable energy minimization problem.
 
 ## Mechanism
 
@@ -21,11 +21,11 @@ By framing selection as an energy minimization task, the network can autonomousl
 
 ## Key Advantages
 
-ERSM provides several critical improvements over traditional [[Machine Learning]] optimization and [[Pruning]] techniques:
+ERSM provides several critical improvements over traditional [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] optimization and [[beyond-loss-values-robust-dynamic-pruning-via-loss-trajectory-alignment|Pruning]] techniques:
 
 *   **Emergent Sparsity**: The model naturally learns to ignore redundant information without the need for manual hyperparameter tuning for sparsity.
 *   **Robustness to Occlusion**: The framework demonstrates superior resistance to structured occlusion, as it focuses on identifying semantic regions rather than pixel-level patterns.
 *   **Enhanced Interpretability**: The resulting spatial masks are highly legible, providing a clear view of the object regions the model is utilizing for classification.
 *   **Intrinsic Denoising**: ERSM acts as a powerful denoising mechanism. In deletion-based robustness tests, the energy-based ranking significantly outperforms standard magnitude-based pruning, effectively isolating semantic objects from background noise without requiring pixel-level supervision.
 
-By reducing reliance on background correlations, ERSM paves the way for more reliable and efficient [[Artificial Intelligence]] architectures.
+By reducing reliance on background correlations, ERSM paves the way for more reliable and efficient [[artificial-intelligence-and-the-structure-of-mathematics|Artificial Intelligence]] architectures.
