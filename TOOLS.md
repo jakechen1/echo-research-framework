@@ -64,7 +64,7 @@ dc.rights: CC-BY-4.0
 
 ## Box (Cloud Storage)
 - Syncs automatically: W0 wiki -> MacBook wiki-vault -> Box
-- Box path: Box/OpenClaw-LLM-Infrastructure/wiki/
+- Box path: My Profession/My Projects/Current/JakeClaw/wiki/
 - You do NOT need to push to Box — it syncs every 10 minutes automatically
 
 ## Obsidian
