@@ -63,9 +63,15 @@ dc.rights: CC-BY-4.0
 - gh CLI: installed, authenticated as jakechen1
 
 ## Box (Cloud Storage)
-- Syncs automatically: W0 wiki -> MacBook wiki-vault -> Box
+- Syncs automatically: W0 wiki -> MacBook wiki-auth -> Box
 - Box path: My Profession/My Projects/Current/JakeClaw/
 - You do NOT need to push to Box — it syncs every 10 minutes automatically
+
+## Box MCP Integration
+Before any Box write operation, consult `WEB_API_DOCS.md`.
+- Key rule: ALL Box tool parameters must be top-level, never wrapped in a params object.
+- Box uses `folder_id` (numeric strings), never file paths. Folder map is in `schema/BOX_SKILL.md`.
+
 
 ## Obsidian
 - Vault: wiki-vault on MacBook at ~/wiki-vault/

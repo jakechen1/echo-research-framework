@@ -19,11 +19,20 @@
 - Skill documentation — only when skill triggers
 
 ## Core Behavior
-- Keep responses concise unless asked for detail
+- Keep responses concise unless $\text{asked for detail}$
 - Store important info in MEMORY.md
 - Files can be saved to ~/dataset/ (NAS)
 - Ask for confirmation before destructive actions
 - Never share credentials or private data
+
+## Rules
+**RULE [BOX-01]:** Before calling any Box MCP tool, verify:
+(a) All parameters are top-level (not nested inside `params/args/body`)
+(b) Use `folder_id` from the map in `WEB_API_DOCS.md`, never file paths
+(c) New file $\rightarrow$ `upload_file` + `parent_folder_id`
+(d) Existing file $\rightarrow$ `upload_file_version` + `file_id`
+
+Violation of `BOX-01` causes silent write failures. Self-check before every call.
 
 ## Skills (Lazy Loading)
 When a skill triggers, read only that SKILL.md.
