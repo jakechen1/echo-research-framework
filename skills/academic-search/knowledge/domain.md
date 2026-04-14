@@ -3,6 +3,15 @@ domain: academic-search
 topic: academic-database-apis-and-paper-structure
 priority: high
 ttl: 30d
+author: jakeclaw
+dc.title: "domain"
+dc.creator: jakeclaw
+dc.date: 2026-04-14
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: skills/academic-search/knowledge/domain.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Academic Search -- Database APIs, Paper Structure & Citation Metrics

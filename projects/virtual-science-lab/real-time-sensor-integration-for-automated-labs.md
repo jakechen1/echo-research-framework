@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/37299853/"
   - "https://pubmed.ncbi.nlm.nih.gov/31167514/"
   - "https://pubmed.ncbi.nlm.nih.gov/34052312/"
+author: wiki-dashboard
+dc.title: "Real-time Sensor Integration for Automated Labs"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/real-time-sensor-integration-for-automated-labs.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Introduction

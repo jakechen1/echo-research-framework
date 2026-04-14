@@ -13,6 +13,15 @@ metadata:
         kind: node
         package: axios
         bins: ["axios"]
+author: jakeclaw
+dc.title: "SKILL"
+dc.creator: jakeclaw
+dc.date: 2026-04-14
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: skills/autonomous-research/SKILL.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Autonomous Research

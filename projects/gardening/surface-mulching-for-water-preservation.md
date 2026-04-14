@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/41241344/"
   - "https://pubmed.ncbi.nlm.nih.gov/39826734/"
   - "https://pubmed.ncbi.nlm.nih_gov/36235520/"
+author: wiki-dashboard
+dc.title: "Surface Mulching for Water Preservation"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/gardening/surface-mulching-for-water-preservation.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition

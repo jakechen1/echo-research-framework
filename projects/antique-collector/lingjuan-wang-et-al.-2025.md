@@ -5,6 +5,15 @@ category: machine-learning
 tags: [computer-vision, historical-pattern-recognition, deep-learning, feature-decoupling, neural-restoration]
 source_urls:
   - "https://actual-verified-url"
+author: wiki-dashboard
+dc.title: "Lingjuan Wang et al., 2025"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/lingjuan-wang-et-al.-2025.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Introduction
@@ -24,17 +33,17 @@ Prior to the 2025 breakthroughs, models often suffered from "feature collapse," 
 The foundational contribution of Wang et al. (2025) is the introduction of the **Attentive Feature Decoupling (AFD) Transformer**. This architecture relies on three fundamental mechanisms:
 
 ### 1. Structural-Texture Disentanglement (STD)
-The AFD-Transformer employs a dual-stream processing approach. The first stream, the **Spatio-Structural Stream**, utilizes [[Convolutional Neural Networks]] (CNNs) with dilated convolutions to capture the geometric essence and edges of the pattern, which are more resilient to color fading. The second stream, the **Chromatic-Texture Stream**, utilizes a [[Transformer Architecture]] to analyze the remaining pigment density and color gradients. By processing these streams in parallel and then recombining them through a gated fusion layer, the model can reconstruct the "skeleton" of a pattern even when the color is entirely lost.
+The AFD-Transformer employs a dual-stream processing approach. The first stream, the **Spatio-Structural Stream**, utilizes [[lipkernel-lipschitz-bounded-convolutional-neural-networks-via-dissipative-layers|Convolutional Neural Networks]] (CNNs) with dilated convolutions to capture the geometric essence and edges of the pattern, which are more resilient to color fading. The second stream, the **Chromatic-Texture Stream**, utilizes a [[Transformer Architecture]] to analyze the remaining pigment density and color gradients. By processing these streams in parallel and then recombining them through a gated fusion layer, the model can reconstruct the "skeleton" of a pattern even when the color is entirely lost.
 
 ### 2. Temporal-Spatial Graph Priors
-Wang et al. integrated a [[Graph Neural Network]] (GNN) module that treats historical pattern fragments as nodes in a non-Euclidean space. By applying a "Graph Prior," the model can infer the existence of a missing connection between two distant pattern fragments based on learned historical symmetries. This is particularly effective for repetitive patterns found in ancient weaves or architectural friezes, where the repetition follows a predictable, albeit damaged, mathematical rhythm.
+Wang et al. integrated a [[graph-neural-networks|Graph Neural Network]] (GNN) module that treats historical pattern fragments as nodes in a non-Euclidean space. By applying a "Graph Prior," the model can infer the existence of a missing connection between two distant pattern fragments based on learned historical symmetries. This is particularly effective for repetitive patterns found in ancient weaves or architectural friezes, where the repetition follows a predictable, albeit damaged, mathematical rhythm.
 
 ### 3. Self-Supervised Degradation Modeling
 To overcome the scarcity of annotated historical data, the 2025 framework utilizes an advanced form of [[Self-Supervised Learning]]. The researchers developed a "Synthetic Decay Engine" that takes modern, high-resolution patterns and subjects them to simulated centuries of aging (simulating chemical oxidation, tearing, and light exposure). The model is trained to "reverse" this synthetic decay, which builds a robust internal representation of how patterns transform under environmental stress.
 
 ## Technical Implementation and Benchmarking
 
-The implementation of the Wang et al. model showed unprecedented results across several key benchmarks used in [[Computer Vision for Historical Pattern Recognition]]. In tests involving the "Global Textile Archive" (a simulated high-degradation dataset), the AFD-Transformer achieved a **mIoU (mean Intersection over Union) of 88.4%**, a significant improvement over the 62.1% achieved by contemporary [[U-Net]] architectures.
+The implementation of the Wang et al. model showed unprecedented results across several key benchmarks used in [[Computer Vision for Historical Pattern Recognition]]. In tests involving the "Global Textile Archive" (a simulated high-degradation dataset), the AFD-Transformer achieved a **mIoU (mean Intersection over Union) of 88.4%**, a significant improvement over the 62.1% achieved by contemporary [[implantable-adaptive-cells-a-novel-enhancement-for-pre-trained-u-nets-in-medical|U-Net]] architectures.
 
 Key performance metrics identified in the 2025 study include:
 *   **Feature Robustness Score (FRS):** A new metric proposed by the authors to measure how well a model maintains structural accuracy across varying levels of pixel loss.

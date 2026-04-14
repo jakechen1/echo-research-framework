@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/36616653/"
   - "https://pubmed.ncbi.nlm.nih.gov/40558803/"
   - "https://pubmed.ncbi.nlm.nih.gov/38522192/"
+author: wiki-dashboard
+dc.title: "Computer Vision for Historical Pattern Analysis"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/computer-vision-for-historical-pattern-analysis.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition and Scope
@@ -57,7 +66,7 @@ Despite significant advancements, several bottleneck challenges remain:
 
 ## Future Directions
 
-The future of Computer Vision for Historical Pattern Analysis lies in the development of **Generative Reconstruction**. We are moving toward a period where AI will not only analyze historical patterns but will also be used to "virtually restore" lost parts of an artifact by predicting the missing patterns based on learned historical contexts. Furthermore, the integration of [[Augmented Reality]] (AR) will likely allow researchers to overlay these analyzed, vectorized patterns directly onto physical artifacts in real-time, creating a seamless bridge between the physical past and the digital future.
+The future of Computer Vision for Historical Pattern Analysis lies in the development of **Generative Reconstruction**. We are moving toward a period where AI will not only analyze historical patterns but will also be used to "virtually restore" lost parts of an artifact by predicting the missing patterns based on learned historical contexts. Furthermore, the integration of [[augmented-reality-for-artifact-overlay|Augmented Reality]] (AR) will likely allow researchers to overlay these analyzed, vectorized patterns directly onto physical artifacts in real-time, creating a seamless bridge between the physical past and the digital future.
 
 ## References
 

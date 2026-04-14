@@ -1,0 +1,7 @@
+{
+  "id": "862d6291e9108ce7",
+  "title": "Factorizing formal contexts from closures of necessity operators",
+  "link": "https://arxiv.org/abs/2604.09582",
+  "summary": "arXiv:2604.09582v1 Announce Type: new \nAbstract: Factorizing datasets is an interesting process in a multitude of approaches, but many times it is not possible or efficient the computation of a factorization of the dataset. A method to obtain independent subcontexts of a formal context with Boolean data was proposed in~\\cite{dubois:2012}, based on the operators used in possibility theory. In this paper, we will analyze this method and study different properties related to the pairs of sets from which a factorization of a formal context arises. We also inspect how the properties given in the classical case can be extended to the fuzzy framework, which is essential to obtain a mechanism that allows the computation of independent subcontexts of a fuzzy context.",
+  "feed": "arxiv-cs-AI"
+}

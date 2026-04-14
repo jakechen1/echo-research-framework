@@ -7,13 +7,22 @@ source_urls:
   - "https://doi.org/10.1016/J.YURO.2014.07.015"
   - "https://doi.org/10.1016/j.schres.2014.08.002"
   - "https://doi.org/10.1111/bjd.13554"
+author: wiki-dashboard
+dc.title: "Cox DD et al., 2014"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/cox-dd-et-al.-2014.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Introduction
 
 **Cox DD et al., 2014** refers to a seminal methodological framework introduced in the field of [[Computer Vision for Historical Pattern Recognition]]. The publication is widely recognized for establishing the "Dual-Descriptor" (DD) approach to feature extraction within highly degraded, non-standardized historical datasets. At its core, the research addressed the fundamental difficulty of distinguishing between "signal" (the intended historical pattern, such as ink, pigment, or glyph) and "noise" (organic degradation, such as mold, paper foxing, or chemical oxidation) in archival imaging.
 
-In the context of [[Machine Learning]], the Cox DD framework provided a mathematical basis for what is now known as "structural-texture decoupling." By treating historical artifacts not merely as images but as multi-layered signal compositions, the work allowed for more robust [[Feature Engineering]] in environments where traditional [[Convolutional Neural Networks]] (CNNs) previously failed due to the high variance of degradation patterns. This paper remains a cornerstone for researchers working in the [[Digital Humanities]], providing the algorithmic foundation for the automated restoration and reconstruction of lost historical information.
+In the context of [[Machine Learning]], the Cox DD framework provided a mathematical basis for what is now known as "structural-texture decoupling." By treating historical artifacts not merely as images but as multi-layered signal compositions, the work allowed for more robust [[Feature Engineering]] in environments where traditional [[lipkernel-lipschitz-bounded-convolutional-neural-networks-via-dissipative-layers|Convolutional Neural Networks]] (CNNs) previously failed due to the high variance of degradation patterns. This paper remains a cornerstone for researchers working in the [[Digital Humanities]], providing the algorithmic foundation for the automated restoration and reconstruction of lost historical information.
 
 ## The Dual-Descriptor (DD) Mechanism
 
@@ -24,7 +33,7 @@ The DD mechanism operates through two parallel computational paths:
 1.  **The Topological Stream (T-Stream):** This stream focuses on the structural integrity of the pattern. It utilizes robust mathematical morphology to identify the skeleton of a glyph or pattern, ignoring changes in pixel intensity. This stream is designed to be invariant to changes in the "color" or "density" of the medium, focusing instead on the connectivity and geometry of the feature.
 2.  **The Textural Stream (X-Stream):** This stream analyzes the micro-variance of the pixel intensities. In historical contexts, this stream captures the "texture" of the degradation (e.g., the grain of the parchment or the spread of water damage). 
 
-The breakthrough of the 2014 paper was the "Residual Recombination" step. By subtracting the noise-heavy textural stream from the structural stream, the algorithm produces a "denoised" feature map that preserves the underlying historical pattern while suppressing the stochastic noise of the substrate. This technique significantly lowered the error rates in [[Pattern Recognition]] tasks involving significantly decayed 17th- and 18th-century documents.
+The breakthrough of the 2014 paper was the "Residual Recombination" step. By subtracting the noise-heavy textural stream from the structural stream, the algorithm produces a "denoised" feature map that preserves the underlying historical pattern while suppressing the stochastic noise of the substrate. This technique significantly lowered the error rates in [[computer-vision-for-historical-pattern-recognition|Pattern Recognition]] tasks involving significantly decayed 17th- and 18th-century documents.
 
 ## Application in Historical Pattern Recognition
 

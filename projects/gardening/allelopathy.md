@@ -7,11 +7,20 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/30688632/"
   - "https://pubmed.ncbi.nlm.nih.gov/39868714/"
   - "https://pubmed.ncbi.nlm.nih.gov/37751515/"
+author: wiki-dashboard
+dc.title: "Allelopathy"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/gardening/allelopathy.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition
 
-**Allelopathy** is a biological phenomenon in which an organism produces one or more biochemicals—known as allelochemicals—that exert a direct or indirect influence on the growth, survival, reproduction, and development of other organisms in its vicinity. While often discussed in the context of inhibiting the growth of competing species (interference competition), allelopathy also encompasses stimulatory effects, where allelocheximals may enhance the growth or physiological resilience of neighboring organisms. This complex process serves as a fundamental component of [[Chemical Ecology]], acting as a form of "chemical communication" that shapes the structure and composition of both terrestrial and aquatic ecosystems.
+**Allelopathy** is a biological phenomenon in which an organism produces one or more biochemicals—known as allelochemicals—that exert a direct or indirect influence on the growth, survival, reproduction, and development of other organisms in its vicinity. While often discussed in the context of inhibiting the growth of competing species (interference competition), allelopathy also encompasses stimulatory effects, where allelocheximals may enhance the growth or physiological resilience of neighboring organisms. This complex process serves as a fundamental component of Chemical Ecology, acting as a form of "chemical communication" that shapes the structure and composition of both terrestrial and aquatic ecosystems.
 
 In the framework of [[Ecosystem-Based Companion Planting]], allelopathy is a critical variable. Understanding whether a specific plant pair exhibits inhibitory or stimulatory allelopathic interactions is essential for designing polycultures that maximize yield and minimize the need for synthetic inputs.
 
@@ -20,7 +29,7 @@ In the framework of [[Ecosystem-Based Companion Planting]], allelopathy is a cri
 Allelochemicals are not released through a single physiological pathway; rather, they enter the environment through several distinct mechanisms, which determine their concentration and availability to target organisms.
 
 ### 1. Root Exudation
-Plants actively or passively release secondary metabolites directly from their root systems into the rhizosphere. These exudates include organic acids, amino acids, and phenolics. Because these chemicals are released directly into the soil, they are often the most immediate influencers of [[Microbial Ecology]] and the development of neighboring plant roots.
+Plants actively or passively release secondary metabolites directly from their root systems into the rhizosphere. These exudates include organic acids, amino acids, and phenolics. Because these chemicals are released directly into the soil, they are often the most immediate influencers of Microbial Ecology and the development of neighboring plant roots.
 
 ### 2. Leaching
 Soluble compounds can be washed from the plant's above-ground surfaces—such as leaves, stems, and flowers—by precipitation, dew, or irrigation. As water flows over the canopy, it carries away accumulated allelochemicals (e.g., tannins and flavonoids) and deposits them into the soil profile, where they can affect the germinating seeds of competing species.
@@ -34,13 +43,13 @@ As plant litter (dead leaves, stems, and roots) undergoes microbial breakdown, t
 ## Key Concepts and Terminology
 
 ### Allelobiosis
-A fundamental concept in modern allelopathy is [[Allelobiosis]]. While "allelopathy" describes the chemical phenomenon itself, "allelobiosis" refers to the living state of an organism that is under the influence of allelochemicals. It encompasses the physiological and metabolic responses of a target organism to the chemical signals present in its environment. Modern research emphasizes that organisms are not merely "inhibited" or "stimulated" but exist in a state of continuous physiological adjustment to the allelopathic landscape (Han M et al., 2024).
+A fundamental concept in modern allelopathy is Allelobiosis. While "allelopathy" describes the chemical phenomenon itself, "allelobiosis" refers to the living state of an organism that is under the influence of allelochemicals. It encompasses the physiological and metabolic responses of a target organism to the chemical signals present in its environment. Modern research emphasizes that organisms are not merely "inhibited" or "stimulated" but exist in a state of continuous physiological adjustment to the allelopathic landscape (Han M et al., 2024).
 
 ### Chemical Communication
 Recent advancements in the field have shifted the perspective of allelopathy from a purely "warfare-based" model (where plants attempt to kill competitors) to a model of "chemical communication." Research indicates that allelochemicals act as signals in a complex network of inter-organismal dialogue. These chemicals can trigger defense responses, signal the presence of pathogens, or facilitate symbiotic relationships (Mhamdi O et al., 2024).
 
 ### Microalgal Allelopathy
-Allelopathy is not restricted to vascular plants. In aquatic ecosystems, allelopathy plays a pivotal role in the regulation of [[Microalgae]] populations. Microalgae produce various secondary metabolites that can inhibit the growth of competing algal strains or even suppress the proliferation of harmful bacteria and protozoa. This interaction is a key driver of community succession and nutrient cycling in aquatic environments (Tan K et al., 2019).
+Allelopathy is not restricted to vascular plants. In aquatic ecosystems, allelopathy plays a pivotal role in the regulation of Microalgae populations. Microalgae produce various secondary metabolites that can inhibit the growth of competing algal strains or even suppress the proliferation of harmful bacteria and protozoa. This interaction is a key driver of community succession and nutrient cycling in aquatic environments (Tan K et al., 2019).
 
 ## Role in [[Ecosystem-Based Companion Planting]] and Agroecology
 
@@ -68,7 +77,7 @@ Despite its potential, several challenges limit the widespread implementation of
 
 ## Future Directions
 
-The future of allelopathy research lies in the precision management of [[Agroecosystems]]. Key areas of development include:
+The future of allelopathy research lies in the precision management of Agroecosystems. Key areas of development include:
 
 *   **Synthetic Bioherbicides:** Developing concentrated, biodegradable derivatives of natural allelochemicals to create targeted, environmentally friendly weed control.
 *   **Precision Agriculture Integration:** Using soil sensors and AI to predict the allelopathic "pulse" in a field, allowing farmers to adjust irrigation or fertilization to optimize the beneficial effects of allelochemicals.

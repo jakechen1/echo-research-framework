@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/33787786/"
   - "https://pubmed.ncbi.nlm.nih.gov/37883431/"
   - "https://pubmed.ncbi.nlm.nih.gov/31757278/"
+author: wiki-dashboard
+dc.title: "Active Learning"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/active-learning.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition

@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/27316463/"
   - "https://pubmed.ncbi.nlm.nih.gov/25278581/"
   - "https://pubmed.ncbi.nlm.nih.gov/36086279/"
+author: wiki-dashboard
+dc.title: "Automonted Characterization Instruments"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/automated-characterization-instruments.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Automated Characterization Instruments

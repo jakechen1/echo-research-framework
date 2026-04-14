@@ -7,6 +7,15 @@ source_abilities:
   - "https://pubmed.ncbi.nlm.nih.gov/40837486/"
   - "https://pubmed.ncbi.nlm.nih.gov/40108637/"
   - "https://pubmed.ncbi.nlm.nih.gov/38106459/"
+author: wiki-dashboard
+dc.title: "Large-scale Dataset Repositories for AI Science"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/large-scale-dataset-repositories-for-ai-science.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition

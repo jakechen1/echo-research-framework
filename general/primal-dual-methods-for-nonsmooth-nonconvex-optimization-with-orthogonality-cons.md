@@ -1,0 +1,38 @@
+---
+title: Primal-Dual Methods for Nonsmooth Nonconvex Optimization with Orthogonality Constraints
+created: 2024-05-22
+source: https://arxiv.org/abs/2604.04130
+tags: [optimization, primal-dual, nonsmooth, nonconvex, algorithmic-complexity]
+category: machine-learning, technology
+author: wiki-pipeline
+dc.title: "Primal-Dual Methods for Nonsmooth Nonconvex Optimization with Orthogonality Constraints"
+dc.creator: wiki-pipeline
+dc.date: 2024-05-22
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: general/primal-dual-methods-for-nonsmooth-nonconvex-optimization-with-orthogonality-cons.md
+dc.language: en
+dc.rights: CC-BY-4.0
+---
+
+# Primal-Dual Methods for Nonsmooth Nonconvex Optimization with Orthogonality Constraints
+
+The research presented in this paper addresses a critical bottleneck in modern [[Data Science]]: the optimization of problems involving both [[Nonsmoothness]] and orthogonality constraints. As high-dimensional datasets grow, the ability to perform efficient [[primal-dual-methods-for-nonsmooth-nonconvex-optimization-with-orthogonality-cons|Nonconvex Optimization]] on structures like the [[Stiefel Manifold]] becomes increasingly vital.
+
+### The Challenge of Orthogonality
+While [[Riemannian Optimization]] has emerged as a powerful paradigm for handling orthogonality constraints, the authors identify several significant limitations when these problems become nonsmooth. Current Riemannian methods often face issues regarding:
+* **Scalability and Parallelizability:** High computational costs in large-scale settings.
+* **Complex Subproblems:** The requirement to solve difficult internal optimization tasks.
+* **Numerical Instability:** Cumulative errors that threaten the feasibility of the resulting orthogonal matrices.
+
+### The Proposed Solution
+To mitigate these issues, the paper introduces a **retraction-free primal-dual approach**. The authors propose a specialized **linearized smoothing augmented Lagrangian method** specifically engineered for nonsmooth and nonconvex landscapes. 
+
+Unlike traditional methods, this new approach is:
+1. **Single-loop:** Reducing the overhead of nested optimization layers.
+2. **Subproblem-free:** Eliminating the need to solve complex secondary optimization tasks, which enhances computational speed.
+
+### Theoretical and Numerical Contributions
+The paper provides rigorous mathematical foundations for the proposed method. The authors establish an iteration complexity of $O(\epsilon^{-3})$ for finding $\epsilon$-KKT points, a result that matches the best-known performance benchmarks in existing [[Riemannian Optimization]] literature. Furthermore, by applying the [[Kurdyka-Lojasiewicz (KL) property]], the research demonstrates the asymptotic sequential convergence of the algorithm.
+
+Numerical experiments confirm the practical utility of the method. When tested against state-of-the-art algorithms on both smooth and nonsmooth problems, the proposed primal-dual method demonstrated superior computational efficiency and significantly better scalability, making it a robust candidate for large-scale [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] and [[Algorithmic Complexity]] applications.

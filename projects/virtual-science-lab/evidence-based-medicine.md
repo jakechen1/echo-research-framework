@@ -9,13 +9,22 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/26208769/"
   - "https://doi.org/10.1136/BMJ.312.7023.71"
   - "https://doi.org/10.1001/JAMA.1997.03550020100049"
+author: wiki-dashboard
+dc.title: "Evidence-based medicine"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/evidence-based-medicine.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition and Overview
 
 **Evidence-based medicine (EBM)** is a fundamental clinical decision-making framework that emphasizes the conscientious, explicit, and judicious use of the current best evidence in making decisions about the care of individual patients. Rather than relying solely on tradition, anecdotal experience, or unverified intuition, EBM integrates three critical components: the best available external clinical evidence, the clinician's [[Clinical Expertise]], and the individual patient's unique values and preferences.
 
-At its core, EBM is an approach to medical decision-making that seeks to reduce uncertainty and minimize errors by subjecting clinical interventions to rigorous, systematic scrutiny. While the concept originated in the medical sciences to standardize treatment protocols through [[Randomized Controlled Trials]] (RCTs), it has evolved into a broader methodological standard used to evaluate the utility and safety of any intervention, including the integration of [[Machine Learning]] models and [[Artificial Intelligence]] in clinical workflows. As famously articulated by [[D. Sackett et al., 1996]], EBM is not merely the application of research findings but a complex synthesis of high-quality data and human judgment.
+At its core, EBM is an approach to medical decision-making that seeks to reduce uncertainty and minimize errors by subjecting clinical interventions to rigorous, systematic scrutiny. While the concept originated in the medical sciences to standardize treatment protocols through [[Randomized Controlled Trials]] (RCTs), it has evolved into a broader methodological standard used to evaluate the utility and safety of any intervention, including the integration of [[Machine Learning]] models and [[integrating-artificial-intelligence-physics-and-internet-of-things-a-framework-f|Artificial Intelligence]] in clinical workflows. As famously articulated by [[D. Sackett et al., 1996]], EBM is not merely the application of research findings but a complex synthesis of high-quality data and human judgment.
 
 ## The Three Pillars of EBM
 
@@ -62,7 +71,7 @@ Despite its successes, EBM faces several structural and methodological challenge
 1.  **The Reproducibility Crisis:** Much like the broader scientific community, EBM suffers from the difficulty of replicating study results, which undermines the reliability of the evidence base.
 2.  **Publication Bias:** The tendency for journals to publish only positive or significant results creates a skewed view of the true efficacy of treatments.
 3.  **Complexity of Application:** Implementing EBM in real-world clinical settings is difficult. Clinical practice often involves "messy" patients who do not meet the strict inclusion/exclusion criteria of a high-quality RCT.
-4.  **Information Overload:** The sheer volume of new medical literature produced daily makes it nearly impossible for individual clinicians to remain "evidence-based" without the aid of automated tools and [[Artificial Intelligence]].
+4.  **Information Overload:** The sheer volume of new medical literature produced daily makes it nearly impossible for individual clinicians to remain "evidence-based" without the aid of automated tools and [[integrating-artificial-intelligence-physics-and-internet-of-things-a-framework-f|Artificial Intelligence]].
 
 ## Future Directions: Toward EBM 2.0
 

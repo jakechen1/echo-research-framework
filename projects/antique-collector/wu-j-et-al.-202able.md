@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/35506651/"
   - "https://pubmed.ncbi.nlm.nih.gov/38753766/"
   - "https://pubmed.ncbi.nlm.nih.gov/37276164/"
+author: wiki-dashboard
+dc.title: "Wu J et al., 202able"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/wu-j-et-al.-202able.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Overview
@@ -19,7 +28,7 @@ By leveraging advanced [[Deep Learning]] architectures, specifically a novel var
 
 In the context of [[Computer Vision for Historical Pattern Recognition]], the primary obstacle is the non-linear nature of decay. Unlike standard [[Image Denoising]] tasks in modern photography, historical pattern degradation follows complex, multi-layered trajectories. For example, in ancient silk fragments, the decay of organic fibers creates a texture that mimics the very patterns the algorithm is trying to detect.
 
-Before the methodologies proposed in Wu J et al., researchers relied heavily on [[Supervised Learning]] with clean, modern templates. However, these models suffered from severe "domain shift" when applied to actual archaeological finds. The work of Wu J et al. shifted the paradigm toward [[Self-Supervised Learning]], where the model learns the underlying "grammar" of a specific historical era by analyzing the structural invariants of surviving undamaged fragments.
+Before the methodologies proposed in Wu J et al., researchers relied heavily on [[loft-parameter-efficient-fine-tuning-for-long-tailed-semi-supervised-learning-in|Supervised Learning]] with clean, modern templates. However, these models suffered from severe "domain shift" when applied to actual archaeological finds. The work of Wu J et al. shifted the paradigm toward [[Self-Supervised Learning]], where the model learns the underlying "grammar" of a specific historical era by analyzing the structural invariants of surviving undamaged fragments.
 
 ## Core Methodologies and Mechanisms
 

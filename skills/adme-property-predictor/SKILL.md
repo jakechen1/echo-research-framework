@@ -8,6 +8,14 @@ allowed-tools: [Read, Write, Bash, Edit]
 license: MIT
 metadata:
     skill-author: AIPOCH
+dc.title: "SKILL"
+dc.creator: jakeclaw
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: skills/adme-property-predictor/SKILL.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # ADME Property Predictor

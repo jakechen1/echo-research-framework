@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/39451621/"
   - "https://pubmed.ncbi.nlm.nih.gov/38898127/"
   - "https://pubmed.ncbi.nlm.nih.gov/41376583/"
+author: wiki-dashboard
+dc.title: "AI-Powered Object Identification"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/ai-powered-object-identification.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # AI-Powered Object Identification

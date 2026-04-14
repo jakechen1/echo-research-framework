@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/38839954/"
   - "https://pubmed.ncbi.nlm.nih.gov/39406187/"
   - "https://pubmed.ncbi.nlm.nih.gov/36708705/"
+author: wiki-dashboard
+dc.title: "Single-cell RNA sequencing"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/single-cell-rna-sequencing.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition
@@ -44,7 +53,7 @@ As of 2025, the field has moved beyond simple cell typing and is now focusing on
 A significant recent advancement is the ability to sequence nascent RNA—the RNA currently being transcribed. While traditional scRNA-seq measures the steady-state level of mRNA (which is a balance of transcription and degradation), nascent sequencing allows for the observation of coordinated global transcription as it occurs. Research by Mahat et al. (2024) has demonstrated that this approach can unveil highly coordinated transcriptional programs that are invisible when only looking at steady-state mRNA levels.
 
 ### Pan-Cancer Atlases
-In oncology, scRNA-seq is being used to build massive "atlases" of the immune landscape within tumors. Recent studies, such as those by Fitzsimons et al. (2024), have utilized pan-cancer single-cell datasets to map the diversity of [[B cells]] within the intratumoral environment. Such atlases are crucial for understanding how the immune system is suppressed within different types of malignancies and for identifying new targets for [[Immunotherapy]].
+In oncology, scRNA-seq is being used to build massive "atlases" of the immune landscape within tumors. Recent studies, such as those by Fitzsimons et al. (2024), have utilized pan-cancer single-cell datasets to map the diversity of [[B cells]] within the intratumoral environment. Such atlases are crucial for understanding how the immune system is suppressed within different types of malignancies and for identifying new targets for [[transcriptomic-models-for-immunotherapy-response-prediction-show-limited-cross-c|Immunotherapy]].
 
 ### Single-Cell Microbiology
 While scRNA-seq was initially optimized for eukaryotes, the technology has expanded into the bacterial domain. Using droplet-based methods, researchers can now study the heterogeneous response of bacterial populations to environmental stressors. Ma et al. (2023) utilized bacterial droplet-based scRNA-seq to reveal how individual bacterial cells enter different, heterogeneous states when exposed to antibiotics, providing insights into the mechanisms of antibiotic resistance and persistence.
@@ -53,7 +62,7 @@ While scRNA-seq was initially optimized for eukaryotes, the technology has expan
 
 Despite its transformative power, scRNA-seq faces several persistent bottlenecks:
 
-*   **Dropout and Sparsity:** The technical inability to detect low-abundance transcripts leads to "zeros" in the data, which can lead to false conclusions about gene repression. Advanced [[Imputation]] algorithms are currently being developed to address this.
+*   **Dropout and Sparsity:** The technical inability to detect low-abundance transcripts leads to "zeros" in the data, which can lead to false conclusions about gene repression. Advanced [[tbayes-mice-a-bayesian-approach-to-multiple-imputation-for-time-series-data|Imputation]] algorithms are currently being developed to address this.
 *   **Cost and Throughput:** While droplet-based methods (like 10x Genomics) have increased throughput, the cost per cell remains high, limiting the ability to perform massive-scale population studies.
 *   **Loss of Spatial Context:** Standard scRNA-seq requires the dissociation of tissue into a single-cell suspension, meaning the physical location of the cell within the original tissue is lost. This has given rise to the emerging field of [[Spatial Transcriptomics]].
 *   **Computational Complexity:** As datasets grow into the millions of cells, the memory and processing power required for [[Graph Neural Networks]] and manifold learning algorithms increase exponentially.

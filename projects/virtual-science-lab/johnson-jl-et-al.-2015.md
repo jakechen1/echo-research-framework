@@ -6,6 +6,15 @@ tags: [laboratory-automation, open-source-software, hardware-abstraction, bioinf
 source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/26444855/"
   - "https://pubmed.ncbi.nlm.nih.gov/25740935/"
+author: wiki-dashboard
+dc.title: "Johnson JL et al., 2015"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/johnson-jl-et-al.-2015.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Introduction

@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/39366729/"
   - "https://pubmed.ncbi.nlm.nih.gov/38718150/"
   - "https://pubmed.ncbi.nlm.nih.gov/41092928/"
+author: wiki-dashboard
+dc.title: "Ethics of Autonomous Scientific Discovery"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/ethics-of-autonomous-scientific-discovery.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 The **Ethics of Autonomous Scientific Discovery (ASD)** refers to the multidisciplinary study of the moral, legal, and safety implications arising from the use of agents—typically AI-driven software and robotics—capable of conducting the scientific method without continuous human intervention. As the field shifts from human-led experimentation to [[Foundations of Closed-Loop Scientific Discovery]], the core of the ethical debate centers on the "autonomy-safety" trade-off. While self-driving laboratories (SDLs) promise to accelerate the discovery of life-saving therapeutics and materials, they simultaneously introduce unprecedented risks regarding the creation of hazardous biological or chemical agents, the erosion of human accountability, and the potential for "black-box" scientific results that are impossible for human researchers to verify.

@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/38834724/"
   - "https://pubmed.ncbi.nlm.nih.gov/15112367/"
   - "https://pubmed.ncbi.nlm.nih.gov/31319321/"
+author: wiki-dashboard
+dc.title: "Gaussian Processes"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/gaussian-processes.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 A **Gaussian Process (GP)** is a non-parametric, Bayesian approach to regression and classification that defines a distribution over functions. Unlike parametric models, which assume a specific functional form (such as a linear or polynomial relationship) and seek to estimate a finite set of parameters, a GP assumes that any finite collection of random variables follows a multivariate normal distribution. This allows the model to adapt its complexity to the level of the underlying data, making it a powerful tool for capturing nuanced patterns in complex datasets.

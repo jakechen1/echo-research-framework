@@ -1,0 +1,39 @@
+---
+title: Explaining Neural Networks in Preference Learning: a Post-hoc Inductive Logic Programming Approach
+created: 2024-05-24
+source: https://arxiv.org/abs/2604.06838
+tags: [machine-learning, ILASP, neural-networks, explainable-ai, logic-programming]
+category: machine-learning
+author: wiki-pipeline
+dc.title: "Explaining Neural Networks in Preference Learning: a Post-hoc Inductive Logic Programming Approach"
+dc.creator: wiki-pipeline
+dc.date: 2024-05-24
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: general/explaining-neural-networks-in-preference-learning-a-post-hoc-inductive-logic-pro.md
+dc.language: en
+dc.rights: CC-BY-4.0
+---
+
+# Explaining Neural Networks in Preference Learning
+
+The research paper "Explaining Neural Networks in Preference Learning: a Post-hoc Inductive Logic Programming Approach" addresses the "black-box" nature of [[curvature-aware-optimization-for-high-accuracy-physics-informed-neural-networks|Neural Networks]] in the context of preference learning. While neural architectures are highly effective at capturing complex patterns in user preferences, they often lack the interpretability required for high-stakes decision-making.
+
+## Overview of Approach
+
+The authors propose a methodology to approximate these black-box models using [[ILASP]] (Inductive Learning of Answer Set Programs). The primary goal is to extract symbolic, human-readable rules that represent the underlying logic of the neural network. This is achieved by treating the neural network as a target model and using [[logic|Inductive Logic Programming]] to learn programs through the application of [[weak constraints]].
+
+To demonstrate the effectiveness of this approach, the researchers utilized a dataset centered on user preferences for various recipes. The study evaluates ILASP’s performance as both a global and a local approximator, measuring how closely the induced logic programs mirror the decision-making boundaries of the original neural model.
+
+## Challenges and Solutions
+
+A significant hurdle in this type of [[a-comparative-analysis-of-machine-learning-models-in-shap-analysis|Machine Learning]] task is the computational complexity associated with high-dimensional feature spaces. As the number of features increases, the time required for ILASP to find an accurate approximation grows exponentially, threatening the scalability of the method.
+
+To combat this, the paper introduces a preprocessing step leveraging [[Principal Component Analysis]] (PCA). By reducing the dimensionality of the dataset before the approximation process begins, the researchers are able to:
+* Maintain high **fidelity** to the target neural network.
+* Limit the increase in **computational time**.
+* Ensure the resulting explanations remain **transparent** and interpretable.
+
+## Significance
+
+This work contributes to the growing field of [[explainable-ai-for-microseismic-event-detection|Explainable AI]] (XAI). By bridging the gap between the predictive power of deep learning and the symbolic clarity of [[Answer Set Programming]], the proposed method provides a framework for making complex preference-based models auditable and understandable to human users.

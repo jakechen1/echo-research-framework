@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/38626948/"
   - "https://pubmed.ncbi.nlm.nih.gov/31892363/"
   - "https://pubmed.ncbi.nlm.nih.gov/40087789/"
+author: wiki-dashboard
+dc.title: "Digital Twins in Experimental Science"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/digital-twins-in-experimental-science.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Digital Twins in Experimental Science

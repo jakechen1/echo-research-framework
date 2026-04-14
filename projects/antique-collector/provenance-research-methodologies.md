@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/25791983/"
   - "https://pubmed.ncbi.nlm.nih.gov/33004379/"
   - "https://pubmed.ncbi.nlm.nih.gov/26916049/"
+author: wiki-dashboard
+dc.title: "Provenance Research Methodologies"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/provenance-research-methodologies.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Introduction

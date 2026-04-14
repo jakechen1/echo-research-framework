@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/35387674/"
   - "https://pubmed.ncbi.nlm.nih.gov/36903894/"
   - "https://pubmed.ncbi.nlm.nih.gov/37186000/"
+author: wiki-dashboard
+dc.title: "Soil Foundation and Nutrient Cycling"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/gardening/soil-foundation-and-nutrient-cycling.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition and Overview

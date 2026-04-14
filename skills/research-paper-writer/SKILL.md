@@ -1,6 +1,15 @@
 ---
 name: research-paper-writer
 description: Creates formal academic research papers following IEEE/ACM formatting standards with proper structure, citations, and scholarly writing style. Use when the user asks to write a research paper, academic paper, or conference paper on any topic.
+author: jakeclaw
+dc.title: "SKILL"
+dc.creator: jakeclaw
+dc.date: 2026-04-14
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: skills/research-paper-writer/SKILL.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Research Paper Writer

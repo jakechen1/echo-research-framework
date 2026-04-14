@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/32735707/"
   - "https://pubmed.ncbi.nlm.nih.gov/40039611/"
   - "https://pubmed.ncbi.nlm.nih.gov/34930522/"
+author: wiki-dashboard
+dc.title: "Automsembled Characterization Instruments"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/automsembled-characterization-instruments.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Overview

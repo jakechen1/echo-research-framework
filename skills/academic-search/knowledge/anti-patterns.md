@@ -3,6 +3,15 @@ domain: academic-search
 topic: anti-patterns
 priority: medium
 ttl: 30d
+author: jakeclaw
+dc.title: "anti-patterns"
+dc.creator: jakeclaw
+dc.date: 2026-04-14
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: skills/academic-search/knowledge/anti-patterns.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Academic Search -- Anti-Patterns

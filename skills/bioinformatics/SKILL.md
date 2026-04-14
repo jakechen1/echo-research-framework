@@ -5,6 +5,15 @@ version: 1.0.0
 homepage: https://clawic.com/skills/bioinformatics
 description: Analyze DNA, RNA, and protein sequences with alignment, variant calling, and expression analysis pipelines.
 metadata: {"clawdbot":{"emoji":"🧬","requires":{"bins":["samtools","bcftools","bedtools","bwa","fastqc","fastp"],"config":["~/bioinformatics/"]},"os":["linux","darwin"]}}
+author: jakeclaw
+dc.title: "SKILL"
+dc.creator: jakeclaw
+dc.date: 2026-04-14
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: skills/bioinformatics/SKILL.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Setup

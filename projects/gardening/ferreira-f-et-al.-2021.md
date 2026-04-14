@@ -5,6 +5,15 @@ category: biology
 tags: [cell-cycle, molecular-biology, fluorescence-microscopy, EDU, DNA-replication]
 source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/34085222/"
+author: wiki-dashboard
+dc.title: "Ferreira JA et al., 2021"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/gardening/ferreira-f-et-al.-2021.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Introduction

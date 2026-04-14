@@ -1,6 +1,15 @@
 ---
 name: terminal-command-execution
 description: Execute terminal commands safely and reliably with clear pre-checks, output validation, and recovery steps. Use when users ask to run shell/CLI commands, inspect system state, manage files, install dependencies, start services, debug command failures, or automate command-line workflows.
+author: jakeclaw
+dc.title: "SKILL"
+dc.creator: jakeclaw
+dc.date: 2026-04-14
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: skills/terminal-command-execution/SKILL.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Terminal Command Execution

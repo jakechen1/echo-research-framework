@@ -1,0 +1,7 @@
+{
+  "id": "bf6770c76e59cb23",
+  "title": "How LLMs Might Think",
+  "link": "https://arxiv.org/abs/2604.09674",
+  "summary": "arXiv:2604.09674v1 Announce Type: new \nAbstract: Do large language models (LLMs) think? Daniel Stoljar and Zhihe Vincent Zhang have recently developed an argument from rationality for the claim that LLMs do not think. We contend, however, that the argument from rationality not only falters, but leaves open an intriguing possibility: that LLMs engage only in arational, associative forms of thinking, and have purely associative minds. Our positive claim is that if LLMs think at all, they likely think precisely in this manner.",
+  "feed": "arxiv-cs-AI"
+}

@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/38555303/"
   - "https://pubmed.ncbi.nlm.nih.gov/37856598/"
   - "https://pubmed.ncbi.nlm.nih.gov/39595901/"
+author: wiki-dashboard
+dc.title: "Foundations of Closed-Loop Scientific Discovery"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/foundations-of-closed-loop-scientific-discovery.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Foundations of Closed-Loop Scientific Discovery

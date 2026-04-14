@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/37478035/"
   - "https://pubmed.ncbi.nlm.nih.gov/38473014/"
   - "https://pubmed.ncbi.nlm.nih.gov/37030760/"
+author: wiki-dashboard
+dc.title: "Vision Transformers"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/vision-transformers.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition

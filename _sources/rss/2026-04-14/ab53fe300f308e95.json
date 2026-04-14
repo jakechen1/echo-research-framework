@@ -1,0 +1,7 @@
+{
+  "id": "ab53fe300f308e95",
+  "title": "CID-TKG: Collaborative Historical Invariance and Evolutionary Dynamics Learning for Temporal Knowledge Graph Reasoning",
+  "link": "https://arxiv.org/abs/2604.09600",
+  "summary": "arXiv:2604.09600v1 Announce Type: new \nAbstract: Temporal knowledge graph (TKG) reasoning aims to infer future facts at unseen timestamps from temporally evolving entities and relations. Despite recent progress, existing approaches still suffer from inherent limitations due to their inductive biases, as they predominantly rely on time-invariant or weakly time-dependent structures and overlook the evolutionary dynamics. To overcome this limitation, we propose a novel collaborative learning framework for TKGR (dubbed CID-TKG) that integrates evolutionary dynamics and historical invariance semantics as an effective inductive bias for reasoning. Specifically, CID-TKG constructs a historical invariance graph to capture long-term structural regularities and an evolutionary dynamics graph to model short-term temporal transitions. Dedicated encoders are then employed to learn representations from each structure. To alleviate semantic discrepancies across the two structures, we decompose relations into view-specific representations and align view-specific query representations via a contrastive objective, which promotes cross-view consistency while suppressing view-specific noise. Extensive experiments verify that our CID-TKG achieves state-of-the-art performance under extrapolation settings.",
+  "feed": "arxiv-cs-AI"
+}

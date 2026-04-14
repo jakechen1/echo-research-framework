@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/27220732/"
   - "https://pubmed.ncbi.nlm.nih.gov/41083619/"
   - "https://pubmed.ncbi.nlm.nih.gov/35161734/"
+author: wiki-dashboard
+dc.title: "Cybersecurity for Private Collection Inventories"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/cybersecurity-for-private-collection-inventories.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Cybersecurity for Private Collection Inventories

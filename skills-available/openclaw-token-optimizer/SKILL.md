@@ -16,6 +16,14 @@ security:
   reference_files_describe_external_services: true
   optimize_sh_is_convenience_wrapper: true
   optimize_sh_only_calls_bundled_python_scripts: true
+dc.title: "SKILL"
+dc.creator: Asif2BD
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: skills-available/openclaw-token-optimizer/SKILL.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Token Optimizer

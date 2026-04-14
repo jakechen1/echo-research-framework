@@ -6,6 +6,15 @@ tags: [automation, artificial intelligence, robotics, biotechnology, self-drivin
 source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/40757732/"
   - "https://pubmed.ncbi.nlm.nih.gov/41591451/"
+author: wiki-dashboard
+dc.title: "Scalability of Self-Driving Labs"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/scalability-of-self-driving-labs.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Scalability of Self-Driving Labs

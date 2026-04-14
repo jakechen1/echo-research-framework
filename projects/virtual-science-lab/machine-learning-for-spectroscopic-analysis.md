@@ -9,6 +9,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/34205281/"
   - "https://doi.org/10.1016/j.saa.2025.125720"
   - "https://doi.org/10.18500/1817-3020-2025-25-3-305-315"
+author: wiki-dashboard
+dc.title: "Machine Learning for Spectroscopic Analysis"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/machine-learning-for-spectroscopic-analysis.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition and Overview

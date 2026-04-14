@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/35759345/"
   - "https://pubmed.ncbi.nlm.nih.gov/32407697/"
   - "https://pubmed.ncbi.nlm.nih.gov/28127901/"
+author: wiki-dashboard
+dc.title: "Integrated Pest Management"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/gardening/integrated-pest-management.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 Integrated Pest Management (IPM) is a science-based, ecologically-sound, and holistic decision-making process that focuses on the long-term prevention of pests through a combination of techniques. Unlike conventional pest control, which often relies on the frequent and broad-spectrum application of chemical pesticides to eradicate existing populations, IPM emphasizes monitoring, biological control, and the manipulation of the environment to minimize the density and impact of pest populations. In the context of [[Low-Cost Permaculture Implementation]], IPM serves as a cornerstone strategy by reducing the need for expensive external inputs, instead leveraging the natural ecosystem services provided by a well-designed, biodiverse landscape.
@@ -26,7 +35,7 @@ Prevention is the first line of defense. Cultural controls involve modifying the
 *   **Crop Rotation:** Breaking the life cycle of soil-borne pathogens and host-specific insects.
 *   **Companion Planting:** Using specific plant combinations to mask the scent of host crops or to attract beneficial insects.
 *   **Sanitation:** Removing infected plant debris to prevent the overwintering of larvae or fungal spores.
-*   **Soil Health Management:** Utilizing [[Composting]] and [[Mulching]] to create vigorous, resilient plants that can withstand minor herbivory without significant damage.
+*   **Soil Health Management:** Utilizing [[budget-friendly-composting-techniques|Composting]] and [[surface-mulching-for-water-preservation|Mulching]] to create vigorous, resilient plants that can withstand minor herbivory without significant damage.
 
 ## The IPM Hierarchy of Control
 
@@ -46,7 +55,7 @@ These methods involve the use of physical barriers or manual labor to exclude or
 *   **Trapping:** Utilizing specialized devices to disrupt mating or mass-capture certain species.
 
 ### Chemical Control as a Last Resort
-In highly integrated systems, chemical pesticides are used only when all other methods have been exhausted. When necessary, the focus is on "selective" pesticides—substances that target a specific pest while minimizing toxicity to non-target organisms, such as [[Pollinators]] or [[Earthworms]]. The use of botanical pesticides (e.g., Neem oil) is often preferred in low-cost, organic-aligned systems.
+In highly integrated systems, chemical pesticides are used only when all other methods have been exhausted. When necessary, the focus is on "selective" pesticides—substances that target a specific pest while minimizing toxicity to non-target organisms, such as Pollinators or Earthworms. The use of botanical pesticides (e.g., Neem oil) is often preferred in low-cost, organic-aligned systems.
 
 ## Evolution of the Field: From IPM to IPPM
 
@@ -56,7 +65,7 @@ The recognition that many pest control measures (even "low-toxicity" chemicals) 
 
 ## Specialized Applications: Aquaculture
 
-While IPM is most frequently discussed in terrestrial agriculture, the principles are increasingly being applied to aquatic environments. In [[Bivalve Aquaculture]], for instance, managers face pressures from parasitic organisms and competitors. Emerging strategies focus on integrated management that avoids heavy chemical treatments of water bodies, instead utilizing biological controls and environmental monitoring to maintain the health of oyster and mussel populations. This demonstrates the universality of the IPM principle: managing a system through ecological balance rather than chemical dominance.
+While IPM is most frequently discussed in terrestrial agriculture, the principles are increasingly being applied to aquatic environments. In Bivalve Aquaculture, for instance, managers face pressures from parasitic organisms and competitors. Emerging strategies focus on integrated management that avoids heavy chemical treatments of water bodies, instead utilizing biological controls and environmental monitoring to maintain the health of oyster and mussel populations. This demonstrates the universality of the IPM principle: managing a system through ecological balance rather than chemical dominance.
 
 ## Challenges and Limitations
 

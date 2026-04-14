@@ -7,18 +7,27 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/15850814/"
   - "https://pubmed.ncbi.nlm.nih.gov/36837613/"
   - "https://pubmed.ncbi.nlm.nih.gov/39523263/"
+author: wiki-dashboard
+dc.title: "Computer Vision"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/computer-vision.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition
 
-**Computer Vision** (CV) is a multidisciplinary field of [[machine-learning]] and [[Artificial Intelligence]] dedicated to enabling computers and systems to derive meaningful information from digital images, videos, and other visual inputs. Unlike simple image processing, which may focus on noise reduction or enhancement, computer vision seeks to simulate the cognitive functions of the human visual system, moving beyond pixel-level manipulation to achieve high-level semantic understanding. The field encompasses a wide array of tasks, including object detection, image segmentation, pattern recognition, and motion analysis. In specialized domains such as [[Computer Vision for Historical Pattern Analysis]], these techniques are utilized to interpret temporal changes in landscapes, decipher ancient manuscripts, and automate the identification of cultural artifacts within massive, unstructured archival datasets.
+**Computer Vision** (CV) is a multidisciplinary field of [[machine-learning]] and [[integrating-artificial-intelligence-physics-and-internet-of-things-a-framework-f|Artificial Intelligence]] dedicated to enabling computers and systems to derive meaningful information from digital images, videos, and other visual inputs. Unlike simple image processing, which may focus on noise reduction or enhancement, computer vision seeks to simulate the cognitive functions of the human visual system, moving beyond pixel-level manipulation to achieve high-level semantic understanding. The field encompasses a wide array of tasks, including object detection, image segmentation, pattern recognition, and motion analysis. In specialized domains such as [[Computer Vision for Historical Pattern Analysis]], these techniques are utilized to interpret temporal changes in landscapes, decipher ancient manuscripts, and automate the identification of cultural artifacts within massive, unstructured archival datasets.
 
 ## Fundamental Architectures and Mechanisms
 
 The evolution of computer vision is characterized by a transition from hand-crafted feature engineering to deep, end-to-end learned representations.
 
 ### Convolutional Neural Networks (CNNs)
-For much of the last two decades, [[Convolutional Neural Networks]] (CNNs) have served as the architectural backbone of the field. CNNs operate on the principle of "locality" and "translation invariance." Through the use of convolutional layers, the network applies learned filters (kernels) to input images to detect low-level features such as edges and textures. As the data progresses through deeper layers, the network aggregates these simple features into complex hierarchies, eventually recognizing sophisticated patterns like faces, vehicles, or specific historical architectural motifs. Key components include:
+For much of the last two decades, [[lipkernel-lipschitz-bounded-convolutional-neural-networks-via-dissipative-layers|Convolutional Neural Networks]] (CNNs) have served as the architectural backbone of the field. CNNs operate on the principle of "locality" and "translation invariance." Through the use of convolutional layers, the network applies learned filters (kernels) to input images to detect low-level features such as edges and textures. As the data progresses through deeper layers, the network aggregates these simple features into complex hierarchies, eventually recognizing sophisticated patterns like faces, vehicles, or specific historical architectural motifs. Key components include:
 *   **Convolutional Layers:** Utilizing kernels to extract spatial hierarchies.
 *   **Pooling Layers:** Reducing the spatial dimensions (downsampling) to decrease computational load and provide invariance to small distortions.
 *   **Stride and Padding:** Controlling the movement of the kernel and managing border information.

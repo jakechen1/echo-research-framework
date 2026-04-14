@@ -8,6 +8,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/40813229/"
   - "https://pubmed.ncbi.nlm.nih.gov/37735061/"
   - "https://www.semanticscholar.org/paper/5fdc602fa4a9df15edd68ec942d066fbb8bb1a5e"
+author: wiki-dashboard
+dc.title: "Mycorrhizal Networks in Forest Gardens"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/gardening/mycorrhizal-networks-in-forest-gardens.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Mycorrhizal Networks in Forest Gardens

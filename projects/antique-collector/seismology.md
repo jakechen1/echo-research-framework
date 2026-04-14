@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/35951699/"
   - "https://pubmed.ncbi.nlm.nih.gov/36981296/"
   - "https://pubmed.ncbi.nlm.nih.gov/31336990/"
+author: wiki-dashboard
+dc.title: "Seismology"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/seismology.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition
@@ -30,7 +39,7 @@ Just as seismology seeks to locate the epicenter of an earthquake, computational
 
 ## Integration with Computer Vision
 
-The intersection of seismology and computer vision is most prominently found in the analysis of temporal sequences. When performing [[Computer Vision for Hyper-spectral Imaging]] or analyzing historical video footage, the "seismological" approach allows for automated timeline segmentation.
+The intersection of seismology and computer vision is most prominently found in the analysis of temporal sequences. When performing [[computer-vision|Computer Vision for Hyper-spectral Imaging]] or analyzing historical video footage, the "seismological" approach allows for automated timeline segmentation.
 
 *   **Temporal Segmentation:** Using seismic-inspired algorithms, a model can automatically partition a continuous video stream into "epochs" based on the detection of structural breaks.
 *   **Anomaly Detection in Motion:** In analyzing legacy footage, the detection of sudden changes in optical flow—essentially "shocks" in the motion field—can be treated as seismic arrivals, signaling the start of an action or an environmental disruption.
@@ -41,7 +50,7 @@ The intersection of seismology and computer vision is most prominently found in 
 As of 2025, the field has moved beyond simple threshold-based detection into the era of **Deep-learning Seismology**. The integration of deep neural networks has revolutionized the ability to process "Big Data" in both physical and computational seismology.
 
 ### Deep Learning Advancements
-Recent breakthroughs have demonstrated that deep learning architectures, specifically [[Convolutional Neural Networks]] (CNNs) and [[Transformers]], can outperform traditional manual phase-picking methods. These models are capable of "end-to-end" processing, where the raw signal is fed into the network, and the network directly outputs the detection of the event and its magnitude. This mimics the requirements of complex historical analysis, where the "labels" (the known historical events) are often sparse or uncertain.
+Recent breakthroughs have demonstrated that deep learning architectures, specifically [[lipkernel-lipschitz-bounded-convolutional-neural-networks-via-dissipative-layers|Convolutional Neural Networks]] (CNNs) and [[dissecting-transformers-a-clear-perspective-towards-green-ai|Transformers]], can outperform traditional manual phase-picking methods. These models are capable of "end-to-end" processing, where the raw signal is fed into the network, and the network directly outputs the detection of the event and its magnitude. This mimics the requirements of complex historical analysis, where the "labels" (the known historical events) are often sparse or uncertain.
 
 ### Advanced Statistical Frameworks
 The use of non-extensive statistics, specifically **[[Tsallis q-Statistics]]**, has become a critical tool for modeling the "bursty" and non-Gaussian nature of seismic signals and complex historical patterns. In datasets characterized by long-range dependencies and heavy-tailed distributions (where "extreme" events are more common than a normal distribution would suggest), $q$-statistics provide a more accurate mathematical description of the system's entropy and stability.
@@ -55,7 +64,7 @@ Despite significant progress, several fundamental challenges persist in the appl
 
 1.  **Signal-to-Noise Ratio (SNR) in Historical Data:** Historical archives are often plagued by "noise"—grain, scratches, or low resolution. Distinguishing a genuine "seismic" shift in the pattern from a degradation in the medium remains a primary hurdle.
 2.  **Data Imbalance:** In both physical and computational seismology, the "events of interest" (large earthquakes or massive historical shifts) are statistically rare compared to the background noise. This creates a class imbalance problem that makes training robust supervised learning models extremely difficult.
-3.  **Computational Complexity:** Real-time seismic-style monitoring of high-resolution video streams requires immense computational throughput, necessitating advancements in [[Hardware Acceleration]] and optimized [[Spiking Neural Networks]].
+3.  **Computational Complexity:** Real-time seismic-style monitoring of high-resolution video streams requires immense computational throughput, necessitating advancements in [[Hardware Acceleration]] and optimized [[threshold-modulation-for-online-test-time-adaptation-of-spiking-neural-networks|Spiking Neural Networks]].
 4.  **Uncertainty Quantification:** While deep learning provides high accuracy, it often lacks transparency. In historical analysis, understanding the *uncertainty* of a detected "event" is as important as the detection itself to prevent the misinterpretation of historical anomalies.
 
 ## Future Directions

@@ -2,6 +2,15 @@
 strategy: academic-search
 version: 1.0.0
 steps: 5
+author: jakeclaw
+dc.title: "main"
+dc.creator: jakeclaw
+dc.date: 2026-04-14
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: skills/academic-search/strategies/main.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Academic Search Strategy

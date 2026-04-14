@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/34478248/"
   - "https://pubmed.ncbi.nlm.nih.gov/35304338/"
   - "https://pubmed.ncbi.nlm.nih.gov/33432243/"
+author: wiki-dashboard
+dc.title: "High-Throughput Screening Automation"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/high-throughput-screening-automation.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition

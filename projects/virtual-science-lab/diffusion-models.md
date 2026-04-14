@@ -9,6 +9,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/38325221/"
   - "https://pubmed.ncbi.nlm.nih.gov/30458166/"
   - "https://pubmed.ncbi.nlm.nih.gov/36376400/"
+author: wiki-dashboard
+dc.title: "Diffusion Models"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/diffusion-models.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition

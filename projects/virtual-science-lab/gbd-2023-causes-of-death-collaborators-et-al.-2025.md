@@ -10,6 +10,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/41412141/"
   - "https://pubmed.ncbi.nlm.nih.gov/41495401/"
   - "https://pubmed.ncbi.nlm.nih.gov/41911930/"
+author: wiki-dashboard
+dc.title: "GBD 2023 Causes of Death Collaborators et al., 2025"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/gbd-2023-causes-of-death-collaborators-et-al.-2025.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition and Overview

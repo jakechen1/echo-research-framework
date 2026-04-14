@@ -5,6 +5,15 @@ category: machine-learning
 tags: [computer-vision, historical-archives, deep-learning, object-detection, yolo, vgg, automation]
 source_urls:
   - "https://doi.org/10.1109/PRAI59366.2023.10332028"
+author: wiki-dashboard
+dc.title: "Vincent Wai-Yip Lum et al., 2023"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/vincent-wai-yip-lum-et-al.-2023.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Overview
@@ -15,7 +24,7 @@ As archival institutions grapple with the "digital deluge"—the massive influx 
 
 ## The Core Problem: Digital Archival Overload
 
-In the context of [[Computer Vision for Historical Pattern and Pattern Recognition]], the primary challenge is not merely the detection of objects, but the semantic reconstruction of historical context. Historical newspapers are notoriously difficult to process due to:
+In the context of [[computer-vision|Computer Vision for Historical Pattern and Pattern Recognition]], the primary challenge is not merely the detection of objects, but the semantic reconstruction of historical context. Historical newspapers are notoriously difficult to process due to:
 1.  **Layout Complexity:** Non-linear text flows, overlapping advertisements, and tightly packed image-text clusters.
 2.  **Physical Degradation:** Ink bleed, paper yellowing, foxing, and low-contrast scans of aged newsprint.
 3.  **Semantic Fragmentation:** Images (photographs, lithographs, or etchings) are often disconnected from their captions by several inches of text, making automated association difficult.

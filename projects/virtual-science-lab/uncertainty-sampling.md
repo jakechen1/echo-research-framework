@@ -7,9 +7,18 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/35138957/"
   - "https://pubmed.ncbi.nlm.nih.gov/37348366/"
   - "https://pubmed.ncbi.nlm.nih.gov/31099917/"
+author: wiki-dashboard
+dc.title: "Uncertainty Sampling"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/uncertainty-sampling.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
-**Uncertainty Sampling** is a fundamental query strategy used within the framework of [[Active Learning]] to improve the efficiency of model training. The primary objective of uncertainty sampling is to identify and label the most "informative" instances within an [[unlabeled dataset]], thereby maximizing the predictive performance of a [[machine learning model]] while minimizing the total number of required human-annotated labels. By focusing on data points where the current model exhibits low confidence or high ambiguity, the algorithm avoids the redundant acquisition of easy-to-classify samples, significantly reducing the computational and financial costs associated with data annotation. This concept is closely associated with the methodologies discussed in [[Freeman S et al., 2014]], particularly regarding how specific data selection criteria can drive feature importance and model refinement.
+**Uncertainty Sampling** is a fundamental query strategy used within the framework of [[Active Learning]] to improve the efficiency of model training. The primary objective of uncertainty sampling is to identify and label the most "informative" instances within an [[unlabeled dataset]], thereby maximizing the predictive performance of a [[machine-learning|machine learning model]] while minimizing the total number of required human-annotated labels. By focusing on data points where the current model exhibits low confidence or high ambiguity, the algorithm avoids the redundant acquisition of easy-to-classify samples, significantly reducing the computational and financial costs associated with data annotation. This concept is closely associated with the methodologies discussed in [[Freeman S et al., 2014]], particularly regarding how specific data selection criteria can drive feature importance and model refinement.
 
 ## Core Mechanism
 
@@ -67,9 +76,9 @@ Despite its efficiency, uncertainty sampling faces several significant bottlenec
 
 ## Current State and Future Directions (2025-2026)
 
-As of 2025, the field has moved toward **Hybrid Query Strategies**. Modern frameworks often combine uncertainty sampling with **Representative Sampling** (such as [[Core-set]] approaches or [[Clustering]]-based methods). These hybrid methods ensure that the selected samples are not only uncertain but also representative of the overall data distribution, thus mitigating the risk of sampling bias.
+As of 2025, the field has moved toward **Hybrid Query Strategies**. Modern frameworks often combine uncertainty sampling with **Representative Sampling** (such as [[Core-set]] approaches or [[a-data-informed-variational-clustering-framework-for-noisy-high-dimensional-data|Clustering]]-based methods). These hybrid methods ensure that the selected samples are not only uncertain but also representative of the overall data distribution, thus mitigating the risk of sampling bias.
 
-Another emerging direction is the integration of **Bayesian Neural Networks (BNNs)** into the active learning loop. Traditional uncertainty sampling relies on the "softmax" approximation of probability, which is notoriously overconfident. BNNs, however, provide a more mathematically rigorous estimate of [[epistemic uncertainty]] (uncertainty due to lack of data) versus [[aleatoric uncertainty]] (inherent noise in the data).
+Another emerging direction is the integration of **Bayesian Neural Networks (BNNs)** into the active learning loop. Traditional uncertainty sampling relies on the "softmax" approximation of probability, which is notoriously overconfident. BNNs, however, provide a more mathematically rigorous estimate of [[epistemic uncertainty]] (uncertainty due to lack of data) versus [[aleatoric-uncertainty-medical-image-segmentation-estimation-via-flow-matching|aleatoric uncertainty]] (inherent noise in the data).
 
 Furthermore, the rise of **Self-Supervised Learning (SSL)** has changed the landscape. Researchers are now using uncertainty sampling to select which parts of a massive, self-supervised pretext task should be fine-tuned with human labels, creating a highly efficient pipeline that leverages unlabeled data for representation learning before applying active sampling for task-specific refinement.
 

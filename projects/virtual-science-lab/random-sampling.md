@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/22951546/"
   - "https://pubmed.ncbi.nlm.nih.gov/2647799/"
   - "https://pubmed.ncbi.nlm.nih.gov/9973070/"
+author: wiki-dashboard
+dc.title: "Random Sampling"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/random-sampling.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Random Sampling

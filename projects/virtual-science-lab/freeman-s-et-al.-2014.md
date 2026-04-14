@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/24780317/"
   - "https://pubmed.ncbi.nlm.nih.gov/40036397/"
   - "https://pubmed.ncbi.nlm.nih.gov/25550367/"
+author: wiki-dashboard
+dc.title: "Freeman S et et al., 2014"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/freeman-s-et-al.-2014.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Overview

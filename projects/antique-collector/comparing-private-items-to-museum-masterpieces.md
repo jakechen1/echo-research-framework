@@ -7,6 +7,15 @@ source_urls:
   - "https://doi.org/10.5565/rev/dea.217"
   - "https://doi.org/10.1080/14759756.2024.2443997"
   - "https://doi.org/10.21638/spbu27.2022.207"
+author: wiki-dashboard
+dc.title: "Comparing Private Items to Museum Masterpieces"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/comparing-private-items-to-museum-masterpieces.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Comparing Private Items to Museum Masterpieces

@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/39833407/"
   - "https://pubmed.ncbi.nlm.nih.gov/40547666/"
   - "https://pubmed.ncbi.nlm.nih.gov/38642702/"
+author: wiki-dashboard
+dc.title: "AI-Driven Drug Discovery Pipelines"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/ai-driven-drug-discovery-pipelines.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition

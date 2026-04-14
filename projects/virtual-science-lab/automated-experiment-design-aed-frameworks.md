@@ -6,11 +6,20 @@ tags: [artificial intelligence, machine learning, self-driving labs, automation,
 source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/25320902/"
   - "https://pubmed.ncbi.nlm.nih.gov/16086918/"
+author: wiki-dashboard
+dc.title: "Automated Experiment Design (AED) Frameworks"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/automated-experiment-design-aed-frameworks.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition
 
-Automated Experiment Design (AED) frameworks are the computational "intelligence" layers of [[Self-Driving Labs]] (SDLs). While [[Orchestration Frameworks for Autonomous Labs]] focus on the execution, physical movement, and hardware management of robotic systems, AED frameworks are responsible for the cognitive decision-making process. Specifically, an AED framework utilizes mathematical models and algorithmic strategies to determine the optimal parameters, compositions, or conditions for the next physical experiment in a closed-loop cycle. The fundamental objective of an AED framework is to navigate high-dimensional, expensive, and often "black-box"-style search spaces to identify optimal or novel phenomena with the minimum number of physical iterations, thereby accelerating the pace of scientific discovery.
+Automated Experiment Design (AED) frameworks are the computational "intelligence" layers of [[scalability-of-self-driving-labs|Self-Driving Labs]] (SDLs). While [[Orchestration Frameworks for Autonomous Labs]] focus on the execution, physical movement, and hardware management of robotic systems, AED frameworks are responsible for the cognitive decision-making process. Specifically, an AED framework utilizes mathematical models and algorithmic strategies to determine the optimal parameters, compositions, or conditions for the next physical experiment in a closed-loop cycle. The fundamental objective of an AED framework is to navigate high-dimensional, expensive, and often "black-box"-style search spaces to identify optimal or novel phenomena with the minimum number of physical iterations, thereby accelerating the pace of scientific discovery.
 
 ## Core Concepts and Architecture
 

@@ -7,11 +7,20 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/19874968/"
   - "https://pubmed.ncbi.nlm.nih.gov/3905257/"
   - "https://pubmed.ncbi.nlm.nih.gov/25707779/"
+author: wiki-dashboard
+dc.title: "Acquisition Functions"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/acquisition-functions.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition
 
-An acquisition function is a mathematical heuristic used within the framework of [[Bayesian Optimization]] to determine the optimal location for the next sample point in a search space. In the context of optimizing "black-box" functions—functions that are expensive, noisy, or lack an explicit analytical form—the acquisition function acts as the decision-making engine. It processes the posterior distribution provided by a [[Surrogate Model]] (most commonly a [[Gaussian Process]]) to quantify the utility of evaluating specific points. The primary objective of an acquisition function is to navigate the fundamental trade-tff between [[Exploration]] (investigating regions of high uncertainty) and [[Exploitation]] (sampling in regions predicted to have high performance) to efficiently locate the global optimum of an objective function.
+An acquisition function is a mathematical heuristic used within the framework of [[Bayesian Optimization]] to determine the optimal location for the next sample point in a search space. In the context of optimizing "black-box" functions—functions that are expensive, noisy, or lack an explicit analytical form—the acquisition function acts as the decision-making engine. It processes the posterior distribution provided by a [[Surrogate Model]] (most commonly a [[Gaussian Process]]) to quantify the utility of evaluating specific points. The primary objective of an acquisition function is to navigate the fundamental trade-tff between [[gs-surrogate-deformable-gaussian-splatting-for-parameter-space-exploration-of-en|Exploration]] (investigating regions of high uncertainty) and [[neural-exploitation-and-exploration-of-contextual-bandits|Exploitation]] (sampling in regions predicted to have high performance) to efficiently locate the global optimum of an objective function.
 
 ## Mechanism and Core Principles
 
@@ -50,9 +59,9 @@ More advanced, albeit computationally expensive, functions focus on reducing the
 
 As of 2025, the field of acquisition functions has moved beyond simple one-dimensional searches. Current research is heavily focused on several frontier areas:
 
-**High-Dimensional Optimization:** Standard acquisition functions suffer from the "curse of dimensionality." As the number of dimensions in the search space $\mathcal{X}$ increases, the volume of the space grows exponentially, making the acquisition landscape increasingly difficult to optimize. Modern techniques involve using [[Dimensionality Reduction]] or [[Additive Gaussian Processes]] to make acquisition landscapes more manageable.
+**High-Dimensional Optimization:** Standard acquisition functions suffer from the "curse of dimensionality." As the number of dimensions in the search space $\mathcal{X}$ increases, the volume of the space grows exponentially, making the acquisition landscape increasingly difficult to optimize. Modern techniques involve using [[Dimensionality Reduction]] or [[gaussian-process|Additive Gaussian Processes]] to make acquisition landscapes more manageable.
 
-**Multi-Objective Bayesian Optimization (MOBO):** In many real-world scenarios, such as [[Hyperparameter Optimization]] for large-scale neural networks, there is no single objective but a set of conflicting objectives (e.g., maximizing accuracy while minimizing latency). Modern acquisition functions, such as *Expected Hypervolume Improvement (EHVI)*, are designed to navigate the [[Pareto Front]] rather than a single scalar value.
+**Multi-Objective Bayesian Optimization (MOBO):** In many real-world scenarios, such as [[can-llms-beat-classical-hyperparameter-optimization-algorithms-a-study-on-autore|Hyperparameter Optimization]] for large-scale neural networks, there is no single objective but a set of conflicting objectives (e.g., maximizing accuracy while minimizing latency). Modern acquisition functions, such as *Expected Hypervolume Improvement (EHVI)*, are designed to navigate the [[Pareto Front]] rather than a single scalar value.
 
 **Batch and Parallel Acquisition:** In modern computing environments with massive GPU availability, there is no longer a need to sample points sequentially. Research has shifted toward "Batch" acquisition functions (e.s., q-EI, q-UCB) that can suggest multiple points simultaneously to be evaluated in parallel, significantly reducing the wall-clock time of the optimization loop.
 
@@ -67,7 +76,7 @@ Despite their power, acquisition functions face significant hurdles:
 
 ## Future Directions
 
-The future of acquisition functions lies in the integration of [[Deep Learning]] and [[Automated Machine Learning]] ([[AutoML]]). We are seeing the emergence of "Learning-to-Optimize" frameworks, where a neural network is trained to predict the next best acquisition point, effectively "learning" the acquisition function from previous optimization tasks. Additionally, the development of "Hardware-Aware" acquisition functions—which account for the energy consumption or latency of the evaluation process—will be critical as optimization tasks move toward edge computing and autonomous robotic systems.
+The future of acquisition functions lies in the integration of [[Deep Learning]] and [[machine-learning|Automated Machine Learning]] ([[in-context-decision-making-for-optimizing-complex-automl-pipelines|AutoML]]). We are seeing the emergence of "Learning-to-Optimize" frameworks, where a neural network is trained to predict the next best acquisition point, effectively "learning" the acquisition function from previous optimization tasks. Additionally, the development of "Hardware-Aware" acquisition functions—which account for the energy consumption or latency of the evaluation process—will be critical as optimization tasks move toward edge computing and autonomous robotic systems.
 
 ## References
 

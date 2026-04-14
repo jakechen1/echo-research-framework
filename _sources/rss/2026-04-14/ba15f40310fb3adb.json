@@ -1,0 +1,7 @@
+{
+  "id": "ba15f40310fb3adb",
+  "title": "Spatial Competence Benchmark",
+  "link": "https://arxiv.org/abs/2604.09594",
+  "summary": "arXiv:2604.09594v1 Announce Type: new \nAbstract: Spatial competence is the quality of maintaining a consistent internal representation of an environment and using it to infer discrete structure and plan actions under constraints. Prevailing spatial evaluations for large models are limited to probing isolated primitives through 3D transformations or visual question answering. We introduce the Spatial Competence Benchmark (SCBench), spanning three hierarchical capability buckets whose tasks require executable outputs verified by deterministic checkers or simulator-based evaluators. On SCBench, three frontier models exhibit monotonically decreasing accuracy up the capability ladder. Sweeping output-token caps shows that accuracy gains concentrate at low budgets and saturate quickly, and failures are dominated by locally plausible geometry that breaks global constraints. We release the task generators, verifiers, and visualisation tooling.",
+  "feed": "arxiv-cs-AI"
+}

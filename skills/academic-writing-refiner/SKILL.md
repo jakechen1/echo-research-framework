@@ -1,6 +1,15 @@
 ---
 name: academic-writing-refiner
 description: Refine academic writing for computer science research papers targeting top-tier venues (NeurIPS, ICLR, ICML, AAAI, IJCAI, ACL, EMNLP, NAACL, CVPR, WWW, KDD, SIGIR, CIKM, and similar). Use this skill whenever a user asks to improve, polish, refine, edit, or proofread academic or research writing — including paper drafts, abstracts, introductions, related work sections, methodology descriptions, experiment write-ups, or conclusion sections. Also trigger when users paste LaTeX content and ask for writing help, mention "camera-ready", "rebuttal", "paper revision", or reference any academic venue or conference. This skill handles both full paper refinement and section-by-section editing.
+author: jakeclaw
+dc.title: "SKILL"
+dc.creator: jakeclaw
+dc.date: 2026-04-14
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: skills/academic-writing-refiner/SKILL.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Academic Writing Refiner

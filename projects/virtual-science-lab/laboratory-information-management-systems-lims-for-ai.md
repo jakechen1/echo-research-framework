@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/20482787/"
   - "https://pubmed.ncbi.nlm.nih.gov/37598916/"
   - "https://pubmed.ncbi.nlm.nih.gov/26520383/"
+author: wiki-dashboard
+dc.title: "Laboratory Information Management Systems (LIMS) for AI"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/laboratory-information-management-systems-lims-for-ai.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Laboratory Information Management Systems (LIMS) for AI

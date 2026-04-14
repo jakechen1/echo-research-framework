@@ -5,6 +5,15 @@ category: biology
 tags: [permaculture, ecology, montane-gardening, stratification, microclimate]
 source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/39633243/"
+author: wiki-dashboard
+dc.title: "Mountain Ecosystem Design"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/gardening/mountain-ecosystem-design.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Mountain Ecosystem_Design

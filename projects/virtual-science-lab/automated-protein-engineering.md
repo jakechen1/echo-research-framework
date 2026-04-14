@@ -7,6 +7,15 @@ source_abilities:
   - "https://pubmed.ncbi.nlm.nih.gov/40866699/"
   - "https://pubmed.ncbi.nlm.nih.gov/28263718/"
   - "https://pubmed.ncbi.nlm.nih.gov/30270109/"
+author: wiki-dashboard
+dc.title: "Automated Protein Engineering"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/automated-protein-engineering.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Automated Protein Engineering

@@ -5,6 +5,15 @@ category: biology
 tags: [agroecology, pest management, shade gardening, biodiversity, companion planting]
 source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/32427843/"
+author: wiki-dashboard
+dc.title: "Ecosystem-Based Companion Planting"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/gardening/ecosystem-based-companion-planting.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition and Overview

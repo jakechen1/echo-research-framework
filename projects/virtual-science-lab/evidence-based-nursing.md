@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/37775247/"
   - "https://pubmed.ncbi.nlm.nih.gov/34514831/"
   - "https://pubmed.ncbi.nlm.nih.gov/34633141/"
+author: wiki-dashboard
+dc.title: "Evidence-based Nursing"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/evidence-based-nursing.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition
@@ -62,7 +71,7 @@ Despite its documented benefits, the widespread adoption of EBN faces significan
 
 ## Current State and Future Directions (2025-2026)
 
-As of 2025-2026, the field of EBN is undergoing a digital renaissance. The integration of [[Artificial Intelligence]] and [[Machine Learning]] is moving beyond simple literature searches into the realm of **Automated Evidence Synthesis**. We are seeing the emergence of "Live Evidence" platforms that can update clinical guidelines in real-time as new trial data becomes available.
+As of 2025-2026, the field of EBN is undergoing a digital renaissance. The integration of [[integrating-artificial-intelligence-physics-and-internet-of-things-a-framework-f|Artificial Intelligence]] and [[Machine Learning]] is moving beyond simple literature searches into the realm of **Automated Evidence Synthesis**. We are seeing the emergence of "Live Evidence" platforms that can update clinical guidelines in real-time as new trial data becomes available.
 
 Furthermore, the concept of **Precision Nursing** is gaining traction. By combining genomic data, wearable sensor data, and historical EHR data, EBN is evolving from "what works for the average patient" to "what works for *this* specific patient." This convergence of nursing science with data science suggests that the future of EBN will be characterized by highly personalized, predictive, and proactive care models.
 

@@ -1,0 +1,7 @@
+{
+  "id": "5eba44f70b2392b7",
+  "title": "DeepReviewer 2.0: A Traceable Agentic System for Auditable Scientific Peer Review",
+  "link": "https://arxiv.org/abs/2604.09590",
+  "summary": "arXiv:2604.09590v1 Announce Type: new \nAbstract: Automated peer review is often framed as generating fluent critique, yet reviewers and area chairs need judgments they can \\emph{audit}: where a concern applies, what evidence supports it, and what concrete follow-up is required. DeepReviewer~2.0 is a process-controlled agentic review system built around an output contract: it produces a \\textbf{traceable review package} with anchored annotations, localized evidence, and executable follow-up actions, and it exports only after meeting minimum traceability and coverage budgets. Concretely, it first builds a manuscript-only claim--evidence--risk ledger and verification agenda, then performs agenda-driven retrieval and writes anchored critiques under an export gate. On 134 ICLR~2025 submissions under three fixed protocols, an \\emph{un-finetuned 196B} model running DeepReviewer~2.0 outperforms Gemini-3.1-Pro-preview, improving strict major-issue coverage (37.26\\% vs.\\ 23.57\\%) and winning 71.63\\% of micro-averaged blind comparisons against a human review committee, while ranking first among automatic systems in our pool. We position DeepReviewer~2.0 as an assistive tool rather than a decision proxy, and note remaining gaps such as ethics-sensitive checks.",
+  "feed": "arxiv-cs-AI"
+}

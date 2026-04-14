@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/16614208/"
   - "https://pubmed.ncbi.nlm.nih.gov/32233039/"
   - "https://pubmed.ncbi.nlm.nih.gov/30649759/"
+author: wiki-dashboard
+dc.title: "Mass Spectrometry"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/mass-spectrometry.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Introduction
@@ -20,7 +29,7 @@ The operation of a mass spectrometer relies on three fundamental stages: ionizat
 ### 1. Ionization Sources
 Before molecules can be manipulated by electromagnetic fields, they must be transitioned into the gas phase and imparted with a charge. The choice of ionization method is dictated by the volatility and polarity of the analyte.
 *   **Electrospray Ionization (ESI):** A "soft" ionization technique widely used for large, polar molecules such as proteins. It involves applying a high voltage to a liquid sample, creating a fine spray of charged droplets.
-*   **Matrix-Assisted Laser Desorption/Ionization (MALDI):** Often paired with [[Mass Spectrometry Imaging]], this technique uses a laser to strike a sample embedded in a crystalline matrix, causing the analyte to desorb and ionize.
+*   **Matrix-Assisted Laser Desorption/Ionization (MALDI):** Often paired with [[mass-spectrometry|Mass Spectrometry Imaging]], this technique uses a laser to strike a sample embedded in a crystalline matrix, causing the analyte to desorb and ionize.
 *   **Electron Ionization (EI):** A "hard" ionization method typically used in Gas Chromatography-MS (GC-MS), where high-energy electrons strike gas-phase molecules, often causing significant fragmentation useful for structural fingerprinting.
 
 ### 2. Mass Analyzers
@@ -54,7 +63,7 @@ Mass spectrometry is the backbone of [[Proteomics]], enabling the large-scale st
 ### Lipidomics and High-Resolution Analysis
 The field of [[Lipidomics]] requires extreme precision due to the structural similarity between different lipid species. The advent of High-Resolution Mass Spectrometry (HRMS) has been transformative here. Züllig et al. (2021) highlighted that high-resolution instruments are essential for resolving isobaric species (molecules with the same nominal mass but different exact masses), which is a prerequisite for accurate lipid identification in complex biological membranes.
 
-### [[Mass Spectrometry Imaging]] (MSI)
+### [[mass-spectrometry|Mass Spectrometry Imaging]] (MSI)
 Beyond bulk analysis, MS can be used to map the spatial distribution of molecules directly from tissue sections. Cologna et al. (2019) demonstrated the utility of MS imaging in studying the spatial localization of lipids, such as cholesterol, within biological tissues. This spatial dimension adds another layer of complexity to [[Autonomous Experiment Design (AED) Frameworks]], as the "data" becomes a 3D spatial map rather than a single scalar value.
 
 ## Current State and Challenges (2025-2026)
@@ -67,7 +76,7 @@ As of 2026, the integration of mass spectrometry with laboratory automation has 
 3.  **Instrument Drift:** Automated systems are highly sensitive to fluctuations in pressure, temperature, and ion source contamination, requiring autonomous recalibration protocols.
 
 ### Future Directions
-The future of mass spectrometry in [[Machine Learning]] workflows lies in the development of "closed-loop" molecular intelligence. We anticipate the rise of "Self-Driving Mass Spectrometers" that can independently decide to switch between different fragmentation modes (e.g., switching from CID to HCD) or adjust integration times based on the real-time chemical landscape they encounter. Furthermore, the convergence of [[Mass Spectrometry Imaging]] and autonomous robotics will allow for the automated mapping of entire organoids, creating highly detailed "chemical atlases" of life without human intervention.
+The future of mass spectrometry in [[Machine Learning]] workflows lies in the development of "closed-loop" molecular intelligence. We anticipate the rise of "Self-Driving Mass Spectrometers" that can independently decide to switch between different fragmentation modes (e.g., switching from CID to HCD) or adjust integration times based on the real-time chemical landscape they encounter. Furthermore, the convergence of [[mass-spectrometry|Mass Spectrometry Imaging]] and autonomous robotics will allow for the automated mapping of entire organoids, creating highly detailed "chemical atlases" of life without human intervention.
 
 ## References
 

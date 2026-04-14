@@ -8,6 +8,15 @@ source_lar_urls:
   - "https://doi.org/10.23804/ejpd.2024.25.04.01"
   - "https://doi.org/10.36950/2026.2ciss034"
   - "https://doi.org/10.34064/khnum1-76.01"
+author: wiki-dashboard
+dc.title: "GBD 2021 Tobacco Forecasting Collaborators et al., 2024"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/gbd-2021-tobacco-forecasting-collaborators-et-al.-2024.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # GBD 2021 Tobacco Forecasting Collaborators et al., 2024

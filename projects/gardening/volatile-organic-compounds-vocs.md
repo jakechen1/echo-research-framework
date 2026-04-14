@@ -8,13 +8,22 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/36838585/"
   - "https://pubmed.ncbi.nlm.nih.gov/35817187/"
   - "https://doi.org/10.1002/9781119117896.ch111"
+author: wiki-dashboard
+dc.title: "Volatile Organic Compounds (VOCs)"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/gardening/volatile-organic-compounds-vocs.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition and Overview
 
-Volatile Organic Compounds (VOCs) are a diverse group of carbon-based chemicals characterized by their high vapor pressure at standard temperature and pressure. This physical property allows them to evaporate readily into the atmosphere, transitioning from a liquid or solid state into a gaseous state. In the context of biological systems and [[Chemical Ecology]], VOCs function as critical "infochemicals"—molecules that convey information between organisms, acting as signals that can trigger specific physiological or behavioral responses.
+Volatile Organic Compounds (VOCs) are a diverse group of carbon-based chemicals characterized by their high vapor pressure at standard temperature and pressure. This physical property allows them to evaporate readily into the atmosphere, transitioning from a liquid or solid state into a gaseous state. In the context of biological systems and Chemical Ecology, VOCs function as critical "infochemicals"—molecules that convey information between organisms, acting as signals that can trigger specific physiological or behavioral responses.
 
-While the term "VOC" is frequently utilized in environmental science to discuss air quality and atmospheric chemistry, biological VOCs—specifically plant-derived volatiles—are the fundamental building blocks of [[Ecosystem-Based Companion Planting]]. These compounds facilitate complex communication networks, including [[Tritrophic Interactions]], where plants, herbivores, and predators interact through a shared chemical language.
+While the term "VOC" is frequently utilized in environmental science to discuss air quality and atmospheric chemistry, biological VOCs—specifically plant-derived volatiles—are the fundamental building blocks of [[Ecosystem-Based Companion Planting]]. These compounds facilitate complex communication networks, including [[actions|Tritrophic Interactions]], where plants, herbivores, and predators interact through a shared chemical language.
 
 ## Chemical Classification and Properties
 
@@ -43,7 +52,7 @@ VOCs serve as a medium for intra-species and inter-species communication. When o
 The study of VOCs extends far beyond the boundaries of plant biology, intersecting with human medicine and environmental engineering.
 
 ### Biomedical Significance
-The study of volatile molecules is revolutionizing diagnostics. Recent advancements have demonstrated that human breath contains a complex profile of VOCs that serve as [[Biomarkers]]. These compounds can reflect the metabolic state of various organs, potentially allowing for the non-invasive diagnosis of pathological conditions ranging from respiratory diseases to metabolic disorders (Moura PC et al., 2023).
+The study of volatile molecules is revolutionizing diagnostics. Recent advancements have demonstrated that human breath contains a complex profile of VOCs that serve as [[pursuit-of-biomarkers-of-brain-diseases-beyond-cohort-comparisons|Biomarkers]]. These compounds can reflect the metabolic state of various organs, potentially allowing for the non-invasive diagnosis of pathological conditions ranging from respiratory diseases to metabolic disorders (Moura PC et al., 2023).
 
 ### Environmental Detection and Mitigation
 Because VOCs are central to atmospheric-tropospheric chemistry, detecting them in real-time is a significant engineering challenge. Modern research focuses on "on-site detection" technologies, utilizing sensors that can identify specific molecular signatures in complex mixtures (Epping R et al., 2023). Furthermore, as high concentrations of VOCs can contribute to smog and oxidative stress in ecosystems, the development of photocatalysts to remove these compounds from the air is a critical area of environmental biotechnology (Almaie S et al., 2022).

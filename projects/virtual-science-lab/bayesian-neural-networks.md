@@ -9,11 +9,20 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/39388392/"
   - "https://www.semanticscholar.org/paper/7e17a3c231dc37d162b9ad74043afc1cee4ee2dd"
   - "https://doi.org/10.1109/MCI.2022.3155327"
+author: wiki-dashboard
+dc.title: "Bayesian Neural Networks"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/bayesian-neural-networks.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition
 
-A **Bayesian Neural Network (BNN)** is a class of neural networks in which the weights are not treated as fixed, deterministic point estimates, but rather as probability distributions. Unlike standard [[Neural Networks]], which use optimization algorithms like stochastic gradient descent (SGD) to find a single optimal weight vector $\mathbf{w}$ that minimizes a loss function, BNNs utilize [[Bayesian Inference]] to learn the posterior distribution of the weights given the observed training data. This probabilistic approach allows the model to express **Uncertainty Quantification (UQ)**, distinguishing between what the model knows and what it does not, which is a fundamental requirement for high-stakes decision-making and [[Autonomous Experiment Design (AED) Frameworks]].
+A **Bayesian Neural Network (BNN)** is a class of neural networks in which the weights are not treated as fixed, deterministic point estimates, but rather as probability distributions. Unlike standard [[transmission-neural-networks-inhibitory-and-excitatory-connections|Neural Networks]], which use optimization algorithms like stochastic gradient descent (SGD) to find a single optimal weight vector $\mathbf{w}$ that minimizes a loss function, BNNs utilize [[Bayesian Inference]] to learn the posterior distribution of the weights given the observed training data. This probabilistic approach allows the model to express **Uncertainty Quantification (UQ)**, distinguishing between what the model knows and what it does not, which is a fundamental requirement for high-stakes decision-making and [[Autonomous Experiment Design (AED) Frameworks]].
 
 ## Fundamental Principles
 

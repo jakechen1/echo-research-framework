@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/34012361/"
   - "https://pubmed.ncbi.nlm.nih.gov/39490573/"
   - "https://pubmed.ncbi.nlm.nih.gov/32233586/"
+author: wiki-dashboard
+dc.title: "Biological Pest Control Strategies"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/gardening/biological-pest-control-strategies.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Biological Pest Control Strategies

@@ -9,6 +9,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/40642660/"
   - "https://doi.org/10.1109/PRAI59366.2023.10332028"
   - "https://doi.org/10.1109/ICCSTE65902.2025.11138333"
+author: wiki-dashboard
+dc.title: "Computer Vision for Historical Pattern Recognition"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/computer-vision-for-historical-pattern-recognition.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Computer Vision for Historical Pattern Recognition

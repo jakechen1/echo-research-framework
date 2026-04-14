@@ -4,6 +4,15 @@ created: 2026-04-12
 category: biology
 tags: [botany, Alabama, ecology, shade-tolerance, understory-ecology]
 source_urls: []
+author: wiki-dashboard
+dc.title: "Shade-Tolerant Flora for Alabama"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/gardening/shade-tolerant-flora-for-alabama.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Shade-Tolerant Flora for Alabama

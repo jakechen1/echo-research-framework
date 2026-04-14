@@ -9,6 +9,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/39486399/"
   - "https://pubmed.ncbi.nlm.nih.gov/40195448/"
   - "https://pubmed.ncbi.nlm.nih.gov/22352812/"
+author: wiki-dashboard
+dc.title: "Large Language Models for Hypothesis Generation"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/large-language-models-for-hypothesis-generation.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Large Language Models for Hypothesis Generation

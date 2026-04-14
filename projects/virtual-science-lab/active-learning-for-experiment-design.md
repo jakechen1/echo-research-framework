@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/34779199/"
   - "https://pubmed.ncbi.nlm.nih.gov/24821756/"
   - "https://pubmed.ncbi.nlm.nih.gov/40977923/"
+author: wiki-dashboard
+dc.title: "Active Learning for Experiment Design"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/active-learning-for-experiment-design.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Active Learning for Experiment Design

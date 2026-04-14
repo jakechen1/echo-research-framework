@@ -5,6 +5,15 @@ version: 1.0.0
 homepage: https://clawic.com/skills/zapier
 description: Complete Zapier automation with Zaps, Tables, Interfaces, webhooks, REST Hooks API, and 6000+ app integrations.
 metadata: {"clawdbot":{"emoji":"⚡","requires":{"env":["ZAPIER_API_KEY","ZAPIER_TABLES_TOKEN"],"config":["~/zapier/"]},"primaryEnv":"ZAPIER_API_KEY","os":["linux","darwin","win32"]}}
+author: jakeclaw
+dc.title: "SKILL"
+dc.creator: jakeclaw
+dc.date: 2026-04-14
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: skills-available/zapier/SKILL.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Zapier

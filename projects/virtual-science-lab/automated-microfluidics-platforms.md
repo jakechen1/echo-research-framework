@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/33377132/"
   - "https://pubmed.ncbi.nlm.nih.gov/36868029/"
   - "https://pubmed.ncbi.nlm.nih.gov/35640072/"
+author: wiki-dashboard
+dc.title: "Automated Microfluidics Platforms"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/automated-microfluidics-platforms.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition and Scope

@@ -8,6 +8,15 @@ description: |
   For advanced dynamic orchestration (agent-built task trees, spawn vs fork, human-in-the-loop), see cord-trees skill instead.
 version: 1.0.0
 license: MIT
+author: jakeclaw
+dc.title: "SKILL"
+dc.creator: jakeclaw
+dc.date: 2026-04-14
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: skills/agent-orchestrate/SKILL.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Agent Orchestration — Quick Reference

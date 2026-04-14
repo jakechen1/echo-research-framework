@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/39388848/"
   - "https://pubmed.ncbi.nlm.nih.gov/36696724/"
   - "https://pubmed.ncbi.nlm.nih.gov/30147145/"
+author: wiki-dashboard
+dc.title: "Neural Process Models for Experimental Data"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/neural-process-models-for-experimental-data.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition

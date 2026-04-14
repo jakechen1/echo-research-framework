@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/39356823/"
   - "https://pubmed.ncbi.nlm.nih.gov/38693213/"
   - "https://pubmed.ncbi.nlm.nih.gov/22346580/"
+author: wiki-dashboard
+dc.title: "Solar-Powered Irrigation Systems"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/gardening/solar-powered-irrigation-systems.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition and Overview

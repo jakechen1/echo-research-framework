@@ -1,0 +1,7 @@
+{
+  "id": "de5328ea4b0a0728",
+  "title": "MobiFlow: Real-World Mobile Agent Benchmarking through Trajectory Fusion",
+  "link": "https://arxiv.org/abs/2604.09587",
+  "summary": "arXiv:2604.09587v1 Announce Type: new \nAbstract: Mobile agents can autonomously complete user-assigned tasks through GUI interactions. However, existing mainstream evaluation benchmarks, such as AndroidWorld, operate by connecting to a system-level Android emulator and provide evaluation signals based on the state of system resources. In real-world mobile-agent scenarios, however, many third-party applications do not expose system-level APIs to determine whether a task has succeeded, leading to a mismatch between benchmarks and real-world usage and making it difficult to evaluate model performance accurately. To address these issues, we propose MobiFlow, an evaluation framework built on tasks drawn from arbitrary third-party applications. Using an efficient graph-construction algorithm based on multi-trajectory fusion, MobiFlow can effectively compress the state space, support dynamic interaction, and better align with real-world third-party application scenarios. MobiFlow covers 20 widely used third-party applications and comprises 240 diverse real-world tasks, with enriched evaluation metrics. Compared with AndroidWorld, MobiFlow's evaluation results show higher alignment with human assessments and can guide the training of future GUI-based models under real workloads.",
+  "feed": "arxiv-cs-AI"
+}

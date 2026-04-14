@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/40042174/"
   - "https://pubmed.ncbi.nlm.nih.gov/38047851/"
   - "https://pubmed.ncbi.nlm.nih.gov/36085828/"
+author: wiki-dashboard
+dc.title: "Bayesian Optimization"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/bayesian-optimization.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Bayesian Optimization
@@ -56,7 +65,7 @@ In the realm of molecular discovery and chemical synthesis, BO has revolutionize
 The complexity of biological systems, characterized by non-linear dynamics and high sensitivity to environmental fluctuations, makes them ideal candidates for BO. In bioprocess engineering, BO is utilized to optimize fermentation parameters, nutrient feeding strategies, and bioreactor conditions. As the field matures, the integration of BO into large-scale industrial automation is becoming a focal point for increasing the efficiency of biologics manufacturing (Gisperg F et al., 2025).
 
 ### Biomedical Engineering and Neurostimulation
-Beyond laboratory chemistry, BO is being applied to personalized medicine. In closed-loop medical devices, such as those used for Deep Brain Stimulation (DBS), [[Meta-Bayesian Optimization]] techniques allow for the rapid adaptation of stimulation parameters to the specific physiological needs of an individual patient, optimizing therapeutic outcomes while minimizing side effects (Connolly MJ et al., 2022).
+Beyond laboratory chemistry, BO is being applied to personalized medicine. In closed-loop medical devices, such as those used for Deep Brain Stimulation (DBS), [[bayesian-optimization|Meta-Bayesian Optimization]] techniques allow for the rapid adaptation of stimulation parameters to the specific physiological needs of an individual patient, optimizing therapeutic outcomes while minimizing side effects (Connolly MJ et al., 2022).
 
 ## Current State and Challenges (2025-2026)
 
@@ -69,7 +78,7 @@ As of 2025, the field has transitioned from demonstrating the "proof of concept"
 
 ## Future Directions
 
-The future of Bayesian Optimization lies in its integration with [[Deep Learning]] and [[Generative Models]]. We are seeing the emergence of "physics-informed" Bayesian Optimization, where the surrogate model is constrained by known physical laws (e.g., mass balance or thermodynamics), thereby reducing the search space and improving sample efficiency. Furthermore, the marriage of BO with generative architectures (like Variational Autoencoders) promises a future where autonomous systems can not only optimize parameters but also "invent" entirely new molecular structures or material compositions within an automated, closed-loop framework.
+The future of Bayesian Optimization lies in its integration with [[Deep Learning]] and [[score-shocks-the-burgers-equation-structure-of-diffusion-generative-models|Generative Models]]. We are seeing the emergence of "physics-informed" Bayesian Optimization, where the surrogate model is constrained by known physical laws (e.g., mass balance or thermodynamics), thereby reducing the search space and improving sample efficiency. Furthermore, the marriage of BO with generative architectures (like Variational Autoencoders) promises a future where autonomous systems can not only optimize parameters but also "invent" entirely new molecular structures or material compositions within an automated, closed-loop framework.
 
 ## References
 

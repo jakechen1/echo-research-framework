@@ -5,17 +5,26 @@ category: biology
 tags: [microbiome, metabolic modeling, synthetic biology, community engineering]
 source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/33021869/"
+author: wiki-dashboard
+dc.title: "Machado D et al., 2018"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/machado-d-et-al.-2018.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Introduction
 
-The publication of **Machado D et al., 2018** represents a pivotal milestone in the transition of microbial ecology from a descriptive science to a predictive, engineering-driven discipline. This work focused on the development and application of advanced computational frameworks designed to simulate the metabolic interactions within [[Microbial Consortia]]. By leveraging [[Constraint-Based Reconstruction and Analysis (COBRA)]] methods, the research provided a mathematical basis for predicting how individual species contribute to the overall metabolic output of a community. 
+The publication of **Machado D et al., 2018** represents a pivotal milestone in the transition of microbial ecology from a descriptive science to a predictive, engineering-driven discipline. This work focused on the development and application of advanced computational frameworks designed to simulate the metabolic interactions within [[Microbial Consortia]]. By leveraging [[Constraint-Based Reconstruction and Analysis (COBRA)]]) methods, the research provided a mathematical basis for predicting how individual species contribute to the overall metabolic output of a community. 
 
 Crucially, the findings of Machado et al. (2018) serve as a foundational "logic layer" for [[Automated Microbiome Engineering]]. While automation provides the physical "hands" (via robotic liquid handling and microfluidics) to manipulate biological systems, the 2018 work provided the "brain"—the predictive algorithms necessary to design complex, multi-species ecosystems with specific, programmed functionalities. This paper is widely cited in the context of designing synthetic ecosystems for metabolic tasks, such as nutrient recycling, biomanufacturing, and the development of engineered probiotics.
 
 ## Key Concepts and Mechanisms
 
-The core of the 2018 research revolves around the application of [[Flux Balance Analysis (FBA)]] to multi-organism systems. To understand the impact of this work, one must understand the underlying mechanisms of metabolic modeling it addressed.
+The core of the 2018 research revolves around the application of [[Flux Balance Analysis (FBA)]]) to multi-organism systems. To understand the impact of this work, one must understand the underlying mechanisms of metabolic modeling it addressed.
 
 ### Metabolic Cross-Feeding and Syntrophy
 At the heart of community stability is the concept of metabolic cross-feeding, where the metabolic byproduct of one organism (the donor) serves as a critical nutrient for another (the recipient). Machado et al. utilized mathematical models to quantify these "exchange fluxes." By modeling the uptake and secretion of metabolites—such as organic acids, amino acids, and vitamins—the researchers could predict the emergence of [[Syntrophy]], a phenomenon where the growth of one species is strictly dependent on the metabolic activity of another.
@@ -26,7 +35,7 @@ The researchers utilized a framework where each species in a community is repres
 *   **Niche Construction:** When a species modifies its environment to facilitate the growth of others, thereby increasing community-level diversity.
 
 ### The Integration of Flux Balance Analysis (FBA)
-The 2018 work refined the use of [[Flux Balance Analysis (FBA)]] to move beyond simple biomass maximization. By implementing techniques like **pFBA (parsimonious FBA)** and **ROOM (Regulation of Organismal Metabolism)**, the models could more accurately predict not just that a community *could* survive, but how it would distribute metabolic energy under varying nutrient pressures.
+The 2018 work refined the use of [[Flux Balance Analysis (FBA)]]) to move beyond simple biomass maximization. By implementing techniques like **pFBA (parsimonious FBA)** and **ROOM (Regulation of Organismal Metabolism)**, the models could more accurately predict not just that a community *could* survive, but how it would distribute metabolic energy under varying nutrient pressures.
 
 ## Relation to [[Automated Microbiome Engineering]]
 

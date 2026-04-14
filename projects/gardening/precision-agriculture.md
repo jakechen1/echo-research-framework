@@ -7,9 +7,18 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/34438802/"
   - "https://pubmed.ncbi.nlm.nih.gov/38071802/"
   - "https://pubmed.ncbi.nlm.nih.gov/31480709/"
+author: wiki-dashboard
+dc.title: "Precision Agriculture"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/gardening/precision-agriculture.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
-**Precision Agriculture** (PA), also known as site-specific crop management (SSCM) or satellite farming, is an advanced agricultural management strategy that utilizes information technologies to observe, measure, and respond to inter- and intra-field variability in crops. Unlike traditional agricultural methods, which often treat an entire field as a homogenous unit—applying uniform amounts of water, fertilizer, and pesticides—Precision Agriculture focuses on the "4R" principle: applying the right resource나 at the right rate, at the right time, and in the right place. By leveraging data-driven insights, PA aims to optimize productivity, improve efficiency, and minimize the environmental footprint of farming operations, thereby supporting the global transition toward [[Sustainable Agriculture]].
+**Precision Agriculture** (PA), also known as site-specific crop management (SSCM) or satellite farming, is an advanced agricultural management strategy that utilizes information technologies to observe, measure, and respond to inter- and intra-field variability in crops. Unlike traditional agricultural methods, which often treat an entire field as a homogenous unit—applying uniform amounts of water, fertilizer, and pesticides—Precision Agriculture focuses on the "4R" principle: applying the right resource나 at the right rate, at the right time, and in the right place. By leveraging data-driven insights, PA aims to optimize productivity, improve efficiency, and minimize the environmental footprint of farming operations, thereby supporting the global transition toward Sustainable Agriculture.
 
 ## Core Principles and Mechanisms
 
@@ -21,7 +30,7 @@ Precision Agriculture operates on two dimensions:
 2.  **Temporal Variability:** The changes in crop requirements and environmental conditions over the course of a growing season (e.g., the increased need for nitrogen during the vegetative stage versus the reproductive stage).
 
 ### The Integration of Biological and Digital Systems
-While traditional approaches to agriculture often rely on broad-spectrum chemical applications, modern PA seeks to integrate technological precision with biological intelligence. For instance, in [[Ecosystem-Best Companion Planting]], biological synergies are used to manage pests and fertility. Precision Agriculture enhances these biological strategies by providing the high-resolution data necessary to monitor the success of such plantings. By using spectral indices like the Normalized Difference Vegetation Index (NDVI), farmers can detect where a companion plant may be underperforming or where a specific biological niche requires more irrigation, allowing for highly targeted intervention.
+While traditional approaches to agriculture often rely on broad-spectrum chemical applications, modern PA seeks to integrate technological precision with biological intelligence. For instance, in Ecosystem-Best Companion Planting, biological synergies are used to manage pests and fertility. Precision Agriculture enhances these biological strategies by providing the high-resolution data necessary to monitor the success of such plantings. By using spectral indices like the Normalized Difference Vegetation Index (NDVI), farmers can detect where a companion plant may be underperforming or where a specific biological niche requires more irrigation, allowing for highly targeted intervention.
 
 ## Key Technological Pillars
 
@@ -38,7 +47,7 @@ Remote sensing is perhaps the most visible component of PA. This includes:
 VRT is the mechanical execution of precision data. Once the "mapping" of the field is complete, VRT-enabled machinery—such as seeders, sprayers, and fertilizer spreaders—uses GPS/GNSS coordinates to automatically adjust the application rate as the machine moves across different zones of the field. This prevents the over-application of chemicals in fertile zones and ensures adequate coverage in depleted zones, significantly reducing runoff and chemical waste.
 
 ### Nanotechnology in Precision Agriculture
-As of 2025, one of the most significant frontiers in the field is the integration of nanotechnology. Nanotechnology offers the potential to revolutionize nutrient delivery and crop protection. Nano-fertilizers and nano-pesticides are engineered to release active ingredients in response to specific environmental triggers (such as changes in soil pH or humidity), ensuring that the input is available only when the plant requires it. This level of "smart" delivery reduces the total volume of chemicals needed, further aligning PA with the goals of [[Sustainable Agriculture]].
+As of 2025, one of the most significant frontiers in the field is the integration of nanotechnology. Nanotechnology offers the potential to revolutionize nutrient delivery and crop protection. Nano-fertilizers and nano-pesticides are engineered to release active ingredients in response to specific environmental triggers (such as changes in soil pH or humidity), ensuring that the input is available only when the plant requires it. This level of "smart" delivery reduces the total volume of chemicals needed, further aligning PA with the goals of Sustainable Agriculture.
 
 ### Precision Livestock Farming (PLF)
 Precision Agriculture is not limited to botanical systems; it extends into the management of animal production. Precision Livestock Farming (PLF) utilizes sensors and automated systems to monitor the health, behavior, and productivity of individual animals. This includes wearable sensors for detecting estrus or illness, automated feeding systems that optimize nutritional intake, and precision milking technology. The goal is to improve animal welfare and maximize yield efficiency by treating each animal as an individual unit within the herd.

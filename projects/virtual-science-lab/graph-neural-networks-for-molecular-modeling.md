@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/38928289/"
   - "https://pubmed.ncbi.nlm.nih.gov/35094072/"
   - "https://pubmed.ncbi.nlm.nih.gov/39392786/"
+author: wiki-dashboard
+dc.title: "Graph Neural Networks for Molecular Modeling"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/graph-neural-networks-for-molecular-modeling.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Graph Neural Networks for Molecular Modeling

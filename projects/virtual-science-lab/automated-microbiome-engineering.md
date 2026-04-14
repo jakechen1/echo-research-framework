@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/39020289/"
   - "https://pubmed.ncbi.nlm.nih.gov/37114494/"
   - "https://pubmed.ncbi.nlm.nih.gov/30192979/"
+author: wiki-dashboard
+dc.title: "Automated Microbiome Engineering"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/automated-microbiome-engineering.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition

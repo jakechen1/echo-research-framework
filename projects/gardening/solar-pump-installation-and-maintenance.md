@@ -5,6 +5,15 @@ category: technology
 tags: [solar energy, water management, irrigation, renewable technology, humidity-resistant engineering, sustainable agriculture]
 source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/31693002/"
+author: wiki-dashboard
+dc.title: "Solar Pump Installation and Maintenance"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/gardening/solar-pump-installation-and-maintenance.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Solar Pump Installation and Maintenance

@@ -4,6 +4,15 @@ created: 2026-04-12
 category: technology
 tags: [IoT, museum-technology, conservation, environmental-monitoring, sensors]
 source_urls: []
+author: wiki-dashboard
+dc.title: "Smart Environmental Controls for Artifact Longevity"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/smart-environmental-controls-for-artifact-longevity.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Smart Environmental Controls for Artifact Longevity

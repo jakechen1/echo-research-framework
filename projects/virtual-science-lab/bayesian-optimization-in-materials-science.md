@@ -5,6 +5,15 @@ category: machine-learning
 tags: [materials-science, bayesian-optimization, active-learning, surrogate-modeling, autonomous-discovery]
 source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/39766745/"
+author: wiki-dashboard
+dc.title: "Bayesian Optimization in Materials Science"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/bayesian-optimization-in-materials-science.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 **Bayesian Optimization (BO)** is a powerful sequential strategy used in materials science to perform global optimization of "black-box" functions that are computationally or experimentally expensive to evaluate. In the context of materials discovery, the "function" represents the relationship between a material's composition/structure and its target properties (such as thermal conductivity, catalytic activity, or hardness). Because the chemical design space is effectively infinite—spanning billions of possible combinations of elements, crystal symmetries, and processing parameters—searching it via brute-force experimentation or standard grid searches is impossible. BO addresses this by constructing a probabilistic surrogate model of the objective function and using an acquisition function to decide the next most informative point to sample, thereby minimizing the number of costly high-fidelity simulations (e.g., Density Functional Theory) or physical experiments.

@@ -1,0 +1,7 @@
+{
+  "id": "e4e6bbae3abba786",
+  "title": "Beyond Theory of Mind in Robotics",
+  "link": "https://arxiv.org/abs/2604.09612",
+  "summary": "arXiv:2604.09612v1 Announce Type: new \nAbstract: Theory of Mind, the capacity to explain and predict behavior by inferring hidden mental states, has become the dominant paradigm for social interaction in robotics. Yet ToM rests on three assumptions that poorly capture how most social interaction actually unfolds: that meaning travels inside-out from hidden states to observable behavior; that understanding requires detached inference rather than participation; and that the meaning of behavior is fixed and available to a passive observer. Drawing on ethnomethodology, conversation analysis, and participatory sense-making, I argue that social meaning is not decoded from behavior but produced through moment-to-moment coordination between agents. This interactional foundation has direct implications for robot design: shifting from internal state modeling toward policies for sustaining coordination, from observer-based inference toward active participation, and from fixed behavioral meaning toward meaning potential stabilized through response.",
+  "feed": "arxiv-cs-AI"
+}

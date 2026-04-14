@@ -5,6 +5,15 @@ category: machine-learning
 tags: [digital-humanities, computer-vision, historical-analysis, deep-learning, pattern-recognition]
 source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/30421948/"
+author: wiki-dashboard
+dc.title: "Digital Humanities"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/digital-humanities.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition and Scope
@@ -20,10 +29,10 @@ The core utility of Digital Humanities in modern research is found in its relian
 ### Key Computational Mechanisms
 
 1. **Feature Extraction and Pattern Recognition**: 
-   Using [[Convolutional Neural Networks (CNNs)]], researchers can identify specific stylistic markers in historical art or calligraphic strokes in medieval manuscripts. By training models on specific epochs, the system can learn to distinguish between different scribal hands or regional artistic movements, facilitating the automated dating of artifacts.
+   Using [[Convolutional Neural Networks (CNNs)]]), researchers can identify specific stylistic markers in historical art or calligraphic strokes in medieval manuscripts. By training models on specific epochs, the system can learn to distinguish between different scribal hands or regional artistic movements, facilitating the automated dating of artifacts.
 
 2.- **Image Restoration and Super-Resolution**: 
-   Many historical archives consist of low-resolution scans or damaged physical media. The application of [[Generative Adversarial Networks (GANs)]] and [[Diffusion Models]] allows for the restoration of missing fragments in frescoes or the enhancement of illegible text in faded parchments. [[Super-Resolution]] techniques are critical for reconstructing details in historical cartography that have been lost to time or physical erosion.
+   Many historical archives consist of low-resolution scans or damaged physical media. The application of [[Generative Adversarial Networks (GANs)]] and [[Diffusion Models]] allows for the restoration of missing fragments in frescoes or the enhancement of illegible text in faded parchments. [[naima-semantics-aware-rgb-guided-depth-super-resolution|Super-Resolution]] techniques are critical for reconstructing details in historical cartography that have been lost to time or physical erosion.
 
 3. **Semantic Segmentation in Historical Cartography**: 
    [[Semantic Segmentation]] is employed to delineate boundaries in historical maps, such as distinguishing between political borders, topographical features (rivers, forests), and urban settlements. This allows for the creation of time-series geospatial datasets that track landscape evolution over centuries.
@@ -36,16 +45,16 @@ The core utility of Digital Humanities in modern research is found in its relian
 As of 2025, the field of Digital Humanities has moved beyond simple pattern recognition into the era of "**Large Historical Models**." Much like the development of Large Language Models (LLMs), researchers are now training multi-modal foundation models specifically pre-trained on vast, diverse corpora of digitized cultural heritage.
 
 Current trends include:
-* **Multi-modal Learning**: Integrating visual data from [[Computer Vision]] with textual data from [[Natural Language Processing (NLP)]]. For instance, a model can simultaneously analyze a 17th-century painting and the contemporary written descriptions of that painting to create a unified semantic representation of the era's iconography.
-* **Automated Provenance Tracking**: Using [[Graph Neural Networks (GNNs)]] to map the movement of artifacts across global networks, reconstructing trade routes and the spread of cultural influence through the analysis of stylistic similarities in disparate archaeological finds.
-* **Digital Twins of Heritage Sites**: The use of [[Neural Radiance Fields (NeRFs)]] to create highly accurate 3D reconstructions of historical sites from 2D photographic archives, allowing for immersive, interactive historical study.
+* **Multi-modal Learning**: Integrating visual data from [[Computer Vision]] with textual data from [[Natural Language Processing (NLP)]]). For instance, a model can simultaneously analyze a 17th-century painting and the contemporary written descriptions of that painting to create a unified semantic representation of the era's iconography.
+* **Automated Provenance Tracking**: Using [[graph-neural-networks|Graph Neural Networks (GNNs)]] to map the movement of artifacts across global networks, reconstructing trade routes and the spread of cultural influence through the analysis of stylistic similarities in disparate archaeological finds.
+* **Digital Twins of Heritage Sites**: The use of [[Neural Radiance Fields (NeRFs)]]) to create highly accurate 3D reconstructions of historical sites from 2D photographic archives, allowing for immersive, interactive historical study.
 
 ## Challenges and Limitations
 
 Despite rapid advancements, several significant roadblocks persist in the application of machine learning to the humanities:
 
 ### The "Small Data" Problem
-In many historical sub-fields, the available dataset is far too small to support standard deep learning training protocols. While modern computer vision thrives on millions of labeled images, a researcher studying a specific, rare subset of Byzantine coins may only have a few hundred examples. This necessitates the use of [[Transfer Learning]] and [[Few-Shot Learning]] techniques.
+In many historical sub-fields, the available dataset is far too small to support standard deep learning training protocols. While modern computer vision thrives on millions of labeled images, a researcher studying a specific, rare subset of Byzantine coins may only have a few hundred examples. This necessitates the use of [[parameter-efficient-transfer-learning-for-microseismic-phase-picking-using-a-neu|Transfer Learning]] and [[cross-domain-few-shot-learning-for-hyperspectral-image-classification-based-on-m|Few-Shot Learning]] techniques.
 
 ### Data Degradation and Interpretability
 The inherent "noise" in historical data—ink bleed, parchment rot, or motion blur in early photography—can lead to "hallucinations" in generative models. Distinguishing between an artifact's original features and artifacts introduced by the restoration algorithm remains a critical concern for academic integrity.
@@ -55,7 +64,7 @@ As computational techniques become more pervasive, the field must address the co
 
 ## Future Directions
 
-The future of Digital Humanities lies in the democratization of these complex tools. We anticipate the rise of "Automated Archival Discovery," where autonomous agents continuously scan new digital uploads to identify connections between previously unrelated historical events. Furthermore, the integration of [[Augmented Reality (AR)]] with real-time pattern recognition will likely allow historians to "overlay" historical layers onto modern landscapes, making the study of the past a truly lived, spatial experience.
+The future of Digital Humanities lies in the democratization of these complex tools. We anticipate the rise of "Automated Archival Discovery," where autonomous agents continuously scan new digital uploads to identify connections between previously unrelated historical events. Furthermore, the integration of [[Augmented Reality (AR)]]) with real-time pattern recognition will likely allow historians to "overlay" historical layers onto modern landscapes, making the study of the past a truly lived, spatial experience.
 
 ## References
 

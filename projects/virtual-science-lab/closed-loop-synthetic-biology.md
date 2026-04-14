@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/38819279/"
   - "https://pubmed.ncbi.nlm.nih.gov/31420515/"
   - "https://pubmed.ncbi.nlm.nih.gov/40972574/"
+author: wiki-dashboard
+dc.title: "Closed-Loop Synthetic Biology"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/closed-loop-synthetic-biology.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 **Closed-Loop Synthetic Biology** refers to an integrated, autonomous scientific framework in which the traditional biological engineering cycle—comprising Design, Build, Test, and Learn (DBTL)—is fully or partially driven by artificial intelligence (AI) and machine learning (ML) algorithms. Unlike classical methodologies, where human researchers manually intervene at each stage to interpret data and formulate subsequent hypotheses, closed-loop systems utilize automated feedback loops. In these systems, data generated during the "Test" phase is automatically ingested by "Learn" algorithms, which then update biological models and autonomously generate new, optimized instructions for the "Design" and "Build" phases.

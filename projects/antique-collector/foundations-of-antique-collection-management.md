@@ -5,6 +5,15 @@ category: other
 tags: [curatorship, heritage, conservation, documentation, archives, museum-studies]
 source_urls:
   - "https://example-archive-link.org/foundations-management"
+author: wiki-dashboard
+dc.title: "Foundations of Antique Collection Management"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/foundations-of-antique-collection-management.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Introduction

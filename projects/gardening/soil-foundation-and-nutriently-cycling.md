@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/37186000/"
   - "https://pubmed.ncbi.nlm.nih.gov/38438042/"
   - "https://pubmed.ncbi.nlm.nih.gov/37703725/"
+author: wiki-dashboard
+dc.title: "Soil Foundation and Nutrient Cycling"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/gardening/soil-foundation-and-nutriently-cycling.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 **Soil Foundation and Nutrient Cycling** refers to the complex, integrated biological, chemical, and physical processes that govern the transformation, movement, and availability of essential elements (such as carbon, nitrogen, phosphorus, and sulfur) within the pedosphere. The "foundation" represents the structural and organic matrix of the soil—comprising mineral particles, organic matter, air, and water—which serves as the medium for life. "Nutrient cycling" is the continuous biogeochemical movement of these elements through various chemical forms, driven primarily by the metabolic activities of microorganisms, plants, and soil fauna.
@@ -15,13 +24,13 @@ In the context of ecosystem management, particularly within [[Mycorrhizal Networ
 
 ## The Structural Foundation of Soil
 
-The efficacy of nutrient cycling is predicated on the physical and chemical integrity of the soil foundation. A healthy soil foundation is characterized by high levels of [[Soil Organic Matter]] (SOM) and a well-developed soil structure (aggregation). 
+The efficacy of nutrient cycling is predicated on the physical and chemical integrity of the soil foundation. A healthy soil foundation is characterized by high levels of Soil Organic Matter (SOM) and a well-developed soil structure (aggregation). 
 
 ### 1. The Role of Organic Matter
-[[Soil Organic Matter]] serves as the primary reservoir for nutrients and the energy source for the soil microbiome. It acts as a buffer for pH, improves cation exchange capacity (CEC), and enhances water retention. The decomposition of organic matter—a process known as mineralization—releases inorganic nutrients (such as $\text{NH}_4^+$, $\text{NO}_3^-$, and $\text{PO}_4^{3-}$) that are bioavailable to plants.
+Soil Organic Matter serves as the primary reservoir for nutrients and the energy source for the soil microbiome. It acts as a buffer for pH, improves cation exchange capacity (CEC), and enhances water retention. The decomposition of organic matter—a process known as mineralization—releases inorganic nutrients (such as $\text{NH}_4^+$, $\text{NO}_3^-$, and $\text{PO}_4^{3-}$) that are bioavailable to plants.
 
 ### 2. The Rhizosphere and Physical Matrix
-The [[Rhizosphere]]—the narrow zone of soil surrounding plant roots—is the most biologically active region of the soil foundation. Here, root exudates (sugars, amino acids, and organic acids) stimulate microbial activity, creating a "hotspot" for nutrient mobilization. The physical architecture of the soil, including pore space and macro/micro-aggregates, dictates the diffusion rates of nutrients and the oxygen availability required for aerobic decomposition.
+The Rhizosphere—the narrow zone of soil surrounding plant roots—is the most biologically active region of the soil foundation. Here, root exudates (sugars, amino acids, and organic acids) stimulate microbial activity, creating a "hotspot" for nutrient mobilization. The physical architecture of the soil, including pore space and macro/micro-aggregates, dictates the diffusion rates of nutrients and the oxygen availability required for aerobic decomposition.
 
 ## Mechanisms of Nutrient Cycling
 

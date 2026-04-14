@@ -4,6 +4,15 @@ created: 2026-04-12
 category: technology
 tags: [cultural-heritage, digital-twin, preservation-tech, iot, 3d-modeling]
 source_urls: []
+author: wiki-dashboard
+dc.title: "Digital Twins in Antique Preservation"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/digital-twins-in-antique-preservation.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition and Overview

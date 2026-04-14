@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/36438145/"
   - "https://pubmed.ncbi.nlm.nih.gov/34453937/"
   - "https://pubmed.ncbi.nlm.nih.gov/8495149/"
+author: wiki-dashboard
+dc.title: "Wildlife-Resistant Garden Architecture"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/gardening/wildlife-resistant-garden-architecture.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 Wildlife-Resistant Garden Architecture (WRGA) refers to a specialized discipline within [[Mountain Ecosystem Design]] that focuses on the strategic spatial arrangement of flora, topography, and biological deterrents to protect edible crops from herbivory by local fauna. Unlike traditional agricultural methods that rely on intensive physical exclusion—such as high-tensile wire fencing or electrified perimeters—WRGA utilizes the intrinsic biological, chemical, and structural properties of plants and terrain to create "passive" resistance. This approach is particularly vital in montane and sub-alpine environments, where the high density of adaptable mammals (e.g., *Cervidae*, *Ursidae*, and *Suidae*) often renders conventional fencing economically unfeasible or ecologically disruptive.

@@ -1,0 +1,22 @@
+---
+title: Conditional flow matching for physics-constrained inverse problems with finite training data
+created: 2024-05-22
+source: https://arxiv.org/abs/2603.14135
+tags: [conditional flow matching, bayesian inference, inverse problems, neural ODEs, physics-informed ML]
+category: machine-learning
+author: wiki-pipeline
+dc.title: "Conditional flow matching for physics-constrained inverse problems with finite training data"
+dc.creator: wiki-pipeline
+dc.date: 2024-05-22
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: general/conditional-flow-matching-for-physics-constrained-inverse-problems-with-finite-t.md
+dc.language: en
+dc.rights: CC-BY-4.0
+---
+
+# Conditional flow matching for physics-constrained inverse problems with finite training data
+
+The research paper "Conditional flow matching for physics-constrained inverse problems with finite training data" introduces a specialized [[conditional-flow-matching-for-physics-constrained-inverse-problems-with-finite-t|Conditional Flow Matching]] (CFM) framework designed for solving complex [[Bayesian Inference]] tasks. The study specifically targets [[conditional-flow-matching-for-physics-constrained-inverse-problems-with-finite-t|Inverse Problems]] where the objective is to recover hidden variables from observed measurements under physical constraints.
+
+##

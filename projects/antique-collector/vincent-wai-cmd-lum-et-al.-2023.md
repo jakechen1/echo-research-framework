@@ -5,6 +5,15 @@ category: machine-learning
 tags: [computer-vision, historical-pattern-recognition, deep-learning, feature-extraction, image-restoration]
 source_urls:
   - "https://example-academic-repository.org/lum-2023-vision"
+author: wiki-dashboard
+dc.title: "Vincent Wai-cmd Lum et al., 2023"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/vincent-wai-cmd-lum-et-al.-2023.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Overview
@@ -18,7 +27,7 @@ Lum et al. (2-23) introduced a novel framework for **Adaptive Morphological Feat
 The 2023 framework proposed by Lum et al. departs from traditional denoising techniques by employing a dual-stream architecture designed specifically for pattern preservation rather than mere pixel-level reconstruction.
 
 ### 1. Adaptive Morphological Feature Extraction (AMFE)
-The primary innovation of the Lum et al. study is the AMFE mechanism. Traditional [[Convolutional Neural Networks]] (CNNs) use fixed kernel sizes, which are often too rigid to capture motifs that vary significantly in scale due to the warping of historical substrates (e.g., wrinkled parchment). AMFE utilizes a "morphological attention" layer that estimates the local deformation gradient of the image. This allows the network to apply spatially-varying kernels that "stretch" or "shrink" alongside the identified historical patterns, effectively normalizing the pattern geometry before the classification or segmentation stages.
+The primary innovation of the Lum et al. study is the AMFE mechanism. Traditional [[lipkernel-lipschitz-bounded-convolutional-neural-networks-via-dissipative-layers|Convolutional Neural Networks]] (CNNs) use fixed kernel sizes, which are often too rigid to capture motifs that vary significantly in scale due to the warping of historical substrates (e.g., wrinkled parchment). AMFE utilizes a "morphological attention" layer that estimates the local deformation gradient of the image. This allows the network to apply spatially-varying kernels that "stretch" or "shrink" alongside the identified historical patterns, effectively normalizing the pattern geometry before the classification or segmentation stages.
 
 ### 2. Spatio-Temporal Degradation Embedding
 Recognizing that historical decay is a temporal process, the researchers introduced a technique to embed degradation metadata directly into the latent representation. By training the model on a synthetic dataset of "aging" images—where modern patterns are subjected to simulated chemical oxidation, moisture damage, and pigment fading—the model learns to decouple the intrinsic pattern features from the extrinsic degradation features. This is a significant advancement in [[Self-Supervised Learning]] for domain-specific tasks.

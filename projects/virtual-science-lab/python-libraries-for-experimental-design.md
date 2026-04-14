@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/36473701/"
   - "https://pubmed.ncbi.nlm.nih.gov/39183293/"
   - "https://pubmed.ncbi.nlm.nih.gov/32939066/"
+author: wiki-dashboard
+dc.title: "Python Libraries for Experimental Design"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/python-libraries-for-experimental-design.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Python Libraries for Experimental Design

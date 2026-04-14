@@ -7,9 +7,18 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/34644527/"
   - "https://pubmed.ncbi.nlm.nih.gov/36854473/"
   - "https://pubmed.ncbi.nlm.nih.gov/38628862/"
+author: wiki-dashboard
+dc.title: "Mycorrhizal Network"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/gardening/mycorrhizal-network.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
-A **Mycorrhizal Network** refers to an underground, complex web of fungal hyphae that physically connects the root systems of multiple individual plants within an ecosystem. This biological infrastructure, often colloquially termed the "Wood Wide Web," facilitates the transfer of essential nutrients, water, and biochemical signals between organisms. These networks are the fundamental biological engine underlying [[Ecosystem-Bases Companion Planting]], as they allow for a degree of inter-plant cooperation and resource sharing that transcends the boundaries of individual plant species. By bridging the gap between disparate organisms, mycorrhizal networks transform a collection of individual plants into a cohesive, communicative, and resilient-to-stress ecosystem.
+A **Mycorrhizal Network** refers to an underground, complex web of fungal hyphae that physically connects the root systems of multiple individual plants within an ecosystem. This biological infrastructure, often colloquially termed the "Wood Wide Web," facilitates the transfer of essential nutrients, water, and biochemical signals between organisms. These networks are the fundamental biological engine underlying Ecosystem-Bases Companion Planting, as they allow for a degree of inter-plant cooperation and resource sharing that transcends the boundaries of individual plant species. By bridging the gap between disparate organisms, mycorrhizal networks transform a collection of individual plants into a cohesive, communicative, and resilient-to-stress ecosystem.
 
 ## Biological Mechanisms and Symbiosis
 

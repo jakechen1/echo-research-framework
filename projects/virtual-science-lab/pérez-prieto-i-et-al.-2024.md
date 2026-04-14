@@ -5,6 +5,15 @@ category: biology
 tags: [microbiome, automated engineering, synthetic biology, machine learning, microbial consortia]
 source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/38918116/"
+author: wiki-dashboard
+dc.title: "Pérez-Prieto I et al., 2024"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/pérez-prieto-i-et-al.-2024.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Introduction

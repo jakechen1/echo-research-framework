@@ -1,6 +1,15 @@
 ---
 name: code-runner
 description: Run code snippets in 30+ programming languages including JavaScript, Python, TypeScript, Java, C, C++, Go, Rust, Ruby, PHP, and more. Use when the user wants to execute code, test algorithms, verify output, run scripts, or check code behavior. Supports both interpreted and compiled languages.
+author: jakeclaw
+dc.title: "SKILL"
+dc.creator: jakeclaw
+dc.date: 2026-04-14
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: skills/code-runner/SKILL.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Code Runner Skill

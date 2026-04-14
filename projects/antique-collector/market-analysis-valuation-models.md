@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/38624904/"
   - "https://pubmed.ncbi.nlm.nih.gov/33447983/"
   - "https://pubmed.ncbi.nlm.nih.gov/29243501/"
+author: wiki-dashboard
+dc.title: "Market Analysis & Valuation Models"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/market-analysis-valuation-models.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Market Analysis & Valuation Models

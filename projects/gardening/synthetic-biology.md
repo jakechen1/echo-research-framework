@@ -7,13 +7,22 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/34616030/"
   - "https://pubmed.ncbi.nlm.nih.gov/24686414/"
   - "https://pubmed.ncbi.nlm.nih.gov/36753021/"
+author: wiki-dashboard
+dc.title: "Synthetic Biology"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/gardening/synthetic-biology.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 **Synthetic biology** is an interdisciplinary branch of biology and engineering that involves the redesign of organisms for useful purposes by engineering them to have new abilities. Unlike traditional genetic engineering, which typically involves the transfer of individual genes from one organism to another, synthetic biology applies engineering principles—such as standardization, modularity, and abstraction—to the design and construction of biological parts, devices, and systems. The field encompasses the creation of entirely new biological pathways, the modification of existing metabolic networks, and the synthesis of novel genetic circuits that allow cells to perform complex, programmable tasks, ranging from sensing environmental toxins to producing high-value pharmaceuticals.
 
 ## Historical Context and Evolution
 
-The origins of synthetic biology can be traced back to the broader field of molecular biology, but it emerged as a distinct discipline through the application of engineering rigor to biological systems. As noted in the historical progression of the field, the transition from "reading" the genetic code to "writing" it has been a defining characteristic of the discipline [[Cameron DE et al., 2014]]. 
+The origins of synthetic biology can be traced back to the broader field of molecular biology, but it emerged as a distinct discipline through the application of engineering rigor to biological systems. As noted in the historical progression of the field, the transition from "reading" the genetic code to "writing" it has been a defining characteristic of the discipline Cameron DE et al., 2014. 
 
 Early developments focused on the creation of basic biological "parts"—sequences of DNA with defined functions. The development of the "BioBrick" standard in the early 2000s played a crucial role in this evolution, providing a library of standardized genetic components that could be assembled into more complex devices. This era marked a shift from purely descriptive biology to a constructive, predictive science, where the goal was to build biological systems with predictable behaviors.
 
@@ -22,7 +31,7 @@ Early developments focused on the creation of basic biological "parts"—sequenc
 The fundamental methodology of synthetic biology is centered on the **Design-Build-Test-Learn (DBTL) cycle**. This iterative process is essential for managing the inherent complexity and stochasticity (randomness) of biological systems.
 
 ### 1. Design
-In the design phase, computational models and mathematical frameworks are used to predict how genetic components will interact. Engineers design genetic circuits—collections of biological parts that perform logic-based functions (e.g., AND, OR, NOT gates). Modern approaches increasingly integrate [[Artificial Intelligence]] and machine learning to optimize these designs before any physical DNA is synthesized.
+In the design phase, computational models and mathematical frameworks are used to predict how genetic components will interact. Engineers design genetic circuits—collections of biological parts that perform logic-based functions (e.g., AND, OR, NOT gates). Modern approaches increasingly integrate [[integrating-artificial-intelligence-physics-and-internet-of-things-a-framework-f|Artificial Intelligence]] and machine learning to optimize these designs before any physical DNA is synthesized.
 
 ### - 2. Build
 The "build" phase involves the physical construction of the designed DNA sequences. This is made possible by advancements in large-scale DNA synthesis and highly efficient assembly methods, such as Gibson Assembly and Golden Gate cloning. The goal is to move from individual sequences to complex, multi-gene pathways within a "chassis"—a host organism (such as *Escherichia coli* or *Saccharomyces cerevisiae*) optimized for the expression of the synthetic constructs.
@@ -47,7 +56,7 @@ The rapid advancement of synthetic biology is driven by several core technologic
 As of the mid-2020s, synthetic biology has moved from fundamental research into transformative applications across multiple sectors.
 
 ### Medicine and Therapeutics
-One of the most profound frontiers is the development of **living therapeutics**. Unlike traditional small-molecule drugs, which are static, engineered cells can sense, compute, and respond to the physiological state of a patient. Research is heavily focused on engineering mammalian cells and bacteria to act as autonomous diagnostic and therapeutic agents within the human body [[Cubillos-Res A et al., 2021]]. Examples include engineered T-cells for cancer immunotherapy (CAR-T therapy) and bacteria designed to colonize the gut and deliver anti-inflammatory molecules to treat inflammatory bowel disease.
+One of the most profound frontiers is the development of **living therapeutics**. Unlike traditional small-molecule drugs, which are static, engineered cells can sense, compute, and respond to the physiological state of a patient. Research is heavily focused on engineering mammalian cells and bacteria to act as autonomous diagnostic and therapeutic agents within the human body Cubillos-Res A et al., 2021. Examples include engineered T-cells for cancer immunotherapy (CAR-T therapy) and bacteria designed to colonize the gut and deliver anti-inflammatory molecules to treat inflammatory bowel disease.
 
 ### Agriculture and Ecosystem Engineering
 In agriculture, synthetic biology is being used to create crops with enhanced nutritional profiles, increased resistance to drought, and reduced dependence on chemical fertilizers. A significant area of interest is the engineering of the **rhizosphere**—the area of soil surrounding plant roots. By designing synthetic microbial communities that can fix nitrogen or suppress pathogens, synthetic biology can augment traditional ecological management strategies like [[Ecosystem-Based Companion Planting]]. While companion planting relies on natural, existing plant-plant and plant-microbe interactions, synthetic biology offers the ability to *engineer* these interactions to be more resilient to climate change.

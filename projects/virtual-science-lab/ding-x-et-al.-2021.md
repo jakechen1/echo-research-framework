@@ -5,6 +5,15 @@ category: machine-learning
 tags: [neurobiology, myelination, dynorphin, oligodendrocytes, neuroregeneration]
 source_als:
   - "https://pubmed.ncbi.nlm.nih.gov/34793703/"
+author: wiki-dashboard
+dc.title: "Ding X et al., 2021"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/ding-x-et-al.-2021.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Overview

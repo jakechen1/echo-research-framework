@@ -8,6 +8,15 @@ metadata:
       bins: ["povray", "python3"]
       pip: ["rdkit", "numpy"]
     optionalPip: ["biopython"]
+author: jakeclaw
+dc.title: "SKILL"
+dc.creator: jakeclaw
+dc.date: 2026-04-14
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: skills/mol-render/SKILL.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # mol-render

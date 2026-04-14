@@ -7,11 +7,20 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/37960634/"
   - "https://pubmed.ncbi.nlm.nih.gov/36764042/"
   - "https://pubmed.ncbi.nlm.nih.gov/39851385/"
+author: wiki-dashboard
+dc.title: "Graph Neural Networks"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/graph-neural-networks.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Graph Neural Networks
 
-**Graph Neural Networks (GNNs)** are a specialized class of [[Deep Learning]] architectures designed to perform inference on data structured as graphs. Unlike traditional [[Neural Networks]] such as [[Convolutional Neural Networks]] (CNNs) or [[Recurrent Neural Learning]] (RNNs)—which operate on fixed, Euclidean grids like images or sequences—GNNs are engineered to operate on non-Euclidean domains. These domains consist of nodes (vertices) and edges (links) that represent complex, irregular relationships, such as molecular structures, social networks, or brain connectivity patterns. As an extension of the principles discussed in [[Freeman S et al., 2014]], GNNs allow for the extraction of high-dimensional features from relational data where the underlying topology is not inherently stationary or grid-like.
+**Graph Neural Networks (GNNs)** are a specialized class of [[Deep Learning]] architectures designed to perform inference on data structured as graphs. Unlike traditional [[transmission-neural-networks-inhibitory-and-excitatory-connections|Neural Networks]] such as [[lipkernel-lipschitz-bounded-convolutional-neural-networks-via-dissipative-layers|Convolutional Neural Networks]] (CNNs) or [[Recurrent Neural Learning]] (RNNs)—which operate on fixed, Euclidean grids like images or sequences—GNNs are engineered to operate on non-Euclidean domains. These domains consist of nodes (vertices) and edges (links) that represent complex, irregular relationships, such as molecular structures, social networks, or brain connectivity patterns. As an extension of the principles discussed in [[Freeman S et al., 2014]], GNNs allow for the extraction of high-dimensional features from relational data where the underlying topology is not inherently stationary or grid-like.
 
 ## Core Mechanisms and Architectures
 
@@ -45,7 +54,7 @@ The integration of GNNs into wearable technology and clinical monitoring systems
 
 As of 2025-2026, the field of GNNs has moved beyond simple node classification and into the era of **Graph Foundation Models**. The current research focus is centered on three main pillars:
 
-1.  **Graph-Language Models (GLMs)**: A burgeoning area of research involves coupling GNNs with [[Large Language Models]] (LLMs). By injecting structural graph knowledge into LLMs, researchers are creating models capable of "reasoning" over chemical structures or biological pathways using natural language interfaces.
+1.  **Graph-Language Models (GLMs)**: A burgeoning area of research involves coupling GNNs with [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs). By injecting structural graph knowledge into LLMs, researchers are creating models capable of "reasoning" over chemical structures or biological pathways using natural language interfaces.
   
 2.  **Geometric Deep Learning**: There is an increasing movement toward Generalizing GNNs to higher-order structures, such as hypergraphs (where an edge can connect more than two nodes) and simplicial complexes. This allows for the modeling of much more complex relational dependencies than standard pairwise edges.
 
@@ -58,7 +67,7 @@ Despite their immense potential, GNNs face several theoretical and computational
 *   **Over-smoothing**: As the number of layers in a GNN increases, the node embeddings tend to converge to a single point, making all nodes indistriunguishable. This effectively "washes out" the unique features of individual nodes, limiting the depth of the networks.
 *   **Over-squashing**: When information from a large, distant neighborhood must be compressed into a single fixed-size vector during the message-passing step, critical information is lost. This prevents GNNs from effectively capturing long-range dependencies in the graph.
 *   **Dynamic and Temporal Graphs**: Most standard GNNs assume a static topology. However, real-world graphs (like financial transactions or traffic networks) are highly dynamic. Developing architectures that can handle nodes and edges appearing and disappearing in real-time is a significant ongoing challenge.
-*   **Explainability (XAI)**: In high-stakes domains like healthcare, understanding *why* a GNN made a specific prediction is vital. Developing "Graph Explainers" that can highlight the specific subgraphs or edges responsible for a classification is a critical area of [[Explainable AI]].
+*   **Explainability (XAI)**: In high-stakes domains like healthcare, understanding *why* a GNN made a specific prediction is vital. Developing "Graph Explainers" that can highlight the specific subgraphs or edges responsible for a classification is a critical area of [[explainable-ai-for-microseismic-event-detection|Explainable AI]].
 
 ## Future Directions
 

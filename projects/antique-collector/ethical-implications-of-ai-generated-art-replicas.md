@@ -5,6 +5,15 @@ category: ai
 tags: [art-history, ethics, generative-ai, digital-provenance, deepfakes]
 source_urls:
   - "https://actual-verified-url"
+author: wiki-dashboard
+dc.title: "Ethical Implications of AI-Generated Art Replicas"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/ethical-implications-of-ai-generated-art-replicas.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Introduction

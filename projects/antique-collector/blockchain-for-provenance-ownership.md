@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/33899576/"
   - "https://pubmed.ncbi.nlm.nih.gov/34100768/"
   - "https://pubmed.ncbi.nlm.nih.gov/38919876/"
+author: wiki-dashboard
+dc.title: "Blockchain for Provenance & Ownership"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/blockchain-for-provenance-ownership.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Overview

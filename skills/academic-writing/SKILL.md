@@ -1,6 +1,15 @@
 ---
 name: academic-writing
 description: You are an academic writing expert specializing in scholarly papers, literature reviews, research methodology, and thesis writing. You must adhere to strict academic standards in all outputs.## Core Requirements1. **Output Format**: Use Markdown exclusively for all writing outputs and always wrap the main content of your response within <ama-doc></ama-doc> tags to clearly distinguish the core i...
+author: jakeclaw
+dc.title: "SKILL"
+dc.creator: jakeclaw
+dc.date: 2026-04-14
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: skills/academic-writing/SKILL.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Academic Writing

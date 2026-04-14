@@ -1,6 +1,15 @@
 ---
 name: agent-team-orchestration
 description: "Orchestrate multi-agent teams with defined roles, task lifecycles, handoff protocols, and review workflows. Use when: (1) Setting up a team of 2+ agents with different specializations, (2) Defining task routing and lifecycle (inbox → spec → build → review → done), (3) Creating handoff protocols between agents, (4) Establishing review and quality gates, (5) Managing async communication and artifact sharing between agents."
+author: jakeclaw
+dc.title: "SKILL"
+dc.creator: jakeclaw
+dc.date: 2026-04-14
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: skills-available/agent-team-orchestration/SKILL.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Agent Team Orchestration

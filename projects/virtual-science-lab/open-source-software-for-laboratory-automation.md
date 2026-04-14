@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/24802-2416/"
   - "https://pubmed.ncbi.nlm.nih.gov/31540570/"
   - "https://pubmed.ncbi.nlm.nih.gov/25304874/"
+author: wiki-dashboard
+dc.title: "Open-Source Software for Laboratory Automation"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/open-source-software-for-laboratory-automation.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 Open-source software (OSS) for laboratory automation refers to a diverse ecosystem of publicly accessible, modular codebases, libraries, and frameworks designed to control, monitor, and orchestrate robotic hardware, liquid-handling systems, and analytical instruments in scientific research. Unlike traditional proprietary automation ecosystems—which often function as "black boxes" controlled by vendor-specific software—open-source solutions emphasize interoperability, transparency, and extensibility. This software stack enables researchers to integrate disparate hardware components into unified, autonomous workflows, facilitating the rise of "self-driving laboratories." The ecosystem spans multiple layers of the automation stack, from low-level hardware drivers and-communication protocols to high-level [[Orchestration Frameworks for Autonomous Labs]] and [[Automated Experiment Design (AED) Frameworks]].

@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/37998172/"
   - "https://pubmed.ncbi.nlm.nih.gov/36679439/"
   - "https://pubmed.ncbi.nlm.nih.gov/35685153/"
+author: wiki-dashboard
+dc.title: "Anomaly Detection"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/anomaly-detection.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition and Overview
@@ -21,7 +30,7 @@ To implement effective detection strategies, it is essential to categorize the t
 
 1.  **Point Anomalies**: These are single data points that are far removed from the rest of the distribution. In a sensor network, a sudden, massive spike in temperature that does not persist is a classic point anomaly.
 2.  **Contextual (Conditional) Anomalies**: An observation that is considered anomalous only within a specific context. For example, a temperature reading of $30^{\circ}\text{C}$ might be normal during summer but highly anomalous during a controlled winter experiment.
-3.  **Collective Anomalies**: A sequence or subset of data points that are individually normal but collectively form an abnormal pattern. In [[Time-Series Analysis]], a specific rhythmic oscillation in a pressure sensor might indicate a mechanical failure, even if the pressure values remain within "normal" bounds.
+3.  **Collective Anomalies**: A sequence or subset of data points that are individually normal but collectively form an abnormal pattern. In [[qarima-a-quantum-approach-to-classical-time-series-analysis|Time-Series Analysis]], a specific rhythmic oscillation in a pressure sensor might indicate a mechanical failure, even if the pressure values remain within "normal" bounds.
 
 ## Core Methodologies and Mechanisms
 
@@ -36,7 +45,7 @@ For complex, high-dimensional, and time-dependent data, deep learning has become
 *   **Autoencoders**: These neural networks learn to compress and then reconstruct input data. The "reconstruction error"—the difference between the input and the output—serves as the anomaly score. If the error exceeds a certain threshold, the input is flagged as an anomaly.
 
 ### 3. Multi-Sensor and Correlation-Based Detection
-In modern [[Internet of Things (IoT)]] and automated laboratory setups, sensors are rarely isolated. Detecting anomalies requires analyzing the relational dependencies between different sensors. **Correlation-based methods** monitor the expected dependencies between, for any two sensors, $S_1$ and $S_2$. If the historical correlation between temperature and pressure suddenly breaks, the system can flag a potential failure even if both values remain within their individual "normal" ranges (Li H et al., 2022).
+In modern [[Internet of Things (IoT)]]) and automated laboratory setups, sensors are rarely isolated. Detecting anomalies requires analyzing the relational dependencies between different sensors. **Correlation-based methods** monitor the expected dependencies between, for any two sensors, $S_1$ and $S_2$. If the historical correlation between temperature and pressure suddenly breaks, the system can flag a potential failure even if both values remain within their individual "normal" ranges (Li H et al., 2022).
 
 ### 4. Detection and Repair (Imputation)
 In advanced pipelines, anomaly detection is not merely a diagnostic tool but the first step in a closed-loop recovery process. In environments like air quality monitoring or continuous chemical flow reactors, once an anomaly is detected, the system can trigger **Repairing** mechanisms. This involves "imputing" or replacing the anomalous (and likely corrupted) data with estimated values based on historical trends, ensuring that the [[Autonomous Experiment Design (AED) Frameworks]] can continue operating without being derailed by transient sensor noise (Rollo F et al., 2023).
@@ -45,7 +54,7 @@ In advanced pipelines, anomaly detection is not merely a diagnostic tool but the
 
 The integration of Anomaly Detection into [[Autonomous Experiment Design (AED) Frameworks]] is fundamental to the concept of "Self-Driving Labs." Its roles include:
 
-*   **Data Integrity Assurance**: Ensuring that the data used to train the surrogate models (often [[Gaussian Process Regression]] or [[Neural Networks]]) is free from sensor drift and measurement artifacts.
+*   **Data Integrity Assurance**: Ensuring that the data used to train the surrogate models (often [[gaussian-process|Gaussian Process Regression]] or [[transmission-neural-networks-inhibitory-and-excitatory-connections|Neural Networks]]) is free from sensor drift and measurement artifacts.
 *   **Automated Error Handling**: Enabling the agent to pause an experiment, perform a self-calibration, or trigger a "re-run" if a physical deviation is detected.
 - **Discovery vs. Error Discrimination**: While the primary goal of AED is to find "novel" data (the scientific anomaly), the AD component provides the logic to filter out "noise" (the sensor anomaly), thereby protecting the scientific validity of the optimization process.
 

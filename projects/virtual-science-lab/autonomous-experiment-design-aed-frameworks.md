@@ -4,6 +4,15 @@ created: 2026-04-12
 category: machine-learning
 tags: [automation, robotics, bayesian-optimization, self-driving-labs, closed-loop-systems]
 source_urls: []
+author: wiki-dashboard
+dc.title: "Autonomous Experiment Design (AED) Frameworks"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/autonomous-experiment-design-aed-frameworks.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition

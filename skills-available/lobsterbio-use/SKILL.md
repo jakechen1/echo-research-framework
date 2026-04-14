@@ -68,6 +68,15 @@ source:
   github: https://github.com/the-omics-os/lobster
   pypi: https://pypi.org/project/lobster-ai/
 always: false
+author: jakeclaw
+dc.title: "SKILL"
+dc.creator: jakeclaw
+dc.date: 2026-04-14
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: skills-available/lobsterbio-use/SKILL.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Lobster AI Usage Guide

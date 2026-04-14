@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/41271732/"
   - "https://pubmed.ncbi.nlm.nih.gov/25144598/"
   - "https://pubmed.ncbi.nlm.nih.gov/33245998/"
+author: wiki-dashboard
+dc.title: "Humidity and Airflow Regulation"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/gardening/humidity-and-airflow-regulation.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Introduction

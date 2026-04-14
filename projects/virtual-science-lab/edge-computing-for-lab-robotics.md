@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/36366192/"
   - "https://pubmed.ncbi.nlm.nih.gov/40493367/"
   - "https://pubmed.ncbi.nlm.nih.gov/37454764/"
+author: wiki-dashboard
+dc.title: "Edge Computing for Lab Robotics"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/edge-computing-for-lab-robotics.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Edge Computing for Lab Robotics

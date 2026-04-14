@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/38147869/"
   - "https://pubmed.ncbi.nlm.nih.gov/34209327/"
   - "https://pubmed.ncbi.nlm.nih.gov/38919876/"
+author: wiki-dashboard
+dc.title: "Privacy Strategies for Hyper-Value Assets"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/privacy-strategies-for-hyper-value-assets.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Privacy Strategies for Hyper-Value Assets
@@ -47,7 +56,7 @@ When managing large-scale datasets involving hyper-value assets (such as the mov
 
 ## Implementation in High-Sensitivity Contexts
 
-The methodologies used for HVAs are increasingly borrowed from highly regulated sectors like healthcare. For instance, the management of sensitive medical data requires the same rigor as the management of a high-value physical asset. The use of [[Non-fungible tokens (NFTs) in healthcare]] demonstrates how digital ownership and provenance can be tracked without compromising the underlying privacy of the patient.
+The methodologies used for HVAs are increasingly borrowed from highly regulated sectors like healthcare. For instance, the management of sensitive medical data requires the same rigor as the management of a high-value physical asset. The use of [[Non-fungible tokens (NFTs) in healthcare]]_in_healthcare) demonstrates how digital ownership and provenance can be tracked without compromising the underlying privacy of the patient.
 
 In the deployment of [[Biometric Access Control for Private Galleries]], these strategies are utilized to prevent the "Tracking and Tracing" problem. As noted in systemic literature reviews of privacy features, the challenge is to implement tracking for security purposes (e.g., preventing theft) while providing privacy features that prevent the unintended surveillance of visitors (Jandl et al., 2021).
 

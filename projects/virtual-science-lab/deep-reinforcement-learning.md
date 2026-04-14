@@ -7,11 +7,20 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/35569196/"
   - "https://pubmed.ncbi.nlm.nih.gov/40098600/"
   - "https://pubmed.ncbi.nlm.nih.gov/37212112/"
+author: wiki-dashboard
+dc.title: "Deep Reinforcement Learning"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/deep-reinforcement-learning.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition
 
-[[Deep Reinforcement Learning]] (DRL) is a specialized subfield of [[Artificial Intelligence]] that integrates the perception capabilities of [[Deep Learning]] with the sequential decision-making frameworks of [[Reinforcement Learning]]. While traditional reinforcement learning relies on manual feature engineering to represent the state of an environment, DRL utilizes [[Neural Networks]] to automatically extract high-level features from raw, high-dimensional data—such as pixels in an image or complex sensor streams. The fundamental objective of a DRL agent is to learn an optimal policy, $\pi$, that dictates a sequence of actions to maximize a cumulative scalar reward signal over time.
+[[Deep Reinforcement Learning]] (DRL) is a specialized subfield of [[integrating-artificial-intelligence-physics-and-internet-of-things-a-framework-f|Artificial Intelligence]] that integrates the perception capabilities of [[Deep Learning]] with the sequential decision-making frameworks of [[deepsearch-overcome-the-bottleneck-of-reinforcement-learning-with-verifiable-rew|Reinforcement Learning]]. While traditional reinforcement learning relies on manual feature engineering to represent the state of an environment, DRL utilizes [[transmission-neural-networks-inhibitory-and-excitatory-connections|Neural Networks]] to automatically extract high-level features from raw, high-dimensional data—such as pixels in an image or complex sensor streams. The fundamental objective of a DRL agent is to learn an optimal policy, $\pi$, that dictates a sequence of actions to maximize a cumulative scalar reward signal over time.
 
 In the context of [[Autonomous Experiment Design (AED) Frameworks]], DRL serves as the intellectual engine capable of navigating vast, multi-dimensional parameter spaces. By treating experimental steps as a sequence of decisions, DRL agents can learn to navigate complex chemical, biological, or material landscapes, identifying optimal experimental conditions without the need for exhaustive manual testing.
 
@@ -47,7 +56,7 @@ By using the Critic to reduce the variance of the policy gradient, architectures
 ### 4. Model-Based vs. Model-Free Reinforcement Learning
 A critical distinction in DRL is how the agent perceives the environment's dynamics:
 *   **Model-Free DRL:** The agent learns directly from interaction without attempting to understand the underlying physics or rules of the environment. This is robust but often sample-inefficient.
-*   **Model-Based DRL:** The agent learns (or is provided with) a model of the environment's transitions. This leads to the development of **[[World Models]]**, where a neural network learns to simulate the environment's behavior. Such models allow the agent to "dream" or plan within a learned simulation, drastically reducing the amount of real-world interaction required.
+*   **Model-Based DRL:** The agent learns (or is provided with) a model of the environment's transitions. This leads to the development of **[[disentangled-world-models-learning-to-transfer-semantic-knowledge-from-distracti|World Models]]**, where a neural network learns to simulate the environment's behavior. Such models allow the agent to "dream" or plan within a learned simulation, drastically reducing the amount of real-world interaction required.
 
 ## Applications in Science and Medicine
 
@@ -73,7 +82,7 @@ Despite its transformative potential, DRL faces several significant hurdles:
 
 ## Future Directions
 
-The frontier of DRL is currently moving toward **Multi-modal Learning**, where agents process text, vision, and sensor data simultaneously, similar to the architecture of [[Large Language Models]] (LLMs). Furthermore, the integration of DRL with [[World Models]] is expected to drive the next generation of autonomous agents that can learn complex physical tasks through simulation before ever interacting with the real world. As we refine the ability to learn from sparse and noisy data, DRL will become the foundational layer for truly autonomous, self-improving scientific and clinical systems.
+The frontier of DRL is currently moving toward **Multi-modal Learning**, where agents process text, vision, and sensor data simultaneously, similar to the architecture of [[large-language-models-for-outpatient-referral-problem-definition-benchmarking-an|Large Language Models]] (LLMs). Furthermore, the integration of DRL with [[disentangled-world-models-learning-to-transfer-semantic-knowledge-from-distracti|World Models]] is expected to drive the next generation of autonomous agents that can learn complex physical tasks through simulation before ever interacting with the real world. As we refine the ability to learn from sparse and noisy data, DRL will become the foundational layer for truly autonomous, self-improving scientific and clinical systems.
 
 ## References
 

@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/35143521/"
   - "https://pubmed.ncbi.nlm.nih.gov/25502652/"
   - "https://pubmed.ncbi.nlm.nih.gov/36421088/"
+author: wiki-dashboard
+dc.title: "Surrogate Model"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/surrogate-model.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 A **Surrogate Model**, often referred to in computational science as a "metamodel" or "response surface," is an approximation of a complex, computationally expensive, or high-fidelity-cost function. In the context of [[Machine Learning]] and [[Autonomous Experiment Design (AED) Frameworks]], a surrogate model serves as a mathematical proxy that emulates the behavior of a "true" underlying function—such as a physical experiment, a high-fidelity [[Finite Element Method]] (FEM) simulation, or a complex biological process—at a fraction of the original computational or temporal cost. The primary objective of a surrogate model is to provide rapid, near-instantaneous predictions of an objective function's output based on a given set of input parameters, thereby enabling iterative optimization and decision-making in real-time environments.
@@ -28,7 +37,7 @@ In [[Autonomous Experiment Design (AED) Frameworks]], the surrogate model is not
 The choice of surrogate architecture depends heavily on the dimensionality of the input space, the noise level of the observations, and the availability of computational resources.
 
 ### Gaussian Processes (GP)
-Gaussian Processes remain the "gold standard" for surrogate modeling in Bayesian Optimization. Unlike deterministic models, GPs provide a probabilistic framework that yields not just a prediction $\mu(x)$, but also a quantified uncertainty $\sigma(x)$. This uncertainty is critical for the [[Acquisition Function]] to balance "exploration" (sampling areas of high uncertainty) and "exploitation" (sampling areas of predicted high performance). However, GPs face significant scalability challenges, as the computational complexity of training scales at $O(n^3)$ with the number of data points $n$.
+Gaussian Processes remain the "gold standard" for surrogate modeling in Bayesian Optimization. Unlike deterministic models, GPs provide a probabilistic framework that yields not just a prediction $\mu(x)$, but also a quantified uncertainty $\sigma(x)$. This uncertainty is critical for the [[acquisition-functions|Acquisition Function]] to balance "exploration" (sampling areas of high uncertainty) and "exploitation" (sampling areas of predicted high performance). However, GPs face significant scalability challenges, as the computational complexity of training scales at $O(n^3)$ with the number of data points $n$.
 
 ### Neural Networks and Deep Learning
 As the dimensionality of the problem increases, traditional GPs often fail due to the "curse of dimensionality." Deep Neural Networks (DNNs) and Physics-Informed Neural Networks (PINNs) have emerged as powerful surrogates for high-dimensional data. These models are particularly effective when the underlying physics can be encoded into the loss function, allowing the model to respect conservation laws (e.g., mass or energy balance) even when data is sparse.
@@ -52,7 +61,7 @@ In a robust AED framework, the surrogate model must handle:
 
 Despite their transformative potential, surrogate models face several critical bottlenecks:
 
-1.  **The Uncertainty Gap:** If a surrogate model is overconfident (underestimating $\sigma(x)$), the [[Acquisition Function]] may converge prematurely on a local optimum, failing to explore the wider design space.
+1.  **The Uncertainty Gap:** If a surrogate model is overconfident (underestimating $\sigma(x)$), the [[acquisition-functions|Acquisition Function]] may converge prematurely on a local optimum, failing to explore the wider design space.
 2.  **Data Sparsity and Extrapolation:** Surrogate models are inherently interpolative. When asked to predict in regions far outside the training distribution (extrapolation), they often produce physically nonsensical results.
 3.  **Computational Overhead of Retraining:** In large-scale autonomous laboratories, the time taken to retrain complex models (like large DNNs or GPs with large datasets) can become a bottleneck that offsets the time saved by the surrogate's efficiency.
 4.  **Dimensionality:** As the number of input features increases, the volume of the space grows exponentially, making it increasingly difficult for a sparse set of experiments to "cover" the space sufficiently for the surrogate to learn the underlying topology.

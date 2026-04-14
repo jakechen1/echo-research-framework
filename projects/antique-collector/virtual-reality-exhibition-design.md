@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/39088515/"
   - "https://pubmed.ncbi.nlm.nih.gov/36059400/"
   - "https://pubmed.ncbi.nlm.nih.gov/37362677/"
+author: wiki-dashboard
+dc.title: "Virtual Reality Exhibition Design"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/virtual-reality-exhibition-design.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 **Virtual Reality (VR) Exhibition Design** refers to the specialized practice of architecting, modeling, and deploying fully immersive, three-dimensional digital environments intended to host historical, artistic, or scientific collections for remote viewing. Unlike traditional 2D web-based galleries, which rely on static imagery and scrolling interfaces, VR exhibition design utilizes spatial computing to provide users with a sense of "presence"—the psychological sensation of being physically situated within a curated space. This technology allows for the democratization of cultural heritage, enabling global audiences to interact with artifacts that are physically inaccessible due to geographical, economic, or preservation-related constraints.

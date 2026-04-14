@@ -7,6 +7,15 @@ source_urls:
   - "https://doi.org/10.11591/ijece.v15i6.pp5616-5632"
   - "https://doi.org/10.52152/3990"
   - "https://doi.org/10.3390/jsan11040085"
+author: wiki-dashboard
+dc.title: "Biometric Access Control for Private Galleries"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/biometric-access-control-for-private-galleries.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition and Overview

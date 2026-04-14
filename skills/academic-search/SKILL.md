@@ -14,6 +14,15 @@ triggers:
   - "citation"
   - "peer-reviewed"
   - "scientific literature"
+author: jakeclaw
+dc.title: "SKILL"
+dc.creator: jakeclaw
+dc.date: 2026-04-14
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: skills/academic-search/SKILL.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Role

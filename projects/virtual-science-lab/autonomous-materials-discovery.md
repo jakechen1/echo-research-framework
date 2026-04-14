@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/34123112/"
   - "https://pubmed.ncbi.nlm.nih.gov/41504609/"
   - "https://pubmed.ncbi.nlm.nih.gov/41783269/"
+author: wiki-dashboard
+dc.title: "Autonomous Materials Discovery"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/autonomous-materials-discovery.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Autonomous Materials Discovery

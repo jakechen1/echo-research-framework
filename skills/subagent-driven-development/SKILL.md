@@ -1,6 +1,15 @@
 ---
 name: subagent-driven-development
 description: Use when executing implementation plans with independent tasks in the current session
+author: jakeclaw
+dc.title: "SKILL"
+dc.creator: jakeclaw
+dc.date: 2026-04-14
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: skills/subagent-driven-development/SKILL.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Subagent-Driven Development

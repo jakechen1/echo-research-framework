@@ -5,13 +5,22 @@ category: technology
 tags: [liquid-handling, error-quantification, laboratory-automation, robotics, high-throughput-screening]
 source_urls:
   - "https://actual-verified-url"
+author: wiki-dashboard
+dc.title: "Ortiz L et al., 2017"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/ortiz-l-et-al.-2017.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Overview
 
-**Ortiz L et al., 2017** refers to a seminal technical study that established a foundational framework for the quantification of volumetric error in [[Automated Liquid Handling Robotics]]. The research provided a rigorous methodology for distinguishing between systematic and random errors during the aspiration and dispensing cycles of automated pipetting systems. By focusing on the mechanical and fluid-dynamic variables that contribute to volumetric variance, the study became a cornerstone for the development of more reliable [[High-Throughput Screening]] (HTS) protocols and the optimization of "liquid classes" in modern laboratory automation.
+**Ortiz L et al., 2017** refers to a seminal technical study that established a foundational framework for the quantification of volumetric error in [[Automated Liquid Handling Robotics]]. The research provided a rigorous methodology for distinguishing between systematic and random errors during the aspiration and dispensing cycles of automated pipetting systems. By focusing on the mechanical and fluid-dynamic variables that contribute to volumetric variance, the study became a cornerstone for the development of more reliable [[high-throughput-screening-technologies|High-Throughput Screening]] (HTS) protocols and the optimization of "liquid classes" in modern laboratory automation.
 
-The primary contribution of the 2017 study was the introduction of a standardized error-assessment metric that accounted for the interplay between environmental conditions, tip geometry, and the physical properties of the fluid being handled. This work moved the field of [[Laboratory Automation]] away from simple precision/accuracy reporting (CV% and %Error) toward a more complex, multidimentional analysis of error propagation in automated workflows.
+The primary contribution of the 2017 study was the introduction of a standardized error-assessment metric that accounted for the interplay between environmental conditions, tip geometry, and the physical properties of the fluid being handled. This work moved the field of [[open-source-software-for-laboratory-automation|Laboratory Automation]] away from simple precision/accuracy reporting (CV% and %Error) toward a more complex, multidimentional analysis of error propagation in automated workflows.
 
 ## Core Methodological Framework
 
@@ -26,7 +35,7 @@ The study divided volumetric discrepancies into two primary categories, which ar
 
 ### The Volumetric Uncertainty Model
 
-The researchers proposed a model that integrated the **Coefficient of Variation (CV)** with a specific "Error Propagation Coefficient." This coefficient allowed technicians to predict how errors in a single pipetting step would amplify throughout a multi-step liquid transfer protocol—a critical consideration for complex, multi-reagent workflows in [[Microfluidics]].
+The researchers proposed a model that integrated the **Coefficient of Variation (CV)** with a specific "Error Propagation Coefficient." This coefficient allowed technicians to predict how errors in a single pipetting step would amplify throughout a multi-step liquid transfer protocol—a critical consideration for complex, multi-reagent workflows in [[automated-microfluidics-platforms|Microfluidics]].
 
 ## Key Variables and Mechanisms
 
@@ -64,7 +73,7 @@ Despite the foundational impact of the 2017 study, several challenges remain in 
 
 ## Future Directions
 
-The future of the field lies in the transition from **reactive error detection** to **predictive error prevention**. Future developments in [[Laboratory Automation]] are expected to involve:
+The future of the field lies in the transition from **reactive error detection** to **predictive error prevention**. Future developments in [[open-source-software-for-laboratory-automation|Laboratory Automation]] are expected to involve:
 *   **Closed-Loop Machine Learning:** Systems that use the error-characterization data (in the vein of Ortiz L et al.) to autonomously adjust aspiration speeds and Z-heights in real-time based on the fluid type being detected.
 *   **Standardized Digital Twins:** The creation of "Digital Twins" for every liquid class, where a virtual model of the fluid's behavior is used to simulate and optimize the robotic movement before the physical execution begins.
 *   **Universal Error Metrics:** An industry-wide movement toward a standardized "Reliability Score" for automated protocols, allowing for easier cross-platform transfer of assays between different robotic platforms.

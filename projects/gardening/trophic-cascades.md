@@ -7,13 +7,22 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/28736043/"
   - "https://pubmed.ncbi.nlm.nih.gov/35667991/"
   - "https://pubmed.ncbi.nlm.nih.gov/40011642/"
+author: wiki-dashboard
+dc.title: "Trophic Cascades"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/gardening/trophic-cascades.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Trophic Cascades
 
 A **trophic cascade** is an ecological phenomenon triggered by the addition or removal of top predators, which involves reciprocal changes in the relative populations of predator and prey through a food web, often resulting in dramatic changes in ecosystem structure and nutrient cycling. In a classic trophic cascade, the impact of a predator on its prey propagates downward through subsequent trophic levels, ultimately affecting the abundance, biomass, and productivity of primary producers (such as plants, algae, or phytoplankton).
 
-The study of trophic cascades is fundamental to understanding [[Ecology]] and the stability of [[Biodiversity]]. While the concept was historically framed through the lens of large vertebrate predators, modern research has expanded the definition to include microscopic interactions, such as the role of pathogens and vectors, highlighting the intricate connectivity of all life forms within a biological community.
+The study of trophic cascades is fundamental to understanding [[agroecology|Ecology]] and the stability of Biodiversity. While the concept was historically framed through the lens of large vertebrate predators, modern research has expanded the definition to include microscopic interactions, such as the role of pathogens and vectors, highlighting the intricate connectivity of all life forms within a biological community.
 
 ## Mechanisms of Cascades
 
@@ -35,7 +44,7 @@ Modern ecological theory distinguishes between two primary ways a predator influ
 While the "classic" cascade focuses on macro-predators like wolves or sharks, contemporary biology has identified much more subtle drivers of ecosystem-wide shifts.
 
 ### Infectious Agents as Drivers
-Recent discoveries have demonstrated that the distinction between "predator" and "pathogen" is often blurry in terms of ecological impact. [[Infectious Agents]] can act as top-down regulators by significantly increasing mortality rates in specific host populations. As documented by Buck et al. (2017), infectious agents can trigger trophic cascades that mimic the effects of traditional predators, essentially reshuffling the competition and biomass distribution across multiple trophic levels.
+Recent discoveries have demonstrated that the distinction between "predator" and "pathogen" is often blurry in terms of ecological impact. [[agents|Infectious Agents]] can act as top-down regulators by significantly increasing mortality rates in specific host populations. As documented by Buck et al. (2017), infectious agents can trigger trophic cascades that mimic the effects of traditional predators, essentially reshuffling the competition and biomass distribution across multiple trophic levels.
 
 ### The Role of Aquatic Vectors
 In aquatic ecosystems, the complexity of cascades is further compounded by the presence of vectors. The interaction between predators, hosts, and vectors (such as insects or mollusks) creates a multi-layered regulatory system. Marcogliese et al. (2022) highlighted how predators do not only interact with their prey but also influence the dynamics of aquatic vectors, which in turn affects the spread of parasites and the health of the broader aquatic community. This adds a layer of "parasitic-mediated" regulation to the traditional food web model.
@@ -50,7 +59,7 @@ One of the most critical contemporary examples of a trophic cascade is observed 
 The principles of trophic cascades are increasingly being applied to [[Agroecology]] and sustainable agriculture through the framework of [[Ecosystem-Based Companion Planting]]. In traditional monoculture, the absence of higher trophic levels (predatory insects, birds, and spiders) necessitates the use of chemical pesticides to manage herbivorous pests.
 
 By contrast, ecosystem-based companion planting seeks to engineer a functional trophic cascade within the agricultural plot:
-1.  **Recruitment of Predators:** By planting "insectary strips" (flowering plants that provide nectar and pollen), farmers can attract [[Parasitoids]] and predatory beetles.
+1.  **Recruitment of Predators:** By planting "insectary strips" (flowering plants that provide nectar and pollen), farmers can attract Parasitoids and predatory beetles.
 2.  **Regulation of Herbivores:** These recruited predators provide top-down control over pests like aphids or caterpillars, reducing the need for external inputs.
 3.  **Enhancement of Primary Producers:** As the herbivore pressure is stabilized by the trophic cascade, the primary crops (the producers) experience more consistent growth and higher yield stability.
 

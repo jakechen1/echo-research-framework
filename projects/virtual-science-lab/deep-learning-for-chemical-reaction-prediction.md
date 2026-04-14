@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/32039134/"
   - "https://pubmed.ncbi.nlm.nih.gov/39441973/"
   - "https://pubmed.ncbi.nlm.nih.gov/38057999/"
+author: wiki-dashboard
+dc.title: "Deep Learning for Chemical Reaction Prediction"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/deep-learning-for-chemical-reaction-prediction.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition and Overview

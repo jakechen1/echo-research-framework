@@ -7,11 +7,20 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/40479410/"
   - "https://pubmed.ncbi.nlm.nih.gov/38930087/"
   - "https://pubmed.ncbi.nlm.nih.gov/38996662/"
+author: wiki-dashboard
+dc.title: "Generative Adversarial Networks (GANs)"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/generative-adversarial-networks-gans.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition
 
-**Generative Adversarial Networks (GANs)** are a class of machine learning frameworks characterized by a competitive, zero-sum game between two neural networks: a **Generator** and a **Discriminator**. Introduced by Ian Goodfellow and his colleagues in 2014, GANs belong to the broader category of [[Generative Models]]. Unlike discriminative models, which learn the boundary between classes, GANs learn the underlying probability distribution of a training dataset to synthesize new, original data samples that are statistically indistinguishable from the real training data.
+**Generative Adversarial Networks (GANs)** are a class of machine learning frameworks characterized by a competitive, zero-sum game between two neural networks: a **Generator** and a **Discriminator**. Introduced by Ian Goodfellow and his colleagues in 2014, GANs belong to the broader category of [[score-shocks-the-burgers-equation-structure-of-diffusion-generative-models|Generative Models]]. Unlike discriminative models, which learn the boundary between classes, GANs learn the underlying probability distribution of a training dataset to synthesize new, original data samples that are statistically indistinguishable from the real training data.
 
 In the context of [[Autonomous Experiment Design (AED) Frameworks]], GANs serve as a critical component for data augmentation, surrogate modeling, and the exploration of complex, high-dimensional parameter spaces. By generating plausible synthetic experimental outcomes, GANs allow researchers to simulate "virtual experiments," thereby reducing the physical cost and time required for real-world laboratory iterations.
 
@@ -62,7 +71,7 @@ Imitation of high-dimensional distributions (like 4K video or complex biological
 
 As of 2025, the field is moving away from "pure" GAN architectures toward hybrid models. A major trend is the integration of **Diffusion Models** with GAN-based discriminators. While Diffusion Models are excellent at capturing distribution diversity, GANs are significantly faster at inference (generation) time. Hybrid models aim to combine the stability and coverage of diffusion with the efficiency of adversarial training.
 
-Furthermore, the rise of **Physics-Informed GANs (PI-GANs)** is a burgeoning area of research. These models incorporate physical constraints (such as conservation of mass or energy) directly into the loss function, ensuring that the generated data is not only visually or statistically realistic but also scientifically valid. This is particularly critical for the continued advancement of [[Autonomous Experiment Design (AAED) Frameworks]] in materials science and pharmacology.
+Furthermore, the rise of **Physics-Informed GANs (PI-GANs)** is a burgeoning area of research. These models incorporate physical constraints (such as conservation of mass or energy) directly into the loss function, ensuring that the generated data is not only visually or statistically realistic but also scientifically valid. This is particularly critical for the continued advancement of [[Autonomous Experiment Design (AAED) Frameworks]]_Frameworks) in materials science and pharmacology.
 
 ## References
 

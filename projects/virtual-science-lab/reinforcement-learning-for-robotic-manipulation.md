@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/37050822/"
   - "https://pubmed.ncbi.nlm.nih.gov/35548780/"
   - "https://pubmed.ncbi.nlm.nih.gov/39563696/"
+author: wiki-dashboard
+dc.title: "Reinual Reinforcement Learning for Robotic Manipulation"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/reinforcement-learning-for-robotic-manipulation.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition and Overview

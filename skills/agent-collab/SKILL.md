@@ -1,6 +1,15 @@
 ---
 name: agent-collab
 description: "Multi-agent collaboration framework for OpenClaw. Three modes: Dispatch (one-shot tasks via spawn), Collaborate (multi-turn cross-department via persistent sessions), and Direct Chat (user talks to department head directly). Includes org hierarchy definition, HANDOFF push mechanism, and scope-isolated memory. 中文名：跨部门协作框架。触发词：跨部门、协同、调度任务、派给XX、让XX做、协作。"
+author: jakeclaw
+dc.title: "SKILL"
+dc.creator: jakeclaw
+dc.date: 2026-04-14
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: skills/agent-collab/SKILL.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Agent Collaboration Framework / 跨部門協作框架

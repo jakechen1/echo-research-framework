@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/40784191/"
   - "https://pubmed.ncbi.nlm.nih.gov/40705101/"
   - "https://pubmed.ncbi.nlm.nih.gov/32495832/"
+author: wiki-dashboard
+dc.title: "Gaussian Process"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/gaussian-process.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition
@@ -15,7 +24,7 @@ A [[Gaussian Process]] (GP) is a non-parametric, Bayesian approach to regression
 
 ## Mathematical Foundations
 
-The behavior of a Gaussian Process is entirely determined by two key components: a [mean function](https://en.wikipedia.org/wiki/Mean_function) $m(x)$ and a [covariance function](https://en.wikipedia.org/wiki/Kernel_(machine_learning)), commonly referred to as the **kernel** $k(x, x')$.
+The behavior of a Gaussian Process is entirely determined by two key components: a [[mean function]] $m(x)$ and a [[covariance function]]), commonly referred to as the **kernel** $k(x, x')$.
 
 ### The Mean Function and Covariance
 The mean function, $m(x) = \mathbb{E}[f(x)]$, represents the expected value of the function at any point $x$ before any data is observed. In many practical applications, the mean function is assumed to be zero for simplicity, as the covariance function is capable of capturing the structural residuals of the data.
@@ -53,7 +62,7 @@ The application of GPs in [[Neural Signal Processing]] continues to expand. The 
 
 Despite their versatility, Gaussian Processes face several persistent challenges:
 
-1.  **Computational Scalability:** While [[Sparse Gaussian Processes]] and [[Inducing Points]] (using a subset of pseudo-inputs to approximate the full GP) have mitigated the $O(N^3)$ issue, the computational cost remains much higher than that of standard neural networks for extremely large $N$.
+1.  **Computational Scalability:** While [[gaussian-process|Sparse Gaussian Processes]] and [[Inducing Points]] (using a subset of pseudo-inputs to approximate the full GP) have mitigated the $O(N^3)$ issue, the computational cost remains much higher than that of standard neural networks for extremely large $N$.
 2.  **Kernel Selection:** The "black-box" nature of kernel design remains a hurdle. While hyperparameter optimization via **Marginal Log-Likelihood (MLL)** maximization can tune length-scales and signal variance, choosing the fundamental kernel architecture (e.g., deciding between Matérn or RBF) often requires deep domain expertise.
 3.  **High-Dimensional Input Spaces:** GPs can suffer from the "curse of dimensionality," where the concept of "closeness" in the kernel function becomes less meaningful as the number of input dimensions increases, leading to poor predictive performance.
 
@@ -61,7 +70,7 @@ Despite their versatility, Gaussian Processes face several persistent challenges
 
 The future of Gaussian Processes lies in **Hybrid Architectures**. The convergence of [[Deep Learning]] and [[Gaussian Process]]—often referred to as **Deep Gaussian Processes**—promises models that can learn hierarchical feature representations (like CNNs) while retaining the uncertainty quantification of GPs. 
 
-Furthermore, the integration of GP-based uncertainty into [[Reinforcement Learning]] (specifically for exploration-exploitation trade-offs in [[Bayesian Optimization]]) is a burgeoning area. As computational frameworks like the multigroup models proposed by Gokcen E et al. (2025) become more widely adopted, we can expect GPs to become a standard component in the deployment of autonomous systems that require high-reliability decision-making in uncertain environments.
+Furthermore, the integration of GP-based uncertainty into [[deepsearch-overcome-the-bottleneck-of-reinforcement-learning-with-verifiable-rew|Reinforcement Learning]] (specifically for exploration-exploitation trade-offs in [[Bayesian Optimization]]) is a burgeoning area. As computational frameworks like the multigroup models proposed by Gokcen E et al. (2025) become more widely adopted, we can expect GPs to become a standard component in the deployment of autonomous systems that require high-reliability decision-making in uncertain environments.
 
 ## References
 

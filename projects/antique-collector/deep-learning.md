@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/30617335/"
   - "https://pubmed.ncbi.nlm.nih.gov/34579788/"
   - "https://pubmed.ncbi.nlm.nih.gov/35951699/"
+author: wiki-dashboard
+dc.title: "Deep Learning"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/deep-learning.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 Deep Learning is a specialized subset of [[Machine Learning]] characterized by the use of multi-layered artificial neural networks to model high-level abstractions in data. Unlike traditional machine learning algorithms, which often require manual "feature engineering"—the human-led process of identifying relevant variables—deep learning architectures are capable of automated feature extraction. By passing data through successive layers of computational nodes, these models learn to identify increasingly complex patterns, moving from simple edges and textures in early layers to sophisticated semantic objects in deeper layers. In the specialized domain of [[Computer Vision for Historical Pattern Analysis]], deep learning provides the foundational technology required to automate the detection of subtle morphological changes in archaeological sites, the reconstruction of degraded historical manuscripts, and the temporal analysis of landscape transformations through satellite and aerial imagery.

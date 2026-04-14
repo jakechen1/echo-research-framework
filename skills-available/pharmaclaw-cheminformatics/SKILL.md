@@ -1,6 +1,15 @@
 ---
 name: pharmaclaw-cheminformatics
 description: Advanced cheminformatics agent for 3D molecular analysis, pharmacophore mapping, format conversion, RECAP fragmentation, and stereoisomer enumeration. The "senior cheminformatician" upgrade to Chemistry Query. Use for 3D conformer generation/ensembles (ETKDG + MMFF/UFF), pharmacophore feature extraction and fingerprints, molecular format conversion (SMILES/SDF/MOL/InChI/PDB/XYZ), RECAP retrosynthetic fragmentation for library design, stereoisomer enumeration (R/S, E/Z), and cheminformatics profiling. Chains from chemistry-query (receives SMILES) and feeds into pharmacology, catalyst-design, ip-expansion. Triggers on conformer, 3D structure, pharmacophore, SDF, MOL file, format conversion, RECAP, fragmentation, stereoisomer, chirality, enantiomer, cheminformatics, library design, building blocks, docking prep.
+author: jakeclaw
+dc.title: "SKILL"
+dc.creator: jakeclaw
+dc.date: 2026-04-14
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: skills-available/pharmaclaw-cheminformatics/SKILL.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Cheminformatics Agent v1.0.0

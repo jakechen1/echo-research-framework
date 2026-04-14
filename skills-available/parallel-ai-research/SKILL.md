@@ -1,6 +1,15 @@
 ---
 name: research
 description: Conduct open-ended research on a topic, building a living markdown document. Supports interactive and deep research modes.
+author: jakeclaw
+dc.title: "SKILL"
+dc.creator: jakeclaw
+dc.date: 2026-04-14
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: skills-available/parallel-ai-research/SKILL.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Research Skill

@@ -5,6 +5,15 @@ category: machine-learning
 tags: [behavioral biometrics, authentication, pattern recognition, anomaly detection, security]
 source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/35205444/"
+author: wiki-dashboard
+dc.title: "Object Selection as a Biometric"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/antique-collector/object-selection-as-a-biometric.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Introduction

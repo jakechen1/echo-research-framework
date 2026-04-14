@@ -4,6 +4,15 @@ created: 2026-04-12
 category: biology
 tags: [composting, nutrient cycling, sustainable agriculture, soil science, organic waste]
 source_unls: []
+author: wiki-dashboard
+dc.title: "Budget-Friendly Composting Techniques"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/gardening/budget-friendly-composting-techniques.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Budget-Friendly Composting Techniques

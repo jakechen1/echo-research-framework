@@ -9,6 +9,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/39293347/"
   - "https://pubmed.ncbi.nlm.nih.gov/28315241/"
   - "https://doi.org/10.1101/564914"
+author: wiki-dashboard
+dc.title: "Integration of Dry-Lab and Wet-Lab Workflows"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/virtual-science-lab/integration-of-dry-lab-and-wet-lab-workflows.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # Integration of Dry-Lab and Wet-Lab Workflows

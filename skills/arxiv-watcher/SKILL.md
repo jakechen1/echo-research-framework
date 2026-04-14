@@ -1,6 +1,15 @@
 ---
 name: arxiv-watcher
 description: Search and summarize papers from ArXiv. Use when the user asks for the latest research, specific topics on ArXiv, or a daily summary of AI papers.
+author: jakeclaw
+dc.title: "SKILL"
+dc.creator: jakeclaw
+dc.date: 2026-04-14
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: skills/arxiv-watcher/SKILL.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 # ArXiv Watcher

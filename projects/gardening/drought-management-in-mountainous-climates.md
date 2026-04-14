@@ -7,6 +7,15 @@ source_urls:
   - "https://pubmed.ncbi.nlm.nih.gov/38650699/"
   - "https://pubmed.ncbi.nlm.nih.gov/39672379/"
   - "https://pubmed.ncbi.nlm.nih.gov/26403995/"
+author: wiki-dashboard
+dc.title: "Drought Management in Mountainous Climates"
+dc.creator: wiki-dashboard
+dc.date: 2026-04-12
+dc.type: Text
+dc.format: text/markdown
+dc.identifier: projects/gardening/drought-management-in-mountainous-climates.md
+dc.language: en
+dc.rights: CC-BY-4.0
 ---
 
 ## Definition and Overview

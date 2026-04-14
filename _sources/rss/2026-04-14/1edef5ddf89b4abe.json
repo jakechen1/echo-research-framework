@@ -1,0 +1,7 @@
+{
+  "id": "1edef5ddf89b4abe",
+  "title": "MEMENTO: Teaching LLMs to Manage Their Own Context",
+  "link": "https://arxiv.org/abs/2604.09852",
+  "summary": "arXiv:2604.09852v1 Announce Type: new \nAbstract: Reasoning models think in long, unstructured streams with no mechanism for compressing or organizing their own intermediate state. We introduce MEMENTO: a method that teaches models to segment reasoning into blocks, compress each block into a memento, i.e., a dense state summary, and reason forward by attending only to mementos, reducing context, KV cache, and compute. To train MEMENTO models, we release OpenMementos, a public dataset of 228K reasoning traces derived from OpenThoughts-v3, segmented and annotated with intermediate summaries. We show that a two-stage SFT recipe on OpenMementos is effective across different model families (Qwen3, Phi-4, Olmo 3) and scales (8B--32B parameters). Trained models maintain strong accuracy on math, science, and coding benchmarks while achieving ${\\sim}2.5\\times$ peak KV cache reduction. We extend vLLM to support our inference method, achieving ${\\sim}1.75\\times$ throughput improvement while also enabling us to perform RL and further improve accuracy. Finally, we identify a dual information stream: information from each reasoning block is carried both by the memento text and by the corresponding KV states, which retain implicit information from the original block. Removing this channel drops accuracy by 15\\,pp on AIME24.",
+  "feed": "arxiv-cs-AI"
+}
