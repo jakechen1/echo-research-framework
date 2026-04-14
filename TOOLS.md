@@ -64,7 +64,7 @@ dc.rights: CC-BY-4.0
 
 ## Box (Cloud Storage)
 - Syncs automatically: W0 wiki -> MacBook wiki-vault -> Box
-- Box path: My Profession/My Projects/Current/JakeClaw/wiki/
+- Box path: My Profession/My Projects/Current/JakeClaw/
 - You do NOT need to push to Box — it syncs every 10 minutes automatically
 
 ## Obsidian
@@ -82,8 +82,25 @@ Schedule: POST /api/wiki-projects  {"action": "update", "id": "proj_xxx", "sched
 Stop: POST /api/wiki-projects  {"action": "stop", "id": "proj_xxx"}
 Schedule options: off, daily (update-pages), weekly (update-pages), monthly (full rebuild)
 
-## NAS Backup
+## NAS Storage (Gilbert)
 - NAS mounted at: /Volumes/dataset-jakeclaw/ (SMB, auto-mounted by launchd)
+- NAS hostname: gilbert.local (192.168.68.128, DHCP — may change)
+- You have FULL READ/WRITE access to this mount
+
+### Directories you can use:
+- /Volumes/dataset-jakeclaw/wiki/ — wiki backup mirror (auto-synced)
+- /Volumes/dataset-jakeclaw/wiki-snapshots/ — timestamped snapshots (last 7 kept)
+- /Volumes/dataset-jakeclaw/openclaw-backup/ — your workspace backup
+- /Volumes/dataset-jakeclaw/hermes-backup/ — hermes config/scripts backup
+- /Volumes/dataset-jakeclaw/dataset/ — datasets, downloads, exports, logs
+- /Volumes/dataset-jakeclaw/anythingllm-backup/ — AnythingLLM DB backup
+
+### How to use:
+- Read any file: cat /Volumes/dataset-jakeclaw/<path>
+- Write files: save research data, exports, large files here (not on local SSD)
+- Store datasets: /Volumes/dataset-jakeclaw/dataset/
+- Backup wiki: bash /usr/local/bin/wiki-backup.sh (or POST /api/wiki-backup)
+- Check mount: mount | grep dataset-jakeclaw
 - NAS IP: 192.168.68.128 (DHCP — may change, mount script handles WOL + retry)
 - Backup script: `/usr/local/bin/wiki-backup.sh`
 - What it backs up:
@@ -99,7 +116,7 @@ Schedule options: off, daily (update-pages), weekly (update-pages), monthly (ful
 ```
 W0 local SSD (/Users/jakeclaw/wiki/)
   → rsync 5m → MacBook ~/wiki-vault/
-    → rsync 10m → Box cloud (Box/OpenClaw-LLM-Infrastructure/wiki/)
+    → rsync 10m → Box cloud (My Profession/My Projects/Current/JakeClaw/)
   → backup script → NAS /Volumes/dataset-jakeclaw/wiki/ + snapshots
   → git auto-push hourly → GitHub
 ```
