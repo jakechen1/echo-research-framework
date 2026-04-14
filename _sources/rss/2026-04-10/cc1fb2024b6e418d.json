@@ -1,0 +1,7 @@
+{
+  "id": "cc1fb2024b6e418d",
+  "title": "EgoEverything: A Benchmark for Human Behavior Inspired Long Context Egocentric Video Understanding in AR Environment",
+  "link": "https://arxiv.org/abs/2604.08342",
+  "summary": "arXiv:2604.08342v1 Announce Type: new \nAbstract: Long context egocentric video understanding has recently attracted significant research attention, with augmented reality (AR) highlighted as one of its most important application domains. Nevertheless, the task remains highly challenging due to the need for reasoning over extended temporal contexts and diverse, unstructured activities. Although several benchmarks exist, most egocentric datasets rely on human worn cameras and focus mainly on visual content, with limited consideration of underlying user behavior when forming video-related queries. EgoEverything is a benchmark that explicitly considers human behavior by leveraging human attention signals, abstracted from gaze data, when generating questions. It comprises over 5,000 multiple choice question answer pairs, spanning more than 100 hours of video. By integrating human attention signals during question generation, it more faithfully captures natural human behavior and offers a realistic evaluation setting for long-context egocentric video understanding in AR.",
+  "feed": "arxiv-cs-LG"
+}

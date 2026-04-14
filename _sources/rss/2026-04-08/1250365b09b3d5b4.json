@@ -1,0 +1,7 @@
+{
+  "id": "1250365b09b3d5b4",
+  "title": "Interpretable Deep Learning for Stock Returns: A Consensus-Bottleneck Asset Pricing Model",
+  "link": "https://arxiv.org/abs/2512.16251",
+  "summary": "arXiv:2512.16251v4 Announce Type: replace-cross \nAbstract: We introduce the Consensus-Bottleneck Asset Pricing Model (CB-APM), which embeds aggregate analyst consensus as a structural bottleneck, treating professional beliefs as a sufficient statistic for the market's high-dimensional information set. Unlike post-hoc explainability approaches, CB-APM achieves interpretability-by-design: the bottleneck constraint functions as an endogenous regularizer that simultaneously improves out-of-sample predictive accuracy and anchors inference to economically interpretable drivers. Portfolios sorted on CB-APM forecasts exhibit a strong monotonic return gradient, robust across macroeconomic regimes. Pricing diagnostics further reveal that the learned consensus encodes priced variation not spanned by canonical factor models, identifying belief-driven risk heterogeneity that standard linear frameworks systematically miss.",
+  "feed": "arxiv-cs-AI"
+}

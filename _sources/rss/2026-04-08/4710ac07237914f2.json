@@ -1,0 +1,7 @@
+{
+  "id": "4710ac07237914f2",
+  "title": "Modelling Cascading Physical Climate Risk in Supply Chains with Adaptive Firms: A Spatial Agent-Based Framework",
+  "link": "https://arxiv.org/abs/2509.18633",
+  "summary": "arXiv:2509.18633v4 Announce Type: replace \nAbstract: We present an open-source Python framework for modelling cascading physical climate risk in a spatial supply-chain economy. The framework integrates geospatial flood hazards with an agent-based model of firms and households, enabling simulation of both direct asset losses and indirect disruptions propagated through economic networks. Firms adapt endogenously through two channels: capital hardening, which reduces direct damage, and backup-supplier search, which mitigates input disruptions. In an illustrative global network, capital hardening reduces direct losses by 26%, while backup-supplier search reduces supplier disruption by 48%, with both partially stabilizing production and consumption. Notably, firms that are never directly flooded still bear a substantial share of disruption, highlighting the importance of indirect cascade effects. The framework provides a reproducible platform for analyzing systemic physical climate risk and adaptation in economic networks.",
+  "feed": "arxiv-cs-AI"
+}

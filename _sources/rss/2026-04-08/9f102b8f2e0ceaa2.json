@@ -1,0 +1,7 @@
+{
+  "id": "9f102b8f2e0ceaa2",
+  "title": "CODESTRUCT: Code Agents over Structured Action Spaces",
+  "link": "https://arxiv.org/abs/2604.05407",
+  "summary": "arXiv:2604.05407v1 Announce Type: new \nAbstract: LLM-based code agents treat repositories as unstructured text, applying edits through brittle string matching that frequently fails due to formatting drift or ambiguous patterns. We propose reframing the codebase as a structured action space where agents operate on named AST entities rather than text spans. Our framework, CODESTRUCT, provides readCode for retrieving complete syntactic units and editCode for applying syntax-validated transformations to semantic program elements. Evaluated on SWE-Bench Verified across six LLMs, CODESTRUCT improves Pass@1 accuracy by 1.2-5.0% while reducing token consumption by 12-38% for most models. Models that frequently fail to produce valid patches under text-based interfaces benefit most: GPT-5-nano improves by 20.8% as empty-patch failures drop from 46.6% to 7.2%. On CodeAssistBench, we observe consistent accuracy gains (+0.8-4.4%) with cost reductions up to 33%. Our results show that structure-aware interfaces offer a more reliable foundation for code agents.",
+  "feed": "arxiv-cs-AI"
+}

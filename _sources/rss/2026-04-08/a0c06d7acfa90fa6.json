@@ -1,0 +1,7 @@
+{
+  "id": "a0c06d7acfa90fa6",
+  "title": "URSA: The Universal Research and Scientific Agent",
+  "link": "https://arxiv.org/abs/2506.22653",
+  "summary": "arXiv:2506.22653v2 Announce Type: replace \nAbstract: Large language models (LLMs) have moved far beyond their initial form as simple chatbots, now carrying out complex reasoning, planning, writing, coding, and research tasks. These skills overlap significantly with those that human scientists use day-to-day to solve complex problems that drive the cutting edge of research. Using LLMs in \\quotes{agentic} AI has the potential to revolutionize modern science and remove bottlenecks to progress. In this work, we present URSA, a scientific agent ecosystem for accelerating research tasks. URSA consists of a set of modular agents and tools, including coupling to advanced physics simulation codes, that can be combined to address scientific problems of varied complexity and impact. This work highlights the architecture of URSA, as well as examples that highlight the potential of the system.",
+  "feed": "arxiv-cs-AI"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "6cc0daeebef201bd",
+  "title": "Intelligence Inertia: Physical Isomorphism and Applications",
+  "link": "https://arxiv.org/abs/2603.22347",
+  "summary": "arXiv:2603.22347v2 Announce Type: replace-cross \nAbstract: Classical frameworks like Fisher Information approximate the cost of neural adaptation only in low-density regimes, failing to explain the explosive computational overhead incurred during deep structural reconfiguration. To address this, we introduce \\textbf{Intelligence Inertia}, a property derived from the fundamental non-commutativity between rules and states ($[\\hat{S}, \\hat{R}] = i\\mathcal{D}$). Rather than claiming a new fundamental physical law, we establish a \\textbf{heuristic mathematical isomorphism} between deep learning dynamics and Minkowski spacetime. Acting as an \\textit{effective theory} for high-dimensional tensor evolution, we derive a non-linear cost formula mirroring the Lorentz factor, predicting a relativistic $J$-shaped inflation curve -- a computational wall where classical approximations fail. We validate this framework via three experiments: (1) adjudicating the $J$-curve divergence under high-entropy noise, (2) mapping the optimal geodesic for architecture evolution, and (3) deploying an \\textbf{inertia-aware scheduler wrapper} that prevents catastrophic forgetting. Adopting this isomorphism yields an exact quantitative metric for structural resistance, advancing the stability and efficiency of intelligent agents.",
+  "feed": "arxiv-cs-LG"
+}

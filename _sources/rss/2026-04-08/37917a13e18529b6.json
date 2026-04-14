@@ -1,0 +1,7 @@
+{
+  "id": "37917a13e18529b6",
+  "title": "LLM Reasoning as Trajectories: Step-Specific Representation Geometry and Correctness Signals",
+  "link": "https://arxiv.org/abs/2604.05655",
+  "summary": "arXiv:2604.05655v1 Announce Type: cross \nAbstract: This work characterizes large language models' chain-of-thought generation as a structured trajectory through representation space. We show that mathematical reasoning traverses functionally ordered, step-specific subspaces that become increasingly separable with layer depth. This structure already exists in base models, while reasoning training primarily accelerates convergence toward termination-related subspaces rather than introducing new representational organization. While early reasoning steps follow similar trajectories, correct and incorrect solutions diverge systematically at late stages. This late-stage divergence enables mid-reasoning prediction of final-answer correctness with ROC-AUC up to 0.87. Furthermore, we introduce trajectory-based steering, an inference-time intervention framework that enables reasoning correction and length control based on derived ideal trajectories. Together, these results establish reasoning trajectories as a geometric lens for interpreting, predicting, and controlling LLM reasoning behavior.",
+  "feed": "arxiv-cs-AI"
+}

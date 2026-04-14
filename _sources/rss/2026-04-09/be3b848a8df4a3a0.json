@@ -1,0 +1,7 @@
+{
+  "id": "be3b848a8df4a3a0",
+  "title": "DietDelta: A Vision-Language Approach for Dietary Assessment via Before-and-After Images",
+  "link": "https://arxiv.org/abs/2604.06352",
+  "summary": "arXiv:2604.06352v1 Announce Type: cross \nAbstract: Accurate dietary assessment is critical for precision nutrition, yet most image-based methods rely on a single pre-consumption image and provide only coarse, meal-level estimates. These approaches cannot determine what was actually consumed and often require restrictive inputs such as depth sensing, multi-view imagery, or explicit segmentation. In this paper, we propose a simple vision-language framework for food-item-level nutritional analysis using paired before-and-after eating images. Instead of relying on rigid segmentation masks, our method leverages natural language prompts to localize specific food items and estimate their weight directly from a single RGB image. We further estimate food consumption by predicting weight differences between paired images using a two-stage training strategy. We evaluate our method on three publicly available datasets and demonstrate consistent improvements over existing approaches, establishing a strong baseline for before-and-after dietary image analysis.",
+  "feed": "arxiv-cs-AI"
+}

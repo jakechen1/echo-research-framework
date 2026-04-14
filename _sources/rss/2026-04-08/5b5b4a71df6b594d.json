@@ -1,0 +1,7 @@
+{
+  "id": "5b5b4a71df6b594d",
+  "title": "Personalized Federated Distillation Assisted Vehicle Edge Caching Strategy",
+  "link": "https://arxiv.org/abs/2512.09378",
+  "summary": "arXiv:2512.09378v2 Announce Type: replace \nAbstract: Vehicle edge caching is a promising technology that can significantly reduce the latency for vehicle users (VUs) to access content by pre-caching user-interested content at edge nodes. It is crucial to accurately predict the content that VUs are interested in without exposing their privacy. Traditional federated learning (FL) can protect user privacy by sharing models rather than raw data. However, the training of FL requires frequent model transmission, which can result in significant communication overhead. Additionally, vehicles may leave the road side unit (RSU) coverage area before training is completed, leading to training failures. To address these issues, in this paper, we propose a personalized federated distillation assisted vehicle edge caching strategy. The simulation results demonstrate that the proposed vehicle edge caching strategy has good robustness to variations in vehicle speed, significantly reducing communication overhead.",
+  "feed": "arxiv-cs-LG"
+}

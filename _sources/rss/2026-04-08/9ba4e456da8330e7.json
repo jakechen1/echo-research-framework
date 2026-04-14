@@ -1,0 +1,7 @@
+{
+  "id": "9ba4e456da8330e7",
+  "title": "$\\pi^2$: Structure-Originated Reasoning Data Improves Long-Context Reasoning Ability of Large Language Models",
+  "link": "https://arxiv.org/abs/2604.05114",
+  "summary": "arXiv:2604.05114v1 Announce Type: cross \nAbstract: We study a pipeline that curates reasoning data from initial structured data for improving long-context reasoning in large language models (LLMs). Our approach, $\\pi^2$, constructs high-quality reasoning data through rigorous QA curation: 1) extracting and expanding tables from Wikipedia, 2) from the collected tables and relevant context, generating realistic and multi-hop analytical reasoning questions whose answers are automatically determined and verified through dual-path code execution, and 3) back-translating step-by-step structured reasoning traces as solutions of QA pairs given realistic web-search context. Supervised fine-tuning with \\textsc{\\small{gpt-oss-20b}} and \\textsc{\\small{Qwen3-4B-Instruct-2507}} on $\\pi^2$ yields consistent improvements across four long-context reasoning benchmarks and our alike $\\pi^2$-Bench, with average absolute accuracy gains of +4.3% and +2.7% respectively. Notably, our dataset facilitates self-distillation, where \\textsc{\\small{gpt-oss-20b}} even improves its average performance by +4.4% with its own reasoning traces, demonstrating $\\pi^2$'s usefulness. Our code, data, and models are open-source at https://github.com/vt-pi-squared/pi-squared.",
+  "feed": "arxiv-cs-AI"
+}

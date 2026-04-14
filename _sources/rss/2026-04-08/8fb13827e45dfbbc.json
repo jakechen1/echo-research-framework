@@ -1,0 +1,7 @@
+{
+  "id": "8fb13827e45dfbbc",
+  "title": "Multi-Agent Environments for Vehicle Routing Problems",
+  "link": "https://arxiv.org/abs/2411.14411",
+  "summary": "arXiv:2411.14411v2 Announce Type: replace \nAbstract: Research on Reinforcement Learning (RL) approaches for discrete optimization problems has increased considerably, extending RL to areas classically dominated by Operations Research (OR). Vehicle routing problems are a good example of discrete optimization problems with high practical relevance, for which RL techniques have achieved notable success. Despite these advances, open-source development frameworks remain scarce, hindering both algorithm testing and objective comparison of results. This situation ultimately slows down progress in the field and limits the exchange of ideas between the RL and OR communities. Here, we propose MAEnvs4VRP library, a unified framework for multi-agent vehicle routing environments that supports classical, dynamic, stochastic, and multi-task problem variants within a single modular design. The library, built on PyTorch, provides a flexible and modular architecture design that facilitates customization and the incorporation of new routing problems. It follows the Agent Environment Cycle (\"AEC\") games model and features an intuitive API, enabling rapid adoption and seamless integration into existing reinforcement learning frameworks. The project source code can be found at https://github.com/ricgama/maenvs4vrp.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "70a4e185606fb248",
+  "title": "Illusions of Confidence? Diagnosing LLM Truthfulness via Neighborhood Consistency",
+  "link": "https://arxiv.org/abs/2601.05905",
+  "summary": "arXiv:2601.05905v2 Announce Type: replace-cross \nAbstract: As Large Language Models (LLMs) are increasingly deployed in real-world settings, correctness alone is insufficient. Reliable deployment requires maintaining truthful beliefs under contextual perturbations. Existing evaluations largely rely on point-wise confidence like Self-Consistency, which can mask brittle belief. We show that even facts answered with perfect self-consistency can rapidly collapse under mild contextual interference. To address this gap, we propose Neighbor-Consistency Belief (NCB), a structural measure of belief robustness that evaluates response coherence across a conceptual neighborhood. To validate the efficiency of NCB, we introduce a new cognitive stress-testing protocol that probes outputs stability under contextual interference. Experiments across multiple LLMs show that the performance of high-NCB data is relatively more resistant to interference. Finally, we present Structure-Aware Training (SAT), which optimizes context-invariant belief structure and reduces long-tail knowledge brittleness by approximately 30%. Code is available at https://github.com/zjunlp/belief.",
+  "feed": "arxiv-cs-AI"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "d9fa883346ab39c1",
+  "title": "Pseudo-Probability Unlearning: Efficient and Privacy-Preserving Machine Unlearning",
+  "link": "https://arxiv.org/abs/2411.02622",
+  "summary": "arXiv:2411.02622v2 Announce Type: replace \nAbstract: Machine unlearning, enabling a trained model to forget specific data, is crucial for addressing erroneous data and adhering to privacy regulations like the General Data Protection Regulation (GDPR)'s \"right to be forgotten\". Despite recent progress, existing methods face two key challenges: residual information may persist in the model even after unlearning, and the computational overhead required for effective data removal is often high. To address these issues, we propose Adaptive Probability Approximate Unlearning (AdaProb), a novel method that enables models to forget data efficiently and in a privacy-preserving manner. Our method firstly replaces the neural network's final-layer output probabilities with pseudo-probabilities for data to be forgotten. These pseudo-probabilities follow a uniform distribution to maximize unlearning, and they are optimized to align with the model's overall distribution to enhance privacy and reduce the risk of membership inference attacks. Then, the model's weights are updated accordingly. Through comprehensive experiments, our method outperforms state-of-the-art approaches with over 20% improvement in forgetting error, better protection against membership inference attacks, and less than 50% of the computational time.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "6f48e7db1daf2f0e",
+  "title": "Multi-Component VAE with Gaussian Markov Random Field",
+  "link": "https://arxiv.org/abs/2507.12165",
+  "summary": "arXiv:2507.12165v3 Announce Type: replace \nAbstract: Multi-component datasets with intricate dependencies, like industrial assemblies or multi-modal imaging, challenge current generative modeling techniques. Existing Multi-component Variational AutoEncoders typically rely on simplified aggregation strategies, neglecting critical nuances and consequently compromising structural coherence across generated components. To explicitly address this gap, we introduce the Gaussian Markov Random Field Multi-Component Variational AutoEncoder , a novel generative framework embedding Gaussian Markov Random Fields into both prior and posterior distributions. This design choice explicitly models cross-component relationships, enabling richer representation and faithful reproduction of complex interactions. Empirically, our GMRF MCVAE achieves state-of-the-art performance on a synthetic Copula dataset specifically constructed to evaluate intricate component relationships, demonstrates competitive results on the PolyMNIST benchmark, and significantly enhances structural coherence on the real-world BIKED dataset. Our results indicate that the GMRF MCVAE is especially suited for practical applications demanding robust and realistic modeling of multi-component coherence",
+  "feed": "arxiv-cs-LG"
+}

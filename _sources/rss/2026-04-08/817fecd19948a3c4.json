@@ -1,0 +1,7 @@
+{
+  "id": "817fecd19948a3c4",
+  "title": "Gradual Cognitive Externalization: From Modeling Cognition to Constituting It",
+  "link": "https://arxiv.org/abs/2604.04387",
+  "summary": "arXiv:2604.04387v2 Announce Type: cross \nAbstract: Developers are publishing AI agent skills that replicate a colleague's communication style, encode a supervisor's mentoring heuristics, or preserve a person's behavioral repertoire beyond biological death. To explain why, we propose Gradual Cognitive Externalization (GCE), a framework arguing that ambient AI systems, through sustained causal coupling with users, transition from modeling cognitive functions to constituting part of users' cognitive architectures. GCE adopts an explicit functionalist commitment: cognitive functions are individuated by their causal-functional roles, not by substrate. The framework rests on the behavioral manifold hypothesis and a central falsifiable assumption, the no behaviorally invisible residual (NBIR) hypothesis: for any cognitive function whose behavioral output lies on a learnable manifold, no behaviorally invisible component is necessary for that function's operation. We document evidence from deployed AI systems showing that externalization preconditions are already observable, formalize three criteria separating cognitive integration from tool use (bidirectional adaptation, functional equivalence, causal coupling), and derive five testable predictions with theory-constrained thresholds.",
+  "feed": "arxiv-cs-LG"
+}

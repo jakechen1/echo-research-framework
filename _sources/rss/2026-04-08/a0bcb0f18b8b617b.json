@@ -1,0 +1,7 @@
+{
+  "id": "a0bcb0f18b8b617b",
+  "title": "Better Together: Cross and Joint Covariances Enhance Signal Detectability in Undersampled Data",
+  "link": "https://arxiv.org/abs/2507.22207",
+  "summary": "arXiv:2507.22207v2 Announce Type: replace-cross \nAbstract: Many data-science applications involve detecting a shared signal between two high-dimensional variables. Using random matrix theory methods, we determine when such signal can be detected and reconstructed from sample correlations, despite the background of sampling noise induced correlations. We consider three different covariance matrices constructed from two high-dimensional variables: their individual self covariance, their cross covariance, and the self covariance of the concatenated (joint) variable, which incorporates the self and the cross correlation blocks. We observe the expected Baik, Ben Arous, and P\\'ech\\'e detectability phase transition in all these covariance matrices, and we show that joint and cross covariance matrices always reconstruct the shared signal earlier than the self covariances. Whether the joint or the cross approach is better depends on the mismatch of dimensionalities between the variables. We discuss what these observations mean for choosing the right method for detecting linear correlations in data and how these findings may generalize to nonlinear statistical dependencies.",
+  "feed": "arxiv-cs-LG"
+}

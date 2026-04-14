@@ -1,0 +1,7 @@
+{
+  "id": "13e337171904e01a",
+  "title": "Safe and Near-Optimal Gate Control: A Case Study from the Danish West Coast",
+  "link": "https://arxiv.org/abs/2604.04545",
+  "summary": "arXiv:2604.04545v1 Announce Type: cross \nAbstract: Ringkoebing Fjord is an inland water basin on the Danish west coast separated from the North Sea by a set of gates used to control the amount of water entering and leaving the fjord. Currently, human operators decide when and how many gates to open or close for controlling the fjord's water level, with the goal to satisfy a range of conflicting safety and performance requirements such as keeping the water level in a target range, allowing maritime traffic, and enabling fish migration. Uppaal Stratego. We then use this digital twin along with forecasts of the sea level and the wind speed to learn a gate controller in an online fashion. We evaluate the learned controllers under different sea-level scenarios, representing normal tidal behavior, high waters, and low waters. Our evaluation demonstrates that, unlike a baseline controller, the learned controllers satisfy the safety requirements, while performing similarly regarding the other requirements.",
+  "feed": "arxiv-cs-LG"
+}

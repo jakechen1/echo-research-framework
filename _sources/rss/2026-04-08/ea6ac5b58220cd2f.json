@@ -1,0 +1,7 @@
+{
+  "id": "ea6ac5b58220cd2f",
+  "title": "A Logical-Rule Autoencoder for Interpretable Recommendations",
+  "link": "https://arxiv.org/abs/2604.04270",
+  "summary": "arXiv:2604.04270v1 Announce Type: cross \nAbstract: Most deep learning recommendation models operate as black boxes, relying on latent representations that obscure their decision process. This lack of intrinsic interpretability raises concerns in applications that require transparency and accountability. In this work, we propose a Logical-rule Interpretable Autoencoder (LIA) for collaborative filtering that is interpretable by design. LIA introduces a learnable logical rule layer in which each rule neuron is equipped with a gate parameter that automatically selects between AND and OR operators during training, enabling the model to discover diverse logical patterns directly from data. To support functional completeness without doubling the input dimensionality, LIA encodes negation through the sign of connection weights, providing a parameter-efficient mechanism for expressing both positive and negated item conditions within each rule. By learning explicit, human-readable reconstruction rules, LIA allows users to directly trace the decision process behind each recommendation. Extensive experiments show that our method achieves improved recommendation performance over traditional baselines while remaining fully interpretable. Code and data are available at https://github.com/weibowen555/LIA.",
+  "feed": "arxiv-cs-LG"
+}

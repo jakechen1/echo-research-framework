@@ -1,0 +1,7 @@
+{
+  "id": "1464943f0f88b4bf",
+  "title": "Metriplector: From Field Theory to Neural Architecture",
+  "link": "https://arxiv.org/abs/2603.29496",
+  "summary": "arXiv:2603.29496v2 Announce Type: replace-cross \nAbstract: We present Metriplector, a neural architecture primitive in which the input configures an abstract physical system -- fields, sources, and operators -- and the dynamics of that system is the computation. Multiple fields evolve via coupled metriplectic dynamics, and the stress-energy tensor T^{\\mu\\nu}, derived from Noether's theorem, provides the readout. The metriplectic formulation admits a natural spectrum of instantiations: the dissipative branch alone yields a screened Poisson equation solved exactly via conjugate gradient; activating the full structure -- including the antisymmetric Poisson bracket -- gives field dynamics for image recognition, language modeling, and robotic control. We evaluate Metriplector across five domains, each using a task-specific architecture built from this shared primitive with progressively richer physics: 81.03% on CIFAR-100 with 2.26M parameters; 88% CEM success on Reacher robotic control with under 1M parameters; 97.2% exact Sudoku solve rate with zero structural injection; 1.182 bits/byte on language modeling with 3.6x fewer training tokens than a GPT baseline; and F1=1.0 on maze pathfinding, generalizing from 15x15 training grids to unseen 39x39 grids.",
+  "feed": "arxiv-cs-LG"
+}

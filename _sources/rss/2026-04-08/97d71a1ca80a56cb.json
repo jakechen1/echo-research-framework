@@ -1,0 +1,7 @@
+{
+  "id": "97d71a1ca80a56cb",
+  "title": "Hazmat: OS-level containment for AI coding agents on macOS",
+  "link": "https://github.com/dredozubov/hazmat",
+  "summary": "<p>Blog post with the full write-up and threat model: <a href=\"https://codeofchange.io/how-i-made-dangerously-skip-permissions-safe-in-claude-code/\" rel=\"ugc\">https://codeofchange.io/how-i-made-dangerously-skip-permissions-safe-in-claude-code/</a></p>\n<p><a href=\"https://lobste.rs/s/exrybd/hazmat_os_level_containment_for_ai_coding\">Comments</a></p>",
+  "feed": "lobsters-ai"
+}

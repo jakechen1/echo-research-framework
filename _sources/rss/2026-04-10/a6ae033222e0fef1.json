@@ -1,0 +1,7 @@
+{
+  "id": "a6ae033222e0fef1",
+  "title": "Biomimetic causal learning for microstructure-forming phase transitions",
+  "link": "https://arxiv.org/abs/2603.29184",
+  "summary": "arXiv:2603.29184v2 Announce Type: replace \nAbstract: Nonconvex multi-well energies in cell-induced phase transitions give rise to fine-scale microstructures, low-regularity transition layers and sharp interfaces, all of which pose numerical challenges for physics-informed learning. To address this, we propose biomimetic physics-informed neural networks (Bio-PINNs) for cell-induced phase transitions in fibrous extracellular matrices. The method converts the outward progression of cell-mediated remodelling into a distance-based training curriculum and couples it to uncertainty-driven collocation that concentrates samples near evolving interfaces and tether-forming regions. The same uncertainty proxy provides a lower-cost alternative to explicit second-derivative regularization. We also establish structural guarantees for the adaptive sampler, including persistent coverage under gate expansion and quantitative near-to-far accumulation. Across single- and multi-cell benchmarks, diverse separations, and various regularization regimes, Bio-PINNs consistently recover sharp transition layers and tether morphologies, significantly outperforming state-of-the-art adaptive and ungated baselines.",
+  "feed": "arxiv-cs-LG"
+}

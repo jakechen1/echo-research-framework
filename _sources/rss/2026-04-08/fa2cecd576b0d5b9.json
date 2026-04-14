@@ -1,0 +1,7 @@
+{
+  "id": "fa2cecd576b0d5b9",
+  "title": "Learning An Interpretable Risk Scoring System for Maximizing Decision Net Benefit",
+  "link": "https://arxiv.org/abs/2604.04241",
+  "summary": "arXiv:2604.04241v1 Announce Type: new \nAbstract: Risk scoring systems are widely used in high-stakes domains to assist decision-making. However, existing approaches often focus on optimizing predictive accuracy or likelihood-based criteria, which may not align with the main goal of maximizing utility. In this paper, we propose a novel risk scoring system that directly optimizes net benefit over a range of decision thresholds. The model is formulated as a sparse integer linear programming problem which enables the construction of a transparent scoring system with integer coefficients, and hence, facilitates interpretation and practical application. We also establish fundamental relationships among net benefit, discrimination, and calibration. Our analysis proves that optimizing net benefit also guarantees conventional performance measures. We thoroughly evaluated our method on multiple public datasets as well as on a real-world clinical dataset. This computational study demonstrated that our interpretable method can effectively achieve high net benefit while maintaining competitive discrimination and calibration performance.",
+  "feed": "arxiv-cs-LG"
+}

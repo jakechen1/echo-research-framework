@@ -1,0 +1,7 @@
+{
+  "id": "83dfdfc64c320227",
+  "title": "CellFluxRL: Biologically-Constrained Virtual Cell Modeling via Reinforcement Learning",
+  "link": "https://arxiv.org/abs/2603.21743",
+  "summary": "arXiv:2603.21743v3 Announce Type: replace \nAbstract: Building virtual cells with generative models to simulate cellular behavior in silico is emerging as a promising paradigm for accelerating drug discovery. However, prior image-based generative approaches can produce implausible cell images that violate basic physical and biological constraints. To address this, we propose to post-train virtual cell models with reinforcement learning (RL), leveraging biologically meaningful evaluators as reward functions. We design seven rewards spanning three categories-biological function, structural validity, and morphological correctness-and optimize the state-of-the-art CellFlux model to yield CellFluxRL. CellFluxRL consistently improves over CellFlux across all rewards, with further performance boosts from test-time scaling. Overall, our results present a virtual cell modeling framework that enforces physically-based constraints through RL, advancing beyond \"visually realistic\" generations towards \"biologically meaningful\" ones.",
+  "feed": "arxiv-cs-LG"
+}

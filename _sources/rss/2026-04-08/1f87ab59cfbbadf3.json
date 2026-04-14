@@ -1,0 +1,7 @@
+{
+  "id": "1f87ab59cfbbadf3",
+  "title": "First-Mover Bias in Gradient Boosting Explanations: Mechanism, Detection, and Resolution",
+  "link": "https://arxiv.org/abs/2603.22346",
+  "summary": "arXiv:2603.22346v2 Announce Type: replace-cross \nAbstract: We identify first-mover bias -- path-dependent concentration of SHAP feature importance from sequential residual fitting in gradient boosting -- as a mechanistic contributor to attribution instability under multicollinearity. Scaling up a single model amplifies this effect: a Large Single Model matching our method's total tree count produces the poorest attribution reproducibility of any approach tested.\n  We show that model independence largely neutralizes first-mover bias. Both DASH (Diversified Aggregation of SHAP) and simple seed-averaging (Stochastic Retrain) restore stability by breaking the sequential dependency chain. At rho=0.9, both achieve stability ~0.977, while Single Best degrades to 0.958 and LSM to 0.938. On Breast Cancer, DASH improves stability from 0.376 to 0.925 (+0.549), outperforming Stochastic Retrain by +0.063. Under nonlinear DGPs, the advantage emerges at rho>=0.7.\n  DASH provides two diagnostic tools -- the Feature Stability Index and Importance-Stability Plot -- that detect first-mover bias without ground truth. A crossed ANOVA with formal F-statistics confirms the mechanism: DASH shifts variance from model-dominated (40.6%) to data-dominated (73.6%). Software at https://github.com/DrakeCaraker/dash-shap",
+  "feed": "arxiv-cs-AI"
+}

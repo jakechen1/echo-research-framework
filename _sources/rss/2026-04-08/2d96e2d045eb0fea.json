@@ -1,0 +1,7 @@
+{
+  "id": "2d96e2d045eb0fea",
+  "title": "Nested tree space: a geometric framework for co-phylogeny",
+  "link": "https://arxiv.org/abs/2604.05056",
+  "summary": "arXiv:2604.05056v1 Announce Type: cross \nAbstract: Nested (or reconciled) phylogenetic trees model co-evolutionary systems in which one evolutionary history is embedded within another. We introduce a geometric framework for such systems by defining $\\sigma$-space, a moduli space of fully nested ultrametric phylogenetic trees with a fixed leaf map.\n  Generalizing the $\\tau$-space of Gavryushkin and Drummond, $\\sigma$-space is constructed as a cubical complex parametrised by nested ranked tree topologies and inter-event time coordinates of the combined host and parasite speciation events. We characterise admissible orderings via binary \\textit{nesting sequences} and organise them into a natural poset. We show that $\\sigma$-space is contractible and satisfies Gromov's cube condition, and is therefore CAT(0). In particular, it admits unique geodesics and well-defined Fr\\'echet means. We further describe its geometric structure, including boundary strata corresponding to cospeciation events, and relate it to products of ultrametric tree spaces via natural forgetful maps.",
+  "feed": "arxiv-q-bio"
+}

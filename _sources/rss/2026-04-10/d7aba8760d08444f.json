@@ -1,0 +1,7 @@
+{
+  "id": "d7aba8760d08444f",
+  "title": "CausalVAE as a Plug-in for World Models: Towards Reliable Counterfactual Dynamics",
+  "link": "https://arxiv.org/abs/2604.07712",
+  "summary": "arXiv:2604.07712v1 Announce Type: new \nAbstract: In this work, CausalVAE is introduced as a plug-in structural module for latent world models and is attached to diverse encoder-transition backbones. Across the reported benchmarks, competitive factual prediction is preserved and intervention-aware counterfactual retrieval is improved after the plug-in is added, suggesting stronger robustness under distribution shift and interventions. The largest gains are observed on the Physics benchmark: when averaged over 8 paired baselines, CF-H@1 is improved by +102.5%. In a representative GNN-NLL setting on Physics, CF-H@1 is increased from 11.0 to 41.0 (+272.7%). Through causal analysis, learned structural dependencies are shown to recover meaningful first-order physical interaction trends, supporting the interpretability of the learned latent causal structure.",
+  "feed": "arxiv-cs-LG"
+}

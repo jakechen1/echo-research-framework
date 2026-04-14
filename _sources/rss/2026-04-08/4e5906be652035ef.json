@@ -1,0 +1,7 @@
+{
+  "id": "4e5906be652035ef",
+  "title": "The Thiomi Dataset: A Large-Scale Multimodal Corpus for Low-Resource African Languages",
+  "link": "https://arxiv.org/abs/2603.29244",
+  "summary": "arXiv:2603.29244v2 Announce Type: replace-cross \nAbstract: We present the Thiomi Dataset, a large-scale multimodal corpus spanning ten African languages across four language families: Swahili, Kikuyu, Kamba, Kimeru, Luo, Maasai, Kipsigis, Somali (East Africa); Wolof (West Africa); and Fulani (West/Central Africa). The dataset contains over 601,000 approved sentence-level text annotations and over 385,000 audio recordings, collected through a dedicated community data collection platform involving over 100 contributors. To validate the dataset's utility, we train and evaluate ASR, MT, and TTS models, establishing baselines across all languages. Our best ASR system achieves 3.24% WER on Swahili (Common Voice), reducing prior academic SOTA from 8.3% to 3.24% (5.1 percentage point absolute, 61% relative reduction), and 4.3% WER on Somali. The dataset will be published on HuggingFace. We describe the collection platform, quality assurance workflows, and baseline experiments, and discuss implications for African language technology infrastructure.",
+  "feed": "arxiv-cs-LG"
+}

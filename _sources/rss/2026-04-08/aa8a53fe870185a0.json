@@ -1,0 +1,7 @@
+{
+  "id": "aa8a53fe870185a0",
+  "title": "Smart Paste: Automatically Fixing Copy/Paste for Google Developers",
+  "link": "https://arxiv.org/abs/2510.03843",
+  "summary": "arXiv:2510.03843v3 Announce Type: replace-cross \nAbstract: Manually editing pasted code is a long-standing developer pain point. In internal software development at Google, we observe that code is pasted 4 times more often than it is manually typed. These paste actions frequently require follow-up edits, ranging from simple reformatting and renaming to more complex style adjustments and cross-language translations. Prior work has shown deep learning can be used to predict these edits. In this work, we show how to iteratively develop and scale Smart Paste, an IDE feature for post-paste edit suggestions, to Google's development environment. This experience can serve as a guide for AI practitioners on a holistic approach to feature development, covering user experience, system integration, and model capabilities. Since deployment, Smart Paste has had overwhelmingly positive feedback with a 45% acceptance rate. At Google's enterprise scale, these accepted suggestions account substantially for over 1% of all code written company-wide.",
+  "feed": "arxiv-cs-LG"
+}

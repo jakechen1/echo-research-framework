@@ -1,0 +1,7 @@
+{
+  "id": "98825cd195496e03",
+  "title": "Harf-Speech: A Clinically Aligned Framework for Arabic Phoneme-Level Speech Assessment",
+  "link": "https://arxiv.org/abs/2604.06191",
+  "summary": "arXiv:2604.06191v1 Announce Type: cross \nAbstract: Automated phoneme-level pronunciation assessment is vital for scalable speech therapy and language learning, yet validated tools for Arabic remain scarce. We present Harf-Speech, a modular system scoring Arabic pronunciation at the phoneme level on a clinical scale. It combines an MSA phonetizer, a fine-tuned speech-to-phoneme model, Levenshtein alignment, and a blended scorer using longest common subsequence and edit-distance metrics. We fine-tune three ASR architectures on Arabic phoneme data and benchmark them with zero-shot multimodal models; the best, OmniASR-CTC-1B-v2, achieves 8.92\\% phoneme error rate. Three certified speech-language pathologists independently scored 40 utterances for clinical validation. Harf-Speech attains a Pearson correlation of 0.791 and ICC(2,1) of 0.659 with mean expert scores, outperforming existing end-to-end assessment frameworks. These results show Harf-Speech yields clinically aligned, interpretable scores comparable to inter-rater expert agreement.",
+  "feed": "arxiv-cs-AI"
+}

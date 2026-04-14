@@ -1,0 +1,7 @@
+{
+  "id": "be6c677a922a7ba4",
+  "title": "Representational Collapse in Multi-Agent LLM Committees: Measurement and Diversity-Aware Consensus",
+  "link": "https://arxiv.org/abs/2604.03809",
+  "summary": "arXiv:2604.03809v1 Announce Type: new \nAbstract: Multi-agent LLM committees replicate the same model under different role prompts and aggregate outputs by majority vote, implicitly assuming that agents contribute complementary evidence. We embed each agent's chain-of-thought rationale and measure pairwise similarity: across 100 GSM8K questions with three Qwen2.5-14B agents, mean cosine similarity is 0.888 and effective rank is 2.17 out of 3.0, a failure mode we term representational collapse. DALC, a training-free consensus protocol that computes diversity weights from embedding geometry, reaches 87% on GSM8K versus 84% for self-consistency at 26% lower token cost. Ablation experiments reveal 1-3 point per-protocol run-to-run variance, confirm that hint sharing contributes more than diversity weighting alone, and show that encoder choice strongly modulates collapse severity (cosine 0.908 with mxbai versus 0.888 with nomic) and downstream accuracy. The more robust finding is that collapse is measurable, worsens on harder tasks, and that the choice of embedding proxy is a first-order design decision for any latent communication protocol.",
+  "feed": "arxiv-cs-LG"
+}

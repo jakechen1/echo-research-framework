@@ -1,0 +1,7 @@
+{
+  "id": "9bdf1268f58f53e3",
+  "title": "Luwen Technical Report",
+  "link": "https://arxiv.org/abs/2604.06737",
+  "summary": "arXiv:2604.06737v1 Announce Type: cross \nAbstract: Large language models have demonstrated remarkable capabilities across a wide range of natural language processing tasks, yet their application in the legal domain remains challenging due to the specialized terminology, complex reasoning requirements, and rapidly evolving legal knowledge involved. In this paper, we present Luwen, an open-source Chinese legal language model built upon the Baichuan foundation model through three key techniques: continual pre-training on a large-scale legal corpus, supervised fine-tuning with carefully curated legal instruction data, and retrieval-augmented generation integrated with a comprehensive legal knowledge base. We evaluate Luwen on five representative legal tasks spanning both prediction and generation settings, including legal judgment prediction, judicial examination, legal text summarization, law article question answering, and judicial decision reasoning. Experimental results show that Luwen outperforms several strong baselines, demonstrating the effectiveness of our approach in adapting general-purpose language models to the legal domain.",
+  "feed": "arxiv-cs-AI"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "327c1982a388975b",
+  "title": "NativQA Framework: Enabling LLMs and VLMs with Native, Local, and Everyday Knowledge",
+  "link": "https://arxiv.org/abs/2504.05995",
+  "summary": "arXiv:2504.05995v3 Announce Type: replace-cross \nAbstract: The rapid progress of large language models (LLMs) raises concerns about cultural bias, fairness, and performance in diverse languages and underrepresented regions. Addressing these gaps requires large-scale resources grounded in multilingual, local, and cultural contexts. We systematize and extend the earlier NativQA framework to multimodality by adding image, audio, and video support, enabling scalable construction of culturally and regionally aligned QA datasets in native languages. Given user-defined seed queries, the framework uses search engines to collect location-specific everyday information. We evaluate it across 39 locations in 24 countries and 7 languages, spanning extremely low-resource to high-resource settings, and collect over $\\sim$300K text QA pairs, $\\sim$312K images, and $\\sim$29K videos with associated audio. The developed resources can be used for LLMs benchmarking and further fine-tuning. The framework has been made publicly available for the community (https://gitlab.com/nativqa/nativqa-framework). Demo video is available here: \\href{https://shorturl.at/DAVn9}{https://shorturl.at/DAVn9}.",
+  "feed": "arxiv-cs-AI"
+}

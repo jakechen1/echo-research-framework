@@ -1,0 +1,7 @@
+{
+  "id": "6145ee5c9f76c9ea",
+  "title": "Causal Discovery in Action: Learning Chain-Reaction Mechanisms from Interventions",
+  "link": "https://arxiv.org/abs/2603.22620",
+  "summary": "arXiv:2603.22620v2 Announce Type: replace \nAbstract: Causal discovery is challenging in general dynamical systems because, without strong structural assumptions, the underlying causal graph may not be identifiable even from interventional data. However, many real-world systems exhibit directional, cascade-like structure, in which components activate sequentially and upstream failures suppress downstream effects. We study causal discovery in such chain-reaction systems and show that the causal structure is uniquely identifiable from blocking interventions that prevent individual components from activating. We propose a minimal estimator with finite-sample guarantees, achieving exponential error decay and logarithmic sample complexity. Experiments on synthetic models and diverse chain-reaction environments demonstrate reliable recovery from a few interventions, while observational heuristics fail in regimes with delayed or overlapping causal effects.",
+  "feed": "arxiv-cs-LG"
+}

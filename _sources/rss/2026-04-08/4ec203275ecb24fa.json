@@ -1,0 +1,7 @@
+{
+  "id": "4ec203275ecb24fa",
+  "title": "Spectral Path Regression: Directional Chebyshev Harmonics for Interpretable Tabular Learning",
+  "link": "https://arxiv.org/abs/2604.04091",
+  "summary": "arXiv:2604.04091v1 Announce Type: new \nAbstract: Classical approximation bases such as Chebyshev polynomials provide principled and interpretable representations, but their multivariate tensor-product constructions scale exponentially with dimension and impose axis-aligned structure that is poorly matched to real tabular data. We address this by replacing tensorised oscillations with directional harmonic modes of the form $\\cos(\\mathbf{m}^{\\top}\\arccos(\\mathbf{x}))$, which organise multivariate structure by direction in angular space rather than by coordinate index. This representation yields a discrete spectral regression model in which complexity is controlled by selecting a small number of structured frequency vectors (spectral paths), and training reduces to a single closed-form ridge solve with no iterative optimisation. Experiments on standard continuous-feature tabular regression benchmarks show that the resulting models achieve accuracy competitive with strong nonlinear baselines while remaining compact, computationally efficient, and explicitly interpretable through analytic expressions of learned feature interactions.",
+  "feed": "arxiv-cs-LG"
+}

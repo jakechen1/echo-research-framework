@@ -1,0 +1,7 @@
+{
+  "id": "eafff9ced1e3640c",
+  "title": "Entropy, Disagreement, and the Limits of Foundation Models in Genomics",
+  "link": "https://arxiv.org/abs/2604.04287",
+  "summary": "arXiv:2604.04287v1 Announce Type: new \nAbstract: Foundation models in genomics have shown mixed success compared to their counterparts in natural language processing. Yet, the reasons for their limited effectiveness remain poorly understood. In this work, we investigate the role of entropy as a fundamental factor limiting the capacities of such models to learn from their training data and develop foundational capabilities. We train ensembles of models on text and DNA sequences and analyze their predictions, static embeddings, and empirical Fisher information flow. We show that the high entropy of genomic sequences -- from the point of view of unseen token prediction -- leads to near-uniform output distributions, disagreement across models, and unstable static embeddings, even for models that are matched in architecture, training and data. We then demonstrate that models trained on DNA concentrate Fisher information in embedding layers, seemingly failing to exploit inter-token relationships. Our results suggest that self-supervised training from sequences alone may not be applicable to genomic data, calling into question the assumptions underlying current methodologies for training genomic foundation models.",
+  "feed": "arxiv-cs-LG"
+}

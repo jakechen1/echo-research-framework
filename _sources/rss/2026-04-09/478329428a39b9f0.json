@@ -1,0 +1,7 @@
+{
+  "id": "478329428a39b9f0",
+  "title": "Team Fusion@ SU@ BC8 SympTEMIST track: transformer-based approach for symptom recognition and linking",
+  "link": "https://arxiv.org/abs/2604.06424",
+  "summary": "arXiv:2604.06424v1 Announce Type: cross \nAbstract: This paper presents a transformer-based approach to solving the SympTEMIST named entity recognition (NER) and entity linking (EL) tasks. For NER, we fine-tune a RoBERTa-based (1) token-level classifier with BiLSTM and CRF layers on an augmented train set. Entity linking is performed by generating candidates using the cross-lingual SapBERT XLMR-Large (2), and calculating cosine similarity against a knowledge base. The choice of knowledge base proves to have the highest impact on model accuracy.",
+  "feed": "arxiv-cs-AI"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "5472bc4bb8d9765e",
+  "title": "Intelligent Traffic Monitoring with YOLOv11: A Case Study in Real-Time Vehicle Detection",
+  "link": "https://arxiv.org/abs/2604.04080",
+  "summary": "arXiv:2604.04080v1 Announce Type: cross \nAbstract: Recent advancements in computer vision, driven by artificial intelligence, have significantly enhanced monitoring systems. One notable application is traffic monitoring, which leverages computer vision alongside deep learning-based object detection and counting. We present an offline, real-time traffic monitoring system that couples a pre-trained YOLOv11 detector with BoT-SORT/ByteTrack for multi-object tracking, implemented in PyTorch/OpenCV and wrapped in a Qt-based desktop UI. The CNN pipeline enables efficient vehicle detection and counting from video streams without cloud dependencies. Across diverse scenes, the system achieves (66.67-95.83%) counting accuracy. Class-wise detection yields high precision (cars: 0.97-1.00; trucks: 1.00) with strong recall (cars: 0.82-1.00; trucks: 0.70-1.00), resulting in F1 scores of (0.90-1.00 for cars and 0.82-1.00 for trucks). While adverse weather conditions may negatively impact this performance, results remain robust in typical conditions. By integrating lightweight models with an accessible, cloud-independent interface, this paper contributes to the modernization and development of future smart cities by showing the capacity of AI-driven traffic monitoring systems.",
+  "feed": "arxiv-cs-LG"
+}

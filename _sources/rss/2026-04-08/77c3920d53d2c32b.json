@@ -1,0 +1,7 @@
+{
+  "id": "77c3920d53d2c32b",
+  "title": "A Robust SINDy Autoencoder for Noisy Dynamical System Identification",
+  "link": "https://arxiv.org/abs/2604.04829",
+  "summary": "arXiv:2604.04829v1 Announce Type: cross \nAbstract: Sparse identification of nonlinear dynamics (SINDy) has been widely used to discover the governing equations of a dynamical system from data. It uses sparse regression techniques to identify parsimonious models of unknown systems from a library of candidate functions. Therefore, it relies on the assumption that the dynamics are sparsely represented in the coordinate system used. To address this limitation, one seeks a coordinate transformation that provides reduced coordinates capable of reconstructing the original system. Recently, SINDy autoencoders have extended this idea by combining sparse model discovery with autoencoder architectures to learn simplified latent coordinates together with parsimonious governing equations. A central challenge in this framework is robustness to measurement error. Inspired by noise-separating neural network structures, we incorporate a noise-separation module into the SINDy autoencoder architecture, thereby improving robustness and enabling more reliable identification of noisy dynamical systems. Numerical experiments on the Lorenz system show that the proposed method recovers interpretable latent dynamics and accurately estimates the measurement noise from noisy observations.",
+  "feed": "arxiv-cs-LG"
+}

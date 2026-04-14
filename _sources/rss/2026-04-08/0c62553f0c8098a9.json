@@ -1,0 +1,7 @@
+{
+  "id": "0c62553f0c8098a9",
+  "title": "SLaB: Sparse-Lowrank-Binary Decomposition for Efficient Large Language Models",
+  "link": "https://arxiv.org/abs/2604.04493",
+  "summary": "arXiv:2604.04493v1 Announce Type: new \nAbstract: The rapid growth of large language models (LLMs) presents significant deployment challenges due to their massive computational and memory demands. While model compression, such as network pruning, offers potential solutions, most existing methods often fail to maintain good performance at high compression ratios. To address this, we propose SLaB, a novel framework that decomposes each linear layer weight into three complementary components: a sparse matrix, a low-rank matrix, and a binary matrix. SLaB eliminates the need for retraining and leverages activation-aware pruning scores to guide the decomposition process. Experiments on Llama-family models demonstrate that SLaB achieves state-of-the-art performance, reducing perplexity by up to 36% compared to existing methods at 50% compression and improving accuracy by up to 8.98% over the baseline on zero-shot tasks.",
+  "feed": "arxiv-cs-LG"
+}

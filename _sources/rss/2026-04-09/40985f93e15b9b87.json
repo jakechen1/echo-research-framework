@@ -1,0 +1,7 @@
+{
+  "id": "40985f93e15b9b87",
+  "title": "Multi-objective Evolutionary Merging Enables Efficient Reasoning Models",
+  "link": "https://arxiv.org/abs/2604.06465",
+  "summary": "arXiv:2604.06465v1 Announce Type: cross \nAbstract: Reasoning models have demonstrated remarkable capabilities in solving complex problems by leveraging long chains of thought. However, this more deliberate reasoning comes with substantial computational overhead at inference time. The Long-to-Short (L2S) reasoning problem seeks to maintain high accuracy using fewer tokens, but current training-free model merging approaches rely on scalarized, fixed-hyperparameter arithmetic methods that are highly brittle and force suboptimal compromises. To address this gap, we introduce Evo-L2S, a novel framework that formulates L2S reasoning as a multi-objective optimization challenge. By leveraging evolutionary model merging, Evo-L2S explicitly optimizes the trade-off between accuracy and output length to produce a robust Pareto front of merged models. To make this search computationally tractable for large language models, we propose an entropy-based subset sampling technique that drastically reduces the overhead of fitness estimation. Comprehensive experiments across 1.5B, 7B, and 14B parameter scales on six mathematical reasoning benchmarks demonstrate that Evo-L2S can reduce the length of generated reasoning traces by over 50% while preserving, or even improving, the problem-solving accuracy of the original reasoning models.",
+  "feed": "arxiv-cs-AI"
+}

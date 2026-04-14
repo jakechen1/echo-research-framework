@@ -1,0 +1,7 @@
+{
+  "id": "0d6300306c1e2901",
+  "title": "Agora: Teaching the Skill of Consensus-Finding with AI Personas Grounded in Human Voice",
+  "link": "https://arxiv.org/abs/2603.07339",
+  "summary": "arXiv:2603.07339v3 Announce Type: replace-cross \nAbstract: Deliberative democratic theory suggests that civic competence: the capacity to navigate disagreement, weigh competing values, and arrive at collective decisions is not innate but developed through practice. Yet opportunities to cultivate these skills remain limited, as traditional deliberative processes like citizens' assemblies reach only a small fraction of the population. We present Agora, an AI-powered platform that uses LLMs to organize authentic human voices on policy issues, helping users build consensus-finding skills by proposing and revising policy recommendations, hearing supporting and opposing perspectives, and receiving feedback on how policy changes affect predicted support. In a preliminary study with 44 university students, access to the full interface with voice explanations, as opposed to aggregate support distributions alone, significantly improved self-reported perspective-taking and the extent to which statements acknowledged multiple viewpoints. These findings point toward a promising direction for scaling civic education.",
+  "feed": "arxiv-cs-AI"
+}

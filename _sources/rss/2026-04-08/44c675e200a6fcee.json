@@ -1,0 +1,7 @@
+{
+  "id": "44c675e200a6fcee",
+  "title": "R\\'enyi Attention Entropy for Patch Pruning",
+  "link": "https://arxiv.org/abs/2604.03803",
+  "summary": "arXiv:2604.03803v1 Announce Type: cross \nAbstract: Transformers are strong baselines in both vision and language because self-attention captures long-range dependencies across tokens. However, the cost of self-attention grows quadratically with the number of tokens. Patch pruning mitigates this cost by estimating per-patch importance and removing redundant patches. To identify informative patches for pruning, we introduce a criterion based on the Shannon entropy of the attention distribution. Low-entropy patches, which receive selective and concentrated attention, are kept as important, while high-entropy patches with attention spread across many locations are treated as redundant. We also extend the criterion from Shannon to R\\'enyi entropy, which emphasizes sharp attention peaks and supports pruning strategies that adapt to task needs and computational limits. In experiments on fine-grained image recognition, where patch selection is critical, our method reduced computation while preserving accuracy. Moreover, adjusting the pruning policy through the R\\'enyi entropy measure yields further gains and improves the trade-off between accuracy and computation.",
+  "feed": "arxiv-cs-LG"
+}

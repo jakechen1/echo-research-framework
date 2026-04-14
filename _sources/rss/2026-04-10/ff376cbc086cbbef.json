@@ -1,0 +1,7 @@
+{
+  "id": "ff376cbc086cbbef",
+  "title": "The Role of Emotional Stimuli and Intensity in Shaping Large Language Model Behavior",
+  "link": "https://arxiv.org/abs/2604.07369",
+  "summary": "arXiv:2604.07369v1 Announce Type: new \nAbstract: Emotional prompting - the use of specific emotional diction in prompt engineering - has shown increasing promise in improving large language model (LLM) performance, truthfulness, and responsibility. However these studies have been limited to single types of positive emotional stimuli and have not considered varying degrees of emotion intensity in their analyses. In this paper, we explore the effects of four distinct emotions - joy, encouragement, anger, and insecurity - in emotional prompting and evaluate them on accuracy, sycophancy, and toxicity. We develop a prompt-generation pipeline with GPT-4o mini to create a suite of LLM and human-generated prompts with varying intensities across the four emotions. Then, we compile a \"Gold Dataset\" of prompts where human and model labels align. Our empirical evaluation on LLM behavior suggests that positive emotional stimuli lead to more accurate and less toxic results, but also increase sycophantic behavior.",
+  "feed": "arxiv-cs-LG"
+}

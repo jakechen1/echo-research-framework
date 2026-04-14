@@ -1,0 +1,7 @@
+{
+  "id": "22d9bc566e20a2cf",
+  "title": "Busemann energy-based attention for emotion analysis in Poincar\\'e discs",
+  "link": "https://arxiv.org/abs/2604.06752",
+  "summary": "arXiv:2604.06752v1 Announce Type: new \nAbstract: We present EmBolic - a novel fully hyperbolic deep learning architecture for fine-grained emotion analysis from textual messages. The underlying idea is that hyperbolic geometry efficiently captures hierarchies between both words and emotions. In our context, these hierarchical relationships arise from semantic ambiguities. EmBolic aims to infer the curvature on the continuous space of emotions, rather than treating them as a categorical set without any metric structure. In the heart of our architecture is the attention mechanism in the hyperbolic disc. The model is trained to generate queries (points in the hyperbolic disc) from textual messages, while keys (points at the boundary) emerge automatically from the generated queries. Predictions are based on the Busemann energy between queries and keys, evaluating how well a certain textual message aligns with the class directions representing emotions. Our experiments demonstrate strong generalization properties and reasonably good prediction accuracy even for small dimensions of the representation space. Overall, this study supports our claim that affective computing is one of the application domains where hyperbolic representations are particularly advantageous.",
+  "feed": "arxiv-cs-LG"
+}

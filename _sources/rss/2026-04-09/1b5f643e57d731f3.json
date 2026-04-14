@@ -1,0 +1,7 @@
+{
+  "id": "1b5f643e57d731f3",
+  "title": "VertAX: a differentiable vertex model for learning epithelial tissue mechanics",
+  "link": "https://arxiv.org/abs/2604.06896",
+  "summary": "arXiv:2604.06896v1 Announce Type: new \nAbstract: Epithelial tissues dynamically reshape through local mechanical interactions among cells, a process well captured by vertex models. Yet their many tunable parameters make inference and optimization challenging, motivating computational frameworks that flexibly model and learn tissue mechanics. We introduce VertAX, a differentiable JAX-based framework for vertex-modeling of confluent epithelia. VertAX provides automatic differentiation, GPU acceleration, and end-to-end bilevel optimization for forward simulation, parameter inference, and inverse mechanical design. Users can define arbitrary energy and cost functions in pure Python, enabling seamless integration with machine-learning pipelines. We demonstrate VertAX on three representative tasks: (i) forward modeling of tissue morphogenesis, (ii) mechanical parameter inference, and (iii) inverse design of tissue-scale behaviors. We benchmark three differentiation strategies-automatic differentiation, implicit differentiation, and equilibrium propagation-showing that the latter can approximate gradients using repeated forward, adjoint-free simulations alone, offering a simple route for extending inverse biophysical problems to non-differentiable simulators with limited additional engineering effort.",
+  "feed": "arxiv-cs-LG"
+}

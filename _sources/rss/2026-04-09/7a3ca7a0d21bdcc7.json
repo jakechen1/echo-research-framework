@@ -1,0 +1,7 @@
+{
+  "id": "7a3ca7a0d21bdcc7",
+  "title": "LLM-Augmented Knowledge Base Construction For Root Cause Analysis",
+  "link": "https://arxiv.org/abs/2604.06171",
+  "summary": "arXiv:2604.06171v1 Announce Type: cross \nAbstract: Communications networks now form the backbone of our digital world, with fast and reliable connectivity. However, even with appropriate redundancy and failover mechanisms, it is difficult to guarantee \"five 9s\" (99.999 %) reliability, requiring rapid and accurate root cause analysis (RCA) during outages. In the event of an outage, rapid and accurate RCA becomes essential to restore service and prevent future disruptions.\n  This study evaluates three Large Language Model (LLM) methodologies - Fine-Tuning, RAG, and a Hybrid approach - for constructing a Root Cause Analysis (RCA) Knowledge Base from support tickets. We compare their performance using a comprehensive suite of lexical and semantic similarity metrics. Our experiments on a real industrial dataset demonstrate that the generated knowledge base provides an excellent starting point for accelerating RCA tasks and improving network resilience.",
+  "feed": "arxiv-cs-AI"
+}

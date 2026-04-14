@@ -1,0 +1,7 @@
+{
+  "id": "3d6f5ed73b81b1e2",
+  "title": "Dynamic Linear Coregionalization for Realistic Synthetic Multivariate Time Series",
+  "link": "https://arxiv.org/abs/2604.05064",
+  "summary": "arXiv:2604.05064v1 Announce Type: cross \nAbstract: Synthetic data is essential for training foundation models for time series (FMTS), but most generators assume static correlations, and are typically missing realistic inter-channel dependencies. We introduce DynLMC, a Dynamic Linear Model of Coregionalization, that incorporates time-varying, regime-switching correlations and cross-channel lag structures. Our approach produces synthetic multivariate time series with correlation dynamics that closely resemble real data. Fine-tuning three foundational models on DynLMC-generated data yields consistent zero-shot forecasting improvements across nine benchmarks. Our results demonstrate that modeling dynamic inter-channel correlations enhances FMTS transferability, highlighting the importance of data-centric pretraining.",
+  "feed": "arxiv-cs-AI"
+}

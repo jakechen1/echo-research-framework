@@ -1,0 +1,7 @@
+{
+  "id": "54d9386f0e0df4e6",
+  "title": "Discrete Flow Matching Policy Optimization",
+  "link": "https://arxiv.org/abs/2604.06491",
+  "summary": "arXiv:2604.06491v1 Announce Type: new \nAbstract: We introduce Discrete flow Matching policy Optimization (DoMinO), a unified framework for Reinforcement Learning (RL) fine-tuning Discrete Flow Matching (DFM) models under a broad class of policy gradient methods. Our key idea is to view the DFM sampling procedure as a multi-step Markov Decision Process. This perspective provides a simple and transparent reformulation of fine-tuning reward maximization as a robust RL objective. Consequently, it not only preserves the original DFM samplers but also avoids biased auxiliary estimators and likelihood surrogates used by many prior RL fine-tuning methods. To prevent policy collapse, we also introduce new total-variation regularizers to keep the fine-tuned distribution close to the pretrained one. Theoretically, we establish an upper bound on the discretization error of DoMinO and tractable upper bounds for the regularizers. Experimentally, we evaluate DoMinO on regulatory DNA sequence design. DoMinO achieves stronger predicted enhancer activity and better sequence naturalness than the previous best reward-driven baselines. The regularization further improves alignment with the natural sequence distribution while preserving strong functional performance. These results establish DoMinO as an useful framework for controllable discrete sequence generation.",
+  "feed": "arxiv-cs-LG"
+}

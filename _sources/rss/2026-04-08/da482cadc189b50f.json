@@ -1,0 +1,7 @@
+{
+  "id": "da482cadc189b50f",
+  "title": "REAM: Merging Improves Pruning of Experts in LLMs",
+  "link": "https://arxiv.org/abs/2604.04356",
+  "summary": "arXiv:2604.04356v1 Announce Type: cross \nAbstract: Mixture-of-Experts (MoE) large language models (LLMs) are among the top-performing architectures. The largest models, often with hundreds of billions of parameters, pose significant memory challenges for deployment. Traditional approaches to reduce memory requirements include weight pruning and quantization. Motivated by the Router-weighted Expert Activation Pruning (REAP) that prunes experts, we propose a novel method, Router-weighted Expert Activation Merging (REAM). Instead of removing experts, REAM groups them and merges their weights, better preserving original performance. We evaluate REAM against REAP and other baselines across multiple MoE LLMs on diverse multiple-choice (MC) question answering and generative (GEN) benchmarks. Our results reveal a trade-off between MC and GEN performance that depends on the mix of calibration data. By controlling the mix of general, math and coding data, we examine the Pareto frontier of this trade-off and show that REAM often outperforms the baselines and in many cases is comparable to the original uncompressed models.",
+  "feed": "arxiv-cs-LG"
+}

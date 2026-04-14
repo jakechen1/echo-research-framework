@@ -1,0 +1,7 @@
+{
+  "id": "ebfcd2d861b1dcef",
+  "title": "Hybrid ResNet-1D-BiGRU with Multi-Head Attention for Cyberattack Detection in Industrial IoT Environments",
+  "link": "https://arxiv.org/abs/2604.06481",
+  "summary": "arXiv:2604.06481v1 Announce Type: cross \nAbstract: This study introduces a hybrid deep learning model for intrusion detection in Industrial IoT (IIoT) systems, combining ResNet-1D, BiGRU, and Multi-Head Attention (MHA) for effective spatial-temporal feature extraction and attention-based feature weighting. To address class imbalance, SMOTE was applied during training on the EdgeHoTset dataset. The model achieved 98.71% accuracy, a loss of 0.0417%, and low inference latency (0.0001 sec /instance), demonstrating strong real-time capability. To assess generalizability, the model was also tested on the CICIoV2024 dataset, where it reached 99.99% accuracy and F1-score, with a loss of 0.0028, 0 % FPR, and 0.00014 sec/instance inference time. Across all metrics and datasets, the proposed model outperformed existing methods, confirming its robustness and effectiveness for real-time IoT intrusion detection.",
+  "feed": "arxiv-cs-AI"
+}

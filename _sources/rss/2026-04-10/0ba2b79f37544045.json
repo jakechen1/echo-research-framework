@@ -1,0 +1,7 @@
+{
+  "id": "0ba2b79f37544045",
+  "title": "Time series generation for option pricing on quantum computers using tensor network",
+  "link": "https://arxiv.org/abs/2402.17148",
+  "summary": "arXiv:2402.17148v2 Announce Type: replace-cross \nAbstract: Finance, especially option pricing, is a promising industrial field that might benefit from quantum computing. While quantum algorithms for option pricing have been proposed, it is desired to devise more efficient implementations of costly operations in the algorithms, one of which is preparing a quantum state that encodes a probability distribution of the underlying asset price. In particular, in pricing a path-dependent option, we need to generate a state encoding a joint distribution of the underlying asset price at multiple time points, which is more demanding. To address these issues, we propose a novel approach that uses a Matrix Product State (MPS), which can be encoded into a state of qubits, as a generative model for time series generation. We focus on the training of such an MPS and present its procedure in detail. To validate our approach, taking the Heston model as a target, we conduct numerical experiments to generate time series in the model. Our findings demonstrate the capability of the MPS model to generate paths in the Heston model, highlighting its potential for path-dependent option pricing on quantum computers.",
+  "feed": "arxiv-cs-LG"
+}

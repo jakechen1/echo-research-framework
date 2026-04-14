@@ -1,0 +1,7 @@
+{
+  "id": "a4708612ba70c7d9",
+  "title": "ATLAS-RTC: Closing the Loop on LLM Agent Output with Token-Level Runtime Control",
+  "link": "https://arxiv.org/abs/2603.27905",
+  "summary": "arXiv:2603.27905v2 Announce Type: replace \nAbstract: We present ATLAS-RTC, a runtime control system for autoregressive language models that enforces structured output during decoding. ATLAS-RTC monitors generation at each step, detects drift from output contracts using lightweight signals, and applies targeted interventions such as biasing, masking, and rollback. Unlike post-hoc validation or static constrained decoding, it operates in a closed loop, enabling correction before errors materialize. Across structured generation and tool-calling tasks, ATLAS-RTC improves first-attempt success rates by 20 to 37.8 percentage points, with up to 88% latency reduction in failure-dominated settings. Results show that many failures arise from decoding artifacts rather than task misunderstanding, motivating runtime control as a distinct layer in LLM systems.",
+  "feed": "arxiv-cs-LG"
+}

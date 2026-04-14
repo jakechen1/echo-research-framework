@@ -1,0 +1,7 @@
+{
+  "id": "c7fa9ef30550c369",
+  "title": "TENDE: Transfer Entropy Neural Diffusion Estimation",
+  "link": "https://arxiv.org/abs/2510.14096",
+  "summary": "arXiv:2510.14096v3 Announce Type: replace \nAbstract: Transfer entropy measures directed information flow in time series, and it has become a fundamental quantity in applications spanning neuroscience, finance, and complex systems analysis. However, existing estimation methods suffer from the curse of dimensionality, require restrictive distributional assumptions, or need exponentially large datasets for reliable convergence. We address these limitations in the literature by proposing TENDE (Transfer Entropy Neural Diffusion Estimation), a novel approach that leverages score-based diffusion models to estimate transfer entropy through conditional mutual information. By learning score functions of the relevant conditional distributions, TENDE provides flexible, scalable estimation while making minimal assumptions about the underlying data-generating process. We demonstrate superior accuracy and robustness compared to existing neural estimators and other state-of-the-art approaches across synthetic benchmarks and real data.",
+  "feed": "arxiv-cs-LG"
+}

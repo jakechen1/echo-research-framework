@@ -1,0 +1,7 @@
+{
+  "id": "6d12e246524a0351",
+  "title": "Framing Effects in Independent-Agent Large Language Models: A Cross-Family Behavioral Analysis",
+  "link": "https://arxiv.org/abs/2603.19282",
+  "summary": "arXiv:2603.19282v2 Announce Type: replace-cross \nAbstract: In many real-world applications, large language models (LLMs) operate as independent agents without interaction, thereby limiting coordination. In this setting, we examine how prompt framing influences decisions in a threshold voting task involving individual-group interest conflict. Two logically equivalent prompts with different framings were tested across diverse LLM families under isolated trials. Results show that prompt framing significantly influences choice distributions, often shifting preferences toward risk-averse options. Surface linguistic cues can even override logically equivalent formulations. This suggests that observed behavior reflects a tendency consistent with a preference for instrumental rather than cooperative rationality when success requires risk-bearing. The findings highlight framing effects as a significant bias source in non-interacting multi-agent LLM deployments, informing alignment and prompt design.",
+  "feed": "arxiv-cs-AI"
+}

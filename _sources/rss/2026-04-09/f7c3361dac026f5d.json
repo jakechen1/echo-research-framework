@@ -1,0 +1,7 @@
+{
+  "id": "f7c3361dac026f5d",
+  "title": "Robust support vector model based on bounded asymmetric elastic net loss for binary classification",
+  "link": "https://arxiv.org/abs/2603.06257",
+  "summary": "arXiv:2603.06257v2 Announce Type: replace-cross \nAbstract: In this paper, we propose a novel bounded asymmetric elastic net ($L_{baen}$) loss function and combine it with the support vector machine (SVM), resulting in the BAEN-SVM. The $L_{baen}$ is bounded and asymmetric and can degrade to the asymmetric elastic net hinge loss, pinball loss, and asymmetric least squares loss. BAEN-SVM not only effectively handles noise-contaminated data but also addresses the geometric irrationalities in the traditional SVM. By proving the violation tolerance upper bound (VTUB) of BAEN-SVM, we show that the model is geometrically well-defined. Furthermore, we derive that the influence function of BAEN-SVM is bounded, providing a theoretical guarantee of its robustness to noise. The Fisher consistency of the model further ensures its generalization capability. Since the \\( L_{\\text{baen}} \\) loss is non-convex, we designed a clipping dual coordinate descent-based half-quadratic algorithm to solve the non-convex optimization problem efficiently. Experimental results on artificial and benchmark datasets indicate that the proposed method outperforms classical and advanced SVMs, particularly in noisy environments.",
+  "feed": "arxiv-cs-LG"
+}

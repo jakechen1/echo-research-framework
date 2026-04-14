@@ -1,0 +1,7 @@
+{
+  "id": "b59a3c6868f07dd9",
+  "title": "EventFlow: Forecasting Temporal Point Processes with Flow Matching",
+  "link": "https://arxiv.org/abs/2410.07430",
+  "summary": "arXiv:2410.07430v3 Announce Type: replace \nAbstract: Continuous-time event sequences, in which events occur at irregular intervals, are ubiquitous across a wide range of industrial and scientific domains. The contemporary modeling paradigm is to treat such data as realizations of a temporal point process, and in machine learning it is common to model temporal point processes in an autoregressive fashion using a neural network. While autoregressive models are successful in predicting the time of a single subsequent event, their performance can degrade when forecasting longer horizons due to cascading errors and myopic predictions. We propose EventFlow, a non-autoregressive generative model for temporal point processes. The model builds on the flow matching framework in order to directly learn joint distributions over event times, side-stepping the autoregressive process. EventFlow is simple to implement and achieves a 20%-53% lower forecast error than the nearest baseline on standard TPP benchmarks while simultaneously using fewer model calls at sampling time.",
+  "feed": "arxiv-cs-LG"
+}

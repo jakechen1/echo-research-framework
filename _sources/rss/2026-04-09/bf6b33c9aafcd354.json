@@ -1,0 +1,7 @@
+{
+  "id": "bf6b33c9aafcd354",
+  "title": "Lumbermark: Resistant Clustering by Chopping Up Mutual Reachability Minimum Spanning Trees",
+  "link": "https://arxiv.org/abs/2604.07143",
+  "summary": "arXiv:2604.07143v1 Announce Type: new \nAbstract: We introduce Lumbermark, a robust divisive clustering algorithm capable of detecting clusters of varying sizes, densities, and shapes. Lumbermark iteratively chops off large limbs connected by protruding segments of a dataset's mutual reachability minimum spanning tree. The use of mutual reachability distances smoothens the data distribution and decreases the influence of low-density objects, such as noise points between clusters or outliers at their peripheries. The algorithm can be viewed as an alternative to HDBSCAN that produces partitions with user-specified sizes. A fast, easy-to-use implementation of the new method is available in the open-source 'lumbermark' package for Python and R. We show that Lumbermark performs well on benchmark data and hope it will prove useful to data scientists and practitioners across different fields.",
+  "feed": "arxiv-cs-LG"
+}

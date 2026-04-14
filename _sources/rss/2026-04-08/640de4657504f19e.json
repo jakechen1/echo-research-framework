@@ -1,0 +1,7 @@
+{
+  "id": "640de4657504f19e",
+  "title": "Isokinetic Flow Matching for Pathwise Straightening of Generative Flows",
+  "link": "https://arxiv.org/abs/2604.04491",
+  "summary": "arXiv:2604.04491v1 Announce Type: new \nAbstract: Flow Matching (FM) constructs linear conditional probability paths, but the learned marginal velocity field inevitably exhibits strong curvature due to trajectory superposition. This curvature severely inflates numerical truncation errors, bottlenecking few-step sampling. To overcome this, we introduce Isokinetic Flow Matching (Iso-FM), a lightweight, Jacobian-free dynamical regularizer that directly penalizes pathwise acceleration. By using a self-guided finite-difference approximation of the material derivative Dv/Dt, Iso-FM enforces local velocity consistency without requiring auxiliary encoders or expensive second-order autodifferentiation. Operating as a pure plug-and-play addition to single-stage FM training, Iso-FM dramatically improves few-step generation. On CIFAR-10 (DiT-S/2), Iso-FM slashes conditional non-OT FID at 2 steps from 78.82 to 27.13 - a 2.9x relative efficiency gain - and reaches a best-observed FID at 4 steps of 10.23. These results firmly establish acceleration regularization as a principled, compute-efficient mechanism for fast generative sampling.",
+  "feed": "arxiv-cs-LG"
+}

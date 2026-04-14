@@ -1,0 +1,7 @@
+{
+  "id": "6eae566cddc613ac",
+  "title": "Selective Aggregation of Attention Maps Improves Diffusion-Based Visual Interpretation",
+  "link": "https://arxiv.org/abs/2604.05906",
+  "summary": "arXiv:2604.05906v1 Announce Type: cross \nAbstract: Numerous studies on text-to-image (T2I) generative models have utilized cross-attention maps to boost application performance and interpret model behavior. However, the distinct characteristics of attention maps from different attention heads remain relatively underexplored. In this study, we show that selectively aggregating cross-attention maps from heads most relevant to a target concept can improve visual interpretability. Compared to the diffusion-based segmentation method DAAM, our approach achieves higher mean IoU scores. We also find that the most relevant heads capture concept-specific features more accurately than the least relevant ones, and that selective aggregation helps diagnose prompt misinterpretations. These findings suggest that attention head selection offers a promising direction for improving the interpretability and controllability of T2I generation.",
+  "feed": "arxiv-cs-AI"
+}

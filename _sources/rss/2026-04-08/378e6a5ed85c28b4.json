@@ -1,0 +1,7 @@
+{
+  "id": "378e6a5ed85c28b4",
+  "title": "PECKER: A Precisely Efficient Critical Knowledge Erasure Recipe For Machine Unlearning in Diffusion Models",
+  "link": "https://arxiv.org/abs/2604.05634",
+  "summary": "arXiv:2604.05634v1 Announce Type: new \nAbstract: Machine unlearning (MU) has become a critical technique for GenAI models' safe and compliant operation. While existing MU methods are effective, most impose prohibitive training time and computational overhead. Our analysis suggests the root cause lies in poorly directed gradient updates, which reduce training efficiency and destabilize convergence. To mitigate these issues, we propose PECKER, an efficient MU approach that matches or outperforms prevailing methods. Within a distillation framework, PECKER introduces a saliency mask to prioritize updates to parameters that contribute most to forgetting the targeted data, thereby reducing unnecessary gradient computation and shortening overall training time without sacrificing unlearning efficacy. Our method generates samples that unlearn related class or concept more quickly, while closely aligning with the true image distribution on CIFAR-10 and STL-10 datasets, achieving shorter training times for both class forgetting and concept forgetting.",
+  "feed": "arxiv-cs-AI"
+}

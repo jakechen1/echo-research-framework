@@ -1,0 +1,7 @@
+{
+  "id": "915d8a0abf5bce8b",
+  "title": "Dissecting Transformers: A CLEAR Perspective towards Green AI",
+  "link": "https://arxiv.org/abs/2510.02810",
+  "summary": "arXiv:2510.02810v2 Announce Type: replace-cross \nAbstract: The rapid adoption of Large Language Models (LLMs) has raised significant environmental concerns. Unlike the one-time cost of training, LLM inference occurs continuously and dominates the AI energy footprint. Yet most sustainability studies report only coarse model-level metrics, treating energy efficiency as an afterthought rather than a primary objective. Addressing the limitation, we propose Component-Level Energy Assessment via Repetitions CLEAR, to overcome temporal mismatch between microsecond scale component execution and millisecond(ms) scale monitoring of energy sensors. Using CLEAR, we evaluate 15 models spanning four architecture types, keeping component-wise energy variance below 9.5% while capturing over 90% of total energy as individual components. We present the first comprehensive, fine-grained energy analysis of Transformer components across key parameters such as batch size, attention heads, hidden dimension, KV cache, and attention variants. Our findings reveal that Attention consumes significantly more Energy per FLOP as compared to the entire model, indicating that FLOPs alone fail to capture true component-level energy cost. CLEAR enables reliable fine-grained energy measurements and provides a strong formal foundation for predictive modelling of energy consumption.",
+  "feed": "arxiv-cs-AI"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "cc98f3452fa9cf2b",
+  "title": "Learning Debt and Cost-Sensitive Bayesian Retraining: A Forecasting Operations Framework",
+  "link": "https://arxiv.org/abs/2604.06438",
+  "summary": "arXiv:2604.06438v1 Announce Type: cross \nAbstract: Forecasters often choose retraining schedules by convention rather than by an explicit decision rule. This paper gives that decision a posterior-space language. We define learning debt as the divergence between the deployed and continuously updated posteriors, define actionable staleness as the policy-relevant latent state, and derive a one-step Bayes retraining rule under an excess-loss formulation. In an online conjugate simulation using the exact Kullback-Leibler divergence between deployed and shadow normal-inverse-gamma posteriors, a debt-filter beats a default 10-period calendar baseline in 15 of 24 abrupt-shift cells, all 24 gradual-drift cells, and 17 of 24 variance-shift cells, and remains below the best fixed cadence in a grid of cadences (5, 10, 20, and 40 periods) in 10, 24, and 17 cells, respectively. Fixed-threshold CUSUM remains a strong benchmark, while a proxy filter built from indirect diagnostics performs poorly. A retrospective Airbnb production backtest shows how the same decision logic behaves around a known payment-policy shock.",
+  "feed": "arxiv-cs-LG"
+}

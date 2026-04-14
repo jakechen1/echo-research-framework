@@ -1,0 +1,7 @@
+{
+  "id": "9957a85bdbbcb7f9",
+  "title": "Logical Robots: Declarative Multi-Agent Programming in Logica",
+  "link": "https://arxiv.org/abs/2604.06629",
+  "summary": "arXiv:2604.06629v1 Announce Type: cross \nAbstract: We present Logical Robots, an interactive multi-agent simulation platform where autonomous robot behavior is specified declaratively in the logic programming language Logica. Robot behavior is defined by logical predicates that map observations from simulated radar arrays and shared memory to desired motor outputs. This approach allows low-level reactive control and high-level planning to coexist within a single programming environment, providing a coherent framework for exploring multi-agent robot behavior.",
+  "feed": "arxiv-cs-AI"
+}

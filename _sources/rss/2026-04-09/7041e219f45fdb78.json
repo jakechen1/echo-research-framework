@@ -1,0 +1,7 @@
+{
+  "id": "7041e219f45fdb78",
+  "title": "Less is More: Data-Efficient Adaptation for Controllable Text-to-Video Generation",
+  "link": "https://arxiv.org/abs/2511.17844",
+  "summary": "arXiv:2511.17844v4 Announce Type: replace-cross \nAbstract: Fine-tuning large-scale text-to-video diffusion models to add new generative controls, such as those over physical camera parameters (e.g., shutter speed or aperture), typically requires vast, high-fidelity datasets that are difficult to acquire. In this work, we propose a data-efficient fine-tuning strategy that learns these controls from sparse, low-quality synthetic data. We show that not only does fine-tuning on such simple data enable the desired controls, it actually yields superior results to models fine-tuned on photorealistic \"real\" data. Beyond demonstrating these results, we provide a framework that justifies this phenomenon both intuitively and quantitatively.",
+  "feed": "arxiv-cs-AI"
+}

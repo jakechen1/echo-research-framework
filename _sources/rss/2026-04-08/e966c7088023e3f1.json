@@ -1,0 +1,7 @@
+{
+  "id": "e966c7088023e3f1",
+  "title": "\"When to Hand Off, When to Work Together\": Expanding Human-Agent Co-Creative Collaboration through Concurrent Interaction",
+  "link": "https://arxiv.org/abs/2603.02050",
+  "summary": "arXiv:2603.02050v4 Announce Type: replace-cross \nAbstract: As agents move into shared workspaces and their execution becomes visible, human-agent collaboration faces a fundamental shift from sequential delegation to concurrent co-creation. This raises a new coordination problem: what interaction patterns emerge, and what agent capabilities are required to support them? Study 1 (N=10) revealed that process visibility naturally prompted concurrent intervention, but exposed a critical capability gap: agents lacked the collaborative context awareness needed to distinguish user feedback from independent parallel work. This motivated CLEO, a design probe that embodies this capability, interpreting concurrent user actions as feedback or independent work and adapting execution accordingly. Study 2 (N=10) analyzed 214 turn-level interactions, identifying a taxonomy of five action patterns and ten codes, along with six triggers and four enabling factors explaining when and why users shift between collaboration modes. Concurrent interaction appeared in 31.8% of turns. We present a decision model, design implications, and an annotated dataset, positioning concurrent interaction as what makes delegation work better.",
+  "feed": "arxiv-cs-AI"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "1a048870631adfcf",
+  "title": "Emergent Introspection in AI is Content-Agnostic",
+  "link": "https://arxiv.org/abs/2603.05414",
+  "summary": "arXiv:2603.05414v2 Announce Type: replace \nAbstract: Introspection is a foundational cognitive ability, but its mechanism is not well understood. Recent work has shown that AI models can introspect. We study the mechanism of this introspection. We first extensively replicate Lindsey (2025)'s thought injection detection paradigm in large open-source models. We show that introspection in these models is content-agnostic: models can detect that an anomaly occurred even when they cannot reliably identify its content. The models confabulate injected concepts that are high-frequency and concrete (e.g., \"apple\"). They also require fewer tokens to detect an injection than to guess the correct concept (with wrong guesses coming earlier). We argue that a content-agnostic introspective mechanism is consistent with leading theories in philosophy and psychology.",
+  "feed": "arxiv-cs-AI"
+}

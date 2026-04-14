@@ -1,0 +1,7 @@
+{
+  "id": "8e133434bb21c549",
+  "title": "Adaptive Serverless Resource Management via Slot-Survival Prediction and Event-Driven Lifecycle Control",
+  "link": "https://arxiv.org/abs/2604.05465",
+  "summary": "arXiv:2604.05465v1 Announce Type: new \nAbstract: Serverless computing eliminates infrastructure management overhead but introduces significant challenges regarding cold start latency and resource utilization. Traditional static resource allocation often leads to inefficiencies under variable workloads, resulting in performance degradation or excessive costs. This paper presents an adaptive engineering framework that optimizes serverless performance through event-driven architecture and probabilistic modeling. We propose a dual-strategy mechanism that dynamically adjusts idle durations and employs an intelligent request waiting strategy based on slot survival predictions. By leveraging sliding window aggregation and asynchronous processing, our system proactively manages resource lifecycles. Experimental results show that our approach reduces cold starts by up to 51.2% and improves cost-efficiency by nearly 2x compared to baseline methods in multi-cloud environments.",
+  "feed": "arxiv-cs-AI"
+}

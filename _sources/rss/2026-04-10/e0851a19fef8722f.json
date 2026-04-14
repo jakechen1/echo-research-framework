@@ -1,0 +1,7 @@
+{
+  "id": "e0851a19fef8722f",
+  "title": "Efficient Dataset Selection for Continual Adaptation of Generative Recommenders",
+  "link": "https://arxiv.org/abs/2604.07739",
+  "summary": "arXiv:2604.07739v1 Announce Type: cross \nAbstract: Recommendation systems must continuously adapt to evolving user behavior, yet the volume of data generated in large-scale streaming environments makes frequent full retraining impractical. This work investigates how targeted data selection can mitigate performance degradation caused by temporal distributional drift while maintaining scalability. We evaluate a range of representation choices and sampling strategies for curating small but informative subsets of user interaction data. Our results demonstrate that gradient-based representations, coupled with distribution-matching, improve downstream model performance, achieving training efficiency gains while preserving robustness to drift. These findings highlight data curation as a practical mechanism for scalable monitoring and adaptive model updates in production-scale recommendation systems.",
+  "feed": "arxiv-cs-LG"
+}

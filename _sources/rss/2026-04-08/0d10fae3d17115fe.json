@@ -1,0 +1,7 @@
+{
+  "id": "0d10fae3d17115fe",
+  "title": "AI and Collective Decisions: Strengthening Legitimacy and Losers' Consent",
+  "link": "https://arxiv.org/abs/2604.05368",
+  "summary": "arXiv:2604.05368v1 Announce Type: cross \nAbstract: AI is increasingly used to scale collective decision-making, but far less attention has been paid to how such systems can support procedural legitimacy, particularly the conditions shaping losers' consent: whether participants who do not get their preferred outcome still accept it as fair. We ask: (1) how can AI help ground collective decisions in participants' different experiences and beliefs, and (2) whether exposure to these experiences can increase trust, understanding, and social cohesion even when people disagree with the outcome. We built a system that uses a semi-structured AI interviewer to elicit personal experiences on policy topics and an interactive visualization that displays predicted policy support alongside those voiced experiences. In a randomized experiment (n = 181), interacting with the visualization increased perceived legitimacy, trust in outcomes, and understanding of others' perspectives, even though all participants encountered decisions that went against their stated preferences. Our hope is that the design and evaluation of this tool spurs future researchers to focus on how AI can help not only achieve scale and efficiency in democratic processes, but also increase trust and connection between participants.",
+  "feed": "arxiv-cs-AI"
+}

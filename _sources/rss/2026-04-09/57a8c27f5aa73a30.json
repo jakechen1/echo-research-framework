@@ -1,0 +1,7 @@
+{
+  "id": "57a8c27f5aa73a30",
+  "title": "Consistency-Guided Decoding with Proof-Driven Disambiguation for Three-Way Logical Question Answering",
+  "link": "https://arxiv.org/abs/2604.06196",
+  "summary": "arXiv:2604.06196v1 Announce Type: cross \nAbstract: Three-way logical question answering (QA) assigns $True/False/Unknown$ to a hypothesis $H$ given a premise set $S$. While modern large language models (LLMs) can be accurate on isolated examples, we identify two recurring failure modes in 3-way logic QA: (i) negation inconsistency, where answers to $H$ and $\\neg H$ violate the deterministic label mapping, and (ii) epistemic $Unknown$, where the model predicts $Unknown$ due to uncertainty or instability even when $S$ entails one side. We present CGD-PD, a lightweight test-time layer that (a) queries a single 3-way classifier on both $H$ and a mechanically negated form of $H$, (b) projects the pair onto a negation-consistent decision when possible, and (c) invokes a proof-driven disambiguation step that uses targeted binary entailment probes to selectively resolve $Unknown$ outcomes, requiring only an average of 4-5 model calls. On the FOLIO benchmark's first-order-logic fields, CGD-PD yields consistent gains across frontier LLMs, with relative improvements in accuracy of up to 16% over the base model, while also reducing $Unknown$ predictions.",
+  "feed": "arxiv-cs-AI"
+}

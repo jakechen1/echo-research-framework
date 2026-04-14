@@ -1,0 +1,7 @@
+{
+  "id": "9cb7ea367eb82722",
+  "title": "Routing-Based Continual Learning for Multimodal Large Language Models",
+  "link": "https://arxiv.org/abs/2511.01831",
+  "summary": "arXiv:2511.01831v3 Announce Type: replace-cross \nAbstract: Multimodal Large Language Models (MLLMs) struggle with continual learning, often suffering from catastrophic forgetting when adapting to sequential tasks. We introduce a routing-based architecture that integrates new capabilities while robustly preserving foundational knowledge. While Multi-Task Learning (MTL) offers a theoretical performance upper bound, it incurs a linearly scaling computational overhead as the number of tasks increases. In contrast, our method maintains fixed data and compute requirements regardless of the task sequence length. Across models ranging from 2B to 8B parameters, we demonstrate that our routing approach performs on par with MTL while retaining the training efficiency of sequential fine-tuning. Beyond merely mitigating forgetting, we observe that token-level routing facilitates cross-modal transfer, leveraging knowledge from one modality to bolster performance in another. Ablation studies confirm the approach's scalability: routing remains robust even with large expert pools and effectively capitalizes on task relatedness. Finally, we show that our method scales favorably, with larger models exhibiting minimal degradation compared to fully specialized fine-tuning.",
+  "feed": "arxiv-cs-AI"
+}

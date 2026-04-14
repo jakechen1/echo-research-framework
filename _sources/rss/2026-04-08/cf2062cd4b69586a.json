@@ -1,0 +1,7 @@
+{
+  "id": "cf2062cd4b69586a",
+  "title": "Path-Constrained Mixture-of-Experts",
+  "link": "https://arxiv.org/abs/2603.18297",
+  "summary": "arXiv:2603.18297v2 Announce Type: replace \nAbstract: Sparse Mixture-of-Experts (MoE) architectures route each token through a subset of experts at each layer independently. We propose viewing MoE computation through the lens of \\emph{expert paths} -- the sequence of expert selections a token makes across all layers. This perspective reveals that, despite $N^L$ possible paths for $N$ experts across $L$ layers, tokens in practice cluster into a small fraction of paths that align with linguistic function, yet the vast majority of paths remain unexplored, representing a statistical inefficiency. This motivates architectures that constrain the effective path space to amplify this natural concentration. As one instantiation, we introduce \\pathmoe{}, which shares router parameters across blocks of consecutive layers. Analysis confirms that \\pathmoe{} amplifies the emergent path structure: it produces more concentrated path clusters, better cross-layer consistency, and greater robustness to routing perturbations. Experiments on 0.9B and 16B parameter \\pathmoe{} models demonstrate consistent improvements on perplexity and downstream tasks over independent routing, while eliminating the need for auxiliary losses. These results establish expert paths as a useful design axis for MoE architectures, complementary to existing work on independent routing mechanisms.",
+  "feed": "arxiv-cs-LG"
+}

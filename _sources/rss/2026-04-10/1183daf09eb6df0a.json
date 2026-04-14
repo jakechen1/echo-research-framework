@@ -1,0 +1,7 @@
+{
+  "id": "1183daf09eb6df0a",
+  "title": "Pruning Extensions and Efficiency Trade-Offs for Sustainable Time Series Classification",
+  "link": "https://arxiv.org/abs/2604.07953",
+  "summary": "arXiv:2604.07953v1 Announce Type: new \nAbstract: Time series classification (TSC) enables important use cases, however lacks a unified understanding of performance trade-offs across models, datasets, and hardware. While resource awareness has grown in the field, TSC methods have not yet been rigorously evaluated for energy efficiency. This paper introduces a holistic evaluation framework that explicitly explores the balance of predictive performance and resource consumption in TSC. To boost efficiency, we apply a theoretically bounded pruning strategy to leading hybrid classifiers - Hydra and Quant - and present Hydrant, a novel, prunable combination of both. With over 4000 experimental configurations across 20 MONSTER datasets, 13 methods, and three compute setups, we systematically analyze how model design, hyperparameters, and hardware choices affect practical TSC performance. Our results showcase that pruning can significantly reduce energy consumption by up to 80% while maintaining competitive predictive quality, usually costing the model less than 5% of accuracy. The proposed methodology, experimental results, and accompanying software advance TSC toward sustainable and reproducible practice.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "8c606a54ed4c32b9",
+  "title": "Not All Latent Spaces Are Flat: Hyperbolic Concept Control",
+  "link": "https://arxiv.org/abs/2603.14093",
+  "summary": "arXiv:2603.14093v3 Announce Type: replace-cross \nAbstract: As modern text-to-image (T2I) models draw closer to synthesizing highly realistic content, the threat of unsafe content generation grows, and it becomes paramount to exercise control. Existing approaches steer these models by applying Euclidean adjustments to text embeddings, redirecting the generation away from unsafe concepts. In this work, we introduce hyperbolic control (HyCon): a novel control mechanism based on parallel transport that leverages semantically aligned hyperbolic representation space to yield more expressive and stable manipulation of concepts. HyCon reuses off-the-shelf generative models and a state-of-the-art hyperbolic text encoder, linked via a lightweight adapter. HyCon achieves state-of-the-art results across four safety benchmarks and four T2I backbones, showing that hyperbolic steering is a practical and flexible approach for more reliable T2I generation.",
+  "feed": "arxiv-cs-AI"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "ac54b973905dbdc1",
+  "title": "Evaluation of Bagging Predictors with Kernel Density Estimation and Bagging Score",
+  "link": "https://arxiv.org/abs/2604.03599",
+  "summary": "arXiv:2604.03599v1 Announce Type: new \nAbstract: For a larger set of predictions of several differently trained machine learning models, known as bagging predictors, the mean of all predictions is taken by default. Nevertheless, this proceeding can deviate from the actual ground truth in certain parameter regions. An approach is presented to determine a representative y_BS from such a set of predictions using Kernel Density Estimation (KDE) in nonlinear regression with Neural Networks (NN) which simultaneously provides an associated quality criterion beta_BS, called Bagging Score (BS), that reflects the confidence of the obtained ensemble prediction. It is shown that working with the new approach better predictions can be made than working with the common use of mean or median. In addition to this, the used method is contrasted to several approaches of nonlinear regression from the literatur, resulting in a top ranking in each of the calculated error values without using any optimization or feature selection technique.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "0774394530cd7921",
+  "title": "Benchmark Shadows: Data Alignment, Parameter Footprints, and Generalization in Large Language Models",
+  "link": "https://arxiv.org/abs/2604.07363",
+  "summary": "arXiv:2604.07363v1 Announce Type: new \nAbstract: Large language models often achieve strong benchmark gains without corresponding improvements in broader capability. We hypothesize that this discrepancy arises from differences in training regimes induced by data distribution. To investigate this, we design controlled data interventions that isolate distributional effects under fixed training settings. We find that benchmark-aligned data improves narrow evaluation metrics while limiting broader representational development, whereas coverage-expanding data leads to more distributed parameter adaptation and better generalization. We further introduce parameter-space diagnostics based on spectral and rank analyses, which reveal distinct structural signatures of these regimes. Similar patterns are observed across diverse open-source model families, including multimodal models as a key case study, suggesting that these effects extend beyond controlled settings. A case study on prompt repetition shows that not all data artifacts induce regime shifts. These results indicate that benchmark performance alone is insufficient to characterize model capability, and highlight the importance of data distribution in shaping learning dynamics.",
+  "feed": "arxiv-cs-LG"
+}

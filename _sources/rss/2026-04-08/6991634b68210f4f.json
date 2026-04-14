@@ -1,0 +1,7 @@
+{
+  "id": "6991634b68210f4f",
+  "title": "Markovian Reeb Graphs for Simulating Spatiotemporal Patterns of Life",
+  "link": "https://arxiv.org/abs/2510.03152",
+  "summary": "arXiv:2510.03152v3 Announce Type: replace-cross \nAbstract: Accurately modeling human mobility is critical for urban planning, epidemiology, and traffic management. In this work, we introduce Markovian Reeb Graphs, a novel framework that transforms Reeb graphs from a descriptive analysis tool into a generative model for spatiotemporal trajectories. Our approach captures individual and population-level Patterns of Life (PoLs) and generates realistic trajectories that preserve baseline behaviors while incorporating stochastic variability by embedding probabilistic transitions within the Reeb graph structure. We present two variants: Sequential Reeb Graphs (SRGs) for individual agents and Hybrid Reeb Graphs (HRGs) that combine individual with population PoLs, evaluated on the Urban Anomalies and Geolife datasets using five mobility statistics. Results demonstrate that HRGs achieve strong fidelity across metrics while requiring modest trajectory datasets without specialized side information. This work establishes Markovian Reeb Graphs as a promising framework for trajectory simulation with broad applicability across urban environments.",
+  "feed": "arxiv-cs-LG"
+}

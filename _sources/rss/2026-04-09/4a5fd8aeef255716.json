@@ -1,0 +1,7 @@
+{
+  "id": "4a5fd8aeef255716",
+  "title": "Time-Series Classification with Multivariate Statistical Dependence Features",
+  "link": "https://arxiv.org/abs/2604.06537",
+  "summary": "arXiv:2604.06537v1 Announce Type: new \nAbstract: In this paper, we propose a novel framework for non-stationary time-series analysis that replaces conventional correlation-based statistics with direct estimation of statistical dependence in the normalized joint density of input and target signals, the cross density ratio (CDR). Unlike windowed correlation estimates, this measure is independent of sample order and robust to regime changes. The method builds on the functional maximal correlation algorithm (FMCA), which constructs a projection space by decomposing the eigenspectrum of the CDR. Multiscale features from this eigenspace are classified using a lightweight single-hidden-layer perceptron. On the TI-46 digit speech corpus, our approach outperforms hidden Markov models (HMMs) and state-of-the-art spiking neural networks, achieving higher accuracy with fewer than 10 layers and a storage footprint under 5 MB.",
+  "feed": "arxiv-cs-LG"
+}

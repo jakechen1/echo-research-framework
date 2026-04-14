@@ -1,0 +1,7 @@
+{
+  "id": "7f3982ae04069c38",
+  "title": "TeamLLM: A Human-Like Team-Oriented Collaboration Framework for Multi-Step Contextualized Tasks",
+  "link": "https://arxiv.org/abs/2604.06765",
+  "summary": "arXiv:2604.06765v1 Announce Type: cross \nAbstract: Recently, multi-Large Language Model (LLM) frameworks have been proposed to solve contextualized tasks. However, these frameworks do not explicitly emulate human team role division, which may lead to a single perspective, thereby weakening performance on multi-step contextualized tasks. To address this issue, we propose TeamLLM, a human-like Team-Oriented Multi-LLM Collaboration Framework. TeamLLM adopts four team roles with distinct division and employs a three-phase multi-LLM collaboration for multi-step contextualized tasks. To evaluate the effectiveness of TeamLLM on multi-step contextualized tasks, we propose Contextually-Grounded and Procedurally-Structured tasks (CGPST) and construct the CGPST benchmark. This benchmark has four core features: contextual grounding, procedural structure, process-oriented evaluation and multi-dimensional assessment. We evaluate ten popular LLMs on CGPST at overall-level, step-level, and dimension-level. Results show that TeamLLM substantially improves performance on CGPST. We release the benchmark with scenarios, full-process responses and human scores from ten LLMs. The code and data are available at https://anonymous.4open.science/r/TeamLLM-anonymous-C50E/.",
+  "feed": "arxiv-cs-AI"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "c34f747035d289e9",
+  "title": "DisCEdge: Distributed Context Management for Large Language Models at the Edge",
+  "link": "https://arxiv.org/abs/2511.22599",
+  "summary": "arXiv:2511.22599v2 Announce Type: replace-cross \nAbstract: Deploying Large Language Model (LLM) services at the edge benefits latency-sensitive and privacy-aware applications. However, the stateless nature of LLMs makes managing user context (e.g., sessions, preferences) across geo-distributed edge nodes challenging. Existing solutions, such as client-side context storage, introduce network latency and bandwidth overhead, undermining edge deployment advantages.\n  We propose DisCEdge, a distributed context management system that stores and replicates user context in tokenized form across edge nodes. By maintaining context as token sequences, our system avoids redundant computation and enables efficient data replication. We evaluate an open-source prototype in a realistic edge environment. DisCEdge improves median response times by up to 14.46% and lowers median inter-node synchronization overhead by up to 15% compared to a raw-text-based system. It also reduces client request sizes by a median of 90% compared to client-side context management, while guaranteeing data consistency.",
+  "feed": "arxiv-cs-LG"
+}

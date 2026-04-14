@@ -1,0 +1,7 @@
+{
+  "id": "680158355ab008ab",
+  "title": "Non-Expansive Mappings in Two-Time-Scale Stochastic Approximation: Finite-Time Analysis",
+  "link": "https://arxiv.org/abs/2501.10806",
+  "summary": "arXiv:2501.10806v4 Announce Type: replace-cross \nAbstract: Two-time-scale stochastic approximation algorithms are iterative methods used in applications such as optimization, reinforcement learning, and control. Finite-time analysis of these algorithms has primarily focused on fixed point iterations where both time-scales have contractive mappings. In this work, we broaden the scope of such analyses by considering settings where the slower time-scale has a non-expansive mapping. For such algorithms, the slower time-scale can be viewed as a stochastic inexact Krasnoselskii-Mann iteration. We also study a variant where the faster time-scale has a projection step which leads to non-expansiveness in the slower time-scale. We show that the last-iterate mean square residual error for such algorithms decays at a rate $O(1/k^{1/4-\\epsilon})$, where $\\epsilon>0$ is arbitrarily small. We further establish almost sure convergence of iterates to the set of fixed points. We demonstrate the applicability of our framework by applying our results to minimax optimization, linear stochastic approximation, and Lagrangian optimization.",
+  "feed": "arxiv-cs-LG"
+}

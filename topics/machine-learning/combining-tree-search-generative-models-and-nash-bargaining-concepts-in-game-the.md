@@ -1,0 +1,26 @@
+---
+title: Combining Tree-Search, Generative Models, and Nash Bargaining Concepts in Game-Theoretic Reinforcement Learning
+created: 2024-05-22
+source: https://arxiv.org/abs/2302.00797
+tags: [reinforcement-learning, game-theory, generative-models, multiagent-systems]
+category: machine-learning
+---
+
+# Combining Tree-Search, Generative Models, and Nash Bargaining Concepts in Game-Theoretic Reinforcement Learning
+
+The research focuses on solving the fundamental complexities of [[opponent-modeling|Opponent Modeling]] specifically within the context of [[imperfect-information-games|Imperfect Information Games]]. Traditional approaches to modeling opponents typically rely on a two-step process: constructing a belief distribution over possible opponent strategies and subsequently computing a best response. However, these methods often face significant scaling issues in large-scale domains and frequently require heavily customized, domain-specific heuristics.
+
+### Generative Best Response (GenBR)
+
+To address the scalability bottleneck, the authors propose **Generative Best Response (GenBR)**. This algorithm integrates [[monte-carlo-tree-search|Monte-Carlo Tree Search]] (MCTS) with a learned deep [[approximately-equivariant-recurrent-generative-models-for-quasi-periodic-time-se|Generative Model]]. By utilizing the generative model to sample potential world states during the planning process, GenBR can effectively navigate large, complex state spaces. A key advantage of GenBR is its modularity; it functions as a "plug and play" component that can be integrated into various existing [[multiagent-reinforcement-learning|Multiagent Reinforcement Learning]] (MARL) algorithms.
+
+### Strategic Framework and Bargaining Theory
+
+The researchers implement GenBR within the [[policy-space-response-oracles|Policy Space Response Oracles]] (PSRO) framework to automate opponent modeling through iterative reasoning. The methodology utilizes two distinct modeling layers:
+
+1.  **Offline Opponent Model:** This is constructed via population-based training. The authors utilize concepts from [[bargaining-theory|Bargaining Theory]] to create an opponent mixture that targets profiles near the [[pareto-frontier|Pareto Frontier]].
+2.  **Online Opponent Model:** This layer allows the agent to update its predictions and adapt its strategy in real-time during active gameplay.
+
+### Experimental Results
+
+The effectiveness of the system was evaluated using "Deal-or-No-Deal," a class of bilateral bargaining games. The study demonstrates that combining search with generative modeling results in superior policies during both training and inference. Remarkably, the agents achieved [[social-welfare|Social Welfare]] and [[combining-tree-search-generative-models-and-nash-bargaining-concepts-in-game-the|Nash Bargaining]] scores comparable to human players negotiating amongst themselves, showcasing the potential for highly sophisticated, adaptive AI in complex social and economic simulations.

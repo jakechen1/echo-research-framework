@@ -1,0 +1,7 @@
+{
+  "id": "aef395a6bce93601",
+  "title": "AutoReproduce: Automatic AI Experiment Reproduction with Paper Lineage",
+  "link": "https://arxiv.org/abs/2505.20662",
+  "summary": "arXiv:2505.20662v3 Announce Type: replace \nAbstract: Efficient reproduction of research papers is pivotal to accelerating scientific progress. However, the increasing complexity of proposed methods often renders reproduction a labor-intensive endeavor, necessitating profound domain expertise. To address this, we introduce the paper lineage, which systematically mines implicit knowledge from the cited literature. This algorithm serves as the backbone of our proposed AutoReproduce, a multi-agent framework designed to autonomously reproduce experimental code in a complete, end-to-end manner. To ensure code executability, AutoReproduce incorporates a sampling-based unit testing strategy for rapid validation. To assess reproduction capabilities, we introduce ReproduceBench, a benchmark featuring verified implementations, alongside comprehensive metrics for evaluating both reproduction and execution fidelity. Extensive evaluations on PaperBench and ReproduceBench demonstrate that AutoReproduce consistently surpasses existing baselines across all metrics. Notably, it yields substantial improvements in reproduction fidelity and final execution performance.",
+  "feed": "arxiv-cs-AI"
+}

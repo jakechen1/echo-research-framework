@@ -1,0 +1,7 @@
+{
+  "id": "de83d4ad03908fee",
+  "title": "Learning Markov Processes as Sum-of-Square Forms for Analytical Belief Propagation",
+  "link": "https://arxiv.org/abs/2604.07525",
+  "summary": "arXiv:2604.07525v1 Announce Type: new \nAbstract: Harnessing the predictive capability of Markov process models requires propagating probability density functions (beliefs) through the model. For many existing models however, belief propagation is analytically infeasible, requiring approximation or sampling to generate predictions. This paper proposes a functional modeling framework leveraging sparse Sum-of-Squares (SoS) forms for valid (conditional) density estimation. We study the theoretical restrictions of modeling conditional densities using the SoS form, and propose a novel functional form for addressing such limitations. The proposed architecture enables generalized simultaneous learning of basis functions and coefficients, while preserving analytical belief propagation. In addition, we propose a training method that allows for exact adherence to the normalization and non-negativity constraints. Our results show that the proposed method achieves accuracy comparable to state-of-the-art approaches while requiring significantly less memory in low-dimensional spaces, and it further scales to 12D systems when existing methods fail beyond 2D.",
+  "feed": "arxiv-cs-LG"
+}

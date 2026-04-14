@@ -1,0 +1,7 @@
+{
+  "id": "57aec6d4471e14a7",
+  "title": "Uncertainty-Aware Foundation Models for Clinical Data",
+  "link": "https://arxiv.org/abs/2604.04175",
+  "summary": "arXiv:2604.04175v1 Announce Type: new \nAbstract: Healthcare foundation models have largely followed paradigms from natural language processing and computer vision, emphasizing large scale pretraining and deterministic representations over heterogeneous clinical data. However, clinical observations are inherently incomplete, reflecting sparse, irregular, and modality dependent measurements of an underlying physiologic state. In this work, we propose a framework for uncertainty aware foundation modeling that represents each patient not as a point embedding, but as a distribution over plausible latent states. By learning set valued representations and enforcing consistency across partial views of the same patient, the model captures what is invariantly inferable while explicitly encoding epistemic uncertainty. We integrate this formulation with multimodal encoders and scalable self supervised objectives, combining reconstruction, contrastive alignment, and distributional regularization. Across diverse clinical tasks, our approach improves predictive performance, robustness under missing data, and uncertainty calibration relative to strong baselines. These results suggest that modeling what is not observed rather than only what is constitutes a critical inductive bias for healthcare foundation models.",
+  "feed": "arxiv-cs-LG"
+}

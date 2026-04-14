@@ -1,0 +1,7 @@
+{
+  "id": "fbc77af3535c2b50",
+  "title": "Rate-optimal Design for Anytime Best Arm Identification",
+  "link": "https://arxiv.org/abs/2510.23199",
+  "summary": "arXiv:2510.23199v2 Announce Type: replace-cross \nAbstract: We consider the best arm identification problem, where the goal is to identify the arm with the highest mean reward from a set of $K$ arms under a limited sampling budget. This problem models many practical scenarios such as A/B testing. We consider a class of algorithms for this problem, which is provably minimax optimal up to a constant factor. This idea is a generalization of existing works in fixed-budget best arm identification, which are limited to a particular choice of risk measures. Based on the framework, we propose Almost Tracking, a closed-form algorithm that has a provable guarantee on the popular risk measure $H_1$. Unlike existing algorithms, Almost Tracking does not require the total budget in advance nor does it need to discard a significant part of samples, which gives a practical advantage. Through experiments on synthetic and real-world datasets, we show that our algorithm outperforms existing anytime algorithms as well as fixed-budget algorithms.",
+  "feed": "arxiv-cs-LG"
+}

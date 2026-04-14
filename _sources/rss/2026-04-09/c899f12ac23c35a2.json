@@ -1,0 +1,7 @@
+{
+  "id": "c899f12ac23c35a2",
+  "title": "LUMINA: Foundation Models for Topology Transferable ACOPF",
+  "link": "https://arxiv.org/abs/2603.04300",
+  "summary": "arXiv:2603.04300v2 Announce Type: replace \nAbstract: Foundation models in general promise to accelerate scientific computation by learning reusable representations across problem instances, yet constrained scientific systems, where predictions must satisfy physical laws and safety limits, pose unique challenges that stress conventional training paradigms. We derive design principles for constrained scientific foundation models through systematic investigation of AC optimal power flow (ACOPF), a representative optimization problem in power grid operations where power balance equations and operational constraints are non-negotiable. Through controlled experiments spanning architectures, training objectives, and system diversity, we extract three empirically grounded principles governing scientific foundation model design. These principles characterize three design trade-offs: learning physics-invariant representations while respecting system-specific constraints, optimizing accuracy while ensuring constraint satisfaction, and ensuring reliability in high-impact operating regimes. We present the LUMINA framework, including data processing and training pipelines to support reproducible research on physics-informed, feasibility-aware foundation models across scientific applications.",
+  "feed": "arxiv-cs-LG"
+}

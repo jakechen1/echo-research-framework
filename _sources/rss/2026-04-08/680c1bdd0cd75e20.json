@@ -1,0 +1,7 @@
+{
+  "id": "680c1bdd0cd75e20",
+  "title": "CavMerge: Merging K-means Based on Local Log-Concavity",
+  "link": "https://arxiv.org/abs/2604.04302",
+  "summary": "arXiv:2604.04302v1 Announce Type: cross \nAbstract: K-means clustering, a classic and widely-used clustering technique, is known to exhibit suboptimal performance when applied to non-linearly separable data. Numerous adjustments and modifications have been proposed to address this issue, including methods that merge K-means results from a relatively large K to obtain a final cluster assignment. However, existing methods of this nature often encounter computational inefficiencies and suffer from hyperparameter tuning. Here we present \\emph{CavMerge}, a novel K-means merging algorithm that is intuitive, free of parameter tuning, and computationally efficient. Operating under minimal local distributional assumptions, our algorithm demonstrates strong consistency and rapid convergence guarantees. Empirical studies on various simulated and real datasets demonstrate that our method yields more reliable clusters in comparison to current state-of-the-art algorithms.",
+  "feed": "arxiv-cs-LG"
+}

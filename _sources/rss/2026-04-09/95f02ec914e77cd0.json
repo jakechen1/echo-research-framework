@@ -1,0 +1,7 @@
+{
+  "id": "95f02ec914e77cd0",
+  "title": "BDI-Kit Demo: A Toolkit for Programmable and Conversational Data Harmonization",
+  "link": "https://arxiv.org/abs/2604.06405",
+  "summary": "arXiv:2604.06405v1 Announce Type: new \nAbstract: Data harmonization remains a major bottleneck for integrative analysis due to heterogeneity in schemas, value representations, and domain-specific conventions. BDI-Kit provides an extensible toolkit for schema and value matching. It exposes two complementary interfaces tailored to different user needs: a Python API enabling developers to construct harmonization pipelines programmatically, and an AI-assisted chat interface allowing domain experts to harmonize data through natural language dialogue. This demonstration showcases how users interact with BDI-Kit to iteratively explore, validate, and refine schema and value matches through a combination of automated matching, AI-assisted reasoning, and user-driven refinement. We present two scenarios: (i) using the Python API to programmatically compose primitives, examine intermediate outputs, and reuse transformations; and (ii) conversing with the AI assistant in natural language to access BDI-Kit's capabilities and iteratively refine outputs based on the assistant's suggestions.",
+  "feed": "arxiv-cs-AI"
+}

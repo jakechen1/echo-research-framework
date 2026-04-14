@@ -1,0 +1,7 @@
+{
+  "id": "7cb22e2e2bae4b44",
+  "title": "Implementing Grassroots Logic Programs with Multiagent Transition Systems and AI",
+  "link": "https://arxiv.org/abs/2602.06934",
+  "summary": "arXiv:2602.06934v3 Announce Type: replace-cross \nAbstract: Grassroots Logic Programs (GLP) is a multiagent, concurrent, logic programming language designed for the implementation of smartphone-based, serverless, grassroots platforms. Here, we start from GLP and maGLP -- concurrent and multiagent abstract nondeterministic operational semantics for GLP, respectively -- and from them derive dGLP and madGLP -- implementation-ready deterministic operational semantics for both -- and prove them correct with respect to their abstract counterparts. dGLP was used by AI (Claude) as a formal specification from which it developed a workstation-based implementation of GLP in Dart; madGLP is being used by AI as a formal specification from which it develops a smartphone-based multiagent implementation of GLP in Dart. The key insight is that maGLP shared variable pairs spanning agents can be implemented as local variable pairs connected by global links, with correctness following from disjoint substitution commutativity (from GLP's single-occurrence invariant) and persistence. We prove that both madGLP and maGLP are grassroots.",
+  "feed": "arxiv-cs-AI"
+}

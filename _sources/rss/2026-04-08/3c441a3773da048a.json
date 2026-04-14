@@ -1,0 +1,7 @@
+{
+  "id": "3c441a3773da048a",
+  "title": "Learning thermodynamic master equations for open quantum systems",
+  "link": "https://arxiv.org/abs/2506.01882",
+  "summary": "arXiv:2506.01882v2 Announce Type: replace-cross \nAbstract: The characterization of Hamiltonians and other components of open quantum dynamical systems plays a crucial role in quantum computing and other applications. Scientific machine learning techniques have been applied to this problem in a variety of ways, including by modeling with deep neural networks. However, the majority of mathematical models describing open quantum systems are linear, and the natural nonlinearities in learnable models have not been incorporated using physical principles. We present a data-driven model for open quantum systems that includes learnable, thermodynamically consistent terms. The trained model is interpretable, as it directly estimates the system Hamiltonian and linear components of coupling to the environment. We validate the model on synthetic two and three-level data, as well as experimental two-level data collected from a quantum device at Lawrence Livermore National Laboratory.",
+  "feed": "arxiv-cs-LG"
+}

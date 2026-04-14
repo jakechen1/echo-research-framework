@@ -1,0 +1,7 @@
+{
+  "id": "ebb2b6807892510c",
+  "title": "Convolutional Neural Network and Adversarial Autoencoder in EEG images classification",
+  "link": "https://arxiv.org/abs/2604.04313",
+  "summary": "arXiv:2604.04313v1 Announce Type: new \nAbstract: In this paper, we consider applying computer vision algorithms for the classification problem one faces in neuroscience during EEG data analysis. Our approach is to apply a combination of computer vision and neural network methods to solve human brain activity classification problems during hand movement. We pre-processed raw EEG signals and generated 2D EEG topograms. Later, we developed supervised and semi-supervised neural networks to classify different motor cortex activities.",
+  "feed": "arxiv-cs-LG"
+}

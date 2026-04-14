@@ -1,0 +1,7 @@
+{
+  "id": "532e1c390cd2a15f",
+  "title": "Playing DOOM with 1.3M Parameters: Specialized Small Models vs Large Language Models for Real-Time Game Control",
+  "link": "https://arxiv.org/abs/2604.07385",
+  "summary": "arXiv:2604.07385v1 Announce Type: new \nAbstract: We present SauerkrautLM-Doom-MultiVec, a 1.3 million parameter model that plays the classic first-person shooter DOOM in real time, outperforming large language models up to 92,000x its size, including Nemotron-120B, Qwen3.5-27B, and GPT-4o-mini. Our model combines a ModernBERT encoder with hash embeddings, depth-aware token representations, and an attention pooling classification head to select game actions from ASCII frame representations at 31ms per decision. Trained on just 31,000 human gameplay demonstrations, it achieves 178 frags in 10 episodes (17.8 per episode) in the defend_the_center scenario, more than all tested LLMs combined (13 frags total). All agents receive equivalent input: ASCII frames and depth maps. Despite having 92,000x fewer parameters than Nemotron-120B, our model is the only agent that actively engages enemies rather than purely evading them. These results demonstrate that small, task-specific models trained on domain-appropriate data can decisively outperform general-purpose LLMs at real-time control tasks, at a fraction of the inference cost, with deployment capability on consumer hardware.",
+  "feed": "arxiv-cs-LG"
+}

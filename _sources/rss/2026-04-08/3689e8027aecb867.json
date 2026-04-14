@@ -1,0 +1,7 @@
+{
+  "id": "3689e8027aecb867",
+  "title": "Optimal High-Probability Regret for Online Convex Optimization with Two-Point Bandit Feedback",
+  "link": "https://arxiv.org/abs/2603.25029",
+  "summary": "arXiv:2603.25029v3 Announce Type: replace \nAbstract: We consider the problem of Online Convex Optimization (OCO) with two-point bandit feedback.\n  In this setting, a player attempts to minimize a sequence of adversarially generated convex loss functions, while only observing the value of each function at two points.\n  While it is well-known that two-point feedback allows for gradient estimation, achieving tight high-probability regret bounds for strongly convex functions still remained open as highlighted by \\citet{agarwal2010optimal}. The primary challenge lies in the heavy-tailed nature of bandit gradient estimators, which makes standard concentration analysis difficult.\n  In this paper, we resolve this open challenge and provide the first high-probability regret bound of $O(d(\\log T + \\log(1/\\delta))/\\mu)$ for $\\mu$-strongly convex losses. Our result is minimax optimal with respect to both the time horizon $T$ and the dimension $d$.",
+  "feed": "arxiv-cs-LG"
+}

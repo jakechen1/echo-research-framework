@@ -1,0 +1,7 @@
+{
+  "id": "caf10d19b4547688",
+  "title": "Learning Stable Predictors from Weak Supervision under Distribution Shift",
+  "link": "https://arxiv.org/abs/2604.05002",
+  "summary": "arXiv:2604.05002v1 Announce Type: cross \nAbstract: Learning from weak or proxy supervision is common when ground-truth labels are unavailable, yet robustness under distribution shift remains poorly understood, especially when the supervision mechanism itself changes. We formalize this as supervision drift, defined as changes in P(y | x, c) across contexts, and study it in CRISPR-Cas13d experiments where guide efficacy is inferred indirectly from RNA-seq responses. Using data from two human cell lines and multiple time points, we build a controlled non-IID benchmark with explicit domain and temporal shifts while keeping the weak-label construction fixed. Models achieve strong in-domain performance (ridge R^2 = 0.356, Spearman rho = 0.442) and partial cross-cell-line transfer (rho ~ 0.40). However, temporal transfer fails across all models, with negative R^2 and near-zero correlation (e.g., XGBoost R^2 = -0.155, rho = 0.056). Additional analyses confirm this pattern. Feature-label relationships remain stable across cell lines but change sharply over time, indicating that failures arise from supervision drift rather than model limitations. These findings highlight feature stability as a simple diagnostic for detecting non-transferability before deployment.",
+  "feed": "arxiv-cs-AI"
+}

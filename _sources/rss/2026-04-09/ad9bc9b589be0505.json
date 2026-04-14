@@ -1,0 +1,7 @@
+{
+  "id": "ad9bc9b589be0505",
+  "title": "ODYN: An All-Shifted Non-Interior-Point Method for Quadratic Programming in Robotics and AI",
+  "link": "https://arxiv.org/abs/2602.16005",
+  "summary": "arXiv:2602.16005v2 Announce Type: replace-cross \nAbstract: We introduce ODYN, a novel all-shifted primal-dual non-interior-point quadratic programming (QP) solver designed to efficiently handle challenging dense and sparse QPs. ODYN combines all-shifted nonlinear complementarity problem (NCP) functions with proximal method of multipliers to robustly address ill-conditioned and degenerate problems, without requiring linear independence of the constraints. It exhibits strong warm-start performance and is well suited to both general-purpose optimization, and robotics and AI applications, including model-based control, estimation, and kernel-based learning methods. We provide an open-source implementation and benchmark ODYN on the Maros-M\\'esz\\'aros test set, demonstrating state-of-the-art convergence performance in small-to-high-scale problems. The results highlight ODYN's superior warm-starting capabilities, which are critical in sequential and real-time settings common in robotics and AI. These advantages are further demonstrated by deploying ODYN as the backend of an SQP-based predictive control framework (OdynSQP), as the implicitly differentiable optimization layer for deep learning (ODYNLayer), and the optimizer of a contact-dynamics simulation (ODYNSim).",
+  "feed": "arxiv-cs-AI"
+}

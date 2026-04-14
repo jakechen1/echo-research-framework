@@ -1,0 +1,7 @@
+{
+  "id": "78622782977aaebf",
+  "title": "InsightBoard: An Interactive Multi-Metric Visualization and Fairness Analysis Plugin for TensorBoard",
+  "link": "https://arxiv.org/abs/2604.03323",
+  "summary": "arXiv:2604.03323v1 Announce Type: cross \nAbstract: Modern machine learning systems deployed in safety-critical domains require visibility not only into aggregate performance but also into how training dynamics affect subgroup fairness over time. Existing training dashboards primarily support single-metric monitoring and offer limited support for examining relationships between heterogeneous metrics or diagnosing subgroup disparities during training. We present InsightBoard, an interactive TensorBoard plugin that integrates synchronized multi-metric visualization with slice-based fairness diagnostics in a unified interface. InsightBoard enables practitioners to jointly inspect training dynamics, performance metrics, and subgroup disparities through linked multi-view plots, correlation analysis, and standard group fairness indicators computed over user-defined slices. Through case studies with YOLOX on the BDD100k dataset, we demonstrate that models achieving strong aggregate performance can still exhibit substantial demographic and environmental disparities that remain hidden under conventional monitoring. By making fairness diagnostics available during training, InsightBoard supports earlier, more informed model inspection without modifying existing training pipelines or introducing additional data stores.",
+  "feed": "arxiv-cs-LG"
+}

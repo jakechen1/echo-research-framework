@@ -1,0 +1,7 @@
+{
+  "id": "442fde495986232d",
+  "title": "Diffusion Processes on Implicit Manifolds",
+  "link": "https://arxiv.org/abs/2604.07213",
+  "summary": "arXiv:2604.07213v1 Announce Type: new \nAbstract: High-dimensional data are often modeled as lying near a low-dimensional manifold. We study how to construct diffusion processes on this data manifold in the implicit setting. That is, using only point cloud samples and without access to charts, projections, or other geometric primitives. Our main contribution is a data-driven SDE that captures intrinsic diffusion on the underlying manifold while being defined in ambient space. The construction relies on estimating the diffusion's infinitesimal generator and its carr\\'e-du-champ (CDC) from a proximity graph built from the data. The generator and CDC together encode the local stochastic and geometric structure of the intended diffusion. We show that, as the number of samples grows, the induced process converges in law on the space of probability paths to its smooth manifold counterpart. We call this construction Implicit Manifold-valued Diffusions (IMDs), and furthermore present a numerical simulation procedure using Euler-Maruyama integration. This gives a rigorous basis for practical implementations of diffusion dynamics on data manifolds, and opens new directions for manifold-aware sampling, exploration, and generative modeling.",
+  "feed": "arxiv-cs-LG"
+}

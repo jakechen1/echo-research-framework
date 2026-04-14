@@ -1,0 +1,7 @@
+{
+  "id": "99b9911c621fde65",
+  "title": "Automating aggregation strategy selection in federated learning",
+  "link": "https://arxiv.org/abs/2604.08056",
+  "summary": "arXiv:2604.08056v1 Announce Type: new \nAbstract: Federated Learning enables collaborative model training without centralising data, but its effectiveness varies with the selection of the aggregation strategy. This choice is non-trivial, as performance varies widely across datasets, heterogeneity levels, and compute constraints. We present an end-to-end framework that automates, streamlines, and adapts aggregation strategy selection for federated learning. The framework operates in two modes: a single-trial mode, where large language models infer suitable strategies from user-provided or automatically detected data characteristics, and a multi-trial mode, where a lightweight genetic search efficiently explores alternatives under constrained budgets. Extensive experiments across diverse datasets show that our approach enhances robustness and generalisation under non-IID conditions while reducing the need for manual intervention. Overall, this work advances towards accessible and adaptive federated learning by automating one of its most critical design decisions, the choice of an aggregation strategy.",
+  "feed": "arxiv-cs-LG"
+}

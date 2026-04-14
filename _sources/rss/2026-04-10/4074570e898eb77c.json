@@ -1,0 +1,7 @@
+{
+  "id": "4074570e898eb77c",
+  "title": "Evaluating Singular Value Thresholds for DNN Weight Matrices based on Random Matrix Theory",
+  "link": "https://arxiv.org/abs/2512.12911",
+  "summary": "arXiv:2512.12911v2 Announce Type: replace-cross \nAbstract: This study evaluates thresholds for removing singular values from singular value decomposition-based low-rank approximations of deep neural network weight matrices. Each weight matrix is modeled as the sum of signal and noise matrices. The low-rank approximation is obtained by removing noise-related singular values using a threshold based on random matrix theory. To assess the adequacy of this threshold, we propose an evaluation metric based on the cosine similarity between the singular vectors of the signal and original weight matrices. The proposed metric is used in numerical experiments to compare two threshold estimation methods.",
+  "feed": "arxiv-cs-LG"
+}

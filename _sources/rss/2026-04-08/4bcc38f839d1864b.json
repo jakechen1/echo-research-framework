@@ -1,0 +1,7 @@
+{
+  "id": "4bcc38f839d1864b",
+  "title": "Cactus: Accelerating Auto-Regressive Decoding with Constrained Acceptance Speculative Sampling",
+  "link": "https://arxiv.org/abs/2604.04987",
+  "summary": "arXiv:2604.04987v1 Announce Type: cross \nAbstract: Speculative sampling (SpS) has been successful in accelerating the decoding throughput of auto-regressive large language models by leveraging smaller draft models. SpS strictly enforces the generated distribution to match that of the verifier LLM. This is unnecessarily restrictive as slight variations of the verifier's distribution, such as sampling with top-$k$ or temperature, would also be acceptable. Typical acceptance sampling (TAS) alleviates this issue by accepting more tokens using entropy-based heuristics. However, this approach distorts the verifier distribution, potentially degrading output quality when the verifier encodes critical information. In this work, we formalize the speculative sampling algorithm through the lens of constrained optimization. Based on this formulation, we propose Cactus (constrained acceptance speculative sampling), a method that guarantees controlled divergence from the verifier distribution and increasing acceptance rates. Empirical results across a wide range of benchmarks confirm the effectiveness of our approach.",
+  "feed": "arxiv-cs-AI"
+}

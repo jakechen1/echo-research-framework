@@ -1,0 +1,7 @@
+{
+  "id": "03e81b6e2fa5cd45",
+  "title": "Fraud Detection System for Banking Transactions",
+  "link": "https://arxiv.org/abs/2604.07952",
+  "summary": "arXiv:2604.07952v1 Announce Type: new \nAbstract: The expansion of digital payment systems has heightened both the scale and intricacy of online financial transactions, thereby increasing vulnerability to fraudulent activities. Detecting fraud effectively is complicated by the changing nature of attack strategies and the significant disparity between genuine and fraudulent transactions. This research introduces a machine learning-based fraud detection framework utilizing the PaySim synthetic financial transaction dataset. Following the CRISP-DM methodology, the study includes hypothesis-driven exploratory analysis, feature refinement, and a comparative assessment of baseline models such as Logistic Regression and tree-based classifiers like Random Forest, XGBoost, and Decision Tree. To tackle class imbalance, SMOTE is employed, and model performance is enhanced through hyperparameter tuning with GridSearchCV. The proposed framework provides a robust and scalable solution to enhance fraud prevention capabilities in FinTech transaction systems. Keywords: fraud detection, imbalanced data, HPO, SMOTE",
+  "feed": "arxiv-cs-LG"
+}

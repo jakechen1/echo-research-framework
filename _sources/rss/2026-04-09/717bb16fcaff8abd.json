@@ -1,0 +1,7 @@
+{
+  "id": "717bb16fcaff8abd",
+  "title": "A modular approach to achieve multistationarity using AND-gates",
+  "link": "https://arxiv.org/abs/2604.07124",
+  "summary": "arXiv:2604.07124v1 Announce Type: new \nAbstract: Systems of differential equations have been used to model biological systems such as gene and neural networks. A problem of particular interest is to understand the number of stable steady states. Here we propose conjunctive networks (systems of differential equations equations created using AND gates) to achieve any desired number of stable steady states. Our approach uses combinatorial tools to predict the number of stable steady states from the structure of the wiring diagram. Furthermore, AND gates have been successfully engineered by experimentalists for gene networks, so our results provide a modular approach to design gene networks that achieve arbitrary number of phenotypes.",
+  "feed": "arxiv-q-bio"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "38721053116fa662",
+  "title": "Advancing AI Research Assistants with Expert-Involved Learning",
+  "link": "https://arxiv.org/abs/2505.04638",
+  "summary": "arXiv:2505.04638v5 Announce Type: replace \nAbstract: Large language models (LLMs) and large multimodal models (LMMs) promise to accelerate biomedical discovery, yet their reliability remains unclear. We introduce ARIEL (AI Research Assistant for Expert-in-the-Loop Learning), an open-source evaluation and optimization framework that pairs a curated multimodal biomedical corpus with expert-vetted tasks to probe two capabilities: full-length article summarization and fine-grained figure interpretation. Using uniform protocols and blinded PhD-level evaluation, we find that state-of-the-art models generate fluent but incomplete summaries, whereas LMMs struggle with detailed visual reasoning. We later observe that prompt engineering and lightweight fine-tuning substantially improve textual coverage, and a compute-scaled inference strategy enhances visual question answering. We build an ARIEL agent that integrates textual and visual cues, and we show it can propose testable mechanistic hypotheses. ARIEL delineates current strengths and limitations of foundation models, and provides a reproducible platform for advancing trustworthy AI in biomedicine.",
+  "feed": "arxiv-cs-AI"
+}

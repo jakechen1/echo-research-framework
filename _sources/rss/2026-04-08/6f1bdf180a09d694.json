@@ -1,0 +1,7 @@
+{
+  "id": "6f1bdf180a09d694",
+  "title": "Gaussian mixture models as a proxy for interacting language models",
+  "link": "https://arxiv.org/abs/2506.00077",
+  "summary": "arXiv:2506.00077v4 Announce Type: replace-cross \nAbstract: Large language models (LLMs) are powerful tools that, in a number of settings, overlap with the results of human pattern recognition and reasoning. Retrieval-augmented generation (RAG) further allows LLMs to produce tailored output depending on the contents of their RAG databases. However, LLMs depend on complex, computationally expensive algorithms. In this paper, we introduce interacting Gaussian mixture models (GMMs) as a proxy for interacting LLMs. We construct a model of interacting GMMs, complete with an analogue to RAG updating, under which GMMs can generate, exchange, and update data and parameters. We show that this interacting system of Gaussian mixture models, which can be implemented at minimal computational cost, mimics certain aspects of experimental simulations of interacting LLMs whose iterative responses depend on feedback from other LLMs. We build a Markov chain from this system of interacting GMMs; formalize and interpret the notion of polarization for such a chain; and prove lower bounds on the probability of polarization. This provides theoretical insight into the use of interacting Gaussian mixture models as a computationally efficient proxy for interacting large language models.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "b70170897663f238",
+  "title": "MolDA: Molecular Understanding and Generation via Large Language Diffusion Model",
+  "link": "https://arxiv.org/abs/2604.04403",
+  "summary": "arXiv:2604.04403v2 Announce Type: replace \nAbstract: Large Language Models (LLMs) have significantly advanced molecular discovery, but existing multimodal molecular architectures fundamentally rely on autoregressive (AR) backbones. This strict left-to-right inductive bias is sub-optimal for generating chemically valid molecules, as it struggles to account for non-local global constraints (e.g., ring closures) and often accumulates structural errors during sequential generation. To address these limitations, we propose MolDA (Molecular language model with masked Diffusion with mAsking), a novel multimodal framework that replaces the conventional AR backbone with a discrete Large Language Diffusion Model. MolDA extracts comprehensive structural representations using a hybrid graph encoder, which captures both local and global topologies, and aligns them into the language token space via a Q-Former. Furthermore, we mathematically reformulate Molecular Structure Preference Optimization specifically for the masked diffusion. Through bidirectional iterative denoising, MolDA ensures global structural coherence, chemical validity, and robust reasoning across molecule generation, captioning, and property prediction.",
+  "feed": "arxiv-cs-AI"
+}

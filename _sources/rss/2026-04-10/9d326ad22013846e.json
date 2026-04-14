@@ -1,0 +1,7 @@
+{
+  "id": "9d326ad22013846e",
+  "title": "Adversarially and Distributionally Robust Virtual Energy Storage Systems via the Scenario Approach",
+  "link": "https://arxiv.org/abs/2511.09427",
+  "summary": "arXiv:2511.09427v2 Announce Type: replace-cross \nAbstract: We study virtual energy storage services based on the aggregation of EV batteries in parking lots under time-varying, uncertain EV departures and state-of-charge limits. We propose a convex data-driven scheduling framework in which a parking lot manager provides storage services to a prosumer community while interacting with a retailer. The framework yields finite-sample, distribution-free guarantees on constraint violations and allows the parking lot manager to explicitly tune the trade-off between economic performance and operational safety. To enhance reliability under imperfect data, we extend the formulation to adversarial perturbations of the training samples and Wasserstein distributional shifts, obtaining robustness certificates against both corrupted data and out-of-distribution uncertainty. Numerical studies confirm the predicted profit-risk trade-off and show consistency between the theoretical certificates and the observed violation levels.",
+  "feed": "arxiv-cs-LG"
+}

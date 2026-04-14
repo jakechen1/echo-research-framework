@@ -1,0 +1,7 @@
+{
+  "id": "8ee4fadcada85997",
+  "title": "Part-Level 3D Gaussian Vehicle Generation with Joint and Hinge Axis Estimation",
+  "link": "https://arxiv.org/abs/2604.05070",
+  "summary": "arXiv:2604.05070v1 Announce Type: new \nAbstract: Simulation is essential for autonomous driving, yet current frameworks often model vehicles as rigid assets and fail to capture part-level articulation. With perception algorithms increasingly leveraging dynamics such as wheel steering or door opening, realistic simulation requires animatable vehicle representations. Existing CAD-based pipelines are limited by library coverage and fixed templates, preventing faithful reconstruction of in-the-wild instances.\n  We propose a generative framework that, from a single image or sparse multi-view input, synthesizes an animatable 3D Gaussian vehicle. Our method addresses two challenges: (i) large 3D asset generators are optimized for static quality but not articulation, leading to distortions at part boundaries when animated; and (ii) segmentation alone cannot provide the kinematic parameters required for motion. To overcome this, we introduce a part-edge refinement module that enforces exclusive Gaussian ownership and a kinematic reasoning head that predicts joint positions and hinge axes of movable parts. Together, these components enable faithful part-aware simulation, bridging the gap between static generation and animatable vehicle models.",
+  "feed": "arxiv-cs-AI"
+}

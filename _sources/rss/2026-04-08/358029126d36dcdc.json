@@ -1,0 +1,7 @@
+{
+  "id": "358029126d36dcdc",
+  "title": "Curvature-Aware Optimization for High-Accuracy Physics-Informed Neural Networks",
+  "link": "https://arxiv.org/abs/2604.05230",
+  "summary": "arXiv:2604.05230v1 Announce Type: cross \nAbstract: Efficient and robust optimization is essential for neural networks, enabling scientific machine learning models to converge rapidly to very high accuracy -- faithfully capturing complex physical behavior governed by differential equations. In this work, we present advanced optimization strategies to accelerate the convergence of physics-informed neural networks (PINNs) for challenging partial (PDEs) and ordinary differential equations (ODEs). Specifically, we provide efficient implementations of the Natural Gradient (NG) optimizer, Self-Scaling BFGS and Broyden optimizers, and demonstrate their performance on problems including the Helmholtz equation, Stokes flow, inviscid Burgers equation, Euler equations for high-speed flows, and stiff ODEs arising in pharmacokinetics and pharmacodynamics. Beyond optimizer development, we also propose new PINN-based methods for solving the inviscid Burgers and Euler equations, and compare the resulting solutions against high-order numerical methods to provide a rigorous and fair assessment. Finally, we address the challenge of scaling these quasi-Newton optimizers for batched training, enabling efficient and scalable solutions for large data-driven problems.",
+  "feed": "arxiv-cs-AI"
+}

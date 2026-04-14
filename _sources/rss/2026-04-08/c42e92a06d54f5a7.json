@@ -1,0 +1,7 @@
+{
+  "id": "c42e92a06d54f5a7",
+  "title": "Weakly Convex Ridge Regularization for 3D Non-Cartesian MRI Reconstruction",
+  "link": "https://arxiv.org/abs/2603.27158",
+  "summary": "arXiv:2603.27158v2 Announce Type: replace-cross \nAbstract: While highly accelerated non-Cartesian acquisition protocols significantly reduce scan time, they often entail long reconstruction delays. Deep learning based reconstruction methods can alleviate this, but often lack stability and robustness to distribution shifts. As an alternative, we train a rotation invariant weakly convex ridge regularizer (WCRR). The resulting variational reconstruction approach is benchmarked against state of the art methods on retrospectively simulated data and (out of distribution) on prospective GoLF SPARKLING and CAIPIRINHA acquisitions. Our approach consistently outperforms widely used baselines and achieves performance comparable to Plug and Play reconstruction with a state of the art 3D DRUNet denoiser, while offering substantially improved computational efficiency and robustness to acquisition changes. In summary, WCRR unifies the strengths of principled variational methods and modern deep learning based approaches.",
+  "feed": "arxiv-cs-LG"
+}

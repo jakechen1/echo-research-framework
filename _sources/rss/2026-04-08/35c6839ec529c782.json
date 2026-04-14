@@ -1,0 +1,7 @@
+{
+  "id": "35c6839ec529c782",
+  "title": "Screening Is Enough",
+  "link": "https://arxiv.org/abs/2604.01178",
+  "summary": "arXiv:2604.01178v2 Announce Type: replace \nAbstract: A core limitation of standard softmax attention is that it does not define a notion of absolute query--key relevance: attention weights are obtained by redistributing a fixed unit mass across all keys according to their relative scores. As a result, relevance is defined only relative to competing keys, and irrelevant keys cannot be explicitly rejected. We introduce Multiscreen, a language-model architecture built around a mechanism we call screening, which enables absolute query--key relevance. Instead of redistributing attention across all keys, screening evaluates each key against an explicit threshold, discarding irrelevant keys and aggregating the remaining keys, thereby removing global competition among keys. Across experiments, Multiscreen achieves comparable validation loss with approximately 40% fewer parameters than a Transformer baseline and enables stable optimization at substantially larger learning rates. It maintains strong performance in long-context perplexity and shows little to no degradation in retrieval performance well beyond the training context length. Notably, even at the training context length, a Multiscreen model with approximately 92% fewer parameters consistently outperforms a larger Transformer in retrieval accuracy. Finally, Multiscreen reduces inference latency by up to 3.2$\\times$ at 100K context length.",
+  "feed": "arxiv-cs-LG"
+}

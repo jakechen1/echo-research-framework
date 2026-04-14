@@ -1,0 +1,7 @@
+{
+  "id": "c8e037216e6164f0",
+  "title": "FedScalar: Federated Learning with Scalar Communication for Bandwidth-Constrained Networks",
+  "link": "https://arxiv.org/abs/2410.02260",
+  "summary": "arXiv:2410.02260v3 Announce Type: replace \nAbstract: In bandwidth-constrained federated learning~(FL) settings, the repeated upload of high-dimensional model updates from agents to a central server constitutes the primary bottleneck, often rendering standard FL infeasible within practical communication budgets. We propose \\emph{FedScalar}, a communication-efficient FL algorithm in which each agent uploads only two scalar values per round, regardless of the model dimension~$d$. Each agent encodes its local update difference as an inner product with a locally generated random vector and transmits the resulting scalar together with the generating seed, enabling the server to reconstruct an unbiased gradient estimate without any high-dimensional transmission. We prove that \\emph{FedScalar} achieves a convergence rate of $O(d/\\sqrt{K})$ to a stationary point for smooth non-convex loss functions, and show that adopting a Rademacher distribution for the random vector reduces the aggregation variance compared to the Gaussian case. Numerical simulations confirm that the dimension-free upload cost translates into significant improvements in wall-clock time and energy efficiency over \\emph{FedAvg} and \\emph{QSGD} in bandwidth-constrained settings.",
+  "feed": "arxiv-cs-LG"
+}

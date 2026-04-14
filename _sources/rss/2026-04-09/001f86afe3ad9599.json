@@ -1,0 +1,7 @@
+{
+  "id": "001f86afe3ad9599",
+  "title": "Say Something Else: Rethinking Contextual Privacy as Information Sufficiency",
+  "link": "https://arxiv.org/abs/2604.06409",
+  "summary": "arXiv:2604.06409v1 Announce Type: cross \nAbstract: LLM agents increasingly draft messages on behalf of users, yet users routinely overshare sensitive information and disagree on what counts as private. Existing systems support only suppression (omitting sensitive information) and generalization (replacing information with an abstraction), and are typically evaluated on single isolated messages, leaving both the strategy space and evaluation setting incomplete. We formalize privacy-preserving LLM communication as an \\textbf{Information Sufficiency (IS)} task, introduce \\textbf{free-text pseudonymization} as a third strategy that replaces sensitive attributes with functionally equivalent alternatives, and propose a \\textbf{conversational evaluation protocol} that assesses strategies under realistic multi-turn follow-up pressure. Across 792 scenarios spanning three power-relation types (institutional, peer, intimate) and three sensitivity categories (discrimination risk, social cost, boundary), we evaluate seven frontier LLMs on privacy at two granularities, covertness, and utility. Pseudonymization yields the strongest privacy\\textendash utility tradeoff overall, and single-message evaluation systematically underestimates leakage, with generalization losing up to 16.3 percentage points of privacy under follow-up.",
+  "feed": "arxiv-cs-AI"
+}

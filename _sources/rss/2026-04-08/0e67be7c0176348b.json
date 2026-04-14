@@ -1,0 +1,7 @@
+{
+  "id": "0e67be7c0176348b",
+  "title": "New insights into Elo algorithm for practitioners and statisticians",
+  "link": "https://arxiv.org/abs/2604.03840",
+  "summary": "arXiv:2604.03840v1 Announce Type: cross \nAbstract: This work reconciles two perspectives on the Elo ranking that coexist in the literature: the practitioner's view as a heuristic feedback rule, and the statistician's view as online maximum likelihood estimation via stochastic gradient ascent. Both perspectives coincide exactly in the binary case (iff the expected score is the logistic function). However, estimation noise forces a principled decoupling between the model used for ranking and the model used for prediction: the effective scale and home-field advantage parameter must be adjusted to account for the noise. We provide both closed-form corrections and a data-driven identification procedure. For multilevel outcomes, an exact relationship exists when outcome scores are uniformly spaced, but approximations are preferred in general: they account for estimation noise and better fit the data.\n  The decoupled approach substantially outperforms the conventional one that reuses the ranking model for prediction, and serves as a diagnostic of convergence status. Applied to six years of FIFA men's ranking, we find that the ranking had not converged for the vast majority of national teams.\n  The paper is written in a semi-tutorial style accessible to practitioners, with all key results accompanied by closed-form expressions and numerical examples.",
+  "feed": "arxiv-cs-LG"
+}

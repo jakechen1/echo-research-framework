@@ -1,0 +1,7 @@
+{
+  "id": "968010ea3f57fbbf",
+  "title": "Bayesian Hierarchical Invariant Prediction",
+  "link": "https://arxiv.org/abs/2505.11211",
+  "summary": "arXiv:2505.11211v3 Announce Type: replace \nAbstract: We propose Bayesian Hierarchical Invariant Prediction (BHIP) reframing Invariant Causal Prediction (ICP) through the lens of Hierarchical Bayes. We leverage the hierarchical structure to explicitly test invariance of causal mechanisms under heterogeneous data, resulting in improved computational scalability for a larger number of predictors compared to ICP. Moreover, given its Bayesian nature BHIP enables the use of prior information. We evaluate BHIP on both synthetic and real-world datasets, demonstrating its potential as an alternative inference method to ICP and related methods.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "dbf302386672e567",
+  "title": "TeamPath: Building MultiModal Pathology Experts with Reasoning AI Copilots",
+  "link": "https://arxiv.org/abs/2511.17652",
+  "summary": "arXiv:2511.17652v2 Announce Type: replace \nAbstract: Advances in AI have introduced several strong models in computational pathology to usher it into the era of multi-modal diagnosis, analysis, and interpretation. However, the current pathology-specific visual language models still lack capacities in making the diagnosis with rigorous reasoning paths as well as handling divergent tasks, and thus, challenges of building AI Copilots for real scenarios still exist. Here we introduce TeamPath, an AI system powered by reinforcement learning and router-enhanced solutions based on large-scale histopathology multimodal datasets, to work as a virtual assistant for expert-level disease diagnosis, patch-level information summarization, and cross-modality generation to integrate transcriptomic information for clinical usage. We also collaborate with pathologists from Yale School of Medicine to demonstrate that TeamPath can assist them in working more efficiently by identifying and correcting expert conclusions and reasoning paths. We also discuss the human evaluation results to support the reasoning quality from TeamPath. Overall, TeamPath can flexibly choose the best settings according to the needs, and serve as an innovative and reliable system for information communication across different modalities and experts.",
+  "feed": "arxiv-q-bio"
+}

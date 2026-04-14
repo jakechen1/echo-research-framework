@@ -1,0 +1,7 @@
+{
+  "id": "dfd68c87f6baf6be",
+  "title": "Automatic Generation of Executable BPMN Models from Medical Guidelines",
+  "link": "https://arxiv.org/abs/2604.07817",
+  "summary": "arXiv:2604.07817v1 Announce Type: cross \nAbstract: We present an end-to-end pipeline that converts healthcare policy documents into executable, data-aware Business Process Model and Notation (BPMN) models using large language models (LLMs) for simulation-based policy evaluation. We address the main challenges of automated policy digitization with four contributions: data-grounded BPMN generation with syntax auto-correction, executable augmentation, KPI instrumentation, and entropy-based uncertainty detection. We evaluate the pipeline on diabetic nephropathy prevention guidelines from three Japanese municipalities, generating 100 models per backend across three LLMs and executing each against 1,000 synthetic patients. On well-structured policies, the pipeline achieves a 100% ground-truth match with perfect per-patient decision agreement. Across all conditions, raw per-patient decision agreement exceeds 92%, and entropy scores increase monotonically with document complexity, confirming that the detector reliably separates unambiguous policies from those requiring targeted human clarification.",
+  "feed": "arxiv-cs-LG"
+}

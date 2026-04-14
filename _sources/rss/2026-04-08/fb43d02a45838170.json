@@ -1,0 +1,7 @@
+{
+  "id": "fb43d02a45838170",
+  "title": "ThinkTwice: Jointly Optimizing Large Language Models for Reasoning and Self-Refinement",
+  "link": "https://arxiv.org/abs/2604.01591",
+  "summary": "arXiv:2604.01591v2 Announce Type: replace \nAbstract: We introduce ThinkTwice, a simple two-phase framework that jointly optimizes LLMs to solve reasoning problems and refine the answers, based on Group Relative Policy Optimization (GRPO). In each pair of training steps, ThinkTwice first optimizes the model on solving reasoning problems, then optimizes it on refining its own solutions to the same problems, using the same binary correctness reward in both phases without correctness signals or critique annotations. Across five mathematical reasoning benchmarks and two model families including Qwen3-4B and Olmo3-7B, ThinkTwice substantially improves both reasoning and refinement performance over competitive online policy optimization baselines. Specifically, on Qwen3-4B, ThinkTwice outperforms GRPO on AIME by 5 percentage points before refinement and by 11.5 points after one self-refinement step, measured by pass@4. Analysis of the training dynamics of ThinkTwice reveals an implicit rectify-then-fortify curriculum: refinement predominantly corrects errors early in training and naturally shifts toward preserving already-correct solutions as the model improves, yielding a more rectified reward signal. Our work establishes joint training of reasoning and self-refinement as a principled and effective methodology for RLVR.",
+  "feed": "arxiv-cs-AI"
+}

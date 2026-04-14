@@ -1,0 +1,7 @@
+{
+  "id": "8717e19a0dd9c4c4",
+  "title": "Robust Length Prediction: A Perspective from Heavy-Tailed Prompt-Conditioned Distributions",
+  "link": "https://arxiv.org/abs/2604.07931",
+  "summary": "arXiv:2604.07931v1 Announce Type: new \nAbstract: Output-length prediction is important for efficient LLM serving, as it directly affects batching, memory reservation, and scheduling. For prompt-only length prediction, most existing methods use a one-shot sampled length as the label, implicitly treating each prompt as if it had one true target length. We show that this is unreliable: even under a fixed model and decoding setup, the same prompt induces a \\emph{prompt-conditioned output length distribution}, not a deterministic scalar, and this distribution is consistent with \\emph{heavy-tailed} behavior. Motivated by this, we cast length prediction as robust estimation from heavy-tailed prompt-conditioned length distributions. We propose prompt-conditioned length distribution (ProD) methods, which construct training targets from multiple independent generations of the same prompt. Two variants are developed to reuse the served LLM's hidden states: \\mbox{ProD-M}, which uses a median-based target for robust point prediction, and ProD-D, which uses a distributional target that preserves prompt-conditioned uncertainty. We provide theoretical justifications by analyzing the estimation error under a surrogate model. Experiments across diverse scenarios show consistent gains in prediction quality.",
+  "feed": "arxiv-cs-LG"
+}

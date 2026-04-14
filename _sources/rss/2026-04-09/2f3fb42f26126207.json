@@ -1,0 +1,7 @@
+{
+  "id": "2f3fb42f26126207",
+  "title": "Conformal Margin Risk Minimization: An Envelope Framework for Robust Learning under Label Noise",
+  "link": "https://arxiv.org/abs/2604.06468",
+  "summary": "arXiv:2604.06468v1 Announce Type: new \nAbstract: Most methods for learning with noisy labels require privileged knowledge such as noise transition matrices, clean subsets or pretrained feature extractors, resources typically unavailable when robustness is most needed. We propose Conformal Margin Risk Minimization (CMRM), a plug-and-play envelope framework that improves any classification loss under label noise by adding a single quantile-calibrated regularization term, with no privileged knowledge or training pipeline modification. CMRM measures the confidence margin between the observed label and competing labels, and thresholds it with a conformal quantile estimated per batch to focus training on high-margin samples while suppressing likely mislabeled ones. We derive a learning bound for CMRM under arbitrary label noise requiring only mild regularity of the margin distribution. Across five base methods and six benchmarks with synthetic and real-world noise, CMRM consistently improves accuracy (up to +3.39%), reduces conformal prediction set size (up to -20.44%) and does not hurt under 0% noise, showing that CMRM captures a method-agnostic uncertainty signal that existing mechanisms did not exploit.",
+  "feed": "arxiv-cs-LG"
+}

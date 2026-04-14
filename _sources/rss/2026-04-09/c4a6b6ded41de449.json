@@ -1,0 +1,7 @@
+{
+  "id": "c4a6b6ded41de449",
+  "title": "The Defense Trilemma: Why Prompt Injection Defense Wrappers Fail?",
+  "link": "https://arxiv.org/abs/2604.06436",
+  "summary": "arXiv:2604.06436v1 Announce Type: cross \nAbstract: We prove that no continuous, utility-preserving wrapper defense-a function $D: X\\to X$ that preprocesses inputs before the model sees them-can make all outputs strictly safe for a language model with connected prompt space, and we characterize exactly where every such defense must fail. We establish three results under successively stronger hypotheses: boundary fixation-the defense must leave some threshold-level inputs unchanged; an $\\epsilon$-robust constraint-under Lipschitz regularity, a positive-measure band around fixed boundary points remains near-threshold; and a persistent unsafe region under a transversality condition, a positive-measure subset of inputs remains strictly unsafe. These constitute a defense trilemma: continuity, utility preservation, and completeness cannot coexist. We prove parallel discrete results requiring no topology, and extend to multi-turn interactions, stochastic defenses, and capacity-parity settings. The results do not preclude training-time alignment, architectural changes, or defenses that sacrifice utility. The full theory is mechanically verified in Lean 4 and validated empirically on three LLMs.",
+  "feed": "arxiv-cs-AI"
+}

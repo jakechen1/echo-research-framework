@@ -1,0 +1,7 @@
+{
+  "id": "0f5ecfe383da1525",
+  "title": "Evaluating and Learning Robust Bandit Policies Under Uncertain Causal Mechanisms",
+  "link": "https://arxiv.org/abs/2508.02812",
+  "summary": "arXiv:2508.02812v2 Announce Type: replace \nAbstract: Causal graphical models can encode large amounts structural knowledge, both from the background knowledge of domain experts and the structural knowledge discovered from randomized experiments or observational data. However, though we may know the general structure of causal relationships, we often do not know the exact causal mechanisms. In this work, we propose a causal multi-armed bandit evaluation and learning algorithm that can reason effectively despite uncertainty over conditional probability distributions. Further, we show how conditional independence testing can be used to choose variables for modeling. We find that the structural equation model (SEM) approach gives more accurate evaluations compared to traditional approaches, particularly as the range of possible causal mechanisms grows. Further, the SEM approach learns low-variance policies, and it learns an optimal policy, assuming the model is sufficiently well-specified. Traditional approaches can converge to local extrema or fail to converge at all.",
+  "feed": "arxiv-cs-LG"
+}

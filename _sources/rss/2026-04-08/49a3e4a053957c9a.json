@@ -1,0 +1,7 @@
+{
+  "id": "49a3e4a053957c9a",
+  "title": "Phase-Associative Memory: Sequence Modeling in Complex Hilbert Space",
+  "link": "https://arxiv.org/abs/2604.05030",
+  "summary": "arXiv:2604.05030v1 Announce Type: cross \nAbstract: We present Phase-Associative Memory (PAM), a recurrent sequence model in which all representations are complex-valued, associations accumulate in a matrix state $S_{t}$ $\\in$ $\\mathbb{C}^{d \\times d}$ via outer products, and retrieval operates through the conjugate inner product $K_t^* \\cdot Q_t / \\sqrt{d}$. At $\\sim$100M parameters on WikiText-103, PAM reaches validation perplexity 30.0, within $\\sim$10\\% of a matched transformer (27.1) trained under identical conditions, despite $4\\times$ arithmetic overhead from complex computation and no custom kernels. We trace the experimental path from vector-state models, where holographic binding fails due to the $O(1/\\sqrt{n})$ capacity degradation of superposed associations, to the matrix state that resolves it. The competitiveness of an architecture whose native operations are complex-valued superposition and conjugate retrieval is consistent with recent empirical evidence that semantic interpretation in both humans and large language models exhibits non-classical contextuality, and we discuss what this implies for the choice of computational formalism in language modeling.",
+  "feed": "arxiv-cs-AI"
+}

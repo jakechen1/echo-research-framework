@@ -1,0 +1,7 @@
+{
+  "id": "095476e0e9f8126d",
+  "title": "Improving Feasibility via Fast Autoencoder-Based Projections",
+  "link": "https://arxiv.org/abs/2604.03489",
+  "summary": "arXiv:2604.03489v1 Announce Type: new \nAbstract: Enforcing complex (e.g., nonconvex) operational constraints is a critical challenge in real-world learning and control systems. However, existing methods struggle to efficiently enforce general classes of constraints. To address this, we propose a novel data-driven amortized approach that uses a trained autoencoder as an approximate projector to provide fast corrections to infeasible predictions. Specifically, we train an autoencoder using an adversarial objective to learn a structured, convex latent representation of the feasible set. This enables rapid correction of neural network outputs by projecting their associated latent representations onto a simple convex shape before decoding into the original feasible set. We test our approach on a diverse suite of constrained optimization and reinforcement learning problems with challenging nonconvex constraints. Results show that our method effectively enforces constraints at a low computational cost, offering a practical alternative to expensive feasibility correction techniques based on traditional solvers.",
+  "feed": "arxiv-cs-LG"
+}

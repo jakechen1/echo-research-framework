@@ -1,0 +1,7 @@
+{
+  "id": "9a6e041af2c3e3fd",
+  "title": "IPSL-AID: Generative Diffusion Models for Climate Downscaling from Global to Regional Scales",
+  "link": "https://arxiv.org/abs/2604.03275",
+  "summary": "arXiv:2604.03275v1 Announce Type: cross \nAbstract: Effective adaptation and mitigation strategies for climate change require high-resolution projections to inform strategic decision-making. Conventional global climate models, which typically operate at resolutions of 150 to 200 kilometers, lack the capacity to represent essential regional processes. IPSL-AID is a global to regional downscaling tool based on a denoising diffusion probabilistic model designed to address this limitation. Trained on ERA5 reanalysis data, it generates 0.25 degree resolution fields for temperature, wind, and precipitation using coarse inputs and their spatiotemporal context. It also models probability distributions of fine-scale features to produce plausible scenarios for uncertainty quantification. The model accurately reconstructs statistical distributions, including extreme events, power spectra, and spatial structures. This work highlights the potential of generative diffusion models for efficient climate downscaling with uncertainty",
+  "feed": "arxiv-cs-LG"
+}

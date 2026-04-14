@@ -1,0 +1,7 @@
+{
+  "id": "941db18c1cd67be2",
+  "title": "Path Integral Solution for Dissipative Generative Dynamics",
+  "link": "https://arxiv.org/abs/2601.00860",
+  "summary": "arXiv:2601.00860v2 Announce Type: replace \nAbstract: Can purely mechanical systems generate intelligent language? We prove that dissipative quantum dynamics with analytically tractable non-local context aggregation produce coherent text generation, while conservation laws cause fundamental failure. Employing Koopman operators with closed-form path integral propagators, we show irreversible computation fundamentally requires both controlled information dissipation and causal context aggregation. Spectral analysis reveals emergent eigenvalue structure, separating into decay modes (forgetting), growth modes (amplification), and neutral modes (preservation) -- the essential ingredients for directed information flow. Hamiltonian constraints force the elimination of these dissipative modes and degrading performance despite unchanged model capacity. This establishes language generation as dissipative quantum field theory, proving mechanical systems acquire intelligence through the combination of dissipation and non-locality, not through conservation.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "f795147f1991bb99",
+  "title": "EduIllustrate: Towards Scalable Automated Generation Of Multimodal Educational Content",
+  "link": "https://arxiv.org/abs/2604.05005",
+  "summary": "arXiv:2604.05005v1 Announce Type: cross \nAbstract: Large language models are increasingly used as educational assistants, yet evaluation of their educational capabilities remains concentrated on question-answering and tutoring tasks. A critical gap exists for multimedia instructional content generation -- the ability to produce coherent, diagram-rich explanations that combine geometrically accurate visuals with step-by-step reasoning. We present EduIllustrate, a benchmark for evaluating LLMs on interleaved text-diagram explanation generation for K-12 STEM problems. The benchmark comprises 230 problems spanning five subjects and three grade levels, a standardized generation protocol with sequential anchoring to enforce cross-diagram visual consistency, and an 8-dimension evaluation rubric grounded in multimedia learning theory covering both text and visual quality. Evaluation of ten LLMs reveals a wide performance spread: Gemini 3.0 Pro Preview leads at 87.8\\%, while Kimi-K2.5 achieves the best cost-efficiency (80.8\\% at \\\\$0.12/problem). Workflow ablation confirms sequential anchoring improves Visual Consistency by 13\\% at 94\\% lower cost. Human evaluation with 20 expert raters validates LLM-as-judge reliability for objective dimensions ($\\rho \\geq 0.83$) while revealing limitations on subjective visual assessment.",
+  "feed": "arxiv-cs-AI"
+}

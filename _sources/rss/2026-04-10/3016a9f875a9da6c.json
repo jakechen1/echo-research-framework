@@ -1,0 +1,7 @@
+{
+  "id": "3016a9f875a9da6c",
+  "title": "We Still Don't Understand High-Dimensional Bayesian Optimization",
+  "link": "https://arxiv.org/abs/2512.00170",
+  "summary": "arXiv:2512.00170v2 Announce Type: replace \nAbstract: Existing high-dimensional Bayesian optimization (BO) methods aim to overcome the curse of dimensionality by carefully encoding structural assumptions, from locality to sparsity to smoothness, into the optimization procedure. Surprisingly, we demonstrate that these approaches are outperformed by arguably the simplest method imaginable: Bayesian linear regression. After applying a geometric transformation to avoid boundary-seeking behavior, Gaussian processes with linear kernels match state-of-the-art performance on tasks with 60- to 6,000-dimensional search spaces. Linear models offer numerous advantages over their non-parametric counterparts: they afford closed-form sampling and their computation scales linearly with data, a fact we exploit on molecular optimization tasks with >20,000 observations. Coupled with empirical analyses, our results suggest the need to depart from past intuitions about BO methods in high-dimensions.",
+  "feed": "arxiv-cs-LG"
+}

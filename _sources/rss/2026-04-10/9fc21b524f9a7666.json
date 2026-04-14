@@ -1,0 +1,7 @@
+{
+  "id": "9fc21b524f9a7666",
+  "title": "RiTTA: Modeling Event Relations in Text-to-Audio Generation",
+  "link": "https://arxiv.org/abs/2412.15922",
+  "summary": "arXiv:2412.15922v4 Announce Type: replace \nAbstract: Despite significant advancements in Text-to-Audio (TTA) generation models achieving high-fidelity audio with fine-grained context understanding, they struggle to model the relations between audio events described in the input text. However, previous TTA methods have not systematically explored audio event relation modeling, nor have they proposed frameworks to enhance this capability. In this work, we systematically study audio event relation modeling in TTA generation models. We first establish a benchmark for this task by: 1. proposing a comprehensive relation corpus covering all potential relations in real-world scenarios; 2. introducing a new audio event corpus encompassing commonly heard audios; and 3. proposing new evaluation metrics to assess audio event relation modeling from various perspectives. Furthermore, we propose a finetuning framework to enhance existing TTA models ability to model audio events relation. Code is available at: https://github.com/yuhanghe01/RiTTA",
+  "feed": "arxiv-cs-LG"
+}

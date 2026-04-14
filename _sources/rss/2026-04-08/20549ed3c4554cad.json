@@ -1,0 +1,7 @@
+{
+  "id": "20549ed3c4554cad",
+  "title": "SFBD-OMNI: Bridge models for lossy measurement restoration with limited clean samples",
+  "link": "https://arxiv.org/abs/2512.17051",
+  "summary": "arXiv:2512.17051v2 Announce Type: replace \nAbstract: In many real-world scenarios, obtaining fully observed samples is prohibitively expensive or even infeasible, while partial and noisy observations are comparatively easy to collect. In this work, we study distribution restoration with abundant noisy samples, assuming the corruption process is available as a black-box generator. We show that this task can be framed as a one-sided entropic optimal transport problem and solved via an EM-like algorithm. We further provide a test criterion to determine whether the true underlying distribution is recoverable under per-sample information loss, and show that in otherwise unrecoverable cases, a small number of clean samples can render the distribution largely recoverable. Building on these insights, we introduce SFBD-OMNI, a bridge model-based framework that maps corrupted sample distributions to the ground-truth distribution. Our method generalizes Stochastic Forward-Backward Deconvolution (SFBD; Lu et al., 2025) to handle arbitrary measurement models beyond Gaussian corruption. Experiments across benchmark datasets and diverse measurement settings demonstrate significant improvements in both qualitative and quantitative performance.",
+  "feed": "arxiv-cs-LG"
+}

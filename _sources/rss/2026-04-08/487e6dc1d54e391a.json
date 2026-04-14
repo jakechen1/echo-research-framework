@@ -1,0 +1,7 @@
+{
+  "id": "487e6dc1d54e391a",
+  "title": "An Information-Theoretic Analysis of OOD Generalization in Meta-Reinforcement Learning",
+  "link": "https://arxiv.org/abs/2510.23448",
+  "summary": "arXiv:2510.23448v2 Announce Type: replace \nAbstract: In this work, we study out-of-distribution (OOD) generalization in meta-reinforcement learning from an information-theoretic perspective. We begin by establishing OOD generalization bounds for meta-supervised learning under two distinct distribution shift scenarios: standard distribution mismatch and a broad-to-narrow training setting. Building on this foundation, we formalize the generalization problem in meta-reinforcement learning and establish fine-grained generalization bounds that exploit the structure of Markov Decision Processes. Lastly, we analyze the generalization performance of a gradient-based meta-reinforcement learning algorithm.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "c8c651830067b500",
+  "title": "Teaching Machine Learning Fundamentals with LEGO Robotics",
+  "link": "https://arxiv.org/abs/2601.19376",
+  "summary": "arXiv:2601.19376v2 Announce Type: replace-cross \nAbstract: This paper presents the web-based platform Machine Learning with Bricks and an accompanying two-day course designed to teach machine learning concepts to students aged 12 to 17 through programming-free robotics activities. Machine Learning with Bricks is an open source platform and combines interactive visualizations with LEGO robotics to teach three core algorithms: KNN, linear regression, and Q-learning. Students learn by collecting data, training models, and interacting with robots via a web-based interface. Pre- and post-surveys with 14 students indicate statistically significant improvements in self-reported understanding of machine learning algorithms, changes in AI-related terminology toward more technical language, high platform usability, and increased motivation for continued learning. This work suggests that tangible, visualization-based approaches can make machine learning concepts accessible and engaging for young learners while maintaining technical depth. The platform is freely available at https://learning-and-dynamics.github.io/ml-with-bricks/, with video tutorials guiding students through the experiments at https://youtube.com/playlist?list=PLx1grFu4zAcwfKKJZ1Ux4LwRqaePCOA2J.",
+  "feed": "arxiv-cs-LG"
+}

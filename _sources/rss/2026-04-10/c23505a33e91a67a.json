@@ -1,0 +1,7 @@
+{
+  "id": "c23505a33e91a67a",
+  "title": "Reinforcement Learning with Reward Machines for Sleep Control in Mobile Networks",
+  "link": "https://arxiv.org/abs/2604.07411",
+  "summary": "arXiv:2604.07411v1 Announce Type: new \nAbstract: Energy efficiency in mobile networks is crucial for sustainable telecommunications infrastructure, particularly as network densification continues to increase power consumption. Sleep mechanisms for the components in mobile networks can reduce energy use, but deciding which components to put to sleep, when, and for how long while preserving quality of service (QoS) remains a difficult optimisation problem. In this paper, we utilise reinforcement learning with reward machines (RMs) to make sleep-control decisions that balance immediate energy savings and long-term QoS impact, i.e. time-averaged packet drop rates for deadline-constrained traffic and time-averaged minimum-throughput guarantees for constant-rate users. A challenge is that time-averaged constraints depend on cumulative performance over time rather than immediate performance. As a result, the effective reward is non-Markovian, and optimal actions depend on operational history rather than the instantaneous system state. RMs account for the history dependence by maintaining an abstract state that explicitly tracks the QoS constraint violations over time. Our framework provides a principled, scalable approach to energy management for next-generation mobile networks under diverse traffic patterns and QoS requirements.",
+  "feed": "arxiv-cs-LG"
+}

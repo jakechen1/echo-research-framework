@@ -1,0 +1,7 @@
+{
+  "id": "870a44bac840010d",
+  "title": "Choosing the Right Regularizer for Applied ML: Simulation Benchmarks of Popular Scikit-learn Regularization Frameworks",
+  "link": "https://arxiv.org/abs/2604.03541",
+  "summary": "arXiv:2604.03541v2 Announce Type: new \nAbstract: This study surveys the historical development of regularization, tracing its evolution from stepwise regression in the 1960s to recent advancements in formal error control, structured penalties for non-independent features, Bayesian methods, and l0-based regularization (among other techniques). We empirically evaluate the performance of four canonical frameworks -- Ridge, Lasso, ElasticNet, and Post-Lasso OLS -- across 134,400 simulations spanning a 7-dimensional manifold grounded in eight production-grade machine learning models. Our findings demonstrate that for prediction accuracy when the sample-to-feature ratio is sufficient (n/p >= 78), Ridge, Lasso, and ElasticNet are nearly interchangeable. However, we find that Lasso recall is highly fragile under multicollinearity; at high condition numbers (kappa) and low SNR, Lasso recall collapses to 0.18 while ElasticNet maintains 0.93. Consequently, we advise practitioners against using Lasso or Post-Lasso OLS at high kappa with small sample sizes. The analysis concludes with an objective-driven decision guide to assist machine learning engineers in selecting the optimal scikit-learn-supported framework based on observable feature space attributes.",
+  "feed": "arxiv-cs-LG"
+}

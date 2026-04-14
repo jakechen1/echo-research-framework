@@ -1,0 +1,7 @@
+{
+  "id": "fa5a9bd98378e277",
+  "title": "Improving Multimodal Learning with Dispersive and Anchoring Regularization",
+  "link": "https://arxiv.org/abs/2601.21670",
+  "summary": "arXiv:2601.21670v2 Announce Type: replace-cross \nAbstract: Multimodal learning aims to integrate complementary information from heterogeneous modalities, yet strong optimization alone does not guaranty well-structured representations. Even under carefully balanced training schemes, multimodal models often exhibit geometric pathologies, including intra-modal representation collapse and sample-level cross-modal inconsistency, which degrade both unimodal robustness and multimodal fusion.\n  We identify representation geometry as a missing control axis in multimodal learning and propose \\regName, a lightweight geometry-aware regularization framework. \\regName enforces two complementary constraints on intermediate embeddings: an intra-modal dispersive regularization that promotes representation diversity, and an inter-modal anchoring regularization that bounds sample-level cross-modal drift without rigid alignment. The proposed regularizer is plug-and-play, requires no architectural modifications, and is compatible with various training paradigms.\n  Extensive experiments across multiple multimodal benchmarks demonstrate consistent improvements in both multimodal and unimodal performance, showing that explicitly regulating representation geometry effectively mitigates modality trade-offs.",
+  "feed": "arxiv-cs-LG"
+}

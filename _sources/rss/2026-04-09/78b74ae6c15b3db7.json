@@ -1,0 +1,7 @@
+{
+  "id": "78b74ae6c15b3db7",
+  "title": "ConfusionPrompt: Practical Private Inference for Online Large Language Models",
+  "link": "https://arxiv.org/abs/2401.00870",
+  "summary": "arXiv:2401.00870v5 Announce Type: replace-cross \nAbstract: State-of-the-art large language models (LLMs) are typically deployed as online services, requiring users to transmit detailed prompts to cloud servers. This raises significant privacy concerns. In response, we introduce ConfusionPrompt, a novel framework for private LLM inference that protects user privacy by: (i) decomposing the original prompt into smaller sub-prompts, and (ii) generating pseudo-prompts alongside the genuine sub-prompts, which are then sent to the LLM. The server responses are later recomposed by the user to reconstruct the final output. This approach offers key advantages over previous LLM privacy protection methods: (i) it integrates seamlessly with existing black-box LLMs, and (ii) it delivers a significantly improved privacy-utility trade-off compared to existing text perturbation methods. We also develop a $(\\lambda, \\mu, \\rho)$-privacy model to formulate the requirements for a privacy-preserving group of prompts and provide a complexity analysis to justify the role of prompt decomposition. Our empirical evaluation shows that ConfusionPrompt achieves significantly higher utility than local inference methods using open-source models and perturbation-based techniques, while also reducing memory consumption compared to open-source LLMs.",
+  "feed": "arxiv-cs-AI"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "1604e747f1b033f0",
+  "title": "Random-Bridges as Stochastic Transports for Generative Models",
+  "link": "https://arxiv.org/abs/2512.14190",
+  "summary": "arXiv:2512.14190v3 Announce Type: replace \nAbstract: This paper motivates the use of random-bridges -- stochastic processes conditioned to take target distributions at fixed timepoints -- in the realm of generative modelling. Herein, random-bridges can act as stochastic transports between two probability distributions when appropriately initialized, and can display either Markovian or non-Markovian, and either continuous, discontinuous or hybrid patterns depending on the driving process. We show how one can start from general probabilistic statements and then branch out into specific representations for learning and simulation algorithms in terms of information processing. Our empirical results, built on Gaussian random bridges, produce high-quality samples in significantly fewer steps compared to traditional approaches, while achieving competitive Frechet inception distance scores. Our analysis provides evidence that the proposed framework is computationally cheap and suitable for high-speed generation tasks.",
+  "feed": "arxiv-cs-LG"
+}

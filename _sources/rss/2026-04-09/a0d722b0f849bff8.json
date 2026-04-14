@@ -1,0 +1,7 @@
+{
+  "id": "a0d722b0f849bff8",
+  "title": "The Human Condition as Reflected in Contemporary Large Language Models",
+  "link": "https://arxiv.org/abs/2604.06206",
+  "summary": "arXiv:2604.06206v1 Announce Type: cross \nAbstract: This study seeks to uncover evidence of a latent structure in evolved human culture as it is refracted through contemporary large language models (LLMs). Drawing on parallel responses from six leading generative models to a prompt which asks directly what their training corpora reveal about human culture and behavior, we identify a robust cross-model consensus on a limited set of recurring cultural themes. The themes include narrative meaning-making, affect-first cognition, coalition psychology, status competition, threat sensitivity, and moral rationalization. Each provides grounds for further psychological and sociological inquiry. There is strong evidence of a convergence in these pattern recognition exercises as differences among models are shown to reflect varying explanatory lenses rather than substantive disagreement. We review these findings in the light of the evolving literatures of moral psychology, evolutionary psychology, anthropology, and the computer science literature on large-scale language modeling. We argue that LLMs function as cultural condensates -- compressed representations of how humans describe, justify, and contest their own social lives across trillions of tokens of aggregated communication and narration.",
+  "feed": "arxiv-cs-AI"
+}

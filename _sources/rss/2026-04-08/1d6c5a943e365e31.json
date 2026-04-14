@@ -1,0 +1,7 @@
+{
+  "id": "1d6c5a943e365e31",
+  "title": "Event-Driven Neuromorphic Vision Enables Energy-Efficient Visual Place Recognition",
+  "link": "https://arxiv.org/abs/2604.03277",
+  "summary": "arXiv:2604.03277v1 Announce Type: cross \nAbstract: Reliable visual place recognition (VPR) under dynamic real-world conditions is critical for autonomous robots, yet conventional deep networks remain limited by high computational and energy demands. Inspired by the mammalian navigation system, we introduce SpikeVPR, a bio-inspired and neuromorphic approach combining event-based cameras with spiking neural networks (SNNs) to generate compact, invariant place descriptors from few exemplars, achieving robust recognition under extreme changes in illumination, viewpoint, and appearance. SpikeVPR is trained end-to-end using surrogate gradient learning and incorporates EventDilation, a novel augmentation strategy enhancing robustness to speed and temporal variations. Evaluated on two challenging benchmarks (Brisbane-Event-VPR and NSAVP), SpikeVPR achieves performance comparable to state-of-the-art deep networks while using 50 times fewer parameters and consuming 30 and 250 times less energy, enabling real-time deployment on mobile and neuromorphic platforms. These results demonstrate that spike-based coding offers an efficient pathway toward robust VPR in complex, changing environments.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "b06da2d9b6f850a0",
+  "title": "Experience Transfer for Multimodal LLM Agents in Minecraft Game",
+  "link": "https://arxiv.org/abs/2604.05533",
+  "summary": "arXiv:2604.05533v1 Announce Type: new \nAbstract: Multimodal LLM agents operating in complex game environments must continually reuse past experience to solve new tasks efficiently. In this work, we propose Echo, a transfer-oriented memory framework that enables agents to derive actionable knowledge from prior interactions rather than treating memory as a passive repository of static records. To make transfer explicit, Echo decomposes reusable knowledge into five dimensions: structure, attribute, process, function, and interaction. This formulation allows the agent to identify recurring patterns shared across different tasks and infer what prior experience remains applicable in new situations. Building on this formulation, Echo leverages In-Context Analogy Learning (ICAL) to retrieve relevant experiences and adapt them to unseen tasks through contextual examples. Experiments in Minecraft show that, under a from-scratch learning setting, Echo achieves a 1.3x to 1.7x speed-up on object-unlocking tasks. Moreover, Echo exhibits a burst-like chain-unlocking phenomenon, rapidly unlocking multiple similar items within a short time interval after acquiring transferable experience. These results suggest that experience transfer is a promising direction for improving the efficiency and adaptability of multimodal LLM agents in complex interactive environments.",
+  "feed": "arxiv-cs-AI"
+}

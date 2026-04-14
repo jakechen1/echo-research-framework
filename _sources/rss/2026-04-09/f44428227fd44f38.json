@@ -1,0 +1,7 @@
+{
+  "id": "f44428227fd44f38",
+  "title": "Novel Interpretable and Robust Web-based AI Platform for Phishing Email Detection",
+  "link": "https://arxiv.org/abs/2405.11619",
+  "summary": "arXiv:2405.11619v2 Announce Type: replace \nAbstract: Phishing emails continue to pose a significant threat, causing financial losses and security breaches. This study addresses limitations in existing research, such as reliance on proprietary datasets and lack of real-world application, by proposing a high-performance machine learning model for email classification. Utilizing a comprehensive and largest available public dataset, the model achieves a f1 score of 0.99 and is designed for deployment within relevant applications. Additionally, Explainable AI (XAI) is integrated to enhance user trust. This research offers a practical and highly accurate solution, contributing to the fight against phishing by empowering users with a real-time web-based application for phishing email detection.",
+  "feed": "arxiv-cs-LG"
+}

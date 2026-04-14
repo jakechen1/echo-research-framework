@@ -1,0 +1,7 @@
+{
+  "id": "35fecab71b137b84",
+  "title": "MissNODAG: Differentiable Cyclic Causal Graph Learning from Incomplete Data",
+  "link": "https://arxiv.org/abs/2410.18918",
+  "summary": "arXiv:2410.18918v2 Announce Type: replace-cross \nAbstract: Causal discovery in real-world systems, such as biological networks, is often complicated by feedback loops and incomplete data. Standard algorithms, which assume acyclic structures or fully observed data, struggle with these challenges. To address this gap, we propose MissNODAG, a differentiable framework for learning both the underlying cyclic causal graph and the missingness mechanism from partially observed data, including data missing not at random. Our framework integrates an additive noise model with an expectation-maximization procedure, alternating between imputing missing values and optimizing the observed data likelihood, to uncover both the cyclic structures and the missingness mechanism. We establish consistency guarantees under exact maximization of the score function in the large sample setting. Finally, we demonstrate the effectiveness of MissNODAG through synthetic experiments and an application to real-world gene perturbation data.",
+  "feed": "arxiv-cs-LG"
+}

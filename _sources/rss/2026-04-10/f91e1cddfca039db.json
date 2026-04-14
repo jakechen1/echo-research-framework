@@ -1,0 +1,7 @@
+{
+  "id": "f91e1cddfca039db",
+  "title": "Tabular GANs for uneven distribution",
+  "link": "https://arxiv.org/abs/2010.00638",
+  "summary": "arXiv:2010.00638v2 Announce Type: replace \nAbstract: Generative models for tabular data have evolved rapidly beyond Generative Adversarial Networks (GANs). While GANs pioneered synthetic tabular data generation, recent advances in diffusion models and large language models (LLMs) have opened new paradigms with complementary strengths in sample quality, privacy, and controllability. In this paper, we survey the landscape of tabular data generation across three major paradigms - GANs, diffusion models, and LLMs - and introduce a unified, modular framework that supports all three. The framework encompasses data preprocessing, a model-agnostic interface layer, standardized training and inference pipelines, and a comprehensive evaluation module. We validate the framework through experiments on seven benchmark datasets, demonstrating that GAN-based augmentation can improve downstream performance under distribution shift. The framework and its reference implementation are publicly available at https://github.com/Diyago/Tabular-data-generation, facilitating reproducibility and extensibility for future research.",
+  "feed": "arxiv-cs-LG"
+}

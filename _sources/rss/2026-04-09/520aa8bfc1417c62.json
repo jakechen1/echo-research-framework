@@ -1,0 +1,7 @@
+{
+  "id": "520aa8bfc1417c62",
+  "title": "Explaining Neural Networks in Preference Learning: a Post-hoc Inductive Logic Programming Approach",
+  "link": "https://arxiv.org/abs/2604.06838",
+  "summary": "arXiv:2604.06838v1 Announce Type: cross \nAbstract: In this paper, we propose using Learning from Answer Sets to approximate black-box models, such as Neural Networks (NN), in the specific case of learning user preferences. We specifically explore the use of ILASP (Inductive Learning of Answer Set Programs) to approximate preference learning systems through weak constraints. We have created a dataset on user preferences over a set of recipes, which is used to train the NNs that we aim to approximate with ILASP. Our experiments investigate ILASP both as a global and a local approximator of the NNs. These experiments address the challenge of approximating NNs working on increasingly high-dimensional feature spaces while achieving appropriate fidelity on the target model and limiting the increase in computational time. To handle this challenge, we propose a preprocessing step that exploits Principal Component Analysis to reduce the dataset's dimensionality while keeping our explanations transparent. Under consideration for publication in Theory and Practice of Logic Programming (TPLP).",
+  "feed": "arxiv-cs-LG"
+}

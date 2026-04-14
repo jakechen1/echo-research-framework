@@ -1,0 +1,7 @@
+{
+  "id": "bc0b2a31d0d701e6",
+  "title": "Accelerating Training of Autoregressive Video Generation Models via Local Optimization with Representation Continuity",
+  "link": "https://arxiv.org/abs/2604.07402",
+  "summary": "arXiv:2604.07402v1 Announce Type: new \nAbstract: Autoregressive models have shown superior performance and efficiency in image generation, but remain constrained by high computational costs and prolonged training times in video generation. In this study, we explore methods to accelerate training for autoregressive video generation models through empirical analyses. Our results reveal that while training on fewer video frames significantly reduces training time, it also exacerbates error accumulation and introduces inconsistencies in the generated videos. To address these issues, we propose a Local Optimization (Local Opt.) method, which optimizes tokens within localized windows while leveraging contextual information to reduce error propagation. Inspired by Lipschitz continuity, we propose a Representation Continuity (ReCo) strategy to improve the consistency of generated videos. ReCo utilizes continuity loss to constrain representation changes, improving model robustness and reducing error accumulation. Extensive experiments on class- and text-to-video datasets demonstrate that our approach achieves superior performance to the baseline while halving the training cost without sacrificing quality.",
+  "feed": "arxiv-cs-LG"
+}

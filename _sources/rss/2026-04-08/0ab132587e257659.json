@@ -1,0 +1,7 @@
+{
+  "id": "0ab132587e257659",
+  "title": "Can We Predict Before Executing Machine Learning Agents?",
+  "link": "https://arxiv.org/abs/2601.05930",
+  "summary": "arXiv:2601.05930v2 Announce Type: replace-cross \nAbstract: Autonomous machine learning agents have revolutionized scientific discovery, yet they remain constrained by a Generate-Execute-Feedback paradigm. Previous approaches suffer from a severe Execution Bottleneck, as hypothesis evaluation relies strictly on expensive physical execution. To bypass these physical constraints, we internalize execution priors to substitute costly runtime checks with instantaneous predictive reasoning, drawing inspiration from World Models. In this work, we formalize the task of Data-centric Solution Preference and construct a comprehensive corpus of 18,438 pairwise comparisons. We demonstrate that LLMs exhibit significant predictive capabilities when primed with a Verified Data Analysis Report, achieving 61.5% accuracy and robust confidence calibration. Finally, we instantiate this framework in FOREAGENT, an agent that employs a Predict-then-Verify loop, achieving a 6x acceleration in convergence while surpassing execution-based baselines by +6%. Our code and dataset are publicly available at https://github.com/zjunlp/predict-before-execute.",
+  "feed": "arxiv-cs-AI"
+}

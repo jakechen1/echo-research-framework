@@ -1,0 +1,7 @@
+{
+  "id": "457743c5d041b2e3",
+  "title": "Extraction of linearized models from pre-trained networks via knowledge distillation",
+  "link": "https://arxiv.org/abs/2604.06732",
+  "summary": "arXiv:2604.06732v1 Announce Type: new \nAbstract: Recent developments in hardware, such as photonic integrated circuits and optical devices, are driving demand for research on constructing machine learning architectures tailored for linear operations. Hence, it is valuable to explore methods for constructing learning machines with only linear operations after simple nonlinear preprocessing. In this study, we propose a framework to extract a linearized model from a pre-trained neural network for classification tasks by integrating Koopman operator theory with knowledge distillation. Numerical demonstrations on the MNIST and the Fashion-MNIST datasets reveal that the proposed model consistently outperforms the conventional least-squares-based Koopman approximation in both classification accuracy and numerical stability.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "9c41e1726cd7b3ca",
+  "title": "Fatigue-Aware Learning to Defer via Constrained Optimisation",
+  "link": "https://arxiv.org/abs/2604.00904",
+  "summary": "arXiv:2604.00904v2 Announce Type: replace \nAbstract: Learning to defer (L2D) enables human-AI cooperation by deciding when an AI system should act autonomously or defer to a human expert. Existing L2D methods, however, assume static human performance, contradicting well-established findings on fatigue-induced degradation. We propose Fatigue-Aware Learning to Defer via Constrained Optimisation (FALCON), which explicitly models workload-varying human performance using psychologically grounded fatigue curves. FALCON formulates L2D as a Constrained Markov Decision Process (CMDP) whose state includes both task features and cumulative human workload, and optimises accuracy under human-AI cooperation budgets via PPO-Lagrangian training. We further introduce FA-L2D, a benchmark that systematically varies fatigue dynamics from near-static to rapidly degrading regimes. Experiments across multiple datasets show that FALCON consistently outperforms state-of-the-art L2D methods across coverage levels, generalises zero-shot to unseen experts with different fatigue patterns, and demonstrates the advantage of adaptive human-AI collaboration over AI-only or human-only decision-making when coverage lies strictly between 0 and 1.",
+  "feed": "arxiv-cs-LG"
+}

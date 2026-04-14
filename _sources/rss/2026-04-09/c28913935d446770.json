@@ -1,0 +1,7 @@
+{
+  "id": "c28913935d446770",
+  "title": "Predictive Representations for Skill Transfer in Reinforcement Learning",
+  "link": "https://arxiv.org/abs/2604.07016",
+  "summary": "arXiv:2604.07016v1 Announce Type: new \nAbstract: A key challenge in scaling up Reinforcement Learning is generalizing learned behaviour. Without the ability to carry forward acquired knowledge an agent is doomed to learn each task from scratch. In this paper we develop a new formalism for transfer by virtue of state abstraction. Based on task-independent, compact observations (outcomes) of the environment, we introduce Outcome-Predictive State Representations (OPSRs), agent-centered and task-independent abstractions that are made up of predictions of outcomes. We show formally and empirically that they have the potential for optimal but limited transfer, then overcome this trade-off by introducing OPSR-based skills, i.e. abstract actions (based on options) that can be reused between tasks as a result of state abstraction. In a series of empirical studies, we learn OPSR-based skills from demonstrations and show how they speed up learning considerably in entirely new and unseen tasks without any pre-processing. We believe that the framework introduced in this work is a promising step towards transfer in RL in general, and towards transfer through combining state and action abstraction specifically.",
+  "feed": "arxiv-cs-LG"
+}

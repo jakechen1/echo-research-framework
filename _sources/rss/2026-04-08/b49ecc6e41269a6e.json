@@ -1,0 +1,7 @@
+{
+  "id": "b49ecc6e41269a6e",
+  "title": "Relay-Assisted Activation-Integrated SIM for Wireless Physical Neural Networks",
+  "link": "https://arxiv.org/abs/2604.04212",
+  "summary": "arXiv:2604.04212v1 Announce Type: cross \nAbstract: Wireless physical neural networks (WPNNs) have emerged as a promising paradigm for performing neural computation directly in the physical layer of wireless systems, offering low latency and high energy efficiency. However, most existing WPNN implementations primarily rely on linear physical transformations, which fundamentally limits their expressiveness. In this work, we propose a relay-assisted WPNN architecture based on activation-integrated stacked intelligent metasurfaces (AI-SIMs), where each passive metasurface layer enabling linear wave manipulation is cascaded with an activation metasurface layer that realizes nonlinear processing in the analog domain. By deliberately structuring multi-hop wireless propagation, the relay amplification matrix and the metasurface phase-shift matrices jointly act as trainable network weights, while hardware-implemented activation functions provide essential nonlinearity. Simulation results demonstrate that the proposed architecture achieves high classification accuracy, and that incorporating hardware-based activation functions significantly improves representational capability and performance compared with purely linear physical implementations.",
+  "feed": "arxiv-cs-LG"
+}

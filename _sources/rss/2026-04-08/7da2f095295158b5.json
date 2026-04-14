@@ -1,0 +1,7 @@
+{
+  "id": "7da2f095295158b5",
+  "title": "Data-driven Sensor Placement for Predictive Applications: A Correlation-Assisted Attribution Framework (CAAF)",
+  "link": "https://arxiv.org/abs/2510.22517",
+  "summary": "arXiv:2510.22517v2 Announce Type: replace-cross \nAbstract: Optimal sensor placement (OSP) is critical for efficient, accurate monitoring, control, and inference in complex physical systems. We propose a machine-learning-based feature attribution (FA) framework to identify OSP for target predictions. FA quantifies input contributions to a model output; however, it struggles with highly correlated input data often encountered in practical applications for OSP. To address this, we propose a Correlation-Assisted Attribution Framework (CAAF), which introduces a clustering step on the candidate sensor locations before performing FA to reduce redundancy and enhance generalizability. We first illustrate the core principles of the proposed framework through a series of validation cases, then demonstrate its effectiveness in realistic dynamical systems such as structural health monitoring, airfoil lift prediction, and wall-normal velocity estimation for turbulent channel flow. The results show that the CAAF outperforms alternative approaches that typically struggle due to the presence of nonlinear dynamics, chaotic behavior, and multi-scale interactions, and enables the effective application of FA for identifying OSP in real-world environments.",
+  "feed": "arxiv-cs-LG"
+}

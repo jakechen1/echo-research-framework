@@ -1,0 +1,7 @@
+{
+  "id": "aeb13383d50fe5cb",
+  "title": "Drifting Fields are not Conservative",
+  "link": "https://arxiv.org/abs/2604.06333",
+  "summary": "arXiv:2604.06333v1 Announce Type: new \nAbstract: Drifting models generate high-quality samples in a single forward pass by transporting generated samples toward the data distribution using a vector valued drift field. We investigate whether this procedure is equivalent to optimizing a scalar loss and find that, in general, it is not: drift fields are not conservative - they cannot be written as the gradient of any scalar potential. We identify the position-dependent normalization as the source of non-conservatism. The Gaussian kernel is the unique exception where the normalization is harmless and the drift field is exactly the gradient of a scalar function. Generalizing this, we propose an alternative normalization via a related kernel (the sharp kernel) which restores conservatism for any radial kernel, yielding well-defined loss functions for training drifting models. While we identify that the drifting field matching objective is strictly more general than loss minimization, as it can implement non-conservative transport fields that no scalar loss can reproduce, we observe that practical gains obtained utilizing this flexibility are minimal. We thus propose to train drifting models with the conceptually simpler formulations utilizing loss functions.",
+  "feed": "arxiv-cs-LG"
+}

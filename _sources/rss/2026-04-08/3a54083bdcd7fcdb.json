@@ -1,0 +1,7 @@
+{
+  "id": "3a54083bdcd7fcdb",
+  "title": "Peoples Water Data: Enabling Reliable Field Data Generation and Microbial Contamination Screening in Household Drinking Water",
+  "link": "https://arxiv.org/abs/2604.04240",
+  "summary": "arXiv:2604.04240v1 Announce Type: new \nAbstract: Unsafe drinking water remains a major public health concern globally, particularly in low-resource regions where routine microbiological surveillance is limited. Although Escherichia coli is the internationally recognized indicator of fecal contamination, laboratory-based testing is often inaccessible at scale. In this study, we developed and evaluated a two-stage machine-learning framework for predicting E. coli presence in decentralized household point-of-use drinking water in Chennai, India using low-cost physicochemical and contextual indicators. The dataset comprised 3,023 samples collected under the Peoples Water Data initiative; after harmonization, technical cleaning, and outlier screening, 2,207 valid samples were retained.\n  This framework provides a scalable decision-support tool for prioritizing microbiological testing in resource-constrained environments and addresses an important gap in point-of-use contamination risk assessment. Beyond predictive modeling, the present study was conducted within an AI-supported field implementation framework that combined student-facing guidance and real-time QC to improve protocol adherence, traceability, and data reliability in decentralized household water monitoring.",
+  "feed": "arxiv-cs-LG"
+}

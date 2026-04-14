@@ -1,0 +1,7 @@
+{
+  "id": "6444aac4e1e8f56c",
+  "title": "Context is All You Need",
+  "link": "https://arxiv.org/abs/2604.04364",
+  "summary": "arXiv:2604.04364v1 Announce Type: new \nAbstract: Artificial Neural Networks (ANNs) are increasingly deployed across diverse real-world settings, where they must operate under data distributions that differ from those seen during training. This challenge is central to Domain Generalization (DG), which trains models to generalize to unseen domains without target data, and Test-Time Adaptation (TTA), which improves robustness by adapting to unlabeled test data at deployment. Existing approaches to address these challenges are often complex, resource-intensive, and difficult to scale. We introduce CONTXT (Contextual augmentatiOn for Neural feaTure X Transforms), a simple and intuitive method for contextual adaptation. CONTXT modulates internal representations using simple additive and multiplicative feature transforms. Within a TTA setting, it yields consistent gains across discriminative tasks (e.g., ANN/CNN classification) and generative models (e.g., LLMs). The method is lightweight, easy to integrate, and incurs minimal overhead, enabling robust performance under domain shift without added complexity. More broadly, CONTXT provides a compact way to steer information flow and neural processing without retraining.",
+  "feed": "arxiv-cs-LG"
+}

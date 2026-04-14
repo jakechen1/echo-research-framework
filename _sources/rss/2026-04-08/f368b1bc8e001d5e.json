@@ -1,0 +1,7 @@
+{
+  "id": "f368b1bc8e001d5e",
+  "title": "Zero-Shot Quantization via Weight-Space Arithmetic",
+  "link": "https://arxiv.org/abs/2604.03420",
+  "summary": "arXiv:2604.03420v1 Announce Type: cross \nAbstract: We show that robustness to post-training quantization (PTQ) is a transferable direction in weight space. We call this direction the quantization vector: extracted from a donor task by simple weight-space arithmetic, it can be used to patch a receiver model and improve robustness to PTQ-induced noise by as much as 60%, without receiver-side quantization-aware training (QAT). Because the method requires no receiver training data, it provides a zero-shot, low-cost alternative to QAT for extremely low-bit deployment. We demonstrate this on Vision Transformer (ViT) models. More broadly, our results suggest that quantization robustness is not merely a byproduct of task-specific training, but a reusable feature of weight-space geometry that can be transferred rather than retrained.",
+  "feed": "arxiv-cs-LG"
+}

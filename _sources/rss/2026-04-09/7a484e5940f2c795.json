@@ -1,0 +1,7 @@
+{
+  "id": "7a484e5940f2c795",
+  "title": "WebExpert: domain-aware web agents with critic-guided expert experience for high-precision search",
+  "link": "https://arxiv.org/abs/2604.06177",
+  "summary": "arXiv:2604.06177v1 Announce Type: cross \nAbstract: Specialized web tasks in finance, biomedicine, and pharmaceuticals remain challenging due to missing domain priors: queries drift, evidence is noisy, and reasoning is brittle. We present WebExpert, a domain-aware web agent that we implement end-to-end, featuring : (i) sentence-level experience retrieval with topic merging and rule distillation, (ii) schemalight facet induction that bootstraps time,region,policy,industry facets from weak supervision instead of static hand-written lexicons, and (iii) preference-optimized planning that jointly improves query planning and retrieval via pairwise preference learning alongside a coverage-aware objective. At inference, a lightweight experience gate biases decoding toward active facets with fallback under low-retrieval confidence. On GAIA, GPQA, HLE, and WebWalkerQA, WebExpert improves Answer Exact Match (EM) by 1.5-3.6 pp over the strongest browsing baseline and reduces page hops. Analysis shows consistent gains and ablations on retrieval, topic merging, facet induction, and preference-aware training.",
+  "feed": "arxiv-cs-AI"
+}

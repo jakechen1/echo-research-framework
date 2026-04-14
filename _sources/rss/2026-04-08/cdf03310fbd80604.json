@@ -1,0 +1,7 @@
+{
+  "id": "cdf03310fbd80604",
+  "title": "OGA-AID: Clinician-in-the-loop AI Report Drafting Assistant for Multimodal Observational Gait Analysis in Post-Stroke Rehabilitation",
+  "link": "https://arxiv.org/abs/2604.05360",
+  "summary": "arXiv:2604.05360v1 Announce Type: cross \nAbstract: Gait analysis is essential in post-stroke rehabilitation but remains time-intensive and cognitively demanding, especially when clinicians must integrate gait videos and motion-capture data into structured reports. We present OGA-AID, a clinician-in-the-loop multi-agent large language model system for multimodal report drafting. The system coordinates 3 specialized agents to synthesize patient movement recordings, kinematic trajectories, and clinical profiles into structured assessments. Evaluated with expert physiotherapists on real patient data, OGA-AID consistently outperforms single-pass multimodal baselines with low error. In clinician-in-the-loop settings, brief expert preliminary notes further reduce error compared to reference assessments. Our findings demonstrate the feasibility of multimodal agentic systems for structured clinical gait assessment and highlight the complementary relationship between AI-assisted analysis and human clinical judgment in rehabilitation workflows.",
+  "feed": "arxiv-cs-AI"
+}

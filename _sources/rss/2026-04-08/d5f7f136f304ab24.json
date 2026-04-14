@@ -1,0 +1,7 @@
+{
+  "id": "d5f7f136f304ab24",
+  "title": "From Restless to Contextual: A Thresholding Bandit Reformulation For Finite-horizon Improvement",
+  "link": "https://arxiv.org/abs/2502.05145",
+  "summary": "arXiv:2502.05145v5 Announce Type: replace \nAbstract: This paper addresses the poor finite-horizon performance of existing online \\emph{restless bandit} (RB) algorithms, which stems from the prohibitive sample complexity of learning a full \\emph{Markov decision process} (MDP) for each agent. We argue that superior finite-horizon performance requires \\emph{rapid convergence} to a \\emph{high-quality} policy. Thus motivated, we introduce a reformulation of online RBs as a \\emph{budgeted thresholding contextual bandit}, which simplifies the learning problem by encoding long-term state transitions into a scalar reward. We prove the first non-asymptotic optimality of an oracle policy for a simplified finite-horizon setting. We propose a practical learning policy under a heterogeneous-agent, multi-state setting, and show that it achieves a sublinear regret, achieving \\emph{faster convergence} than existing methods. This directly translates to higher cumulative reward, as empirically validated by significant gains over state-of-the-art algorithms in large-scale heterogeneous environments. The code is provided in \\href{https://github.com/jamie01713/EGT}{github}. Our work provides a new pathway for achieving practical, sample-efficient learning in finite-horizon RBs.",
+  "feed": "arxiv-cs-LG"
+}

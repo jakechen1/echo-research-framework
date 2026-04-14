@@ -1,0 +1,7 @@
+{
+  "id": "3f1cc73d47fc596e",
+  "title": "C$^2$FG: Control Classifier-Free Guidance via Score Discrepancy Analysis",
+  "link": "https://arxiv.org/abs/2603.08155",
+  "summary": "arXiv:2603.08155v2 Announce Type: replace \nAbstract: Classifier-Free Guidance (CFG) is a cornerstone of modern conditional diffusion models, yet its reliance on the fixed or heuristic dynamic guidance weight is predominantly empirical and overlooks the inherent dynamics of the diffusion process. In this paper, we provide a rigorous theoretical analysis of the Classifier-Free Guidance. Specifically, we establish strict upper bounds on the score discrepancy between conditional and unconditional distributions at different timesteps based on the diffusion process. This finding explains the limitations of fixed-weight strategies and establishes a principled foundation for time-dependent guidance. Motivated by this insight, we introduce \\textbf{Control Classifier-Free Guidance (C$^2$FG)}, a novel, training-free, and plug-in method that aligns the guidance strength with the diffusion dynamics via an exponential decay control function. Extensive experiments demonstrate that C$^2$FG is effective and broadly applicable across diverse generative tasks, while also exhibiting orthogonality to existing strategies.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "90c05790c2232f64",
+  "title": "SPAMoE: Spectrum-Aware Hybrid Operator Framework for Full-Waveform Inversion",
+  "link": "https://arxiv.org/abs/2604.07421",
+  "summary": "arXiv:2604.07421v1 Announce Type: new \nAbstract: Full-waveform inversion (FWI) is pivotal for reconstructing high-resolution subsurface velocity models but remains computationally intensive and ill-posed. While deep learning approaches promise efficiency, existing Convolutional Neural Networks (CNNs) and single-paradigm Neural Operators (NOs) struggle with one fundamental issue: frequency entanglement of multi-scale geological features. To address this challenge, we propose Spectral-Preserving Adaptive MoE (SPAMoE), a novel spectrum-aware framework for solving inverse problems with complex multi-scale structures. Our approach introduces a Spectral-Preserving DINO Encoder that enforces a lower bound on the high-to-low frequency energy ratio of the encoded representation, mitigating high-frequency collapse and stabilizing subsequent frequency-domain modeling. Furthermore, we design a novel Spectral Decomposition and Routing mechanism that dynamically assigns frequency bands to a Mixture-of-Experts (MoE) ensemble comprising FNO, MNO, and LNO. On the ten OpenFWI sub-datasets, experiments show that SPAMoE reduces the average MAE by 54.1% relative to the best officially reported OpenFWI baseline, thereby establishing a new architectural framework for learning-based full-waveform inversion.",
+  "feed": "arxiv-cs-LG"
+}

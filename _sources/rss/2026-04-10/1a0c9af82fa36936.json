@@ -1,0 +1,7 @@
+{
+  "id": "1a0c9af82fa36936",
+  "title": "Lecture notes on Machine Learning applications for global fits",
+  "link": "https://arxiv.org/abs/2604.07520",
+  "summary": "arXiv:2604.07520v1 Announce Type: cross \nAbstract: These lecture notes provide a comprehensive framework for performing global statistical fits in high-energy physics using modern Machine Learning (ML) surrogates. We begin by reviewing the statistical foundations of model building, including the likelihood function, Wilks' theorem, and profile likelihoods. Recognizing that the computational cost of evaluating model predictions often renders traditional minimization prohibitive, we introduce Boosted Decision Trees to approximate the log-likelihood function. The notes detail a robust ML workflow including efficient generation of training data with active learning and Gaussian processes, hyperparameter optimization, model compilation for speed-up, and interpretability through SHAP values to decode the influence of model parameters and interactions between parameters. We further discuss posterior distribution sampling using Markov Chain Monte Carlo (MCMC). These techniques are finally applied to the $B^\\pm \\to K^\\pm \\nu \\bar{\\nu}$ anomaly at Belle II, demonstrating how a two-stage ML model can efficiently explore the parameter space of Axion-Like Particles (ALPs) while satisfying stringent experimental constraints on decay lengths and flavor-violating couplings.",
+  "feed": "arxiv-cs-LG"
+}

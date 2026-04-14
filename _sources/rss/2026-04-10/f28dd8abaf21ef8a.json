@@ -1,0 +1,7 @@
+{
+  "id": "f28dd8abaf21ef8a",
+  "title": "SVGFusion: A VAE-Diffusion Transformer for Vector Graphic Generation",
+  "link": "https://arxiv.org/abs/2412.10437",
+  "summary": "arXiv:2412.10437v3 Announce Type: replace-cross \nAbstract: Generating high-quality Scalable Vector Graphics (SVGs) from text remains a significant challenge. Existing LLM-based models that generate SVG code as a flat token sequence struggle with poor structural understanding and error accumulation, while optimization-based methods are slow and yield uneditable outputs. To address these limitations, we introduce SVGFusion, a unified framework that adapts the VAE-diffusion architecture to bridge the dual code-visual nature of SVGs. Our model features two core components: a Vector-Pixel Fusion Variational Autoencoder (VP-VAE) that learns a perceptually rich latent space by jointly encoding SVG code and its rendered image, and a Vector Space Diffusion Transformer (VS-DiT) that achieves globally coherent compositions through iterative refinement. Furthermore, this architecture is enhanced by a Rendering Sequence Modeling strategy, which ensures accurate object layering and occlusion. Evaluated on our novel SVGX-Dataset comprising 240k human-designed SVGs, SVGFusion establishes a new state-of-the-art, generating high-quality, editable SVGs that are strictly semantically aligned with the input text.",
+  "feed": "arxiv-cs-LG"
+}

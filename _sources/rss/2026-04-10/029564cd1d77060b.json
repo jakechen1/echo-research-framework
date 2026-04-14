@@ -1,0 +1,7 @@
+{
+  "id": "029564cd1d77060b",
+  "title": "Sensitivity-Positional Co-Localization in GQA Transformers",
+  "link": "https://arxiv.org/abs/2604.07766",
+  "summary": "arXiv:2604.07766v1 Announce Type: cross \nAbstract: We investigate a fundamental structural question in Grouped Query Attention (GQA) transformers: do the layers most sensitive to task correctness coincide with the layers where positional encoding adaptation has the greatest leverage? We term this the co-localization hypothesis and test it on Llama 3.1 8B, a 32-layer GQA model with a 4:1 query-to-key-value head ratio. We introduce \\LSLORA, which restricts LoRA adaptation to layers identified via a novel correctness-differential hidden-state metric, and GARFA (GQA-Aware RoPE Frequency Adaptation), which attaches 8 learnable per-KV-head scalar multipliers to each targeted layer. Contrary to the co-localization hypothesis, we discover strong anti-localization: task-sensitive layers concentrate in the late network ($\\ell\\in\\{23\\text{-}31\\}$) while RoPE-influential layers dominate the early network ($\\ell\\in\\{0\\text{-}9\\}$), yielding Spearman $r_s = -0.735$ ($p = 1.66\\times10^{-6}$). Despite this anti-localization, a 4-way cross-layer ablation shows that applying both interventions to the sensitivity-identified layers outperforms all alternative configurations by 4-16 percentage points across six diverse benchmarks (MMLU, GPQA, HumanEval+, MATH, MGSM, ARC), approaching Claude 3.5 Haiku on HumanEval+ (67.1% vs. 68.3%) at \\$100 total compute cost.",
+  "feed": "arxiv-cs-LG"
+}

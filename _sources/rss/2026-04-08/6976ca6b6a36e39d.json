@@ -1,0 +1,7 @@
+{
+  "id": "6976ca6b6a36e39d",
+  "title": "Is Prompt Selection Necessary for Task-Free Online Continual Learning?",
+  "link": "https://arxiv.org/abs/2604.04420",
+  "summary": "arXiv:2604.04420v1 Announce Type: new \nAbstract: Task-free online continual learning has recently emerged as a realistic paradigm for addressing continual learning in dynamic, real-world environments, where data arrive in a non-stationary stream without clear task boundaries and can only be observed once. To consider such challenging scenarios, many recent approaches have employed prompt selection, an adaptive strategy that selects prompts from a pool based on input signals. However, we observe that such selection strategies often fail to select appropriate prompts, yielding suboptimal results despite additional training of key parameters. Motivated by this observation, we propose a simple yet effective SinglePrompt that eliminates the need for prompt selection and focuses on classifier optimization. Specifically, we simply (i) inject a single prompt into each self-attention block, (ii) employ a cosine similarity-based logit design to alleviate the forgetting effect inherent in the classifier weights, and (iii) mask logits for unexposed classes in the current minibatch. With this simple task-free design, our framework achieves state-of-the-art performance across various online continual learning benchmarks. Source code is available at https://github.com/efficient-learning-lab/SinglePrompt.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "50460aea7037a1c2",
+  "title": "Interpretation of Crystal Energy Landscapes with Kolmogorov-Arnold Networks",
+  "link": "https://arxiv.org/abs/2604.04636",
+  "summary": "arXiv:2604.04636v1 Announce Type: cross \nAbstract: Characterizing crystalline energy landscapes is essential to predicting thermodynamic stability, electronic structure, and functional behavior. While machine learning (ML) enables rapid property predictions, the \"black-box\" nature of most models limits their utility for generating new scientific insights. Here, we introduce Kolmogorov-Arnold Networks (KANs) as an interpretable framework to bridge this gap. Unlike conventional neural networks with fixed activation functions, KANs employ learnable functions that reveal underlying physical relationships. We developed the Element-Weighted KAN, a composition-only model that achieves state-of-the-art accuracy in predicting formation energy, band gap, and work function across large-scale datasets. Crucially, without any explicit physical constraints, KANs uncover interpretable chemical trends aligned with the periodic table and quantum mechanical principles through embedding analysis, correlation studies, and principal component analysis. These results demonstrate that KANs provide a powerful framework with high predictive performance and scientific interpretability, establishing a new paradigm for transparent, chemistry-based materials informatics.",
+  "feed": "arxiv-cs-LG"
+}

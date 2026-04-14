@@ -1,0 +1,7 @@
+{
+  "id": "e807ca7c94198c41",
+  "title": "Towards Build Optimization Using Digital Twins",
+  "link": "https://arxiv.org/abs/2503.19381",
+  "summary": "arXiv:2503.19381v2 Announce Type: replace-cross \nAbstract: Despite the indisputable benefits of Continuous Integration (CI) pipelines (or builds), CI still presents significant challenges regarding long durations, failures, and flakiness. Prior studies addressed CI challenges in isolation, yet these issues are interrelated and require a holistic approach for effective optimization. To bridge this gap, this paper proposes a novel idea of developing Digital Twins (DTs) of build processes to enable global and continuous improvement. To support such an idea, we introduce the CI Build process Digital Twin (CBDT) framework as a minimum viable product. This framework offers digital shadowing functionalities, including real-time build data acquisition and continuous monitoring of build process performance metrics. Furthermore, we discuss guidelines and challenges in the practical implementation of CBDTs, including (1) modeling different aspects of the build process using Machine Learning, (2) exploring what-if scenarios based on historical patterns, and (3) implementing prescriptive services such as automated failure and performance repair to continuously improve build processes.",
+  "feed": "arxiv-cs-LG"
+}

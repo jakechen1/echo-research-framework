@@ -1,0 +1,7 @@
+{
+  "id": "a7ad25568fdab8fe",
+  "title": "Beyond Imbalance Ratio: Data Characteristics as Critical Moderators of Oversampling Method Selection",
+  "link": "https://arxiv.org/abs/2604.04541",
+  "summary": "arXiv:2604.04541v1 Announce Type: new \nAbstract: The prevailing IR-threshold paradigm posits a positive correlation between imbalance ratio (IR) and oversampling effectiveness, yet this assumption remains empirically unsubstantiated through controlled experimentation. We conducted 12 controlled experiments (N > 100 dataset variants) that systematically manipulated IR while holding data characteristics (class separability, cluster structure) constant via algorithmic generation of Gaussian mixture datasets. Two additional validation experiments examined ceiling effects and metric-dependence. All methods were evaluated on 17 real-world datasets from OpenML. Upon controlling for confounding variables, IR exhibited a weak to moderate negative correlation with oversampling benefits. Class separability emerged as a substantially stronger moderator, accounting for significantly more variance in method effectiveness than IR alone. We propose a 'Context Matters' framework that integrates IR, class separability, and cluster structure to provide evidence-based selection criteria for practitioners.",
+  "feed": "arxiv-cs-LG"
+}

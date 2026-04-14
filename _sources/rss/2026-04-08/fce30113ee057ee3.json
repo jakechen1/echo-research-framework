@@ -1,0 +1,7 @@
+{
+  "id": "fce30113ee057ee3",
+  "title": "SPORE: Skeleton Propagation Over Recalibrating Expansions",
+  "link": "https://arxiv.org/abs/2511.00064",
+  "summary": "arXiv:2511.00064v5 Announce Type: replace \nAbstract: Clustering is a foundational task in data analysis, yet most algorithms impose rigid assumptions on cluster geometry: centroid-based methods favor convex structures, while density-based approaches break down under variable local density or moderate dimensionality. This paper introduces SPORE (Skeleton Propagation Over Recalibrating Expansions), a classical clustering algorithm built to handle arbitrary geometry without relying on global density parameters. SPORE grows clusters through a nearest-neighbor graph, admitting new points based on each cluster's own evolving distance statistics, with density-ordered seeding enabling recovery of nested and asymmetrically separated structures. A refinement stage exploits initial over-segmentation, propagating high-confidence cluster skeletons outward to resolve ambiguous boundaries in low-contrast regions. Across 28 diverse benchmark datasets, SPORE achieves a statistically significant improvement in ARI-based recovery capacity over all evaluated baselines, with strong performance accessible within ten evaluations of a fixed hyperparameter grid.",
+  "feed": "arxiv-cs-LG"
+}

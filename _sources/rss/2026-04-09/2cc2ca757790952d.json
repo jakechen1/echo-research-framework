@@ -1,0 +1,7 @@
+{
+  "id": "2cc2ca757790952d",
+  "title": "Multi-Faceted Self-Consistent Preference Alignment for Query Rewriting in Conversational Search",
+  "link": "https://arxiv.org/abs/2604.06771",
+  "summary": "arXiv:2604.06771v1 Announce Type: cross \nAbstract: Conversational Query Rewriting (CQR) aims to rewrite ambiguous queries to achieve more efficient conversational search. Early studies have predominantly focused on the rewriting in isolation, ignoring the feedback from query rewrite, passage retrieval and response generation in the rewriting process. To address this issue, we propose Multi-Faceted Self-Consistent Preference Aligned CQR (MSPA-CQR). Specifically, we first construct self-consistent preference alignment data from three dimensions (rewriting, retrieval, and response) to generate more diverse rewritten queries. Then we propose prefix guided multi-faceted direct preference optimization to learn preference information from three different dimensions. The experimental results show that our MSPA-CQR is effective in both in- and out-of-distribution scenarios.",
+  "feed": "arxiv-cs-AI"
+}

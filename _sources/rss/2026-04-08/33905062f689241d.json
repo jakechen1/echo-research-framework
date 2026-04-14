@@ -1,0 +1,7 @@
+{
+  "id": "33905062f689241d",
+  "title": "Automated Auditing of Hospital Discharge Summaries for Care Transitions",
+  "link": "https://arxiv.org/abs/2604.05435",
+  "summary": "arXiv:2604.05435v1 Announce Type: new \nAbstract: Incomplete or inconsistent discharge documentation is a primary driver of care fragmentation and avoidable readmissions. Despite its critical role in patient safety, auditing discharge summaries relies heavily on manual review and is difficult to scale. We propose an automated framework for large-scale auditing of discharge summaries using locally deployed Large Language Models (LLMs). Our approach operationalizes core transition-of-care requirements such as follow-up instructions, medication history and changes, patient information and clinical course, etc. into a structured validation checklist of questions based on DISCHARGED framework. Using adult inpatient summaries from the MIMIC-IV database, we utilize a privacy-preserving LLM to identify the presence, absence, or ambiguity of key documentation elements. This work demonstrates the feasibility of scalable, automated clinical auditing and provides a foundation for systematic quality improvement in electronic health record documentation.",
+  "feed": "arxiv-cs-AI"
+}

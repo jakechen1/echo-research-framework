@@ -1,0 +1,7 @@
+{
+  "id": "82fc01cfe09a6de2",
+  "title": "CODA: A Continuous Online Evolve Framework for Deploying HAR Sensing Systems",
+  "link": "https://arxiv.org/abs/2403.14922",
+  "summary": "arXiv:2403.14922v2 Announce Type: replace \nAbstract: In always-on HAR deployments, model accuracy erodes silently as domain shift accumulates over time. Addressing this challenge requires moving beyond one-off updates toward instance-driven adaptation from streaming data. However, continuous adaptation exposes a fundamental tension: systems must selectively learn from informative instances while actively forgetting obsolete ones under long-term, non-stationary drift. To address them, we propose CODA, a continuous online adaptation framework for mobile sensing. CODA introduces two synergistic components: (i) Cache-based Selective Assimilation, which prioritizes informative instances likely to enhance system performance under sparse supervision, and (ii) an Adaptive Temporal Retention Strategy, which enables the system to gradually forget obsolete instances as sensing conditions evolve. By treating adaptation as a principled cache evolution rather than parameter-heavy retraining, CODA maintains high accuracy without model reconfiguration. We conduct extensive evaluations on four heterogeneous datasets spanning phone, watch, and multi-sensor configurations. Results demonstrate that CODA consistently outperforms one-off adaptation under non-stationary drift, remains robust against imperfect feedback, and incurs negligible on-device latency.",
+  "feed": "arxiv-cs-LG"
+}

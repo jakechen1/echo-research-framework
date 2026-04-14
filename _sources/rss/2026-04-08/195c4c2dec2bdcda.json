@@ -1,0 +1,7 @@
+{
+  "id": "195c4c2dec2bdcda",
+  "title": "ReinVBC: A Model-based Reinforcement Learning Approach to Vehicle Braking Controller",
+  "link": "https://arxiv.org/abs/2604.04401",
+  "summary": "arXiv:2604.04401v1 Announce Type: cross \nAbstract: Braking system, the key module to ensure the safety and steer-ability of current vehicles, relies on extensive manual calibration during production. Reducing labor and time consumption while maintaining the Vehicle Braking Controller (VBC) performance greatly benefits the vehicle industry. Model-based methods in offline reinforcement learning, which facilitate policy exploration within a data-driven dynamics model, offer a promising solution for addressing real-world control tasks. This work proposes ReinVBC, which applies an offline model-based reinforcement learning approach to deal with the vehicle braking control problem. We introduce useful engineering designs into the paradigm of model learning and utilization to obtain a reliable vehicle dynamics model and a capable braking policy. Several results demonstrate the capability of our method in real-world vehicle braking and its potential to replace the production-grade anti-lock braking system.",
+  "feed": "arxiv-cs-LG"
+}

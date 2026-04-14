@@ -1,0 +1,7 @@
+{
+  "id": "b83fff45f485e869",
+  "title": "Compact Example-Based Explanations for Language Models",
+  "link": "https://arxiv.org/abs/2601.03786",
+  "summary": "arXiv:2601.03786v2 Announce Type: replace-cross \nAbstract: Training data influence estimation methods quantify the contribution of training documents to a model's output, making them a promising source of information for example-based explanations. As humans cannot interpret thousands of documents, only a small subset of the training data can be presented as an explanation. Although the choice of which documents to include directly affects explanation quality, previous evaluations of such systems have largely ignored any selection strategies. To address this, we propose a novel selection relevance score, a retraining-free metric that quantifies how useful a set of examples is for explaining a model's output. We validate this score through fine-tuning experiments, confirming that it can predict whether a set of examples supports or undermines the model's predictions. Using this metric, we further show that common selection strategies often underperform random selection. Motivated by this finding, we propose a strategy that balances influence and representativeness, enabling better use of selection budgets than naively selecting the highest-ranking examples.",
+  "feed": "arxiv-cs-LG"
+}

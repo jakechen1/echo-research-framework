@@ -1,0 +1,7 @@
+{
+  "id": "f94e69129c87eca3",
+  "title": "From LLM to Silicon: RL-Driven ASIC Architecture Exploration for On-Device AI Inference",
+  "link": "https://arxiv.org/abs/2604.07526",
+  "summary": "arXiv:2604.07526v1 Announce Type: cross \nAbstract: We present an RL-driven compiler that jointly optimizes ASIC architecture, memory hierarchy, and workload partitioning for AI inference across 3nm to 28nm. The design space is formulated as a single Markov Decision Process with mixed discrete-continuous actions and a unified Power-Performance-Area (PPA) objective. Soft Actor-Critic (SAC) with Mixture-of-Experts gating explores the joint space of mesh topology, per-core microarchitecture, and operator placement. We validate on two workloads, Llama 3.1 8B FP16 (high-performance mode, 29809 tokens per second at 3nm) and SmolVLM (low-power mode, less than 13 mW at all nodes, 10 MHz). Across 7 process nodes, the RL automatically adapts mesh sizes and per-tile configurations, including heterogeneous FETCH, VLEN, and memory allocation without node-specific manual retuning.",
+  "feed": "arxiv-cs-LG"
+}

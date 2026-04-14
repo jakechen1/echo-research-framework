@@ -1,0 +1,7 @@
+{
+  "id": "0f65319f226d9ecc",
+  "title": "Nonparametric Instrumental Regression via Kernel Methods is Minimax Optimal",
+  "link": "https://arxiv.org/abs/2411.19653",
+  "summary": "arXiv:2411.19653v2 Announce Type: replace-cross \nAbstract: We study the kernel instrumental variable (KIV) algorithm, a kernel-based two-stage least-squares method for nonparametric instrumental variable regression. We provide a convergence analysis covering both identified and non-identified regimes: when the structural function is not identified, we show that the KIV estimator converges to the minimum-norm IV solution in the reproducing kernel Hilbert space associated with the kernel. Crucially, we establish convergence in the strong $L_2$ norm, rather than only in a pseudo-norm. We quantify statistical difficulty through a link condition that compares the covariance structure of the endogenous regressor with that induced by the instrument, yielding an interpretable measure of ill-posedness. Under standard eigenvalue-decay and source assumptions, we derive strong $L_2$ learning rates for KIV and prove that they are minimax-optimal over fixed smoothness classes. Finally, we replace the stage-1 Tikhonov step by general spectral regularization, thereby avoiding saturation and improving rates for smoother first-stage targets. The matching lower bound shows that instrumental regression induces an unavoidable slowdown relative to ordinary kernel ridge regression.",
+  "feed": "arxiv-cs-LG"
+}

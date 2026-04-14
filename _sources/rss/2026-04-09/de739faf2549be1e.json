@@ -1,0 +1,7 @@
+{
+  "id": "de739faf2549be1e",
+  "title": "Sparse-Aware Neural Networks for Nonlinear Functionals: Mitigating the Exponential Dependence on Dimension",
+  "link": "https://arxiv.org/abs/2604.06774",
+  "summary": "arXiv:2604.06774v1 Announce Type: new \nAbstract: Deep neural networks have emerged as powerful tools for learning operators defined over infinite-dimensional function spaces. However, existing theories frequently encounter difficulties related to dimensionality and limited interpretability. This work investigates how sparsity can help address these challenges in functional learning, a central ingredient in operator learning. We propose a framework that employs convolutional architectures to extract sparse features from a finite number of samples, together with deep fully connected networks to effectively approximate nonlinear functionals. Using universal discretization methods, we show that sparse approximators enable stable recovery from discrete samples. In addition, both the deterministic and the random sampling schemes are sufficient for our analysis. These findings lead to improved approximation rates and reduced sample sizes in various function spaces, including those with fast frequency decay and mixed smoothness. They also provide new theoretical insights into how sparsity can alleviate the curse of dimensionality in functional learning.",
+  "feed": "arxiv-cs-LG"
+}

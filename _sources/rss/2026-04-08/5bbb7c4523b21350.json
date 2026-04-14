@@ -1,0 +1,7 @@
+{
+  "id": "5bbb7c4523b21350",
+  "title": "Reveal-to-Revise: Explainable Bias-Aware Generative Modeling with Multimodal Attention",
+  "link": "https://arxiv.org/abs/2510.12957",
+  "summary": "arXiv:2510.12957v3 Announce Type: replace-cross \nAbstract: We present an explainable, bias-aware generative framework that unifies cross-modal attention fusion, Grad-CAM++ attribution, and a Reveal-to-Revise feedback loop within a single training paradigm. The architecture couples a conditional attention WGAN GP with bias regularization and iterative local explanation feedback and is evaluated on Multimodal MNIST and Fashion MNIST for image generation and subgroup auditing, as well as a toxic/non-toxic text classification benchmark. All experiments use stratified 80/20 splits, validation-based early stopping, and AdamW with cosine annealing, and results are averaged over three random seeds. The proposed model achieves 93.2% accuracy, a 91.6% F1-score, and a 78.1% IoU-XAI on the multimodal benchmark, outperforming all baselines across every metric, while adversarial training restores 73 to 77% robustness on Fashion MNIST. Ablation studies confirm that fusion, Grad-CAM++, and bias feedback each contribute independently to final performance, with explanations improving structural coherence (SSIM = 88.8%, NMI = 84.9%) and fairness across protected subgroups. These results establish attribution and guided generative learning as a practical and trustworthy approach for high-stakes AI applications.",
+  "feed": "arxiv-cs-AI"
+}

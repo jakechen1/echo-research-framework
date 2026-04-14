@@ -1,0 +1,7 @@
+{
+  "id": "e878ccbbf81effe3",
+  "title": "Nvidia greenboost: transparently extend GPU VRAM using system RAM/NVMe",
+  "link": "https://gitlab.com/IsolatedOctopi/nvidia_greenboost",
+  "summary": "<p>I can't tell if this is vibecoded; I have tagged with \"vibecoding\" due to the presence of .continue/agents.</p>\n<p><a href=\"https://lobste.rs/s/vuk8lc/nvidia_greenboost_transparently_extend\">Comments</a></p>",
+  "feed": "lobsters-ai"
+}

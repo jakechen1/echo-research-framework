@@ -1,0 +1,7 @@
+{
+  "id": "35b741f79aacad66",
+  "title": "ID-Sim: An Identity-Focused Similarity Metric",
+  "link": "https://arxiv.org/abs/2604.05039",
+  "summary": "arXiv:2604.05039v1 Announce Type: cross \nAbstract: Humans have remarkable selective sensitivity to identities -- easily distinguishing between highly similar identities, even across significantly different contexts such as diverse viewpoints or lighting. Vision models have struggled to match this capability, and progress toward identity-focused tasks such as personalized image generation is slowed by a lack of identity-focused evaluation metrics. To help facilitate progress, we propose ID-Sim, a feed-forward metric designed to faithfully reflect human selective sensitivity. To build ID-Sim, we curate a high-quality training set of images spanning diverse real-world domains, augmented with generative synthetic data that provides controlled, fine-grained identity and contextual variations. We evaluate our metric on a new unified evaluation benchmark for assessing consistency with human annotations across identity-focused recognition, retrieval, and generative tasks.",
+  "feed": "arxiv-cs-AI"
+}

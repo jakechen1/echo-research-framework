@@ -1,0 +1,7 @@
+{
+  "id": "56ff7751f68aba47",
+  "title": "The Geometric Alignment Tax: Tokenization vs. Continuous Geometry in Scientific Foundation Models",
+  "link": "https://arxiv.org/abs/2604.04155",
+  "summary": "arXiv:2604.04155v1 Announce Type: new \nAbstract: Foundation models for biology and physics optimize predictive accuracy, but their internal representations systematically fail to preserve the continuous geometry of the systems they model. We identify the root cause: the Geometric Alignment Tax, an intrinsic cost of forcing continuous manifolds through discrete categorical bottlenecks. Controlled ablations on synthetic dynamical systems demonstrate that replacing cross-entropy with a continuous head on an identical encoder reduces geometric distortion by up to 8.5x, while learned codebooks exhibit a non-monotonic double bind where finer quantization worsens geometry despite improving reconstruction. Under continuous objectives, three architectures differ by 1.3x; under discrete tokenization, they diverge by 3,000x. Evaluating 14 biological foundation models with rate-distortion theory and MINE, we identify three failure regimes: Local-Global Decoupling, Representational Compression, and Geometric Vacuity. A controlled experiment confirms that Evo 2's reverse-complement robustness on real DNA reflects conserved sequence composition, not learned symmetry. No model achieves simultaneously low distortion, high mutual information, and global coherence.",
+  "feed": "arxiv-cs-LG"
+}

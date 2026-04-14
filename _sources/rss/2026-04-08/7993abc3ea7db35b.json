@@ -1,0 +1,7 @@
+{
+  "id": "7993abc3ea7db35b",
+  "title": "Hindsight-Anchored Policy Optimization: Turning Failure into Feedback in Sparse Reward Settings",
+  "link": "https://arxiv.org/abs/2603.11321",
+  "summary": "arXiv:2603.11321v2 Announce Type: replace \nAbstract: Reinforcement Learning with Verifiable Rewards (RLVR) has emerged as a promising paradigm for post-training reasoning models. However, group-based methods such as Group Relative Policy Optimization (GRPO) face a critical dilemma in sparse-reward settings: pure Reinforcement Learning (RL) suffers from advantage collapse and high-variance gradient estimation, while mixed-policy optimization introduces persistent distributional bias. To resolve this dilemma, we introduce Hindsight-Anchored Policy Optimization (HAPO). HAPO employs the Synthetic Success Injection (SSI) operator, a hindsight mechanism that selectively anchors optimization to teacher demonstrations during failure. This injection is governed by a Thompson sampling-inspired gating mechanism, creating an autonomous, self-paced curriculum. Theoretically, we demonstrate that HAPO achieves \\textit{asymptotic consistency}: by naturally annealing the teacher signal as the policy improves, HAPO recovers the unbiased on-policy gradient. This ensures off-policy guidance acts as a temporary scaffold rather than a persistent ceiling, enabling the model to surpass the limitations of static teacher forcing.",
+  "feed": "arxiv-cs-LG"
+}

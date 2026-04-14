@@ -1,0 +1,7 @@
+{
+  "id": "49d84580459ae999",
+  "title": "ACT: Agentic Classification Tree",
+  "link": "https://arxiv.org/abs/2509.26433",
+  "summary": "arXiv:2509.26433v4 Announce Type: replace \nAbstract: When used in high-stakes settings, AI systems are expected to produce decisions that are transparent, interpretable and auditable, a requirement increasingly expected by regulations. Decision trees such as CART provide clear and verifiable rules, but they are restricted to structured tabular data and cannot operate directly on unstructured inputs such as text. In practice, large language models (LLMs) are widely used for such data, yet prompting strategies such as chain-of-thought or prompt optimization still rely on free-form reasoning, limiting their ability to ensure trustworthy behaviors. We present the Agentic Classification Tree (ACT), which extends decision-tree methodology to unstructured inputs by formulating each split as a natural-language question, refined through impurity-based evaluation and LLM feedback via TextGrad. Experiments on text benchmarks show that ACT matches or surpasses prompting-based baselines while producing transparent and interpretable decision paths.",
+  "feed": "arxiv-cs-LG"
+}

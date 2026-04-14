@@ -1,0 +1,7 @@
+{
+  "id": "b701a2a72f9049f9",
+  "title": "Towards the Development of an LLM-Based Methodology for Automated Security Profiling in Compliance with Ukrainian Cybersecurity Regulations",
+  "link": "https://arxiv.org/abs/2604.06274",
+  "summary": "arXiv:2604.06274v1 Announce Type: cross \nAbstract: In recent years, the pace of development of information technology in various areas has increased drastically, forcing cybersecurity specialists to constantly review existing processes in order to prevent unauthorized access to confidential information. Using Ukraine as a primary case study, this paper explores the integration of international best practices, specifically ISO/IEC 27001 and the NIST Cybersecurity Framework, into national regulatory systems. A focus is placed on the transition from traditional compliance models to risk-based approaches, exemplified by the recent adoption of the Ukrainian normative documents. Furthermore, we propose a methodology for automating the development of target security profiles using Large Language Models (LLMs) enhanced by RetrievalAugmented Generation (RAG). By integrating a vector database of national regulations and organizational policies, the proposed RAG-based advisor reduces manual complexity, minimizes human error, and ensures alignment between technical controls and legal requirements. This study contributes to the field by providing a structured workflow for AI-assisted cybersecurity management in environments characterized by high-intensity hybrid threats.",
+  "feed": "arxiv-cs-AI"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "7e43af05faa67f28",
+  "title": "Neural parametric representations for thin-shell shape optimisation",
+  "link": "https://arxiv.org/abs/2604.06612",
+  "summary": "arXiv:2604.06612v1 Announce Type: cross \nAbstract: Shape optimisation of thin-shell structures requires a flexible, differentiable geometric representation suitable for gradient-based optimisation. We propose a neural parametric representation (NRep) for the shell mid-surface based on a neural network with periodic activation functions. The NRep is defined using a multi-layer perceptron (MLP), which maps the parametric coordinates of mid-surface vertices to their physical coordinates. A structural compliance optimisation problem is posed to optimise the shape of a thin-shell parameterised by the NRep subject to a volume constraint, with the network parameters as design variables. The resulting shape optimisation problem is solved using a gradient-based optimisation algorithm. Benchmark examples with classical solutions demonstrate the effectiveness of the proposed NRep. The approach exhibits potential for complex lattice-skin structures, owing to the compact and expressive geometry representation afforded by the NRep.",
+  "feed": "arxiv-cs-LG"
+}

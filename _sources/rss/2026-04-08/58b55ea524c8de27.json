@@ -1,0 +1,7 @@
+{
+  "id": "58b55ea524c8de27",
+  "title": "ETR: Entropy Trend Reward for Efficient Chain-of-Thought Reasoning",
+  "link": "https://arxiv.org/abs/2604.05355",
+  "summary": "arXiv:2604.05355v1 Announce Type: new \nAbstract: Chain-of-thought (CoT) reasoning improves large language model performance on complex tasks, but often produces excessively long and inefficient reasoning traces. Existing methods shorten CoTs using length penalties or global entropy reduction, implicitly assuming that low uncertainty is desirable throughout reasoning. We show instead that reasoning efficiency is governed by the trajectory of uncertainty. CoTs with dominant downward entropy trends are substantially shorter. Motivated by this insight, we propose Entropy Trend Reward (ETR), a trajectory-aware objective that encourages progressive uncertainty reduction while allowing limited local exploration. We integrate ETR into Group Relative Policy Optimization (GRPO) and evaluate it across multiple reasoning models and challenging benchmarks. ETR consistently achieves a superior accuracy-efficiency tradeoff, improving DeepSeek-R1-Distill-7B by 9.9% in accuracy while reducing CoT length by 67% across four benchmarks. Code is available at https://github.com/Xuan1030/ETR",
+  "feed": "arxiv-cs-AI"
+}

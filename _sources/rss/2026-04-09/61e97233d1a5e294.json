@@ -1,0 +1,7 @@
+{
+  "id": "61e97233d1a5e294",
+  "title": "Adaptive Prompt Structure Factorization: A Framework for Self-Discovering and Optimizing Compositional Prompt Programs",
+  "link": "https://arxiv.org/abs/2604.06699",
+  "summary": "arXiv:2604.06699v1 Announce Type: cross \nAbstract: Automated prompt optimization is crucial for eliciting reliable reasoning from large language models (LLMs), yet most API-only prompt optimizers iteratively edit monolithic prompts, coupling components and obscuring credit assignment, limiting controllability, and wasting tokens. We propose Adaptive Prompt Structure Factorization (aPSF), an API-only framework (prompt-in/text-out; no access to model internals) that uses an Architect model to discover task-specific prompt structures as semantic factors. aPSF then performs interventional, single-factor updates: interventional factor-level scoring estimates each factor's marginal contribution via validation-performance changes, and error-guided factor selection routes updates to the current dominant failure source for more sample-efficient optimization. Across multiple advanced reasoning benchmarks, aPSF outperforms strong baselines including principle-aware optimizers, improving accuracy by up to +2.16 percentage points on average, and reduces optimization cost by 45--87% tokens on MultiArith while reaching peak validation in 1 step.",
+  "feed": "arxiv-cs-LG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "47695968470dab10",
+  "title": "Fairness Evaluation and Inference Level Mitigation in LLMs",
+  "link": "https://arxiv.org/abs/2510.18914",
+  "summary": "arXiv:2510.18914v3 Announce Type: replace-cross \nAbstract: Large language models often display undesirable behaviors embedded in their internal representations, undermining fairness, inconsistency drift, amplification of harmful content, and the propagation of unwanted patterns during extended dialogue and conversations. Although training-time or data-centric methods attempt to reduce these effects, they are computationally expensive, irreversible once deployed, and slow to adapt to new conversational contexts. Pruning-based methods provide a flexible and transparent way to reduce bias by adjusting the neurons responsible for certain behaviors. However, most existing approaches are static; once a neuron is removed, the model loses the ability to adapt when the conversation or context changes. To address this, we propose a dynamic, reversible, pruning-based framework that detects context-aware neuron activations and applies adaptive masking to modulate their influence during generation. Our inference-time solution provides fine-grained, memory-aware mitigation with knowledge-preserved, more coherent behavior across multilingual single- and multi-turn dialogues, enabling dynamic fairness control in real-world conversational AI.",
+  "feed": "arxiv-cs-AI"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "dcde456dc22c468d",
+  "title": "Hardware Efficient Approximate Convolution with Tunable Error Tolerance for CNNs",
+  "link": "https://arxiv.org/abs/2603.10100",
+  "summary": "arXiv:2603.10100v2 Announce Type: replace \nAbstract: Modern CNNs' high computational demands hinder edge deployment, as traditional ``hard'' sparsity (skipping mathematical zeros) loses effectiveness in deep layers or with smooth activations like Tanh. We propose a ``soft sparsity'' paradigm using a hardware efficient Most Significant Bit (MSB) proxy to skip negligible non-zero multiplications. Integrated as a custom RISC-V instruction and evaluated on LeNet-5 (MNIST), this method reduces ReLU MACs by 88.42% and Tanh MACs by 74.87% with zero accuracy loss--outperforming zero-skipping by 5x. By clock-gating inactive multipliers, we estimate power savings of 35.2% for ReLU and 29.96% for Tanh. While memory access makes power reduction sub-linear to operation savings, this approach significantly optimizes resource-constrained inference.",
+  "feed": "arxiv-cs-LG"
+}

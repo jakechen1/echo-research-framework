@@ -1,0 +1,7 @@
+{
+  "id": "9ff691a811ee8ec4",
+  "title": "ExpressEdit: Fast Editing of Stylized Facial Expressions with Diffusion Models in Photoshop",
+  "link": "https://arxiv.org/abs/2604.03448",
+  "summary": "arXiv:2604.03448v1 Announce Type: cross \nAbstract: Facial expressions of characters are a vital component of visual storytelling. While current AI image editing models hold promise for assisting artists in the task of stylized expression editing, these models introduce global noise and pixel drift into the edited image, preventing the integration of these models into professional image editing software and workflows. To bridge this gap, we introduce ExpressEdit, a fully open-source Photoshop plugin that is free from common artifacts of proprietary image editing models and robustly synergizes with native Photoshop operations such as Liquify. ExpressEdit seamlessly edits an expression within 3 seconds on a single consumer-grade GPU, significantly faster than popular proprietary models. Moreover, to support the generation of diverse expressions according to different narrative needs, we compile a comprehensive expression database of 135 expression tags enriched with example stories and images designed for retrieval-augmented generation. We open source the code and dataset to facilitate future research and artistic exploration.",
+  "feed": "arxiv-cs-LG"
+}

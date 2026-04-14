@@ -1,0 +1,7 @@
+{
+  "id": "0bf65c1af5333641",
+  "title": "Domain-Contextualized Inference: A Computable Graph Architecture for Explicit-Domain Reasoning",
+  "link": "https://arxiv.org/abs/2604.04344",
+  "summary": "arXiv:2604.04344v2 Announce Type: replace \nAbstract: We establish a computation-substrate-agnostic inference architecture in which domain is an explicit first-class computational parameter. This produces domain-scoped pruning that reduces per-query search space from O(N) to O(N/K), substrate-independent execution over symbolic, neural, vector, and hybrid substrates, and transparent inference chains where every step carries its evaluative context. The contribution is architectural, not logical. We formalize the computational theory across five dimensions: a five-layer architecture; three domain computation modes including chain indexing, path traversal as Kleisli composition, and vector-guided computation as a substrate transition; a substrate-agnostic interface with three operations Query, Extend, Bridge; reliability conditions C1 to C4 with three failure mode classes; and validation through a PHQ-9 clinical reasoning case study. The computational theory including operational semantics, complexity bounds, monad structure, substrate transitions, and boundary conditions is the contribution of this paper.",
+  "feed": "arxiv-cs-AI"
+}

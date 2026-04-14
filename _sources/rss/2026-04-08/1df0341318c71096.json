@@ -1,0 +1,7 @@
+{
+  "id": "1df0341318c71096",
+  "title": "TransAgent: Enhancing LLM-Based Code Translation via Fine-Grained Execution Alignment",
+  "link": "https://arxiv.org/abs/2409.19894",
+  "summary": "arXiv:2409.19894v5 Announce Type: replace-cross \nAbstract: Code translation transforms code between programming languages while preserving functionality, which is critical in software development and maintenance. While traditional learning-based code translation methods have limited effectiveness due to the lack of sufficient parallel training data, Large Language Models (LLMs) have recently advanced this field with their strong code generation and comprehension capabilities. However, code translated by LLMs still suffers from diverse quality issues, such as syntax and semantic errors. In this work, we propose TransAGENT, a novel multi-agent system that eliminates the errors during LLM-based code translation. The main insight of TransAGENT is to localize error-prone code blocks via fine-grained execution alignment between source and target code. We evaluate TransAGENT on a newly constructed benchmark of recent programming tasks to mitigate data leakage. TransAGENT outperforms the latest UniTrans by up to 33.3% in translation accuracy and achieves an average improvement of 56.7% over Agentless in program repair performance. We also conduct an ablation study and evaluate TransAGENT across different LLMs, demonstrating its effectiveness and strong generalizability.",
+  "feed": "arxiv-cs-AI"
+}

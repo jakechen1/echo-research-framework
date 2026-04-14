@@ -1,0 +1,7 @@
+{
+  "id": "7eacf91565b07980",
+  "title": "Rethinking Data Mixing from the Perspective of Large Language Models",
+  "link": "https://arxiv.org/abs/2604.07963",
+  "summary": "arXiv:2604.07963v1 Announce Type: cross \nAbstract: Data mixing strategy is essential for large language model (LLM) training. Empirical evidence shows that inappropriate strategies can significantly reduce generalization. Although recent methods have improved empirical performance, several fundamental questions remain open: what constitutes a domain, whether human and model perceptions of domains are aligned, and how domain weighting influences generalization. We address these questions by establishing formal connections between gradient dynamics and domain distributions, offering a theoretical framework that clarifies the role of domains in training dynamics. Building on this analysis, we introduce DoGraph, a reweighting framework that formulates data scheduling as a graph-constrained optimization problem. Extensive experiments on GPT-2 models of varying scales demonstrate that DoGraph consistently achieves competitive performance.",
+  "feed": "arxiv-cs-LG"
+}

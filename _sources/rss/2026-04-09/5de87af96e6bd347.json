@@ -1,0 +1,7 @@
+{
+  "id": "5de87af96e6bd347",
+  "title": "Towards Robust Content Watermarking Against Removal and Forgery Attacks",
+  "link": "https://arxiv.org/abs/2604.06662",
+  "summary": "arXiv:2604.06662v1 Announce Type: cross \nAbstract: Generated contents have raised serious concerns about copyright protection, image provenance, and credit attribution. A potential solution for these problems is watermarking. Recently, content watermarking for text-to-image diffusion models has been studied extensively for its effective detection utility and robustness. However, these watermarking techniques are vulnerable to potential adversarial attacks, such as removal attacks and forgery attacks. In this paper, we build a novel watermarking paradigm called Instance-Specific watermarking with Two-Sided detection (ISTS) to resist removal and forgery attacks. Specifically, we introduce a strategy that dynamically controls the injection time and watermarking patterns based on the semantics of users' prompts. Furthermore, we propose a new two-sided detection approach to enhance robustness in watermark detection. Experiments have demonstrated the superiority of our watermarking against removal and forgery attacks.",
+  "feed": "arxiv-cs-LG"
+}

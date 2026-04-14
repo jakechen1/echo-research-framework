@@ -1,0 +1,7 @@
+{
+  "id": "bc9d69851e6b2e06",
+  "title": "Discrete Prototypical Memories for Federated Time Series Foundation Models",
+  "link": "https://arxiv.org/abs/2604.04475",
+  "summary": "arXiv:2604.04475v1 Announce Type: new \nAbstract: Leveraging Large Language Models (LLMs) as federated learning (FL)-based time series foundation models offers a promising way to transfer the generalization capabilities of LLMs to time series data while preserving access to private data. However, the semantic misalignment between time-series data and the text-centric latent space of existing LLMs often leads to degraded performance. Meanwhile, the parameter-sharing mechanism in existing FL methods model heterogeneous cross-domain time-series data into a unified continuous latent space, which contradicts the fact that time-series semantics frequently manifest as discrete and recurring regimes. To address these limitations, we propose \\textsc{FeDPM}, a federated framework for time-series foundation models based on discrete prototypical memories. Specifically, we learn local prototypical memory priors for intra-domain time-series data. We then align cross-domain memories to promote a unified discrete latent space and introduce a domain-specific memory update mechanism to balance shared and personalized prototypical knowledge. Extensive experiments demonstrate the efficiency and effectiveness of \\textsc{FeDPM}. The code is publicly available at https://anonymous.4open.science/r/FedUnit-64D1.",
+  "feed": "arxiv-cs-LG"
+}

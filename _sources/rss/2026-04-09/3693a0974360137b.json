@@ -1,0 +1,7 @@
+{
+  "id": "3693a0974360137b",
+  "title": "Incentive-Aware Multi-Fidelity Optimization for Generative Advertising in Large Language Models",
+  "link": "https://arxiv.org/abs/2604.06263",
+  "summary": "arXiv:2604.06263v1 Announce Type: cross \nAbstract: Generative advertising in large language model (LLM) responses requires optimizing sponsorship configurations under two strict constraints: the strategic behavior of advertisers and the high cost of stochastic generations. To address this, we propose the Incentive-Aware Multi-Fidelity Mechanism (IAMFM), a unified framework coupling Vickrey-Clarke-Groves (VCG) incentives with Multi-Fidelity Optimization to maximize expected social welfare. We compare two algorithmic instantiations (elimination-based and model-based), revealing their budget-dependent performance trade-offs. Crucially, to make VCG computationally feasible, we introduce Active Counterfactual Optimization, a \"warm-start\" approach that reuses optimization data for efficient payment calculation. We provide formal guarantees for approximate strategy-proofness and individual rationality, establishing a general approach for incentive-aligned, budget-constrained generative processes. Experiments demonstrate that IAMFM outperforms single-fidelity baselines across diverse budgets.",
+  "feed": "arxiv-cs-LG"
+}
