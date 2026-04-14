@@ -7,27 +7,27 @@
     },
     "autonomous-research": {
       "version": "1.0.0",
-      "installedAt": 1775379653047
+      "installedAt": 1776207689496
     },
     "academic-writing-refiner": {
       "version": "1.0.0",
-      "installedAt": 1775216643422
+      "installedAt": 1776207738238
     },
     "research-paper-writer": {
       "version": "0.1.0",
-      "installedAt": 1775216660629
+      "installedAt": 1776207765578
     },
     "latex": {
       "version": "1.0.0",
-      "installedAt": 1775216677816
+      "installedAt": 1776207793014
     },
     "bioinformatics": {
       "version": "1.0.0",
-      "installedAt": 1775379759233
+      "installedAt": 1776207851759
     },
     "genomics": {
       "version": "1.0.0",
-      "installedAt": 1775379794140
+      "installedAt": 1776207905574
     },
     "personal-genomics": {
       "version": "4.2.0",
@@ -71,11 +71,11 @@
     },
     "academic-search": {
       "version": "1.0.0",
-      "installedAt": 1775217621788
+      "installedAt": 1776207638808
     },
     "academic-writing": {
       "version": "1.0.0",
-      "installedAt": 1775217673053
+      "installedAt": 1776207714793
     },
     "agent-collab": {
       "version": "1.0.0",
@@ -87,7 +87,7 @@
     },
     "paper-parse": {
       "version": "1.0.0",
-      "installedAt": 1775221339873
+      "installedAt": 1776207820430
     },
     "chemistry": {
       "version": "1.0.0",
@@ -107,7 +107,7 @@
     },
     "lobsterbio-use": {
       "version": "1.1.406",
-      "installedAt": 1775394174625
+      "installedAt": 1776207878172
     },
     "github-cli": {
       "version": "1.0.0",
