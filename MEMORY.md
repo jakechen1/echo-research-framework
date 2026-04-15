@@ -26,11 +26,10 @@
 - Paper project is a priority
 - Timezone: America/Chicago
 
-## Infrastructure
-- L0 (10.0.0.1 via TB, 192.168.68.200 WiFi): M4 Pro 24GB, Ollama, Gemma 4 26B, parallel=2
-- W0 (192.168.68.201): M4 16GB, OpenClaw + Dashboard + Hermes
-- NAS "Gilbert" (192.168.68.128): Synology, mounted at /Volumes/dataset-jakeclaw
-  - Full read/write access — use for datasets, exports, large files
-  - Wiki backups auto-sync here
-  - Store research data at /Volumes/dataset-jakeclaw/dataset/
-- RSS pipeline: DISABLED — builds are project-controlled only
+## Recent Optimizations & Diagnostics (2026-04-14)
+- **Network Latency Found:** Critical performance gap identified between Thunderbolt (0.55ms) and WiFi (115.92ms) for W0 $\leftrightarrow$ L0 communication.
+- **Optimization Plan:**
+    1. **Switch to Thunderbolt:** Update W0 Gateway to use `10.0.0.1` instead of WiFi IP.
+    2. **Model Tiering:** Use lightweight models (e.g., 2B/7B) for routine tasks and Gemma 4 26B for heavy reasoning.
+    3. **Context Management:** Periodically trigger "fresh sessions" to flush KV cache.
+- **Established Reset Protocol:** When asked to "reset" or "start fresh," Echo will summarize vital info to `MEMORY.md` and conclude the current session.
