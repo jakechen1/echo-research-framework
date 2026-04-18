@@ -59,6 +59,15 @@ def notify(emoji: str, title: str, body: str = "", urgent: bool = False) -> bool
         ok = False
         with LOG.open("a") as f:
             f.write(json.dumps({"at": now, "emoji": emoji, "title": title, "err": str(e)[:200]}) + "\n")
+        try:
+            import subprocess
+            subprocess.run([
+                "/Users/jakeclaw/.hermes-venv/bin/python",
+                "/Users/jakeclaw/.openclaw/workspace/skills/resilience/scripts/enqueue.py",
+                "notify", f"emoji={emoji}", f"title={title}", f"body={body[:2000]}"
+            ], check=False, timeout=5)
+        except Exception:
+            pass
         return False
     d["recent"].append({"t": now, "k": key})
     d["last_send"] = now

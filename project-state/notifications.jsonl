@@ -1,3 +1,4 @@
 {"at": 1776532887.2162611, "emoji": "\ud83e\udd16", "title": "Notifier online", "body": "Proactive Telegram alerts wired up. You'll hear from jakeclaw on: task completions (\ud83c\udfaf), stage transitions (\ud83d\udd04), achievements (\ud83c\udfc6 A/G/E \u2265 8), Resolver red channels (\ud83d\udea8), and more.", "ok": true}
 {"at": 1776532888.0596302, "emoji": "\u26a1", "title": "Parallel dispatch ran", "body": "Aim 2/3/4/5 completed in <30s wall time. L0 GPU 79%, W0 CPU 1.88 load avg.", "ok": true}
 {"at": 1776532892.95574, "emoji": "\ud83c\udfc6", "title": "Task 2.1 iter1: E=5 mid-range", "body": "Full AGE: A=4 G=7 E=5. Room to grow on A once baselines normalize.", "ok": true}
+{"at": 1776533948.820012, "emoji": "\ud83d\udd01", "title": "W0 booted \u2014 resilience OK", "body": "Uptime 29600655 min. State validated. Queues replayed.", "ok": true}
