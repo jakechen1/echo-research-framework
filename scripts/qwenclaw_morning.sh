@@ -65,6 +65,12 @@ if grep -q -iE "(STOP-CHROME-CLAUDE|KILL-SWITCH)" "$DAYLOG" 2>/dev/null; then
   exit 0
 fi
 
+# Scavenger status + delta — injected into DAILY_LOG + Telegram summary
+SCAV_REPORT=$(/Users/jakeclaw/workers/bin/phgdh_delta.sh 2>&1 || echo "(delta script failed)")
+echo "" >> "$DAYLOG"
+echo "$SCAV_REPORT" >> "$DAYLOG"
+
+
 # -------- Phase 1: qwenclaw plans --------
 PLAN_JSON=$(oc_agent qwenclaw "Read /Users/jakeclaw/.openclaw/workspace/project-state/CURRENT_GOAL.md. Output ONLY one shell command jakeclaw should run to advance the goal. When writing to a file, use >> (append) never > (overwrite). No preamble. No explanation. Just the command, on one line. If CURRENT_GOAL already shows all done-criteria checked, output the single word: GOAL_DONE." 180) || fail "qwenclaw plan call failed"
 
@@ -81,7 +87,8 @@ if [ "$PLAN" = "GOAL_DONE" ]; then
 - **Action needed**: jakechen to promote next goal from BACKLOG.md
   or invoke qwenclaw with "promote next goal" to do it manually.
 EOF
-  MSG="Morning cycle $DATE: CURRENT_GOAL reports done. Awaiting promotion from BACKLOG."
+  SCAV_HEADLINE=$(echo "$SCAV_REPORT" | grep -E "^\\| Rows " | head -1)
+MSG="Morning cycle $DATE: ${SCAV_HEADLINE} | CURRENT_GOAL reports done. Awaiting promotion from BACKLOG."
 else
   # -------- Phase 2: jakeclaw executes --------
   EXEC_JSON=$(oc_agent main "Run this command and paste ONLY its raw stdout/stderr output. No prose. No markdown fences. Just the output: $PLAN" 180) || fail "jakeclaw exec call failed"
@@ -110,7 +117,8 @@ $EVAL
 \`\`\`
 EOF
 
-  MSG="Morning cycle $DATE: $(echo "$EVAL" | head -c 300)"
+  SCAV_HEADLINE=$(echo "$SCAV_REPORT" | grep -E "^\\| Rows " | head -1)
+MSG="Morning cycle $DATE: ${SCAV_HEADLINE} | $(echo "$EVAL" | head -c 300)"
 fi
 
 # -------- Phase 5: notify Jake on Telegram --------

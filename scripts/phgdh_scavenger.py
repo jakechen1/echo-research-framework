@@ -30,7 +30,7 @@ def fetch(url, retries=3):
 
 def main():
     os.makedirs(OUT_DIR, exist_ok=True)
-    today = datetime.utcnow().strftime("%Y-%m-%d")
+    today = datetime.now().strftime("%Y-%m-%d")
     outfile = os.path.join(OUT_DIR, f"{today}.jsonl")
 
     # 1. Resolve UniProt -> ChEMBL target(s)
