@@ -222,3 +222,43 @@ Ignored escalations are tracked as Open Issues.
 - **L5 (Box, on demand)**: paper-level — stitches L3/L4 into a single
   reproducible narrative with proper methods
 - **L6 (GitHub, on demand)**: debug / reproducibility bundle
+
+
+## 8. Project Dashboard (Wiki-published, regenerated daily)
+
+Two-table dashboard at **`/Project-Dashboard`** on the public wiki.
+
+### Table 1 — PLEASER × Iterations
+- **Rows:** P, L, E, A, S, X, R (7 PLEASER stages)
+- **Columns:** each iteration (e.g., "Iter 1 (Task 2.1)", "Iter 2 (Task 2.2)")
+- **Cells:** AGE triple score `A.G.E` (e.g., `7.6.5`) on reverse-NIH scale
+- **Cell color** by min(A,G,E): green ≥5, yellow =4, red ≤3
+- **Cell link:** opens the L3 report for that iteration
+
+### Table 2 — Aim → Task → Subtask progress
+- **Rows:** Aim (H3) → Task (indented) → Subtask (doubly indented)
+- **Columns:** Status, % complete, Achievement (reverse-NIH, color-coded)
+- **Parallelism:** tasks may run in parallel, local (W0/L0) or remote (Cheaha)
+
+### Color policy
+| Color | Achievement | Meaning |
+|-------|-------------|---------|
+| 🟢 Green | ≥ 5 | Satisfactory or better; problems resolved with progress |
+| 🟡 Yellow | = 4 | Some problem; recoverable without human intervention |
+| 🔴 Red | ≤ 3 | Major challenge; human decision requested; time/cost at risk |
+
+Boundary case: Achievement = 4 with a known blocker → Yellow; Achievement
+= 4 with unknown causal path → Red.
+
+### Regeneration cadence
+- Daily via `ai.jakeclaw.daily_wiki_publish` at 17:05 (pushed to sdd-wiki)
+- On-demand via `dashboard` Telegram keyword → jakeclaw runs
+  `project_dashboard.py` and pastes the rendered markdown
+- Initial seed: dashboard exists from project start even with sparse data;
+  missing cells render as "—" rather than absent rows
+
+### Source of truth
+`project-state/iteration_state.json` drives "current stage";
+`project-state/reports/L3/*.md` drives AGE scores via regex extraction
+of "Accuracy=N / Generalizability=N / Efficiency=N" lines.
+Backlog + Completed + CurrentGoal files drive Table 2.

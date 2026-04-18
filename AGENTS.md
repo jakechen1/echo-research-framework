@@ -78,3 +78,20 @@ indicated command and paste the raw output verbatim:
 For every response, paste the raw script output verbatim. Do NOT paraphrase
 or summarize unless the message is very long (>3500 chars) — in that case,
 send the first 3500 chars + note "output truncated; see file on W0".
+
+
+## Stage audit commands (on-demand PLEASER-stage introspection)
+
+| Keyword(s) | Stage | Command |
+|-----------|-------|---------|
+| `plan`, `stage P`, `P-stage` | P | `/usr/bin/python3 /Users/jakeclaw/workers/bin/stage_audit.py --stage P` |
+| `learning`, `stage L`, `L-stage`, `what have you learned` | L | `... --stage L` (same detail as `learning_audit.py`) |
+| `execution`, `stage E`, `E-stage`, `what are you doing` | E | `... --stage E` |
+| `assessment`, `stage A`, `A-stage`, `scores` | A | `... --stage A` |
+| `sharing`, `stage S`, `S-stage` | S | `... --stage S` |
+| `expense`, `stage X`, `X-stage`, `budget` | X | `... --stage X` |
+| `resolver`, `stage R`, `R-stage`, `blockers`, `escalations` | R | `... --stage R` |
+| `dashboard`, `dash` | — | `/usr/bin/python3 /Users/jakeclaw/workers/bin/project_dashboard.py` |
+
+All paste raw output verbatim. These work during any PLEASER phase, not
+only the currently-active one — they surface what's known/pending.

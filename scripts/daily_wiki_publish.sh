@@ -51,6 +51,11 @@ fi
 /usr/bin/python3 /Users/jakeclaw/workers/bin/project_summary.py > "$SUMMARY.tmp" && mv "$SUMMARY.tmp" "$SUMMARY"
 log "regenerated $SUMMARY"
 
+# Dashboard — regenerated alongside Project-Summary
+/usr/bin/python3 /Users/jakeclaw/workers/bin/project_dashboard.py > "/Users/jakeclaw/wiki/projects/PHGDH-Allosteric-RBD-Binder/Project-Dashboard.md.tmp" \
+    && mv "/Users/jakeclaw/wiki/projects/PHGDH-Allosteric-RBD-Binder/Project-Dashboard.md.tmp" "/Users/jakeclaw/wiki/projects/PHGDH-Allosteric-RBD-Binder/Project-Dashboard.md"
+log "regenerated Project-Dashboard.md"
+
 # (d) Publish to sdd-wiki → Cloudflare Pages
 /Users/jakeclaw/workers/bin/phgdh_publish.sh >>"$LOG" 2>&1 && log "published" || log "publish FAILED"
 
