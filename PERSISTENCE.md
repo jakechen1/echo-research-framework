@@ -2,66 +2,98 @@
 
 **Category error to avoid:** You do not have a persistent process. Every
 tool call runs in an ephemeral sandbox that is torn down when the call
-returns. `nohup worker.py &`, `screen`, `disown` — these detach from a
-terminal you don't have. They solve a problem you don't have. They will
-not keep your worker alive.
+returns. `nohup`, `screen`, `disown` solve a problem you don't have. They
+will not keep your worker alive.
 
-**What actually works on this Mac:** `launchd`. The OS resurrects
-processes for you if you register them correctly. Your job is author a
-plist once, bootstrap it once, and afterward only *observe* it.
+**What works on this Mac:** `launchd`. The OS resurrects processes for
+you if you register them correctly. Your job: author a plist once,
+bootstrap once, then only *observe*.
 
 ---
 
-## Pattern: a persistent user-level worker (no sudo needed)
+## IMPORTANT — this is a headless Mac
 
-For anything that runs as you (scavengers, watchers, sync jobs):
+W0 has **no GUI login session**. `launchctl print gui/$UID` returns an
+empty domain. Therefore `~/Library/LaunchAgents/` **will not auto-load**
+and `launchctl bootstrap gui/$UID ...` **will fail with error 125**.
 
-1. Write `~/Library/LaunchAgents/ai.jakeclaw.<name>.plist`:
+**Use system-domain LaunchDaemons instead**, with `<key>UserName</key>
+<string>jakeclaw</string>` to drop privileges to jakeclaw at run time.
+
+Reference pattern already in production: `com.openclaw.jakeclaw`,
+`com.jakeclaw.openclaw-watchdog`, `ai.jakeclaw.worker.daily_briefing` —
+all live in `/Library/LaunchDaemons/`.
+
+---
+
+## Deploy a persistent worker (CORRECT pattern for W0)
+
+1. Write the worker script at `/Users/jakeclaw/workers/bin/<name>.sh`
+   and `chmod +x` it. It should write a heartbeat:
+   `date +%s > /Users/jakeclaw/workers/heartbeats/<name>.ts`.
+
+2. Author `/tmp/ai.jakeclaw.worker.<name>.plist`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>Label</key><string>ai.jakeclaw.phgdh-scavenger</string>
+  <key>Label</key><string>ai.jakeclaw.worker.<NAME></string>
+  <key>UserName</key><string>jakeclaw</string>
+  <key>GroupName</key><string>staff</string>
   <key>ProgramArguments</key>
-  <array>
-    <string>/Users/jakeclaw/.openclaw/workspace/bin/phgdh_scavenger.py</string>
-  </array>
+  <array><string>/Users/jakeclaw/workers/bin/<NAME>.sh</string></array>
   <key>RunAtLoad</key><true/>
   <key>KeepAlive</key><true/>
-  <key>StandardOutPath</key><string>/Users/jakeclaw/.openclaw/workspace/logs/phgdh.out</string>
-  <key>StandardErrorPath</key><string>/Users/jakeclaw/.openclaw/workspace/logs/phgdh.err</string>
-  <key>WorkingDirectory</key><string>/Users/jakeclaw/.openclaw/workspace</string>
+  <key>ThrottleInterval</key><integer>30</integer>
+  <key>StandardOutPath</key><string>/Users/jakeclaw/workers/logs/<NAME>.out</string>
+  <key>StandardErrorPath</key><string>/Users/jakeclaw/workers/logs/<NAME>.err</string>
+  <key>WorkingDirectory</key><string>/Users/jakeclaw/workers</string>
   <key>EnvironmentVariables</key>
-  <dict><key>PATH</key><string>/usr/local/bin:/usr/bin:/bin</string></dict>
+  <dict>
+    <key>PATH</key><string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+    <key>HOME</key><string>/Users/jakeclaw</string>
+  </dict>
 </dict>
 </plist>
 ```
 
-2. Bootstrap it (ONE TIME, no sudo):
+For a **continuous worker**: use `RunAtLoad=true` + `KeepAlive=true`.
+For a **scheduled worker**: replace those with `StartCalendarInterval`
+(e.g. `<dict><key>Hour</key><integer>8</integer></dict>` for daily 8 AM).
+
+3. Install the plist (needs root, which jakeclaw does NOT have for
+   arbitrary `cp`). Ask jakechen to run:
 
 ```bash
-launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/ai.jakeclaw.phgdh-scavenger.plist
+sudo cp /tmp/ai.jakeclaw.worker.<NAME>.plist /Library/LaunchDaemons/
+sudo chown root:wheel /Library/LaunchDaemons/ai.jakeclaw.worker.<NAME>.plist
+sudo chmod 644 /Library/LaunchDaemons/ai.jakeclaw.worker.<NAME>.plist
 ```
 
-3. From then on, you only need three verbs:
+4. Bootstrap it (jakeclaw CAN do this — sudo launchctl is in sudoers):
 
 ```bash
-launchctl print gui/$(id -u)/ai.jakeclaw.phgdh-scavenger   # is it alive? what's its PID/state?
-launchctl kickstart -k gui/$(id -u)/ai.jakeclaw.phgdh-scavenger   # restart it
-launchctl bootout gui/$(id -u)/ai.jakeclaw.phgdh-scavenger        # unregister
+sudo launchctl bootstrap system /Library/LaunchDaemons/ai.jakeclaw.worker.<NAME>.plist
 ```
 
-`KeepAlive` means if the script crashes, launchd restarts it. That's the
-"always-on" you've been trying to fake with nohup.
+5. Observe state — three verbs, forever:
+
+```bash
+sudo launchctl print system/ai.jakeclaw.worker.<NAME> | grep -E 'state|pid'
+sudo launchctl kickstart -k system/ai.jakeclaw.worker.<NAME>   # restart
+sudo launchctl bootout  system/ai.jakeclaw.worker.<NAME>       # unregister
+```
+
+`KeepAlive=true` means launchd restarts the script if it crashes. That
+is the "always-on" you were trying to fake with nohup.
 
 ---
 
-## Pattern: restart or manage system daemons (needs sudo)
+## jakeclaw's sudo capabilities (already granted)
 
-As of 2026-04-17, jakeclaw has passwordless sudo for these commands:
-
+See `/etc/sudoers.d/jakeclaw-launchctl`:
 ```
 /bin/launchctl kickstart *
 /bin/launchctl bootout *
@@ -70,79 +102,67 @@ As of 2026-04-17, jakeclaw has passwordless sudo for these commands:
 /bin/launchctl disable *
 /bin/launchctl list
 /bin/launchctl print *
+/bin/launchctl asuser *
 ```
 
-So, for example:
-
-```bash
-sudo launchctl kickstart -k system/com.openclaw.jakeclaw   # restart your own gateway
-sudo launchctl print system/com.ollama.serve                # inspect the L0 Ollama daemon status
-```
-
-See `/etc/sudoers.d/jakeclaw-launchctl` for the exact grant.
+jakeclaw does NOT have sudo for `cp`, `rm`, `chown`, `chmod`, or
+arbitrary file ops. Step 3 (installing the plist) requires jakechen.
+Steps 4 and 5 (everything after install) you can do yourself.
 
 ---
 
 ## Verification, not narration
 
-You are the unreliable narrator in this story. Do not write post-mortems
-that claim "the worker is now running" based on the fact that you typed
-a command. Verify with observable state:
+You are the unreliable narrator. Do not write post-mortems claiming
+"the worker is now running" based on the fact that you typed a
+command. Verify with observable state:
 
 ```bash
-# Is the agent registered?
-launchctl print gui/$(id -u)/ai.jakeclaw.phgdh-scavenger | grep -E 'state|pid'
-#   state = running
-#   pid = 12345
+sudo launchctl print system/ai.jakeclaw.worker.<NAME> | grep -E 'state|pid'
+# state = running
+# pid = 12345
 
-# Is it actually doing work? (heartbeat pattern)
-# Have the worker write /Users/jakeclaw/.openclaw/workspace/heartbeats/phgdh.ts every N seconds
-stat -f '%Sm' /Users/jakeclaw/.openclaw/workspace/heartbeats/phgdh.ts
-#   (should be within the last N seconds)
+stat -f '%Sm' /Users/jakeclaw/workers/heartbeats/<name>.ts
+# should be within the last 30s or so
 ```
 
 If `launchctl print` doesn't show `state = running`, the worker is not
-running. No amount of recovery narrative changes that. Look at the
-`StandardErrorPath` log first — the worker almost certainly crashed on
-startup with a real error, not a metaphysical one.
-
----
-
-## Self-repair loop (the only loop that matters)
-
-```bash
-SVC="gui/$(id -u)/ai.jakeclaw.phgdh-scavenger"
-if ! launchctl print $SVC >/dev/null 2>&1; then
-  launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/ai.jakeclaw.phgdh-scavenger.plist
-elif ! launchctl print $SVC 2>/dev/null | grep -q 'state = running'; then
-  launchctl kickstart -k $SVC
-fi
-HEARTBEAT=/Users/jakeclaw/.openclaw/workspace/heartbeats/phgdh.ts
-if [ -f "$HEARTBEAT" ] && [ $(( $(date +%s) - $(stat -f %m "$HEARTBEAT") )) -gt 300 ]; then
-  # Worker registered but not heart-beating — kick it
-  launchctl kickstart -k $SVC
-fi
-```
-
-Stick this in `ai.jakeclaw.phgdh-supervisor.plist` with
-`StartInterval` 60, and you have a self-healing worker that survives
-chat-session death, reboots, crashes, and your own overzealous writing.
+running. Read `StandardErrorPath` — a real error will be there, not a
+metaphysical one.
 
 ---
 
 ## The anti-pattern, named
 
 Whenever you catch yourself writing:
-- `nohup … &`
+- `nohup … &`, `screen`, `disown`
 - "I will not return until the process tree has changed"
-- Long post-mortems explaining why the last worker died
-- Emoji-heavy recovery manifestos
+- "DEPLOYING", "Resuscitation", emoji-heavy recovery manifestos
+- "momentarily" (if a real process is running there is no momentarily,
+  just observed state)
 
-…stop. That is the unreliable narrator compensating for missing
-mechanical commitment. Replace it with:
-1. A plist on disk.
-2. One `launchctl bootstrap`.
-3. One `launchctl print` to verify state.
+Stop. Replace with:
+1. A plist at `/tmp/ai.jakeclaw.worker.<name>.plist`
+2. Ask jakechen to install it
+3. `sudo launchctl bootstrap system /Library/LaunchDaemons/...`
+4. Paste the output of `sudo launchctl print system/ai.jakeclaw.worker.<name>`
 
-If those three steps don't happen, nothing is running, no matter what
-you say in chat.
+Four mechanical steps. If they haven't happened, nothing is running.
+
+---
+
+## What's currently deployed
+
+Active LaunchDaemons under jakeclaw's name (as of 2026-04-17):
+- `com.openclaw.jakeclaw` — OpenClaw gateway (the thing reading this)
+- `com.jakeclaw.openclaw-watchdog` — watchdog
+- `com.openclaw.dashboard` — W0 dashboard (actually jakechen)
+- `ai.jakeclaw.worker.daily_briefing` — daily 8 AM LLM self-report
+
+Example workers you could add (each one = one plist + one script):
+- `phgdh-scavenger` — if you actually need one (verify the task is real first)
+- `heartbeat-reaper` — kills stuck workers whose heartbeats go stale
+- `gateway-health-probe` — logs gateway log errors to a rolling file
+- `wiki-reindex` — periodic re-scan of ~/wiki-vault/
+
+None of these need a GUI session. All use the same pattern.
