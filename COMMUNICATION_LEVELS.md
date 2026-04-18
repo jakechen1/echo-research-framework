@@ -40,6 +40,21 @@ changed, state "no net change" plus a 1-line justification.
 This is the whole point of the system. A report without delta is
 reciting the project, not updating the reader.
 
+## Taxonomy cross-reference
+
+Every level's output MUST label content by Aim + Task code. Examples:
+
+| Level | How taxonomy appears |
+|-------|---------------------|
+| L1 | "Aim 2 / Task 2.1 — pChEMBL figure at 45%" |
+| L2 | "Aim 1 DONE through Task 1.1; Aim 2 ACTIVE on Task 2.1; Aim 3-4 PENDING" |
+| L3 | Full PLEASER 7-section report for one Task X.Y (closure) |
+| L4 | Poster ties 3-6 related Tasks into results narrative |
+| L5 | Paper ties all Tasks under a shared thesis |
+| L6 | Debug bundles reference Tasks by code for reproducibility |
+
+See `PROJECT_TAXONOMY.md` for full spec.
+
 ## Storage
 
 | Level | Directory | Naming |

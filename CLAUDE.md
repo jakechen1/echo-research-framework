@@ -53,6 +53,29 @@ If a fact matters tomorrow, write it to a file today.
 2. Unsure → escalate to Jake via Telegram with one-line issue.
 3. Jake unsure → escalate to Claude Code with concrete question.
 
+## Part C — Project taxonomy (canonical)
+
+All planning artifacts, reports, and communications use this nomenclature:
+
+- **Aim N** — top-level research direction (up to 4 active)
+- **Task X.Y** — task within Aim X, numbered Y
+- **Task X.Y.a/b/c/...** — subtasks
+
+Each PLEASER-ONE iteration covers ONE Task X.Y and produces an L3 report
+with seven sections:
+**P**lan, **L**earning, **E**xecution, **A**ssessment, **S**haring,
+**E**xpense (time/cost/tokens vs budget), **R**esolver.
+
+Assessment uses NIH 1-9 scoring (Significance / Innovation / Approach)
+plus AGE 1-9 scoring (Accuracy / Generalizability / Efficiency).
+
+Legacy G-NNN IDs remain as stable historical identifiers. The canonical
+organizational reference is the Task code (e.g., "Task 2.1" not "G-002").
+
+**See `PROJECT_TAXONOMY.md`** for the full specification.
+
+---
+
 ---
 
 ## Part B — Karpathy guidelines (adopted verbatim)

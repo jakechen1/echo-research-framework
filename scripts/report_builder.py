@@ -30,17 +30,32 @@ vs the prior L1 report. No bullets, no emoji, under 200 characters.""",
 - 2-3 line delta vs yesterdays L2 (what moved)
 - Blockers (or "none")
 - Next 24 hours: one sentence""",
-    3: """Write a PLEASER-ONE iteration report (full proposal style).
-Plain text sections: Significance, Innovation, Aims (1-4 numbered),
-Approach (methods and the specific step just completed), Pitfalls &
-Alternatives, Delta-from-previous-L3 (what this iteration changed),
-Next iteration (one sentence).
-Keep each section tight — 1-3 short paragraphs.""",
-    4: """Write a POSTER report: title, authors, 1-paragraph background,
-1-paragraph methods, numbered results (each with a figure/table
-reference if available), brief interpretation, future directions,
-Delta-from-prior-L4. Plain text with markdown table stubs where figures
-would go.""",
+    3: """Write a PLEASER iteration report for the just-closed Task X.Y.
+Use EXACTLY these seven section headers:
+## 1. Plan
+## 2. Learning
+## 3. Execution
+## 4. Assessment
+## 5. Sharing
+## 6. Expense
+## 7. Resolver
+
+Assessment section: NIH 1-9 scores (Significance, Innovation, Approach)
++ AGE 1-9 scores (Accuracy, Generalizability, Efficiency), each with a
+one-line reason.
+
+Expense section: a small markdown table with rows for wall-clock hours,
+L0 GPU-hours, Cheaha SU, Claude API $, Telegram msgs — Planned vs Actual
+vs Note. Flag overruns AND under-runs. Artifact references (commit SHAs,
+files, hashes) live in Execution, not Expense.
+
+Cite the Aim + Task code (e.g., "Aim 2 / Task 2.1") in every section.
+Delta-vs-prior-L3 goes at the end of the Plan section.""",
+    4: """Write a POSTER report combining 3-6 related Tasks into one results
+narrative. Title, authors, 1-para background tied to one or more Aims,
+1-para methods (tasks referenced by code), numbered results (each with
+a figure/table reference + the Task X.Y that produced it), brief
+interpretation, future directions, Delta-from-prior-L4.""",
     5: """Write a PAPER draft section update. Include: Abstract, Introduction,
 Methods (reproducible enough for a stranger), Results (with quantitative
 claims), Discussion (linking results), References (as `[[WikiPage]]` or
