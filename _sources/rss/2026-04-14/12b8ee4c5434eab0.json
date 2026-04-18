@@ -1,0 +1,7 @@
+{
+  "id": "12b8ee4c5434eab0",
+  "title": "AI Achieves a Perfect LSAT Score",
+  "link": "https://arxiv.org/abs/2604.10034",
+  "summary": "arXiv:2604.10034v1 Announce Type: new \nAbstract: This paper reports the first documented instance of a language model achieving a perfect score on an officially disclosed Law School Admission Test (LSAT). Controlled experiments on eight reasoning models show that varying the prompt, shuffling answer choices, and sampling multiple responses have no meaningful effect as drivers of performance. Ablating the thinking phase that models generate before answering, however, lowers frontier accuracy by up to 8 percentage points, predominantly in logical reasoning. Distilled models produce full thinking traces in the same format yet plateau far below frontier performance. A pilot process reward model fine-tuned via QLoRA on official LSAT explanations narrows this gap through Best-of-5 selection, with gains again predominantly in logical reasoning. The gatekeeper of elite legal education since 1948, the LSAT has not merely been passed but answered without a single error by models that reason. The upper bound of the cognitive capacities it has tested is no longer exclusive to human cognition.",
+  "feed": "arxiv-cs-AI"
+}

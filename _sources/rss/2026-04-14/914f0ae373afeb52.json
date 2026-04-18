@@ -1,0 +1,7 @@
+{
+  "id": "914f0ae373afeb52",
+  "title": "New Hybrid Fine-Tuning Paradigm for LLMs: Algorithm Design and Convergence Analysis Framework",
+  "link": "https://arxiv.org/abs/2604.09940",
+  "summary": "arXiv:2604.09940v1 Announce Type: new \nAbstract: Fine-tuning Large Language Models (LLMs) typically involves either full fine-tuning, which updates all model parameters, or Parameter-Efficient Fine-Tuning (PEFT), which adjusts a small subset of parameters. However, both approaches have inherent limitations: full fine-tuning is computationally expensive, while PEFT often struggles to learn new knowledge and exhibits suboptimal performance. To overcome these issues, we propose a novel hybrid fine-tuning approach that jointly updates both LLMs and PEFT modules using a combination of zeroth-order and first-order optimization methods. To analyze our new algorithm, we develop a theoretical framework centered on the concept of hybrid smoothness condition, which accounts for the heterogeneous nature of the optimization landscape in joint LLM and PEFT training. We derive a rigorous convergence analysis for the convergence of reshuffling-type SGD algorithm under multiple learning rates and demonstrate its effectiveness through extensive empirical studies across various downstream tasks and model architectures. On the practical side, our results demonstrate consistent performance improvement, making the approach a viable solution for large-scale language model fine-tuning.",
+  "feed": "arxiv-cs-AI"
+}
