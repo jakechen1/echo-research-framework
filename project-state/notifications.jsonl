@@ -18,3 +18,7 @@
 {"at": 1776534531.4072828, "emoji": "\ud83c\udfaf", "title": "Task 2.3 done", "body": "5 PDBs annotated \u2014 6PLF/6RIH/7S3R hold ligands (ONV/K4T/NH2 \u2014 5\u00c5 residue shells).", "ok": true}
 {"at": 1776534536.444962, "emoji": "\ud83c\udfaf", "title": "Task 3.1 done", "body": "29 PubMed papers 2024-2026 swept for PHGDH allosteric/RBD. Wiki draft ready.", "ok": true}
 {"at": 1776534537.1711931, "emoji": "\ud83d\ude80", "title": "Task 4.1 started", "body": "Cheaha workspace setup. SSH probe rc=0. Will resolve via Resolver if blocked.", "ok": true}
+{"at": 1776535177.456477, "emoji": "\ud83d\udd04", "title": "Task 4.1 \u2192 stage L", "body": "Cheaha reachable via SSH config alias 'cheaha' (user=jakechen, id_ed25519). Modules: AutoDock_Vina 1.1.2, Miniforge3, conda env phgdh-sbdd with rdkit 2025.09.5 + obabel", "ok": true}
+{"at": 1776535178.299051, "emoji": "\ud83d\udd04", "title": "Task 4.1 \u2192 stage E", "body": "Seed SMILES + PDBs rsynced; smoke-test sbatch 38256088 queued on express partition (receptor 7S3R, 3 top ligands)", "ok": true}
+{"at": 1776535183.3243132, "emoji": "\ud83d\ude80", "title": "Task 4.1 Cheaha workspace live", "body": "rdkit 2025.09.5 + Vina 1.1.2 + Miniforge3 on express partition. Smoke job 38256088 queued (7S3R + top-3 ligands from Task 2.2).", "ok": true}
+{"at": 1776535184.011999, "emoji": "\u26a1", "title": "Resume summary \u2014 4 tasks closed, 5th running", "body": "Closed: 2.1 (AGE 4/7/5), 2.2 (top-20), 2.3 (binding sites), 3.1 (29 papers). Active: 4.1 Cheaha smoke-dock.", "ok": true}

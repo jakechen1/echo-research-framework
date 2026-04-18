@@ -1,9 +1,9 @@
 {
-  "task": "Task 2.2",
-  "legacy_id": "G-003",
+  "task": "Task 4.1",
+  "legacy_id": "G-006",
   "iteration": 1,
-  "stage": "R",
-  "started": "2026-04-18T12:47:19",
+  "stage": "L",
+  "started": "2026-04-18T12:48:45",
   "history": [
     {
       "stage": "P",
@@ -74,6 +74,16 @@
       "stage": "R",
       "at": "2026-04-18T12:48:39",
       "note": "no issues, all deliverables green"
+    },
+    {
+      "stage": "P",
+      "at": "2026-04-18T12:48:45",
+      "note": "Promoted after Tasks 2.2/2.3/3.1 cleared in parallel. Cheaha workspace + seed SMILES rsync."
+    },
+    {
+      "stage": "L",
+      "at": "2026-04-18T12:59:37",
+      "note": "Cheaha reachable via SSH config alias 'cheaha' (user=jakechen, id_ed25519). Modules: AutoDock_Vina 1.1.2, Miniforge3, conda env phgdh-sbdd with rdkit 2025.09.5 + obabel"
     }
   ]
 }
