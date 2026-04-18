@@ -1,32 +1,24 @@
 # Current Sub-Goal
 
-**ID:** G-001
+**ID:** G-003
 **Started:** 2026-04-18
-**Owner:** jakeclaw (executor) / qwenclaw (PM, once online) / jakechen (human)
-**Deadline:** within 1 day
+**Owner:** jakeclaw (executor) / qwenclaw (PM) / jakechen (human)
+**Deadline:** within 1 d
 **Status:** open
+**Tier:** local
 
 ## Goal
-Verify the PHGDH scavenger ran successfully (scheduled 02:00 daily) and sanity-check
-the output file for today.
+Top 20 PHGDH inhibitors by pChEMBL ≥ 7; cross-ref with ChEMBL assay types; write to `workspace/phgdh/top20.md`
 
 ## Definition of done
-- [ ] `/Users/jakeclaw/workers/data/phgdh/2026-04-18.jsonl` exists
-- [ ] File is ≥ 1 MB (typical scavenge ≈ 3.5 MB, 2600+ rows)
-- [ ] First row parses as valid JSON with fields: `molecule_chembl_id`,
-      `canonical_smiles`, `standard_type`, `pchembl_value`
-- [ ] Heartbeat `/Users/jakeclaw/workers/heartbeats/phgdh_scavenger.ts`
-      is within the last 24 h
-- [ ] Today's DAILY_LOG entry mentions row count + file size
+- [ ] goal primary output produced
+- [ ] output committed to phgdh-scavenger repo (if code/data)
+- [ ] DAILY_LOG entry written referencing artifact(s)
+- [ ] (refine above criteria with qwenclaw or jakechen if ambiguous)
 
-## Commands jakeclaw should run
-```bash
-ls -la /Users/jakeclaw/workers/data/phgdh/2026-04-18.jsonl
-wc -l /Users/jakeclaw/workers/data/phgdh/2026-04-18.jsonl
-head -1 /Users/jakeclaw/workers/data/phgdh/2026-04-18.jsonl | python3 -m json.tool | head -12
-stat -f '%Sm' /Users/jakeclaw/workers/heartbeats/phgdh_scavenger.ts
-```
+## Commands jakeclaw may run
+(depends on the goal — qwenclaw will plan the first command at next 07:00 cycle)
 
 ## Notes
-This is the smallest first goal — validates Tier 0 daemon, Tier 1 state update,
-and the new auto-compactor in one shot. On success, pick next from BACKLOG.md.
+Auto-promoted from BACKLOG row by promote_next_goal.sh on 2026-04-18.
+Original backlog entry: `| G-003 | Top 20 PHGDH inhibitors by pChEMBL ≥ 7; cross-ref with ChEMBL assay types; write to `workspace/phgdh/top20.md` | local | 1 d |`

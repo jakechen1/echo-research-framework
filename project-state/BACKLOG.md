@@ -5,8 +5,6 @@ COMPLETED.md when done.
 
 | # | Sub-goal | Tier | ETA |
 |---|----------|------|-----|
-| G-002 | Plot pChEMBL distribution of latest PHGDH scavenge; commit figure to repo `figures/pchembl_dist.png` | local (matplotlib) | 1 d |
-| G-003 | Top 20 PHGDH inhibitors by pChEMBL ≥ 7; cross-ref with ChEMBL assay types; write to `workspace/phgdh/top20.md` | local | 1 d |
 | G-004 | Search PubMed for "PHGDH allosteric" + "PHGDH RBD" 2024-2026; grow wiki pages via Hermes wiki-builder | Hermes | 1 d |
 | G-005 | Download PHGDH crystal structures (PDB 4NJN, 6RIH, 7S3R) to `workers/data/pdb/`; annotate binding sites | local | 1 d |
 | G-006 | Set up ~/phgdh on cheaha; rsync seed SMILES (top-500 by pChEMBL) for docking | cheaha | 1 d |

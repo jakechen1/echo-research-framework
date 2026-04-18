@@ -11,4 +11,13 @@
 
 ---
 
-*(empty — first sub-goal G-001 in progress)*
+
+## G-001 — Verify the PHGDH scavenger ran successfully (scheduled 02:00 daily) and sanity-check
+- **Done:** 2026-04-18
+- **Promoted-via:** promote_next_goal.sh
+- **Notes:** auto-promoted after done-criteria satisfied
+
+## G-002 — Plot pChEMBL distribution of latest PHGDH scavenge; commit figure to repo `figures/pchembl_dist.png`
+- **Done:** 2026-04-18
+- **Promoted-via:** promote_next_goal.sh
+- **Notes:** auto-promoted after done-criteria satisfied
