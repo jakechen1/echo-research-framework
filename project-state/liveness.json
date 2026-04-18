@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T17:40:48+00:00",
+  "generated_at": "2026-04-18T17:45:56+00:00",
   "overall": "green",
   "red_channels": [],
   "channels": {
@@ -11,22 +11,22 @@
     },
     "w0_cpu": {
       "status": "green",
-      "load_1m": 1.6,
+      "load_1m": 1.56,
       "hot_procs": [
-        "99.3 /Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorAdload",
-        "24.3 /opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python"
+        "31.5 /opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python",
+        "5.3 /usr/libexec/opendirectoryd"
       ]
     },
     "scavenger": {
       "status": "green",
       "newest": "/Users/jakeclaw/workers/data/phgdh/2026-04-18.jsonl",
-      "age_h": 10.7,
+      "age_h": 10.8,
       "file_count": 1
     },
     "figures": {
       "status": "green",
       "newest": "/Users/jakeclaw/.openclaw/workspace/figures/pchembl_dist.png",
-      "age_h": 0.7,
+      "age_h": 0.8,
       "file_count": 1
     },
     "aim3_structures": {
@@ -41,11 +41,11 @@
       "status": "green",
       "task": "Task 2.1",
       "stage": "A",
-      "stage_age_h": 0.66
+      "stage_age_h": 0.74
     },
     "git_push": {
       "status": "green",
-      "age_h": 0.3
+      "age_h": 0.1
     },
     "dashboard_api": {
       "code": null,
@@ -56,8 +56,8 @@
     "wiki_interlink": {
       "status": "green",
       "count": 20,
-      "age_h": 0.6,
-      "audit_age_h": 0.7
+      "age_h": 0.7,
+      "audit_age_h": 0.8
     },
     "box_sync": {
       "status": "unknown",

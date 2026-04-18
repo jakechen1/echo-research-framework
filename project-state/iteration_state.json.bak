@@ -1,9 +1,9 @@
 {
-  "task": "Task 2.2",
-  "legacy_id": "G-003",
+  "task": "Task 2.1",
+  "legacy_id": "G-002",
   "iteration": 1,
-  "stage": "P",
-  "started": "2026-04-18T12:47:19",
+  "stage": "R",
+  "started": "2026-04-18T10:00:00",
   "history": [
     {
       "stage": "P",
@@ -39,11 +39,6 @@
       "stage": "R",
       "at": "2026-04-18T12:47:18",
       "note": "AGE computed A=4 G=7 E=5; liveness all green; no open issues"
-    },
-    {
-      "stage": "P",
-      "at": "2026-04-18T12:47:19",
-      "note": "Promoted after Task 2.1 closed (AGE A=4 G=7 E=5)"
     }
   ]
 }
