@@ -2,9 +2,28 @@
   "task": "Task 2.1",
   "legacy_id": "G-002",
   "iteration": 1,
-  "stage": "P",
+  "stage": "A",
   "started": "2026-04-18T10:00:00",
   "history": [
-    {"stage": "P", "at": "2026-04-18T10:00:00", "note": "Task promoted to CURRENT; plan phase"}
+    {
+      "stage": "P",
+      "at": "2026-04-18T10:00:00",
+      "note": "Task promoted to CURRENT; plan phase"
+    },
+    {
+      "stage": "L",
+      "at": "2026-04-18T12:01:19",
+      "note": "skipped (hub articles already read in planning)"
+    },
+    {
+      "stage": "E",
+      "at": "2026-04-18T12:01:19",
+      "note": "pChEMBL figure built, 5 PDBs fetched, SMILES extracted in parallel"
+    },
+    {
+      "stage": "A",
+      "at": "2026-04-18T12:01:19",
+      "note": "figure=53KB n=1011; mean=5.995 median=5.840; AGE A=7 G=6 E=8"
+    }
   ]
 }

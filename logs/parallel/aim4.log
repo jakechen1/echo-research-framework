@@ -1,0 +1,3 @@
+OK smiles_rows=1011 top_pv=9.52 out=/Users/jakeclaw/.openclaw/workspace/data/aim4_smiles/smiles_potency_sorted.tsv
+OK potent_subset_pv>=6=463
+aim4 rc=0
