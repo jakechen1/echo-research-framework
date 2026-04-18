@@ -371,3 +371,27 @@ until there is a top-20 table, a pChEMBL distribution, and binding-site
 annotations before seeding this.
 
 **Where to find the design.** DESIGN_NOTES.md at workspace root.
+
+---
+
+## 2026-04-18 — Morning cycle Telegram missed due to grep|pipefail
+
+**Symptom.** The 07:00 qwenclaw_morning LaunchDaemon ran (runs=1, heartbeat
+updated), wrote DAILY_LOG entry "CURRENT_GOAL complete", but last exit
+code = 1 and no Telegram notification arrived. Jake had to ask "Any update?"
+at 08:54 to get status.
+
+**Root cause.** In the GOAL_DONE branch, this line:
+`SCAV_HEADLINE=$(echo "$SCAV_REPORT" | grep -E "^\\| Rows " | head -1)`
+fires grep against a baseline scavenge report (only 1 JSONL exists, no
+delta table). grep exits 1 when no match. The script has
+`set -euo pipefail`, so pipe exit propagates, and `set -e` terminates the
+whole script BEFORE reaching Phase 5 Telegram send.
+
+**Fix.** Wrapped the grep pipeline with `|| true` and added a fallback
+string when SCAV_HEADLINE is empty.
+
+**Prevention rule.** When `set -euo pipefail` is set, every grep/awk/sed
+whose non-match is acceptable must be defended with `|| true` or its
+failure must be semantically meaningful. Test baseline and normal cases
+separately — a script that works on day 2 can still break on day 1.

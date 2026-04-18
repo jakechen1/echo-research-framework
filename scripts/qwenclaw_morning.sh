@@ -113,7 +113,8 @@ if [ "$PLAN" = "GOAL_DONE" ]; then
 - **Action needed**: jakechen to promote next goal from BACKLOG.md
   or invoke qwenclaw with "promote next goal" to do it manually.
 EOF
-  SCAV_HEADLINE=$(echo "$SCAV_REPORT" | grep -E "^\\| Rows " | head -1)
+  SCAV_HEADLINE=$(echo "$SCAV_REPORT" | grep -E "^\\| Rows " 2>/dev/null | head -1 || true)
+  [ -z "$SCAV_HEADLINE" ] && SCAV_HEADLINE="scavenger baseline (no delta yet)" 
 MSG="Morning cycle $DATE: ${SCAV_HEADLINE} | CURRENT_GOAL reports done. Awaiting promotion from BACKLOG."
 else
   # -------- Phase 2: jakeclaw executes --------
@@ -143,7 +144,8 @@ $EVAL
 \`\`\`
 EOF
 
-  SCAV_HEADLINE=$(echo "$SCAV_REPORT" | grep -E "^\\| Rows " | head -1)
+  SCAV_HEADLINE=$(echo "$SCAV_REPORT" | grep -E "^\\| Rows " 2>/dev/null | head -1 || true)
+  [ -z "$SCAV_HEADLINE" ] && SCAV_HEADLINE="scavenger baseline (no delta yet)" 
 MSG="Morning cycle $DATE: ${SCAV_HEADLINE} | $(echo "$EVAL" | head -c 300)"
 fi
 
