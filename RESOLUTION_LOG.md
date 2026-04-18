@@ -268,3 +268,33 @@ from Jake reactivates.
 - qwenclaw AGENTS.md has RULE [KILL-01]
 - qwenclaw_morning.sh has a pre-flight grep check against the day's log
 - Future Chrome-Claude system prompt will include it verbatim
+
+---
+
+## 2026-04-18 — Scheduled 4 AM L0 reboot (expected, not an incident)
+
+**Context.** At 04:00:14 CDT, L0 rebooted cleanly. `kern.boottime` confirms.
+Triggered by the scheduled `com.jakeclaw.l0-keepalive` daemon, which does a
+daily restart to clear swap pressure — Gemma 4 26B at ~18 GB VRAM on 24 GB
+RAM accumulates memory pressure over multi-day uptime. The reboot window
+sits deliberately between the 02:00 scavenger fire and the 07:00 qwenclaw
+cycle, so nothing in-flight is interrupted.
+
+**Symptom if you notice it.** Physical chime/fan-spin-up at 4 AM. L0 load
+average briefly spikes to 20-30 as Ollama reloads the 21 GB Gemma model
+into memory. Settles to 1-2 within ~2-3 minutes.
+
+**Verification.** On W0:
+```
+ssh jakechen@10.0.0.1 "uptime"
+curl -s http://10.0.0.1:11434/api/ps | jq -r ".models[].name"
+```
+Uptime should be small; model should be listed.
+
+**Prevention rule.** Do NOT investigate the 4 AM reboot unless:
+1. L0 fails to come back within 10 minutes, OR
+2. `curl http://10.0.0.1:11434/api/ps` returns error after 04:05, OR
+3. qwenclaw_morning at 07:00 hits a network-unreachable error on L0.
+
+This is scheduled maintenance, not an incident. Never file it as RED on the
+Chrome-Claude audit.
