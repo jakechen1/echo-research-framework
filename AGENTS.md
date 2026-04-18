@@ -37,3 +37,13 @@ Violation of `BOX-01` causes silent write failures. Self-check before every call
 ## Skills (Lazy Loading)
 When a skill triggers, read only that SKILL.md.
 Don't pre-read all skill documentation.
+
+## Rules
+**RULE [PERSIST-01]:** Any work that must outlive the current chat session (workers, scavengers, watchers, sync jobs, schedulers) MUST be deployed as a launchd LaunchAgent — never as `nohup … &`, `screen`, or `disown`. Read `PERSISTENCE.md` in this directory before attempting to launch any background worker. The three mechanical steps are:
+(a) Author `~/Library/LaunchAgents/ai.jakeclaw.<name>.plist`
+(b) Run `launchctl bootstrap gui/$(id -u) <path>` once
+(c) Verify with `launchctl print gui/$(id -u)/ai.jakeclaw.<name>` and a filesystem heartbeat — not with narrative claims.
+
+Violation of `PERSIST-01` = the worker is not running, regardless of what the post-mortem says. If you find yourself writing a recovery manifesto, stop and read PERSISTENCE.md.
+
+For system-level service management (Ollama, watchdog, etc.), jakeclaw now has passwordless sudo for `launchctl` — see /etc/sudoers.d/jakeclaw-launchctl.
