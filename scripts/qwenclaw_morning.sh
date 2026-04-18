@@ -72,7 +72,7 @@ echo "$SCAV_REPORT" >> "$DAYLOG"
 
 
 # -------- Phase 1: qwenclaw plans --------
-PLAN_JSON=$(oc_agent qwenclaw "Read /Users/jakeclaw/.openclaw/workspace/project-state/CURRENT_GOAL.md. If the goal is a wiki-growth task (keywords: wiki, PubMed, literature, sources, knowledge base), output exactly: HERMES <one-line seed topic for wiki_builder>. Otherwise output ONE shell command for jakeclaw. Use >> never > when writing files. No preamble, no explanation. If CURRENT_GOAL all done-criteria checked, output: GOAL_DONE." 180) || fail "qwenclaw plan call failed"
+PLAN_JSON=$(oc_agent qwenclaw "Read /Users/jakeclaw/.openclaw/workspace/project-state/CURRENT_GOAL.md. BEFORE saying GOAL_DONE you MUST verify each done-criteria checkbox has objective evidence (file exists, commit SHA, row count, etc). If any checkbox is unverified, do NOT output GOAL_DONE. Instead output ONE shell command that would produce the evidence for the first unchecked criterion. When writing to a file, use >> not >. If the goal is a wiki-growth task (keywords: wiki, PubMed, literature, sources, knowledge base), output exactly: HERMES <one-line seed topic>. Otherwise output ONE shell command. No preamble, no explanation." 180) || fail "qwenclaw plan call failed"
 
 PLAN=$(echo "$PLAN_JSON" | /opt/homebrew/bin/jq -r '.payloads[0].text // .finalAssistantVisibleText // .response // empty' 2>/dev/null || echo "")
 [ -z "$PLAN" ] && fail "qwenclaw returned empty plan"
@@ -105,17 +105,18 @@ ENDOFEOF
 fi
 
 if [ "$PLAN" = "GOAL_DONE" ]; then
-  # Append to DAILY_LOG; flag for human promotion
+  # Auto-promote: rotate CURRENT_GOAL to COMPLETED, pull next from BACKLOG
+  OLD_ID=$(/usr/bin/grep -oE "G-[0-9]+" "$STATE/CURRENT_GOAL.md" | /usr/bin/head -1)
+  /Users/jakeclaw/workers/bin/promote_next_goal.sh >>"$LOG" 2>&1 || log "promote_next_goal.sh failed"
+  NEW_ID=$(/usr/bin/grep -oE "G-[0-9]+" "$STATE/CURRENT_GOAL.md" | /usr/bin/head -1)
+  NEW_GOAL=$(/usr/bin/awk "/^## Goal/{f=1;next} /^##/{f=0} f && NF" "$STATE/CURRENT_GOAL.md" | /usr/bin/head -1)
   cat >> "$DAYLOG" << EOF
 
-## $TIME — Morning cycle: CURRENT_GOAL complete
-- qwenclaw reports all done-criteria satisfied.
-- **Action needed**: jakechen to promote next goal from BACKLOG.md
-  or invoke qwenclaw with "promote next goal" to do it manually.
+## $TIME — Auto-promotion
+$OLD_ID done → $NEW_ID now active
+Goal: $NEW_GOAL
 EOF
-  SCAV_HEADLINE=$(echo "$SCAV_REPORT" | grep -E "^\\| Rows " 2>/dev/null | head -1 || true)
-  [ -z "$SCAV_HEADLINE" ] && SCAV_HEADLINE="scavenger baseline (no delta yet)" 
-MSG="Morning cycle $DATE: ${SCAV_HEADLINE} | CURRENT_GOAL reports done. Awaiting promotion from BACKLOG."
+  MSG="$OLD_ID done → promoted to $NEW_ID: $(echo "$NEW_GOAL" | /usr/bin/head -c 140)"
 else
   # -------- Phase 2: jakeclaw executes --------
   EXEC_JSON=$(oc_agent main "Run this command and paste ONLY its raw stdout/stderr output. No prose. No markdown fences. Just the output: $PLAN" 180) || fail "jakeclaw exec call failed"
