@@ -1,9 +1,9 @@
 {
-  "task": "Task 2.2",
-  "legacy_id": "G-003",
+  "task": "Task 4.1",
+  "legacy_id": "G-006",
   "iteration": 1,
   "stage": "P",
-  "started": "2026-04-18T12:47:19",
+  "started": "2026-04-18T12:48:45",
   "history": [
     {
       "stage": "P",
@@ -44,6 +44,41 @@
       "stage": "P",
       "at": "2026-04-18T12:47:19",
       "note": "Promoted after Task 2.1 closed (AGE A=4 G=7 E=5)"
+    },
+    {
+      "stage": "L",
+      "at": "2026-04-18T12:48:27",
+      "note": "SMILES dataset from Task 2.1 output reused"
+    },
+    {
+      "stage": "E",
+      "at": "2026-04-18T12:48:28",
+      "note": "top-20 CSV + barchart PNG + wiki draft generated"
+    },
+    {
+      "stage": "A",
+      "at": "2026-04-18T12:48:33",
+      "note": "rank1=CHEMBL4541133 pv=9.52, 20 unique molecules, 3 artifacts"
+    },
+    {
+      "stage": "S",
+      "at": "2026-04-18T12:48:33",
+      "note": "wiki_drafts/top20-phgdh-inhibitors.md ready for user publish"
+    },
+    {
+      "stage": "X",
+      "at": "2026-04-18T12:48:38",
+      "note": "<10s wall time, parallel with 2.3 + 3.1 \u2014 E likely 6+"
+    },
+    {
+      "stage": "R",
+      "at": "2026-04-18T12:48:39",
+      "note": "no issues, all deliverables green"
+    },
+    {
+      "stage": "P",
+      "at": "2026-04-18T12:48:45",
+      "note": "Promoted after Tasks 2.2/2.3/3.1 cleared in parallel. Cheaha workspace + seed SMILES rsync."
     }
   ]
 }

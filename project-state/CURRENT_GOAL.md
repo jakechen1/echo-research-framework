@@ -1,22 +1,27 @@
 # Current Sub-Goal
 
-**Aim:** Aim 2 — Computational analysis of PHGDH inhibitors
-**Task:** Task 2.2
-**Legacy ID:** G-003
+**Aim:** Aim 4 — Structure-based virtual screening on Cheaha HPC
+**Task:** Task 4.1
+**Legacy ID:** G-006
 **Started:** 2026-04-18
-**Owner:** jakeclaw (executor) / qwenclaw (PM) / jakechen (human)
-**Deadline:** within 1 d
-**Tier:** local
+**Tier:** cheaha (UAB HPC)
 
 ## Goal
-Top-20 PHGDH inhibitors by pChEMBL ≥ 7, cross-referenced with assay type
-and ChEMBL ID. Deliverable: `figures/top20_inhibitors.png` + wiki page.
+Establish Cheaha workspace: home + scratch dirs, seed SMILES rsync
+(top-500 by pChEMBL), conda env smoke-test on amperenodes partition.
 
 ## Definition of done
-- [ ] CSV: `data/aim2_top20_inhibitors.csv` (columns: rank, pChEMBL, SMILES, ChEMBL_ID, assay_type)
-- [ ] figure: `figures/top20_inhibitors.png` (bar chart of pChEMBL)
-- [ ] wiki draft: `wiki_drafts/top20-phgdh-inhibitors.md` with [[wikilinks]] to PHGDH-Allosteric-RBD-Binder
+- [ ] SSH keyauth to cheaha.rc.uab.edu working (sshpiper, no VPN for login)
+- [ ] `~/phgdh-sbdd/` dir initialised on Cheaha with seed SMILES
+- [ ] conda env with rdkit + autodock + smina created
+- [ ] `smoke_test.sbatch` submits + completes on express partition
 
 ## Dependencies
-- Task 2.1 (pChEMBL distribution) — DONE
-- SMILES dataset at `data/aim4_smiles/smiles_potency_sorted.tsv` — AVAILABLE
+- UAB VPN (needed for compute beyond login)
+- SSH key from MacBook or W0 uploaded to Cheaha
+- `data/aim4_smiles/smiles_potency_sorted.tsv` (ready)
+
+## Blocker note
+Cheaha SSH access requires Jake's key — cannot proceed autonomously without
+confirmation that the key is registered. Will attempt connectivity probe;
+if it fails, enqueue a 🚨 to the Resolver.
