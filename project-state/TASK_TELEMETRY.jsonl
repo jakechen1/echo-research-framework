@@ -1,0 +1,1 @@
+{"note":"append one JSON object per task that ran >5s; calibrates the task-router cost table","schema":{"ts":"ISO","task":"string","host":"W0|L0|cheaha","n_items":"int","wall_s":"float","rss_mb":"int","gpu_util_pct":"int"}}

@@ -1,0 +1,17 @@
+{
+  "//": "Seed cost estimates per operation. Update from task-telemetry.jsonl.",
+  "preprocessing_per_row": {"cpu_ms": 0.05, "rss_kb": 0.5, "gpu_mb": 0},
+  "pandas_aggregate_per_row": {"cpu_ms": 0.02, "rss_kb": 1.0, "gpu_mb": 0},
+  "matplotlib_plot_fixed": {"cpu_ms": 800, "rss_kb": 80000, "gpu_mb": 0},
+  "rdkit_parse_smiles_per_mol": {"cpu_ms": 2, "rss_kb": 1.5, "gpu_mb": 0},
+  "rdkit_fingerprint_per_mol": {"cpu_ms": 1, "rss_kb": 0.5, "gpu_mb": 0},
+  "rdkit_tanimoto_pair": {"cpu_ms": 0.03, "rss_kb": 0.1, "gpu_mb": 0},
+  "vina_dock_per_ligand_small_pocket": {"cpu_ms": 8000, "rss_kb": 60000, "gpu_mb": 0},
+  "autodock_gpu_dock_per_ligand": {"cpu_ms": 400, "rss_kb": 30000, "gpu_mb": 800},
+  "dl_inference_per_mol_cpu": {"cpu_ms": 60, "rss_kb": 2000, "gpu_mb": 0},
+  "dl_inference_per_mol_gpu_small": {"cpu_ms": 3, "rss_kb": 1500, "gpu_mb": 500},
+  "dl_train_per_epoch_gnn": {"cpu_ms": 300000, "rss_kb": 3000000, "gpu_mb": 4000},
+  "md_production_per_ns": {"cpu_ms": 1800000, "rss_kb": 2000000, "gpu_mb": 2000},
+  "blast_per_query": {"cpu_ms": 3000, "rss_kb": 200000, "gpu_mb": 0},
+  "pubmed_fetch_per_abstract": {"cpu_ms": 200, "rss_kb": 100, "gpu_mb": 0}
+}
