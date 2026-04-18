@@ -1,0 +1,8 @@
+{
+  "slug": "cheaha-hpc",
+  "version": "1.0.0",
+  "ownerId": "jakeclaw",
+  "description": "Run CPU/GPU batch jobs on UAB Cheaha HPC (Slurm). Portable across agents.",
+  "source": "local",
+  "triggers": ["cheaha", "slurm", "sbatch", "uab hpc", "cluster job", "gpu job", "train model"]
+}
