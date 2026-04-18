@@ -1,0 +1,4 @@
+{"at": "2026-04-18T17:03:23+00:00", "overall": "red", "red": ["dashboard_api", "box_sync"]}
+{"at": "2026-04-18T17:05:05+00:00", "overall": "red", "red": ["dashboard_api"]}
+{"at": "2026-04-18T17:05:25+00:00", "overall": "red", "red": ["dashboard_api"]}
+{"at": "2026-04-18T17:05:46+00:00", "overall": "green", "red": []}

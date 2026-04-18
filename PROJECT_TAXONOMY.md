@@ -262,3 +262,23 @@ Boundary case: Achievement = 4 with a known blocker → Yellow; Achievement
 `project-state/reports/L3/*.md` drives AGE scores via regex extraction
 of "Accuracy=N / Generalizability=N / Efficiency=N" lines.
 Backlog + Completed + CurrentGoal files drive Table 2.
+
+
+<!-- LIVENESS-RESOLVER -->
+## Resolver phase — liveness check (Apr 18 2026)
+
+At the start of every Resolver (R) phase, qwenclaw MUST:
+
+1. Invoke `skills/liveness-audit/scripts/liveness.sh --resolver`
+2. Read `project-state/liveness.json` — if `overall == "red"`:
+   - List red channels in the R-phase note in `iteration_state.json`
+   - Escalate via `project-state/ISSUES/OPEN.md` (already appended by the skill)
+   - Force L1 report within 5 min with `report_builder.py --level L1 --urgent`
+3. Only advance to next-task promotion when `overall == "green"` OR the user
+   explicitly unblocks via the dashboard "Unstick" button.
+
+Dashboard surfaces a **Liveness** card on Project Status tab with:
+- 10 per-channel traffic-lights (green / red / unknown)
+- Age-of-last-change per channel
+- Overall status badge
+- Last 24 h trend (from `liveness_history.jsonl`)

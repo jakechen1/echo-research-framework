@@ -10,3 +10,13 @@ interlinking 20 concepts via gemma4-agent-fast:latest
 [9/20] OK self-supervised-learning.md (706 chars)
 [10/20] OK large-language-models.md (679 chars)
 [11/20] OK microglia.md (579 chars)
+[12/20] OK data-privacy.md (547 chars)
+[13/20] OK bioinformatics.md (603 chars)
+[14/20] OK astrocytes.md (662 chars)
+[15/20] OK supervised-fine-tuning.md (600 chars)
+[16/20] OK cloud-computing.md (585 chars)
+[17/20] OK causal-inference.md (505 chars)
+[18/20] OK cognitive-science.md (692 chars)
+[19/20] OK medical-imaging.md (608 chars)
+[20/20] OK blood-brain-barrier.md (757 chars)
+DONE in 59.4s, wrote 20 stubs to /Users/jakeclaw/wiki/_generated_hubs
