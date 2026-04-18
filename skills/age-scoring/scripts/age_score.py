@@ -158,6 +158,24 @@ def main():
     # /tmp copy for dashboard
     try: subprocess.run(["cp","-f",str(fname),f"/tmp/phgdh_age_{slug}_iter{args.iteration}.json"], check=False)
     except: pass
+    # --- proactive notification (added 2026-04-18) ---
+    try:
+        import subprocess
+        max_score = max(out['A']['score'], out['G']['score'], out['E']['score'])
+        if max_score >= 8:
+            subprocess.run([
+                "/Users/jakeclaw/.openclaw/workspace/skills/notifier/scripts/notify.sh",
+                "🏆", f"Achievement: {args.task} iter{args.iteration}",
+                f"A={out['A']['score']}  G={out['G']['score']}  E={out['E']['score']}  (score ≥ 8)"
+            ], check=False, timeout=10)
+        elif max_score >= 7:
+            subprocess.run([
+                "/Users/jakeclaw/.openclaw/workspace/skills/notifier/scripts/notify.sh",
+                "✅", f"{args.task} iter{args.iteration} scored",
+                f"A={out['A']['score']}  G={out['G']['score']}  E={out['E']['score']}"
+            ], check=False, timeout=10)
+    except Exception:
+        pass
     print(json.dumps(out, indent=2))
 
 if __name__ == "__main__":

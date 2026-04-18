@@ -1,0 +1,52 @@
+{
+  "task": "Task 2.1",
+  "iteration": 1,
+  "window": {
+    "start": "2026-04-18T10:00:00+00:00",
+    "end": "2026-04-18T17:17:31+00:00"
+  },
+  "A": {
+    "score": 4,
+    "wiki_files": 27,
+    "wiki_chars": 50305,
+    "commits": 16,
+    "window_days": 0.304,
+    "component_scores": [
+      1,
+      1,
+      9
+    ],
+    "baseline": {
+      "wiki_files_per_day": 302.43,
+      "wiki_chars_per_day": 1278421.86,
+      "commits_per_day": 5.14,
+      "refreshed_at": "2026-04-18T17:17:31+00:00"
+    }
+  },
+  "G": {
+    "score": 7,
+    "current_bytes": 8941,
+    "current_skills": 1,
+    "baseline": {
+      "byte_count": 0,
+      "skill_count": 0,
+      "refreshed_at": "2026-04-18T17:17:31+00:00"
+    },
+    "delta_pct": 894000.0
+  },
+  "E": {
+    "score": 5,
+    "cpu_pct_window": 14.1,
+    "gpu_pct_window": 83.14,
+    "combined_pct": 48.62,
+    "baseline": {
+      "cpu_mean_7d": 14.1,
+      "gpu_mean_7d": 83.14,
+      "sample_count": 1,
+      "refreshed_at": "2026-04-18T17:17:31+00:00"
+    },
+    "sample_count": 1
+  },
+  "generated_at": "2026-04-18T17:17:31+00:00",
+  "summary": "A=4 G=7 E=5"
+}
