@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T22:20:07+00:00",
+  "generated_at": "2026-04-18T22:25:15+00:00",
   "overall": "green",
   "red_channels": [],
   "channels": {
@@ -11,21 +11,21 @@
     },
     "w0_cpu": {
       "status": "green",
-      "load_1m": 1.31,
+      "load_1m": 1.45,
       "hot_procs": [
-        "17.5 /opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python"
+        "33.8 /opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python"
       ]
     },
     "scavenger": {
       "status": "green",
       "newest": "/Users/jakeclaw/workers/data/phgdh/2026-04-18.jsonl",
-      "age_h": 15.3,
+      "age_h": 15.4,
       "file_count": 1
     },
     "figures": {
       "status": "green",
       "newest": "/Users/jakeclaw/.openclaw/workspace/figures/top20_inhibitors.png",
-      "age_h": 4.5,
+      "age_h": 4.6,
       "file_count": 2
     },
     "aim3_structures": {
@@ -40,7 +40,7 @@
       "status": "green",
       "task": "Task 4.1",
       "stage": "R",
-      "stage_age_h": 4.23
+      "stage_age_h": 4.32
     },
     "git_push": {
       "status": "green",
@@ -55,8 +55,8 @@
     "wiki_interlink": {
       "status": "green",
       "count": 20,
-      "age_h": 5.3,
-      "audit_age_h": 5.3
+      "age_h": 5.4,
+      "audit_age_h": 5.4
     },
     "box_sync": {
       "status": "unknown",
