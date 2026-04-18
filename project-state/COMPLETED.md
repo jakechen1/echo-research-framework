@@ -16,8 +16,3 @@
 - **Done:** 2026-04-18
 - **Promoted-via:** promote_next_goal.sh
 - **Notes:** auto-promoted after done-criteria satisfied
-
-## G-002 — Plot pChEMBL distribution of latest PHGDH scavenge; commit figure to repo `figures/pchembl_dist.png`
-- **Done:** 2026-04-18
-- **Promoted-via:** promote_next_goal.sh
-- **Notes:** auto-promoted after done-criteria satisfied
