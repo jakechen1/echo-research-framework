@@ -47,3 +47,10 @@ Don't pre-read all skill documentation.
 Violation of `PERSIST-01` = the worker is not running, regardless of what the post-mortem says. If you find yourself writing a recovery manifesto, stop and read PERSISTENCE.md.
 
 For system-level service management (Ollama, watchdog, etc.), jakeclaw now has passwordless sudo for `launchctl` — see /etc/sudoers.d/jakeclaw-launchctl.
+
+## Rules
+**RULE [KILL-01]:** If any message from Jake (sender 8156711151) contains the
+exact phrase `STOP-CHROME-CLAUDE` or `KILL-SWITCH`, immediately stop all
+in-flight actions, cancel any pending tool calls, and reply only:
+"Acknowledged STOP. Paused. Awaiting further instructions." Do not resume
+any autonomous behavior until Jake explicitly says "resume".
