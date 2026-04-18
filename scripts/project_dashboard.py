@@ -143,6 +143,40 @@ def harvest_tasks():
     return aims
 
 # -----------------------------------------------------------
+
+def publish_pending():
+    """Compare local ~/wiki/projects/PHGDH-* against ~/sdd-wiki/content/PHGDH-*
+    to count new / changed pages. Returns (total_local, new_count, changed_count, details_rows)."""
+    import hashlib
+    SOURCES = [
+        ("PHGDH-Allosteric-RBD-Binder",  pathlib.Path("/Users/jakeclaw/wiki/projects/PHGDH-Allosteric-RBD-Binder"),
+         pathlib.Path("/Users/jakeclaw/sdd-wiki/content/PHGDH-Allosteric-RBD-Binder")),
+        ("phgdh-research", pathlib.Path("/Users/jakeclaw/wiki/projects/phgdh-research"),
+         pathlib.Path("/Users/jakeclaw/sdd-wiki/content/phgdh-research")),
+    ]
+    total = new = changed = 0
+    rows = []
+    def sha(f):
+        h = hashlib.sha256()
+        with f.open("rb") as fh:
+            for c in iter(lambda: fh.read(65536), b""): h.update(c)
+        return h.hexdigest()[:16]
+    for label, local, remote in SOURCES:
+        if not local.exists(): continue
+        for f in sorted(local.rglob("*.md")):
+            rel = f.relative_to(local)
+            r = remote / rel
+            total += 1
+            if not r.exists():
+                new += 1
+                rows.append((label + "/" + str(rel), "NEW", "—"))
+            else:
+                ls = sha(f); rs = sha(r)
+                if ls != rs:
+                    changed += 1
+                    rows.append((label + "/" + str(rel), "CHANGED", ls + "→" + rs))
+    return total, new, changed, rows
+
 def render():
     now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     iters = harvest_iterations()
@@ -153,7 +187,8 @@ def render():
     o.append(f"title: \"PHGDH Project Dashboard\"")
     o.append(f"date: {datetime.date.today().isoformat()}")
     o.append("category: dashboard")
-    o.append("tier: live")
+    o.append("tier: public")
+    o.append("status: published")
     o.append("---")
     o.append("")
     o.append("# PHGDH Project Dashboard")
@@ -208,6 +243,27 @@ def render():
     total_tasks = sum(len(a["tasks"]) for a in aims)
     done_tasks  = sum(1 for a in aims for t in a["tasks"] if "done" in t["status"])
     active_task = next((t["code"] for a in aims for t in a["tasks"] if "active" in t["status"]), "?")
+    # --- Pending publish (what the next publish click will change) ---
+    total_pages, new_pages, changed_pages, pending_rows = publish_pending()
+    o.append("## Pending publish")
+    o.append("")
+    o.append(f"- **Total project pages on W0:** {total_pages}")
+    o.append(f"- **New (not yet on sdd-wiki):** {new_pages}")
+    o.append(f"- **Changed since last publish:** {changed_pages}")
+    if new_pages or changed_pages:
+        o.append("")
+        o.append("_Pressing **Publish to sdd-wiki** on the dashboard will push these:_")
+        o.append("")
+        o.append("| File | Status | SHA diff |")
+        o.append("|------|--------|----------|")
+        for name, status, diff in pending_rows[:15]:
+            o.append(f"| `{name}` | {status} | `{diff}` |")
+        if len(pending_rows) > 15:
+            o.append(f"| _... and {len(pending_rows)-15} more_ | | |")
+    else:
+        o.append("")
+        o.append("_Public site is up to date; nothing would change._")
+    o.append("")
     o.append("## Summary")
     o.append(f"- Tasks total: **{total_tasks}**")
     o.append(f"- Done: **{done_tasks}** · Active: **{active_task}** · Pending: **{total_tasks-done_tasks-1}**")

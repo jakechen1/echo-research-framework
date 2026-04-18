@@ -37,7 +37,8 @@ if [ -f "$L2_FILE" ]; then
     echo "title: \"Daily Digest $TODAY\""
     echo "date: $TODAY"
     echo "category: daily"
-    echo "tier: live"
+    echo "tier: public"
+    echo "status: published"
     echo "source: jakeclaw@W0:$L2_FILE"
     echo "---"
     echo ""
@@ -56,7 +57,11 @@ log "regenerated $SUMMARY"
     && mv "/Users/jakeclaw/wiki/projects/PHGDH-Allosteric-RBD-Binder/Project-Dashboard.md.tmp" "/Users/jakeclaw/wiki/projects/PHGDH-Allosteric-RBD-Binder/Project-Dashboard.md"
 log "regenerated Project-Dashboard.md"
 
-# (d) Publish to sdd-wiki → Cloudflare Pages
-/Users/jakeclaw/workers/bin/phgdh_publish.sh >>"$LOG" 2>&1 && log "published" || log "publish FAILED"
+# (d) Publishing is USER-INITIATED only (policy 2026-04-18).
+# Dashboard regeneration above is local; to push to sdd-wiki, Jake clicks
+# "Publish to sdd-wiki" on the W0 dashboard (or runs phgdh_publish.sh manually).
+# DISABLED BY POLICY: /Users/jakeclaw/workers/bin/phgdh_publish.sh
+log "dashboard regenerated locally; publish deferred to user"
+
 
 log "=== end ==="

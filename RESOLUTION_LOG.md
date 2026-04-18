@@ -395,3 +395,25 @@ string when SCAV_HEADLINE is empty.
 whose non-match is acceptable must be defended with `|| true` or its
 failure must be semantically meaningful. Test baseline and normal cases
 separately — a script that works on day 2 can still break on day 1.
+
+---
+
+## 2026-04-18 — User-gated publish policy (RULE [PUBLISH-01])
+
+**Rule.** Public-site changes (`aimed-lab/sdd-wiki` → `sdd-wiki-public.pages.dev`)
+are gated by the user. Agents generate/update local files freely; the push
+to sdd-wiki must be initiated by Jake via:
+- the "Publish to sdd-wiki" button on the W0 dashboard, OR
+- explicit Telegram command `publish`, OR
+- direct CLI invocation by Jake.
+
+**What changed.**
+- `daily_wiki_publish.sh` no longer calls `phgdh_publish.sh` automatically
+- Dashboard + Summary + daily digest files are still regenerated locally
+  at 17:05 — but the push step is now user-initiated
+- Agents do not call `phgdh_publish.sh` as part of any scheduled cycle
+
+**Prevention.** Any new automation that touches sdd-wiki must add a
+one-line confirmation check OR be explicitly flagged as user-triggered
+in its plist comment. Scheduled daemons MAY regenerate local files;
+they MUST NOT push upstream without Jake pressing a button.
