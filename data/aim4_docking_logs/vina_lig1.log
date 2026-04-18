@@ -1,0 +1,37 @@
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+Detected 48 CPUs
+WARNING: at low exhaustiveness, it may be impossible to utilize all CPUs
+Reading input ... 
+
+An unknown error occurred. 
+
+Please contact the author, Dr. Oleg Trott <ot14@columbia.edu>, so
+that this problem can be resolved. The reproducibility of the
+error may be vital, so please remember to include the following in
+your problem report:
+* the EXACT error message,
+* your version of the program,
+* the type of computer system you are running it on,
+* all command line options,
+* configuration file (if used),
+* ligand file as PDBQT,
+* receptor file as PDBQT,
+* flexible side chains file as PDBQT (if used),
+* output file as PDBQT (if any),
+* input (if possible),
+* random seed the program used (this is printed when the program starts).
+
+Thank you!

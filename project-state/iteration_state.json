@@ -2,7 +2,7 @@
   "task": "Task 4.1",
   "legacy_id": "G-006",
   "iteration": 1,
-  "stage": "E",
+  "stage": "R",
   "started": "2026-04-18T12:48:45",
   "history": [
     {
@@ -89,6 +89,26 @@
       "stage": "E",
       "at": "2026-04-18T12:59:38",
       "note": "Seed SMILES + PDBs rsynced; smoke-test sbatch 38256088 queued on express partition (receptor 7S3R, 3 top ligands)"
+    },
+    {
+      "stage": "A",
+      "at": "2026-04-18T13:06:06",
+      "note": "Vina smoke dock OK: CHEMBL4541133 (pv 9.52) \u2192 6RIH K4T pocket = -6.2 kcal/mol best. 4 workers, <6min wall. Ready to scale to Task 4.2 (100-ligand screen)"
+    },
+    {
+      "stage": "S",
+      "at": "2026-04-18T13:06:07",
+      "note": "results + logs synced to W0 data/aim4_docking_{results,logs}/"
+    },
+    {
+      "stage": "X",
+      "at": "2026-04-18T13:06:12",
+      "note": "Cheaha CPU credits used: ~2 min x 2 cores = negligible. Express partition fine for smoke."
+    },
+    {
+      "stage": "R",
+      "at": "2026-04-18T13:06:13",
+      "note": "no issues; first Cheaha dock landed. 4.2 (100-lig screen) ready to promote"
     }
   ]
 }

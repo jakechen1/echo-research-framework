@@ -1,0 +1,11 @@
+=== environment ===
+AutoDock Vina 1.1.2 (May 11, 2011)
+rdkit 2025.09.5
+
+25 molecules converted
+-rw-rw-r-- 1 jakechen jakechen 325750 Apr 18 12:59 data/receptor.pdbqt
+=== prep ligands ===
+lig1 CHEMBL4541133 pv=9.52 atoms=61
+lig2 CHEMBL4536737 pv=9.1 atoms=54
+lig3 CHEMBL4584313 pv=8.8 atoms=57
+1 molecule converted

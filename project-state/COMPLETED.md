@@ -39,3 +39,11 @@
 - **Done:** 2026-04-18T12:47
 - **Artifacts:** data/aim3_pubmed_phgdh_allosteric.json, wiki_drafts/phgdh-allosteric-literature-2024-2026.md
 - **Findings:** 29 unique papers via NCBI eutils esearch+esummary
+
+## G-006 — Task 4.1: Cheaha workspace + first dock
+- **Done:** 2026-04-18T13:05
+- **Cheaha user:** jakechen @ cheaha.rc.uab.edu (SSH config alias)
+- **Workspace:** /home/jakechen/phgdh-sbdd/{data,scripts,logs,results}
+- **Env:** conda phgdh-sbdd — rdkit 2025.09.5 + openbabel + AutoDock Vina 1.1.2
+- **First dock:** CHEMBL4541133 (pv 9.52) → 6RIH K4T pocket = **-6.2 kcal/mol** (job 38256089 on express/c0136)
+- **Next:** Task 4.2 — scale to 100-ligand screen with proper prep of all 20 top ligands

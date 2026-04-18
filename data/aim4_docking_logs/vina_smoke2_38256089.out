@@ -1,0 +1,31 @@
+AutoDock Vina 1.1.2 (May 11, 2011)
+1 molecule converted
+K4T center: 14.11 10.46 80.98  n=36
+box center: 14.11 10.46 80.98
+=== DOCKING ===
+--- lig1 ---
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 1671140624
+Performing search ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.2      0.000      0.000
+   2         -6.1      5.732      8.446
+   3         -6.1      5.977     10.478
+   4         -6.1      1.384      2.163
+   5         -6.0      5.592      9.092
+Writing output ... done.
+=== done ===
+total 2
+drwxrwxr-x 2 jakechen jakechen   512 Apr 18 13:05 .
+drwxrwxr-x 6 jakechen jakechen   512 Apr 18 12:53 ..
+-rw-rw-r-- 1 jakechen jakechen 21410 Apr 18 13:05 lig1_docked.pdbqt
