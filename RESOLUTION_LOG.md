@@ -236,3 +236,35 @@ before recommending swaps.
 - **Local first, paid rarely.** Claude is a consultant, not an employee.
 - **Scheduled jobs, not polled loops.** LaunchDaemons (cron equivalents)
   beat continuous-agent chat loops for anything recurring.
+
+---
+
+## 2026-04-18 — Box MCP lacks move/delete; structural cleanup limited
+
+**Symptom.** Wanted to archive/move 12 pre-existing subfolders from the
+JakeClaw Box folder before setting up PHGDH, but available tools were
+`create_folder`, `list_folder_content_by_folder_id`, and
+`update_folder_properties` (name/desc/tags only — no parent mutation).
+
+**Fix.** Created PHGDH subfolder alongside existing content. Manual cleanup
+deferred to user via Box web UI.
+
+**Prevention rule.** When provisioning shared workspaces (Box, Drive, SharePoint)
+via MCP: create the new structure first; never assume you can programmatically
+move/delete existing artifacts. Get user authorization for cleanup path
+(archive vs trash) before starting.
+
+---
+
+## 2026-04-18 — Kill switch convention (RULE KILL-01)
+
+**Rule.** Any agent (jakeclaw, qwenclaw, Chrome-Claude) that sees the phrase
+`STOP-CHROME-CLAUDE` or `KILL-SWITCH` must immediately halt autonomous
+action and reply only with a paused acknowledgement. Only explicit `resume`
+from Jake reactivates.
+
+**Enforcement.**
+- jakeclaw AGENTS.md has RULE [KILL-01]
+- qwenclaw AGENTS.md has RULE [KILL-01]
+- qwenclaw_morning.sh has a pre-flight grep check against the day's log
+- Future Chrome-Claude system prompt will include it verbatim

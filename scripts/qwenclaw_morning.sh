@@ -59,6 +59,12 @@ oc_agent() {
 date +%s > "$HEARTBEAT"
 log "=== morning cycle start ==="
 
+# KILL-01 pre-flight — abort if kill switch found in today'\''s log
+if grep -q -iE "(STOP-CHROME-CLAUDE|KILL-SWITCH)" "$DAYLOG" 2>/dev/null; then
+  log "KILL-01 triggered — abort cycle"
+  exit 0
+fi
+
 # -------- Phase 1: qwenclaw plans --------
 PLAN_JSON=$(oc_agent qwenclaw "Read /Users/jakeclaw/.openclaw/workspace/project-state/CURRENT_GOAL.md. Output ONLY one shell command jakeclaw should run to advance the goal. When writing to a file, use >> (append) never > (overwrite). No preamble. No explanation. Just the command, on one line. If CURRENT_GOAL already shows all done-criteria checked, output the single word: GOAL_DONE." 180) || fail "qwenclaw plan call failed"
 

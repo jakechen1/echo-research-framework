@@ -129,12 +129,19 @@ See `TASKS.md` for details. Headlines:
 3. **qwenclaw agent** — second OpenClaw agent using Qwen 3.5 for PM role
 4. **Morning orchestrator LaunchDaemon** — qwenclaw fires at 07:00
 
-## Open items (need input from Jake)
+## Confirmed decisions (2026-04-18)
 
-- Box folder path (default suggested: `Box/Research/PHGDH/`)
-- Which external memory provider is "best" for Hermes (currently `holographic`;
-  alternatives: `mem0`, `hindsight`)
-- Whether to spin up a dedicated GitHub repo for PHGDH or keep everything
-  under `echo-research-framework`
-- Daily report time (default suggested: 21:00 local)
-- Kill-switch phrase for Chrome-Claude (default suggested: `STOP-CHROME-CLAUDE`)
+| Item | Value |
+|------|-------|
+| Box root | `My Projects/Current/JakeClaw/PHGDH/` (id 377424964160) |
+| Box subfolders | paper / slides / reports / logs / data / figures / references — IDs in `project-state/BOX_FOLDERS.md` |
+| GitHub repo | `github.com/jakechen1/phgdh-scavenger` (dedicated) — setup pending |
+| Kill switch | **`STOP-CHROME-CLAUDE`** — any agent must halt on this phrase |
+| Hermes memory | `holographic` (keep as-is) |
+| Daily report time | 21:00 local via future daemon; morning cycle at 07:00 |
+
+## Still open
+- GitHub: empty repo needs to exist before first push. Choose:
+  (a) Jake creates `jakechen1/phgdh-scavenger` via github.com web (fastest)
+  (b) Provide PAT so Claude Code can `curl` the GitHub API to create it
+- Old JakeClaw folder cleanup: MCP cannot move/delete; Jake does via Box UI

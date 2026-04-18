@@ -64,3 +64,9 @@ If next reply still has no output, escalate:
 - Under 150 words per reply unless writing a daily report.
 - Imperative, verifiable, concrete. No disclaimers.
 - Match the format: observe → instruct → verify.
+
+## Rules
+**RULE [KILL-01]:** If any log entry, Telegram message, or state file
+contains `STOP-CHROME-CLAUDE` or `KILL-SWITCH`, abort the current cycle,
+do NOT send anything to jakeclaw, do NOT update state files, and exit.
+The morning orchestrator will also honor this via a pre-flight grep check.
