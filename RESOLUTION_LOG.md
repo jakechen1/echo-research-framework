@@ -298,3 +298,55 @@ Uptime should be small; model should be listed.
 
 This is scheduled maintenance, not an incident. Never file it as RED on the
 Chrome-Claude audit.
+
+---
+
+## 2026-04-18 — Hermes wired into qwenclaw_morning cycle (option 2)
+
+**Gap.** Backlog goals G-004 (PubMed sweep) and G-008 (wiki page) need Hermes
+wiki_builder, but the autonomous cycle only routed to jakeclaw. Hermes had
+been idle since 2026-04-14 (last pipeline entry, gardening project).
+
+**Fix.** Added HERMES_ROUTE in qwenclaw_morning.sh:
+- qwenclaw planning prompt now recognizes wiki-growth keywords and emits
+  `HERMES <seed>` instead of a shell command
+- Orchestrator detects `HERMES ` prefix, invokes
+  `/Users/jakeclaw/workers/bin/hermes_wiki_growth.sh` with the seed
+- Wrapper stops any running wiki_builder, starts a fresh one with
+  strategy=full depth=2 pages=10, outputs to `~/wiki/projects/phgdh-<slug>/`
+- JSON summary appended to DAILY_LOG; Telegram notification to Jake
+
+**Prevention rule.** When a new agent role is added to the architecture,
+verify it has a clear invocation path from the existing cycle driver
+(currently qwenclaw_morning). Loose coupling through "we could SSH to it"
+doesnt count.
+
+---
+
+## 2026-04-18 — Hermes installed as persistent system LaunchDaemon (option 3)
+
+**Why (addendum to earlier entry).** Option 2 alone routes wiki-growth
+calls through `hermes_wiki_growth.sh` on-demand, but leaves Hermes itself
+dormant until fired. Option 3 makes Hermes an always-running service so
+its internal cron ticker, memory management, and skills stay warm.
+
+**Install.** Converted `~/Library/LaunchAgents/ai.hermes.gateway.plist`
+(which never auto-loaded on the headless Mac — PERSIST-01) into a
+system LaunchDaemon at `/Library/LaunchDaemons/ai.hermes.gateway.plist`
+with `UserName=jakeclaw`. Bootstrapped cleanly; `state = running`.
+
+**Cold-start behavior.** On first launch the gateway logged:
+- "No messaging platforms enabled" — expected; Hermes is not the Telegram
+  channel (OpenClaw owns that).
+- "Cron ticker started (interval=60s)" — Hermes internal scheduler now
+  alive.
+
+**Combined architecture now.**
+- Persistent Hermes (option 3) — always warm, handles its own cron jobs
+- On-demand Hermes invocation (option 2) — qwenclaw_morning routes
+  wiki-growth goals by emitting `HERMES <seed>` and the wrapper fires
+  `wiki_builder.py start` against the running instance
+
+**Prevention rule.** Any agent meant to be "always available" must be a
+system LaunchDaemon on W0, not a LaunchAgent. Re-state of PERSIST-01 —
+this is the fifth time it has bitten us.

@@ -72,11 +72,37 @@ echo "$SCAV_REPORT" >> "$DAYLOG"
 
 
 # -------- Phase 1: qwenclaw plans --------
-PLAN_JSON=$(oc_agent qwenclaw "Read /Users/jakeclaw/.openclaw/workspace/project-state/CURRENT_GOAL.md. Output ONLY one shell command jakeclaw should run to advance the goal. When writing to a file, use >> (append) never > (overwrite). No preamble. No explanation. Just the command, on one line. If CURRENT_GOAL already shows all done-criteria checked, output the single word: GOAL_DONE." 180) || fail "qwenclaw plan call failed"
+PLAN_JSON=$(oc_agent qwenclaw "Read /Users/jakeclaw/.openclaw/workspace/project-state/CURRENT_GOAL.md. If the goal is a wiki-growth task (keywords: wiki, PubMed, literature, sources, knowledge base), output exactly: HERMES <one-line seed topic for wiki_builder>. Otherwise output ONE shell command for jakeclaw. Use >> never > when writing files. No preamble, no explanation. If CURRENT_GOAL all done-criteria checked, output: GOAL_DONE." 180) || fail "qwenclaw plan call failed"
 
 PLAN=$(echo "$PLAN_JSON" | /opt/homebrew/bin/jq -r '.payloads[0].text // .finalAssistantVisibleText // .response // empty' 2>/dev/null || echo "")
 [ -z "$PLAN" ] && fail "qwenclaw returned empty plan"
 log "plan: $PLAN"
+
+# HERMES_ROUTE — wiki-growth is handled by Hermes, not jakeclaw
+if [[ "$PLAN" == HERMES\ * ]]; then
+  SEED="${PLAN#HERMES }"
+  log "HERMES route: seed=\"$SEED\""
+  SLUG=$(echo "$SEED" | tr '[:upper:]' '[:lower:]' | tr -cs 'a-z0-9' '-' | cut -c1-40 | sed 's/^-\|-$//g')
+  HERMES_OUT=$(/Users/jakeclaw/workers/bin/hermes_wiki_growth.sh "$SEED" "phgdh-$SLUG" 2 10 2>>"$LOG" | tail -1)
+  cat >> "$DAYLOG" << ENDOFEOF
+
+## $TIME — Hermes wiki-growth cycle
+Seed: $SEED
+Output dir: ~/wiki/projects/phgdh-$SLUG
+Kickoff JSON: \`$HERMES_OUT\`
+
+(Hermes wiki_builder runs in the background; check ~/.hermes/logs/wiki-builder.log for progress.)
+ENDOFEOF
+  MSG="Morning cycle $DATE: HERMES wiki-growth seed=\"${SEED:0:60}\" fired, output projects/phgdh-$SLUG"
+  CHAT_ID=8156711151
+  BOT_TOKEN=$(/usr/bin/python3 -c 'import json; d=json.load(open("/Users/jakeclaw/.openclaw/openclaw.json")); print(d["channels"]["telegram"]["botToken"])' 2>/dev/null || echo "")
+  if [ -n "$BOT_TOKEN" ]; then
+    /usr/bin/curl -s --max-time 10 -X POST "https://api.telegram.org/bot$BOT_TOKEN/sendMessage" \
+      --data-urlencode "chat_id=$CHAT_ID" --data-urlencode "text=$MSG" >/dev/null && log "telegram sent (hermes)"
+  fi
+  log "=== morning cycle end (hermes branch) ==="
+  exit 0
+fi
 
 if [ "$PLAN" = "GOAL_DONE" ]; then
   # Append to DAILY_LOG; flag for human promotion
