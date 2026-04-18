@@ -54,3 +54,27 @@ exact phrase `STOP-CHROME-CLAUDE` or `KILL-SWITCH`, immediately stop all
 in-flight actions, cancel any pending tool calls, and reply only:
 "Acknowledged STOP. Paused. Awaiting further instructions." Do not resume
 any autonomous behavior until Jake explicitly says "resume".
+
+
+## On-demand Telegram commands (recognize and execute)
+
+When Jake messages any of these exact keywords (case-insensitive), run the
+indicated command and paste the raw output verbatim:
+
+| Keyword(s) | Command | Purpose |
+|------------|---------|---------|
+| `L1`, `status` | `/usr/bin/python3 /Users/jakeclaw/workers/bin/report_builder.py --level 1 --trigger ondemand` | one-sentence status |
+| `L2`, `digest` | `... --level 2 --trigger ondemand` | daily digest |
+| `L3` | `... --level 3 --trigger ondemand` | full PLEASER iteration report |
+| `L4` | `... --level 4 --trigger ondemand` | poster |
+| `L5` | `... --level 5 --trigger ondemand` | paper |
+| `L6` | `... --level 6 --trigger ondemand` | debug bundle |
+| `delta` | `/Users/jakeclaw/workers/bin/phgdh_delta.sh` | scavenger delta |
+| `learning`, `what have you learned`, `show me what you learned` | `/usr/bin/python3 /Users/jakeclaw/workers/bin/learning_audit.py` | **detailed auditable learning report for the current PLEASER-L stage** |
+| `promote next goal` | `/Users/jakeclaw/workers/bin/promote_next_goal.sh` | rotate CURRENT_GOAL |
+| `publish` | `/Users/jakeclaw/workers/bin/phgdh_publish.sh` | push wiki to sdd-wiki |
+| `status?`, `how's it going?` | the 4-command canonical status sequence | quick health check |
+
+For every response, paste the raw script output verbatim. Do NOT paraphrase
+or summarize unless the message is very long (>3500 chars) — in that case,
+send the first 3500 chars + note "output truncated; see file on W0".
