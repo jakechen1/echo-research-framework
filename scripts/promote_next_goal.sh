@@ -105,5 +105,34 @@ bl_new = re.sub(
 )
 bl_path.write_text(bl_new)
 print(f"removed {new_id} from BACKLOG")
+
+# Update iteration_state.json: new Task means iteration 1 (or bump if re-activating)
+import json as _json
+iter_path = PS / "iteration_state.json"
+try:
+    cur_iter = _json.loads(iter_path.read_text()) if iter_path.exists() else {}
+except Exception:
+    cur_iter = {}
+now = datetime.datetime.now().isoformat(timespec="seconds")
+# Derive Task from new CURRENT_GOAL (which we just wrote)
+cur_md = cur_path.read_text()
+import re as _re
+task_m = _re.search(r"\*\*Task:\*\*\s*(Task \d+\.\d+)", cur_md)
+task_code = task_m.group(1) if task_m else f"legacy-{new_id}"
+if cur_iter.get("task") == task_code:
+    cur_iter["iteration"] = int(cur_iter.get("iteration", 1)) + 1
+    cur_iter["history"].append({"stage": "P", "at": now, "note": f"re-activating {task_code}, iteration {cur_iter['iteration']}"})
+else:
+    cur_iter = {
+        "task": task_code,
+        "legacy_id": new_id,
+        "iteration": 1,
+        "stage": "P",
+        "started": now,
+        "history": [{"stage": "P", "at": now, "note": f"Task promoted; plan phase"}]
+    }
+cur_iter["stage"] = "P"
+iter_path.write_text(_json.dumps(cur_iter, indent=2))
+print(f"iteration_state: {task_code} iteration {cur_iter['iteration']} stage P")
 PY
 log "=== promote_next_goal done ==="

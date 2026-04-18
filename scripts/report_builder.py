@@ -26,7 +26,11 @@ the single-phrase thesis, the current G-NNN goal, and one concrete delta
 vs the prior L1 report. No bullets, no emoji, under 200 characters.""",
     2: """Write a ONE-PAGE daily digest. Plain text, no emoji. Include:
 - Up to 4 active aims (one line each) with progress today
-- Current goal (G-NNN + its one-line goal text)
+- Current Task code (e.g., Task 2.1) + one-line goal text + iteration number
+- AGE daily scores — three integers 1-9 (REVERSE NIH scale, 9 is best):
+    Accuracy=N / Generalizability=N / Efficiency=N
+  with one-line justification each. 5 is satisfactory (50th percentile).
+  6,7,8,9 are top 33%, 20%, 10%, 5%. 4,3,2,1 are bottom 33%, 20%, 10%, 5%.
 - 2-3 line delta vs yesterdays L2 (what moved)
 - Blockers (or "none")
 - Next 24 hours: one sentence""",
@@ -49,7 +53,12 @@ L0 GPU-hours, Cheaha SU, Claude API $, Telegram msgs — Planned vs Actual
 vs Note. Flag overruns AND under-runs. Artifact references (commit SHAs,
 files, hashes) live in Execution, not Expense.
 
-Cite the Aim + Task code (e.g., "Aim 2 / Task 2.1") in every section.
+Cite the Aim + Task code (e.g., "Aim 2 / Task 2.1"), the current
+iteration number, and the PLEASER stage at the top of the report. For
+any artifact referenced (file, wiki page, commit, Box doc), include
+its actual audited timestamp, size, and hash/SHA from audit_artifact —
+never fabricate. If an artifact is missing, write "NOT FOUND at audit
+time (task T.X pending)" rather than inventing content.
 Delta-vs-prior-L3 goes at the end of the Plan section.""",
     4: """Write a POSTER report combining 3-6 related Tasks into one results
 narrative. Title, authors, 1-para background tied to one or more Aims,
@@ -72,7 +81,36 @@ def sh(cmd, to=10):
     except Exception:
         return ""
 
+
+def audit_artifact(path_or_url):
+    """Return {exists, mtime, size, sha256 or commit, note}. Never fabricate."""
+    import hashlib, os, pathlib as _p
+    info = {"ref": str(path_or_url), "exists": False}
+    if path_or_url.startswith("http"):
+        info["note"] = "URL — audit via HEAD skipped (would require network round-trip per call)"
+        return info
+    pth = _p.Path(path_or_url)
+    if not pth.exists():
+        info["note"] = "NOT FOUND at audit time"
+        return info
+    st = pth.stat()
+    info["exists"] = True
+    info["size"] = st.st_size
+    info["mtime"] = datetime.datetime.fromtimestamp(st.st_mtime).isoformat(timespec="seconds")
+    if pth.is_file() and st.st_size < 50_000_000:
+        h = hashlib.sha256()
+        with pth.open("rb") as f:
+            for chunk in iter(lambda: f.read(65536), b""):
+                h.update(chunk)
+        info["sha256"] = h.hexdigest()[:16]
+    return info
+
 def gather_state():
+    # iteration state (may not exist on very early runs)
+    try:
+        iter_state = json.loads((PS / "iteration_state.json").read_text())
+    except Exception:
+        iter_state = {"task": "unknown", "iteration": 0, "stage": "?"}
     today = datetime.date.today().isoformat()
     cg = (PS / "CURRENT_GOAL.md").read_text() if (PS / "CURRENT_GOAL.md").exists() else ""
     bl = (PS / "BACKLOG.md").read_text() if (PS / "BACKLOG.md").exists() else ""
@@ -88,6 +126,9 @@ def gather_state():
     daemons = sh("/usr/bin/sudo -n /bin/launchctl list 2>/dev/null | /usr/bin/grep -cE 'ai.jakeclaw|com.jakeclaw'")
     return {
         "date": today,
+        "iter_task": iter_state.get("task", "unknown"),
+        "iter_num": iter_state.get("iteration", 0),
+        "iter_stage": iter_state.get("stage", "?"),
         "thesis": "Identify allosteric / RBD-site PHGDH modulators for neurodegenerative disease.",
         "current_goal_id": gid_m.group(0) if gid_m else "?",
         "current_goal_md": cg[:1500],
@@ -180,6 +221,7 @@ Write an L{level} report per this template:
 - Current goal: {state['current_goal_id']}
 - Scavenger: {state['scavenger_rows']} rows in {state['scavenger_file']} ({state['scavenger_days']} daily file(s))
 - Wiki: {state['wiki_phgdh']} PHGDH pages / {state['wiki_total']} total
+- Iteration: {state['iter_task']} #{state['iter_num']} — current PLEASER stage: {state['iter_stage']}
 - Goals completed so far: {state['completed_count']}
 - LaunchDaemons up: {state['daemons_up']}
 

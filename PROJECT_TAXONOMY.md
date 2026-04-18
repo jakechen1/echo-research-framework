@@ -85,13 +85,93 @@ stay in the Execution section where they are produced — they are part of
 
 ## 4. AGE scoring (applies to Assessment phase)
 
+**IMPORTANT:** AGE uses the **REVERSE of the NIH scale** — higher is better.
+
 | Letter | Criterion | Question |
 |--------|-----------|----------|
 | A | **Accuracy** | Did outputs correctly represent reality? (computational accuracy vs ground truth or literature benchmarks) |
 | G | **Generalizability** | Will the finding transfer beyond this instance? (other targets, datasets, conditions) |
 | E | **Efficiency** | Did resource use (time, compute, tokens) match the value produced? |
 
-Scoring: 1-9, 1 = best.
+### AGE rubric (1-9, 9 = best)
+
+| Score | Percentile | Interpretation |
+|-------|-----------|----------------|
+| **9** | top 5% | Exceptional. Outstanding in every respect. |
+| **8** | top 10% | Excellent. Notably strong. |
+| **7** | top 20% | Very good. Clearly above average. |
+| **6** | top 33% | Good. Above average. |
+| **5** | 50% (median) | **Satisfactory.** Meets expectations, no more no less. |
+| **4** | bottom 33% | Below average. Noticeable weakness. |
+| **3** | bottom 20% | Poor. Significant weakness. |
+| **2** | bottom 10% | Very poor. Fundamental weakness. |
+| **1** | bottom 5% | Unacceptable. Fails in every respect. |
+
+Compare to the NIH rubric (§3) which runs the opposite direction
+(1 = exceptional, 9 = poor). Be careful to not mix scales when writing.
+
+## 5. Iteration tracking (required for L3+)
+
+Every PLEASER report at **L3 or above** MUST include:
+
+- **Task code** (e.g., `Task 2.1`)
+- **Iteration number** (how many PLEASER cycles on this Task)
+- **Current PLEASER stage** (which of the 7 phases the iteration is in)
+
+These are tracked in `project-state/iteration_state.json`:
+```
+{
+  "task": "Task 2.1",
+  "iteration": 1,
+  "stage": "E",
+  "started": "2026-04-18T10:00",
+  "history": [{"stage":"P","at":"..."},{"stage":"L","at":"..."}]
+}
+```
+
+`promote_next_goal.sh` resets iteration to 1 when the Task changes.
+Reopening an already-completed Task (e.g., revisiting with new data)
+increments iteration to 2, 3, ...
+
+## 6. Artifact audit requirement
+
+When any report references a file / wiki page / commit / Box doc, the
+reference MUST include an **audited timestamp**:
+
+- File path OR URL
+- Last-modified timestamp (from actual `stat` / API call, not claimed)
+- Size or length
+- SHA-256 hash (for files) OR commit SHA (for git) OR page revision (for wiki)
+
+Format inside a report:
+```
+[[Master-Blueprint]]  (sdd-wiki v4, file content/PHGDH-Allosteric-RBD-Binder/Master-Blueprint.md, 
+                       mtime 2026-04-18T09:57Z, 1,240 bytes, sha-256 ab34…)
+```
+
+The `report_builder.py` helper `audit_artifact(path_or_url)` returns
+this metadata dict. Agents must not fabricate timestamps — if the
+artifact does not exist at audit time, the report states "NOT FOUND
+at audit time" and escalates to Resolver.
+
+## 7. Report-request conventions (all levels, any time)
+
+Reports may be requested at any level, at any time, by anyone:
+
+| Trigger | Channel | Generates |
+|---------|---------|-----------|
+| `L1`, `status` on Telegram | Telegram | L1 now |
+| `L2`, `digest` | Telegram | L2 now |
+| `L3` | Wiki + Telegram | L3 for current Task |
+| `L4` | Wiki | L4 poster |
+| `L5` | Box | L5 paper draft |
+| `L6` | GitHub | L6 debug bundle |
+| `report N` | as above | generic form |
+
+Requests for reports that depend on artifacts not yet present (e.g., L4
+poster requiring figures that haven't been produced) MUST be generated
+anyway — with explicit "pending Task X.Y" placeholders instead of
+fabricated content.
 
 ## 5. Resolver — when to escalate
 

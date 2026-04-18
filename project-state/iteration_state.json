@@ -1,0 +1,10 @@
+{
+  "task": "Task 2.1",
+  "legacy_id": "G-002",
+  "iteration": 1,
+  "stage": "P",
+  "started": "2026-04-18T10:00:00",
+  "history": [
+    {"stage": "P", "at": "2026-04-18T10:00:00", "note": "Task promoted to CURRENT; plan phase"}
+  ]
+}
