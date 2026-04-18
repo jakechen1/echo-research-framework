@@ -15,6 +15,8 @@ COMPLETED.md when done.
 | G-009 | Draft paper Introduction (PHGDH in neurodegeneration) in Box/PHGDH/paper/intro.md | Chrome-Claude | 2 d |
 | G-010 | Add repo README + pipeline diagram + CONTRIBUTING | local | 1 d |
 | G-011 | Monthly 2025 AI-drug-discovery digest for January (see wiki/research/drug_discovery_2025_progress.md) | Hermes | 2 d |
+| G-012 | Build data→knowledge enrichment loop: phgdh_enrichment daemon reads scavenger JSONL, ranks new molecules/targets, seeds Hermes wiki pages for each, cross-links in wiki | Hermes + local | 2 d |
+| G-013 | Entity-page templates (molecule / target / pathway / gene-set) with standardized frontmatter and wikilink conventions | Hermes | 1 d |
 
 ## Rules
 - Only one sub-goal active at a time (PLEASER-ONE principle).

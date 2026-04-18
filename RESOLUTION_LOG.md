@@ -350,3 +350,24 @@ with `UserName=jakeclaw`. Bootstrapped cleanly; `state = running`.
 **Prevention rule.** Any agent meant to be "always available" must be a
 system LaunchDaemon on W0, not a LaunchAgent. Re-state of PERSIST-01 —
 this is the fifth time it has bitten us.
+
+---
+
+## 2026-04-18 — Hermes "higher purpose" documented, G-012/G-013 queued
+
+**Insight from Jake.** Hermes shouldn't just be seed→expansion. Its mature
+role is to close the loop between scavenger-produced data and literature-
+synthesized knowledge: each molecule, target, pathway, gene set gets its
+own grounded, wikilinked page, updated as new data arrives.
+
+**Status.** Infrastructure exists (source_validator + wiki_builder +
+holographic memory + cron). The bridge (scavenger output → Hermes seeds)
+does not. Added G-012 and G-013 to BACKLOG.
+
+**Sequencing rule.** Do not build the enrichment loop before G-001..G-005
+produce curated entities to feed it. Enrichment on a cold signal yields
+generic text. Enrichment on a warm signal yields real knowledge. Wait
+until there is a top-20 table, a pChEMBL distribution, and binding-site
+annotations before seeding this.
+
+**Where to find the design.** DESIGN_NOTES.md at workspace root.
