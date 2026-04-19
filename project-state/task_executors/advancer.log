@@ -1005,3 +1005,5 @@
 [2026-04-19T23:00:51+00:00] Task 4.2/A running: /Users/jakeclaw/workers/bin/task_4_2_assess.sh
 [2026-04-19T23:00:55+00:00] Task 4.2/A rc=23  stdout_tail='job 38256316 state: FAILED\n'  stderr_tail='ange locale (C.UTF-8)\nrsync: [sender] link_stat "/home/jakechen/phgdh-sbdd/results/top20_scores.tsv" failed: No such file or directory (2)\nrsync(23011): warning: receiver has empty file list: exiting\n'
 [2026-04-19T23:00:55+00:00] Task 4.2/A FAILED rc=23 — will retry next tick
+[2026-04-19T23:03:04+00:00] Task 4.2/A cooldown (133s < 240s)
+[2026-04-19T23:04:11+00:00] Task 4.2/A cooldown (200s < 240s)
