@@ -7,11 +7,10 @@
 **Tier:** cheaha
 
 ## Goal
-Scale Vina docking from 3-ligand smoke test to full top-20 from Task 2.2
-against 6RIH K4T allosteric pocket. Produce ranked table.
+Scale Vina docking from 3-ligand smoke test to **full 100-ligand screen** (expanded from Task 2.2) against 6RIH K4T allosteric pocket. Produce ranked table.
 
 ## Definition of done
-- [ ] All 20 top inhibitors docked (lig1..lig20_docked.pdbqt on Cheaha)
-- [ ] `data/aim4_vina_top20_ranked.csv` with ChEMBL_ID, pChEMBL, best_affinity (kcal/mol), rmsd_lb
-- [ ] Scatter plot pChEMBL vs docking score → `figures/vina_vs_pchembl.png`
+- [ ] All 100 top inhibitors docked (lig1..lig100_docked.pdbqt on Cheaha)
+- [ ] `data/aim4_vina_top100_ranked.csv` with ChEMBL_ID, pChEMBL, best_affinity (kcal/mol), rmsd_lb
+- [ ] Scatter plot pChEMBL vs docking score → `figures/vina_vs_pchembl_top100.png`
 - [ ] Wiki draft with table + scatter

@@ -2,7 +2,7 @@
   "task": "Task 4.2",
   "legacy_id": "G-007",
   "iteration": 1,
-  "stage": "P",
+  "stage": "L",
   "started": "2026-04-18T22:32:04",
   "history": [
     {
@@ -114,6 +114,11 @@
       "stage": "P",
       "at": "2026-04-18T22:32:04",
       "note": "Auto-promoted by post-R watchdog (Task 4.1 R stalled 6h+). Target: scale Vina to 100-ligand screen."
+    },
+    {
+      "stage": "L",
+      "at": "2026-04-18T23:33:21",
+      "note": "auto-advance (no executor for Task 4.2/P)"
     }
   ]
 }

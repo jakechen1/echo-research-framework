@@ -1,1 +1,5 @@
 [2026-04-19T04:33:21+00:00] Task 4.2/P auto-advanced to L (no executor)
+[2026-04-19T04:34:25+00:00] Task 4.2/L running: /Users/jakeclaw/workers/bin/task_4_2_learning.sh
+[2026-04-19T04:34:25+00:00] Task 4.2/L rc=0  stdout_tail='learning note written\n'  stderr_tail=''
+[2026-04-19T04:34:26+00:00] Task 4.2/L advanced to E
+[2026-04-19T04:36:43+00:00] Task 4.2/E running: /Users/jakeclaw/workers/bin/task_4_2_execute.sh

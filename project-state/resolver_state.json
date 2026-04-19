@@ -1,10 +1,10 @@
 {
   "channels": {
     "dashboard_api": {
-      "attempts": 3,
+      "attempts": 4,
       "last_green_at": null,
-      "human_required": false,
-      "last_red_at": "2026-04-19T04:05:08+00:00"
+      "human_required": true,
+      "last_red_at": "2026-04-19T04:35:31+00:00"
     }
   }
 }
