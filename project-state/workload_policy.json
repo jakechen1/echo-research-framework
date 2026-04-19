@@ -3,8 +3,8 @@
     "L0_wiki_interlink_batch": 1776627927.088774,
     "W0_scaffold_cluster": 1776628257.543197,
     "W0_qed_lipinski_filter": 1776628521.1298492,
-    "W0_tanimoto_matrix": 1776627663.7723541,
-    "W0_utilization_booster": 1776627333.215359
+    "W0_tanimoto_matrix": 1776629710.653117,
+    "W0_utilization_booster": 1776629446.631948
   },
   "weights": {
     "L0_wiki_interlink_batch": 1.0,
