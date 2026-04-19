@@ -47,3 +47,63 @@ On-demand: `python3 skills/auto-resolver/scripts/auto_resolver.py --channel iter
 
 - `project-state/resolver_state.json` — per-channel attempt counter + last-green-at
 - `project-state/resolver_actions.jsonl` — every remediation attempt (audit trail)
+
+## Extending: adding a new playbook
+
+To make auto-resolver handle a new failure class:
+
+1. **Add a channel to liveness** — in `skills/liveness-audit/scripts/liveness.py`,
+   append to `channels = { ... }` with a `status: green|red|unknown`.
+
+2. **Write a playbook function** in `skills/auto-resolver/scripts/auto_resolver.py`:
+   ```python
+   def pb_my_channel(details: dict) -> tuple[str, bool]:
+       """Remediate my_channel. Return (action_description, success_bool)."""
+       import subprocess
+       r = subprocess.run([...], capture_output=True, text=True, timeout=60)
+       return f"action rc={r.returncode}", r.returncode == 0
+   ```
+
+3. **Register it** in the `PLAYBOOKS` dict:
+   ```python
+   PLAYBOOKS = {
+       ..., 
+       "my_channel": pb_my_channel,
+   }
+   ```
+
+4. **Smoke test**:
+   ```
+   python3 skills/auto-resolver/scripts/auto_resolver.py --channel my_channel
+   ```
+
+5. **Commit**. That's it — the escalation ladder (silent → notify → urgent →
+   HUMAN_REQUIRED after 4 attempts) applies automatically.
+
+### No-op playbooks are legitimate
+
+For channels where auto-remediation isn't appropriate (e.g. `w0_cpu` idle
+can be a legitimate state — the agent might simply be waiting), register
+`pb_noop`. The counter still ticks, but no action is taken.
+
+### Playbook budget
+
+Each playbook must:
+- Complete within **60 s** (timeout enforced by subprocess)
+- Be **idempotent** — running twice must not cause harm
+- Use `atomic_write` for any state mutation
+- **Not enqueue infinite retries** — rely on the escalation ladder
+- Return a short action description (≤200 chars) for the audit log
+
+### Planned additions (future growth)
+
+| Channel         | Proposed playbook                                |
+|-----------------|--------------------------------------------------|
+| `cheaha_quota`  | `sacctmgr show user`, prune old scratch files    |
+| `disk_low_w0`   | prune `~/backups/project-state/` beyond 168 cap  |
+| `hermes_pending`| trigger `hermes_wiki_growth.sh`                  |
+| `iteration_P`   | auto-advance P → L after 2 h with no L trigger   |
+| `iteration_E`   | post 🚨 if Execution > 6 h; E often needs time   |
+| `telegram_queue`| if queue > 20, increase retry cadence            |
+| `box_auth`      | re-run Hermes Box OAuth refresh                  |
+| `gemma_slow`    | swap model to `gemma4-agent-fast` if tokens/s <5 |

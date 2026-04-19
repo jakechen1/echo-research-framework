@@ -48,3 +48,4 @@
 {"at": 1776569414.4484549, "emoji": "\ud83d\udea8", "title": "Resolver alert", "body": "Red channels: iteration", "ok": true}
 {"at": 1776569526.43831, "emoji": "\ud83d\udee0\ufe0f", "title": "Fixed: Resolver auto-exit wired", "body": "Task 4.1 R stalled 6h caused the RED. Added post_r_watchdog (5 min tick, >10min R \u2192 auto-promote). State now: Task 4.2 stage P. Scheduler PID 1889.", "ok": true}
 {"at": 1776569987.429686, "emoji": "\ud83e\udd16", "title": "Self-heal wired", "body": "auto_resolver skill live. Playbook per red channel + 4-step escalation (silent\u2192notify\u2192urgent\u2192HUMAN_REQUIRED). Liveness RED now triggers remediation automatically before human gets paged. Today's R-stuck incident class: handled autonomously.", "ok": true}
+{"at": 1776570122.8567061, "emoji": "\ud83d\udcd6", "title": "Stage codes documented", "err": "HTTP Error 400: Bad Request"}

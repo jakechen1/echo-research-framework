@@ -282,3 +282,10 @@ Dashboard surfaces a **Liveness** card on Project Status tab with:
 - Age-of-last-change per channel
 - Overall status badge
 - Last 24 h trend (from `liveness_history.jsonl`)
+
+<!-- STAGE-CODES -->
+## Stage codes reference
+
+See [`STAGE_CODES.md`](./STAGE_CODES.md) for the canonical P/L/E/A/S/X/R
+table and per-stage RED thresholds. Note `X` = **eXpense** (6th stage).
+`E` is Execution only.
