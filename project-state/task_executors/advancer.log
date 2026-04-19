@@ -3,3 +3,5 @@
 [2026-04-19T04:34:25+00:00] Task 4.2/L rc=0  stdout_tail='learning note written\n'  stderr_tail=''
 [2026-04-19T04:34:26+00:00] Task 4.2/L advanced to E
 [2026-04-19T04:36:43+00:00] Task 4.2/E running: /Users/jakeclaw/workers/bin/task_4_2_execute.sh
+[2026-04-19T04:38:53+00:00] Task 4.2/E rc=1  stdout_tail=''  stderr_tail='/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (C.UTF-8)\n'
+[2026-04-19T04:38:53+00:00] Task 4.2/E FAILED rc=1 — will retry next tick
