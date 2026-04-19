@@ -1,13 +1,12 @@
-{"at": 1776618341, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=8%  running=0", "attempts": 49}
-{"at": 1776619260, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=7%  running=0", "attempts": 41}
-{"at": 1776619521, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=8%  running=0", "attempts": 39}
-{"at": 1776619848, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=8%  running=0", "attempts": 36}
-{"at": 1776620437, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=37%  running=0", "attempts": 31}
-{"at": 1776621357, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=8%  running=0", "attempts": 24}
-{"at": 1776621623, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=8%  running=0", "attempts": 21}
-{"at": 1776621961, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=8%  running=0", "attempts": 19}
-{"at": 1776623134, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=14%  running=0", "attempts": 10}
-{"at": 1776623463, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=14%  running=0", "attempts": 7}
-{"at": 1776623725, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=14%  running=0", "attempts": 5}
-{"at": 1776624052, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 2}
-{"at": 1776624314, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=14%  running=0"}
+{"at": 1776619260, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=7%  running=0", "attempts": 43}
+{"at": 1776619521, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=8%  running=0", "attempts": 41}
+{"at": 1776619848, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=8%  running=0", "attempts": 38}
+{"at": 1776620437, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=37%  running=0", "attempts": 33}
+{"at": 1776621357, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=8%  running=0", "attempts": 26}
+{"at": 1776621623, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=8%  running=0", "attempts": 23}
+{"at": 1776621961, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=8%  running=0", "attempts": 21}
+{"at": 1776623134, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=14%  running=0", "attempts": 12}
+{"at": 1776623463, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=14%  running=0", "attempts": 9}
+{"at": 1776623725, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=14%  running=0", "attempts": 7}
+{"at": 1776624052, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 4}
+{"at": 1776624314, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=14%  running=0", "attempts": 2}
