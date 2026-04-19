@@ -59,7 +59,7 @@ while :; do
 
 
   # Every 15 min: workload optimizer (resourceful E/A balancing)
-  if (( now / 60 % 15 == 0 )); then
+  if (( now / 60 % 5 == 0 )); then
     $PY $WS/skills/workload-optimizer/scripts/optimizer.py >> /Users/jakeclaw/Library/Logs/optimizer.log 2>&1
   fi
 
@@ -72,6 +72,12 @@ while :; do
   # Box status every 5 min
   if (( now / 60 % 5 == 0 )); then
     $WS/skills/box-sync/scripts/box_status.sh >> /dev/null 2>&1
+  fi
+
+
+  # Every 2 min: continuously drive current task through PLEASER stages
+  if (( now / 60 % 2 == 0 )); then
+    $PY $WS/skills/task-executor/scripts/task_advancer.py >> /Users/jakeclaw/Library/Logs/task_advancer.log 2>&1
   fi
 
   last_min=$min

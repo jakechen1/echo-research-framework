@@ -67,3 +67,6 @@
 {"at": 1776572134.227459, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "err": "HTTP Error 400: Bad Request"}
 {"at": 1776572679.378325, "emoji": "\ud83d\udcc0", "title": "NAS + Box fixed", "body": "NAS: real-filesystem card at /api/nas-mount (14.2 TB used, backup path /Volumes/dataset-jakeclaw/phgdh-project, rsync every 30 min). Box: pending-manifest mode \u2014 W0 enqueues, MacBook drains via Box MCP. 10 artifacts queued for first upload.", "ok": true}
 {"at": 1776572768.582016, "emoji": "\u26a0\ufe0f", "title": "NAS needs one-shot manual step", "err": "HTTP Error 400: Bad Request"}
+{"at": 1776573062.47118, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "err": "HTTP Error 400: Bad Request"}
+{"at": 1776573201.127732, "emoji": "\ud83d\udd04", "title": "Task 4.2 \u2192 stage L", "body": "auto-advance (no executor for Task 4.2/P)", "ok": true}
+{"at": 1776573202.76136, "emoji": "\ud83d\udd04", "title": "Continuous task-advancer live", "err": "HTTP Error 400: Bad Request"}
