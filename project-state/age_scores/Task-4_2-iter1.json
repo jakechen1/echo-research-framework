@@ -1,27 +1,39 @@
 {
-  "task": "Task 4.1",
+  "task": "Task 4.2",
   "iteration": 1,
   "window": {
     "start": "2026-04-18T00:00:00+00:00",
     "end": "2026-04-19T04:03:46+00:00"
   },
   "A": {
-    "score": 5,
-    "completion_pct": 100.0,
-    "criteria_total": 1,
-    "criteria_done": 1,
+    "score": 1,
+    "completion_pct": 0.0,
+    "criteria_total": 4,
+    "criteria_done": 0,
     "sota_categories": [
-      "dock_quality",
-      "pocket_selection",
-      "reproducibility",
-      "cheaha_infra"
+      "ligands_docked",
+      "novel_scaffolds",
+      "score_correlation",
+      "ranked_output"
     ],
     "sota_wins": [],
     "sota_ratio": 0.0,
     "criteria_detail": [
       {
-        "done": true,
-        "text": "artifact probe: [{'path': '/Users/jakeclaw/.openclaw/workspace/data/aim4_docking_results/lig1_docked.pdbqt', 'size': 21410, 'mtime': '2026-04-18T18:05:08+00:00'}]"
+        "done": false,
+        "text": "All 20 top inhibitors docked (lig1..lig20_docked.pdbqt on Cheaha)"
+      },
+      {
+        "done": false,
+        "text": "`data/aim4_vina_top20_ranked.csv` with ChEMBL_ID, pChEMBL, best_affinity (kcal/mol), rmsd_lb"
+      },
+      {
+        "done": false,
+        "text": "Scatter plot pChEMBL vs docking score \u2192 `figures/vina_vs_pchembl.png`"
+      },
+      {
+        "done": false,
+        "text": "Wiki draft with table + scatter"
       }
     ]
   },
@@ -50,5 +62,5 @@
     "sample_count": 609
   },
   "generated_at": "2026-04-19T04:03:46+00:00",
-  "summary": "A=5 G=7 E=2"
+  "summary": "A=1 G=7 E=2"
 }

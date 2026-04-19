@@ -3,7 +3,7 @@
   "iteration": 1,
   "window": {
     "start": "2026-04-18T00:00:00+00:00",
-    "end": "2026-04-19T04:02:22+00:00"
+    "end": "2026-04-19T04:03:46+00:00"
   },
   "A": {
     "score": 5,
@@ -39,16 +39,16 @@
   "E": {
     "score": 2,
     "cpu_pct_window": 15.46,
-    "gpu_pct_window": 12.57,
-    "combined_pct": 14.01,
+    "gpu_pct_window": 12.71,
+    "combined_pct": 14.09,
     "baseline": {
       "cpu_mean_7d": 15.42,
       "gpu_mean_7d": 13.6,
       "sample_count": 548,
       "refreshed_at": "2026-04-19T03:00:26+00:00"
     },
-    "sample_count": 608
+    "sample_count": 609
   },
-  "generated_at": "2026-04-19T04:02:22+00:00",
+  "generated_at": "2026-04-19T04:03:46+00:00",
   "summary": "A=5 G=7 E=2"
 }

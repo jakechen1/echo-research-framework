@@ -3,13 +3,13 @@
   "iteration": 1,
   "window": {
     "start": "2026-04-18T00:00:00+00:00",
-    "end": "2026-04-19T04:02:59+00:00"
+    "end": "2026-04-19T04:03:45+00:00"
   },
   "A": {
-    "score": 1,
-    "completion_pct": 0.0,
-    "criteria_total": 4,
-    "criteria_done": 0,
+    "score": 5,
+    "completion_pct": 100.0,
+    "criteria_total": 1,
+    "criteria_done": 1,
     "sota_categories": [
       "top_n_count",
       "pChEMBL_range",
@@ -20,20 +20,8 @@
     "sota_ratio": 0.0,
     "criteria_detail": [
       {
-        "done": false,
-        "text": "All 20 top inhibitors docked (lig1..lig20_docked.pdbqt on Cheaha)"
-      },
-      {
-        "done": false,
-        "text": "`data/aim4_vina_top20_ranked.csv` with ChEMBL_ID, pChEMBL, best_affinity (kcal/mol), rmsd_lb"
-      },
-      {
-        "done": false,
-        "text": "Scatter plot pChEMBL vs docking score \u2192 `figures/vina_vs_pchembl.png`"
-      },
-      {
-        "done": false,
-        "text": "Wiki draft with table + scatter"
+        "done": true,
+        "text": "artifact probe: [{'path': '/Users/jakeclaw/.openclaw/workspace/data/aim2_top20_inhibitors.csv', 'size': 2181, 'mtime': '2026-04-18T17:47:20+00:00'}]"
       }
     ]
   },
@@ -61,6 +49,6 @@
     },
     "sample_count": 609
   },
-  "generated_at": "2026-04-19T04:02:59+00:00",
-  "summary": "A=1 G=7 E=2"
+  "generated_at": "2026-04-19T04:03:45+00:00",
+  "summary": "A=5 G=7 E=2"
 }
