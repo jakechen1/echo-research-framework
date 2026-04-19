@@ -1,4 +1,4 @@
-# Plan Status — auto-generated 2026-04-19T03:45:23+00:00
+# Plan Status — auto-generated 2026-04-19T03:50:38+00:00
 
 Current task: **Task 4.2**  stage: **P**  iter: 1
 
@@ -9,7 +9,7 @@ Current task: **Task 4.2**  stage: **P**  iter: 1
 | Aim 1 | 1 | 0 | 2 |
 | Aim 2 | 3 | 0 | 1 |
 | Aim 3 | 1 | 0 | 3 |
-| Aim 4 | 1 | 1 | 4 |
+| Aim 4 | 1 | 1 | 7 |
 | Aim 5 | 0 | 0 | 3 |
 
 ## Per-task detail
@@ -50,6 +50,9 @@ Current task: **Task 4.2**  stage: **P**  iter: 1
 | Task 4.2.b | Cluster hits by scaffold | ⚪ pending |  |
 | Task 4.2.c | Re-score top-50 with short MD | ⚪ pending |  |
 | Task 4.3 | Scale-out: top-500 SMILES virtual screen | ⚪ pending |  |
+| Task 4.4 | Port Fan Li 2026 CLM: LSTM pretrain + 5-step incremental FT on PHGDH SMILES | ⚪ pending |  |
+| Task 4.5 | Vina rerank top-500 CLM generations into 6RIH K4T pocket | ⚪ pending |  |
+| Task 4.6 | Bimodal combined-score shortlist + synthesis triage | ⚪ pending |  |
 
 ### Aim 5
 

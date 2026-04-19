@@ -41,6 +41,9 @@ Canonical taxonomy per PROJECT_TAXONOMY.md. Stage codes in STAGE_CODES.md.
 | Task 4.2.b | Cluster hits by scaffold | — | local (rdkit) | — | subtask pending |
 | Task 4.2.c | Re-score top-50 with short MD | — | cheaha | 2 d | subtask pending |
 | Task 4.3 | Scale-out: top-500 SMILES virtual screen | G-016 | cheaha | 3 d | pending |
+| Task 4.4 | Port Fan Li 2026 CLM: LSTM pretrain + 5-step incremental FT on PHGDH SMILES | G-018 | local (L0 GPU) | 3 d | pending |
+| Task 4.5 | Vina rerank top-500 CLM generations into 6RIH K4T pocket | G-019 | cheaha | 2 d | pending |
+| Task 4.6 | Bimodal combined-score shortlist + synthesis triage | G-020 | local | 1 d | pending |
 
 ## Aim 5 — Scientific deliverables
 
