@@ -1,5 +1,5 @@
 {
-  "task": "Task 2.1",
+  "task": "Task 2.3",
   "iteration": 1,
   "window": {
     "start": "2026-04-18T00:00:00+00:00",
@@ -11,16 +11,16 @@
     "criteria_total": 1,
     "criteria_done": 1,
     "sota_categories": [
-      "n_pchembl_values",
-      "assay_type_coverage",
-      "visualization_quality"
+      "structures_covered",
+      "pocket_resolution",
+      "residue_detail"
     ],
     "sota_wins": [],
     "sota_ratio": 0.0,
     "criteria_detail": [
       {
         "done": true,
-        "text": "artifact probe: [{'path': '/Users/jakeclaw/.openclaw/workspace/figures/pchembl_dist.png', 'size': 53267, 'mtime': '2026-04-18T17:00:51+00:00'}]"
+        "text": "artifact probe: [{'path': '/Users/jakeclaw/.openclaw/workspace/data/aim2_pdb_binding_sites.json', 'size': 5198, 'mtime': '2026-04-18T17:47:19+00:00'}]"
       }
     ]
   },

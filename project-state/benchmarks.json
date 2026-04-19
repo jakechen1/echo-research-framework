@@ -1,0 +1,55 @@
+{
+  "_schema": "task_id -> {categories: [..], baseline: {cat: description}}",
+  "Task 2.1": {
+    "categories": ["n_pchembl_values", "assay_type_coverage", "visualization_quality"],
+    "baseline": {
+      "n_pchembl_values": "≥500 (ChEMBL public snapshot for PHGDH 2024)",
+      "assay_type_coverage": "IC50 + Ki + EC50 in top-10 types",
+      "visualization_quality": "distribution + mean + median lines + legend"
+    }
+  },
+  "Task 2.2": {
+    "categories": ["top_n_count", "pChEMBL_range", "scaffold_diversity", "chembl_linkouts"],
+    "baseline": {
+      "top_n_count": "≥20 unique molecules at pv≥7",
+      "pChEMBL_range": "best ≥9.0 (matches known allosteric inhibitor class)",
+      "scaffold_diversity": "≥8 unique Murcko scaffolds",
+      "chembl_linkouts": "direct EBI ChEMBL URLs per row"
+    }
+  },
+  "Task 2.3": {
+    "categories": ["structures_covered", "pocket_resolution", "residue_detail"],
+    "baseline": {
+      "structures_covered": "≥4 PHGDH PDBs",
+      "pocket_resolution": "5 Å residue shells per ligand",
+      "residue_detail": "chain/residue/distance per contact"
+    }
+  },
+  "Task 3.1": {
+    "categories": ["paper_count", "query_breadth", "recency", "metadata_completeness"],
+    "baseline": {
+      "paper_count": "≥20 papers 2024-2026 on PHGDH allosteric",
+      "query_breadth": "≥3 orthogonal PubMed queries",
+      "recency": "covers 2025 + 2026 explicitly",
+      "metadata_completeness": "PMID + journal + authors + pubdate per entry"
+    }
+  },
+  "Task 4.1": {
+    "categories": ["dock_quality", "pocket_selection", "reproducibility", "cheaha_infra"],
+    "baseline": {
+      "dock_quality": "≤ -6.0 kcal/mol for top-3 actives (smoke-level)",
+      "pocket_selection": "real ligand-based box center (not origin)",
+      "reproducibility": "fixed seed + published receptor + conda env pinned",
+      "cheaha_infra": "sbatch + conda env persistent across sessions"
+    }
+  },
+  "Task 4.2": {
+    "categories": ["ligands_docked", "novel_scaffolds", "score_correlation", "ranked_output"],
+    "baseline": {
+      "ligands_docked": "20 / 20",
+      "novel_scaffolds": "≥3 distinct Murcko in top-10 by ΔG",
+      "score_correlation": "Spearman(ΔG, pChEMBL) < -0.3",
+      "ranked_output": "CSV + scatter PNG + wiki page"
+    }
+  }
+}

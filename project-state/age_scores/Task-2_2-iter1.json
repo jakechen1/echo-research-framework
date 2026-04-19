@@ -2,51 +2,65 @@
   "task": "Task 2.2",
   "iteration": 1,
   "window": {
-    "start": "2026-04-18T17:45:00+00:00",
-    "end": "2026-04-18T17:48:44+00:00"
+    "start": "2026-04-18T00:00:00+00:00",
+    "end": "2026-04-19T04:02:59+00:00"
   },
   "A": {
     "score": 1,
-    "wiki_files": 0,
-    "wiki_chars": 0,
-    "commits": 0,
-    "window_days": 0.01,
-    "component_scores": [
-      1,
-      1,
-      1
+    "completion_pct": 0.0,
+    "criteria_total": 4,
+    "criteria_done": 0,
+    "sota_categories": [
+      "top_n_count",
+      "pChEMBL_range",
+      "scaffold_diversity",
+      "chembl_linkouts"
     ],
-    "baseline": {
-      "wiki_files_per_day": 302.43,
-      "wiki_chars_per_day": 1278449.57,
-      "commits_per_day": 5.57,
-      "refreshed_at": "2026-04-18T17:39:07+00:00"
-    }
+    "sota_wins": [],
+    "sota_ratio": 0.0,
+    "criteria_detail": [
+      {
+        "done": false,
+        "text": "All 20 top inhibitors docked (lig1..lig20_docked.pdbqt on Cheaha)"
+      },
+      {
+        "done": false,
+        "text": "`data/aim4_vina_top20_ranked.csv` with ChEMBL_ID, pChEMBL, best_affinity (kcal/mol), rmsd_lb"
+      },
+      {
+        "done": false,
+        "text": "Scatter plot pChEMBL vs docking score \u2192 `figures/vina_vs_pchembl.png`"
+      },
+      {
+        "done": false,
+        "text": "Wiki draft with table + scatter"
+      }
+    ]
   },
   "G": {
     "score": 7,
-    "current_bytes": 41476,
-    "current_skills": 4,
+    "current_bytes": 80117,
+    "current_skills": 7,
     "baseline": {
       "byte_count": 0,
       "skill_count": 0,
-      "refreshed_at": "2026-04-18T17:39:07+00:00"
+      "refreshed_at": "2026-04-19T03:00:26+00:00"
     },
-    "delta_pct": 4147500.0
+    "delta_pct": 8011600.0
   },
   "E": {
-    "score": 1,
-    "cpu_pct_window": 16.93,
-    "gpu_pct_window": 0.0,
-    "combined_pct": 8.47,
+    "score": 2,
+    "cpu_pct_window": 15.46,
+    "gpu_pct_window": 12.71,
+    "combined_pct": 14.09,
     "baseline": {
-      "cpu_mean_7d": 14.1,
-      "gpu_mean_7d": 83.14,
-      "sample_count": 1,
-      "refreshed_at": "2026-04-18T17:39:07+00:00"
+      "cpu_mean_7d": 15.42,
+      "gpu_mean_7d": 13.6,
+      "sample_count": 548,
+      "refreshed_at": "2026-04-19T03:00:26+00:00"
     },
-    "sample_count": 3
+    "sample_count": 609
   },
-  "generated_at": "2026-04-18T17:48:44+00:00",
-  "summary": "A=1 G=7 E=1"
+  "generated_at": "2026-04-19T04:02:59+00:00",
+  "summary": "A=1 G=7 E=2"
 }

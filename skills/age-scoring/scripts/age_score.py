@@ -14,17 +14,12 @@ OUT_DIR = WS/"project-state/age_scores"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 def bucket_utilization(pct: float) -> int:
-    """E axis: 1-9 based on absolute utilization %."""
-    # fixed anchors per spec
-    if pct < 10:  return 1
-    if pct < 20:  return 2
-    if pct < 33:  return 3
-    if pct < 45:  return 4
-    if pct <= 55: return 5
-    if pct < 67:  return 6
-    if pct < 85:  return 7
-    if pct < 95:  return 8
-    return 9
+    """E axis (v2, per user spec): exact anchors 5/10/20/33/50/67/80/90/95.
+    Score = largest anchor not exceeding measured utilization."""
+    ANCHORS = [(95,9),(90,8),(80,7),(67,6),(50,5),(33,4),(20,3),(10,2),(5,1)]
+    for thresh, sc in ANCHORS:
+        if pct >= thresh: return sc
+    return 1
 
 def bucket_pct_vs_baseline(cur: float, base: float) -> int:
     """A & G axes: score 1-9 based on %-delta vs 7-day baseline.
@@ -89,42 +84,78 @@ def score_growth():
         "delta_pct": round((now_bytes - (base.get("byte_count") or 1)) / max(base.get("byte_count") or 1, 1) * 100, 2),
     }
 
-def score_achievement(win_start, win_end):
-    REPO = Path("/Users/jakeclaw/phgdh-scavenger")
-    s0 = win_start.timestamp(); s1 = win_end.timestamp()
-    # wiki files touched in window
-    wiki_n, wiki_c = 0, 0
-    for p in Path("/Users/jakeclaw/wiki").rglob("*.md"):
+def score_achievement(win_start, win_end, task_id=None):
+    """A axis (v2): completion % (0-100) × SOTA coverage across declared
+    benchmark categories. See AGE_SCORING.md."""
+    import re, subprocess
+    # --- 1. Completion: parse CURRENT_GOAL.md for checkbox completion ---
+    cg = Path("/Users/jakeclaw/.openclaw/workspace/project-state/CURRENT_GOAL.md")
+    done = total = 0
+    criteria_detail = []
+    # Only parse CURRENT_GOAL checklist when it matches this task (fresh iteration);
+    # for historical tasks fall straight through to artifact probe.
+    cg_matches_task = False
+    if cg.exists() and task_id:
+        txt0 = cg.read_text()
+        import re as _re; cg_matches_task = bool(_re.search(r"^\*\*Task:\*\*\s+" + _re.escape(task_id) + r"\s*$", txt0, _re.MULTILINE))
+    if cg_matches_task and cg.exists():
+        for line in cg.read_text().splitlines():
+            m = re.match(r"-\s*\[([ xX])\]\s*(.+)", line)
+            if m:
+                total += 1
+                is_done = m.group(1).lower() == "x"
+                if is_done: done += 1
+                criteria_detail.append({"done": is_done, "text": m.group(2).strip()})
+    # Fallback: if no criteria found, use artifact probe via plan-sync registry
+    if total == 0:
         try:
-            m = p.stat().st_mtime
-            if s0 <= m <= s1: wiki_n += 1; wiki_c += p.stat().st_size
+            import sys as _sys
+            _sys.path.insert(0, "/Users/jakeclaw/.openclaw/workspace/skills/plan-sync/scripts")
+            from plan_sync import probe
+            hits = probe(task_id) if task_id else []
+            total = 1
+            done = 1 if hits else 0
+            criteria_detail = [{"done": done==1, "text": f"artifact probe: {hits}"}]
+        except Exception: pass
+    completion_pct = (done / total * 100) if total else 0.0
+
+    # --- 2. SOTA coverage: read benchmarks.json + task's sota_wins list ---
+    bench_p = Path("/Users/jakeclaw/.openclaw/workspace/project-state/benchmarks.json")
+    benchmarks = {}
+    if bench_p.exists():
+        try: benchmarks = json.loads(bench_p.read_text())
         except: pass
-    # commits in window
-    commits = 0
-    try:
-        r = subprocess.run(
-            ["git","-C",str(REPO),"log",
-             f"--since={win_start.strftime('%Y-%m-%dT%H:%M')}",
-             f"--until={win_end.strftime('%Y-%m-%dT%H:%M')}","--oneline"],
-            capture_output=True, text=True, timeout=10)
-        commits = len([l for l in r.stdout.splitlines() if l.strip()])
-    except: pass
-    # window-length scaled to days for baseline compare
-    win_days = max((win_end - win_start).total_seconds() / 86400, 0.01)
-    base = load(BDIR/"achievement.json", {})
-    scores = []
-    scores.append(bucket_pct_vs_baseline(wiki_n/win_days,    base.get("wiki_files_per_day") or 0))
-    scores.append(bucket_pct_vs_baseline(wiki_c/win_days,    base.get("wiki_chars_per_day") or 0))
-    scores.append(bucket_pct_vs_baseline(commits/win_days,   base.get("commits_per_day") or 0))
-    score = round(sum(scores)/len(scores))
+    task_bench = benchmarks.get(task_id or "", {}) if task_id else {}
+    categories = task_bench.get("categories", [])
+    wins_p = Path(f"/Users/jakeclaw/.openclaw/workspace/project-state/age_scores/_wins_{(task_id or 'x').replace(' ','-').replace('.','_')}.json")
+    sota_wins = []
+    if wins_p.exists():
+        try: sota_wins = json.loads(wins_p.read_text()).get("sota_wins", [])
+        except: pass
+    n_cat = len(categories); n_wins = len([w for w in sota_wins if w in categories])
+    sota_ratio = (n_wins / n_cat) if n_cat else 0.0
+
+    # --- 3. Combined score ---
+    if completion_pct < 25:  score = 1
+    elif completion_pct < 50: score = 2
+    elif completion_pct < 75: score = 3
+    elif completion_pct < 100: score = 4
+    else:
+        # 100% complete — quality tier
+        if sota_ratio >= 1.0:     score = 9
+        elif sota_ratio >= 0.75:  score = 8
+        elif sota_ratio >= 0.50:  score = 7
+        elif sota_ratio >= 0.25:  score = 6
+        else:                     score = 5
+
     return {
         "score": score,
-        "wiki_files": wiki_n,
-        "wiki_chars": wiki_c,
-        "commits": commits,
-        "window_days": round(win_days, 3),
-        "component_scores": scores,
-        "baseline": base,
+        "completion_pct": round(completion_pct, 1),
+        "criteria_total": total, "criteria_done": done,
+        "sota_categories": categories,
+        "sota_wins": sota_wins,
+        "sota_ratio": round(sota_ratio, 2),
+        "criteria_detail": criteria_detail[:10],
     }
 
 def main():
@@ -146,7 +177,7 @@ def main():
         "task": args.task, "iteration": args.iteration,
         "window": {"start": ws.isoformat(timespec="seconds"),
                    "end":   we.isoformat(timespec="seconds")},
-        "A": score_achievement(ws, we),
+        "A": score_achievement(ws, we, args.task),
         "G": score_growth(),
         "E": score_effort(ws, we),
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),

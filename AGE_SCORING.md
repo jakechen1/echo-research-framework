@@ -1,105 +1,77 @@
-# AGE Scoring — Refined (2026-04-18)
+# AGE Scoring — Refined v2 (2026-04-18 evening)
 
-**A.G.E.** is the reverse-NIH assessment axis for each PLEASER iteration close.
-All three axes use the same 1–9 scale: **9 = exceptional, 5 = average (50th
-percentile), 1 = failing**. This replaces the informal AGE used before
-Apr 18 2026.
+**A.G.E.** — reverse-NIH 1-9 per PLEASER iteration. **9 = exceptional, 5 = par, 1 = failing.**
 
-## Shared bucket scheme (reverse NIH)
+## A — Achievement (completion × quality-vs-SOTA)
 
-| Score | Meaning                                | Percentile vs 7-day baseline |
-|------:|----------------------------------------|------------------------------|
-|   9   | exceptional — top 5 %                  | > 95th                      |
-|   8   | excellent — top 10 %                   | 90–95th                     |
-|   7   | very good — top 20 %                   | 80–90th                     |
-|   6   | above average — top 33 %               | 67–80th                     |
-|   5   | average (±5 % margin)                  | 45–55th                     |
-|   4   | below average — bottom 33 %            | 33–45th                     |
-|   3   | poor — bottom 20 %                     | 20–33th                     |
-|   2   | very poor — bottom 10 %                | 10–20th                     |
-|   1   | failing — bottom 5 %                   | < 10th                      |
+Two sub-signals:
 
-The margin-of-error band (±5 %) guarantees a 5 for anything within ±5 %
-of baseline — prevents noise from rewarding or penalising us unfairly.
+1. **Completion** = fraction of `done criteria` in `CURRENT_GOAL.md` / `iteration_state` that are objectively satisfied (artifact exists, size-bound met, sha in git log, etc.)
+2. **Quality vs baseline/SOTA** = number of comparator categories where our
+   output beats a documented benchmark (from `project-state/benchmarks.json`).
 
-## A — Achievement (output document quality + quantity)
+| Score | Meaning | Condition |
+|------:|---------|-----------|
+| 9 | **SOTA across ALL categories** | 100% complete + beats benchmark in every category |
+| 8 | SOTA in **≥75 %** of categories | 100% complete + strong majority |
+| 7 | SOTA in **≥50 %** of categories | 100% complete + clear majority |
+| 6 | SOTA in **≥25 %** of categories | 100% complete + at least some wins |
+| 5 | **100 % complete, par with baseline** | all criteria met, quality = benchmark |
+| 4 | 75–99 % complete OR below par | sub-par, near miss |
+| 3 | 50–74 % complete | partial |
+| 2 | 25–49 % complete | mostly missing |
+| 1 | < 25 % complete | failing |
 
-Baseline = mean daily output over the **prior 7 days** of the same
-iteration/task class.
+Sub-par quality (met tasks but output below baseline) caps at 4.
 
-Components (weighted equally):
-1. **Document count** — new or modified files in: `~/wiki/**/*.md`,
-   Box (via `BOX_FOLDERS.md` log), GitHub commits to `phgdh-scavenger` repo.
-2. **Total length added** — sum of characters added to wiki/docs (not
-   counting auto-generated templates).
-3. **Curated link count** — `[[wikilink]]` count added **that resolve**
-   to an existing page (broken links don't count).
-4. **Artifact count** — figures (`.png`), data tables (`.tsv`, `.jsonl`),
-   code files (`.py`, `.sh`).
+## G — Growth (skill/code/docs delta vs 7-day baseline)
 
-Each component scored against baseline using the bucket scheme, then
-averaged (arithmetic mean, rounded to nearest integer).
+Unchanged from v1. ±10/20/33/50 % buckets around 5; ±5 % margin is 5.
 
-## G — Growth (skill evolution vs baseline)
+## E — Effort (utilization vs absolute thresholds)
 
-Baseline = skill-surface snapshot from 7 days ago. Growth % =
-`(current_skill_size − baseline_size) / baseline_size × 100`.
+Anchors exactly as specified:
 
-Skill surface is measured by:
-- Total byte count of `skills/**/*.{md,py,sh}`
-- Count of distinct skills (`skills/*/SKILL.md`)
-- Count of new scripts under `workers/bin/`
+| Score | Utilization % |
+|------:|---------------|
+| 1 | **5 %** |
+| 2 | **10 %** |
+| 3 | **20 %** |
+| 4 | **33 %** |
+| 5 | **50 %** |
+| 6 | **67 %** |
+| 7 | **80 %** |
+| 8 | **90 %** |
+| 9 | **95 %** |
 
-| Growth % (positive) | Score |
-|---------------------:|------:|
-|  > 50 %              |   9   |
-|  33–50 %             |   8   |
-|  20–33 %             |   7   |
-|  10–20 %             |   6   |
-|   ~1 % (±5 % margin) |   5   |
-| −10 to −5 %          |   4   |
-| −20 to −10 %         |   3   |
-| −33 to −20 %         |   2   |
-| < −33 %              |   1   |
+Score = largest anchor not exceeding the measured utilization.
+`utilization = (W0 CPU % + L0 GPU %) / 2`.
 
-Negative growth ≈ skills shrinking (deletions, simplifications). Not
-always bad, but scored as such — reviewer reads context.
+## Benchmarks file
 
-## E — Effort (CPU + GPU utilisation vs 7-day baseline)
+`project-state/benchmarks.json` declares comparators per task:
 
-Baseline = mean CPU + GPU utilisation over the prior 7 days during
-active work hours.
+```json
+{
+  "Task 2.2": {
+    "categories": ["potency_range", "chemical_diversity", "assay_types"],
+    "baseline": {
+      "potency_range": "pChEMBL 6-9 (ChEMBL public snapshot 2024)",
+      "chemical_diversity": "≥10 scaffolds per 20 molecules",
+      "assay_types": "cover IC50 + Ki + EC50"
+    }
+  },
+  "Task 4.1": {
+    "categories": ["dock_quality", "pocket_selection", "reproducibility"],
+    "baseline": {
+      "dock_quality": "≤ -7.0 kcal/mol for known K4T-class",
+      "pocket_selection": "K4T-centered box from 6RIH",
+      "reproducibility": "public receptor + deterministic seed"
+    }
+  }
+}
+```
 
-Measured by `utilization_sampler.py` every 60 s:
-- **W0 CPU**: sum of `%CPU` for python/node/ollama/worker procs
-  divided by core count, averaged over the iteration window.
-- **L0 GPU**: powermetrics `GPU HW active residency` if available,
-  else proxy = `1.0` when any Ollama model is loaded (running), `0.0`
-  otherwise, averaged over the window.
-
-| Average utilisation | Score | Meaning       |
-|--------------------:|------:|---------------|
-|  > 95 %             |   9   | exceptional   |
-|  85–95 %            |   8   | excellent     |
-|  67–85 %            |   7   | very good     |
-|  50–67 %            |   6   | above average |
-|  45–55 %            |   5   | average       |
-|  33–45 %            |   4   | below average |
-|  20–33 %            |   3   | poor          |
-|  10–20 %            |   2   | very poor     |
-|  <10 % (idle)       |   1   | failing       |
-
-The 5-bucket is anchored at 50 % and fuzzy-bounded on both sides (the
-45 %/55 % edges), matching the 1-% margin rule for G.
-
-## Invocation
-
-- On iteration close: `skills/age-scoring/scripts/age_score.py --task "Task X.Y"`
-- Writes `project-state/age_scores/<task>-iter<N>.json`
-- `report_builder.py --level L3` consumes it for the Assessment section
-- Dashboard renders a rolling AGE heatmap on Project Status tab
-
-## Baselines
-
-Refreshed nightly at 03:00 by `baseline_refresh.sh`:
-`project-state/age_baselines/{achievement,growth,effort}.json`.
+Each task lists the categories it will be scored against. At A-stage, the
+agent sets `sota_wins: [category, ...]` in the task's assessment and
+`age_score.py` computes A accordingly.
