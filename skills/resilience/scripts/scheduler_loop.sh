@@ -63,6 +63,17 @@ while :; do
     $PY $WS/skills/workload-optimizer/scripts/optimizer.py >> /Users/jakeclaw/Library/Logs/optimizer.log 2>&1
   fi
 
+
+  # NAS backup every 30 min + summary
+  if (( now / 60 % 30 == 0 )); then
+    /Users/jakeclaw/workers/bin/nas_backup.sh >> /Users/jakeclaw/Library/Logs/nas_backup.log 2>&1
+    $WS/skills/resilience/scripts/nas_summary.sh >> /dev/null 2>&1
+  fi
+  # Box status every 5 min
+  if (( now / 60 % 5 == 0 )); then
+    $WS/skills/box-sync/scripts/box_status.sh >> /dev/null 2>&1
+  fi
+
   last_min=$min
   sleep 60
 done
