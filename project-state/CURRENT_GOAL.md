@@ -1,27 +1,17 @@
 # Current Sub-Goal
 
 **Aim:** Aim 4 — Structure-based virtual screening on Cheaha HPC
-**Task:** Task 4.1
-**Legacy ID:** G-006
-**Started:** 2026-04-18
-**Tier:** cheaha (UAB HPC)
+**Task:** Task 4.2
+**Legacy ID:** G-007
+**Started:** 2026-04-18T19:30 CDT
+**Tier:** cheaha
 
 ## Goal
-Establish Cheaha workspace: home + scratch dirs, seed SMILES rsync
-(top-500 by pChEMBL), conda env smoke-test on amperenodes partition.
+Scale Vina docking from 3-ligand smoke test to full top-20 from Task 2.2
+against 6RIH K4T allosteric pocket. Produce ranked table.
 
 ## Definition of done
-- [ ] SSH keyauth to cheaha.rc.uab.edu working (sshpiper, no VPN for login)
-- [ ] `~/phgdh-sbdd/` dir initialised on Cheaha with seed SMILES
-- [ ] conda env with rdkit + autodock + smina created
-- [ ] `smoke_test.sbatch` submits + completes on express partition
-
-## Dependencies
-- UAB VPN (needed for compute beyond login)
-- SSH key from MacBook or W0 uploaded to Cheaha
-- `data/aim4_smiles/smiles_potency_sorted.tsv` (ready)
-
-## Blocker note
-Cheaha SSH access requires Jake's key — cannot proceed autonomously without
-confirmation that the key is registered. Will attempt connectivity probe;
-if it fails, enqueue a 🚨 to the Resolver.
+- [ ] All 20 top inhibitors docked (lig1..lig20_docked.pdbqt on Cheaha)
+- [ ] `data/aim4_vina_top20_ranked.csv` with ChEMBL_ID, pChEMBL, best_affinity (kcal/mol), rmsd_lb
+- [ ] Scatter plot pChEMBL vs docking score → `figures/vina_vs_pchembl.png`
+- [ ] Wiki draft with table + scatter

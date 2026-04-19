@@ -65,3 +65,9 @@
 - [2026-04-19T03:15:49Z] Liveness RED: iteration
 - [2026-04-19T03:20:58Z] Liveness RED: iteration
 - [2026-04-19T03:25:03Z] Liveness RED: iteration
+- [2026-04-19T03:30:14Z] Liveness RED: iteration
+- [2026-04-18T19:30Z] RESOLVED: iteration RED (Task 4.1 R stalled 6h+).
+  Root cause: Resolver stage had no auto-exit — state entered R and sat
+  forever. Fixed by adding skills/resilience/scripts/post_r_watchdog.py
+  to scheduler_loop (every 5 min). R > 10 min → auto-promote next task.
+  State advanced: Task 4.1 → Task 4.2.

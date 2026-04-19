@@ -2,7 +2,7 @@
   "task": "Task 4.1",
   "legacy_id": "G-006",
   "iteration": 1,
-  "stage": "X",
+  "stage": "R",
   "started": "2026-04-18T12:48:45",
   "history": [
     {
@@ -104,6 +104,11 @@
       "stage": "X",
       "at": "2026-04-18T13:06:12",
       "note": "Cheaha CPU credits used: ~2 min x 2 cores = negligible. Express partition fine for smoke."
+    },
+    {
+      "stage": "R",
+      "at": "2026-04-18T13:06:13",
+      "note": "no issues; first Cheaha dock landed. 4.2 (100-lig screen) ready to promote"
     }
   ]
 }

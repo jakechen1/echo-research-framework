@@ -33,6 +33,7 @@ while :; do
   # Every 5 min: liveness + resolver
   if (( now / 60 % 5 == 0 )); then
     $WS/skills/liveness-audit/scripts/liveness.sh --resolver >> /Users/jakeclaw/Library/Logs/liveness_audit.log 2>&1
+    $PY $WS/skills/resilience/scripts/post_r_watchdog.py >> /Users/jakeclaw/Library/Logs/post_r_watchdog.log 2>&1
   fi
 
   # Every 30 min at :00 and :30: repo sync

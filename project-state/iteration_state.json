@@ -1,9 +1,9 @@
 {
-  "task": "Task 4.1",
-  "legacy_id": "G-006",
+  "task": "Task 4.2",
+  "legacy_id": "G-007",
   "iteration": 1,
-  "stage": "R",
-  "started": "2026-04-18T12:48:45",
+  "stage": "P",
+  "started": "2026-04-18T22:32:04",
   "history": [
     {
       "stage": "P",
@@ -109,6 +109,11 @@
       "stage": "R",
       "at": "2026-04-18T13:06:13",
       "note": "no issues; first Cheaha dock landed. 4.2 (100-lig screen) ready to promote"
+    },
+    {
+      "stage": "P",
+      "at": "2026-04-18T22:32:04",
+      "note": "Auto-promoted by post-R watchdog (Task 4.1 R stalled 6h+). Target: scale Vina to 100-ligand screen."
     }
   ]
 }
