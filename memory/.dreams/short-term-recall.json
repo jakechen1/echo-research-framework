@@ -1,5 +1,68 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-14T13:00:00.000Z",
-  "entries": {}
+  "updatedAt": "2026-04-19T20:38:00.982Z",
+  "entries": {
+    "memory:memory/2026-04-14.md:29:48": {
+      "key": "memory:memory/2026-04-14.md:29:48",
+      "path": "memory/2026-04-14.md",
+      "startLine": 29,
+      "endLine": 48,
+      "source": "memory",
+      "snippet": "AI, machine learning, neuroscience, drug discovery, biology, technology ## Build/Rebuild System - Build modes: seed only, direct expansion, full expansion - Rebuild strategies: fix-links, update-pages, add-links, add-pages, full - Schedule: daily/weekly/monthly via dashboard API - Dashboard API: POST http://localhost:3002/api/wiki-projects ## Storage Sync Chain - Wiki on W0 SSD -> rsync 5m -> MacBook -> rsync 10m -> Box (My Projects/Current/JakeClaw/) - GitHub auto-push hourly (jakechen1/echo-research-framework) - NAS backup on-demand (/usr/local/bin/wiki-backup.sh) ## What YOU Can Do - Create wiki pages in jakeclaw/ with author: jakeclaw - Control project builds via dashboard API - Se",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-19T20:38:00.982Z",
+      "lastRecalledAt": "2026-04-19T20:38:00.982Z",
+      "queryHashes": [
+        "39dc76445141"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "backup",
+        "build/rebuild",
+        "fix-links",
+        "update-pages",
+        "add-links",
+        "add-pages",
+        "daily/weekly/monthly",
+        "3002/api/wiki-projects"
+      ]
+    },
+    "memory:memory/2026-04-12.md:1:38": {
+      "key": "memory:memory/2026-04-12.md:1:38",
+      "path": "memory/2026-04-12.md",
+      "startLine": 1,
+      "endLine": 38,
+      "source": "memory",
+      "snippet": "## Session Log - 2026-04-12 ### 11:30 AM - Main session quiet, child sub-agents timed out - Paper Project identified as highest priority ### 12:49 PM - Resumed session, discussed active projects - Sub-agents completed (timed out) - Main session ready for direction ### 1:15 PM **Durable Project Status Stored:** **Active Projects:** 1. **NIH Sex Hormones** (running) - Focus: Sex hormone biology, HPG axis, estrogen/progesterone/testosterone pathways - Wiki generation: depth 3, 20 pages/level via Hermes/wiki-builder 2. **Paper Project** (highest priority) - Stage: Early - task definition phase - Remaining work: - Search/download relevant papers - Read and extract key",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-19T20:38:00.982Z",
+      "lastRecalledAt": "2026-04-19T20:38:00.982Z",
+      "queryHashes": [
+        "39dc76445141"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "sub-agents",
+        "pages/level",
+        "hermes/wiki-builder",
+        "search/download",
+        "log",
+        "quiet",
+        "child",
+        "sub"
+      ]
+    }
+  }
 }
