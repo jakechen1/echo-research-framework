@@ -2,7 +2,7 @@
   "task": "Task 4.2",
   "legacy_id": "G-007",
   "iteration": 1,
-  "stage": "L",
+  "stage": "E",
   "started": "2026-04-18T22:32:04",
   "history": [
     {
@@ -119,6 +119,11 @@
       "stage": "L",
       "at": "2026-04-18T23:33:21",
       "note": "auto-advance (no executor for Task 4.2/P)"
+    },
+    {
+      "stage": "E",
+      "at": "2026-04-18T23:34:25",
+      "note": "executor L succeeded"
     }
   ]
 }
