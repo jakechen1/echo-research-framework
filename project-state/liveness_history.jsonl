@@ -282,3 +282,4 @@
 {"at": "2026-04-19T17:35:09+00:00", "overall": "red", "red": ["iteration"]}
 {"at": "2026-04-19T17:40:36+00:00", "overall": "red", "red": ["iteration"]}
 {"at": "2026-04-19T17:50:26+00:00", "overall": "red", "red": ["figures", "iteration"]}
+{"at": "2026-04-19T17:55:56+00:00", "overall": "red", "red": ["figures", "iteration", "dashboard_api"]}
