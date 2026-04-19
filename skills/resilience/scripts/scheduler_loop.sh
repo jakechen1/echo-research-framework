@@ -57,6 +57,12 @@ while :; do
     $PY $WS/skills/plan-sync/scripts/plan_sync.py >> /Users/jakeclaw/Library/Logs/plan_sync.log 2>&1
   fi
 
+
+  # Every 15 min: workload optimizer (resourceful E/A balancing)
+  if (( now / 60 % 15 == 0 )); then
+    $PY $WS/skills/workload-optimizer/scripts/optimizer.py >> /Users/jakeclaw/Library/Logs/optimizer.log 2>&1
+  fi
+
   last_min=$min
   sleep 60
 done

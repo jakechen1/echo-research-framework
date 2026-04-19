@@ -1,0 +1,1 @@
+{"at": "2026-04-19T03:55:41+00:00", "decision": "LOCAL_EXPAND", "A": 1, "E": 3, "cpu_pct": 15.9, "gpu_pct": 0.0, "combined_pct": 7.95, "running_expansion_jobs": 0, "chosen_action": "L0_wiki_interlink_batch", "action_id": "L0_wiki_interlink_batch", "dispatched": true, "note": "pid-detached (est ~600s, log /Users/jakeclaw/Library/Logs/optimizer_L0_wiki_interlink_batch.log)"}

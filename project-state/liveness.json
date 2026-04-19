@@ -1,9 +1,7 @@
 {
-  "generated_at": "2026-04-19T03:50:34+00:00",
-  "overall": "red",
-  "red_channels": [
-    "dashboard_api"
-  ],
+  "generated_at": "2026-04-19T03:55:43+00:00",
+  "overall": "green",
+  "red_channels": [],
   "channels": {
     "l0_gpu": {
       "status": "green",
@@ -13,15 +11,16 @@
     },
     "w0_cpu": {
       "status": "green",
-      "load_1m": 1.25,
+      "load_1m": 1.79,
       "hot_procs": [
-        "30.8 /opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python"
+        "25.1 /opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python",
+        "7.8 /usr/libexec/opendirectoryd"
       ]
     },
     "scavenger": {
       "status": "green",
       "newest": "/Users/jakeclaw/workers/data/phgdh/2026-04-18.jsonl",
-      "age_h": 20.8,
+      "age_h": 20.9,
       "file_count": 1
     },
     "figures": {
@@ -42,7 +41,7 @@
       "status": "green",
       "task": "Task 4.2",
       "stage": "P",
-      "stage_age_h": 0.31
+      "stage_age_h": 0.39
     },
     "git_push": {
       "status": "green",
@@ -51,14 +50,14 @@
     "dashboard_api": {
       "code": null,
       "ok": false,
-      "err": "timed out",
-      "status": "red"
+      "err": "HTTP Error 401: Unauthorized",
+      "status": "green"
     },
     "wiki_interlink": {
       "status": "green",
       "count": 20,
-      "age_h": 10.8,
-      "audit_age_h": 10.8
+      "age_h": 10.9,
+      "audit_age_h": 10.9
     },
     "box_sync": {
       "status": "unknown",

@@ -1,0 +1,12 @@
+{
+  "cooldowns": {
+    "L0_wiki_interlink_batch": 1776570941.423614
+  },
+  "weights": {
+    "L0_wiki_interlink_batch": 1.0,
+    "W0_scaffold_cluster": 1.0,
+    "W0_qed_lipinski_filter": 1.0,
+    "W0_tanimoto_matrix": 1.0,
+    "cheaha_vina_top20": 1.0
+  }
+}
