@@ -9,7 +9,7 @@ HEARTBEAT_FILE = "/Users/jakeclaw/.openclaw/workspace/heartbeats/phg_scavenger.t
 LOG_FILE = "/Users/jakeclaw/.openclaw/workspace/logs/phgdh_scavenger.log"
 DATA_DIR = "/Users/jakeclaw/wiki/projects/phgdh-research/data/raw"
 os.makedirs(DATA_DIR, exist_ok=True)
-os.makedirs(os.path_dirname(LOG_FILE), exist_ok=True)
+os.makedirs(os.path.dirname(LOG_FILE), exist_ok=True)
 
 def log(msg):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
