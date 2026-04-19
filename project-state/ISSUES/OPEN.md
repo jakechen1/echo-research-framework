@@ -71,3 +71,4 @@
   forever. Fixed by adding skills/resilience/scripts/post_r_watchdog.py
   to scheduler_loop (every 5 min). R > 10 min → auto-promote next task.
   State advanced: Task 4.1 → Task 4.2.
+- [2026-04-19T03:35:13Z] Liveness RED: dashboard_api
