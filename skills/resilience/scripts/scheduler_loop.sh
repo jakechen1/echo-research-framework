@@ -80,6 +80,12 @@ while :; do
     $PY $WS/skills/task-executor/scripts/task_advancer.py >> /Users/jakeclaw/Library/Logs/task_advancer.log 2>&1
   fi
 
+
+  # Every 3 min: Cheaha telemetry (sacct poll → RWI + /tmp snapshot)
+  if (( now / 60 % 3 == 0 )); then
+    $WS/skills/cheaha-telemetry/scripts/cheaha_status.sh >> /Users/jakeclaw/Library/Logs/cheaha_telemetry.log 2>&1
+  fi
+
   last_min=$min
   sleep 60
 done

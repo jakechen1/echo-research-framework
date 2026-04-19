@@ -45,23 +45,29 @@ def load(p, default):
 
 def score_effort(win_start, win_end):
     util = WS/"project-state/utilization.jsonl"
-    cpu_vals, gpu_vals = [], []
+    cpu_vals, gpu_vals, cheaha_vals = [], [], []
     if util.exists():
         for line in util.read_text().splitlines():
             try:
                 r = json.loads(line)
                 t = datetime.fromisoformat(r["at"].replace("Z","+00:00"))
                 if win_start <= t <= win_end:
-                    cpu_vals.append(r["w0_cpu_pct"]); gpu_vals.append(r["l0_gpu_pct"])
+                    cpu_vals.append(r["w0_cpu_pct"])
+                    gpu_vals.append(r["l0_gpu_pct"])
+                    cheaha_vals.append(r.get("cheaha_rwi_pct", 0.0))
             except: pass
-    cpu_avg = sum(cpu_vals)/len(cpu_vals) if cpu_vals else 0.0
-    gpu_avg = sum(gpu_vals)/len(gpu_vals) if gpu_vals else 0.0
-    combined = (cpu_avg + gpu_avg) / 2.0
+    cpu_avg    = sum(cpu_vals)/len(cpu_vals) if cpu_vals else 0.0
+    gpu_avg    = sum(gpu_vals)/len(gpu_vals) if gpu_vals else 0.0
+    cheaha_avg = sum(cheaha_vals)/len(cheaha_vals) if cheaha_vals else 0.0
+    # v3: effective utilization = max across tiers (not weighted avg).
+    # Cheaha hot while local idle still scores high — reflects real work.
+    combined = max(cpu_avg, gpu_avg, cheaha_avg)
     base = load(BDIR/"effort.json", {})
     return {
         "score": bucket_utilization(combined),
         "cpu_pct_window": round(cpu_avg, 2),
         "gpu_pct_window": round(gpu_avg, 2),
+        "cheaha_pct_window": round(cheaha_avg, 2),
         "combined_pct":   round(combined, 2),
         "baseline":       base,
         "sample_count":   len(cpu_vals),

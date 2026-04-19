@@ -98,6 +98,19 @@ def status_of(healthy_bool, unknown=False):
     if unknown: return "unknown"
     return "green" if healthy_bool else "red"
 
+
+# ---- Cheaha queue + RWI from /tmp snapshot ----
+cheaha_snap = Path("/tmp/phgdh_cheaha_status.json")
+cheaha = {}
+try:
+    if cheaha_snap.exists():
+        cheaha = json.loads(cheaha_snap.read_text())
+except Exception: pass
+cheaha_failed = cheaha.get("failed_recent", 0)
+cheaha_running = cheaha.get("running", 0)
+cheaha_pending = cheaha.get("pending", 0)
+cheaha_has_data = bool(cheaha) and "rwi_pct" in cheaha
+
 channels = {
     "l0_gpu": {
         "status": status_of(l0_busy or bool(l0_running_models), unknown=False),
@@ -136,6 +149,13 @@ channels = {
         "count": len(wih),
         "age_h": round((NOW - wih_newest.stat().st_mtime)/3600, 1) if wih_newest else None,
         "audit_age_h": round((NOW - wiki_audit.stat().st_mtime)/3600, 1) if wiki_audit.exists() else None,
+    },
+    "cheaha_queue": {
+        "status": (status_of(True) if cheaha_running > 0 or (cheaha_has_data and cheaha_failed == 0)
+                   else status_of(False) if cheaha_failed > 0 or cheaha_pending > 0
+                   else status_of(False, unknown=not cheaha_has_data)),
+        "running": cheaha_running, "pending": cheaha_pending,
+        "failed_recent": cheaha_failed, "rwi_pct": cheaha.get("rwi_pct", None),
     },
     "box_sync": {
         "status": status_of(box_log.exists() and (NOW - box_log.stat().st_mtime) < 26*3600, unknown=not box_log.exists() or box_log.stat().st_size==0),

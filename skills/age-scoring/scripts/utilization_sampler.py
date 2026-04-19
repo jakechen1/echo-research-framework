@@ -45,10 +45,18 @@ def l0_gpu_pct():
     except: return 0.0
 
 def main():
+    cheaha_rwi = 0.0
+    try:
+        import json as _j
+        snap = Path("/tmp/phgdh_cheaha_status.json")
+        if snap.exists():
+            cheaha_rwi = float(_j.loads(snap.read_text()).get("rwi_pct", 0.0))
+    except Exception: pass
     rec = {
         "at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "w0_cpu_pct": round(w0_cpu_pct(), 2),
         "l0_gpu_pct": round(l0_gpu_pct(), 2),
+        "cheaha_rwi_pct": round(cheaha_rwi, 2),
     }
     with OUT.open("a") as f:
         f.write(json.dumps(rec) + "\n")

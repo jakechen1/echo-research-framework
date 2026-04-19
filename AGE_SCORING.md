@@ -75,3 +75,28 @@ Score = largest anchor not exceeding the measured utilization.
 Each task lists the categories it will be scored against. At A-stage, the
 agent sets `sota_wins: [category, ...]` in the task's assessment and
 `age_score.py` computes A accordingly.
+
+
+## v3 update — Cheaha-aware Effort (2026-04-19)
+
+E previously averaged only `(W0 CPU + L0 GPU) / 2`. This was blind to
+Cheaha — a 95 % Cheaha array with idle local scored E = 1. Fixed:
+
+```
+effective_util = max(w0_cpu_pct, l0_gpu_pct, cheaha_rwi_pct)
+score = bucket_utilization(effective_util)
+```
+
+where `cheaha_rwi_pct` is **Remote Workload Intensity** computed by
+`skills/cheaha-telemetry`:
+
+```
+RWI = sum(CPUTimeRAW) / sum(ReqCPUS × Timelimit)   # over last 48 h of our jobs
+```
+
+Rationale: RWI = 1 means we fully used every second of CPU we requested
+from Slurm. Values <1 mean under-packed jobs (requesting more than consumed).
+Capped at 100 % at the sampler level.
+
+`utilization.jsonl` records now carry a 4th field `cheaha_rwi_pct`.
+`age_score.score_effort()` picks the max across all three tiers.

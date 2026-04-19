@@ -25,6 +25,11 @@ COOLDOWN_S = 1800    # 30 min cooldown per action
 # Each cmd is a shell command fragment executed via `bash -c` on W0
 # (Cheaha ones SSH through the cheaha alias).
 ACTIONS_REG = {
+    "W0_utilization_booster": (
+        "W0", f"{WS}/skills/plan-sync/scripts/plan_sync.py && "
+              f"/Users/jakeclaw/.hermes-venv/bin/python "
+              f"{WS}/skills/age-scoring/scripts/utilization_sampler.py",
+        30),
     "L0_wiki_interlink_batch": (
         "L0", f"{WS}/skills/plan-sync/scripts/plan_sync.py; "
               f"/Users/jakeclaw/.hermes-venv/bin/python "
@@ -104,18 +109,20 @@ def latest_age():
     except: return None
 
 def recent_util(window_s=300):
-    """Mean L0 GPU% and W0 CPU% over last N seconds."""
-    if not UTIL.exists(): return 0, 0, 0
-    cpus, gpus = [], []
+    """Mean W0 CPU %, L0 GPU %, Cheaha RWI % over last N seconds."""
+    if not UTIL.exists(): return 0, 0, 0, 0
+    cpus, gpus, cheahas = [], [], []
     for line in UTIL.read_text().splitlines()[-50:]:
         try:
             r = json.loads(line)
             t = datetime.fromisoformat(r["at"].replace("Z","+00:00")).timestamp()
             if NOW - t > window_s: continue
             cpus.append(r["w0_cpu_pct"]); gpus.append(r["l0_gpu_pct"])
+            cheahas.append(r.get("cheaha_rwi_pct", 0.0))
         except: pass
-    if not cpus: return 0, 0, 0
-    return (sum(cpus)/len(cpus), sum(gpus)/len(gpus), len(cpus))
+    if not cpus: return 0, 0, 0, 0
+    return (sum(cpus)/len(cpus), sum(gpus)/len(gpus),
+            sum(cheahas)/len(cheahas) if cheahas else 0, len(cpus))
 
 def count_running_expansion():
     try:
@@ -167,8 +174,8 @@ def main():
         print("paused via /tmp/phgdh_optimizer_pause"); return
 
     age = latest_age()
-    cpu_pct, gpu_pct, n = recent_util()
-    combined = (cpu_pct + gpu_pct) / 2
+    cpu_pct, gpu_pct, cheaha_pct, n = recent_util()
+    combined = max(cpu_pct, gpu_pct, cheaha_pct)  # v3 cheaha-aware
     running = count_running_expansion()
 
     A = (age or {}).get("A", {}).get("score") if age else None

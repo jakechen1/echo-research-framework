@@ -75,6 +75,25 @@ def pb_wiki_interlink(details):
         capture_output=True, text=True, timeout=600)
     return f"wiki interlink rc={r.returncode} tail={r.stdout[-120:].strip()}", r.returncode == 0
 
+
+def pb_cheaha_queue(details):
+    """Requeue failed Cheaha jobs once. Escalate if repeated failures."""
+    try:
+        import json as _j
+        snap = _j.loads(Path("/tmp/phgdh_cheaha_status.json").read_text())
+    except Exception:
+        return "no cheaha snapshot", False
+    failed = snap.get("failed_recent", 0)
+    if failed == 0 and snap.get("pending", 0) > 0:
+        return f"pending={snap.get('pending')} — waiting (no action)", True
+    # Try one-shot resubmit of Task 4.2 sbatch
+    r = subprocess.run(
+        ["ssh","-o","ConnectTimeout=6","cheaha",
+         "cd phgdh-sbdd && sbatch scripts/vina_top20_array.sbatch"],
+        capture_output=True, text=True, timeout=30)
+    ok = r.returncode == 0 and "Submitted" in r.stdout
+    return f"resubmit rc={r.returncode}: {r.stdout[:120]}", ok
+
 def pb_noop(details):
     return "no-op (channel doesn't need auto-remediation)", True
 
@@ -86,6 +105,7 @@ PLAYBOOKS = {
     "dashboard_api":  pb_dashboard,
     "wiki_interlink": pb_wiki_interlink,
     "box_sync":       pb_noop,
+    "cheaha_queue":   pb_cheaha_queue,
     "w0_cpu":         pb_noop,
     "figures":        pb_noop,
     "aim3_structures":pb_noop,
