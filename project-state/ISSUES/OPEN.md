@@ -25,3 +25,4 @@
 - **Context:** Daily reports + paper drafts need to sync to Box but path
   not yet provided. Default proposed: `Box/Research/PHGDH/`.
 - **Next action:** jakechen to confirm or override.
+- [2026-04-19T00:11:01Z] Liveness RED: iteration
