@@ -2,7 +2,7 @@
   "cooldowns": {
     "L0_wiki_interlink_batch": 1776606333.431029,
     "W0_scaffold_cluster": 1776606661.352649,
-    "W0_qed_lipinski_filter": 1776605159.1530828,
+    "W0_qed_lipinski_filter": 1776607252.6882932,
     "W0_tanimoto_matrix": 1776605744.4215832
   },
   "weights": {
