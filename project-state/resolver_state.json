@@ -13,10 +13,10 @@
       "last_red_at": "2026-04-19T09:01:08+00:00"
     },
     "iteration": {
-      "attempts": 38,
+      "attempts": 39,
       "last_green_at": null,
       "human_required": false,
-      "last_red_at": "2026-04-19T14:00:51+00:00"
+      "last_red_at": "2026-04-19T14:05:19+00:00"
     }
   }
 }
