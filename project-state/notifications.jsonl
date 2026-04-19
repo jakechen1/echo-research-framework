@@ -82,3 +82,4 @@
 {"at": 1776576355.678268, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "err": "HTTP Error 400: Bad Request"}
 {"at": 1776576544.961319, "emoji": "\ud83d\udce6", "title": "Box drained 8/10", "body": "8 text artifacts uploaded to Box: 3 data (CSV+2 JSON) to folder 377424268363, 5 reports (4 wiki drafts + corrected L2) to folder 377423073347. 2 PNGs left as binary (Box MCP upload_file is text-only). Liveness box_sync \u2192 green.", "ok": true}
 {"at": 1776576952.779194, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "err": "HTTP Error 400: Bad Request"}
+{"at": 1776577547.175599, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "err": "HTTP Error 400: Bad Request"}
