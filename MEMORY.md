@@ -26,10 +26,25 @@
 - Paper project is a priority
 - Timezone: America/Chicago
 
-## Recent Optimizations & Diagnostics (2026-04-14)
-- **Network Latency Found:** Critical performance gap identified between Thunderbolt (0.55ms) and WiFi (115.92ms) for W0 $\leftrightarrow$ L0 communication.
-- **Optimization Plan:**
-    1. **Switch to Thunderbolt:** Update W0 Gateway to use `10.0.0.1` instead of WiFi IP.
-    2. **Model Tiering:** Use lightweight models (e.g., 2B/7B) for routine tasks and Gemma 4 26B for heavy reasoning.
-    3. **Context Management:** Periodically trigger "fresh sessions" to flush KV cache.
-- **Established Reset Protocol:** When asked to "reset" or "start fresh," Echo will summarize vital info to `MEMORY.md` and conclude the current session.
+## PLEASER Evolution Directive: AGE-Integrated Protocol (AIPE)
+
+**Core Mandate:** Use **AGE Standards** (Achievement, Growth, Effort) as the fundamental metric for the PLEASER cycle to ensure continuous, measurable evolution.
+
+### 1. Stage A (Assessor) - The Metric
+*   **Mandatory Scoring:** Every task must be evaluated using the **1–9 AGE scale** (from `AGE_SCORING.md`).
+*   **Metric Depth:** Evaluate Achievement (completion/quality), Growth (skill delta), and Effort (resource utilization).
+
+### 2. Stage R (Resolver) - The Corrective Trigger
+*   **Sub-Par Detection:** If any AGE component (**A, G, or E**) falls below **5 (sub-par)**, the Resolver **must** be activated.
+*   **Action:** Identify root causes (blockers, resource gaps, or skill deficits) and implement corrective interventions (re-planning, automation, or resource reallocation).
+
+### 3. Stage S (Sharing) - The Optimization Engine
+*   **Refinement Log:** Use the Sharing stage to document optimization strategies and "lessons learned" from the current cycle.
+*   **Optimization Focus:** Every sharing event must output actionable refinements to the framework.
+
+### 4. The Evolution Goal (The $\text{Cycle}_{n+1}$ Objective)
+*   Every successful cycle must result in the cumulative optimization of:
+    *   **Plan (P)** $\rightarrow$ More precise, higher-accuracy planning.
+    *   **Learn (L)** $\rightarrow$ Faster, deeper, more auditable learning.
+    *   **Execute (E)** $\rightarrow$ Higher efficiency and lower errancy.
+*   **Success Criterion:** A cycle is complete only when the complexity of the problem handled increases while the AGE scores of the underlying framework stabilize or improve.
