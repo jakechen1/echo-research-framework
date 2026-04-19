@@ -201,3 +201,5 @@
 {"at": 1776634843.394867, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "err": "HTTP Error 400: Bad Request"}
 {"at": 1776635758.37628, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "err": "HTTP Error 400: Bad Request"}
 {"at": 1776636026.971534, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "err": "HTTP Error 400: Bad Request"}
+{"at": 1776636350.926062, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "err": "HTTP Error 400: Bad Request"}
+{"at": 1776636620.312881, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "err": "HTTP Error 400: Bad Request"}
