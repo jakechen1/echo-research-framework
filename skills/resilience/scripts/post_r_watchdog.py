@@ -63,6 +63,14 @@ def main():
         f"Resolver R stalled {age_min:.0f} min → post_r_watchdog advanced state."
     ], check=False, timeout=10)
     print(f"promoted {cur_task} -> {nxt} (was stalled {age_min:.0f} min)")
+    # After promotion, re-sync plan statuses
+    try:
+        subprocess.run([
+            "/Users/jakeclaw/.hermes-venv/bin/python",
+            "/Users/jakeclaw/.openclaw/workspace/skills/plan-sync/scripts/plan_sync.py"
+        ], check=False, timeout=30)
+    except Exception:
+        pass
 
 if __name__ == "__main__":
     main()

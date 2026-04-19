@@ -1,147 +1,77 @@
----
-title: "PHGDH Project — Unified Plan"
-version: 1.0
-date: 2026-04-18
-status: active
-authors: [jakechen, claude-code]
----
+# PHGDH Autonomous Drug-Discovery Project — Plan v2
 
-# PHGDH Project — Unified Plan
+*Last reorganized: 2026-04-18. Project target: novel allosteric/RBD-site
+PHGDH modulators for neurodegeneration (Alzheimer's focus).*
 
-## Executive summary
+## 1. Architecture (3 tiers)
 
-Goal: identify and characterize allosteric / RBD-site modulators of **PHGDH**
-(D-3-phosphoglycerate dehydrogenase, UniProt O43175) as candidates for
-neurodegenerative disease intervention, producing (a) a reproducible
-data + analysis pipeline, (b) a living wiki, (c) a paper draft + slide deck,
-(d) experiments run on Cheaha HPC. Operated **locally-first** (Gemma 4 26B
-on L0, Qwen 3.5 9B on W0) with Claude (paid) reserved for strategic review
-only. Runs autonomously until completion via LaunchDaemons + local agents.
+| Tier | Role | Substrate |
+|------|------|-----------|
+| 0 | OS-level daemons (no LLM) | LaunchDaemons + cron + `scheduler_loop.sh` |
+| 1 | Autonomous agents | jakeclaw (Gemma 4 26B @ L0), qwenclaw (Qwen 3.5 @ W0), Hermes |
+| 2 | Human consultant | Claude — design + unstick only, minimize cost |
 
-## Project goals (from Master-Blueprint + paper-project + 2025-progress)
+**Hosts:** L0 = `192.168.68.200` (inference). W0 = `192.168.68.201` (agents, dashboard, scheduler). Cheaha = UAB HPC via SSH alias `cheaha` (user=jakechen).
 
-1. **Data**: continuous scavenge of ChEMBL/UniProt bioactivities against PHGDH
-   (already deployed — `ai.jakeclaw.worker.phgdh_scavenger`, 2 AM daily).
-2. **Virtual screening**: structure-based drug design (SBDD) for allosteric site;
-   run on Cheaha GPU (`amperenodes`).
-3. **Wiki**: living, source-validated knowledge graph of PHGDH biology,
-   inhibitors, and method (~40 PHGDH pages already authored via Hermes
-   wiki-builder; continue incremental growth).
-4. **Paper draft**: build in Box `paper/` folder; update with each milestone.
-5. **Slide deck**: auto-update in Box `slides/` folder with new figures.
-6. **Monthly 2025 AI-drug-discovery digest** (see `wiki/research/drug_discovery_2025_progress.md`).
+## 2. 5 Aims
 
-## Architecture — three tiers
+| Aim | Title | Status | Completed tasks |
+|-----|-------|--------|-----------------|
+| **1** | Automated data pipeline + enrichment | 🟡 in progress | 1.1 |
+| **2** | Computational analysis of PHGDH inhibitors | ✅ complete | 2.1, 2.2, 2.3 |
+| **3** | Literature synthesis & knowledge graph | 🟡 in progress | 3.1 |
+| **4** | Structure-based virtual screening on Cheaha | 🟡 active | 4.1 |
+| **5** | Scientific deliverables (paper, slides, wiki) | ⚪ pending | — |
+| **∞** | **Infrastructure** (cross-cutting) | ✅ complete | liveness, notifier, AGE, resilience, auto-resolver, plan-sync |
 
-### Tier 0 — OS-level persistence (free, no LLM)
-- `/Library/LaunchDaemons/ai.jakeclaw.worker.phgdh_scavenger.plist` — data pull
-- `/Library/LaunchDaemons/ai.jakeclaw.worker.daily_briefing.plist` — state snapshot
-- `/Library/LaunchDaemons/ai.jakeclaw.session_compactor.plist` — context safety (TBD)
-- `/Library/LaunchDaemons/ai.jakeclaw.qwenclaw_morning.plist` — PM orchestrator (TBD)
-- `com.jakeclaw.git-autopush` — workspace → github every 15-45 min
-- `com.jakeclaw.nas-mount`, `com.jakeclaw.l0-keepalive`, `com.jakeclaw.system-health`
+## 3. PLEASER iteration loop (per task)
 
-### Tier 1 — Project state (files; canonical across all agents)
-Location: `/Users/jakeclaw/workers/project-state/` (to be created):
-- `CURRENT_GOAL.md` — one active sub-goal
-- `BACKLOG.md` — prioritized upcoming sub-goals
-- `COMPLETED.md` — finished sub-goals with dates + commit SHAs
-- `DAILY_LOG/YYYY-MM-DD.md` — per-day action log
-- `SNAPSHOTS/weekly_YYYY-WW.md` — weekly state rollup
+7 stages, single-char codes: **P** L E A S **X** R (X = eXpense; see `STAGE_CODES.md`).
+One active task at a time. AGE scored 1–9 reverse-NIH. Stage-timeout thresholds enforced by liveness → auto-resolver.
 
-Plus existing authoritative files (in place):
-- Scavenger output: `/Users/jakeclaw/workers/data/phgdh/YYYY-MM-DD.jsonl`
-- Wiki: `/Users/jakeclaw/wiki/` (git-backed)
-- Hermes holographic memory: `/Users/jakeclaw/.hermes/memories/`
-- Workspace git: auto-pushed to `github.com/jakechen1/echo-research-framework`
-- Box folder: `[TO-BE-CONFIRMED]/PHGDH/` with `paper/`, `slides/`, `reports/`, `logs/`
+## 4. Infrastructure skills built (2026-04-18)
 
-### Tier 2 — Local agents (free; all on your hardware)
+| Skill | Purpose |
+|-------|---------|
+| `liveness-audit` | 10-channel health monitor every 5 min |
+| `age-scoring` | Accuracy + Growth + Expense per iteration vs 7-day baseline |
+| `notifier` | Telegram alerts on milestones (dedup + rate-limit + queue) |
+| `resilience` | Atomic writes, retry queues, hourly checkpoint, boot recovery, scheduler_loop |
+| `auto-resolver` | Self-healing: per-channel playbook + 4-step escalation ladder |
+| `plan-sync` | **(new)** Auto-updates BACKLOG completion status from COMPLETED + artifacts |
 
-| Agent | Model | Host | Role |
-|-------|-------|------|------|
-| **jakeclaw** | Gemma 4 26B (Q4_K_M, 128K ctx) | L0 Ollama | Senior executor: writes, thinks, runs commands, drafts |
-| **qwenclaw** (new) | Qwen 3.5 9B | W0 Ollama | Junior PM: picks daily goal, routes, audits, logs |
-| **Hermes** (existing) | Gemma 4 via L0 | W0 | Wiki-builder + source-validator (already running) |
+## 5. Data assets (on W0 `~/.openclaw/workspace/data/`)
 
-### Tier 3 — Claude (paid; consultant only)
-- **Chrome-Claude (Opus)**: weekly 30-min strategic review, paper draft polish
-- **Claude Code (me)**: ops fires, architectural questions, incident response
+- `aim2_top20_inhibitors.csv` — 20 rows, pv ≥ 7, ranked
+- `aim2_pdb_binding_sites.json` — 5 Å residue shells per PDB ligand
+- `aim3_structures/` — 4NJN, 6RIH, 6PLF, 7S3R, 2G76 (PDB files)
+- `aim3_pubmed_phgdh_allosteric.json` — 29 papers 2024–2026
+- `aim4_smiles/smiles_potency_sorted.tsv` — 1011 molecules
+- `aim4_docking_results/` — Vina dock poses (currently 1; scaling to 20)
 
-## Roles and what triggers what
+## 6. Key decisions & conventions
 
-| Event | Who handles | Where |
-|-------|-------------|-------|
-| 02:00 daily | scavenger LaunchDaemon | new JSONL file |
-| 07:00 daily | qwenclaw picks goal | `CURRENT_GOAL.md` updated |
-| 07:15 daily | qwenclaw → jakeclaw task | Telegram / internal API |
-| 08:00 daily | daily_briefing | markdown report to Box |
-| Task result arrives | qwenclaw audits, logs | `DAILY_LOG/` + `COMPLETED.md` |
-| Wiki gap identified | Hermes wiki_builder | `~/wiki/general/` pages |
-| Session > 80 msgs | session_compactor | archive + reset |
-| Stuck 3x or ambiguous goal | escalate to human | Telegram to Jake |
-| Weekly sync (Sunday) | Chrome-Claude strategic review | `SNAPSHOTS/weekly_*.md` |
-| Ops incident | Claude Code (paid) | ad hoc |
+- **Publish gate:** PUBLISH-01 — Jake triggers publish, daemons never push
+- **Stage codes:** never rename `X` (eXpense)
+- **Scheduling:** macOS SSH can't install LaunchAgents/cron → scheduler_loop nohup with 3 resurrection paths
+- **IPs:** L0=.200, W0=.201 (NOT .133/.134)
+- **Cheaha:** SSH alias `cheaha` as user `jakechen`, key `id_ed25519`, no VPN for login node
 
-## Long-term memory integration
+## 7. Next 48 h
 
-**Built-in (all always-on):**
-- `~/.openclaw/workspace/MEMORY.md`, `SOUL.md`, `IDENTITY.md` — identity
-- `~/.openclaw/workspace/memory/YYYY-MM-DD.md` — daily memory entries
+1. Task 4.2 — scale Vina to top-20 inhibitors × 6RIH K4T pocket
+2. Task 1.2 — Hermes data→knowledge enrichment loop
+3. Task 5.2 — Repo README + pipeline diagram
+4. Move L2 report cron 17:00 → 23:00 (needs user-terminal sudo)
+5. User-gated publish of 3 wiki drafts + 20 concept-hub stubs
 
-**Hermes holographic memory (already configured):**
-- `~/.hermes/memories/` — semantic associative recall
-- Driven by `hermes memory` subcommand; provider = `holographic`
+## 8. Automatic plan maintenance
 
-**Wiki (existing, 1546+ pages):**
-- `~/wiki/general/` — PHGDH biology / drug discovery (already rich)
-- `~/wiki/research/` — project progress trackers
-- Built + maintained by `~/.hermes/scripts/wiki_builder.py`
-- Source-validated via `~/.hermes/scripts/source_validator.py`
-- Git-tracked at `~/wiki/.git`
+Starting 2026-04-18, `plan-sync` runs:
+- **Every hour** via scheduler_loop — scans COMPLETED.md + artifact files,
+  auto-updates BACKLOG.md task statuses (pending → DONE when evidence found)
+- **At every R-stage exit** — post_r_watchdog calls plan-sync before promoting
+- Writes `project-state/PLAN_STATUS.md` — a one-page human-readable dashboard
+- Telegram 📋 notice when any status flip occurs
 
-**Project state files (to be created):**
-- `~/workers/project-state/` — see Tier 1 above
-
-**Git + GitHub:**
-- `~/.openclaw/workspace/` → `github.com/jakechen1/echo-research-framework`
-- Auto-push every 15-45 min via `com.jakeclaw.git-autopush`
-
-**Box (to be wired):**
-- Summary paper, slide deck, monthly digests
-
-## Success criteria
-
-- [ ] Scavenger has ≥ 30 days of PHGDH bioactivity data in JSONL
-- [ ] Wiki has ≥ 100 source-validated PHGDH pages
-- [ ] At least 1 SBDD virtual-screening run completed on Cheaha
-- [ ] Paper draft has introduction + methods + preliminary results sections
-- [ ] Slide deck at 20+ slides summarizing findings
-- [ ] System ran ≥ 30 consecutive days without human intervention (beyond Duo pushes)
-- [ ] Resolution log has 0 unresolved incidents for 7+ days
-
-## Implementation task list (build in order)
-
-See `TASKS.md` for details. Headlines:
-
-1. **Session auto-compactor** — prevent context overflow (URGENT; hit this tonight)
-2. **Tier 1 state files** — initialize `CURRENT_GOAL.md`, `BACKLOG.md`, etc.
-3. **qwenclaw agent** — second OpenClaw agent using Qwen 3.5 for PM role
-4. **Morning orchestrator LaunchDaemon** — qwenclaw fires at 07:00
-
-## Confirmed decisions (2026-04-18)
-
-| Item | Value |
-|------|-------|
-| Box root | `My Projects/Current/JakeClaw/PHGDH/` (id 377424964160) |
-| Box subfolders | paper / slides / reports / logs / data / figures / references — IDs in `project-state/BOX_FOLDERS.md` |
-| GitHub repo | `github.com/jakechen1/phgdh-scavenger` (dedicated) — setup pending |
-| Kill switch | **`STOP-CHROME-CLAUDE`** — any agent must halt on this phrase |
-| Hermes memory | `holographic` (keep as-is) |
-| Daily report time | 21:00 local via future daemon; morning cycle at 07:00 |
-
-## Still open
-- GitHub: empty repo needs to exist before first push. Choose:
-  (a) Jake creates `jakechen1/phgdh-scavenger` via github.com web (fastest)
-  (b) Provide PAT so Claude Code can `curl` the GitHub API to create it
-- Old JakeClaw folder cleanup: MCP cannot move/delete; Jake does via Box UI
+No more stale plans.

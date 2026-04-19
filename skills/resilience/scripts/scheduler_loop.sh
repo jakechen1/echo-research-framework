@@ -51,6 +51,12 @@ while :; do
     $WS/skills/age-scoring/scripts/baseline_refresh.sh >> /Users/jakeclaw/Library/Logs/age_baseline.log 2>&1
   fi
 
+
+  # Hourly at :45 → plan-sync (BACKLOG reconciliation)
+  if [ $min -eq 45 ] && [ $min -ne $last_min ]; then
+    $PY $WS/skills/plan-sync/scripts/plan_sync.py >> /Users/jakeclaw/Library/Logs/plan_sync.log 2>&1
+  fi
+
   last_min=$min
   sleep 60
 done
