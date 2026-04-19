@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T09:45:51+00:00",
+  "generated_at": "2026-04-19T09:50:08+00:00",
   "overall": "green",
   "red_channels": [],
   "channels": {
@@ -11,11 +11,11 @@
     },
     "w0_cpu": {
       "status": "green",
-      "load_1m": 1.61,
+      "load_1m": 1.27,
       "hot_procs": [
-        "48.5 powermetrics",
-        "29.9 top",
-        "17.9 /opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python"
+        "32.2 powermetrics",
+        "25.8 /opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python",
+        "8.7 top"
       ]
     },
     "scavenger": {
@@ -42,7 +42,7 @@
       "status": "green",
       "task": "Task 4.2",
       "stage": "A",
-      "stage_age_h": 5.08
+      "stage_age_h": 5.15
     },
     "git_push": {
       "status": "green",
@@ -57,12 +57,12 @@
     "wiki_interlink": {
       "status": "green",
       "count": 20,
-      "age_h": 16.7,
+      "age_h": 16.8,
       "audit_age_h": 16.8
     },
     "box_sync": {
       "status": "green",
-      "age_h": 4.3
+      "age_h": 4.4
     }
   }
 }
