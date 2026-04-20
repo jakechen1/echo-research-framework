@@ -13,10 +13,10 @@
       "last_red_at": "2026-04-20T09:00:22+00:00"
     },
     "iteration": {
-      "attempts": 110,
+      "attempts": 111,
       "last_green_at": "2026-04-20T08:25:55+00:00",
       "human_required": false,
-      "last_red_at": "2026-04-20T19:25:54+00:00"
+      "last_red_at": "2026-04-20T19:31:33+00:00"
     },
     "figures": {
       "attempts": 0,
@@ -28,20 +28,20 @@
       "attempts": 185,
       "last_green_at": null,
       "human_required": true,
-      "last_red_at": "2026-04-20T19:25:54+00:00",
+      "last_red_at": "2026-04-20T19:31:33+00:00",
       "last_nag_at": "2026-04-20T19:05:37+00:00"
     },
     "box_sync": {
-      "attempts": 126,
+      "attempts": 127,
       "last_green_at": null,
       "human_required": false,
-      "last_red_at": "2026-04-20T19:25:54+00:00"
+      "last_red_at": "2026-04-20T19:31:33+00:00"
     },
     "wiki_interlink": {
-      "attempts": 18,
+      "attempts": 19,
       "last_green_at": null,
       "human_required": false,
-      "last_red_at": "2026-04-20T19:25:54+00:00"
+      "last_red_at": "2026-04-20T19:31:33+00:00"
     }
   }
 }
