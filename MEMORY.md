@@ -25,6 +25,7 @@
 - Primary model: Gemma 4 26B on L0 for all tasks
 - Paper project is a priority
 - Timezone: America/Chicago
+- Format average AGE score as a single three-digit integer (e.g., **AGE=275**) for immediate clarity.
 
 ## PLEASER Evolution Directive: AGE-Integrated Protocol (AIPE)
 
