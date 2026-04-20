@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-20T12:45:25.523Z",
+  "updatedAt": "2026-04-20T12:48:56.959Z",
   "entries": {
     "memory:memory/2026-04-14.md:29:48": {
       "key": "memory:memory/2026-04-14.md:29:48",
@@ -9,16 +9,17 @@
       "endLine": 48,
       "source": "memory",
       "snippet": "AI, machine learning, neuroscience, drug discovery, biology, technology ## Build/Rebuild System - Build modes: seed only, direct expansion, full expansion - Rebuild strategies: fix-links, update-pages, add-links, add-pages, full - Schedule: daily/weekly/monthly via dashboard API - Dashboard API: POST http://localhost:3002/api/wiki-projects ## Storage Sync Chain - Wiki on W0 SSD -> rsync 5m -> MacBook -> rsync 10m -> Box (My Projects/Current/JakeClaw/) - GitHub auto-push hourly (jakechen1/echo-research-framework) - NAS backup on-demand (/usr/local/bin/wiki-backup.sh) ## What YOU Can Do - Create wiki pages in jakeclaw/ with author: jakeclaw - Control project builds via dashboard API - Se",
-      "recallCount": 2,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.9715179385585637,
+      "totalScore": 2.9715179385585637,
       "maxScore": 1,
       "firstRecalledAt": "2026-04-19T20:38:00.982Z",
-      "lastRecalledAt": "2026-04-20T12:45:25.523Z",
+      "lastRecalledAt": "2026-04-20T12:48:56.959Z",
       "queryHashes": [
         "39dc76445141",
-        "31bacb47e873"
+        "31bacb47e873",
+        "8c3bd9891832"
       ],
       "recallDays": [
         "2026-04-19",
@@ -42,19 +43,21 @@
       "endLine": 38,
       "source": "memory",
       "snippet": "## Session Log - 2026-04-12 ### 11:30 AM - Main session quiet, child sub-agents timed out - Paper Project identified as highest priority ### 12:49 PM - Resumed session, discussed active projects - Sub-agents completed (timed out) - Main session ready for direction ### 1:15 PM **Durable Project Status Stored:** **Active Projects:** 1. **NIH Sex Hormones** (running) - Focus: Sex hormone biology, HPG axis, estrogen/progesterone/testosterone pathways - Wiki generation: depth 3, 20 pages/level via Hermes/wiki-builder 2. **Paper Project** (highest priority) - Stage: Early - task definition phase - Remaining work: - Search/download relevant papers - Read and extract key",
-      "recallCount": 2,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 2,
+      "totalScore": 3,
       "maxScore": 1,
       "firstRecalledAt": "2026-04-19T20:38:00.982Z",
-      "lastRecalledAt": "2026-04-20T01:45:21.090Z",
+      "lastRecalledAt": "2026-04-20T12:48:56.959Z",
       "queryHashes": [
         "39dc76445141",
-        "9e018967d222"
+        "9e018967d222",
+        "8c3bd9891832"
       ],
       "recallDays": [
-        "2026-04-19"
+        "2026-04-19",
+        "2026-04-20"
       ],
       "conceptTags": [
         "sub-agents",
@@ -65,6 +68,37 @@
         "quiet",
         "child",
         "sub"
+      ]
+    },
+    "memory:memory/2026-04-14.md:1:37": {
+      "key": "memory:memory/2026-04-14.md:1:37",
+      "path": "memory/2026-04-14.md",
+      "startLine": 1,
+      "endLine": 37,
+      "source": "memory",
+      "snippet": "# System Update - 2026-04-14 ## IMPORTANT: Wiki Restructure - **topics/ is GONE** — all 1600 pages moved to general/ - **projects/ preserved** — project branches stay under projects/ - **jakeclaw/ created** — YOUR content goes here (author: jakeclaw) - Every page now has Dublin Core metadata - RSS wiki pipeline DISABLED — builds are project-controlled only ## Active Wiki Projects These are in /Users/jakeclaw/wiki/projects/ and managed via dashboard API: 1. **PHGDH & Alzheimer Research** (projects/phgdh-research/) — 22 pages Deep dive into PHGDH role in Alzheimer disease, serine metabolism, drug targets 2. **Virtual Science Lab** (projects/virtual-science-lab/) — 84 pages AI-driven",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-20T12:48:56.959Z",
+      "lastRecalledAt": "2026-04-20T12:48:56.959Z",
+      "queryHashes": [
+        "8c3bd9891832"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "project-controlled",
+        "users/jakeclaw/wiki/projects",
+        "projects/phgdh-research",
+        "projects/virtual-science-lab",
+        "ai-driven",
+        "system",
+        "update",
+        "important"
       ]
     }
   }
