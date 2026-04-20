@@ -25,10 +25,10 @@
       "last_red_at": "2026-04-20T02:30:25+00:00"
     },
     "cheaha_queue": {
-      "attempts": 56,
+      "attempts": 57,
       "last_green_at": null,
       "human_required": false,
-      "last_red_at": "2026-04-20T05:15:26+00:00"
+      "last_red_at": "2026-04-20T05:20:57+00:00"
     }
   }
 }
