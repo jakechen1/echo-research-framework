@@ -1,4 +1,4 @@
-# Plan Status — auto-generated 2026-04-20T01:05:55+00:00
+# Plan Status — auto-generated 2026-04-20T01:15:57+00:00
 
 Current task: **Task 4.2**  stage: **A**  iter: 1
 
@@ -9,7 +9,7 @@ Current task: **Task 4.2**  stage: **A**  iter: 1
 | Aim 1 | 1 | 0 | 2 |
 | Aim 2 | 3 | 0 | 1 |
 | Aim 3 | 1 | 0 | 3 |
-| Aim 4 | 1 | 1 | 7 |
+| Aim 4 | 2 | 0 | 7 |
 | Aim 5 | 0 | 0 | 3 |
 
 ## Per-task detail
@@ -45,7 +45,7 @@ Current task: **Task 4.2**  stage: **A**  iter: 1
 | Task | Title | Status | Evidence |
 |------|-------|--------|----------|
 | Task 4.1 | Cheaha workspace setup + first dock | ✅ DONE | via COMPLETED.md |
-| Task 4.2 | Vina top-20 × 6RIH K4T pocket — ranked CSV + scatter | 🟡 ACTIVE | current iteration |
+| Task 4.2 | Vina top-20 × 6RIH K4T pocket — ranked CSV + scatter | ✅ DONE | artifact: aim4_vina_top20_ranked.csv (657B) |
 | Task 4.2.a | Filter hits by docking score | ⚪ pending |  |
 | Task 4.2.b | Cluster hits by scaffold | ⚪ pending |  |
 | Task 4.2.c | Re-score top-50 with short MD | ⚪ pending |  |
@@ -62,3 +62,5 @@ Current task: **Task 4.2**  stage: **A**  iter: 1
 | Task 5.2 | Repo README + pipeline diagram | ⚪ pending |  |
 | Task 5.3 | Poster (L4 deliverable) | ⚪ pending |  |
 
+## Flips this sync
+- **Task 4.2**: ACTIVE → DONE

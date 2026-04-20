@@ -86,6 +86,12 @@ while :; do
     $WS/skills/cheaha-telemetry/scripts/cheaha_status.sh >> /Users/jakeclaw/Library/Logs/cheaha_telemetry.log 2>&1
   fi
 
+
+  # Every 15 min: schema drift watcher
+  if (( now / 60 % 15 == 0 )); then
+    $WS/skills/cheaha-hpc/scripts/schema_watcher.sh >> /Users/jakeclaw/Library/Logs/schema_watcher.log 2>&1
+  fi
+
   last_min=$min
   sleep 60
 done

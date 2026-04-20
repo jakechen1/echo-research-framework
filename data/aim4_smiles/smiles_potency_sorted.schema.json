@@ -1,0 +1,11 @@
+{
+  "filename_glob": "smiles_potency_sorted.tsv",
+  "format": "tsv",
+  "header": true,
+  "columns": [
+    {"index": 1, "name": "pchembl",   "type": "float"},
+    {"index": 2, "name": "smiles",    "type": "smiles"},
+    {"index": 3, "name": "chembl_id", "type": "string"}
+  ],
+  "delimiter": "\t"
+}

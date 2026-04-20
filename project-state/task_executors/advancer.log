@@ -1121,3 +1121,7 @@
 [2026-04-20T01:10:23+00:00] Task 4.2/A running: /Users/jakeclaw/workers/bin/task_4_2_assess.sh
 [2026-04-20T01:10:27+00:00] Task 4.2/A rc=23  stdout_tail='job 38256316 state: FAILED\n'  stderr_tail='ange locale (C.UTF-8)\nrsync: [sender] link_stat "/home/jakechen/phgdh-sbdd/results/top20_scores.tsv" failed: No such file or directory (2)\nrsync(66204): warning: receiver has empty file list: exiting\n'
 [2026-04-20T01:10:27+00:00] Task 4.2/A FAILED rc=23 — will retry next tick
+[2026-04-20T01:12:36+00:00] Task 4.2/A cooldown (133s < 240s)
+[2026-04-20T01:14:44+00:00] Task 4.2/A running: /Users/jakeclaw/workers/bin/task_4_2_assess.sh
+[2026-04-20T01:14:52+00:00] Task 4.2/A rc=1  stdout_tail='job 38256316 state: FAILED\n'  stderr_tail='d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (C.UTF-8)\nTraceback (most recent call last):\n  File "<stdin>", line 24, in <module>\nModuleNotFoundError: No module named \'scipy\'\n'
+[2026-04-20T01:14:52+00:00] Task 4.2/A FAILED rc=1 — will retry next tick
