@@ -216,3 +216,6 @@
 {"at": 1776641749.1860962, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "err": "HTTP Error 400: Bad Request"}
 {"at": 1776642019.0316522, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "err": "HTTP Error 400: Bad Request"}
 {"at": 1776642936.175089, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "err": "HTTP Error 400: Bad Request"}
+{"at": 1776643269.004579, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "err": "HTTP Error 400: Bad Request"}
+{"at": 1776643482.667098, "emoji": "\ud83d\udce1", "title": "Cheaha telemetry online (E v3)", "body": "sacct polled every 3 min. RWI = actual/requested CPU-sec. E = max(w0_cpu, l0_gpu, cheaha_rwi). First snapshot: 23 jobs / 21 FAILED / RWI 4.77% \u2014 Task 4.2 array sbatch needs investigation. Auto-resolver pb_cheaha_queue will attempt requeue. Liveness cheaha_queue channel live.", "ok": true}
+{"at": 1776643533.975623, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "err": "HTTP Error 400: Bad Request"}

@@ -9,7 +9,7 @@ TS=$(date -u +%FT%TZ)
 
 # Ask sacct for jobs in last 48h. -X excludes steps. -p pipe-delimited. -n no header.
 SACCT=$(ssh -o ConnectTimeout=6 cheaha \
-  "sacct -u jakechen -S now-2days -X -n -p \
+  "sacct -u jakechen -S 2026-04-18T00:03:20 -X -n -p \
    --format=JobID,JobName,State,ReqCPUS,Timelimit,CPUTimeRAW,Elapsed,ReqTRES,AllocTRES,TRESUsageInMax" \
    2>/dev/null)
 
