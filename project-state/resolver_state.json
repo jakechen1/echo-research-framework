@@ -25,16 +25,16 @@
       "last_red_at": "2026-04-20T02:30:25+00:00"
     },
     "cheaha_queue": {
-      "attempts": 87,
+      "attempts": 88,
       "last_green_at": null,
       "human_required": false,
-      "last_red_at": "2026-04-20T07:55:11+00:00"
+      "last_red_at": "2026-04-20T08:00:43+00:00"
     },
     "box_sync": {
-      "attempts": 6,
+      "attempts": 7,
       "last_green_at": null,
       "human_required": false,
-      "last_red_at": "2026-04-20T07:55:11+00:00"
+      "last_red_at": "2026-04-20T08:00:43+00:00"
     }
   }
 }
