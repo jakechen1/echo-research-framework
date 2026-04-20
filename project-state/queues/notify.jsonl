@@ -1,2 +1,2 @@
-{"at": 1776720309, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=13%  running=0", "attempts": 22}
-{"at": 1776723715, "emoji": "\ud83c\udd98", "title": "HUMAN_REQUIRED: cheaha_queue", "body": "auto-resolver exhausted 185 attempts. Check ISSUES/OPEN.md."}
+{"at": 1776720309, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=13%  running=0", "attempts": 24}
+{"at": 1776723715, "emoji": "\ud83c\udd98", "title": "HUMAN_REQUIRED: cheaha_queue", "body": "auto-resolver exhausted 185 attempts. Check ISSUES/OPEN.md.", "attempts": 2}
