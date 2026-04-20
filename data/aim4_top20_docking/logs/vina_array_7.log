@@ -12,25 +12,13 @@
 # Please see http://vina.scripps.edu for more information.      #
 #################################################################
 
-Detected 24 CPUs
+Detected 48 CPUs
 WARNING: at low exhaustiveness, it may be impossible to utilize all CPUs
 Reading input ... done.
 Setting up the scoring function ... done.
 Analyzing the binding site ... done.
-Using random seed: -1557741615
+Using random seed: -281234518
 Performing search ... 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
-***************************************************
-done.
-Refining results ... done.
-
-mode |   affinity | dist from best mode
-     | (kcal/mol) | rmsd l.b.| rmsd u.b.
------+------------+----------+----------
-   1         -6.2      0.000      0.000
-   2         -6.2      7.525     12.544
-   3         -6.0      6.544      9.378
-   4         -5.9      7.667     10.674
-   5         -5.8      9.625     13.172
-Writing output ... done.
+***
