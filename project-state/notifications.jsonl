@@ -247,3 +247,7 @@
 {"at": 1776652639.149764, "emoji": "\ud83c\udfaf", "title": "Task 4.2 DONE: 20/20 Vina docks", "body": "Cheaha array 38258805 all COMPLETED. Best binder ranked + scatter plot. Boost mode live.", "ok": true}
 {"at": 1776652833.627807, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "err": "HTTP Error 400: Bad Request"}
 {"at": 1776653160.6471438, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "err": "HTTP Error 400: Bad Request"}
+{"at": 1776653422.482024, "emoji": "\ud83d\udd04", "title": "Auto-promoted Task 4.2 \u2192 Task 1.2", "body": "Resolver R stalled 13 min \u2192 post_r_watchdog advanced state.", "ok": true}
+{"at": 1776653423.303102, "emoji": "\ud83d\udccb", "title": "Plan status updated", "body": "Task 1.2 pending\u2192ACTIVE", "ok": true}
+{"at": 1776653428.4081979, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "err": "HTTP Error 400: Bad Request"}
+{"at": 1776653429.358099, "emoji": "\ud83d\udd04", "title": "Task 1.2 \u2192 stage L", "body": "auto-advance (no executor for Task 1.2/P)", "ok": true}

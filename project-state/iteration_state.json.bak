@@ -1,9 +1,9 @@
 {
-  "task": "Task 4.2",
-  "legacy_id": "G-007",
+  "task": "Task 1.2",
+  "legacy_id": "G-012",
   "iteration": 1,
-  "stage": "X",
-  "started": "2026-04-18T22:32:04",
+  "stage": "P",
+  "started": "2026-04-19T21:50:22",
   "history": [
     {
       "stage": "P",
@@ -144,6 +144,16 @@
       "stage": "X",
       "at": "2026-04-19T21:37:12",
       "note": "Cheaha: 20 array tasks \u00d7 ~75s = 25 CPU-min; L0 idle during; E low but A high"
+    },
+    {
+      "stage": "R",
+      "at": "2026-04-19T21:37:13",
+      "note": "Task 4.2 done; promote next"
+    },
+    {
+      "stage": "P",
+      "at": "2026-04-19T21:50:22",
+      "note": "Auto-promoted by post_r_watchdog (prev Task 4.2 R stalled 13 min)"
     }
   ]
 }

@@ -1,12 +1,12 @@
-# Plan Status — auto-generated 2026-04-20T02:46:00+00:00
+# Plan Status — auto-generated 2026-04-20T02:50:23+00:00
 
-Current task: **Task 4.2**  stage: **R**  iter: 1
+Current task: **Task 1.2**  stage: **P**  iter: 1
 
 ## Aim rollup
 
 | Aim | Done | Active | Pending |
 |-----|-----:|-------:|--------:|
-| Aim 1 | 1 | 0 | 2 |
+| Aim 1 | 1 | 1 | 1 |
 | Aim 2 | 3 | 0 | 1 |
 | Aim 3 | 1 | 0 | 3 |
 | Aim 4 | 2 | 0 | 7 |
@@ -19,7 +19,7 @@ Current task: **Task 4.2**  stage: **R**  iter: 1
 | Task | Title | Status | Evidence |
 |------|-------|--------|----------|
 | Task 1.1 | Daily ChEMBL scavenge + delta reporting | ✅ DONE | via COMPLETED.md |
-| Task 1.2 | Scavenger→Hermes enrichment loop (rank new molecules, seed wiki pages) | ⚪ pending |  |
+| Task 1.2 | Scavenger→Hermes enrichment loop (rank new molecules, seed wiki pages) | 🟡 ACTIVE | current iteration |
 | Task 1.3 | Entity-page templates (molecule / target / pathway / gene-set) | ⚪ pending |  |
 
 ### Aim 2
@@ -62,3 +62,5 @@ Current task: **Task 4.2**  stage: **R**  iter: 1
 | Task 5.2 | Repo README + pipeline diagram | ⚪ pending |  |
 | Task 5.3 | Poster (L4 deliverable) | ⚪ pending |  |
 
+## Flips this sync
+- **Task 1.2**: pending → ACTIVE
