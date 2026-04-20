@@ -1,36 +1,33 @@
 {
-  "generated_at": "2026-04-20T09:00:22+00:00",
+  "generated_at": "2026-04-20T09:10:30+00:00",
   "overall": "red",
   "red_channels": [
-    "l0_gpu",
     "iteration",
     "cheaha_queue",
     "box_sync"
   ],
   "channels": {
     "l0_gpu": {
-      "status": "red",
-      "running_models": []
+      "status": "green",
+      "running_models": [
+        "gemma4-agent:latest"
+      ]
     },
     "w0_cpu": {
       "status": "green",
-      "load_1m": 1.35,
-      "hot_procs": [
-        "34.6 /opt/homebrew/Cellar/node@22/22.22.2/bin/node",
-        "28.9 openclaw",
-        "5.4 /sbin/launchd"
-      ]
+      "load_1m": 1.52,
+      "hot_procs": []
     },
     "scavenger": {
       "status": "green",
       "newest": "/Users/jakeclaw/workers/data/phgdh/2026-04-20.jsonl",
-      "age_h": 2.0,
+      "age_h": 2.2,
       "file_count": 3
     },
     "figures": {
       "status": "green",
       "newest": "/Users/jakeclaw/.openclaw/workspace/figures/vina_vs_pchembl.png",
-      "age_h": 6.4,
+      "age_h": 6.6,
       "file_count": 3
     },
     "aim3_structures": {
@@ -45,11 +42,11 @@
       "status": "red",
       "task": "Task 1.2",
       "stage": "E",
-      "stage_age_h": 6.13
+      "stage_age_h": 6.3
     },
     "git_push": {
       "status": "green",
-      "age_h": 0.1
+      "age_h": 0.2
     },
     "dashboard_api": {
       "code": null,
@@ -60,8 +57,8 @@
     "wiki_interlink": {
       "status": "green",
       "count": 20,
-      "age_h": 40.0,
-      "audit_age_h": 40.0
+      "age_h": 40.1,
+      "audit_age_h": 40.2
     },
     "cheaha_queue": {
       "status": "red",
@@ -72,7 +69,7 @@
     },
     "box_sync": {
       "status": "red",
-      "age_h": 27.5
+      "age_h": 27.7
     }
   }
 }
