@@ -13,10 +13,10 @@
       "last_red_at": "2026-04-19T09:01:08+00:00"
     },
     "iteration": {
-      "attempts": 0,
+      "attempts": 1,
       "last_green_at": "2026-04-20T08:25:55+00:00",
       "human_required": false,
-      "last_red_at": "2026-04-20T02:30:25+00:00"
+      "last_red_at": "2026-04-20T08:55:46+00:00"
     },
     "figures": {
       "attempts": 0,
@@ -25,16 +25,16 @@
       "last_red_at": "2026-04-20T02:30:25+00:00"
     },
     "cheaha_queue": {
-      "attempts": 97,
+      "attempts": 98,
       "last_green_at": null,
       "human_required": false,
-      "last_red_at": "2026-04-20T08:50:21+00:00"
+      "last_red_at": "2026-04-20T08:55:46+00:00"
     },
     "box_sync": {
-      "attempts": 16,
+      "attempts": 17,
       "last_green_at": null,
       "human_required": false,
-      "last_red_at": "2026-04-20T08:50:21+00:00"
+      "last_red_at": "2026-04-20T08:55:46+00:00"
     }
   }
 }
