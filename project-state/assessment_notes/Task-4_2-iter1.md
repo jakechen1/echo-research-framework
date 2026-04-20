@@ -1,13 +1,13 @@
 # Assessment — Task 4.2 iter 1
-*2026-04-19T04:41:11+00:00*
+*2026-04-20T02:37:11+00:00*
 
 ## Scores vs target
 
 | Axis | Actual | Target | Diagnosis |
 |------|-------:|-------:|-----------|
 | A | 1 | 7+ | completion=0.0%, SOTA=0.0 |
-| G | 7 | — | delta_pct=8011600.0 |
-| E | 2 | 6+ | combined=14.09% |
+| G | 7 | — | delta_pct=11831800.0 |
+| E | 2 | 6+ | combined=15.4% |
 
 ## Recommendation: **RETRY** — A=1, try: rerun_with_logging
 
@@ -23,3 +23,4 @@
 - ⚪ `novel_scaffolds` — baseline: ≥3 distinct Murcko in top-10 by ΔG
 - ⚪ `score_correlation` — baseline: Spearman(ΔG, pChEMBL) < -0.3
 - ⚪ `ranked_output` — baseline: CSV + scatter PNG + wiki page
+- ⚪ `cheaha_efficiency` — baseline: RWI >= 0.7 (70% of requested Slurm allocation actually consumed)

@@ -13,22 +13,22 @@
       "last_red_at": "2026-04-19T09:01:08+00:00"
     },
     "iteration": {
-      "attempts": 176,
-      "last_green_at": null,
+      "attempts": 0,
+      "last_green_at": "2026-04-20T02:40:31+00:00",
       "human_required": false,
       "last_red_at": "2026-04-20T02:30:25+00:00"
     },
     "figures": {
-      "attempts": 96,
-      "last_green_at": null,
+      "attempts": 0,
+      "last_green_at": "2026-04-20T02:40:31+00:00",
       "human_required": false,
       "last_red_at": "2026-04-20T02:30:25+00:00"
     },
     "cheaha_queue": {
-      "attempts": 26,
+      "attempts": 27,
       "last_green_at": null,
       "human_required": false,
-      "last_red_at": "2026-04-20T02:30:25+00:00"
+      "last_red_at": "2026-04-20T02:40:31+00:00"
     }
   }
 }

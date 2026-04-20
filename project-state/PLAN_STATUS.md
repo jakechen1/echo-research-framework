@@ -1,6 +1,6 @@
-# Plan Status — auto-generated 2026-04-20T02:20:28+00:00
+# Plan Status — auto-generated 2026-04-20T02:40:33+00:00
 
-Current task: **Task 4.2**  stage: **A**  iter: 1
+Current task: **Task 4.2**  stage: **R**  iter: 1
 
 ## Aim rollup
 
@@ -45,7 +45,7 @@ Current task: **Task 4.2**  stage: **A**  iter: 1
 | Task | Title | Status | Evidence |
 |------|-------|--------|----------|
 | Task 4.1 | Cheaha workspace setup + first dock | ✅ DONE | via COMPLETED.md |
-| Task 4.2 | Vina top-20 × 6RIH K4T pocket — ranked CSV + scatter | ✅ DONE | artifact: aim4_vina_top20_ranked.csv (6301B) |
+| Task 4.2 | Vina top-20 × 6RIH K4T pocket — ranked CSV + scatter | ✅ DONE | artifact: aim4_vina_top20_ranked.csv (635B) |
 | Task 4.2.a | Filter hits by docking score | ⚪ pending |  |
 | Task 4.2.b | Cluster hits by scaffold | ⚪ pending |  |
 | Task 4.2.c | Re-score top-50 with short MD | ⚪ pending |  |

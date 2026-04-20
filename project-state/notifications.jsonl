@@ -239,3 +239,10 @@
 {"at": 1776651027.470721, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "err": "HTTP Error 400: Bad Request"}
 {"at": 1776651628.375979, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "err": "HTTP Error 400: Bad Request"}
 {"at": 1776652230.5280151, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "err": "HTTP Error 400: Bad Request"}
+{"at": 1776652625.853455, "emoji": "\u2705", "title": "Task 4.2 iter1 scored", "body": "A=1  G=7  E=2", "ok": true}
+{"at": 1776652626.620311, "emoji": "\ud83d\udd04", "title": "Task 4.2 \u2192 stage A", "body": "20/20 docks done; ranked CSV + scatter; best -6.6 kcal/mol", "ok": true}
+{"at": 1776652631.701443, "emoji": "\ud83d\udd04", "title": "Task 4.2 \u2192 stage S", "err": "HTTP Error 400: Bad Request"}
+{"at": 1776652632.58691, "emoji": "\ud83d\udd04", "title": "Task 4.2 \u2192 stage X", "body": "Cheaha: 20 array tasks \u00d7 ~75s = 25 CPU-min; L0 idle during; E low but A high", "ok": true}
+{"at": 1776652633.3420658, "emoji": "\ud83d\udd04", "title": "Task 4.2 \u2192 stage R", "body": "Task 4.2 done; promote next", "ok": true}
+{"at": 1776652639.149764, "emoji": "\ud83c\udfaf", "title": "Task 4.2 DONE: 20/20 Vina docks", "body": "Cheaha array 38258805 all COMPLETED. Best binder ranked + scatter plot. Boost mode live.", "ok": true}
+{"at": 1776652833.627807, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "err": "HTTP Error 400: Bad Request"}

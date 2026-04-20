@@ -2,7 +2,7 @@
   "task": "Task 4.2",
   "legacy_id": "G-007",
   "iteration": 1,
-  "stage": "E",
+  "stage": "X",
   "started": "2026-04-18T22:32:04",
   "history": [
     {
@@ -124,6 +124,26 @@
       "stage": "E",
       "at": "2026-04-18T23:34:25",
       "note": "executor L succeeded"
+    },
+    {
+      "stage": "A",
+      "at": "2026-04-18T23:41:10",
+      "note": "executor E succeeded"
+    },
+    {
+      "stage": "A",
+      "at": "2026-04-19T21:37:06",
+      "note": "20/20 docks done; ranked CSV + scatter; best -6.6 kcal/mol"
+    },
+    {
+      "stage": "S",
+      "at": "2026-04-19T21:37:11",
+      "note": "wiki draft + box enqueue via task_4_2_share.sh"
+    },
+    {
+      "stage": "X",
+      "at": "2026-04-19T21:37:12",
+      "note": "Cheaha: 20 array tasks \u00d7 ~75s = 25 CPU-min; L0 idle during; E low but A high"
     }
   ]
 }

@@ -1196,3 +1196,5 @@
 [2026-04-20T02:35:06+00:00] Task 4.2/A rc=1  stdout_tail='job 38256316 state: FAILED\n'  stderr_tail='d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (C.UTF-8)\nTraceback (most recent call last):\n  File "<stdin>", line 24, in <module>\nModuleNotFoundError: No module named \'scipy\'\n'
 [2026-04-20T02:35:06+00:00] Task 4.2/A FAILED rc=1 — will retry next tick
 [2026-04-20T02:36:13+00:00] Task 4.2/A cooldown (74s < 240s)
+[2026-04-20T02:38:22+00:00] in R — handled by post_r_watchdog
+[2026-04-20T02:40:34+00:00] in R — handled by post_r_watchdog
