@@ -251,3 +251,5 @@
 {"at": 1776653423.303102, "emoji": "\ud83d\udccb", "title": "Plan status updated", "body": "Task 1.2 pending\u2192ACTIVE", "ok": true}
 {"at": 1776653428.4081979, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "err": "HTTP Error 400: Bad Request"}
 {"at": 1776653429.358099, "emoji": "\ud83d\udd04", "title": "Task 1.2 \u2192 stage L", "body": "auto-advance (no executor for Task 1.2/P)", "ok": true}
+{"at": 1776653560.161145, "emoji": "\ud83d\udd04", "title": "Task 1.2 \u2192 stage E", "body": "auto-advance (no executor for Task 1.2/L)", "ok": true}
+{"at": 1776653755.653725, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "err": "HTTP Error 400: Bad Request"}

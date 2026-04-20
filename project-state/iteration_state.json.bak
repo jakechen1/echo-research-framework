@@ -2,7 +2,7 @@
   "task": "Task 1.2",
   "legacy_id": "G-012",
   "iteration": 1,
-  "stage": "P",
+  "stage": "L",
   "started": "2026-04-19T21:50:22",
   "history": [
     {
@@ -154,6 +154,11 @@
       "stage": "P",
       "at": "2026-04-19T21:50:22",
       "note": "Auto-promoted by post_r_watchdog (prev Task 4.2 R stalled 13 min)"
+    },
+    {
+      "stage": "L",
+      "at": "2026-04-19T21:50:29",
+      "note": "auto-advance (no executor for Task 1.2/P)"
     }
   ]
 }

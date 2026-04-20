@@ -1202,3 +1202,7 @@
 [2026-04-20T02:44:55+00:00] in R — handled by post_r_watchdog
 [2026-04-20T02:48:10+00:00] in R — handled by post_r_watchdog
 [2026-04-20T02:50:30+00:00] Task 1.2/P auto-advanced to L (no executor)
+[2026-04-20T02:52:40+00:00] Task 1.2/L auto-advanced to E (no executor)
+[2026-04-20T02:54:50+00:00] Task 1.2/E running: /Users/jakeclaw/workers/bin/task_1_2_hermes_loop.sh
+[2026-04-20T02:54:50+00:00] Task 1.2/E rc=127  stdout_tail=''  stderr_tail='/bin/sh: /Users/jakeclaw/workers/bin/task_1_2_hermes_loop.sh: No such file or directory\n'
+[2026-04-20T02:54:50+00:00] Task 1.2/E FAILED rc=127 — will retry next tick
