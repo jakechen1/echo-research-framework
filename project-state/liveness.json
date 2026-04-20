@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T01:50:24+00:00",
+  "generated_at": "2026-04-20T01:55:59+00:00",
   "overall": "red",
   "red_channels": [
     "figures",
@@ -15,17 +15,15 @@
     },
     "w0_cpu": {
       "status": "green",
-      "load_1m": 1.54,
+      "load_1m": 1.48,
       "hot_procs": [
-        "34.1 powermetrics",
-        "34.1 /opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python",
-        "14.5 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared"
+        "19.9 /opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python"
       ]
     },
     "scavenger": {
       "status": "green",
       "newest": "/Users/jakeclaw/workers/data/phgdh/2026-04-19.jsonl",
-      "age_h": 18.8,
+      "age_h": 18.9,
       "file_count": 2
     },
     "figures": {
@@ -46,11 +44,11 @@
       "status": "red",
       "task": "Task 4.2",
       "stage": "A",
-      "stage_age_h": 21.15
+      "stage_age_h": 21.25
     },
     "git_push": {
       "status": "green",
-      "age_h": 0.3
+      "age_h": 0.1
     },
     "dashboard_api": {
       "code": null,
@@ -61,8 +59,8 @@
     "wiki_interlink": {
       "status": "green",
       "count": 20,
-      "age_h": 32.8,
-      "audit_age_h": 32.8
+      "age_h": 32.9,
+      "audit_age_h": 32.9
     },
     "cheaha_queue": {
       "status": "red",
