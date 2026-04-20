@@ -324,3 +324,4 @@
 - [2026-04-20T08:45:49Z] Liveness RED: cheaha_queue,box_sync
 - [2026-04-20T08:50:21Z] Liveness RED: cheaha_queue,box_sync
 - [2026-04-20T08:55:45Z] Liveness RED: iteration,cheaha_queue,box_sync
+- [2026-04-20T09:00:22Z] Liveness RED: l0_gpu,iteration,cheaha_queue,box_sync

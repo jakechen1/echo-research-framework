@@ -397,3 +397,7 @@
 {"at": "2026-04-20T08:55:46+00:00", "channel": "iteration", "attempt": 1, "action": "post_r_watchdog: not in R \u2014 nothing to do", "success": true}
 {"at": "2026-04-20T08:55:46+00:00", "channel": "cheaha_queue", "attempt": 98, "action": "resubmit rc=0: Submitted batch job 38260364\n", "success": true}
 {"at": "2026-04-20T08:55:46+00:00", "channel": "box_sync", "attempt": 17, "action": "no-op (channel doesn't need auto-remediation)", "success": true}
+{"at": "2026-04-20T09:00:22+00:00", "channel": "l0_gpu", "attempt": 1, "action": "L0 warm-up failed: <urlopen error timed out>", "success": false}
+{"at": "2026-04-20T09:00:22+00:00", "channel": "iteration", "attempt": 2, "action": "post_r_watchdog: not in R \u2014 nothing to do", "success": true}
+{"at": "2026-04-20T09:00:22+00:00", "channel": "cheaha_queue", "attempt": 99, "action": "resubmit rc=0: Submitted batch job 38260384\n", "success": true}
+{"at": "2026-04-20T09:00:22+00:00", "channel": "box_sync", "attempt": 18, "action": "no-op (channel doesn't need auto-remediation)", "success": true}
