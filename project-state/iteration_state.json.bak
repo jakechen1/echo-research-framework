@@ -2,7 +2,7 @@
   "task": "Task 4.4",
   "legacy_id": "G-018",
   "iteration": 1,
-  "stage": "A",
+  "stage": "X",
   "started": "2026-04-20T22:01:08",
   "history": [
     {
@@ -189,6 +189,16 @@
       "stage": "A",
       "at": "2026-04-20T22:06:20",
       "note": "auto-advance (no executor for Task 4.4/E)"
+    },
+    {
+      "stage": "S",
+      "at": "2026-04-20T22:08:27",
+      "note": "auto-advance (no executor for Task 4.4/A)"
+    },
+    {
+      "stage": "X",
+      "at": "2026-04-20T22:10:38",
+      "note": "auto-advance (no executor for Task 4.4/S)"
     }
   ]
 }
