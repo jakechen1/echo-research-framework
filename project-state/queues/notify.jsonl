@@ -1,2 +1,2 @@
-{"at": 1776740718, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=15%  running=0", "attempts": 26}
-{"at": 1776741037, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=15%  running=0", "attempts": 23}
+{"at": 1776740718, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=15%  running=0", "attempts": 28}
+{"at": 1776741037, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=15%  running=0", "attempts": 25}
