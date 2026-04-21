@@ -1,4 +1,4 @@
-# Plan Status — auto-generated 2026-04-21T23:45:23+00:00
+# Plan Status — auto-generated 2026-04-21T23:55:27+00:00
 
 Current task: **Task 1.2**  stage: **E**  iter: 1
 
@@ -10,7 +10,7 @@ Current task: **Task 1.2**  stage: **E**  iter: 1
 | Aim 2 | 3 | 0 | 1 |
 | Aim 3 | 1 | 0 | 9 |
 | Aim 4 | 2 | 0 | 9 |
-| Aim 5 | 0 | 0 | 2 |
+| Aim 5 | 0 | 0 | 3 |
 
 ## Per-task detail
 
@@ -39,7 +39,7 @@ Current task: **Task 1.2**  stage: **E**  iter: 1
 
 | Task | Title | Status | Evidence |
 |------|-------|--------|----------|
-| Task 3.1 | PubMed sweep "PH 	GDH allosteric / RBD" 2024-2026 | ✅ DONE | via COMPLETED.md |
+| Task 3.1 | PubMed sweep "PHGDH all</strong> allosteric / RBD" 2024-2026 | ✅ DONE | via COMPLETED.md |
 | Task 3.2 | Wiki page `phgdh-scavenger` — pipeline, schema, output | ⚪ pending |  |
 | Task 3.2.a | Document technical pipeline & data schema | ⚪ pending |  |
 | Task 3.2.b | Create "How-to" guide for scaffold scavenger | ⚪ pending |  |
@@ -55,7 +55,7 @@ Current task: **Task 1.2**  stage: **E**  iter: 1
 | Task | Title | Status | Evidence |
 |------|-------|--------|----------|
 | Task 4.1 | Cheaha workspace setup + first dock | ✅ DONE | via COMPLETED.md |
-| Task 4.2 | Vina top-2 	0 × 6RIH K4T pocket — ranked CSV + scatter | ✅ DONE | artifact: aim4_vina_top20_ranked.csv (635B) |
+| Task 4.2 | Vina top-20 × 6RIH K4T pocket — ranked CSV + scatter | ✅ DONE | artifact: aim4_vina_top20_ranked.csv (635B) |
 | Task 4.2.a | Filter hits by docking score | ⚪ pending |  |
 | Task 4.2.b | Cluster hits by scaffold | ⚪ pending |  |
 | Task 4.2.c | Re-score top-50 with short MD | ⚪ pending |  |
@@ -70,6 +70,7 @@ Current task: **Task 1.2**  stage: **E**  iter: 1
 
 | Task | Title | Status | Evidence |
 |------|-------|--------|----------|
+| Task 5.1 | Paper introduction draft | ⚪ pending |  |
 | Task 5.2 | Repo README + pipeline diagram | ⚪ pending |  |
 | Task 5.3 | Poster (L4 deliverable) | ⚪ pending |  |
 
