@@ -150,3 +150,22 @@
 - **message**: 
 
 ---
+
+## Compacted 20260421-003422 — 5ba5261a-1987-4751-a75b-e73c13f2e895.jsonl
+- lines: 87
+- bytes: 378292
+- archive: /Users/jakeclaw/.openclaw/agents/main/sessions/_archived_20260421-003422
+
+### Last 10 messages (trimmed)
+- **message**: 
+- **message**: 
+- **message**: 
+- **message**: 
+- **message**: 
+- **message**: 
+- **message**: 
+- **message**: 
+- **message**: 
+- **message**: 
+
+---
