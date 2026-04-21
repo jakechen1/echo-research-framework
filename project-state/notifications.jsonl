@@ -423,3 +423,4 @@
 {"at": 1776741932.170676, "emoji": "\ud83d\udccb", "title": "Plan status updated", "body": "Task 1.2 pending\u2192ACTIVE; Task 4.4 ACTIVE\u2192pending", "ok": true}
 {"at": 1776742000.387124, "emoji": "\ud83d\udd04", "title": "Task 1.2 \u2192 stage L", "body": "auto-advance (no executor for Task 1.2/P)", "ok": true}
 {"at": 1776742128.366982, "emoji": "\ud83d\udd04", "title": "Task 1.2 \u2192 stage E", "body": "auto-advance (no executor for Task 1.2/L)", "ok": true}
+{"at": 1776747012.5450518, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "err": "HTTP Error 400: Bad Request"}
