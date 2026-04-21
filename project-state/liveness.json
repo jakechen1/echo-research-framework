@@ -1,7 +1,8 @@
 {
-  "generated_at": "2026-04-21T08:55:39+00:00",
+  "generated_at": "2026-04-21T09:00:20+00:00",
   "overall": "red",
   "red_channels": [
+    "l0_gpu",
     "figures",
     "wiki_interlink",
     "cheaha_queue",
@@ -9,28 +10,26 @@
   ],
   "channels": {
     "l0_gpu": {
-      "status": "green",
-      "running_models": [
-        "gemma4-agent:latest"
-      ]
+      "status": "red",
+      "running_models": []
     },
     "w0_cpu": {
       "status": "green",
-      "load_1m": 1.6,
+      "load_1m": 1.61,
       "hot_procs": [
-        "20.6 /opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python"
+        "7.6 /System/Applications/Weather.app/Contents/PlugIns/WeatherWidget.appex/Contents/MacOS/WeatherWidget"
       ]
     },
     "scavenger": {
       "status": "green",
       "newest": "/Users/jakeclaw/workers/data/phgdh/2026-04-21.jsonl",
-      "age_h": 1.9,
+      "age_h": 2.0,
       "file_count": 4
     },
     "figures": {
       "status": "red",
       "newest": "/Users/jakeclaw/.openclaw/workspace/figures/vina_vs_pchembl.png",
-      "age_h": 30.3,
+      "age_h": 30.4,
       "file_count": 3
     },
     "aim3_structures": {
@@ -45,11 +44,11 @@
       "status": "green",
       "task": "Task 1.2",
       "stage": "E",
-      "stage_age_h": 5.45
+      "stage_age_h": 5.52
     },
     "git_push": {
       "status": "green",
-      "age_h": 0.2
+      "age_h": 0.3
     },
     "dashboard_api": {
       "code": null,
@@ -60,8 +59,8 @@
     "wiki_interlink": {
       "status": "red",
       "count": 20,
-      "age_h": 63.9,
-      "audit_age_h": 63.9
+      "age_h": 64.0,
+      "audit_age_h": 64.0
     },
     "cheaha_queue": {
       "status": "red",
@@ -72,7 +71,7 @@
     },
     "box_sync": {
       "status": "red",
-      "age_h": 51.4
+      "age_h": 51.5
     }
   }
 }
