@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-20T12:48:56.959Z",
+  "updatedAt": "2026-04-21T03:14:49.753Z",
   "entries": {
     "memory:memory/2026-04-14.md:29:48": {
       "key": "memory:memory/2026-04-14.md:29:48",
@@ -43,17 +43,18 @@
       "endLine": 38,
       "source": "memory",
       "snippet": "## Session Log - 2026-04-12 ### 11:30 AM - Main session quiet, child sub-agents timed out - Paper Project identified as highest priority ### 12:49 PM - Resumed session, discussed active projects - Sub-agents completed (timed out) - Main session ready for direction ### 1:15 PM **Durable Project Status Stored:** **Active Projects:** 1. **NIH Sex Hormones** (running) - Focus: Sex hormone biology, HPG axis, estrogen/progesterone/testosterone pathways - Wiki generation: depth 3, 20 pages/level via Hermes/wiki-builder 2. **Paper Project** (highest priority) - Stage: Early - task definition phase - Remaining work: - Search/download relevant papers - Read and extract key",
-      "recallCount": 3,
+      "recallCount": 4,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 3,
+      "totalScore": 4,
       "maxScore": 1,
       "firstRecalledAt": "2026-04-19T20:38:00.982Z",
-      "lastRecalledAt": "2026-04-20T12:48:56.959Z",
+      "lastRecalledAt": "2026-04-21T03:14:49.753Z",
       "queryHashes": [
         "39dc76445141",
         "9e018967d222",
-        "8c3bd9891832"
+        "8c3bd9891832",
+        "5b3d4d38c12b"
       ],
       "recallDays": [
         "2026-04-19",

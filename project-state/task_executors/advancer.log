@@ -2409,3 +2409,5 @@
 [2026-04-21T03:08:28+00:00] Task 4.4/A auto-advanced to S (no executor)
 [2026-04-21T03:10:43+00:00] Task 4.4/S auto-advanced to X (no executor)
 [2026-04-21T03:12:48+00:00] Task 4.4/X auto-advanced to R (no executor)
+[2026-04-21T03:14:56+00:00] in R — handled by post_r_watchdog
+[2026-04-21T03:18:07+00:00] in R — handled by post_r_watchdog
