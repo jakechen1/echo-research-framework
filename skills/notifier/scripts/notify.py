@@ -1,16 +1,17 @@
 #!/usr/bin/env python3
-"""Proactive Telegram notifier with rate-limit + dedup.
-
-CLI:  notify.py <emoji> <title> [body]
-Lib:  from notify import notify; notify("🎯", "Task done", "...")
-"""
+"""notify v2 — adds SUPPRESS_ALERTS.json check."""
 import json, os, sys, time, urllib.request, urllib.parse, hashlib
 from pathlib import Path
+from datetime import datetime, timezone
 
 CFG = Path("/Users/jakeclaw/.openclaw/openclaw.json")
 CHAT_ID = "8156711151"
 LOG = Path("/Users/jakeclaw/.openclaw/workspace/project-state/notifications.jsonl")
 DEDUP = Path("/tmp/phgdh_notify_dedup.json")
+SUPPRESS_PATHS = [
+    Path("/Users/jakeclaw/phgdh-scavenger/SUPPRESS_ALERTS.json"),
+    Path("/Users/jakeclaw/.openclaw/workspace/SUPPRESS_ALERTS.json"),
+]
 DEDUP_SECS = 600
 MIN_GAP = 5.0
 HOURLY_CAP = 20
@@ -27,24 +28,40 @@ def _token():
     d = json.loads(CFG.read_text())
     return d["channels"]["telegram"]["botToken"]
 
-def notify(emoji: str, title: str, body: str = "", urgent: bool = False) -> bool:
-    """Returns True if sent, False if suppressed (dedup/rate-limit)."""
+def _suppress_check(emoji, title, body):
+    """Returns True if this alert should be suppressed."""
+    for p in SUPPRESS_PATHS:
+        if not p.exists(): continue
+        try:
+            cfg = json.loads(p.read_text())
+            until = cfg.get("suppressed_until")
+            if until:
+                until_dt = datetime.fromisoformat(until.replace("Z","+00:00"))
+                if datetime.now(timezone.utc) > until_dt: continue
+            for needle in cfg.get("suppress_titles_containing", []):
+                if needle.lower() in title.lower() or needle.lower() in body.lower():
+                    return True
+        except: pass
+    return False
+
+def notify(emoji, title, body="", urgent=False):
     now = time.time()
+    if _suppress_check(emoji, title, body):
+        with LOG.open("a") as f:
+            f.write(json.dumps({"at": now, "emoji": emoji, "title": title,
+                                "suppressed": True}) + "\n")
+        return False
     d = _load_dedup()
     key = hashlib.sha1(f"{emoji}|{title}".encode()).hexdigest()[:12]
-    # dedup
     d["recent"] = [r for r in d.get("recent", []) if now - r["t"] < DEDUP_SECS]
     if not urgent and any(r["k"] == key for r in d["recent"]):
         return False
-    # hourly cap
     hour_ago = now - 3600
     if len([r for r in d["recent"] if r["t"] > hour_ago]) >= HOURLY_CAP and not urgent:
         return False
-    # min-gap
     gap = now - d.get("last_send", 0)
     if gap < MIN_GAP and not urgent:
         time.sleep(MIN_GAP - gap)
-    # send
     text = f"{emoji} *{title}*"
     if body: text += f"\n{body[:3500]}"
     try:
@@ -58,7 +75,8 @@ def notify(emoji: str, title: str, body: str = "", urgent: bool = False) -> bool
     except Exception as e:
         ok = False
         with LOG.open("a") as f:
-            f.write(json.dumps({"at": now, "emoji": emoji, "title": title, "err": str(e)[:200]}) + "\n")
+            f.write(json.dumps({"at": now, "emoji": emoji, "title": title,
+                                "err": str(e)[:200]}) + "\n")
         try:
             import subprocess
             subprocess.run([
@@ -66,15 +84,14 @@ def notify(emoji: str, title: str, body: str = "", urgent: bool = False) -> bool
                 "/Users/jakeclaw/.openclaw/workspace/skills/resilience/scripts/enqueue.py",
                 "notify", f"emoji={emoji}", f"title={title}", f"body={body[:2000]}"
             ], check=False, timeout=5)
-        except Exception:
-            pass
+        except Exception: pass
         return False
-    d["recent"].append({"t": now, "k": key})
-    d["last_send"] = now
+    d["recent"].append({"t": now, "k": key}); d["last_send"] = now
     _save_dedup(d)
     LOG.parent.mkdir(parents=True, exist_ok=True)
     with LOG.open("a") as f:
-        f.write(json.dumps({"at": now, "emoji": emoji, "title": title, "body": body, "ok": ok}) + "\n")
+        f.write(json.dumps({"at": now, "emoji": emoji, "title": title,
+                            "body": body, "ok": ok}) + "\n")
     return ok
 
 if __name__ == "__main__":

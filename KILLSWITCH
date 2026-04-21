@@ -1,0 +1,37 @@
+# KILLSWITCH — auto-resubmit to Cheaha DISABLED
+
+**Status:** DISABLED
+**Since:** 2026-04-20
+**Reason:** Incident 2026-04-20 — 185 auto-resubmit loop consumed ~148 CPU-hours on Cheaha.
+**Re-enable:** manual only — delete this file AND restart scheduler.
+
+## How the killswitch works
+
+Any ssh-dependent playbook in `skills/auto-resolver/scripts/auto_resolver.py`
+checks for this file at runtime. If present, the playbook returns immediately
+with `("KILLSWITCH active", False)` and does NOT make the SSH call. This
+fail-closed behavior persists across scheduler restarts, W0 reboots, and
+git pulls.
+
+## What still works while killswitch is active
+
+- Liveness monitoring (read-only sacct polls remain allowed)
+- cheaha-telemetry reads /tmp snapshot (no new SSH)
+- Manual submission via `scripts/cheaha-hpc/submit.sh` (bypasses auto-resolver)
+- Human-initiated work from jakechen's terminal
+
+## What is blocked
+
+- `pb_cheaha_queue` auto-resubmit playbook
+- Any `scheduler_loop` tick that would trigger Cheaha SSH
+- Workload-optimizer `cheaha_vina_top20` action
+
+## How to re-enable
+
+```bash
+# On W0 after verifying fixes are in place:
+rm /Users/jakeclaw/.openclaw/workspace/KILLSWITCH
+# Or in repo path when pulled:
+rm ~/phgdh-scavenger/KILLSWITCH
+# Then restart scheduler. No auto-re-enable under any condition.
+```

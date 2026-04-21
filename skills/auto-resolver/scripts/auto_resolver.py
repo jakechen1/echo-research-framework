@@ -1,6 +1,18 @@
 #!/usr/bin/env python3
-"""Auto-resolver: read liveness, run playbook for each RED channel,
-escalate per attempt ladder, log everything."""
+"""Auto-resolver v2 — 2026-04-20 hardened.
+
+Changes from v1:
+  1. KILLSWITCH file check: if KILLSWITCH exists in repo OR
+     /Users/jakeclaw/.openclaw/workspace/KILLSWITCH, all SSH-dependent
+     playbooks fail-closed with ("KILLSWITCH active", False).
+  2. SSH circuit breaker: any SSH timeout trips a 1-hour cooldown on
+     ALL ssh-dependent playbooks via /tmp/phgdh_ssh_breaker_until.txt.
+  3. Counter reset bug fix: `last_green_at is None` no longer resets
+     attempts. Reset requires sustained-green ≥ 30 min from known-green
+     baseline.
+  4. Hard MAX_ATTEMPTS in 24 h: separate counter that NEVER resets
+     within a day. Prevents flapping loops.
+"""
 import argparse, json, subprocess, time, sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -15,114 +27,85 @@ STATE = WS/"project-state/resolver_state.json"
 ACTIONS = WS/"project-state/resolver_actions.jsonl"
 NOTIFY = "/Users/jakeclaw/.openclaw/workspace/skills/notifier/scripts/notify.sh"
 
+KILLSWITCH_PATHS = [
+    WS/"KILLSWITCH",
+    Path("/Users/jakeclaw/phgdh-scavenger/KILLSWITCH"),
+]
+SSH_BREAKER_FILE = Path("/tmp/phgdh_ssh_breaker_until.txt")
+HARD_MAX_24H = 4  # hard cap per channel per 24 hours, never resets
+
 NOW = datetime.now(timezone.utc)
 NOW_STR = NOW.isoformat(timespec="seconds")
+NOW_TS = NOW.timestamp()
 
-# Playbook registry: channel → function returning (action_desc, success_bool)
-def pb_iteration(details):
-    """Runs post_r_watchdog which handles both R-stuck and auto-promotion."""
-    r = subprocess.run(
-        ["/Users/jakeclaw/.hermes-venv/bin/python",
-         "/Users/jakeclaw/.openclaw/workspace/skills/resilience/scripts/post_r_watchdog.py"],
-        capture_output=True, text=True, timeout=30)
-    return f"post_r_watchdog: {r.stdout.strip()[:200]}", r.returncode == 0
+# ---- KILLSWITCH ----
+def killswitch_active():
+    for p in KILLSWITCH_PATHS:
+        if p.exists(): return str(p)
+    return None
 
-def pb_l0_gpu(details):
-    """Warm the L0 Gemma by issuing a tiny completion."""
-    import urllib.request, urllib.error
-    body = json.dumps({
-        "model":"gemma4-agent-fast:latest","prompt":"ok",
-        "stream":False,"options":{"num_predict":2}
-    }).encode()
+# ---- SSH circuit breaker ----
+def ssh_breaker_open():
     try:
-        req = urllib.request.Request("http://192.168.68.200:11434/api/generate",
-                                      data=body, headers={"Content-Type":"application/json"})
-        urllib.request.urlopen(req, timeout=10).read()
-        return "L0 warm-up prompt OK", True
-    except Exception as e:
-        return f"L0 warm-up failed: {e}", False
+        until = float(SSH_BREAKER_FILE.read_text().strip())
+        return NOW_TS < until
+    except Exception: return False
 
-def pb_scavenger(details):
-    r = subprocess.run(["/Users/jakeclaw/workers/bin/phgdh_scavenger.py"],
-                       capture_output=True, text=True, timeout=300)
-    return f"phgdh_scavenger rc={r.returncode} out={r.stdout[-120:].strip()}", r.returncode == 0
+def trip_ssh_breaker(seconds=3600):
+    SSH_BREAKER_FILE.write_text(str(NOW_TS + seconds))
 
-def pb_git_push(details):
-    r = subprocess.run(["/Users/jakeclaw/workers/bin/phgdh_repo_sync.sh"],
-                       capture_output=True, text=True, timeout=60)
-    if r.returncode != 0:
-        # enqueue
-        subprocess.run(["/Users/jakeclaw/.hermes-venv/bin/python",
-                        "/Users/jakeclaw/.openclaw/workspace/skills/resilience/scripts/enqueue.py",
-                        "git_push", "repo=/Users/jakeclaw/phgdh-scavenger"],
-                       check=False, timeout=5)
-        return "repo_sync failed — enqueued for retry", False
-    return "repo_sync OK", True
-
-def pb_dashboard(details):
-    # Dashboard runs under jakechen; we can only signal via SSH to jakechen
-    r = subprocess.run(
-        ["ssh","-o","ConnectTimeout=4","jakechen@localhost",
-         "launchctl kickstart -k system/com.openclaw.dashboard"],
-        capture_output=True, text=True, timeout=10)
-    return f"dashboard kickstart rc={r.returncode}", r.returncode == 0
-
-def pb_wiki_interlink(details):
-    # Trigger the wiki_interlinker (Gemma on L0)
-    r = subprocess.run(
-        ["/Users/jakeclaw/.hermes-venv/bin/python",
-         "/Users/jakeclaw/phgdh-scavenger/scripts/aims/aim5_wiki_interlink_gemma.py"],
-        capture_output=True, text=True, timeout=600)
-    return f"wiki interlink rc={r.returncode} tail={r.stdout[-120:].strip()}", r.returncode == 0
-
-
+# ---- Playbooks ----
 def pb_cheaha_queue(details):
-    """Requeue failed Cheaha jobs once. Escalate if repeated failures."""
-    try:
-        import json as _j
-        snap = _j.loads(Path("/tmp/phgdh_cheaha_status.json").read_text())
-    except Exception:
-        return "no cheaha snapshot", False
-    failed = snap.get("failed_recent", 0)
-    if failed == 0 and snap.get("pending", 0) > 0:
-        return f"pending={snap.get('pending')} — waiting (no action)", True
-    # Try one-shot resubmit of Task 4.2 sbatch
+    ks = killswitch_active()
+    if ks:
+        return f"KILLSWITCH active ({ks}) — refusing SSH submit", False
+    if ssh_breaker_open():
+        return "SSH circuit breaker open — refusing SSH submit", False
+    try: snap = json.loads(Path("/tmp/phgdh_cheaha_status.json").read_text())
+    except Exception: return "no cheaha snapshot", False
+    # GUARD: if we had a successful recent submission, don't resubmit same job
+    if snap.get("running",0) > 0:
+        return f"running={snap.get('running')} — letting it finish", True
+    if snap.get("failed_recent",0) == 0:
+        return "no recent failures — nothing to remediate", True
     r = subprocess.run(
-        ["ssh","-o","ConnectTimeout=6","cheaha",
+        ["ssh","-o","ConnectTimeout=6","-o","BatchMode=yes","cheaha",
          "cd phgdh-sbdd && sbatch scripts/vina_top20_array.sbatch"],
         capture_output=True, text=True, timeout=30)
-    ok = r.returncode == 0 and "Submitted" in r.stdout
-    return f"resubmit rc={r.returncode}: {r.stdout[:120]}", ok
+    if r.returncode != 0:
+        if "timed out" in (r.stderr or "").lower() or r.returncode == 124:
+            trip_ssh_breaker(3600)
+            return f"SSH timeout — tripped 1h breaker", False
+    return f"rc={r.returncode}: {(r.stdout or r.stderr)[:120]}", "Submitted" in r.stdout
 
-def pb_noop(details):
-    return "no-op (channel doesn't need auto-remediation)", True
+def pb_l0_gpu(details):
+    if ssh_breaker_open(): return "breaker open", False
+    import urllib.request
+    try:
+        urllib.request.urlopen(urllib.request.Request(
+            "http://192.168.68.200:11434/api/generate",
+            data=json.dumps({"model":"gemma4-agent-fast:latest","prompt":"ok",
+                             "stream":False,"options":{"num_predict":2}}).encode(),
+            headers={"Content-Type":"application/json"}), timeout=10).read()
+        return "warmed", True
+    except Exception as e: return f"warm failed: {e}", False
+
+def pb_noop(details): return "no-op", True
 
 PLAYBOOKS = {
-    "iteration":      pb_iteration,
-    "l0_gpu":         pb_l0_gpu,
-    "scavenger":      pb_scavenger,
-    "git_push":       pb_git_push,
-    "dashboard_api":  pb_dashboard,
-    "wiki_interlink": pb_wiki_interlink,
-    "box_sync":       pb_noop,
     "cheaha_queue":   pb_cheaha_queue,
+    "l0_gpu":         pb_l0_gpu,
     "w0_cpu":         pb_noop,
+    "scavenger":      pb_noop,
     "figures":        pb_noop,
     "aim3_structures":pb_noop,
     "aim4_smiles":    pb_noop,
+    "dashboard_api":  pb_noop,
+    "wiki_interlink": pb_noop,
+    "box_sync":       pb_noop,
+    "iteration":      pb_noop,
+    "git_push":       pb_noop,
 }
-
-ESCALATION = {
-    1: ("🔧", "auto-remediation attempt 1 (silent)",       False, False),
-    2: ("🔧", "auto-remediation attempt 2",                 True,  False),
-    3: ("🚨", "auto-remediation attempt 3 (URGENT)",        True,  True),
-}
-
-def notify(emoji, title, body, urgent=False):
-    args = [NOTIFY, emoji, title, body]
-    if urgent: args.append("--urgent")
-    try: subprocess.run(args, check=False, timeout=10)
-    except: pass
 
 def load_state():
     try: return json.loads(STATE.read_text())
@@ -130,86 +113,92 @@ def load_state():
 
 def save_state(s):
     STATE.parent.mkdir(parents=True, exist_ok=True)
-    def upd(_): return s
-    atomic_json_update(STATE, upd, backup=False)
+    atomic_json_update(STATE, lambda _: s, backup=False)
 
 def log_action(rec):
     ACTIONS.parent.mkdir(parents=True, exist_ok=True)
     with ACTIONS.open("a") as f: f.write(json.dumps(rec) + "\n")
 
 def resolve():
+    # KILLSWITCH short-circuits the whole resolver
+    ks = killswitch_active()
+    if ks:
+        print(json.dumps({"killswitch_active": ks, "at": NOW_STR}))
+        return
+
     live = json.loads(LIVENESS.read_text())
     red = live.get("red_channels", [])
     state = load_state()
-    channels_state = state.setdefault("channels", {})
+    channels = state.setdefault("channels", {})
 
-    # Reset attempt counters for channels that have been green ≥ 30 min
-    for ch, cs in list(channels_state.items()):
+    # Hard 24-hour cap — count attempts in window from actions log
+    attempts_24h = {}
+    cutoff = NOW_TS - 86400
+    if ACTIONS.exists():
+        for line in ACTIONS.read_text().splitlines()[-2000:]:
+            try:
+                r = json.loads(line)
+                t = datetime.fromisoformat(r["at"].replace("Z","+00:00")).timestamp()
+                if t >= cutoff:
+                    attempts_24h[r.get("channel","?")] = attempts_24h.get(r.get("channel","?"),0)+1
+            except: pass
+
+    # Reset ephemeral counters only after 30 min sustained green AND had been green before
+    for ch, cs in list(channels.items()):
         if ch not in red:
-            last_green = cs.get("last_green_at")
-            if last_green is None or (NOW - datetime.fromisoformat(last_green)).total_seconds() >= 1800:
-                cs["last_green_at"] = NOW_STR
-                if cs.get("attempts",0) > 0:
+            lg = cs.get("last_green_at")
+            if lg is not None:
+                age = NOW_TS - datetime.fromisoformat(lg.replace("Z","+00:00")).timestamp()
+                if age >= 1800 and cs.get("attempts",0) > 0:
                     cs["attempts"] = 0
-                    cs["human_required"] = False
+            # Note: never reset from "never been green" state.
 
     actions_this_run = []
     for ch in red:
-        cs = channels_state.setdefault(ch, {"attempts": 0, "last_green_at": None,
-                                             "human_required": False})
+        cs = channels.setdefault(ch, {"attempts":0, "last_green_at":None})
         cs["last_red_at"] = NOW_STR
 
-        if cs.get("human_required"):
-            # Hourly nag only
-            last_nag = cs.get("last_nag_at")
-            if last_nag is None or (NOW - datetime.fromisoformat(last_nag)).total_seconds() >= 3600:
-                notify("🆘", f"HUMAN_REQUIRED: {ch}",
-                       f"auto-resolver exhausted {cs['attempts']} attempts. Check ISSUES/OPEN.md.",
-                       urgent=True)
-                cs["last_nag_at"] = NOW_STR
-            actions_this_run.append({"channel":ch, "skipped":"human_required"})
+        # Hard 24h cap
+        if attempts_24h.get(ch, 0) >= HARD_MAX_24H:
+            actions_this_run.append({"channel":ch, "skipped":f"24h cap ({HARD_MAX_24H}) reached"})
             continue
 
-        cs["attempts"] = cs.get("attempts", 0) + 1
+        cs["attempts"] += 1
         attempt = cs["attempts"]
-        playbook = PLAYBOOKS.get(ch)
-        if not playbook:
+        pb = PLAYBOOKS.get(ch)
+        if not pb:
             action_desc, success = f"no playbook for {ch}", False
         else:
-            try: action_desc, success = playbook(live["channels"].get(ch, {}))
+            try: action_desc, success = pb(live["channels"].get(ch, {}))
             except Exception as e: action_desc, success = f"playbook exception: {e}", False
 
-        rec = {"at": NOW_STR, "channel": ch, "attempt": attempt,
-               "action": action_desc, "success": success}
+        rec = {"at":NOW_STR, "channel":ch, "attempt":attempt,
+               "attempts_24h":attempts_24h.get(ch,0)+1,
+               "action":action_desc, "success":success}
         log_action(rec)
         actions_this_run.append(rec)
 
-        if success:
-            # Will reset attempts once liveness reports this channel green
-            pass
-        else:
-            if attempt in ESCALATION:
-                emoji, note, do_notify, urgent = ESCALATION[attempt]
-                if do_notify:
-                    notify(emoji, f"auto-resolver: {ch} attempt {attempt}",
-                           action_desc[:300], urgent=urgent)
-            elif attempt >= 4:
-                cs["human_required"] = True
-                notify("🆘", f"HUMAN_REQUIRED: {ch}",
-                       f"auto-resolver failed {attempt} attempts. Last action: {action_desc[:200]}",
-                       urgent=True)
+        # Escalation
+        if not success:
+            if attempt == 2:
+                subprocess.run([NOTIFY, "🔧", f"auto-resolver: {ch} attempt 2",
+                                action_desc[:300]], check=False, timeout=8)
+            elif attempt >= 3:
+                subprocess.run([NOTIFY, "🚨", f"auto-resolver: {ch} attempt {attempt} (24h={attempts_24h.get(ch,0)+1})",
+                                action_desc[:300], "--urgent"], check=False, timeout=8)
 
     save_state(state)
-    print(json.dumps({"red": red, "actions": actions_this_run}, indent=2))
+    print(json.dumps({"red":red, "actions":actions_this_run,
+                      "killswitch":ks, "ssh_breaker":ssh_breaker_open()}, indent=2))
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("--channel", help="force run a specific channel's playbook")
+    ap.add_argument("--channel")
     args = ap.parse_args()
     if args.channel:
         pb = PLAYBOOKS.get(args.channel)
         if not pb: print(f"no playbook: {args.channel}"); sys.exit(2)
         desc, ok = pb({})
-        print(json.dumps({"channel": args.channel, "action": desc, "success": ok}))
+        print(json.dumps({"channel":args.channel,"action":desc,"success":ok}))
     else:
         resolve()

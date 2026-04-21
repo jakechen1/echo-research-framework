@@ -1,0 +1,7 @@
+{
+  "_readme": "notify.sh consults this file at runtime; alerts matching suppressed channels are dropped at the source. Remove this file to re-enable normal alerting.",
+  "suppressed_until": "2026-04-22T00:00:00Z",
+  "suppress_channels": ["cheaha_queue"],
+  "suppress_titles_containing": ["HUMAN_REQUIRED: cheaha_queue", "auto-resolver: cheaha_queue"],
+  "reason": "incident 2026-04-20 — KILLSWITCH pushed, awaiting W0 git pull for activation. Stale human_required state in resolver_state.json causes hourly nags; suppressing until W0 pulls the fix."
+}
