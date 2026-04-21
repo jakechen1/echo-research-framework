@@ -1,0 +1,134 @@
+{
+  "n_scaffolds": 4,
+  "n_molecules": 20,
+  "scaffolds": [
+    {
+      "scaffold_smiles": "O=C(NCc1ccccc1)c1cc2ccccc2[nH]1",
+      "n_members": 17,
+      "best_pchembl": 9.52,
+      "members": [
+        {
+          "chembl_id": "CHEMBL4541133",
+          "pchembl": 9.52,
+          "rank": 1
+        },
+        {
+          "chembl_id": "CHEMBL4584313",
+          "pchembl": 8.8,
+          "rank": 3
+        },
+        {
+          "chembl_id": "CHEMBL4436264",
+          "pchembl": 8.7,
+          "rank": 4
+        },
+        {
+          "chembl_id": "CHEMBL4518579",
+          "pchembl": 8.54,
+          "rank": 5
+        },
+        {
+          "chembl_id": "CHEMBL4467246",
+          "pchembl": 8.52,
+          "rank": 6
+        },
+        {
+          "chembl_id": "CHEMBL4520837",
+          "pchembl": 8.52,
+          "rank": 7
+        },
+        {
+          "chembl_id": "CHEMBL4515492",
+          "pchembl": 8.52,
+          "rank": 8
+        },
+        {
+          "chembl_id": "CHEMBL4527607",
+          "pchembl": 8.52,
+          "rank": 9
+        },
+        {
+          "chembl_id": "CHEMBL4579388",
+          "pchembl": 8.48,
+          "rank": 10
+        },
+        {
+          "chembl_id": "CHEMBL4521661",
+          "pchembl": 8.41,
+          "rank": 12
+        },
+        {
+          "chembl_id": "CHEMBL4542437",
+          "pchembl": 8.4,
+          "rank": 13
+        },
+        {
+          "chembl_id": "CHEMBL4548014",
+          "pchembl": 8.3,
+          "rank": 14
+        },
+        {
+          "chembl_id": "CHEMBL4483622",
+          "pchembl": 8.3,
+          "rank": 15
+        },
+        {
+          "chembl_id": "CHEMBL4587306",
+          "pchembl": 8.3,
+          "rank": 16
+        },
+        {
+          "chembl_id": "CHEMBL4541457",
+          "pchembl": 8.3,
+          "rank": 17
+        },
+        {
+          "chembl_id": "CHEMBL4547034",
+          "pchembl": 8.22,
+          "rank": 18
+        },
+        {
+          "chembl_id": "CHEMBL4533417",
+          "pchembl": 8.22,
+          "rank": 19
+        }
+      ]
+    },
+    {
+      "scaffold_smiles": "O=C(NCc1ccccc1)c1cc2cccnc2[nH]1",
+      "n_members": 1,
+      "best_pchembl": 9.1,
+      "members": [
+        {
+          "chembl_id": "CHEMBL4536737",
+          "pchembl": 9.1,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "scaffold_smiles": "O=C(NCc1ccc(S(=O)(=O)C2CCOCC2)cc1)c1cc2ccccc2[nH]1",
+      "n_members": 1,
+      "best_pchembl": 8.43,
+      "members": [
+        {
+          "chembl_id": "CHEMBL4540875",
+          "pchembl": 8.43,
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "scaffold_smiles": "O=C(NCc1ccc(S(=O)(=O)C2CCCC2)cc1)c1cc2ccccc2[nH]1",
+      "n_members": 1,
+      "best_pchembl": 8.22,
+      "members": [
+        {
+          "chembl_id": "CHEMBL4483483",
+          "pchembl": 8.22,
+          "rank": 20
+        }
+      ]
+    }
+  ]
+}

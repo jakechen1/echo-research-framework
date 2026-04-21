@@ -92,6 +92,12 @@ while :; do
     $WS/skills/cheaha-hpc/scripts/schema_watcher.sh >> /Users/jakeclaw/Library/Logs/schema_watcher.log 2>&1
   fi
 
+
+  # Every 5 min: infrastructure watchdog probe (diagnostic-only, v1)
+  if (( now / 60 % 5 == 0 )); then
+    $WS/skills/infrastructure-watchdog/scripts/probe.sh >> /Users/jakeclaw/Library/Logs/infra_probe.log 2>&1
+  fi
+
   last_min=$min
   sleep 60
 done

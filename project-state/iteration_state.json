@@ -1,9 +1,9 @@
 {
-  "task": "Task 1.2",
-  "legacy_id": "G-012",
+  "task": "Task 4.4",
+  "legacy_id": "G-018",
   "iteration": 1,
-  "stage": "E",
-  "started": "2026-04-19T21:50:22",
+  "stage": "L",
+  "started": "2026-04-20T22:01:08",
   "history": [
     {
       "stage": "P",
@@ -164,6 +164,21 @@
       "stage": "E",
       "at": "2026-04-19T21:52:40",
       "note": "auto-advance (no executor for Task 1.2/L)"
+    },
+    {
+      "stage": "R",
+      "at": "2026-04-20T22:01:08",
+      "note": "Task 4.2 closed: 20/20 docks, best -6.6 kcal/mol CHEMBL4483483"
+    },
+    {
+      "stage": "P",
+      "at": "2026-04-20T22:01:08",
+      "note": "Promoted to Task 4.4 (CLM pretrain per Fan Li 2026)"
+    },
+    {
+      "stage": "L",
+      "at": "2026-04-20T22:02:08",
+      "note": "auto-advance (no executor for Task 4.4/P)"
     }
   ]
 }
