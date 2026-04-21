@@ -411,3 +411,7 @@
 {"at": 1776739985.398323, "emoji": "\ud83c\udd98", "title": "HUMAN_REQUIRED: cheaha_queue", "suppressed": true}
 {"at": 1776740469.039424, "emoji": "\ud83d\ude80", "title": "PHGDH resumed full speed", "body": "infrastructure-watchdog v1 probing every 5 min (diagnostic-only). Task 2.4 scaffold clustering DONE. Task 4.4 CLM pretrain STARTED (5 buckets ready). Scheduler restarted. KILLSWITCH remains active \u2014 Cheaha still blocked from auto-submit until v3 deployed. All safe.", "ok": true}
 {"at": 1776740528.644214, "emoji": "\ud83d\udd04", "title": "Task 4.4 \u2192 stage L", "body": "auto-advance (no executor for Task 4.4/P)", "ok": true}
+{"at": 1776740654.999549, "emoji": "\ud83d\udd04", "title": "Task 4.4 \u2192 stage E", "body": "auto-advance (no executor for Task 4.4/L)", "ok": true}
+{"at": 1776740717.628618, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "err": "HTTP Error 400: Bad Request"}
+{"at": 1776740780.898634, "emoji": "\ud83d\udd04", "title": "Task 4.4 \u2192 stage A", "body": "auto-advance (no executor for Task 4.4/E)", "ok": true}
+{"at": 1776740907.74852, "emoji": "\ud83d\udd04", "title": "Task 4.4 \u2192 stage S", "body": "auto-advance (no executor for Task 4.4/A)", "ok": true}
