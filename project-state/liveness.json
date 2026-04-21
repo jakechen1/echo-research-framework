@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-04-21T05:10:22+00:00",
+  "generated_at": "2026-04-21T05:15:38+00:00",
   "overall": "red",
   "red_channels": [
     "figures",
+    "dashboard_api",
     "wiki_interlink",
     "cheaha_queue",
     "box_sync"
@@ -18,13 +19,14 @@
       "status": "green",
       "load_1m": 1.64,
       "hot_procs": [
-        "32.1 /opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python"
+        "13.6 /opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python",
+        "9.1 /usr/libexec/opendirectoryd"
       ]
     },
     "scavenger": {
       "status": "green",
       "newest": "/Users/jakeclaw/workers/data/phgdh/2026-04-20.jsonl",
-      "age_h": 22.2,
+      "age_h": 22.3,
       "file_count": 3
     },
     "figures": {
@@ -45,22 +47,22 @@
       "status": "green",
       "task": "Task 1.2",
       "stage": "E",
-      "stage_age_h": 1.69
+      "stage_age_h": 1.78
     },
     "git_push": {
       "status": "green",
-      "age_h": 0.2
+      "age_h": 0.1
     },
     "dashboard_api": {
       "code": null,
       "ok": false,
-      "err": "HTTP Error 401: Unauthorized",
-      "status": "green"
+      "err": "timed out",
+      "status": "red"
     },
     "wiki_interlink": {
       "status": "red",
       "count": 20,
-      "age_h": 60.1,
+      "age_h": 60.2,
       "audit_age_h": 60.2
     },
     "cheaha_queue": {
@@ -72,7 +74,7 @@
     },
     "box_sync": {
       "status": "red",
-      "age_h": 47.7
+      "age_h": 47.8
     }
   }
 }
