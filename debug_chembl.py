@@ -8,8 +8,12 @@ try:
         print(f"Target Found: {target_id}")
         activities = new_client.activity
         res = activities.filter(target_chembl_id=target_id).get()
-        print(f"Activities Found: {len(res)}")
+        if res is None:
+            print("Result is None")
+        else:
+            print(f"Activities Found: {len(res)}")
     else:
         print("No target found.")
 except Exception as e:
-    print(f"Error: {e}")
+    import traceback
+    traceback.print_exc()
