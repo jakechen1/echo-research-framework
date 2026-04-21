@@ -4108,3 +4108,9 @@
 {"at": "2026-04-21T21:53:28+00:00", "w0_cpu_pct": 15.9, "l0_gpu_pct": 0.0, "cheaha_rwi_pct": 3.99}
 {"at": "2026-04-21T21:54:29+00:00", "w0_cpu_pct": 13.2, "l0_gpu_pct": 0.0, "cheaha_rwi_pct": 3.99}
 {"at": "2026-04-21T21:55:42+00:00", "w0_cpu_pct": 12.5, "l0_gpu_pct": 0.0, "cheaha_rwi_pct": 3.99}
+{"at": "2026-04-21T21:56:47+00:00", "w0_cpu_pct": 14.5, "l0_gpu_pct": 0.0, "cheaha_rwi_pct": 3.99}
+{"at": "2026-04-21T21:57:56+00:00", "w0_cpu_pct": 15.4, "l0_gpu_pct": 0.0, "cheaha_rwi_pct": 3.99}
+{"at": "2026-04-21T21:59:00+00:00", "w0_cpu_pct": 14.9, "l0_gpu_pct": 0.0, "cheaha_rwi_pct": 3.99}
+{"at": "2026-04-21T22:00:02+00:00", "w0_cpu_pct": 14.7, "l0_gpu_pct": 80.26, "cheaha_rwi_pct": 3.99}
+{"at": "2026-04-21T22:00:13+00:00", "w0_cpu_pct": 14.7, "l0_gpu_pct": 0.0, "cheaha_rwi_pct": 3.99}
+{"at": "2026-04-21T22:01:18+00:00", "w0_cpu_pct": 25.9, "l0_gpu_pct": 0.0, "cheaha_rwi_pct": 3.99}
