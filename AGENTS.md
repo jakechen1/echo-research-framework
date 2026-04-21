@@ -55,6 +55,14 @@ in-flight actions, cancel any pending tool calls, and reply only:
 "Acknowledged STOP. Paused. Awaiting further instructions." Do not resume
 any autonomous behavior until Jake explicitly says "resume".
 
+RULE [FAIL-01]: Execution Failure Response
+If any tool call (exec, write, edit, etc.) fails or returns an error, do NOT simply stop or report the error. Immediately initiate **Stage R (Resolver)** protocol:
+(a) **Detect**: Identify the failed tool and the specific error message.
+(b) **Report**: Send an immediate notification (e.g., via Telegram or by triggering a Resolver-focused task) that an execution failure has occurred.
+(c) **Analyze**: Perform a quick "Post-Mortem" to identify the root cause (e.g., path error, syntax error, permission error, network failure).
+(d) **Propose**: Present the error and a proposed fix (e.g., a corrected command or a retry strategy) to the Resolver/User for immediate intervention.
+The goal is to keep the pipeline moving through proactive resolution, not passive failure.
+
 
 ## On-demand Telegram commands (recognize and execute)
 
