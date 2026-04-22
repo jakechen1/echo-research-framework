@@ -52,12 +52,24 @@ def main():
         return
 
     if not cmd:
-        # No executor — auto-advance with a note
-        nxt = STAGE_NEXT.get(stage)
-        if nxt:
-            subprocess.run([ADV_SH, nxt, f"auto-advance (no executor for {task}/{stage})"],
-                           check=False, timeout=15)
-            log(f"{key} auto-advanced to {nxt} (no executor)")
+        # v2 FIX 2026-04-22: no longer auto-advance through empty stages.
+        # This was theater — stages would march P→R with zero actual work.
+        # Now: STALL, record, and request a Planner to write an executor.
+        log(f"{key} STALLED — no executor defined. NOT auto-advancing.")
+        # One-time alert per (task, stage) to avoid spam
+        alert_key = f"{task}/{stage}/no_executor"
+        alert_file = WS/"project-state/task_executors/stall_alerts.json"
+        try:
+            alerts = json.loads(alert_file.read_text()) if alert_file.exists() else {}
+        except: alerts = {}
+        if alert_key not in alerts:
+            subprocess.run([
+                "/Users/jakeclaw/.openclaw/workspace/skills/notifier/scripts/notify.sh",
+                "🚧", f"STALLED: {task}/{stage}",
+                f"No executor registered. Write one at scripts/task_executors/ and add to registry.json."
+            ], check=False, timeout=10)
+            alerts[alert_key] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+            alert_file.write_text(json.dumps(alerts, indent=2))
         return
 
     # Execute
