@@ -1,4 +1,4 @@
-# Plan Status — auto-generated 2026-04-22T21:25:57+00:00
+# Plan Status — auto-generated 2026-04-22T21:50:29+00:00
 
 Current task: **Task 1.3**  stage: **P**  iter: 1
 
@@ -74,6 +74,3 @@ Current task: **Task 1.3**  stage: **P**  iter: 1
 | Task 5.2 | Repo README + pipeline diagram | ⚪ pending |  |
 | Task 5.3 | Poster (L4 deliverable) | ⚪ pending |  |
 
-## Flips this sync
-- **Task 1.2**: ACTIVE → pending
-- **Task 1.3**: pending → ACTIVE
