@@ -21,6 +21,7 @@
     "E": "/Users/jakeclaw/workers/bin/task_4_4_clm_pretrain.sh"
   },
   "Task 1.3": {
-    "P": "/Users/jakeclaw/workers/bin/task_Task_1_3_P.sh"
+    "P": "/Users/jakeclaw/workers/bin/task_Task_1_3_P.sh",
+    "L": "/Users/jakeclaw/workers/bin/task_Task_1_3_L.sh.pending"
   }
 }
