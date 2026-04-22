@@ -111,6 +111,18 @@ cheaha_running = cheaha.get("running", 0)
 cheaha_pending = cheaha.get("pending", 0)
 cheaha_has_data = bool(cheaha) and "rwi_pct" in cheaha
 
+
+# ---- Progress (BS detector) ----
+import subprocess as _sp_pa
+progress_verdict = "unknown"
+try:
+    r = _sp_pa.run(["/Users/jakeclaw/.hermes-venv/bin/python",
+                 "/Users/jakeclaw/.openclaw/workspace/skills/progress-audit/scripts/delta.py","--json"],
+                capture_output=True, text=True, timeout=8)
+    if r.returncode == 0:
+        progress_verdict = (json.loads(r.stdout) or {}).get("verdict","unknown")
+except Exception: pass
+
 channels = {
     "l0_gpu": {
         "status": status_of(l0_busy or bool(l0_running_models), unknown=False),
@@ -156,6 +168,12 @@ channels = {
                    else status_of(False, unknown=not cheaha_has_data)),
         "running": cheaha_running, "pending": cheaha_pending,
         "failed_recent": cheaha_failed, "rwi_pct": cheaha.get("rwi_pct", None),
+    },
+    "progress_work": {
+        "status": ("green" if progress_verdict == "PROGRESS"
+                   else "red" if progress_verdict == "NO_WORK"
+                   else "unknown"),
+        "verdict": progress_verdict,
     },
     "box_sync": {
         "status": status_of(box_log.exists() and (NOW - box_log.stat().st_mtime) < 26*3600, unknown=not box_log.exists() or box_log.stat().st_size==0),

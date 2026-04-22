@@ -4546,3 +4546,8 @@
 [2026-04-22T20:01:21+00:00] Task 1.2/E rc=0  stdout_tail='ules)\nWROTE /Users/jakeclaw/.openclaw/workspace/wiki_drafts/molecules/molecule-CHEMBL4436264.md (1046B)\nWROTE /Users/jakeclaw/.openclaw/workspace/wiki_drafts/molecules/molecule-CHEMBL4518579.md (1102B)\nWROTE /Users/jakeclaw/.openclaw/workspace/wiki_drafts/molecules/molecule-CHEMBL4467246.md (1163B)\n'  stderr_tail=''
 [2026-04-22T20:01:22+00:00] Task 1.2/E advanced to A
 [2026-04-22T20:02:35+00:00] Task 1.2/A STALLED — no executor defined. NOT auto-advancing.
+[2026-04-22T20:04:55+00:00] Task 1.2/A running: /Users/jakeclaw/workers/bin/task_Task_1_2_A.sh.pending
+[2026-04-22T20:04:55+00:00] Task 1.2/A rc=2  stdout_tail='task_Task_1_2_A: stub pending, implement me\n'  stderr_tail=''
+[2026-04-22T20:04:55+00:00] Task 1.2/A pending — stay in stage (will retry)
+[2026-04-22T20:07:09+00:00] Task 1.2/A cooldown (134s < 240s)
+[2026-04-22T20:08:22+00:00] Task 1.2/A cooldown (207s < 240s)
