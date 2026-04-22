@@ -2,7 +2,7 @@
   "task": "Task 4.4",
   "legacy_id": "G-018",
   "iteration": 1,
-  "stage": "A",
+  "stage": "R",
   "started": "202to6-04-20T22:25:31",
   "history": [
     {
@@ -44,6 +44,21 @@
       "stage": "A",
       "at": "2026-04-22T13:22:18",
       "note": "auto-advance (no executor for Task 4.4/E)"
+    },
+    {
+      "stage": "S",
+      "at": "2026-04-22T13:24:29",
+      "note": "auto-advance (no executor for Task 4.4/A)"
+    },
+    {
+      "stage": "X",
+      "at": "2026-04-22T13:26:45",
+      "note": "auto-advance (no executor for Task 4.4/S)"
+    },
+    {
+      "stage": "R",
+      "at": "2026-04-22T13:29:00",
+      "note": "auto-advance (no executor for Task 4.4/X)"
     }
   ]
 }
