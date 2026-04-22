@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T20:11:03+00:00",
+  "generated_at": "2026-04-22T20:15:31+00:00",
   "overall": "red",
   "red_channels": [
     "figures",
@@ -16,15 +16,16 @@
     },
     "w0_cpu": {
       "status": "green",
-      "load_1m": 1.75,
+      "load_1m": 1.9,
       "hot_procs": [
-        "32.7 /opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python"
+        "98.5 /usr/libexec/duetexpertd",
+        "25.8 /opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python"
       ]
     },
     "scavenger": {
       "status": "green",
       "newest": "/Users/jakeclaw/workers/data/phgdh/2026-04-22.jsonl",
-      "age_h": 13.2,
+      "age_h": 13.3,
       "file_count": 5
     },
     "figures": {
@@ -45,7 +46,7 @@
       "status": "green",
       "task": "Task 1.2",
       "stage": "A",
-      "stage_age_h": 0.16
+      "stage_age_h": 0.24
     },
     "git_push": {
       "status": "green",
@@ -60,7 +61,7 @@
     "wiki_interlink": {
       "status": "red",
       "count": 20,
-      "age_h": 99.1,
+      "age_h": 99.2,
       "audit_age_h": 99.2
     },
     "cheaha_queue": {
@@ -76,7 +77,7 @@
     },
     "box_sync": {
       "status": "red",
-      "age_h": 86.7
+      "age_h": 86.8
     }
   }
 }

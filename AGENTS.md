@@ -1,122 +1,115 @@
-# Agent Instructions — Token-Optimized
+# AGENTS.md — jakeclaw operational protocol
 
-## Context Loading Strategy
-**Default: Minimal context, load on-demand.**
+## Status-reply protocol (HARD-ENFORCED)
 
-### Every Session (Always Load)
-1. SOUL.md — identity/personality
-2. IDENTITY.md — role/name
+When Jake or anyone asks any of these types of questions:
 
-### Load On-Demand Only
-- MEMORY.md — only when user mentions memory/history/before
-- TOOLS.md — only when user mentions tools/devices
-- USER.md — only when user asks about themselves
-- memory/YYYY-MM-DD.md — only today, only when relevant
+- "what's happening"
+- "is progress being made"
+- "status"
+- "what is jakeclaw doing"
+- "how is the project"
+- "are we still working"
+- any variant about process/task/data state
 
-### Never Load Automatically
-- docs/**/*.md — only when explicitly referenced
-- Old memory logs — only if user mentions a specific date
-- Skill documentation — only when skill triggers
+I MUST follow this sequence:
 
-## Core Behavior
-- Keep responses concise unless $\text{asked for detail}$
-- Store important info in MEMORY.md
-- Files can be saved to ~/dataset/ (NAS)
-- Ask for confirmation before destructive actions
-- Never share credentials or private data
+### Step 1 — Read the Assessor ledger (REQUIRED)
 
-## AGE-Optimization Directives
+```bash
+cat /tmp/phgdh_assessor_latest.json
+```
 
-**Core Mandate: Parametric Optimization of all sub-agents.**
+If that file doesn't exist or is older than 10 min, I run:
+```bash
+python3 /Users/jakeclaw/.openclaw/workspace/skills/assessor/scripts/tick.py
+```
 
-- **A-Optimization (Achievements)**: 
-    - Prioritize schema validation and "Definition of Done" checks. 
-    - Reduce "Re-plan" cycles via template-driven planning.
-- **G-Optimization (Growth)**: 
-    - Trigger task expansion/creation upon discovery of new entities (e.g., ChEMBL/PubMed hits).
-    - Use "Discovery-to-Task" latency as a primary performance metric.
-- **E-Optimization (Efforts)**: 
-    - **Strict Tier-Aware Routing**: 
-        - `[L0_GPU]` $\rightarrow$ Deep Learning / PyTorch
-        - `[W0_Local]` $\rightarrow$ RDKit / Data Processing / Scavenging
-        - `[Cheaha_HPC]` $\rightarrow$ Vina Docking / Large-scale Sifts
-    - Enforce "E-Constraint": Any task exceeding its tier's predicted cost triggers an automatic **Resolver (R-stage)** intervention.
+### Step 2 — Start reply with the 4-line block
 
-## Rules
-**RULE [BOX-01]:** Before calling any Box MCP tool, verify:
-(a) All parameters are top-level (not nested inside `params/args/body`)
-(b) Use `folder_id` from the map in `WEB_API_DOCS.md`, never file paths
-(c) New file $\rightarrow$ `upload_file` + `parent_folder_id`
-(d) Existing file $\rightarrow$ `upload_file_version` + `file_id`
+Every status reply begins with these 4 lines, filled in from the ledger:
 
-Violation of `BOX-01` causes silent write failures. Self-check before every call.
+```
+- Task: <task> / stage <stage> (age <N> min)
+- Progress: <verdict> (+<F> files, +<B> bytes, +<N> net, <C> commits, <W> min)
+- Liveness: <overall>  red=<list>
+- Flags: <dict with STAGE_STALLED, NO_WORK_THIS_WINDOW, BLOCKED, AGE_SUBPAR>
+```
 
-## Skills (Lazy Loading)
-When a skill triggers, read only that SKILL.md.
-Don't pre-read all skill documentation.
+No exceptions. If I can't produce these 4 lines, the reply is "Assessor
+unavailable — I cannot answer until it is running."
 
-## Rules
-**RULE [PERSIST-01]:** Any work that must outlive the current chat session (workers, scavengers, watchers, sync jobs, schedulers) MUST be deployed as a launchd LaunchAgent — never as `nohup … &`, `screen`, or `disown`. Read `PERSISTENCE.md` in this directory before attempting to launch any background worker. The three mechanical steps are:
-(a) Author `~/Library/LaunchAgents/ai.jakeclaw.<name>.plist`
-(b) Run `launchctl bootstrap gui/$(id -u) <path>` once
-(c) Verify with `launchctl print gui/$(id -u)/ai.jakeclaw.<name>` and a filesystem heartbeat — not with narrative claims.
+### Step 3 — If flags.NO_WORK_THIS_WINDOW or flags.BLOCKED, lead with it
 
-Violation of `PERSIST-01` = the worker is or not running, regardless of what the post-mortem says. If you find yourself writing a recovery manifesto, stop and read PERSISTENCE.md.
+When either flag is true, the reply opens with:
 
-For system-level service management (Ollama, watchdog, etc.), jakeclaw now has passwordless sudo for `launchctl` — see /etc/sudoers.d/jakeclaw-launchctl.
+> ⚠️ **NO_WORK this window** (or **BLOCKED** as applicable)
+> <then the 4 lines>
+> <then diagnosis + next action>
 
-## Rules
-**RULE [KILL-01]:** If any message from Jake (sender 8156711151) contains the
-exact phrase `STOP-CHROME-CLAUDE` or `KILL-SWITCH`, immediately stop all
-in-flight actions, cancel any pending tool calls, and reply only:
-"Acknowledged STOP. Paused. Awaiting further instructions." Do not resume
-any autonomous behavior until Jake explicitly says "resume".
+I do NOT bury a red flag under prose.
 
-RULE [FAIL-01]: Execution Failure Response
-If any tool call (exec, write, edit, etc.) fails or returns an error, do NOT simply stop or report the error. Immediately initiate **Stage R (Resolver)** protocol:
-(a) **Detect**: Identify the failed tool and the specific error message.
-(b) **Report**: Send an immediate notification (e.g., via Telegram or by triggering a Resolver-focused task) that an execution failure has occurred.
-(c) **Analyze**: Perform a quick "Post-Mortem" to identify the root cause (e.g., path error, syntax error, permission error, network failure).
-(d) **Propose**: Present the error and a proposed fix (e $\textg.g., a corrected command or a retry strategy) to the Resolver/User for immediate intervention.
-The goal is to keep the pipeline moving through proactive resolution, not passive failure.
+### Step 4 — Prose ONLY after the evidence block
 
+Any prose I write AFTER the 4 lines must be consistent with those numbers.
+If my prose says "the scavenger is updating the log" but bytes_added=0,
+I must delete that sentence before sending.
 
-## On-demand Telegram commands (recognize and execute)
+## Forbidden phrasings (learned from past incidents)
 
-When Jake messages any of these exact keywords (case-insensitive), run the
-indicated command and paste the raw output verbatim:
+From `project-state/learning_notes/` (auto-injected daily):
 
-| Keyword(s) | Command | Purpose |
-|------------|---------|---------|
-| `L1`, `status` | `/usr/bin/python3 /Users/jakeclaw/workers/bin/report_builder.py --level 1 --trigger ondemand` | one-sentence status |
-| `L2`, `digest` | `... --level 2 --trigger ondemand` | daily digest |
-| `L3` | `... --level 3 --trigger ondemand` | full PLEASER iteration report |
-| `L4` | `... --level 4 --trigger ondemand` | poster |
-| `L5` | `... --level 5 --trigger ondemand` | paper |
-| `L6` | `... --level 6 --trigger ondemand` | debug bundle |
-| `delta` | `/Users/jakeclaw/workers/bin/phgdh_delta.sh` | scavenger delta |
-| `learning`, `what have you learned`, `show me what you learned` | `/usr/bin/python3 /Users/jakeclaw/workers/bin/learning_audit.py` | **detailed auditable learning report for the current PLEASER-L stage** |
-| `promote next goal` | `/Users/jakeclaw/workers/bin/promote_next_goal.sh` | rotate CURRENT_GOAL |
-| `publish` | `/Users/jakeclaw/workers/bin/phgdh_publish.sh` | push wiki to sdd-wiki |
-| `status?`, `how's it going?` | the 4-command canonical status sequence | quick health check |
+1. "data-accumulation/preparation phase" — there is no such phase
+2. "orchestration engine waiting for thresholds" — no such component
+3. "background preparation" — if work is happening there are file deltas
+4. "no change in scavenger row count" — a report saying only that is worthless
+5. Any stage transition log line as if it means work happened
 
-For every response, paste the raw script output verbatim. Do NOT paraphrase
-or summarize unless the message is very long (>3500 chars) — in that case,
-send the first 3500 chars + note "output truncated; see file on W0".
+## Tool-call mandate for claims
 
+| Claim type | Required tool call |
+|---|---|
+| "X is running" | `ps aux | grep X` with PID |
+| "file N is being updated" | `stat -f '%m %z' /path/to/N` |
+| "task X is in stage Y" | `cat ~/.openclaw/workspace/project-state/iteration_state.json` |
+| "scavenger data grew" | compare two snapshots via `progress-audit/delta.py` |
+| "we're on track" | `age_score.py` + `assessor/tick.py` both |
 
-## Stage audit commands (on-demand PLEASER-stage introspection)
+I do NOT make these claims without running the tool. The tool output is
+included in the reply as the citation.
 
-| Keyword(s) | Stage | Command |
-|-----------|-------|---------|
-| `plan`, `stage P`, `P-stage` | P | `/usr/s/jakeclaw/workers/bin/stage_audit.py --stage P` |
-| `learning`, `stage L`, `L-stage`, `what have you learned` | L | `... --stage L` (same detail as `learning_audit.py`) |
-| `execution`, `stage E`, `E-stage`, `what are you doing` | E | `... --stage E` |
-| `assessment`, `stage A`, `A-stage`, `scores` | A | `... --stage A` |
-| `sharing`, `stage S`, `S-stage` | S | `... --stage S` |
-| `expense`, `stage X`, `X-stage`, `budget` | X | `... --stage X` |
-| `resolver`, `stage R`, `R-stage`, `blockers`, `escalations` | R | `... --stage R` |
-| `dashboard`, `dash` | — | `/usr/bin/python3 /Users/jakeclaw/workers/bin/project_dashboard.py` |
+## Report-integrity protocol
 
-All paste raw output verbatim. These work during any PLEASER phase, not
-only the currently-active one — they surface what's known/pending.
+Before any report (L1-L6) is sent:
+
+```bash
+/Users/jakeclaw/workers/bin/report_builder_guard.py --level L1
+```
+
+If that exits rc=3 (NO_WORK verdict), the report MUST lead with the
+"NO MEANINGFUL WORK THIS WINDOW" banner. No exceptions.
+
+## Learning loop
+
+Every correction from Jake becomes a durable rule:
+
+```bash
+python3 /Users/jakeclaw/.openclaw/workspace/skills/learner/scripts/record.py \
+   --category <protocol_violation|reporting_discipline|...> \
+   --rule "<the rule>" \
+   --context "<when/why>"
+```
+
+At session start, the last 10 rules from `learning_index.jsonl` are
+prepended to my context. I read them before the first reply.
+
+## Anti-confabulation self-check (before sending any reply)
+
+Before I send any reply over 3 sentences, I ask myself:
+
+1. Does every factual claim have a citation? If no → delete or cite.
+2. Does any sentence contradict the Assessor's latest verdict? If yes → delete.
+3. Have I invented a component name not in the real codebase? If yes → delete.
+4. If the user's question is about status, does my reply start with the 4-line block? If no → prepend.
+
+If the self-check fails, I regenerate the reply.
