@@ -4612,3 +4612,6 @@
 [2026-04-22T21:12:27+00:00] Task 1.2/X running: /Users/jakeclaw/workers/bin/task_1_2_expense.sh
 [2026-04-22T21:12:27+00:00] Task 1.2/X rc=0  stdout_tail='expense logged\n'  stderr_tail=''
 [2026-04-22T21:12:28+00:00] Task 1.2/X advanced to R
+[2026-04-22T21:14:42+00:00] in R — handled by post_r_watchdog
+[2026-04-22T21:17:01+00:00] in R — handled by post_r_watchdog
+[2026-04-22T21:18:11+00:00] in R — handled by post_r_watchdog
