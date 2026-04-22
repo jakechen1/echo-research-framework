@@ -67,7 +67,7 @@ with seven sections:
 **E**xpense (time/cost/tokens vs budget), **R**esolver.
 
 Assessment uses NIH 1-9 scoring (Significance / Innovation / Approach)
-plus AGE 1-9 scoring (Accuracy / Generalizability / Efficiency).
+plus AGE 1-9 scoring (Achievements / Growth / Efforts).
 
 Legacy G-NNN IDs remain as stable historical identifiers. The canonical
 organizational reference is the Task code (e.g., "Task 2.1" not "G-002").

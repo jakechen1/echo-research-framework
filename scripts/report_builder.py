@@ -28,7 +28,7 @@ vs the prior L1 report. No bullets, no emoji, under 200 characters.""",
 - Up to 4 active aims (one line each) with progress today
 - Current Task code (e.g., Task 2.1) + one-line goal text + iteration number
 - AGE daily scores — three integers 1-9 (REVERSE NIH scale, 9 is best):
-    Accuracy=N / Generalizability=N / Efficiency=N
+    Achievements=N / Growth=N / Efforts=N
   with one-line justification each. 5 is satisfactory (50th percentile).
   6,7,8,9 are top 33%, 20%, 10%, 5%. 4,3,2,1 are bottom 33%, 20%, 10%, 5%.
 - 2-3 line delta vs yesterdays L2 (what moved)
@@ -45,7 +45,7 @@ Use EXACTLY these seven section headers:
 ## 7. Resolver
 
 Assessment section: NIH 1-9 scores (Significance, Innovation, Approach)
-+ AGE 1-9 scores (Accuracy, Generalizability, Efficiency), each with a
++ AGE 1-9 scores (Achievements, Growth, Efforts), each with a
 one-line reason.
 
 Expense section: a small markdown table with rows for wall-clock hours,

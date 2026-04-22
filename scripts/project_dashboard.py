@@ -44,7 +44,7 @@ def score_cell(a, g, e, link=None):
         worst = min(a,g,e)
     badge = colored_span(worst, txt)
     if link:
-        return f"<a href=\"{link}\" style=\"text-decoration:none\">{badge}</a>"
+        return f"<a href=\"{link}\" style=\"text_decoration:none\">{badge}</a>"
     return badge
 
 # -----------------------------------------------------------
@@ -62,9 +62,9 @@ def parse_l3_report(path):
     for letter in STAGE_LETTERS:
         scores[letter] = {"a": None, "g": None, "e": None}
     # Scan Assessment section for explicit AGE patterns
-    a_match = re.search(r"Accuracy[=:\s]+(\d)", t)
-    g_match = re.search(r"Generalizability[=:\s]+(\d)", t)
-    e_match = re.search(r"Efficiency[=:\s]+(\d)", t)
+    a_match = re.search(r"Achievements[=:\s]+(\d)", t)
+    g_match = re.search(r"Growth[=:\s]+(\d)", t)
+    e_match = re.search(r"Efforts[=:\s]+(\d)", t)
     if a_match and g_match and e_match:
         # Assign the measured AGE to the Assessment stage
         scores["A"] = {"a": int(a_match.group(1)), "g": int(g_match.group(1)), "e": int(e_match.group(1))}
@@ -201,7 +201,7 @@ def render():
     # -------- Table 1: PLEASER × Iterations --------
     o.append("## Table 1 — PLEASER × Iterations (AGE scores)")
     o.append("")
-    o.append("Each cell shows an **AGE triple** (Accuracy.Generalizability.Efficiency) on the reverse-NIH scale (9=best). Click to open the source report.")
+    o.append("Each cell shows an **AGE triple** (Achievements.Growth.Efforts) on the reverse-NIH scale (9=best). Click to open the source report.")
     o.append("")
     if not iters:
         o.append("_No closed PLEASER iterations yet. Iteration 1 (Task 2.1) in **stage P** (Plan). Table will populate after the first L3 report._")
@@ -225,7 +225,7 @@ def render():
     o.append("Achievement = reverse-NIH 1-9 (9 best, 5 satisfactory). "
              "Tasks may run in parallel, locally on W0/L0 or remotely on Cheaha.")
     o.append("")
-    o.append("| Work item | Status | % complete | Achievement |")
+    o.append("| Work item | Status | % complete | Achievements |")
     o.append("|-----------|--------|-----------|-------------|")
     for a in aims:
         o.append(f"| **{a['name']}** | — | — | — |")
