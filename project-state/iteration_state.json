@@ -1,9 +1,9 @@
 {
-  "task": "Task 4.4",
-  "legacy_id": "G-018",
+  "task": "Task 1.2",
+  "legacy_id": "G-012",
   "iteration": 1,
-  "stage": "R",
-  "started": "202to6-04-20T22:25:31",
+  "stage": "E",
+  "started": "2026-04-22T13:40:12",
   "history": [
     {
       "stage": "P",
@@ -59,6 +59,21 @@
       "stage": "R",
       "at": "2026-04-22T13:29:00",
       "note": "auto-advance (no executor for Task 4.4/X)"
+    },
+    {
+      "stage": "P",
+      "at": "2026-04-22T13:40:12",
+      "note": "Auto-promoted by post_r_watchdog (prev Task 4.4 R stalled 11 min)"
+    },
+    {
+      "stage": "L",
+      "at": "2026-04-22T13:40:18",
+      "note": "auto-advance (no executor for Task 1.2/P)"
+    },
+    {
+      "stage": "E",
+      "at": "2026-04-22T13:42:32",
+      "note": "auto-advance (no executor for Task 1.2/L)"
     }
   ]
 }
