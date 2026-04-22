@@ -4574,3 +4574,8 @@
 [2026-04-22T20:32:39+00:00] Task 1.2/A running: /Users/jakeclaw/workers/bin/task_Task_1_2_A.sh.pending
 [2026-04-22T20:32:39+00:00] Task 1.2/A rc=2  stdout_tail='task_Task_1_2_A: stub pending, implement me\n'  stderr_tail=''
 [2026-04-22T20:32:39+00:00] Task 1.2/A pending — stay in stage (will retry)
+[2026-04-22T20:34:55+00:00] Task 1.2/A cooldown (135s < 240s)
+[2026-04-22T20:37:06+00:00] Task 1.2/A running: /Users/jakeclaw/workers/bin/task_Task_1_2_A.sh.pending
+[2026-04-22T20:37:06+00:00] Task 1.2/A rc=2  stdout_tail='task_Task_1_2_A: stub pending, implement me\n'  stderr_tail=''
+[2026-04-22T20:37:06+00:00] Task 1.2/A pending — stay in stage (will retry)
+[2026-04-22T20:38:20+00:00] Task 1.2/A cooldown (74s < 240s)
