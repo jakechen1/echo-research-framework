@@ -4675,3 +4675,8 @@
 [2026-04-22T22:29:06+00:00] Task 1.3/P running: /Users/jakeclaw/workers/bin/task_Task_1_3_P.sh.pending
 [2026-04-22T22:29:06+00:00] Task 1.3/P rc=2  stdout_tail='task_Task_1_3_P: stub pending, implement me\n'  stderr_tail=''
 [2026-04-22T22:29:06+00:00] Task 1.3/P pending — stay in stage (will retry)
+[2026-04-22T22:30:16+00:00] Task 1.3/P cooldown (70s < 240s)
+[2026-04-22T22:32:29+00:00] Task 1.3/P cooldown (203s < 240s)
+[2026-04-22T22:34:42+00:00] Task 1.3/P running: /Users/jakeclaw/workers/bin/task_Task_1_3_P.sh.pending
+[2026-04-22T22:34:42+00:00] Task 1.3/P rc=2  stdout_tail='task_Task_1_3_P: stub pending, implement me\n'  stderr_tail=''
+[2026-04-22T22:34:42+00:00] Task 1.3/P pending — stay in stage (will retry)
