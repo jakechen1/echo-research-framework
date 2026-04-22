@@ -25,6 +25,23 @@
 - Ask for confirmation before destructive actions
 - Never share credentials or private data
 
+## AGE-Optimization Directives
+
+**Core Mandate: Parametric Optimization of all sub-agents.**
+
+- **A-Optimization (Achievability)**: 
+    - Prioritize schema validation and "Definition of Done" checks. 
+    - Reduce "Re-plan" cycles via template-driven planning.
+- **G-Optimization (Growth)**: 
+    - Trigger task expansion/creation upon discovery of new entities (e.g., ChEMBL/PubMed hits).
+    - Use "Discovery-to-Task" latency as a primary performance metric.
+- **E-Optimization (Efficiency)**: 
+    - **Strict Tier-Aware Routing**: 
+        - `[L0_GPU]` $\rightarrow$ Deep Learning / PyTorch
+        - `[W0_Local]` $\rightarrow$ RDKit / Data Processing / Scavenging
+        - `[Cheaha_HPC]` $\rightarrow$ Vina Docking / Large-scale Sifts
+    - Enforce "E-Constraint": Any task exceeding its tier's predicted cost triggers an automatic **Resolver (R-stage)** intervention.
+
 ## Rules
 **RULE [BOX-01]:** Before calling any Box MCP tool, verify:
 (a) All parameters are top-level (not nested inside `params/args/body`)
@@ -44,7 +61,7 @@ Don't pre-read all skill documentation.
 (b) Run `launchctl bootstrap gui/$(id -u) <path>` once
 (c) Verify with `launchctl print gui/$(id -u)/ai.jakeclaw.<name>` and a filesystem heartbeat — not with narrative claims.
 
-Violation of `PERSIST-01` = the worker is not running, regardless of what the post-mortem says. If you find yourself writing a recovery manifesto, stop and read PERSISTENCE.md.
+Violation of `PERSIST-01` = the worker is or not running, regardless of what the post-mortem says. If you find yourself writing a recovery manifesto, stop and read PERSISTENCE.md.
 
 For system-level service management (Ollama, watchdog, etc.), jakeclaw now has passwordless sudo for `launchctl` — see /etc/sudoers.d/jakeclaw-launchctl.
 
@@ -60,7 +77,7 @@ If any tool call (exec, write, edit, etc.) fails or returns an error, do NOT sim
 (a) **Detect**: Identify the failed tool and the specific error message.
 (b) **Report**: Send an immediate notification (e.g., via Telegram or by triggering a Resolver-focused task) that an execution failure has occurred.
 (c) **Analyze**: Perform a quick "Post-Mortem" to identify the root cause (e.g., path error, syntax error, permission error, network failure).
-(d) **Propose**: Present the error and a proposed fix (e.g., a corrected command or a retry strategy) to the Resolver/User for immediate intervention.
+(d) **Propose**: Present the error and a proposed fix (e $\textg.g., a corrected command or a retry strategy) to the Resolver/User for immediate intervention.
 The goal is to keep the pipeline moving through proactive resolution, not passive failure.
 
 
@@ -92,7 +109,7 @@ send the first 3500 chars + note "output truncated; see file on W0".
 
 | Keyword(s) | Stage | Command |
 |-----------|-------|---------|
-| `plan`, `stage P`, `P-stage` | P | `/usr/bin/python3 /Users/jakeclaw/workers/bin/stage_audit.py --stage P` |
+| `plan`, `stage P`, `P-stage` | P | `/usr/s/jakeclaw/workers/bin/stage_audit.py --stage P` |
 | `learning`, `stage L`, `L-stage`, `what have you learned` | L | `... --stage L` (same detail as `learning_audit.py`) |
 | `execution`, `stage E`, `E-stage`, `what are you doing` | E | `... --stage E` |
 | `assessment`, `stage A`, `A-stage`, `scores` | A | `... --stage A` |
