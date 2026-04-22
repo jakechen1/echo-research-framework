@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T22:35:43+00:00",
+  "generated_at": "2026-04-22T22:40:12+00:00",
   "overall": "red",
   "red_channels": [
     "wiki_interlink",
@@ -15,21 +15,22 @@
     },
     "w0_cpu": {
       "status": "green",
-      "load_1m": 1.44,
+      "load_1m": 1.61,
       "hot_procs": [
-        "28.8 /opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python"
+        "31.6 /opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python",
+        "20.8 /sbin/launchd"
       ]
     },
     "scavenger": {
       "status": "green",
       "newest": "/Users/jakeclaw/workers/data/phgdh/2026-04-22.jsonl",
-      "age_h": 15.6,
+      "age_h": 15.7,
       "file_count": 5
     },
     "figures": {
       "status": "green",
       "newest": "/Users/jakeclaw/.openclaw/workspace/figures/top20_pchembl_ranked.png",
-      "age_h": 1.5,
+      "age_h": 1.6,
       "file_count": 4
     },
     "aim3_structures": {
@@ -44,11 +45,11 @@
       "status": "green",
       "task": "Task 1.3",
       "stage": "P",
-      "stage_age_h": 1.16
+      "stage_age_h": 1.24
     },
     "git_push": {
       "status": "green",
-      "age_h": 0.1
+      "age_h": 0.2
     },
     "dashboard_api": {
       "code": null,
@@ -59,8 +60,8 @@
     "wiki_interlink": {
       "status": "red",
       "count": 20,
-      "age_h": 101.5,
-      "audit_age_h": 101.6
+      "age_h": 101.6,
+      "audit_age_h": 101.7
     },
     "cheaha_queue": {
       "status": "red",
@@ -75,7 +76,7 @@
     },
     "box_sync": {
       "status": "red",
-      "age_h": 89.1
+      "age_h": 89.2
     }
   }
 }
