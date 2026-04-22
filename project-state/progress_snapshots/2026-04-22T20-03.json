@@ -1,0 +1,396 @@
+{
+  "at": "2026-04-22T20:03:19+00:00",
+  "at_epoch": 1776888199.541449,
+  "dirs": {
+    "workspace_data": {
+      "exists": true,
+      "file_count": 49,
+      "total_bytes": 2703108,
+      "newest_mtime": "2026-04-22T08:46:49+00:00",
+      "newest_file": "aim4_clm/bucket_pv9.smi",
+      "files_sha1": "f91521409a41b884",
+      "top5_largest": [
+        {
+          "path": "aim3_structures/6RIH.pdb",
+          "size": 820773
+        },
+        {
+          "path": "aim3_structures/7S3R.pdb",
+          "size": 554850
+        },
+        {
+          "path": "aim3_structures/2G76.pdb",
+          "size": 460323
+        },
+        {
+          "path": "aim3_structures/6PLF.pdb",
+          "size": 445824
+        },
+        {
+          "path": "aim3_structures/4NJN.pdb",
+          "size": 162081
+        }
+      ],
+      "top5_newest": [
+        {
+          "path": "aim4_clm/bucket_pv9.smi",
+          "size": 144,
+          "mtime": "2026-04-22T08:46:49+00:00"
+        },
+        {
+          "path": "aim4_clm/bucket_pv8.smi",
+          "size": 2455,
+          "mtime": "2026-04-22T08:46:49+00:00"
+        },
+        {
+          "path": "aim4_clm/bucket_pv7.smi",
+          "size": 7669,
+          "mtime": "2026-04-22T08:46:49+00:00"
+        },
+        {
+          "path": "aim4_clm/bucket_pv6.smi",
+          "size": 14231,
+          "mtime": "2026-04-22T08:46:49+00:00"
+        },
+        {
+          "path": "aim4_clm/bucket_pv5.smi",
+          "size": 24156,
+          "mtime": "2026-04-22T08:46:49+00:00"
+        }
+      ]
+    },
+    "workspace_figures": {
+      "exists": true,
+      "file_count": 3,
+      "total_bytes": 189029,
+      "newest_mtime": "2026-04-20T02:37:05+00:00",
+      "newest_file": "vina_vs_pchembl.png",
+      "files_sha1": "4e987a94b2aeb45f",
+      "top5_largest": [
+        {
+          "path": "top20_inhibitors.png",
+          "size": 89790
+        },
+        {
+          "path": "pchembl_dist.png",
+          "size": 53267
+        },
+        {
+          "path": "vina_vs_pchembl.png",
+          "size": 45972
+        }
+      ],
+      "top5_newest": [
+        {
+          "path": "vina_vs_pchembl.png",
+          "size": 45972,
+          "mtime": "2026-04-20T02:37:05+00:00"
+        },
+        {
+          "path": "top20_inhibitors.png",
+          "size": 89790,
+          "mtime": "2026-04-18T17:47:20+00:00"
+        },
+        {
+          "path": "pchembl_dist.png",
+          "size": 53267,
+          "mtime": "2026-04-18T17:00:51+00:00"
+        }
+      ]
+    },
+    "workspace_wiki": {
+      "exists": true,
+      "file_count": 11,
+      "total_bytes": 27879,
+      "newest_mtime": "2026-04-22T20:01:20+00:00",
+      "newest_file": "molecules/molecule-CHEMBL4467246.md",
+      "files_sha1": "0809626acb2c00fa",
+      "top5_largest": [
+        {
+          "path": "phgdh-allosteric-literature-2024-2026.md",
+          "size": 11021
+        },
+        {
+          "path": "bimodal-generation-comparison-2026.md",
+          "size": 3829
+        },
+        {
+          "path": "top20-phgdh-inhibitors.md",
+          "size": 3601
+        },
+        {
+          "path": "phgdh-pdb-binding-sites.md",
+          "size": 1862
+        },
+        {
+          "path": "molecules/molecule-CHEMBL4467246.md",
+          "size": 1163
+        }
+      ],
+      "top5_newest": [
+        {
+          "path": "molecules/molecule-CHEMBL4467246.md",
+          "size": 1163,
+          "mtime": "2026-04-22T20:01:20+00:00"
+        },
+        {
+          "path": "molecules/molecule-CHEMBL4518579.md",
+          "size": 1102,
+          "mtime": "2026-04-22T20:01:14+00:00"
+        },
+        {
+          "path": "molecules/molecule-CHEMBL4436264.md",
+          "size": 1046,
+          "mtime": "2026-04-22T20:01:09+00:00"
+        },
+        {
+          "path": "molecules/molecule-CHEMBL4584313.md",
+          "size": 1121,
+          "mtime": "2026-04-22T19:58:37+00:00"
+        },
+        {
+          "path": "molecules/molecule-CHEMBL4536737.md",
+          "size": 1111,
+          "mtime": "2026-04-22T19:58:31+00:00"
+        }
+      ]
+    },
+    "workspace_reports": {
+      "exists": true,
+      "file_count": 29,
+      "total_bytes": 13664,
+      "newest_mtime": "2026-04-22T19:14:29+00:00",
+      "newest_file": "L1/2026-04-22-14-14.md",
+      "files_sha1": "c6f9ff1ffc0cb13d",
+      "top5_largest": [
+        {
+          "path": "L1/2026-04-18-10-10.md",
+          "size": 3020
+        },
+        {
+          "path": "L2/2026-04-18-corrected.md",
+          "size": 1728
+        },
+        {
+          "path": "L2/2026-04-18.md",
+          "size": 958
+        },
+        {
+          "path": "L2/2026-04-21.md",
+          "size": 895
+        },
+        {
+          "path": "L2/2026-04-20.md",
+          "size": 780
+        }
+      ],
+      "top5_newest": [
+        {
+          "path": "L1/2026-04-22-14-14.md",
+          "size": 254,
+          "mtime": "2026-04-22T19:14:29+00:00"
+        },
+        {
+          "path": "L1/2026-04-22-13-00.md",
+          "size": 255,
+          "mtime": "2026-04-22T18:00:09+00:00"
+        },
+        {
+          "path": "L1/2026-04-22-07-30.md",
+          "size": 255,
+          "mtime": "2026-04-22T12:30:09+00:00"
+        },
+        {
+          "path": "L1/2026-04-21-22-02.md",
+          "size": 255,
+          "mtime": "2026-04-22T03:02:35+00:00"
+        },
+        {
+          "path": "L2/2026-04-21.md",
+          "size": 895,
+          "mtime": "2026-04-21T22:00:14+00:00"
+        }
+      ]
+    },
+    "workspace_logs": {
+      "exists": true,
+      "file_count": 12,
+      "total_bytes": 447958,
+      "newest_mtime": "2026-04-22T20:02:49+00:00",
+      "newest_file": "phgdh_scavenger.log",
+      "files_sha1": "c28f9286e39aab5d",
+      "top5_largest": [
+        {
+          "path": "phgdh_scavenger.log",
+          "size": 445918
+        },
+        {
+          "path": "parallel/wiki_interlink.log",
+          "size": 1043
+        },
+        {
+          "path": "parallel/resume_task2_3.log",
+          "size": 177
+        },
+        {
+          "path": "parallel/aim2_task2_1.log",
+          "size": 167
+        },
+        {
+          "path": "parallel/aim4.log",
+          "size": 152
+        }
+      ],
+      "top5_newest": [
+        {
+          "path": "phgdh_scavenger.log",
+          "size": 445918,
+          "mtime": "2026-04-22T20:02:49+00:00"
+        },
+        {
+          "path": "e_score_monitor.err",
+          "size": 65,
+          "mtime": "2026-04-22T04:48:13+00:00"
+        },
+        {
+          "path": "e_score_monitor.log",
+          "size": 0,
+          "mtime": "2026-04-22T04:48:13+00:00"
+        },
+        {
+          "path": "parallel/resume_task3_1.log",
+          "size": 35,
+          "mtime": "2026-04-18T17:47:23+00:00"
+        },
+        {
+          "path": "parallel/resume_task2_2.log",
+          "size": 77,
+          "mtime": "2026-04-18T17:47:20+00:00"
+        }
+      ]
+    },
+    "scavenger": {
+      "exists": true,
+      "file_count": 5,
+      "total_bytes": 17472490,
+      "newest_mtime": "2026-04-22T07:00:15+00:00",
+      "newest_file": "2026-04-22.jsonl",
+      "files_sha1": "e875ca6d00113e11",
+      "top5_largest": [
+        {
+          "path": "2026-04-21.jsonl",
+          "size": 3494498
+        },
+        {
+          "path": "2026-04-18.jsonl",
+          "size": 3494498
+        },
+        {
+          "path": "2026-04-22.jsonl",
+          "size": 3494498
+        },
+        {
+          "path": "2026-04-20.jsonl",
+          "size": 3494498
+        },
+        {
+          "path": "2026-04-19.jsonl",
+          "size": 3494498
+        }
+      ],
+      "top5_newest": [
+        {
+          "path": "2026-04-22.jsonl",
+          "size": 3494498,
+          "mtime": "2026-04-22T07:00:15+00:00"
+        },
+        {
+          "path": "2026-04-21.jsonl",
+          "size": 3494498,
+          "mtime": "2026-04-21T07:00:18+00:00"
+        },
+        {
+          "path": "2026-04-20.jsonl",
+          "size": 3494498,
+          "mtime": "2026-04-20T07:00:16+00:00"
+        },
+        {
+          "path": "2026-04-19.jsonl",
+          "size": 3494498,
+          "mtime": "2026-04-19T07:00:18+00:00"
+        },
+        {
+          "path": "2026-04-18.jsonl",
+          "size": 3494498,
+          "mtime": "2026-04-18T07:00:12+00:00"
+        }
+      ]
+    },
+    "logs_system": {
+      "exists": true,
+      "file_count": 21,
+      "total_bytes": 3491431,
+      "newest_mtime": "2026-04-22T20:02:41+00:00",
+      "newest_file": "task_advancer.log",
+      "files_sha1": "b39667c3607740e0",
+      "top5_largest": [
+        {
+          "path": "liveness_audit.log",
+          "size": 1722851
+        },
+        {
+          "path": "utilization_sampler.log",
+          "size": 485008
+        },
+        {
+          "path": "optimizer.log",
+          "size": 427207
+        },
+        {
+          "path": "auto_resolver.log",
+          "size": 269762
+        },
+        {
+          "path": "nas_backup.log",
+          "size": 231328
+        }
+      ],
+      "top5_newest": [
+        {
+          "path": "task_advancer.log",
+          "size": 1713,
+          "mtime": "2026-04-22T20:02:41+00:00"
+        },
+        {
+          "path": "resilience_retry.log",
+          "size": 181706,
+          "mtime": "2026-04-22T20:02:35+00:00"
+        },
+        {
+          "path": "utilization_sampler.log",
+          "size": 485008,
+          "mtime": "2026-04-22T20:02:27+00:00"
+        },
+        {
+          "path": "schema_watcher.log",
+          "size": 8410,
+          "mtime": "2026-04-22T20:01:26+00:00"
+        },
+        {
+          "path": "cheaha_telemetry.log",
+          "size": 41525,
+          "mtime": "2026-04-22T20:01:26+00:00"
+        }
+      ]
+    }
+  },
+  "network": {
+    "bytes_in": 92993212575,
+    "bytes_out": 34935405604
+  },
+  "git": {
+    "commits_24h": 117,
+    "latest_sha": "20442cd"
+  },
+  "active_procs": []
+}

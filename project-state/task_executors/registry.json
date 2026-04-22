@@ -1,15 +1,20 @@
 {
-  "_schema": "task_id -> {stage: command, ...}. Executors are shell commands run on W0. If stage entry missing, task-advancer auto-advances with 'no executor defined' note.",
+  "_schema": "task_id -> {stage: command}. Missing entries cause task_advancer to STALL (v2 2026-04-22, no more auto-advance).",
+  "_policy": "Only list executors that EXIST on disk. If a file is missing, Planner drafts a .pending stub instead of a phantom registry entry.",
+  "Task 1.2": {
+    "E": "/Users/jakeclaw/workers/bin/task_1_2_hermes_loop.sh",
+    "A": "/Users/jakeclaw/workers/bin/task_Task_1_2_A.sh.pending"
+  },
+  "Task 2.4": {
+    "E": "/Users/jakeclaw/workers/bin/task_2_4_scaffold.sh"
+  },
   "Task 4.2": {
     "L": "/Users/jakeclaw/workers/bin/task_4_2_learning.sh",
     "E": "/Users/jakeclaw/workers/bin/task_4_2_execute.sh",
     "A": "/Users/jakeclaw/workers/bin/task_4_2_assess.sh",
     "S": "/Users/jakeclaw/workers/bin/task_4_2_share.sh"
   },
-  "Task 2.4": {
-    "E": "/Users/jakeclaw/workers/bin/task_2_4_scaffold.sh"
-  },
-  "Task 1.2": {
-    "E": "/Users/jakeclaw/workers/bin/task_1_2_hermes_loop.sh"
+  "Task 4.4": {
+    "E": "/Users/jakeclaw/workers/bin/task_4_4_clm_pretrain.sh"
   }
 }

@@ -63,6 +63,12 @@ def main():
             alerts = json.loads(alert_file.read_text()) if alert_file.exists() else {}
         except: alerts = {}
         if alert_key not in alerts:
+            # On first stall for this (task, stage), auto-invoke Planner to draft a stub
+            subprocess.run([
+                "/Users/jakeclaw/.hermes-venv/bin/python",
+                "/Users/jakeclaw/.openclaw/workspace/skills/planner/scripts/plan_task.py",
+                "--task", task, "--stage", stage
+            ], check=False, timeout=30)
             subprocess.run([
                 "/Users/jakeclaw/.openclaw/workspace/skills/notifier/scripts/notify.sh",
                 "🚧", f"STALLED: {task}/{stage}",
