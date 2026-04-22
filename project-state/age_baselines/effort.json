@@ -1,6 +1,6 @@
 {
-  "cpu_mean_7d": 15.38,
-  "gpu_mean_7d": 9.97,
-  "sample_count": 1881,
-  "refreshed_at": "2026-04-20T03:00:26+00:00"
+  "cpu_mean_7d": 15.66,
+  "gpu_mean_7d": 11.34,
+  "sample_count": 4392,
+  "refreshed_at": "2026-04-22T03:00:41+00:00"
 }
