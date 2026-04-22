@@ -29,7 +29,7 @@
 
 ## PLEASER Evolution Directive: AGE-Integrated Protocol (AIPE)
 
-**Core Mandate:** Use **AGE Standards** (Achievement, Growth, Effort) as the fundamental metric for the PLEASER cycle to ensure continuous, measurable evolution.
+**Core Mandate:** Use **AGE Standards** (Achievements, Growth, Efforts) as the fundamental metric for the PLEASER cycle to ensure continuous, measurable evolution.
 
 ### 1. Stage A (Assessor) - The Metric
 *   **Mandatory Scoring:** Every task must be evaluated using the **1–9 AGE scale** (from `AGE_SCORING.md`).

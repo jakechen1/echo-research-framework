@@ -2,7 +2,7 @@
 
 **A.G.E.** — reverse-NIH 1-9 per PLEASER iteration. **9 = exceptional, 5 = par, 1 = failing.**
 
-## A — Achievement (completion × quality-vs-SOTA)
+## A — Achievements (completion × quality-vs-SOTA)
 
 Two sub-signals:
 
@@ -28,7 +28,7 @@ Sub-par quality (met tasks but output below baseline) caps at 4.
 
 Unchanged from v1. ±10/20/33/50 % buckets around 5; ±5 % margin is 5.
 
-## E — Effort (utilization vs absolute thresholds)
+## E — Efforts (utilization vs absolute thresholds)
 
 Anchors exactly as specified:
 

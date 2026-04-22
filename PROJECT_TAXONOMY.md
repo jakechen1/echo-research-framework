@@ -45,7 +45,7 @@ structured L3 report with these seven sections:
 | 1 | **P** | **Plan** | Task text, hypothesis or prediction, expected artifacts, success criteria (specific, measurable) |
 | 2 | **L** | **Learning** | Prior art + context: relevant wiki pages, recent literature, prior PLEASER iterations. Short bibliography in `[[wikilink]]` form. |
 | 3 | **E** | **Execution** | What was actually done. Commands run, who ran them (jakeclaw / qwenclaw / Hermes / cheaha), when. Raw log pointer. |
-| 4 | **A** | **Assessment** | NIH-style scores (1-9, 1=best) for Significance, Innovation, Approach + AGE scores (Accuracy, Generalizability, Efficiency) |
+| 4 | **A** | **Assessment** | NIH-style scores (1-9, 1=best) for Significance, Innovation, Approach + AGE scores (Achievements, Growth, Efforts) |
 | 5 | **S** | **Sharing** | What got published where (Wiki, Box, Telegram, GitHub). Discussion notes from Jake / co-supervisor / collaborators. |
 | 6 | **E** | **Expense** | Resource accounting: wall-clock hours, GPU-hours (L0 / Cheaha), Claude API $ spent, tokens used, Telegram msg count. Compare against the planned budget from Phase 1 (Plan). Flag overruns. |
 | 7 | **R** | **Resolver** | Escalations invoked (Claude co-supervisor, human expert) + resolutions captured. Any scientific-direction shifts noted here with dated justification. |
@@ -89,9 +89,9 @@ stay in the Execution section where they are produced — they are part of
 
 | Letter | Criterion | Question |
 |--------|-----------|----------|
-| A | **Accuracy** | Did outputs correctly represent reality? (computational accuracy vs ground truth or literature benchmarks) |
-| G | **Generalizability** | Will the finding transfer beyond this instance? (other targets, datasets, conditions) |
-| E | **Efficiency** | Did resource use (time, compute, tokens) match the value produced? |
+| A | **Achievements** | Did outputs correctly represent reality? (computational accuracy vs ground truth or literature benchmarks) |
+| G | **Growth** | Will the finding transfer beyond this instance? (other targets, datasets, conditions) |
+| E | **Efforts** | Did resource use (time, compute, tokens) match the value produced? |
 
 ### AGE rubric (1-9, 9 = best)
 
@@ -260,7 +260,7 @@ Boundary case: Achievement = 4 with a known blocker → Yellow; Achievement
 ### Source of truth
 `project-state/iteration_state.json` drives "current stage";
 `project-state/reports/L3/*.md` drives AGE scores via regex extraction
-of "Accuracy=N / Generalizability=N / Efficiency=N" lines.
+of "Achievements=N / Growth=N / Efforts=N" lines.
 Backlog + Completed + CurrentGoal files drive Table 2.
 
 

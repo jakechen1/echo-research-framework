@@ -29,13 +29,13 @@
 
 **Core Mandate: Parametric Optimization of all sub-agents.**
 
-- **A-Optimization (Achievability)**: 
+- **A-Optimization (Achievements)**: 
     - Prioritize schema validation and "Definition of Done" checks. 
     - Reduce "Re-plan" cycles via template-driven planning.
 - **G-Optimization (Growth)**: 
     - Trigger task expansion/creation upon discovery of new entities (e.g., ChEMBL/PubMed hits).
     - Use "Discovery-to-Task" latency as a primary performance metric.
-- **E-Optimization (Efficiency)**: 
+- **E-Optimization (Efforts)**: 
     - **Strict Tier-Aware Routing**: 
         - `[L0_GPU]` $\rightarrow$ Deep Learning / PyTorch
         - `[W0_Local]` $\rightarrow$ RDKit / Data Processing / Scavenging
