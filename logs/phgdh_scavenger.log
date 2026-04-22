@@ -4769,3 +4769,10 @@
 [2026-04-21 21:45:08] Successfully harvested 21 molecules. Total: 139988
 [2026-04-21 21:45:49] Successfully harvested 43 molecules. Total: 140031
 [2026-04-21 21:46:47] Successfully harvested 34 molecules. Total: 140065
+[2026-04-21 21:47:38] Successfully harvested 41 molecules. Total: 140106
+[2026-04-21 21:48:34] Successfully harvested 48 molecules. Total: 140154
+[2026-04-21 21:49:10] Successfully harvested 12 molecules. Total: 140166
+[2026-04-21 21:50:05] Successfully harvested 38 molecules. Total: 140204
+[2026-04-21 21:50:48] Successfully harvested 37 molecules. Total: 140241
+[2026-04-21 21:51:46] Successfully harvested 16 molecules. Total: 140257
+[2026-04-21 21:51:46] ERROR during scavenging: [Errno 32] Broken pipe
