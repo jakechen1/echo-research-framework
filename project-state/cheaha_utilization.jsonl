@@ -675,3 +675,5 @@
 {"at": "2026-04-22T15:30:28Z", "job_count_48h": 3743, "running": 0, "pending": 0, "failed_recent": 301, "rwi_pct": 3.99, "total_actual_cpu_hours": 149.16, "total_requested_cpu_hours": 3741.42, "total_gpu_hours_est": 0.0}
 {"at": "2026-04-22T15:33:43Z", "job_count_48h": 3743, "running": 0, "pending": 0, "failed_recent": 301, "rwi_pct": 3.99, "total_actual_cpu_hours": 149.16, "total_requested_cpu_hours": 3741.42, "total_gpu_hours_est": 0.0}
 {"at": "2026-04-22T15:37:08Z", "job_count_48h": 3743, "running": 0, "pending": 0, "failed_recent": 301, "rwi_pct": 3.99, "total_actual_cpu_hours": 149.16, "total_requested_cpu_hours": 3741.42, "total_gpu_hours_est": 0.0}
+{"at": "2026-04-22T15:39:22Z", "job_count_48h": 3743, "running": 0, "pending": 0, "failed_recent": 301, "rwi_pct": 3.99, "total_actual_cpu_hours": 149.16, "total_requested_cpu_hours": 3741.42, "total_gpu_hours_est": 0.0}
+{"at": "2026-04-22T15:42:46Z", "job_count_48h": 3743, "running": 0, "pending": 0, "failed_recent": 301, "rwi_pct": 3.99, "total_actual_cpu_hours": 149.16, "total_requested_cpu_hours": 3741.42, "total_gpu_hours_est": 0.0}
