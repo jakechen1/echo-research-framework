@@ -1,463 +1,214 @@
-COC(=O)C(C)(C)S(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4541133
-COC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)nc3n2C)cc1	CHEMBL4536737
-COC(=O)C(C)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4584313
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4436264
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4518579
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@+]([O-])CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4515492
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@+]([O-])CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4515492
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S+]([O-])CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4527607
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S+]([O-])CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4527607
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4520837
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4520837
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4520837
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n(C)c2c1	CHEMBL4467246
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4579388
-COC(=O)C1(S(=O)(=O)c2ccc([C@@H](C)NC(=O)c3cc4c(Cl)cc(C)cc4n3C)cc2)CCOCC1	CHEMBL4540875
-CCOC(=O)C(C)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4521661
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@+]([O-])CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4515492
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@+]([O-])CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4515492
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4520837
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4520837
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)C(C)(C)C(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4542437
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)C(C)(C)C(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4542437
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4436264
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4436264
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4436264
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S+]([O-])CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4527607
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S+]([O-])CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4527607
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1F	CHEMBL4483622
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1F	CHEMBL4483622
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1F	CHEMBL4548014
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1F	CHEMBL4548014
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C(C)(C)C(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4587306
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C(C)(C)C(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4587306
-COC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4541457
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)C(C)(C)C(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4542437
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)C(C)(C)C(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4542437
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n(C)c2c1	CHEMBL4533417
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n(C)c2c1	CHEMBL4533417
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C4(C(=O)O)CCCC4)cc3)n(C)c2c1	CHEMBL4483483
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C4(C(=O)O)CCCC4)cc3)n(C)c2c1	CHEMBL4483483
-CCCC(C(=O)O)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4547034
-CCCC(C(=O)O)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4547034
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@@+]([O-])CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4560976
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@@+]([O-])CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4560976
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1F	CHEMBL4483622
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1F	CHEMBL4483622
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1F	CHEMBL4548014
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1F	CHEMBL4548014
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C4(C(=O)O)CCOCC4)cc3)n(C)c2c1	CHEMBL4548203
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C4(C(=O)O)CCOCC4)cc3)n(C)c2c1	CHEMBL4548203
-COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4526788
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(F)c(F)c(C)cc3n2C)cc1	CHEMBL4522256
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(F)c1F	CHEMBL4517873
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(F)c1F	CHEMBL4517873
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc([S+]([O-])CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4536020
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc([S+]([O-])CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4536020
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc([S+]([O-])CC(=O)O)cc3)n(C)c2c1	CHEMBL4585012
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc([S+]([O-])CC(=O)O)cc3)n(C)c2c1	CHEMBL4585012
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n(C)c2c1	CHEMBL4467246
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n(C)c2c1	CHEMBL4467246
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n(C)c2c1	CHEMBL4467246
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C(C)C(=O)O)cc3)n(C)c2c1	CHEMBL4580665
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C(C)C(=O)O)cc3)n(C)c2c1	CHEMBL4580665
-COC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4545772
-Cc1nc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4518612
-Cc1nc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4518612
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@@+]([O-])CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4560976
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@@+]([O-])CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4560976
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4436264
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4436264
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C(C)(C)C(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4587306
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C(C)(C)C(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4587306
-Cc1ccc(C(=O)Nc2cccc(C(F)(F)F)c2)cc1Nc1nc(-c2cccnc2)nc2c1cnn2C	CHEMBL3752910
-Cc1ccc(C(=O)Nc2cccc(C(F)(F)F)c2)cc1Nc1nc(-c2cccnc2)nc2c1cnn2C	CHEMBL3752910
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@@+]([O-])CC(=O)O)cc3)n2C)c(F)c1F	CHEMBL4536556
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@@+]([O-])CC(=O)O)cc3)n2C)c(F)c1F	CHEMBL4536556
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C4(C(=O)O)CC4)cc3)n(C)c2c1	CHEMBL4592933
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C4(C(=O)O)CC4)cc3)n(C)c2c1	CHEMBL4592933
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C(C)C(=O)OC(C)C)cc3)n(C)c2c1	CHEMBL4522032
-CCC(CC)(C(=O)O)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4513843
-CCC(CC)(C(=O)O)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4513843
-CC(=O)NS(=O)(=O)N1CCC(NC(=O)c2cc3c(Cl)c(Cl)ccc3n2C)C(CC(=O)O)C1	CHEMBL4539932
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc([S+]([O-])CC(=O)O)cc3)n(C)c2c1	CHEMBL4585012
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc([S+]([O-])CC(=O)O)cc3)n(C)c2c1	CHEMBL4585012
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc([S+]([O-])CC(=O)O)cc3)n(C)c2c1	CHEMBL4547905
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc([S+]([O-])CC(=O)O)cc3)n(C)c2c1	CHEMBL4547905
-CCC(C(=O)O)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4517506
-CCC(C(=O)O)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4517506
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)CS(=O)(=O)c4ccc([C@@H](C)NC(=O)c5cc6c(Cl)cc(C)cc6n5C)cc4)cc3)n(C)c2c1	CHEMBL4548756
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C(C)(C)C(=O)O)cc3)n(C)c2c1	CHEMBL4572814
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C(C)(C)C(=O)O)cc3)n(C)c2c1	CHEMBL4572814
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OC(C)C)cc3)n2C)c(Cl)c1Cl	CHEMBL4542730
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n(C)c2c1C	CHEMBL4572184
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n(C)c2c1C	CHEMBL4572184
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(C(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4438014
-CCC(CC)(C(=O)O)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4513843
-CCC(CC)(C(=O)O)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4513843
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OC4CCOCC4)cc3)n(C)c2c1	CHEMBL4557404
-Cn1c(C(=O)NC2(c3ccc(C(C(=O)O)c4cccnc4)cc3)COC2)cc2c(Cl)c(Cl)ccc21	CHEMBL4443265
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C4(C(=O)O)CC4)cc3)n(C)c2c1	CHEMBL4592933
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C4(C(=O)O)CC4)cc3)n(C)c2c1	CHEMBL4592933
-CCCC(C(=O)O)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4547034
-CCCC(C(=O)O)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4547034
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(F)c1F	CHEMBL4517873
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(F)c1F	CHEMBL4517873
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc([S@+]([O-])CC(=O)O)cc3)n(C)c2c1	CHEMBL4587964
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc([S@+]([O-])CC(=O)O)cc3)n(C)c2c1	CHEMBL4587964
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc([S+]([O-])CC(=O)O)cc3)n(C)c2c1	CHEMBL4547905
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc([S+]([O-])CC(=O)O)cc3)n(C)c2c1	CHEMBL4547905
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C4CCCOC4=O)cc3)n2C)c(Cl)c1Cl	CHEMBL4582792
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C4CCCOC4=O)cc3)n2C)c(Cl)c1Cl	CHEMBL4582792
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCc4cccc(C(F)(F)F)c4)cc3)n(C)c2c1	CHEMBL4536870
-C[C@@H](NC(=O)c1cc2c(Cl)cc(-c3cnn(C)c3)cc2n1C)c1ccc(S(=O)(=O)CC(=O)O)cc1	CHEMBL4551822
-C[C@@H](NC(=O)c1cc2c(Cl)cc(-c3cnn(C)c3)cc2n1C)c1ccc(S(=O)(=O)CC(=O)O)cc1	CHEMBL4551822
-COCCC(C(=O)O)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4524231
-COCCC(C(=O)O)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4524231
-CC(=O)N1CCC(C(=O)O)(S(=O)(=O)c2ccc([C@@H](C)NC(=O)c3cc4c(Cl)c(Cl)c(C)cc4n3C)cc2)CC1	CHEMBL4591375
-CC(=O)N1CCC(C(=O)O)(S(=O)(=O)c2ccc([C@@H](C)NC(=O)c3cc4c(Cl)c(Cl)c(C)cc4n3C)cc2)CC1	CHEMBL4591375
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n(C)c2c1C	CHEMBL4572184
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n(C)c2c1C	CHEMBL4572184
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCC4(C)COC4)cc3)n(C)c2c1	CHEMBL4550162
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCCO)cc3)n(C)c2c1	CHEMBL4514445
-CC(NC(=O)c1cc2c(Cl)cc(I)cc2n1C)c1ccc(S(=O)(=O)CC(=O)O)cc1	CHEMBL4556963
-CC(NC(=O)c1cc2c(Cl)cc(I)cc2n1C)c1ccc(S(=O)(=O)CC(=O)O)cc1	CHEMBL4556963
-CC(=O)OCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc(-c3ccccc3)nn2C)cc1	CHEMBL4531113
-Cn1c(C(=O)NC2(c3ccc(C(CC(=O)O)c4cccnc4)cc3)COC2)cc2c(Cl)c(Cl)ccc21	CHEMBL4476654
-C[C@@H](NC(=O)c1cc(-c2ccccc2)nn1C)c1ccc(S(=O)(=O)CC(=O)O)cc1	CHEMBL4458393
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCC4(F)COC4)cc3)n(C)c2c1	CHEMBL4541970
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCC4(F)COC4)cc3)n(C)c2c1	CHEMBL4541970
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(C(=O)O)cc3)n2C)c2ccccc12	CHEMBL4522467
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc([S@+]([O-])CC(=O)O)cc3)n(C)c2c1	CHEMBL4587964
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc([S@+]([O-])CC(=O)O)cc3)n(C)c2c1	CHEMBL4587964
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(C(=O)O)cc3)n(C)c2c1	CHEMBL4594097
-C[C@@H](NC(=O)c1cc2c(Cl)cc(-c3cnn(C)c3)cc2n1C)c1ccc(S(=O)(=O)CC(=O)O)cc1	CHEMBL4551822
-C[C@@H](NC(=O)c1cc2c(Cl)cc(-c3cnn(C)c3)cc2n1C)c1ccc(S(=O)(=O)CC(=O)O)cc1	CHEMBL4551822
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4518579
-C#Cc1cc(Cl)c2cc(C(=O)NC(C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n(C)c2c1	CHEMBL4576106
-C#Cc1cc(Cl)c2cc(C(=O)NC(C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n(C)c2c1	CHEMBL4576106
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4522081
-Cn1c(C(=O)NC2(c3ccc(CC(=O)O)cc3)COC2)cc2c(Cl)c(Cl)ccc21	CHEMBL4578644
-C[C@@H](NC(=O)c1cc2c(Cl)c(Cl)ccc2n1C)c1ccc(C(=O)O)cc1	CHEMBL4469992
-CCc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(C(=O)O)cc3)n(C)c2c1	CHEMBL4473052
-CCOC(=O)C(C)(C)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4534115
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@+]([O-])CC(=O)O)cc3)n2C)c(F)c1F	CHEMBL4577108
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@+]([O-])CC(=O)O)cc3)n2C)c(F)c1F	CHEMBL4577108
-COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc(-c3ccc(F)cc3)nn2C)cc1	CHEMBL4545321
-Cn1c(C(=O)NC2(c3ccc(CC(=O)O)c(F)c3)COC2)cc2c(Cl)c(Cl)ccc21	CHEMBL4452531
-COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3cc(Cl)c(-c4cnn(CCN5CCOCC5)c4)cc3n2C)cc1	CHEMBL4535665
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n(C)c2n1	CHEMBL4580853
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n(C)c2n1	CHEMBL4580853
-CC(C)OC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3cc(Cl)c(-c4cnn(CCN5CCOCC5)c4)cc3n2C)cc1	CHEMBL4590502
-Cn1c(C(=O)NC2(c3ccc(C(=O)O)c(F)c3)COC2)cc2c(Cl)c(Cl)ccc21	CHEMBL4455598
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCCS(C)(=O)=O)cc3)n(C)c2c1	CHEMBL4513944
-CN1CCN(c2cc(Cl)c3cc(C(=O)N[C@H](CO)c4ccc(S(=O)(=O)CC(=O)O)cc4)n(C)c3c2)CC1	CHEMBL4549808
-CN1CCN(c2cc(Cl)c3cc(C(=O)N[C@H](CO)c4ccc(S(=O)(=O)CC(=O)O)cc4)n(C)c3c2)CC1	CHEMBL4549808
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n(C)c2n1	CHEMBL4557402
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n(C)c2n1	CHEMBL4557402
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(-c4cnn(C)c4)cc3n2C)cc1	CHEMBL4565578
-Cc1cc2c(cc1Cl)cc(C(=O)N[C@H](C)c1ccc(C(=O)O)cc1)n2C	CHEMBL4474620
-COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)nc1	CHEMBL4563552
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCCO)cc3)n(C)c2c1	CHEMBL4552712
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCCO)cc3)n(C)c2c1	CHEMBL4552712
-C[C@@H](NC(=O)c1cc(-c2cccc3cc[nH]c23)nn1C)c1ccc(S(=O)(=O)CC(=O)O)cc1	CHEMBL4521930
-C[C@@H](NC(=O)c1cc(-c2cccc3cc[nH]c23)nn1C)c1ccc(S(=O)(=O)CC(=O)O)cc1	CHEMBL4521930
-COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4580038
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCC4COC4)cc3)n(C)c2c1	CHEMBL4574871
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCC4COC4)cc3)n(C)c2c1	CHEMBL4574871
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCCS(C)(=O)=O)cc3)n(C)c2c1	CHEMBL4513944
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCCS(C)(=O)=O)cc3)n(C)c2c1	CHEMBL4513944
-CCOCCOCCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4579433
-C[C@@H](NC(=O)c1cc2c3ccccc3ccc2n1C)c1ccc(C(=O)O)cc1	CHEMBL4457646
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCC4(C)COC4)cc3)n(C)c2c1	CHEMBL4578446
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCC4(C)COC4)cc3)n(C)c2c1	CHEMBL4578446
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc([S@@+]([O-])CC(=O)O)cc3)n(C)c2c1	CHEMBL4516261
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc([S@@+]([O-])CC(=O)O)cc3)n(C)c2c1	CHEMBL4516261
-C[C@@H](NC(=O)c1cc2cc(Cl)c(Br)cc2n1C)c1ccc(C(=O)O)cc1	CHEMBL4560125
-COCCOC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4569609
-COCCOC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4569609
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc(-c3ccc(F)cc3)nn2C)cc1	CHEMBL4535659
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc(-c3cccc4cc[nH]c34)nn2C)cc1	CHEMBL4530135
-Cc1cc(Cl)c2cc(C(=O)NC(C)c3ccc(S(=O)(=O)CC(=O)OC(C)C)cc3)n(C)c2c1	CHEMBL4573469
-CC(C)OC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc(-c3ccc(F)cc3)nn2C)cc1	CHEMBL4518189
-CC(=O)OCCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4571043
-CC(=O)NS(=O)(=O)c1ccc(C(C)NC(=O)c2cc(-c3ccccc3)nn2C)cc1	CHEMBL4565713
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCC(C)C)cc3)n(C)c2c1	CHEMBL4549376
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OC4COC4)cc3)n(C)c2c1	CHEMBL4550369
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OC4COC4)cc3)n(C)c2c1	CHEMBL4550369
-COc1cc(Cl)cc2cc(C(=O)N[C@H](C)c3ccc(C(=O)O)cc3)n(C)c12	CHEMBL4437057
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)c(Cl)c(C)nc3n2C)cc1	CHEMBL4593777
-C[C@@H](NC(=O)c1cc(-c2ccc(F)cc2)nn1C)c1ccc(S(=O)(=O)C2(C(=O)O)CCCC2)cc1	CHEMBL4568292
-C[C@@H](NC(=O)c1cc(-c2ccc(F)cc2)nn1C)c1ccc(S(=O)(=O)C2(C(=O)O)CCCC2)cc1	CHEMBL4568292
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc(-n3ncc4ccccc43)nn2C)cc1	CHEMBL4590594
-C[C@@H](NC(=O)c1cc(-c2ccc(F)cc2)nn1C)c1ccc(S(=O)(=O)CC(=O)O)cc1	CHEMBL4530767
-C[C@@H](NC(=O)c1cc(-c2ccc(F)cc2)nn1C)c1ccc(S(=O)(=O)CC(=O)O)cc1	CHEMBL4530767
-CO[C@@H](C)COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4548661
-C[C@@H](NC(=O)c1cc2c(Cl)cc(C(F)F)cc2n1C)c1ccc(C(=O)O)cc1	CHEMBL4444192
-C[C@@H](NC(=O)c1cc2c(Cl)cc(N3CCN(C)CC3)cc2n1C)c1ccc(S(=O)(=O)CC(=O)O)cc1	CHEMBL4521064
-C[C@@H](NC(=O)c1cc2c(Cl)cc(N3CCN(C)CC3)cc2n1C)c1ccc(S(=O)(=O)CC(=O)O)cc1	CHEMBL4521064
-COCCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)c(Cl)c(C)nc3n2C)cc1	CHEMBL4550915
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O[C@H]4CCOC4)cc3)n(C)c2c1	CHEMBL4572318
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O[C@H]4CCOC4)cc3)n(C)c2c1	CHEMBL4572318
-C[C@@H](NC(=O)c1cc(-c2cccc3cc[nH]c23)nn1C)c1ccc(S(=O)(=O)CC(=O)O)cc1	CHEMBL4521930
-C[C@@H](NC(=O)c1cc(-c2cccc3cc[nH]c23)nn1C)c1ccc(S(=O)(=O)CC(=O)O)cc1	CHEMBL4521930
-COC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4545772
-COC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4545772
-COC(=O)C[S@+]([O-])c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4483039
-COC(=O)C[S@+]([O-])c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4483039
-COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)c(Cl)c(C)nc3n2C)cc1	CHEMBL4587490
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(C(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4438014
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc([S@@+]([O-])CC(=O)O)cc3)n(C)c2c1	CHEMBL4516261
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc([S@@+]([O-])CC(=O)O)cc3)n(C)c2c1	CHEMBL4516261
-C[C@@H](NC(=O)c1cc(-c2ccc(F)cc2)nn1C)c1ccc(S(=O)(=O)C2(C(=O)O)CCCC2)cc1	CHEMBL4568292
-C[C@@H](NC(=O)c1cc(-c2ccc(F)cc2)nn1C)c1ccc(S(=O)(=O)C2(C(=O)O)CCCC2)cc1	CHEMBL4568292
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCCCO)cc3)n(C)c2c1	CHEMBL4578573
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCCCO)cc3)n(C)c2c1	CHEMBL4578573
-COC(=O)C[S+]([O-])c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4536159
-COC(=O)C[S+]([O-])c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4536159
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n(C)c2c1	CHEMBL4533417
-C[C@@H](NC(=O)c1cc(-c2ccccc2)nn1C)c1ccc(N2C(=O)CC[C@H]2C(=O)O)cc1	CHEMBL4446190
-CC(=O)NS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc(-c3ccccc3)nn2C)cc1	CHEMBL4588817
-C[C@@H](NC(=O)c1cc(-c2ccc(F)cc2)nn1C)c1ccc(S(=O)(=O)CC(=O)OCC2(C)COC2)cc1	CHEMBL4527489
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCCO)cc3)n2C)c(Cl)c1Cl	CHEMBL4564291
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCCO)cc3)n2C)c(Cl)c1Cl	CHEMBL4564291
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n(C)c2c1	CHEMBL4533417
-COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(-c4cnn(C)c4)cc3n2C)cc1	CHEMBL4565378
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C4CCOC4=O)cc3)n2C)c(F)c1F	CHEMBL4537896
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C4CCOC4=O)cc3)n2C)c(F)c1F	CHEMBL4537896
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C4CCOC4=O)cc3)n2C)c(Cl)c1Cl	CHEMBL4575857
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C4CCOC4=O)cc3)n2C)c(Cl)c1Cl	CHEMBL4575857
-COC(=O)C[S@+]([O-])c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4514983
-COC(=O)C[S@+]([O-])c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4514983
-COC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4541457
-COC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4541457
-COc1cc(F)c(Cl)c2cc(C(=O)N[C@H](C)c3ccc(C(=O)O)cc3)n(C)c12	CHEMBL4460522
-CC[C@@H](NC(=O)c1cc2c(Cl)cc(C)cc2n1C)c1ccc(S(=O)(=O)CC(=O)NO)cc1	CHEMBL5767119
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)NO)cc3)n(C)c2c1	CHEMBL4520085
-CC(C)OC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc(-c3ccccc3)nn2C)cc1	CHEMBL4527049
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCCOCCO)cc3)n(C)c2c1	CHEMBL4554160
-C[C@H](C(=O)O)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3cc(Cl)ccc3n2C)cc1	CHEMBL4552450
-C[C@H](C(=O)O)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3cc(Cl)ccc3n2C)cc1	CHEMBL4552450
-C[C@@H](NC(=O)c1cc(-c2ccc(F)cc2)nn1C)c1ccc(S(=O)(=O)C2(C(=O)O)CCOCC2)cc1	CHEMBL4539828
-C[C@@H](NC(=O)c1cc(-c2ccc(F)cc2)nn1C)c1ccc(S(=O)(=O)C2(C(=O)O)CCOCC2)cc1	CHEMBL4539828
-COC(=O)C[S@+]([O-])c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4483039
-COC(=O)C[S@+]([O-])c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4483039
-COCCOC(=O)C(C)(C)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)c(Cl)c(C)nc3n2C)cc1	CHEMBL4544428
-C[C@@H](NC(=O)c1cc(-c2ccccc2)nn1C)c1ccc(S(=O)(=O)CC(=O)O)cc1	CHEMBL4458393
-C[C@@H](NC(=O)c1cc(-c2ccccc2)nn1C)c1ccc(S(=O)(=O)CC(=O)O)cc1	CHEMBL4458393
-CN1CCN(c2cc(Cl)c3cc(C(=O)N[C@H](CO)c4ccc(S(=O)(=O)CC(=O)O)cc4)n(C)c3c2)CC1	CHEMBL4549808
-CN1CCN(c2cc(Cl)c3cc(C(=O)N[C@H](CO)c4ccc(S(=O)(=O)CC(=O)O)cc4)n(C)c3c2)CC1	CHEMBL4549808
-Cn1c(C(=O)NC2(c3ccc(C(=O)O)cc3)COC2)cc2c(Cl)c(Cl)ccc21	CHEMBL4471410
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCCO)cc3)n2C)c(F)c1F	CHEMBL4592921
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCCO)cc3)n2C)c(F)c1F	CHEMBL4592921
-Cc1cc2c(cc(C(=O)N[C@@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4565180
-Cc1cc2c(cc(C(=O)N[C@@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4565180
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCC(CO)CO)cc3)n(C)c2c1	CHEMBL4578493
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCC(CO)CO)cc3)n(C)c2c1	CHEMBL4578493
-C[C@@H](NC(=O)c1cc(-c2ccc(F)cc2)nn1C)c1ccc(S(=O)(=O)C(C)(C)C(=O)O)cc1	CHEMBL4567321
-C[C@@H](NC(=O)c1cc(-c2ccc(F)cc2)nn1C)c1ccc(S(=O)(=O)C(C)(C)C(=O)O)cc1	CHEMBL4567321
-COC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4545772
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCC(C)(C)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4566179
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCC(C)(C)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4566179
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCCO)cc3)n(C)c2c1	CHEMBL4514445
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCCO)cc3)n(C)c2c1	CHEMBL4514445
-COC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc(-c3ccccc3)nn2C)cc1	CHEMBL4557237
-CCC(C(=O)OC)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4558955
-Cc1nc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4569278
-Cc1nc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4569278
-CN1CCN(C(=S)SSC(=S)N2CCN(C)CC2)CC1	CHEMBL571699
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4518579
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4518579
-Cn1nc(-c2ccc(F)cc2)cc1C(=O)N[C@H](CO)c1ccc(S(=O)(=O)CC(=O)O)cc1	CHEMBL4552569
-Cn1nc(-c2ccc(F)cc2)cc1C(=O)N[C@H](CO)c1ccc(S(=O)(=O)CC(=O)O)cc1	CHEMBL4552569
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCc4ccncc4)cc3)n(C)c2c1	CHEMBL4534562
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCc4ccncc4)cc3)n(C)c2c1	CHEMBL4534562
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)NO)cc3)n(C)c2c1	CHEMBL4520085
-O=C(COc1cc2[nH]c(C(=O)N[C@H](CO)c3ccc(C(=O)O)cc3)cc2cc1Cl)NCCO	CHEMBL4061884
-O=C(COc1cc2[nH]c(C(=O)N[C@H](CO)c3ccc(C(=O)O)cc3)cc2cc1Cl)NCCO	CHEMBL4061884
-O=C(COc1cc2[nH]c(C(=O)N[C@H](CO)c3ccc(C(=O)O)cc3)cc2cc1Cl)NCCO	CHEMBL4061884
-O=C(COc1cc2[nH]c(C(=O)N[C@H](CO)c3ccc(C(=O)O)cc3)cc2cc1Cl)NCCO	CHEMBL4061884
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCC4COC4)cc3)n(C)c2c1	CHEMBL4548851
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCC4COC4)cc3)n(C)c2c1	CHEMBL4548851
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@+]([O-])CC(=O)OC4CCOCC4)cc3)n2C)c(Cl)c1Cl	CHEMBL4555768
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@+]([O-])CC(=O)OC4CCOCC4)cc3)n2C)c(Cl)c1Cl	CHEMBL4555768
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCCCO)cc3)n2C)c(Cl)c1Cl	CHEMBL4520575
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCCCO)cc3)n2C)c(Cl)c1Cl	CHEMBL4520575
-COC(=O)C[S@@+]([O-])c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4556952
-COC(=O)C[S@@+]([O-])c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4556952
-CC(C(=O)O)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3cc(Cl)ccc3n2C)cc1	CHEMBL4570788
-CC(C(=O)O)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3cc(Cl)ccc3n2C)cc1	CHEMBL4570788
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCCOCCO)cc3)n(C)c2c1	CHEMBL4554160
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCCOCCO)cc3)n(C)c2c1	CHEMBL4554160
-COC(=O)C[S+]([O-])c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4536159
-COC(=O)C[S+]([O-])c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4536159
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@+]([O-])CC(=O)OC(C)C)cc3)n2C)c(Cl)c1Cl	CHEMBL4572088
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@+]([O-])CC(=O)OC(C)C)cc3)n2C)c(Cl)c1Cl	CHEMBL4572088
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1Cl	CHEMBL4520837
-S=C(SSC(=S)N1CCOCC1)N1CCOCC1	CHEMBL121556
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@@+]([O-])CC(=O)OC4CCOCC4)cc3)n2C)c(Cl)c1Cl	CHEMBL4571344
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@@+]([O-])CC(=O)OC4CCOCC4)cc3)n2C)c(Cl)c1Cl	CHEMBL4571344
-C[C@@H](NC(=O)c1cc2cc(Cl)ccc2n1C)c1ccc(S(=O)(=O)C(C)(C)C(=O)O)cc1	CHEMBL4562201
-C[C@@H](NC(=O)c1cc2cc(Cl)ccc2n1C)c1ccc(S(=O)(=O)C(C)(C)C(=O)O)cc1	CHEMBL4562201
-O=C1NC[C@@H](COc2cc3[nH]c(C(=O)N[C@H](CO)c4ccc(C(=O)O)cc4)cc3cc2Cl)O1	CHEMBL4554985
-COC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)nc3n2C)cc1	CHEMBL4536737
-COC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)nc3n2C)cc1	CHEMBL4536737
-COC(=O)C[S+]([O-])c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4483790
-COC(=O)C[S+]([O-])c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4483790
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4579388
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4579388
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OC4CCOCC4)cc3)n(C)c2c1	CHEMBL4555089
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OC4CCOCC4)cc3)n(C)c2c1	CHEMBL4555089
-C[C@@H](NC(=O)c1cc2c(Cl)c(Cl)ccc2n1C)c1ccc(C(=O)O)cc1	CHEMBL4469992
-CC(=O)OCCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4571043
-CC(=O)OCCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4571043
-COc1cc2c(cc1Cl)cc(C(=O)N[C@H](C)c1ccc(C(=O)O)cc1)n2C	CHEMBL4466146
-COc1cc2c(cc1Cl)cc(C(=O)NC(CO)c1ccc(C(=O)O)cc1)n2C	CHEMBL4576611
-COC(=O)C[S@+]([O-])c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4590942
-COC(=O)C[S@+]([O-])c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4590942
-O=C1NC[C@@H](COc2cc3[nH]c(C(=O)N[C@H](CO)c4ccc(C(=O)O)cc4)cc3cc2Cl)O1	CHEMBL4554985
-O=C1NC[C@@H](COc2cc3[nH]c(C(=O)N[C@H](CO)c4ccc(C(=O)O)cc4)cc3cc2Cl)O1	CHEMBL4554985
-C[C@@H](NC(=O)c1cc2cc(Cl)ccc2n1C)c1ccc(S(=O)(=O)[C@@H](C)C(=O)O)cc1	CHEMBL4564816
-C[C@@H](NC(=O)c1cc2cc(Cl)ccc2n1C)c1ccc(S(=O)(=O)[C@@H](C)C(=O)O)cc1	CHEMBL4564816
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCC(C)(C)O)cc3)n2C)c(F)c1F	CHEMBL4558818
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCC(C)(C)O)cc3)n2C)c(F)c1F	CHEMBL4558818
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(C(=O)O)cc3)n(C)c2c1	CHEMBL4594097
-COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3cc(Cl)c(-c4cnn(CCN5CCOCC5)c4)cc3n2C)cc1	CHEMBL4535665
-COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3cc(Cl)c(-c4cnn(CCN5CCOCC5)c4)cc3n2C)cc1	CHEMBL4535665
-CC(=O)OCC(CO)COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4547319
-CC(=O)OCC(CO)COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4547319
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(C(=O)O)cc3)n2C)c2ccccc12	CHEMBL4522467
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O[C@@H]4CCOC4)cc3)n(C)c2c1	CHEMBL4554121
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O[C@@H]4CCOC4)cc3)n(C)c2c1	CHEMBL4554121
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCCOC(=O)CS(=O)(=O)c4ccc([C@@H](C)NC(=O)c5cc6c(Cl)cc(C)cc6n5C)cc4)cc3)n(C)c2c1	CHEMBL4568312
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCCCO)cc3)n2C)c(F)c1F	CHEMBL4587097
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCCCO)cc3)n2C)c(F)c1F	CHEMBL4587097
-C[C@@H](NC(=O)c1cc2cc(Cl)ccc2n1C)c1ccc(C(=O)O)cc1	CHEMBL4446511
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4518579
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4518579
-O=C1NC[C@@H](COc2cc3[nH]c(C(=O)N[C@H](CO)c4ccc(C(=O)O)cc4)cc3cc2Cl)O1	CHEMBL4554985
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OC(C)C)cc3)n(C)c2c1	CHEMBL4569120
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OC(C)C)cc3)n(C)c2c1	CHEMBL4569120
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(F)c(F)c(C)cc3n2C)cc1	CHEMBL4522256
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(F)c(F)c(C)cc3n2C)cc1	CHEMBL4522256
-C[C@@H](NC(=O)c1cc2c(Cl)cc(N3CCN(C)CC3)cc2n1C)c1ccc(S(=O)(=O)CC(=O)O)cc1	CHEMBL4521064
-C[C@@H](NC(=O)c1cc2c(Cl)cc(N3CCN(C)CC3)cc2n1C)c1ccc(S(=O)(=O)CC(=O)O)cc1	CHEMBL4521064
-CONC(=O)Cc1ccc(C2(NC(=O)c3cc4c(Cl)c(Cl)ccc4n3C)COC2)cc1	CHEMBL4445276
-COCCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)c(Cl)c(C)nc3n2C)cc1	CHEMBL4550915
-COCCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)c(Cl)c(C)nc3n2C)cc1	CHEMBL4550915
-COC(=O)C[S@@+]([O-])c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4556952
-COC(=O)C[S@@+]([O-])c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4556952
-CCOCCOCCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4579433
-CCOCCOCCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4579433
-COC(=O)C[S+]([O-])c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4591884
-COC(=O)C[S+]([O-])c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4591884
-Cn1nc(-c2ccc(F)cc2)cc1C(=O)N[C@H](CO)c1ccc(S(=O)(=O)CC(=O)O)cc1	CHEMBL4552569
-Cn1nc(-c2ccc(F)cc2)cc1C(=O)N[C@H](CO)c1ccc(S(=O)(=O)CC(=O)O)cc1	CHEMBL4552569
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@+]([O-])CC(=O)OC(C)C)cc3)n2C)c(Cl)c1Cl	CHEMBL4572088
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@+]([O-])CC(=O)OC(C)C)cc3)n2C)c(Cl)c1Cl	CHEMBL4572088
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCC4(C)COC4)cc3)n(C)c2c1	CHEMBL4550162
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCC4(C)COC4)cc3)n(C)c2c1	CHEMBL4550162
-C[C@@H](NC(=O)c1cc(-c2ccccc2)nn1C)c1ccc(C(=O)NS(C)(=O)=O)cc1	CHEMBL4528650
-CCc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(C(=O)O)cc3)n(C)c2c1	CHEMBL4473052
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc(-n3ccc4ccccc43)nn2C)cc1	CHEMBL4555852
-S=C(SSC(=S)N1CCSCC1)N1CCSCC1	CHEMBL573920
-C[C@@H](NC(=O)c1cc2cc(Cl)c(Br)cc2n1C)c1ccc(C(=O)O)cc1	CHEMBL4560125
-C[C@@H](NC(=O)c1cc2c3ccccc3ccc2n1C)c1ccc(C(=O)O)cc1	CHEMBL4457646
-S=C(Nc1ccccc1)SSC(=S)Nc1ccccc1	CHEMBL5280698
-Cn1c(C(=O)NC2(c3ccc([C@@H](O)c4cccnc4)cc3)COC2)cc2c(Cl)c(Cl)ccc21	CHEMBL4585294
-S=C(SSC(=S)N1CCc2ccccc2C1)N1CCc2ccccc2C1	CHEMBL583524
-CO[C@@H](C)COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4548661
-CO[C@@H](C)COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4548661
-C[C@@H](NC(=O)c1cc(-c2ccccc2)nn1C)c1ccc(C(=O)O)cc1	CHEMBL4435368
-S=C(SSC(=S)N1CCN(c2ccccc2)CC1)N1CCN(c2ccccc2)CC1	CHEMBL569626
-Cc1cc2c(cc1Cl)cc(C(=O)N[C@H](C)c1ccc(C(=O)O)cc1)n2C	CHEMBL4474620
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCC(C)(C)CO)cc3)n2C)c(Cl)c1Cl	CHEMBL4515646
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCC(C)(C)CO)cc3)n2C)c(Cl)c1Cl	CHEMBL4515646
-Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O[13CH3])cc3)n2C)c(Cl)c1Cl	CHEMBL4549860
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O[C@H]4CCOC4)cc3)n(C)c2c1	CHEMBL4561566
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O[C@H]4CCOC4)cc3)n(C)c2c1	CHEMBL4561566
-COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4580038
-COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4580038
-COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4526788
-CN(C(=S)SSC(=S)N(C)c1ccccc1)c1ccccc1	CHEMBL570804
-CC1CCC(C)N1C(=S)SSC(=S)N1C(C)CCC1C	CHEMBL5271472
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S+]([O-])CC(=O)OC(C)C)cc3)n2C)c(Cl)c1Cl	CHEMBL4556292
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S+]([O-])CC(=O)OC(C)C)cc3)n2C)c(Cl)c1Cl	CHEMBL4556292
-CC(=O)OCC(COC(C)=O)COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4539796
-CC(=O)OCC(COC(C)=O)COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4539796
-Cn1c(C(=O)NC2(c3ccc(CC(=O)NS(C)(=O)=O)cc3)COC2)cc2c(Cl)c(Cl)ccc21	CHEMBL4529734
-COC(=O)C[S+]([O-])c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4591884
-COC(=O)C[S+]([O-])c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4591884
-COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4526788
-COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1	CHEMBL4526788
-COC(=O)C[S@@+]([O-])c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4530745
-COC(=O)C[S@@+]([O-])c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4530745
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OC(C)C)cc3)n2C)c(Cl)c1F	CHEMBL4542526
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OC(C)C)cc3)n2C)c(Cl)c1F	CHEMBL4542526
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OC(C)C)cc3)n2C)c(Cl)c1Cl	CHEMBL4542730
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OC(C)C)cc3)n2C)c(Cl)c1Cl	CHEMBL4542730
-COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)c(Cl)c(C)nc3n2C)cc1	CHEMBL4587490
-COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)c(Cl)c(C)nc3n2C)cc1	CHEMBL4587490
-CC(C)OC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(-c4cnn(C)c4)cc3n2C)cc1	CHEMBL4584709
-C[C@@H](NC(=O)c1cc(-c2ccccc2)nn1C)c1ccc(S(=O)(=O)CC(=O)OCCN(C)C)cc1	CHEMBL4518763
-C[C@@H](NC(=O)c1cc(-c2ccccc2)nn1C)c1ccc(S(=O)(=O)CC(=O)OCCN(C)C)cc1	CHEMBL4518763
-S=C(SSC(=S)N1CCCCC1)N1CCCCC1	CHEMBL121516
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCC(C)(C)CO)cc3)n2C)c(F)c1F	CHEMBL4560176
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCC(C)(C)CO)cc3)n2C)c(F)c1F	CHEMBL4560176
-COC(=O)C1(S(=O)(=O)c2ccc([C@@H](C)NC(=O)c3cc4c(Cl)cc(C)cc4n3C)cc2)CC1	CHEMBL4580872
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(F)c(F)c(C)cc3n2C)cc1	CHEMBL4522256
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(F)c(F)c(C)cc3n2C)cc1	CHEMBL4522256
-S=C(SSC(=S)N1CCN(C2CCCCC2)CC1)N1CCN(C2CCCCC2)CC1	CHEMBL570565
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OC4CCOCC4)cc3)n2C)c(F)c1F	CHEMBL4567743
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OC4CCOCC4)cc3)n2C)c(F)c1F	CHEMBL4567743
-COC(C)(C)COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4564596
-COC(C)(C)COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4564596
-CC1CCN(C(=S)SSC(=S)N2CCC(C)CC2)CC1	CHEMBL576671
-COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)c(C)c3n2C)cc1	CHEMBL4537214
-COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)c(C)c3n2C)cc1	CHEMBL4537214
-COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc(-c3ccccc3)nn2C)cn1	CHEMBL4551528
-CCN(CC)C(=S)SSC(=S)N(CC)CC	CHEMBL964
-COC(=O)C[S+]([O-])c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4591067
-COC(=O)C[S+]([O-])c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4591067
-COCCC(C(=O)OC)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4544578
-COCCC(C(=O)OC)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4544578
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@@+]([O-])CC(=O)OC(C)C)cc3)n2C)c(F)c1F	CHEMBL4532917
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@@+]([O-])CC(=O)OC(C)C)cc3)n2C)c(F)c1F	CHEMBL4532917
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc([S+]([O-])CC(=O)OC(C)C)cc3)n(C)c2c1	CHEMBL4540031
-Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc([S+]([O-])CC(=O)OC(C)C)cc3)n(C)c2c1	CHEMBL4540031
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCCNC(=O)OC(C)(C)C)cc3)n(C)c2c1	CHEMBL4522341
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCCNC(=O)OC(C)(C)C)cc3)n(C)c2c1	CHEMBL4522341
-C[C@@H](NC(=O)c1cc2c(Cl)cc(C(F)F)cc2n1C)c1ccc(C(=O)O)cc1	CHEMBL4444192
-C[C@@H](NC(=O)c1cc(-c2ccc(F)cc2)nn1C)c1ccc(S(=O)(=O)CC(=O)OCC2COC2)cc1	CHEMBL4576663
-C[C@@H](NC(=O)c1cc(-c2ccc(F)cc2)nn1C)c1ccc(S(=O)(=O)CC(=O)OCC2COC2)cc1	CHEMBL4576663
-COc1cc(Cl)cc2cc(C(=O)N[C@H](C)c3ccc(C(=O)O)cc3)n(C)c12	CHEMBL4437057
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3cc(Cl)c(-c4cnn(CCN5CCOCC5)c4)cc3n2C)cc1	CHEMBL4578151
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3cc(Cl)c(-c4cnn(CCN5CCOCC5)c4)cc3n2C)cc1	CHEMBL4578151
-C[C@@H](NC(=O)c1cc(-c2ccc(F)cc2)nn1C)c1ccc(S(=O)(=O)CC(=O)OCCO)cc1	CHEMBL4482869
-C[C@@H](NC(=O)c1cc(-c2ccc(F)cc2)nn1C)c1ccc(S(=O)(=O)CC(=O)OCCO)cc1	CHEMBL4482869
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S+]([O-])CC(=O)OC(C)C)cc3)n2C)c(Cl)c1Cl	CHEMBL4556292
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S+]([O-])CC(=O)OC(C)C)cc3)n2C)c(Cl)c1Cl	CHEMBL4556292
-CC(NC(=O)c1cc(-c2ccccc2)nn1C)c1ccc(CC(=O)O)cc1	CHEMBL4561620
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@@+]([O-])CC(=O)OC(C)C)cc3)n2C)c(Cl)c1Cl	CHEMBL4520834
-Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@@+]([O-])CC(=O)OC(C)C)cc3)n2C)c(Cl)c1Cl	CHEMBL4520834
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(-c4cnn(C)c4)cc3n2C)cc1	CHEMBL4565578
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(-c4cnn(C)c4)cc3n2C)cc1	CHEMBL4565578
-CC(=O)OCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc(-c3ccccc3)nn2C)cc1	CHEMBL4531113
-CC(=O)OCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc(-c3ccccc3)nn2C)cc1	CHEMBL4531113
-C[C@@H](NC(=O)c1cc2cc(Cl)cc(OC(F)(F)F)c2n1C)c1ccc(C(=O)O)cc1	CHEMBL4520181
-COCCC(C(=O)OC)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4544578
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C(C)C(=O)OC(C)(C)C)cc3)n(C)c2c1	CHEMBL4563782
-CC(NC(=O)c1cc(-c2ccccc2)nn1C)c1ccc(C(=O)O)cc1	CHEMBL4476414
-Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C(C)(C)C(=O)OC(C)C)cc3)n(C)c2c1	CHEMBL4573246
-COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(-c4cnn(C)c4)cc3n2C)cc1	CHEMBL4565378
-COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(-c4cnn(C)c4)cc3n2C)cc1	CHEMBL4565378
-C[C@@H](NC(=O)c1cc(-c2ccc(F)cc2)nn1C)c1ccc(S(=O)(=O)CC(=O)OCC2(C)COC2)cc1	CHEMBL4527489
-C[C@@H](NC(=O)c1cc(-c2ccc(F)cc2)nn1C)c1ccc(S(=O)(=O)CC(=O)OCC2(C)COC2)cc1	CHEMBL4527489
-COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c4ccccc4c(C)cc3n2C)cc1	CHEMBL4589395
-COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c4ccccc4c(C)cc3n2C)cc1	CHEMBL4589395
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4522081
-CCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1	CHEMBL4522081
-CC(C)OC(=O)CS(=O)(=O)c1ccc([C@H](CO)NC(=O)c2cc3c(Cl)cc(N4CCN(C)CC4)cc3n2C)cc1	CHEMBL4574684
-CC(C)OC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)cc(N4CCN(C)CC4)cc3n2C)cc1	CHEMBL5770023
-Cn1c(C(=O)NC2(c3ccc([C@H](O)c4cccnc4)cc3)COC2)cc2c(Cl)c(Cl)ccc21	CHEMBL4556384
-CN(C(=S)SSC(=S)N(C)C1CCCCC1)C1CCCCC1	CHEMBL576697
+COC(=O)C(C)(C)S(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1
+COC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)nc3n2C)cc1
+COC(=O)C(C)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1
+Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1Cl
+CCOC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@+]([O-])CC(=O)O)cc3)n2C)c(Cl)c1Cl
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S+]([O-])CC(=O)O)cc3)n2C)c(Cl)c1Cl
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1Cl
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n(C)c2c1
+CCOC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1
+COC(=O)C1(S(=O)(=O)c2ccc([C@@H](C)NC(=O)c3cc4c(Cl)cc(C)cc4n3C)cc2)CCOCC1
+CCOC(=O)C(C)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)C(C)(C)C(=O)O)cc3)n2C)c(Cl)c1Cl
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1F
+Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1F
+Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C(C)(C)C(=O)O)cc3)n2C)c(Cl)c1Cl
+COC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n(C)c2c1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C4(C(=O)O)CCCC4)cc3)n(C)c2c1
+CCCC(C(=O)O)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@@+]([O-])CC(=O)O)cc3)n2C)c(Cl)c1Cl
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C4(C(=O)O)CCOCC4)cc3)n(C)c2c1
+COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1
+CCOC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(F)c(F)c(C)cc3n2C)cc1
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(F)c1F
+Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc([S+]([O-])CC(=O)O)cc3)n2C)c(Cl)c1Cl
+Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc([S+]([O-])CC(=O)O)cc3)n(C)c2c1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C(C)C(=O)O)cc3)n(C)c2c1
+COC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1
+Cc1nc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1Cl
+Cc1ccc(C(=O)Nc2cccc(C(F)(F)F)c2)cc1Nc1nc(-c2cccnc2)nc2c1cnn2C
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@@+]([O-])CC(=O)O)cc3)n2C)c(F)c1F
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C4(C(=O)O)CC4)cc3)n(C)c2c1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C(C)C(=O)OC(C)C)cc3)n(C)c2c1
+CCC(CC)(C(=O)O)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1
+CC(=O)NS(=O)(=O)N1CCC(NC(=O)c2cc3c(Cl)c(Cl)ccc3n2C)C(CC(=O)O)C1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc([S+]([O-])CC(=O)O)cc3)n(C)c2c1
+CCC(C(=O)O)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)CS(=O)(=O)c4ccc([C@@H](C)NC(=O)c5cc6c(Cl)cc(C)cc6n5C)cc4)cc3)n(C)c2c1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C(C)(C)C(=O)O)cc3)n(C)c2c1
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OC(C)C)cc3)n2C)c(Cl)c1Cl
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n(C)c2c1C
+Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(C(=O)O)cc3)n2C)c(Cl)c1Cl
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OC4CCOCC4)cc3)n(C)c2c1
+Cn1c(C(=O)NC2(c3ccc(C(C(=O)O)c4cccnc4)cc3)COC2)cc2c(Cl)c(Cl)ccc21
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc([S@+]([O-])CC(=O)O)cc3)n(C)c2c1
+Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C4CCCOC4=O)cc3)n2C)c(Cl)c1Cl
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCc4cccc(C(F)(F)F)c4)cc3)n(C)c2c1
+C[C@@H](NC(=O)c1cc2c(Cl)cc(-c3cnn(C)c3)cc2n1C)c1ccc(S(=O)(=O)CC(=O)O)cc1
+COCCC(C(=O)O)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1
+CC(=O)N1CCC(C(=O)O)(S(=O)(=O)c2ccc([C@@H](C)NC(=O)c3cc4c(Cl)c(Cl)c(C)cc4n3C)cc2)CC1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCC4(C)COC4)cc3)n(C)c2c1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCCO)cc3)n(C)c2c1
+CC(NC(=O)c1cc2c(Cl)cc(I)cc2n1C)c1ccc(S(=O)(=O)CC(=O)O)cc1
+CC(=O)OCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc(-c3ccccc3)nn2C)cc1
+Cn1c(C(=O)NC2(c3ccc(C(CC(=O)O)c4cccnc4)cc3)COC2)cc2c(Cl)c(Cl)ccc21
+C[C@@H](NC(=O)c1cc(-c2ccccc2)nn1C)c1ccc(S(=O)(=O)CC(=O)O)cc1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCC4(F)COC4)cc3)n(C)c2c1
+Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(C(=O)O)cc3)n2C)c2ccccc12
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(C(=O)O)cc3)n(C)c2c1
+C#Cc1cc(Cl)c2cc(C(=O)NC(C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n(C)c2c1
+CCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1
+Cn1c(C(=O)NC2(c3ccc(CC(=O)O)cc3)COC2)cc2c(Cl)c(Cl)ccc21
+C[C@@H](NC(=O)c1cc2c(Cl)c(Cl)ccc2n1C)c1ccc(C(=O)O)cc1
+CCc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(C(=O)O)cc3)n(C)c2c1
+CCOC(=O)C(C)(C)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@+]([O-])CC(=O)O)cc3)n2C)c(F)c1F
+COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc(-c3ccc(F)cc3)nn2C)cc1
+Cn1c(C(=O)NC2(c3ccc(CC(=O)O)c(F)c3)COC2)cc2c(Cl)c(Cl)ccc21
+COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3cc(Cl)c(-c4cnn(CCN5CCOCC5)c4)cc3n2C)cc1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O)cc3)n(C)c2n1
+CC(C)OC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3cc(Cl)c(-c4cnn(CCN5CCOCC5)c4)cc3n2C)cc1
+Cn1c(C(=O)NC2(c3ccc(C(=O)O)c(F)c3)COC2)cc2c(Cl)c(Cl)ccc21
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCCS(C)(=O)=O)cc3)n(C)c2c1
+CN1CCN(c2cc(Cl)c3cc(C(=O)N[C@H](CO)c4ccc(S(=O)(=O)CC(=O)O)cc4)n(C)c3c2)CC1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n(C)c2n1
+CCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(-c4cnn(C)c4)cc3n2C)cc1
+Cc1cc2c(cc1Cl)cc(C(=O)N[C@H](C)c1ccc(C(=O)O)cc1)n2C
+COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)nc1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCCO)cc3)n(C)c2c1
+C[C@@H](NC(=O)c1cc(-c2cccc3cc[nH]c23)nn1C)c1ccc(S(=O)(=O)CC(=O)O)cc1
+COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCC4COC4)cc3)n(C)c2c1
+CCOCCOCCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1
+C[C@@H](NC(=O)c1cc2c3ccccc3ccc2n1C)c1ccc(C(=O)O)cc1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCC4(C)COC4)cc3)n(C)c2c1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc([S@@+]([O-])CC(=O)O)cc3)n(C)c2c1
+C[C@@H](NC(=O)c1cc2cc(Cl)c(Br)cc2n1C)c1ccc(C(=O)O)cc1
+COCCOC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1
+CCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc(-c3ccc(F)cc3)nn2C)cc1
+CCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc(-c3cccc4cc[nH]c34)nn2C)cc1
+Cc1cc(Cl)c2cc(C(=O)NC(C)c3ccc(S(=O)(=O)CC(=O)OC(C)C)cc3)n(C)c2c1
+CC(C)OC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc(-c3ccc(F)cc3)nn2C)cc1
+CC(=O)OCCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1
+CC(=O)NS(=O)(=O)c1ccc(C(C)NC(=O)c2cc(-c3ccccc3)nn2C)cc1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCC(C)C)cc3)n(C)c2c1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OC4COC4)cc3)n(C)c2c1
+COc1cc(Cl)cc2cc(C(=O)N[C@H](C)c3ccc(C(=O)O)cc3)n(C)c12
+CCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)c(Cl)c(C)nc3n2C)cc1
+C[C@@H](NC(=O)c1cc(-c2ccc(F)cc2)nn1C)c1ccc(S(=O)(=O)C2(C(=O)O)CCCC2)cc1
+CCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc(-n3ncc4ccccc43)nn2C)cc1
+C[C@@H](NC(=O)c1cc(-c2ccc(F)cc2)nn1C)c1ccc(S(=O)(=O)CC(=O)O)cc1
+CO[C@@H](C)COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1
+C[C@@H](NC(=O)c1cc2c(Cl)cc(C(F)F)cc2n1C)c1ccc(C(=O)O)cc1
+C[C@@H](NC(=O)c1cc2c(Cl)cc(N3CCN(C)CC3)cc2n1C)c1ccc(S(=O)(=O)CC(=O)O)cc1
+COCCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)c(Cl)c(C)nc3n2C)cc1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)O[C@H]4CCOC4)cc3)n(C)c2c1
+COC(=O)C[S@+]([O-])c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1
+COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)c(Cl)c(C)nc3n2C)cc1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCCCO)cc3)n(C)c2c1
+COC(=O)C[S+]([O-])c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1
+C[C@@H](NC(=O)c1cc(-c2ccccc2)nn1C)c1ccc(N2C(=O)CC[C@H]2C(=O)O)cc1
+CC(=O)NS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc(-c3ccccc3)nn2C)cc1
+C[C@@H](NC(=O)c1cc(-c2ccc(F)cc2)nn1C)c1ccc(S(=O)(=O)CC(=O)OCC2(C)COC2)cc1
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCCO)cc3)n2C)c(Cl)c1Cl
+COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(-c4cnn(C)c4)cc3n2C)cc1
+Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C4CCOC4=O)cc3)n2C)c(F)c1F
+Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C4CCOC4=O)cc3)n2C)c(Cl)c1Cl
+COC(=O)C[S@+]([O-])c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1
+COc1cc(F)c(Cl)c2cc(C(=O)N[C@H](C)c3ccc(C(=O)O)cc3)n(C)c12
+CC[C@@H](NC(=O)c1cc2c(Cl)cc(C)cc2n1C)c1ccc(S(=O)(=O)CC(=O)NO)cc1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)NO)cc3)n(C)c2c1
+CC(C)OC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc(-c3ccccc3)nn2C)cc1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCCOCCO)cc3)n(C)c2c1
+C[C@H](C(=O)O)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3cc(Cl)ccc3n2C)cc1
+C[C@@H](NC(=O)c1cc(-c2ccc(F)cc2)nn1C)c1ccc(S(=O)(=O)C2(C(=O)O)CCOCC2)cc1
+COCCOC(=O)C(C)(C)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)c(Cl)c(C)nc3n2C)cc1
+Cn1c(C(=O)NC2(c3ccc(C(=O)O)cc3)COC2)cc2c(Cl)c(Cl)ccc21
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCCO)cc3)n2C)c(F)c1F
+Cc1cc2c(cc(C(=O)N[C@@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1Cl
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCC(CO)CO)cc3)n(C)c2c1
+C[C@@H](NC(=O)c1cc(-c2ccc(F)cc2)nn1C)c1ccc(S(=O)(=O)C(C)(C)C(=O)O)cc1
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCC(C)(C)O)cc3)n2C)c(Cl)c1Cl
+COC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc(-c3ccccc3)nn2C)cc1
+CCC(C(=O)OC)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1
+Cc1nc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O)cc3)n2C)c(Cl)c1Cl
+CN1CCN(C(=S)SSC(=S)N2CCN(C)CC2)CC1
+Cn1nc(-c2ccc(F)cc2)cc1C(=O)N[C@H](CO)c1ccc(S(=O)(=O)CC(=O)O)cc1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCc4ccncc4)cc3)n(C)c2c1
+O=C(COc1cc2[nH]c(C(=O)N[C@H](CO)c3ccc(C(=O)O)cc3)cc2cc1Cl)NCCO
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCC4COC4)cc3)n(C)c2c1
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@+]([O-])CC(=O)OC4CCOCC4)cc3)n2C)c(Cl)c1Cl
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCCCO)cc3)n2C)c(Cl)c1Cl
+COC(=O)C[S@@+]([O-])c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1
+CC(C(=O)O)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3cc(Cl)ccc3n2C)cc1
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@+]([O-])CC(=O)OC(C)C)cc3)n2C)c(Cl)c1Cl
+S=C(SSC(=S)N1CCOCC1)N1CCOCC1
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@@+]([O-])CC(=O)OC4CCOCC4)cc3)n2C)c(Cl)c1Cl
+C[C@@H](NC(=O)c1cc2cc(Cl)ccc2n1C)c1ccc(S(=O)(=O)C(C)(C)C(=O)O)cc1
+O=C1NC[C@@H](COc2cc3[nH]c(C(=O)N[C@H](CO)c4ccc(C(=O)O)cc4)cc3cc2Cl)O1
+COC(=O)C[S+]([O-])c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OC4CCOCC4)cc3)n(C)c2c1
+COc1cc2c(cc1Cl)cc(C(=O)N[C@H](C)c1ccc(C(=O)O)cc1)n2C
+COc1cc2c(cc1Cl)cc(C(=O)NC(CO)c1ccc(C(=O)O)cc1)n2C
+COC(=O)C[S@+]([O-])c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1
+C[C@@H](NC(=O)c1cc2cc(Cl)ccc2n1C)c1ccc(S(=O)(=O)[C@@H](C)C(=O)O)cc1
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCC(C)(C)O)cc3)n2C)c(F)c1F
+CC(=O)OCC(CO)COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O[C@@H]4CCOC4)cc3)n(C)c2c1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCCOC(=O)CS(=O)(=O)c4ccc([C@@H](C)NC(=O)c5cc6c(Cl)cc(C)cc6n5C)cc4)cc3)n(C)c2c1
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCCCO)cc3)n2C)c(F)c1F
+C[C@@H](NC(=O)c1cc2cc(Cl)ccc2n1C)c1ccc(C(=O)O)cc1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OC(C)C)cc3)n(C)c2c1
+CONC(=O)Cc1ccc(C2(NC(=O)c3cc4c(Cl)c(Cl)ccc4n3C)COC2)cc1
+COC(=O)C[S+]([O-])c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)c(Cl)c(C)cc3n2C)cc1
+C[C@@H](NC(=O)c1cc(-c2ccccc2)nn1C)c1ccc(C(=O)NS(C)(=O)=O)cc1
+CCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc(-n3ccc4ccccc43)nn2C)cc1
+S=C(SSC(=S)N1CCSCC1)N1CCSCC1
+S=C(Nc1ccccc1)SSC(=S)Nc1ccccc1
+Cn1c(C(=O)NC2(c3ccc([C@@H](O)c4cccnc4)cc3)COC2)cc2c(Cl)c(Cl)ccc21
+S=C(SSC(=S)N1CCc2ccccc2C1)N1CCc2ccccc2C1
+C[C@@H](NC(=O)c1cc(-c2ccccc2)nn1C)c1ccc(C(=O)O)cc1
+S=C(SSC(=S)N1CCN(c2ccccc2)CC1)N1CCN(c2ccccc2)CC1
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCC(C)(C)CO)cc3)n2C)c(Cl)c1Cl
+Cc1cc2c(cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O[13CH3])cc3)n2C)c(Cl)c1Cl
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)O[C@H]4CCOC4)cc3)n(C)c2c1
+CN(C(=S)SSC(=S)N(C)c1ccccc1)c1ccccc1
+CC1CCC(C)N1C(=S)SSC(=S)N1C(C)CCC1C
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S+]([O-])CC(=O)OC(C)C)cc3)n2C)c(Cl)c1Cl
+CC(=O)OCC(COC(C)=O)COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1
+Cn1c(C(=O)NC2(c3ccc(CC(=O)NS(C)(=O)=O)cc3)COC2)cc2c(Cl)c(Cl)ccc21
+COC(=O)C[S@@+]([O-])c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OC(C)C)cc3)n2C)c(Cl)c1F
+CC(C)OC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(-c4cnn(C)c4)cc3n2C)cc1
+C[C@@H](NC(=O)c1cc(-c2ccccc2)nn1C)c1ccc(S(=O)(=O)CC(=O)OCCN(C)C)cc1
+S=C(SSC(=S)N1CCCCC1)N1CCCCC1
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OCC(C)(C)CO)cc3)n2C)c(F)c1F
+COC(=O)C1(S(=O)(=O)c2ccc([C@@H](C)NC(=O)c3cc4c(Cl)cc(C)cc4n3C)cc2)CC1
+S=C(SSC(=S)N1CCN(C2CCCCC2)CC1)N1CCN(C2CCCCC2)CC1
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc(S(=O)(=O)CC(=O)OC4CCOCC4)cc3)n2C)c(F)c1F
+COC(C)(C)COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1
+CC1CCN(C(=S)SSC(=S)N2CCC(C)CC2)CC1
+COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)c(C)c3n2C)cc1
+COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc(-c3ccccc3)nn2C)cn1
+CCN(CC)C(=S)SSC(=S)N(CC)CC
+COC(=O)C[S+]([O-])c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1
+COCCC(C(=O)OC)S(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c(Cl)cc(C)cc3n2C)cc1
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@@+]([O-])CC(=O)OC(C)C)cc3)n2C)c(F)c1F
+Cc1cc(Cl)c2cc(C(=O)N[C@H](CO)c3ccc([S+]([O-])CC(=O)OC(C)C)cc3)n(C)c2c1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)CC(=O)OCCNC(=O)OC(C)(C)C)cc3)n(C)c2c1
+C[C@@H](NC(=O)c1cc(-c2ccc(F)cc2)nn1C)c1ccc(S(=O)(=O)CC(=O)OCC2COC2)cc1
+CCOC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3cc(Cl)c(-c4cnn(CCN5CCOCC5)c4)cc3n2C)cc1
+C[C@@H](NC(=O)c1cc(-c2ccc(F)cc2)nn1C)c1ccc(S(=O)(=O)CC(=O)OCCO)cc1
+CC(NC(=O)c1cc(-c2ccccc2)nn1C)c1ccc(CC(=O)O)cc1
+Cc1cc2c(cc(C(=O)N[C@H](CO)c3ccc([S@@+]([O-])CC(=O)OC(C)C)cc3)n2C)c(Cl)c1Cl
+C[C@@H](NC(=O)c1cc2cc(Cl)cc(OC(F)(F)F)c2n1C)c1ccc(C(=O)O)cc1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C(C)C(=O)OC(C)(C)C)cc3)n(C)c2c1
+CC(NC(=O)c1cc(-c2ccccc2)nn1C)c1ccc(C(=O)O)cc1
+Cc1cc(Cl)c2cc(C(=O)N[C@H](C)c3ccc(S(=O)(=O)C(C)(C)C(=O)OC(C)C)cc3)n(C)c2c1
+COC(=O)CS(=O)(=O)c1ccc([C@@H](C)NC(=O)c2cc3c4ccccc4c(C)cc3n2C)cc1
+CC(C)OC(=O)CS(=O)(=O)c1ccc([C@H](CO)NC(=O)c2cc3c(Cl)cc(N4CCN(C)CC4)cc3n2C)cc1
+CC(C)OC(=O)CS(=O)(=O)c1ccc([C@@H](CO)NC(=O)c2cc3c(Cl)cc(N4CCN(C)CC4)cc3n2C)cc1
+Cn1c(C(=O)NC2(c3ccc([C@H](O)c4cccnc4)cc3)COC2)cc2c(Cl)c(Cl)ccc21
+CN(C(=S)SSC(=S)N(C)C1CCCCC1)C1CCCCC1

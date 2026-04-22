@@ -31,7 +31,7 @@ def generate_buckets(tsv_path, output_dir, thresholds):
         
         output_file = os.path.join(output_dir, f'bucket_pv{t}.smi')
         
-        with open(output_file, 's') as f:
+        with open(output_file, 'w') as f:
             for smi in unique_smiles:
                 f.write(f"{smi}\n")
         
