@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-22T17:19:10.638233",
-  "current_e_score": 20.54,
-  "average_e_score_10min": 12.79,
+  "last_updated": "2026-04-22T17:24:12.101539",
+  "current_e_score": 10.0,
+  "average_e_score_10min": 13.06,
   "samples_in_history": 10,
-  "cpu_utilization": 20.540000000000006
+  "cpu_utilization": 10.0
 }
