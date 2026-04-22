@@ -728,3 +728,4 @@
 {"at": 1776888357.5184572, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "err": "HTTP Error 400: Bad Request"}
 {"at": 1776888663.8595269, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "err": "HTTP Error 400: Bad Request"}
 {"at": 1776889052.6641972, "emoji": "\ud83d\udcda", "title": "Learner recorded rule", "body": "Never reference 'orchestration engine', 'data density threshold', 'preparation phase', or similar invented components \u2014 see 2026-04-22-never-reference-orchestration-engine-data-density-threshold.md", "ok": true}
+{"at": 1776889214.796752, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "err": "HTTP Error 400: Bad Request"}
