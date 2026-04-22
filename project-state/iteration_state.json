@@ -2,7 +2,7 @@
   "task": "Task 1.2",
   "legacy_id": "G-012",
   "iteration": 1,
-  "stage": "S",
+  "stage": "R",
   "started": "2026-04-22T13:40:12",
   "history": [
     {
@@ -84,6 +84,16 @@
       "stage": "S",
       "at": "2026-04-22T16:09:01",
       "note": "executor A succeeded"
+    },
+    {
+      "stage": "X",
+      "at": "2026-04-22T16:10:13",
+      "note": "executor S succeeded"
+    },
+    {
+      "stage": "R",
+      "at": "2026-04-22T16:12:27",
+      "note": "executor X succeeded"
     }
   ]
 }

@@ -4606,3 +4606,9 @@
 [2026-04-22T21:09:01+00:00] Task 1.2/A running: /Users/jakeclaw/workers/bin/task_1_2_assess.sh
 [2026-04-22T21:09:01+00:00] Task 1.2/A rc=0  stdout_tail='Task 1.2 assessment written: 6 pages, 48 KB\n'  stderr_tail=''
 [2026-04-22T21:09:02+00:00] Task 1.2/A advanced to S
+[2026-04-22T21:10:13+00:00] Task 1.2/S running: /Users/jakeclaw/workers/bin/task_1_2_share.sh
+[2026-04-22T21:10:13+00:00] Task 1.2/S rc=0  stdout_tail='queued 6 molecule pages for Box upload\n'  stderr_tail=''
+[2026-04-22T21:10:14+00:00] Task 1.2/S advanced to X
+[2026-04-22T21:12:27+00:00] Task 1.2/X running: /Users/jakeclaw/workers/bin/task_1_2_expense.sh
+[2026-04-22T21:12:27+00:00] Task 1.2/X rc=0  stdout_tail='expense logged\n'  stderr_tail=''
+[2026-04-22T21:12:28+00:00] Task 1.2/X advanced to R

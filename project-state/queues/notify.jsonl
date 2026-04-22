@@ -1,17 +1,16 @@
-{"at": 1776886248, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 49}
-{"at": 1776886514, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=17%  running=0", "attempts": 47}
-{"at": 1776886849, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 44}
-{"at": 1776887115, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=15%  running=0", "attempts": 42}
-{"at": 1776887454, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=17%  running=0", "attempts": 39}
-{"at": 1776888055, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=17%  running=0", "attempts": 35}
-{"at": 1776888081, "emoji": "\ud83e\uddea", "title": "Task 1.2 enriched 6 molecule pages", "body": "L0 Gemma generated draft pages for top-pChEMBL PHGDH molecules at wiki_drafts/molecules/. Next: user publish gate.", "attempts": 35}
-{"at": 1776888161, "emoji": "\ud83d\udea7", "title": "STALLED: Task 1.2/A", "body": "No executor registered. Write one at scripts/task_executors/ and add to registry.json.", "attempts": 34}
-{"at": 1776888358, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=17%  running=0", "attempts": 33}
-{"at": 1776888664, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=37%  running=0", "attempts": 29}
-{"at": 1776889215, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=37%  running=0", "attempts": 24}
-{"at": 1776889548, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=15%  running=0", "attempts": 22}
-{"at": 1776890157, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=19%  running=0", "attempts": 17}
-{"at": 1776890435, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=19%  running=0", "attempts": 14}
-{"at": 1776891052, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=17%  running=0", "attempts": 9}
-{"at": 1776891322, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=20%  running=0", "attempts": 7}
-{"at": 1776891663, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=36%  running=0", "attempts": 4}
+{"at": 1776886514, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=17%  running=0", "attempts": 49}
+{"at": 1776886849, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 46}
+{"at": 1776887115, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=15%  running=0", "attempts": 44}
+{"at": 1776887454, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=17%  running=0", "attempts": 41}
+{"at": 1776888055, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=17%  running=0", "attempts": 37}
+{"at": 1776888081, "emoji": "\ud83e\uddea", "title": "Task 1.2 enriched 6 molecule pages", "body": "L0 Gemma generated draft pages for top-pChEMBL PHGDH molecules at wiki_drafts/molecules/. Next: user publish gate.", "attempts": 37}
+{"at": 1776888161, "emoji": "\ud83d\udea7", "title": "STALLED: Task 1.2/A", "body": "No executor registered. Write one at scripts/task_executors/ and add to registry.json.", "attempts": 36}
+{"at": 1776888358, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=17%  running=0", "attempts": 35}
+{"at": 1776888664, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=37%  running=0", "attempts": 31}
+{"at": 1776889215, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=37%  running=0", "attempts": 26}
+{"at": 1776889548, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=15%  running=0", "attempts": 24}
+{"at": 1776890157, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=19%  running=0", "attempts": 19}
+{"at": 1776890435, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=19%  running=0", "attempts": 16}
+{"at": 1776891052, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=17%  running=0", "attempts": 11}
+{"at": 1776891322, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=20%  running=0", "attempts": 9}
+{"at": 1776891663, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=36%  running=0", "attempts": 6}
