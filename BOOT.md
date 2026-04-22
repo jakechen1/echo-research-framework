@@ -4,14 +4,14 @@
 Assessor numbers VERBATIM. Do NOT paraphrase, do NOT invent channels,
 do NOT add fabricated disclaimers about "truncated buffer".**
 
-## Latest Assessor snapshot (updated 2026-04-22T20:48:36Z)
+## Latest Assessor snapshot (updated 2026-04-22T20:54:20Z)
 
 ```
 ⚠️ BLOCKED (stalls pending)
 ⚠️ AGE_SUBPAR
 - Task: Task 1.2 / stage A (age None min)
 - Progress: PROGRESS (+1 files, +264 bytes, +1,258,021 net, 0 commits, 1 min window)
-- Liveness: red  red=['figures', 'wiki_interlink', 'cheaha_queue', 'box_sync']
+- Liveness: red  red=['figures', 'dashboard_api', 'wiki_interlink', 'cheaha_queue', 'box_sync']
 - Flags: {'STAGE_STALLED': False, 'NO_WORK_THIS_WINDOW': False, 'BLOCKED': True, 'AGE_SUBPAR': True}
 ```
 
