@@ -98,6 +98,12 @@ while :; do
     $WS/skills/infrastructure-watchdog/scripts/probe.sh >> /Users/jakeclaw/Library/Logs/infra_probe.log 2>&1
   fi
 
+
+  # Every 3 min: Assessor tick — consolidates all signals to assessor_log.jsonl
+  if (( now / 60 % 3 == 0 )); then
+    $PY $WS/skills/assessor/scripts/tick.py >> /Users/jakeclaw/Library/Logs/assessor_tick.log 2>&1
+  fi
+
   last_min=$min
   sleep 60
 done

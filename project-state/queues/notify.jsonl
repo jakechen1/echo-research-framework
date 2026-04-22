@@ -1,17 +1,18 @@
-{"at": 1776882940, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=46%  running=0", "attempts": 46}
-{"at": 1776883218, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=15%  running=0", "attempts": 43}
-{"at": 1776883548, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=17%  running=0", "attempts": 41}
-{"at": 1776883825, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 38}
-{"at": 1776884154, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 36}
-{"at": 1776884756, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=15%  running=0", "attempts": 31}
-{"at": 1776885032, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 28}
-{"at": 1776885634, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 23}
-{"at": 1776886248, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 18}
-{"at": 1776886514, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=17%  running=0", "attempts": 16}
-{"at": 1776886849, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 13}
-{"at": 1776887115, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=15%  running=0", "attempts": 11}
-{"at": 1776887454, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=17%  running=0", "attempts": 8}
-{"at": 1776888055, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=17%  running=0", "attempts": 4}
-{"at": 1776888081, "emoji": "\ud83e\uddea", "title": "Task 1.2 enriched 6 molecule pages", "body": "L0 Gemma generated draft pages for top-pChEMBL PHGDH molecules at wiki_drafts/molecules/. Next: user publish gate.", "attempts": 4}
-{"at": 1776888161, "emoji": "\ud83d\udea7", "title": "STALLED: Task 1.2/A", "body": "No executor registered. Write one at scripts/task_executors/ and add to registry.json.", "attempts": 3}
-{"at": 1776888358, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=17%  running=0", "attempts": 2}
+{"at": 1776882940, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=46%  running=0", "attempts": 49}
+{"at": 1776883218, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=15%  running=0", "attempts": 46}
+{"at": 1776883548, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=17%  running=0", "attempts": 44}
+{"at": 1776883825, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 41}
+{"at": 1776884154, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 39}
+{"at": 1776884756, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=15%  running=0", "attempts": 34}
+{"at": 1776885032, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 31}
+{"at": 1776885634, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 26}
+{"at": 1776886248, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 21}
+{"at": 1776886514, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=17%  running=0", "attempts": 19}
+{"at": 1776886849, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 16}
+{"at": 1776887115, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=15%  running=0", "attempts": 14}
+{"at": 1776887454, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=17%  running=0", "attempts": 11}
+{"at": 1776888055, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=17%  running=0", "attempts": 7}
+{"at": 1776888081, "emoji": "\ud83e\uddea", "title": "Task 1.2 enriched 6 molecule pages", "body": "L0 Gemma generated draft pages for top-pChEMBL PHGDH molecules at wiki_drafts/molecules/. Next: user publish gate.", "attempts": 7}
+{"at": 1776888161, "emoji": "\ud83d\udea7", "title": "STALLED: Task 1.2/A", "body": "No executor registered. Write one at scripts/task_executors/ and add to registry.json.", "attempts": 6}
+{"at": 1776888358, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=17%  running=0", "attempts": 5}
+{"at": 1776888664, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=37%  running=0", "attempts": 1}
