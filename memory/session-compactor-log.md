@@ -264,3 +264,22 @@
 - **custom**: 
 
 ---
+
+## Compacted 20260422-133501 — 08cec46e-6bca-41c5-a081-6e64d5269ea8.jsonl
+- lines: 100
+- bytes: 155514
+- archive: /Users/jakeclaw/.openclaw/agents/main/sessions/_archived_20260422-133501
+
+### Last 10 messages (trimmed)
+- **custom**: 
+- **message**: 
+- **message**: 
+- **custom**: 
+- **message**: 
+- **message**: 
+- **custom**: 
+- **message**: 
+- **message**: 
+- **custom**: 
+
+---
