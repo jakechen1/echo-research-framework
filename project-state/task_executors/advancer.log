@@ -4602,3 +4602,7 @@
 [2026-04-22T21:04:33+00:00] Task 1.2/A running: /Users/jakeclaw/workers/bin/task_Task_1_2_A.sh.pending
 [2026-04-22T21:04:33+00:00] Task 1.2/A rc=2  stdout_tail='task_Task_1_2_A: stub pending, implement me\n'  stderr_tail=''
 [2026-04-22T21:04:33+00:00] Task 1.2/A pending — stay in stage (will retry)
+[2026-04-22T21:06:46+00:00] Task 1.2/A cooldown (134s < 240s)
+[2026-04-22T21:09:01+00:00] Task 1.2/A running: /Users/jakeclaw/workers/bin/task_1_2_assess.sh
+[2026-04-22T21:09:01+00:00] Task 1.2/A rc=0  stdout_tail='Task 1.2 assessment written: 6 pages, 48 KB\n'  stderr_tail=''
+[2026-04-22T21:09:02+00:00] Task 1.2/A advanced to S

@@ -3,7 +3,10 @@
   "_policy": "Only list executors that EXIST on disk. If a file is missing, Planner drafts a .pending stub instead of a phantom registry entry.",
   "Task 1.2": {
     "E": "/Users/jakeclaw/workers/bin/task_1_2_hermes_loop.sh",
-    "A": "/Users/jakeclaw/workers/bin/task_Task_1_2_A.sh.pending"
+    "A": "/Users/jakeclaw/workers/bin/task_1_2_assess.sh",
+    "S": "/Users/jakeclaw/workers/bin/task_1_2_share.sh",
+    "X": "/Users/jakeclaw/workers/bin/task_1_2_expense.sh",
+    "R": "/Users/jakeclaw/workers/bin/task_1_2_resolve.sh"
   },
   "Task 2.4": {
     "E": "/Users/jakeclaw/workers/bin/task_2_4_scaffold.sh"

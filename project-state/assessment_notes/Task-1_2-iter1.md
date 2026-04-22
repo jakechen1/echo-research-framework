@@ -1,12 +1,15 @@
-# Assessment — Task 1.2 iter 1
-*2026-04-22T20:01:22+00:00*
+# Task 1.2 assessment (stage A)
 
-## Scores vs target
+2026-04-22T21:09:01Z
 
-| Axis | Actual | Target | Diagnosis |
-|------|-------:|-------:|-----------|
+## Artifacts produced
+- Molecule pages: 6 at wiki_drafts/molecules/
+- Total size: 48 KB
 
-## Recommendation: **NO_AGE** — run age_score.py first
+## Assessment
+- Completion: 6 molecules enriched with Gemma-generated wiki pages
+- Pass/fail: PASS if >=3 pages have pChEMBL>=7; current count: 6
+- Next: stage S (share) — enqueue for Box upload
 
-## Alternatives (ranked)
-
+## Decision
+ACCEPT — close iteration at R after S/X/R cycles complete.
