@@ -3551,3 +3551,8 @@
 [2026-04-22T00:58:33+00:00] Task 1.2/E rc=127  stdout_tail=''  stderr_tail='/bin/sh: /Users/jakeclaw/workers/bin/task_1_2_hermes_loop.sh: No such file or directory\n'
 [2026-04-22T00:58:33+00:00] Task 1.2/E FAILED rc=127 — will retry next tick
 [2026-04-22T01:00:44+00:00] Task 1.2/E cooldown (131s < 240s)
+[2026-04-22T01:02:54+00:00] Task 1.2/E running: /Users/jakeclaw/workers/bin/task_1_2_hermes_loop.sh
+[2026-04-22T01:02:54+00:00] Task 1.2/E rc=127  stdout_tail=''  stderr_tail='/bin/sh: /Users/jakeclaw/workers/bin/task_1_2_hermes_loop.sh: No such file or directory\n'
+[2026-04-22T01:02:54+00:00] Task 1.2/E FAILED rc=127 — will retry next tick
+[2026-04-22T01:05:05+00:00] Task 1.2/E cooldown (130s < 240s)
+[2026-04-22T01:06:10+00:00] Task 1.2/E cooldown (196s < 240s)
