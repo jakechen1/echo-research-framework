@@ -99,6 +99,11 @@ while :; do
   fi
 
 
+  # Every 3 min: refresh BOOT.md with latest Assessor snapshot (for Gemma context)
+  if (( now / 60 % 3 == 0 )); then
+    /Users/jakeclaw/workers/bin/refresh_boot_md.sh >> /Users/jakeclaw/Library/Logs/refresh_boot_md.log 2>&1
+  fi
+
   # Every 3 min: Assessor tick — consolidates all signals to assessor_log.jsonl
   if (( now / 60 % 3 == 0 )); then
     $PY $WS/skills/assessor/scripts/tick.py >> /Users/jakeclaw/Library/Logs/assessor_tick.log 2>&1
