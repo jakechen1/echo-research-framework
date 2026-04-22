@@ -1,9 +1,9 @@
 {
-  "task": "Task 1.2",
-  "legacy_id": "G-012",
+  "task": "Task 4.4",
+  "legacy_id": "G-018",
   "iteration": 1,
-  "stage": "E",
-  "started": "2026-04-20T22:25:31",
+  "stage": "A",
+  "started": "202to6-04-20T22:25:31",
   "history": [
     {
       "stage": "P",
@@ -22,7 +22,7 @@
     },
     {
       "stage": "A",
-      "at": "2026-04-18T12:01:19",
+      "at": "rag_not_specified",
       "note": "figure=53KB n=1011; mean=5.995 median=5.840; AGE A=7 G=6 E=8"
     },
     {
@@ -31,194 +31,19 @@
       "note": "L3 report + figure in repo; wiki draft pending publish"
     },
     {
-      "stage": "X",
-      "at": "2026-04-18T12:47:13",
-      "note": "wall time <30s, parallel with Aims 3/4/5 prep \u2014 E=5"
-    },
-    {
       "stage": "R",
       "at": "2026-04-18T12:47:18",
-      "note": "AGE computed A=4 G=7 E=5; liveness all green; no open issues"
-    },
-    {
-      "stage": "P",
-      "at": "2026-04-18T12:47:19",
-      "note": "Promoted after Task 2.1 closed (AGE A=4 G=7 E=5)"
-    },
-    {
-      "stage": "L",
-      "at": "2026-04-18T12:48:27",
-      "note": "SMILES dataset from Task 2.1 output reused"
-    },
-    {
-      "stage": "E",
-      "at": "2026-04-18T12:48:28",
-      "note": "top-20 CSV + barchart PNG + wiki draft generated"
-    },
-    {
-      "stage": "A",
-      "at": "2026-04-18T12:48:33",
-      "note": "rank1=CHEMBL4541133 pv=9.52, 20 unique molecules, 3 artifacts"
-    },
-    {
-      "stage": "S",
-      "at": "2026-04-18T12:48:33",
-      "note": "wiki_drafts/top20-phgdh-inhibitors.md ready for user publish"
-    },
-    {
-      "stage": "X",
-      "at": "2026-04-18T12:48:38",
-      "note": "<10s wall time, parallel with 2.3 + 3.1 \u2014 E likely 6+"
-    },
-    {
-      "stage": "R",
-      "at": "2026-04-18T12:48:39",
-      "note": "no issues, all deliverables green"
-    },
-    {
-      "stage": "P",
-      "at": "2026-04-18T12:48:45",
-      "note": "Promoted after Tasks 2.2/2.3/3.1 cleared in parallel. Cheaha workspace + seed SMILES rsync."
-    },
-    {
-      "stage": "L",
-      "at": "2026-04-18T12:59:37",
-      "note": "Cheaha reachable via SSH config alias 'cheaha' (user=jakechen, id_ed25519). Modules: AutoDock_Vina 1.1.2, Miniforge3, conda env phgdh-sbdd with rdkit 2025.09.5 + obabel"
-    },
-    {
-      "stage": "E",
-      "at": "2026-04-18T12:59:38",
-      "note": "Seed SMILES + PDBs rsynced; smoke-test sbatch 38256088 queued on express partition (receptor 7S3R, 3 top ligands)"
-    },
-    {
-      "stage": "A",
-      "at": "2026-04-18T13:06:06",
-      "note": "Vina smoke dock OK: CHEMBL4541133 (pv 9.52) \u2192 6RIH K4T pocket = -6.2 kcal/mol best. 4 workers, <6min wall. Ready to scale to Task 4.2 (100-ligand screen)"
-    },
-    {
-      "stage": "S",
-      "at": "2026-04-18T13:06:07",
-      "note": "results + logs synced to W0 data/aim4_docking_{results,logs}/"
-    },
-    {
-      "stage": "X",
-      "at": "2026-04-18T13:06:12",
-      "note": "Cheaha CPU credits used: ~2 min x 2 cores = negligible. Express partition fine for smoke."
-    },
-    {
-      "stage": "R",
-      "at": "2026-04-18T13:06:13",
-      "note": "no issues; first Cheaha dock landed. 4.2 (100-lig screen) ready to promote"
-    },
-    {
-      "stage": "P",
-      "at": "2026-04-18T22:32:04",
-      "note": "Auto-promoted by post-R watchdog (Task 4.1 R stalled 6h+). Target: scale Vina to 100-ligand screen."
-    },
-    {
-      "stage": "L",
-      "at": "2026-04-18T23:33:21",
-      "note": "auto-advance (no executor for Task 4.2/P)"
-    },
-    {
-      "stage": "E",
-      "at": "2026-04-18T23:34:25",
-      "note": "executor L succeeded"
-    },
-    {
-      "stage": "A",
-      "at": "2026-04-18T23:41:10",
-      "note": "executor E succeeded"
-    },
-    {
-      "stage": "A",
-      "at": "2026-04-19T21:37:06",
-      "note": "20/20 docks done; ranked CSV + scatter; best -6.6 kcal/mol"
-    },
-    {
-      "stage": "S",
-      "at": "2026-04-19T21:37:11",
-      "note": "wiki draft + box enqueue via task_4_2_share.sh"
-    },
-    {
-      "stage": "X",
-      "at": "2026-04-19T21:37:12",
-      "note": "Cheaha: 20 array tasks \u00d7 ~75s = 25 CPU-min; L0 idle during; E low but A high"
-    },
-    {
-      "stage": "R",
-      "at": "2026-04-19T21:37:13",
       "note": "Task 4.2 done; promote next"
     },
     {
       "stage": "P",
-      "at": "2026-04-19T21:50:22",
-      "note": "Auto-promoted by post_r_watchdog (prev Task 4.2 R stalled 13 min)"
-    },
-    {
-      "stage": "L",
-      "at": "2026-04-19T21:50:29",
-      "note": "auto-advance (no executor for Task 1.2/P)"
-    },
-    {
-      "stage": "E",
-      "at": "2026-04-19T21:52:40",
-      "note": "auto-advance (no executor for Task 1.2/L)"
-    },
-    {
-      "stage": "R",
-      "at": "2026-04-20T22:01:08",
-      "note": "Task 4.2 closed: 20/20 docks, best -6.6 kcal/mol CHEMBL4483483"
-    },
-    {
-      "stage": "P",
-      "at": "2026-04-20T22:01:08",
-      "note": "Promoted to Task 4.4 (CLM pretrain per Fan Li 2026)"
-    },
-    {
-      "stage": "L",
-      "at": "2026-04-20T22:02:08",
-      "note": "auto-advance (no executor for Task 4.4/P)"
-    },
-    {
-      "stage": "E",
-      "at": "2026-04-20T22:04:14",
-      "note": "auto-advance (no executor for Task 4.4/L)"
+      "at": "2026-04-18T12:48:45",
+      "note": "Promoted to Task 4.4 (G-018)"
     },
     {
       "stage": "A",
-      "at": "2026-04-20T22:06:20",
+      "at": "2026-04-22T13:22:18",
       "note": "auto-advance (no executor for Task 4.4/E)"
-    },
-    {
-      "stage": "S",
-      "at": "2026-04-20T22:08:27",
-      "note": "auto-advance (no executor for Task 4.4/A)"
-    },
-    {
-      "stage": "X",
-      "at": "2026-04-20T22:10:38",
-      "note": "auto-advance (no executor for Task 4.4/S)"
-    },
-    {
-      "stage": "R",
-      "at": "2026-04-20T22:12:47",
-      "note": "auto-advance (no executor for Task 4.4/X)"
-    },
-    {
-      "stage": "P",
-      "at": "2026-04-20T22:25:31",
-      "note": "Auto-promoted by post_r_watchdog (prev Task 4.4 R stalled 13 min)"
-    },
-    {
-      "stage": "L",
-      "at": "2026-04-20T22:26:40",
-      "note": "auto-advance (no executor for Task 1.2/P)"
-    },
-    {
-      "stage": "E",
-      "at": "2026-04-20T22:28:48",
-      "note": "auto-advance (no executor for Task 1.2/L)"
     }
   ]
 }
