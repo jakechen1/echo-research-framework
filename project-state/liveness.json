@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T17:40:49+00:00",
+  "generated_at": "2026-04-22T17:45:17+00:00",
   "overall": "red",
   "red_channels": [
     "figures",
@@ -17,16 +17,15 @@
     },
     "w0_cpu": {
       "status": "green",
-      "load_1m": 1.86,
+      "load_1m": 1.38,
       "hot_procs": [
-        "94.2 /Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorAdload",
-        "35.5 /opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python"
+        "34.0 /opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python"
       ]
     },
     "scavenger": {
       "status": "green",
       "newest": "/Users/jakeclaw/workers/data/phgdh/2026-04-22.jsonl",
-      "age_h": 10.7,
+      "age_h": 10.8,
       "file_count": 5
     },
     "figures": {
@@ -47,11 +46,11 @@
       "status": "red",
       "task": "Task 1.2",
       "stage": "E",
-      "stage_age_h": 38.2
+      "stage_age_h": 38.27
     },
     "git_push": {
       "status": "green",
-      "age_h": 0.2
+      "age_h": 0.0
     },
     "dashboard_api": {
       "code": null,
@@ -62,7 +61,7 @@
     "wiki_interlink": {
       "status": "red",
       "count": 20,
-      "age_h": 96.6,
+      "age_h": 96.7,
       "audit_age_h": 96.7
     },
     "cheaha_queue": {
@@ -74,7 +73,7 @@
     },
     "box_sync": {
       "status": "red",
-      "age_h": 84.2
+      "age_h": 84.3
     }
   }
 }
