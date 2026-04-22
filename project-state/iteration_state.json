@@ -1,9 +1,9 @@
 {
-  "task": "Task 1.2",
-  "legacy_id": "G-012",
+  "task": "Task 1.3",
+  "legacy_id": "G-013",
   "iteration": 1,
-  "stage": "R",
-  "started": "2026-04-22T13:40:12",
+  "stage": "P",
+  "started": "2026-04-22T16:25:57",
   "history": [
     {
       "stage": "P",
@@ -94,6 +94,11 @@
       "stage": "R",
       "at": "2026-04-22T16:12:27",
       "note": "executor X succeeded"
+    },
+    {
+      "stage": "P",
+      "at": "2026-04-22T16:25:57",
+      "note": "Auto-promoted by post_r_watchdog (prev Task 1.2 R stalled 14 min)"
     }
   ]
 }

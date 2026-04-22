@@ -1,6 +1,6 @@
-# Plan Status — auto-generated 2026-04-22T21:01:03+00:00
+# Plan Status — auto-generated 2026-04-22T21:25:57+00:00
 
-Current task: **Task 1.2**  stage: **A**  iter: 1
+Current task: **Task 1.3**  stage: **P**  iter: 1
 
 ## Aim rollup
 
@@ -19,10 +19,10 @@ Current task: **Task 1.2**  stage: **A**  iter: 1
 | Task | Title | Status | Evidence |
 |------|-------|--------|----------|
 | Task 1.1 | Daily ChEMBL scavenge + delta reporting | ✅ DONE | via COMPLETED.md |
-| Task 1.2 | Scaveng→Hermes enrichment loop (rank new molecules, seed wiki pages) | 🟡 ACTIVE | current iteration |
+| Task 1.2 | Scaveng→Hermes enrichment loop (rank new molecules, seed wiki pages) | ⚪ pending |  |
 | Task 1.2.a | Implement ranker script for ChEMBL delta parsing | ⚪ pending |  |
 | Task 1.2.b | Automated wiki stub creation for top hits | ⚪ pending |  |
-| Task 1.3 | Entity-page templates (molecule / target / pathway / gene-set) | ⚪ pending |  |
+| Task 1.3 | Entity-page templates (molecule / target / pathway / gene-set) | 🟡 ACTIVE | current iteration |
 | Task 1.3.a | Molecule template design (SMILES, properties) | ⚪ pending |  |
 | Task 1.3.b | Target/Pathway template design (UniProt, KEGG) | ⚪ pending |  |
 
@@ -74,3 +74,6 @@ Current task: **Task 1.2**  stage: **A**  iter: 1
 | Task 5.2 | Repo README + pipeline diagram | ⚪ pending |  |
 | Task 5.3 | Poster (L4 deliverable) | ⚪ pending |  |
 
+## Flips this sync
+- **Task 1.2**: ACTIVE → pending
+- **Task 1.3**: pending → ACTIVE
