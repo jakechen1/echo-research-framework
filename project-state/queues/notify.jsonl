@@ -1,14 +1,14 @@
-{"at": 1776897015, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=19%  running=0", "attempts": 48}
-{"at": 1776897344, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 46}
-{"at": 1776897612, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=15%  running=0", "attempts": 43}
-{"at": 1776898526, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=38%  running=0", "attempts": 37}
-{"at": 1776898601, "emoji": "\ud83d\udea7", "title": "STALLED: Task 1.3/L", "body": "No executor registered. Write one at scripts/task_executors/ and add to registry.json.", "attempts": 36}
-{"at": 1776898866, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 34}
-{"at": 1776899137, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 32}
-{"at": 1776899411, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 29}
-{"at": 1776899739, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=17%  running=0", "attempts": 27}
-{"at": 1776900351, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 22}
-{"at": 1776900956, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=15%  running=0", "attempts": 17}
-{"at": 1776901234, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=14%  running=0", "attempts": 14}
-{"at": 1776901833, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=14%  running=0", "attempts": 9}
-{"at": 1776902436, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=15%  running=0", "attempts": 4}
+{"at": 1776897344, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 48}
+{"at": 1776897612, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=15%  running=0", "attempts": 45}
+{"at": 1776898526, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=38%  running=0", "attempts": 39}
+{"at": 1776898601, "emoji": "\ud83d\udea7", "title": "STALLED: Task 1.3/L", "body": "No executor registered. Write one at scripts/task_executors/ and add to registry.json.", "attempts": 38}
+{"at": 1776898866, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 36}
+{"at": 1776899137, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 34}
+{"at": 1776899411, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 31}
+{"at": 1776899739, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=17%  running=0", "attempts": 29}
+{"at": 1776900351, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 24}
+{"at": 1776900956, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: L0_wiki_interlink_batch", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=15%  running=0", "attempts": 19}
+{"at": 1776901234, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_scaffold_cluster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=14%  running=0", "attempts": 16}
+{"at": 1776901833, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_qed_lipinski_filter", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=14%  running=0", "attempts": 11}
+{"at": 1776902436, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_utilization_booster", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=15%  running=0", "attempts": 6}
+{"at": 1776903043, "emoji": "\u2699\ufe0f", "title": "Auto-dispatch: W0_tanimoto_matrix", "body": "decision=LOCAL_EXPAND  A=1 E=2  util=16%  running=0", "attempts": 1}
