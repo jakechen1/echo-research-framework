@@ -496,3 +496,150 @@ If I were operating tomorrow morning:
 This concrete first-step is essentially Task 4.5 in the harness — the same
 state-machine pattern as Task 4.4 iter 2, but now scoring instead of just
 generating.
+
+
+---
+
+## 15. Tool selection appendix
+
+Locked-in tooling for the closed-loop pipeline, based on April 2026
+benchmark research. Where two tools serve the same role, the **primary**
+is what fires in the production pipeline; the **fallback** is what we
+mirror locally for reproducibility / no-internet operation / uncertainty
+quantification via ensemble disagreement.
+
+### 15.1 Tool selection by role
+
+| Role | Primary | Fallback (open-source local) | Rationale |
+|---|---|---|---|
+| **Generative — pretrain** | iter 4: SELFIES + transformer (~20 M params), trained on ChEMBL ∪ PubChem-BioAssay | iter 2/3: char-LSTM (current `best.pt`) | SELFIES gives 100% valid samples; transformer transfers better |
+| **Affinity scorer (cheap)** | DrugCLIP (Gao 2024) | TransformerCPI 2.0 / PLAPT | ~10 ms/molecule; trained on BindingDB+ChEMBL+PDBbind |
+| **Docking** | AutoDock Vina (5-pose consensus) | smina | Standard; CPU-bound; parallelize on Cheaha express |
+| **Affinity refinement** | smina + MM-GBSA (top 100) | OpenMM-based MM-GBSA | Refines docking score with implicit-solvent ΔG |
+| **Affinity gold standard** | OpenFE (open-source) or Schrödinger FEP+ (if licensed) | ABFE absolute binding | Top 25 only; physics-based ΔG |
+| **Comprehensive ADMET** | **ADMETlab 3.0** (API, free) | ChemProp + TDC ADMET benchmark (local) | 119 endpoints, multi-task D-MPNN, uncertainty estimates |
+| **BBB permeability** (AD-critical) | **ADMETlab 3.0 BBB** (acc 0.90) + B3DB-trained ChemProp ensemble | DeePred-BBB | Ensemble of two predictors; treat disagreement as uncertainty flag |
+| **Off-target prediction** | **SwissTargetPrediction** (web/API) | DeepPurpose multi-task DTI | Top-50 predicted targets per candidate |
+| **Toxicity (organ + endpoint)** | **ProTox 3.0** (61 endpoints, free, no login) | DeepTox (Tox21 winners) | Hepatotox, cardiotox, neurotox, nephrotox + clinical/immune |
+| **Cardiac (hERG)** | ADMETlab 3.0 hERG + ProTox 3.0 + CardPred | hERG-Att | Ensemble; hard gate at iter 5 |
+| **Mutagenicity (AMES)** | ADMETlab 3.0 AMES + DeepAMES | — | Hard gate at iter 5 |
+| **Hepatotoxicity (DILI)** | ADMETlab 3.0 DILI + ProTox 3.0 hepatotox | DILIPredictor | Soft gate at iter 5; hard at iter 6 |
+| **Drug-likeness (QED, Lipinski, Veber)** | RDKit (`rdkit.Chem.QED`, descriptors) | — | Local, fast, deterministic |
+| **Synthetic accessibility (cheap)** | RDKit SAscore (Ertl) | — | Local; ~1 ms/molecule |
+| **Synthetic accessibility (refined)** | RAscore (Thakkar) | AiZynthFinder retrosynthesis tree | RAscore for top 100; AiZynthFinder for top 50 with retrosynth confidence |
+| **Off-target panel structural docking** | smina counter-Vina vs PSAT1 (3E77), PSPH (1L7M), hERG homology | — | iter 4+ only |
+| **Patent / IP** | SureChEMBL substructure search (web) | Markush analyzer (commercial; skip if no license) | iter 5+ |
+| **Pose / pocket viz** | PyMOL + RDKit + Plip (interaction profiles) | — | for human review of top 25 |
+
+### 15.2 API endpoints, rate limits, and access
+
+| Tool | Endpoint | Rate limit | License | Cost |
+|---|---|---|---|---|
+| ADMETlab 3.0 | `https://admetlab3.scbdd.com/server/api/predict` | request key from authors; reasonable batching expected | free for academic | $0 |
+| SwissTargetPrediction | `http://www.swisstargetprediction.ch/predict.php` | per-IP, polite use; ~1 req/s | free | $0 |
+| ProTox 3.0 | `https://tox.charite.de/protox3/api/` | per-IP; batchable | free, no login | $0 |
+| DrugCLIP | local install (clone reference impl) | none (self-hosted on Cheaha) | open-source | one-time training compute |
+| ChemProp / D-MPNN | local install (`pip install chemprop`) | none | open-source MIT | one-time training compute |
+| AiZynthFinder | local install (`pip install aizynthfinder`) | none | open-source | local CPU/GPU |
+| OpenFE | local install (`conda install -c conda-forge openfe`) | none | open-source | high local GPU |
+
+For all rate-limited services, cache responses keyed on canonical SMILES
+(`rdkit.Chem.MolToSmiles(mol, canonical=True)`) → cache hit avoids repeat
+calls when iter N+1 reuses molecules from iter N.
+
+### 15.3 Per-round tool firing
+
+| Round | Tools that run on every candidate | Tools that run on top-N only |
+|---|---|---|
+| **3** | RDKit (QED/Lipinski/Veber/SAscore) · DrugCLIP (PHGDH only) · PAINS/BMS filter · Vina | ADMETlab 3.0 (top 1K); SwissTargetPrediction (top 200) |
+| **4** | RDKit · DrugCLIP-PHGDH · DrugCLIP cross-target (PSAT1, PSPH) · PAINS/BMS · Vina · counter-Vina | ADMETlab 3.0 full panel (top 5K); ProTox 3.0 (top 1K); smina+5-pose consensus (top 300) |
+| **5** | DrugCLIP-PHGDH (re-trained with R3+R4 labels) · counter-DrugCLIP | MM-GBSA (top 100); RAscore (top 100); AiZynthFinder (top 50 by RAscore); active-learning batch of 50 to MM-GBSA on uncertain |
+| **6** | full ADMETlab 3.0 + ProTox 3.0 + SwissTargetPrediction | OpenFE/FEP+ (top 25); counter-FEP PSAT1/PSPH (top 20); AiZynthFinder full retrosynth (top 25); SureChEMBL substructure (top 25) |
+| **7** | RDKit prep + commercial-source check | wet-lab assays (top 5–15) |
+
+### 15.4 Hard-gate adjustments for AD context
+
+The Box `phgdh-research/` contents (e.g., "phgdh-and-amyloid-beta-interactions.md",
+"targeting-phgdh-for-alzheimers-disease-drug-discovery-strategies.md") indicate
+this project's PHGDH context is **Alzheimer's disease**, not cancer. CNS targets
+require BBB crossing. Promote BBB to a hard gate:
+
+```
+HARD GATE (added for AD context):
+  ✓ ADMETlab 3.0 BBB probability ≥ 0.7
+  ✓ B3DB-trained ChemProp BBB probability ≥ 0.6
+  ✓ ensemble disagreement ≤ 0.3 (uncertainty flag)
+  ✓ predicted CNS MPO score ≥ 4 (composite of MW, logP, HBD, TPSA, pKa)
+  ✓ no known P-gp efflux liability (admetlab P-gp-substrate ≤ 0.5)
+```
+
+Adds to round-6 hard-gate list in §5. Should not be silent — log every BBB
+verdict with both scores so the gate review can see ensemble agreement.
+
+### 15.5 Cross-reactivity gate refinement
+
+Refine the §2.2 cross-reactivity stack with the SwissTargetPrediction +
+ProTox 3.0 chain:
+
+```
+candidate SMILES
+    │
+    ├─► SwissTargetPrediction → top-50 predicted off-targets, with binding probability
+    │       │
+    │       └─► HARD FAIL if any "core liability" target appears at p > 0.5:
+    │             - hERG (cardiotoxicity proxy)
+    │             - CYP3A4 / CYP2D6 (drug-drug interactions)
+    │             - any kinase in top 10
+    │             - any GPCR in top 10 (especially α1A, α2, M1-M5, 5-HT2B)
+    │
+    ├─► ProTox 3.0 → 61-endpoint organ-level toxicity vector
+    │       │
+    │       └─► HARD FAIL if active prediction (confidence > 0.7) for:
+    │             - hepatotoxicity, cardiotoxicity, neurotoxicity, nephrotoxicity
+    │             - mutagenicity, carcinogenicity
+    │             - immunotoxicity (especially for CNS drugs)
+    │
+    ├─► ADMETlab 3.0 → second-opinion on hERG, AMES, DILI specifically
+    │       │
+    │       └─► HARD FAIL if:
+    │             - hERG IC50 predicted < 10 µM
+    │             - AMES predicted positive
+    │             - DILI risk = "high"
+    │
+    └─► counter-Vina (iter 4+): smina against PSAT1 (3E77), PSPH (1L7M), hERG homology
+            │
+            └─► HARD FAIL if PSAT1 or PSPH ΔG within 2 kcal/mol of PHGDH ΔG
+                (= < 30× selectivity at the docking level)
+```
+
+Triple-source agreement (SwissTargetPrediction + ProTox + ADMETlab + counter-Vina)
+makes false-positive promiscuity calls unlikely. False *negatives* are still
+possible — wet-lab assay (round 7) is the final arbiter.
+
+### 15.6 Implementation notes for the harness
+
+- **Caching**: `~/workers/state/admet_cache.sqlite`, keyed on canonical SMILES.
+  All API calls go through `~/workers/bin/admet_score.py` which checks cache
+  first, falls back to API, writes back. This makes iter N+1 fast.
+- **Batching**: ADMETlab 3.0 takes batched POSTs (up to ~100 SMILES). Use
+  `~/workers/bin/admet_batch.py` to chunk + parallelize.
+- **Failure modes**: any API timeout or 5xx → flag as "unknown" not "pass";
+  rate-limit-exceeded → exponential back-off; persistent failure → fallback
+  to ChemProp local model and emit a yellow flag.
+- **Reproducibility**: every iteration's tool versions + their git SHAs (where
+  open-source) recorded in `iter-N-tools.json` alongside the candidate list.
+
+### 15.7 Open-source-vs-service tradeoff
+
+Two of the primaries are free-but-not-open-source web services (ADMETlab 3.0,
+SwissTargetPrediction, ProTox 3.0). Tradeoffs:
+
+- **Pro service**: best benchmarks, no local training required, free.
+- **Con service**: rate limits; web outage = pipeline outage; no audit trail
+  on the underlying model; service can change behavior between iterations.
+
+**Mitigation**: every primary that's a service has a fallback (ChemProp on TDC,
+DeepPurpose, B3DB-ChemProp, DeepTox) we run *in parallel* on the top 100 each
+round. Disagreement between primary and fallback ≥ 0.3 = uncertainty flag,
+candidate forwarded to next-tier oracle (MM-GBSA / FEP) for resolution. This
+gives us best-of-both: service-grade scoring + open-source verification.
