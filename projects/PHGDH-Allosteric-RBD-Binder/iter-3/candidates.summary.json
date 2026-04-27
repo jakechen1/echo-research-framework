@@ -1,0 +1,12 @@
+{
+  "total_sampled": 9999,
+  "valid": 8008,
+  "invalid": 702,
+  "unique_canonical": 8008,
+  "valid_rate": 0.9194029850745212,
+  "kept_top_k": 1000,
+  "ppl_top1": 1.0662401020942514,
+  "ppl_top10_mean": 1.0761777182032652,
+  "qed_top10_mean": 0.48983086451046687,
+  "novelty_top10_mean": 0.012903225806451613
+}

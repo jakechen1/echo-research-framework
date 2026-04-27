@@ -1,0 +1,17 @@
+{
+  "pretrain": "/local/jakechen/38299884/best.pt",
+  "vocab": "/local/jakechen/38299884/vocab.json",
+  "buckets": "/local/jakechen/38299884/bucket_pv5.smi,/local/jakechen/38299884/bucket_pv6.smi,/local/jakechen/38299884/bucket_pv7.smi,/local/jakechen/38299884/bucket_pv8.smi,/local/jakechen/38299884/bucket_pv9.smi",
+  "out": "/data/user/jakechen/aim4_clm/runs/round3_38299884",
+  "epochs_per_stage": 8,
+  "batch": 64,
+  "max_len": 110,
+  "hidden": 512,
+  "embed": 128,
+  "layers": 3,
+  "dropout": 0.2,
+  "lr": 0.0001,
+  "weight_decay": 1e-05,
+  "seed": 42,
+  "vocab_size": 45
+}
