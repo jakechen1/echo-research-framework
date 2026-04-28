@@ -1,0 +1,32 @@
+[
+  {
+    "stage": "bucket_pv5",
+    "n_smiles": 762,
+    "dropped_oov": 0,
+    "checkpoint": "/data/user/jakechen/aim4_clm/runs/round3_38299884/ft_bucket_pv5.pt"
+  },
+  {
+    "stage": "bucket_pv6",
+    "n_smiles": 463,
+    "dropped_oov": 0,
+    "checkpoint": "/data/user/jakechen/aim4_clm/runs/round3_38299884/ft_bucket_pv6.pt"
+  },
+  {
+    "stage": "bucket_pv7",
+    "n_smiles": 220,
+    "dropped_oov": 0,
+    "checkpoint": "/data/user/jakechen/aim4_clm/runs/round3_38299884/ft_bucket_pv7.pt"
+  },
+  {
+    "stage": "bucket_pv8",
+    "n_smiles": 82,
+    "dropped_oov": 0,
+    "checkpoint": "/data/user/jakechen/aim4_clm/runs/round3_38299884/ft_bucket_pv8.pt"
+  },
+  {
+    "stage": "bucket_pv9",
+    "n_smiles": 2,
+    "dropped_oov": 0,
+    "checkpoint": "/data/user/jakechen/aim4_clm/runs/round3_38299884/ft_bucket_pv9.pt"
+  }
+]

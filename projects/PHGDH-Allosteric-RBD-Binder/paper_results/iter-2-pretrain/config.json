@@ -1,0 +1,19 @@
+{
+  "data": "/local/jakechen/38298494/bioactives.smi",
+  "out": "/data/user/jakechen/aim4_clm/runs/38298494",
+  "epochs": 30,
+  "batch": 256,
+  "max_len": 110,
+  "hidden": 512,
+  "embed": 128,
+  "layers": 3,
+  "dropout": 0.2,
+  "lr": 0.001,
+  "weight_decay": 1e-05,
+  "val_frac": 0.05,
+  "limit": 0,
+  "seed": 42,
+  "workers": 4,
+  "resume": false,
+  "vocab_size": 45
+}

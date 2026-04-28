@@ -1,0 +1,1 @@
+iter 2 best.pt is at /data/user/jakechen/aim4_clm/runs/38298494/best.pt (66 MB; not copied)

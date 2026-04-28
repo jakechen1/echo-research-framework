@@ -1,0 +1,19 @@
+{
+  "name": "psph",
+  "pdb_id": "1L7M",
+  "receptor_pdb": "1l7m_chainA_protein.pdb",
+  "receptor_pdbqt": "1l7m_chainA_protein.pdbqt",
+  "pocket_center": [
+    55.22300000000001,
+    21.67753125,
+    7.449125
+  ],
+  "pocket_box_size": [
+    27.349000000000004,
+    29.429000000000002,
+    26.599
+  ],
+  "pocket_source": "HET ligand centroid",
+  "exhaustiveness": 8,
+  "n_poses": 5
+}

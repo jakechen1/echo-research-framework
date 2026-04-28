@@ -1,0 +1,19 @@
+{
+  "name": "psat1",
+  "pdb_id": "3E77",
+  "receptor_pdb": "3e77_chainA_protein.pdb",
+  "receptor_pdbqt": "3e77_chainA_protein.pdbqt",
+  "pocket_center": [
+    67.82485714285714,
+    -52.36590476190476,
+    38.61780952380952
+  ],
+  "pocket_box_size": [
+    20.0,
+    22.520000000000003,
+    33.787
+  ],
+  "pocket_source": "HET ligand centroid",
+  "exhaustiveness": 8,
+  "n_poses": 5
+}

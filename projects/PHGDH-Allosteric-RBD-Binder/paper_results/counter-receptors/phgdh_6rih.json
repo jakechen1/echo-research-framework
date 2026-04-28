@@ -1,0 +1,17 @@
+{
+  "receptor_pdb": "6rih_chainA_protein.pdb",
+  "k4t_reference_pdb": "6rih_K4T.pdb",
+  "pocket_center": [
+    13.599555555555556,
+    -11.837777777777779,
+    73.28233333333334
+  ],
+  "pocket_box_size": [
+    20.0,
+    20.0,
+    20.0
+  ],
+  "exhaustiveness": 8,
+  "n_poses": 5,
+  "vina_version": "1.2.x (python lib)"
+}
