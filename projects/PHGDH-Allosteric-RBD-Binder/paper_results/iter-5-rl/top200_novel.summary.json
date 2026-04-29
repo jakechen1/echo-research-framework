@@ -1,0 +1,12 @@
+{
+  "n_survivors_after_novelty_gate": 621,
+  "n_top200_novel": 200,
+  "best_vina": -9.28,
+  "median_vina": -7.5085,
+  "worst_vina": -6.141,
+  "best_novelty": 0.9125,
+  "median_novelty": 0.8144714407502132,
+  "worst_novelty": 0.6849315068493151,
+  "best_qed": 0.9447594983618065,
+  "median_qed": 0.815964693740409
+}

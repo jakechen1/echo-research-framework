@@ -1,0 +1,29 @@
+{
+  "n_candidates": 2000,
+  "n_docked": 969,
+  "n_pains_flagged": 30,
+  "n_survivors_after_gates": 621,
+  "n_pareto_front": 19,
+  "top_k_returned": 200,
+  "best_vina": -9.28,
+  "median_vina": -7.4830000000000005,
+  "best_qed": 0.9447594983618065,
+  "best_novelty": 0.9125,
+  "rejection_reasons": {
+    "vina_too_weak": 325,
+    "lipinski_violation": 0,
+    "pains": 23,
+    "missing_score": 0
+  },
+  "weights": {
+    "affinity": 2.0,
+    "qed": 1.0,
+    "novelty": 1.0,
+    "druglike": 0.5
+  },
+  "gates": {
+    "vina_gate": -6.0,
+    "lipinski_gate": 1,
+    "pains_clean": true
+  }
+}
