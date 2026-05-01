@@ -7,8 +7,8 @@ category: methods
 author: jakeclaw
 tags: [methods, fep, openfe, septop, openmm, nagl]
 
-> **Canonical:** [](https://github.com/jakechen1/phgdh-scavenger/blob/main/methods/MD-Simulation-Setup.md)  
-> This wiki copy is mirrored for cross-project visibility from the dashboard. Edits should land in  first.
+> **Canonical:** [phgdh-scavenger/methods/MD-Simulation-Setup.md](https://github.com/jakechen1/phgdh-scavenger/blob/main/methods/MD-Simulation-Setup.md)
+> This wiki copy is mirrored for cross-project visibility from the dashboard. Edits should land in `phgdh-scavenger` first.
 
 ---
 
